@@ -1,0 +1,43 @@
+# This workflow will check formatting with Black, install Python dependencies,
+# and run tests with pytest
+on:
+  pull_request:
+    path:
+      - 'data/openstudio_standards_data'
+jobs:
+  black-formatting-check:
+    name: Black formatting check
+    runs-on: 'ubuntu-latest'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+        # This will halt the action if formatting fails
+         # Note: This will also fail if there are syntax errors
+      - uses: psf/black@stable
+        with:
+            version: "22.12.0"
+  run-unit-tests:
+    name: Run unit tests
+    runs-on: 'ubuntu-latest'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pipenv'
+      - name: Install pipenv
+        run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
+        working-directory: 'data/openstudio_standards_data'
+      - name: Install dpendencies
+        run: pipenv install --dev
+        working-directory: 'data/openstudio_standards_data'
+      - name: Run pytests
+        # This will halt the action if any of the tests fail
+        run: pipenv run pytest -v
+        working-directory: 'data/openstudio_standards_data'
