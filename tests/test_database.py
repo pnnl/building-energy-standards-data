@@ -149,27 +149,27 @@ def test_create_export_database():
     conn_json = create_db(db_name=db_name, from_type="json")
 
     # Export both DB to JSON files
-    if not os.path.isdir("./test/database_files_from_json"):
-        os.mkdir("./test/database_files_from_json")
-    if not os.path.isdir("./test/database_files_from_csv"):
-        os.mkdir("./test/database_files_from_csv")
+    if not os.path.isdir("./tests/database_files_from_json"):
+        os.mkdir("./tests/database_files_from_json")
+    if not os.path.isdir("./tests/database_files_from_csv"):
+        os.mkdir("./tests/database_files_from_csv")
     export_openstudio_standards_database_to_json(
-        conn_json, save_dir="./test/database_files_from_json/"
+        conn_json, save_dir="./tests/database_files_from_json/"
     )
     export_openstudio_standards_database_to_json(
-        conn_csv, save_dir="./test/database_files_from_csv/"
+        conn_csv, save_dir="./tests/database_files_from_csv/"
     )
     conn.close()
 
     # Compare original JSON files with the ones generated from both DB
     # There should be no difference between the JSON files originating
     # from a DB generated from JSON or CSV files
-    filenames = glob.glob("./test/database_files_from_json/*.json")
+    filenames = glob.glob("./tests/database_files_from_json/*.json")
     filenames = [os.path.basename(f) for f in filenames]
     for f in filenames:
-        with open(f"./test/database_files_from_json/{f}") as f_from_json:
+        with open(f"./tests/database_files_from_json/{f}") as f_from_json:
             fc_from_json = f_from_json.readlines()
-        with open(f"./test/database_files_from_csv/{f}") as f_from_csv:
+        with open(f"./tests/database_files_from_csv/{f}") as f_from_csv:
             fc_from_csv = f_from_csv.readlines()
         with open(f"./original_database_files/{f}") as f_org:
             fc_org = f_org.readlines()
