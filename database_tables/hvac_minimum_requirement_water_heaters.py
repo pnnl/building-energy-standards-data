@@ -20,6 +20,7 @@ energy_factor_volume_derate: NUMERIC
 standby_loss_base: NUMERIC
 standby_loss_capacity_allowance: NUMERIC
 standby_loss_volume_allowance: NUMERIC
+standby_loss_square_root_volume_allowance: NUMERIC
 hourly_loss_base: NUMERIC
 hourly_loss_volume_allowance: NUMERIC
 thermal_efficiency: NUMERIC
@@ -51,6 +52,7 @@ energy_factor_volume_derate NUMERIC,
 standby_loss_base NUMERIC,
 standby_loss_capacity_allowance NUMERIC,
 standby_loss_volume_allowance NUMERIC,
+standby_loss_square_root_volume_allowance NUMERIC,
 hourly_loss_base NUMERIC,
 hourly_loss_volume_allowance NUMERIC,
 thermal_efficiency NUMERIC,
@@ -81,6 +83,7 @@ energy_factor_volume_derate,
 standby_loss_base,
 standby_loss_capacity_allowance,
 standby_loss_volume_allowance,
+standby_loss_square_root_volume_allowance,
 hourly_loss_base,
 hourly_loss_volume_allowance,
 thermal_efficiency,
@@ -91,7 +94,7 @@ cop,
 r_value,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -107,14 +110,15 @@ RECORD_TEMPLATE = {
     "draw_profile": "",
     "start_date": "",
     "end_date": "",
-    "energy_factor_base,": 0.0,
-    "energy_factor_volume_derate,": 0.0,
-    "standby_loss_base,": 0.0,
-    "standby_loss_capacity_allowance,": 0.0,
-    "standby_loss_volume_allowance,": 0.0,
-    "hourly_loss_base,": 0.0,
-    "hourly_loss_volume_allowance,": 0.0,
-    "thermal_efficiency,": 0.0,
+    "energy_factor_base": 0.0,
+    "energy_factor_volume_derate": 0.0,
+    "standby_loss_base": 0.0,
+    "standby_loss_capacity_allowance": 0.0,
+    "standby_loss_volume_allowance": 0.0,
+    "standby_loss_square_root_volume_allowance": 0.0,
+    "hourly_loss_base": 0.0,
+    "hourly_loss_volume_allowance": 0.0,
+    "thermal_efficiency": 0.0,
     "uniform_energy_factor": 0.0,
     "uniform_energy_factor_base": 0.0,
     "uniform_energy_factor_volume_allowance": 0.0,
@@ -169,6 +173,7 @@ class HVACMinimumRequirementWaterHeaters(DBOperation):
             "standby_loss_base",
             "standby_loss_capacity_allowance",
             "standby_loss_volume_allowance",
+            "standby_loss_square_root_volume_allowance",
             "hourly_loss_base",
             "hourly_loss_volume_allowance",
             "thermal_efficiency",
@@ -211,6 +216,7 @@ class HVACMinimumRequirementWaterHeaters(DBOperation):
             getattr_either("standby_loss_base", record),
             getattr_either("standby_loss_capacity_allowance", record),
             getattr_either("standby_loss_volume_allowance", record),
+            getattr_either("standby_loss_square_root_volume_allowance", record),
             getattr_either("hourly_loss_base", record),
             getattr_either("hourly_loss_volume_allowance", record),
             getattr_either("thermal_efficiency", record),
