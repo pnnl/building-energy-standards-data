@@ -11,6 +11,7 @@ maximum_capacity: NUMERIC
 minimum_storage: NUMERIC
 maximum_storage: NUMERIC
 minimum_capacity_per_storage: NUMERIC
+maximum_capacity_per_storage: NUMERIC
 draw profile: TEXT
 start_date: TEXT
 end_date: TEXT
@@ -41,6 +42,7 @@ maximum_capacity NUMERIC,
 minimum_storage NUMERIC,
 maximum_storage NUMERIC,
 minimum_capacity_per_storage NUMERIC,
+maximum_capacity_per_storage NUMERIC,
 draw_profile TEXT,
 start_date TEXT NOT NULL,
 end_date TEXT NOT NULL,
@@ -70,6 +72,7 @@ maximum_capacity,
 minimum_storage,
 maximum_storage,
 minimum_capacity_per_storage,
+maximum_capacity_per_storage,
 draw_profile,
 start_date,
 end_date,
@@ -88,7 +91,7 @@ cop,
 r_value,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -100,6 +103,7 @@ RECORD_TEMPLATE = {
     "minimum_storage": 0.0,
     "maximum_storage": 0.0,
     "minimum_capacity_per_storage": 0.0,
+    "maximum_capacity_per_storage": 0.0,
     "draw_profile": "",
     "start_date": "",
     "end_date": "",
@@ -159,6 +163,7 @@ class HVACMinimumRequirementWaterHeaters(DBOperation):
             "minimum_storage",
             "maximum_storage",
             "minimum_capacity_per_storage",
+            "maximum_capacity_per_storage",
             "energy_factor_base",
             "energy_factor_volume_derate",
             "standby_loss_base",
@@ -197,6 +202,7 @@ class HVACMinimumRequirementWaterHeaters(DBOperation):
             getattr_either("minimum_storage", record),
             getattr_either("maximum_storage", record),
             getattr_either("minimum_capacity_per_storage", record),
+            getattr_either("maximum_capacity_per_storage", record),
             getattr_either("draw_profile", record),
             getattr_either("start_date", record),
             getattr_either("end_date", record),
