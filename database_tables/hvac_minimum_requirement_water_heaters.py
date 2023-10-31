@@ -4,9 +4,14 @@ from database_engine.database_util import is_float, getattr_either
 RECORD_HELP = """
 Must provide a tuple that contains:
 template: TEXT
+product_class: TEXT
 fuel_type: TEXT
 minimum_capacity: NUMERIC
 maximum_capacity: NUMERIC
+minimum_storage: NUMERIC
+maximum_storage: NUMERIC
+minimum_capacity_per_storage: NUMERIC
+draw profile: TEXT
 start_date: TEXT
 end_date: TEXT
 energy_factor_base: NUMERIC
@@ -17,6 +22,11 @@ standby_loss_volume_allowance: NUMERIC
 hourly_loss_base: NUMERIC
 hourly_loss_volume_allowance: NUMERIC
 thermal_efficiency: NUMERIC
+uniform_energy_factor: NUMERIC
+uniform_energy_factor_base: NUMERIC
+uniform_energy_factor_volume_allowance: NUMERIC
+cop: NUMERIC
+r_value: NUMERIC
 annotation: TEXT (optional)
 """
 
@@ -24,9 +34,14 @@ CREATE_HVAC_REQUIREMENT_WATER_HEATERS_TABLE = """
 CREATE TABLE IF NOT EXISTS %s
 (id INTEGER PRIMARY KEY, 
 template TEXT NOT NULL,
+product_class TEXT,
 fuel_type TEXT NOT NULL,
 minimum_capacity NUMERIC,
 maximum_capacity NUMERIC,
+minimum_storage NUMERIC,
+maximum_storage NUMERIC,
+minimum_capacity_per_storage NUMERIC,
+draw_profile TEXT,
 start_date TEXT NOT NULL,
 end_date TEXT NOT NULL,
 energy_factor_base NUMERIC,
@@ -37,15 +52,25 @@ standby_loss_volume_allowance NUMERIC,
 hourly_loss_base NUMERIC,
 hourly_loss_volume_allowance NUMERIC,
 thermal_efficiency NUMERIC,
+uniform_energy_factor NUMERIC,
+uniform_energy_factor_base NUMERIC,
+uniform_energy_factor_volume_allowance NUMERIC,
+cop NUMERIC,
+r_value NUMERIC,
 annotation TEXT);
 """
 
 INSERT_A_WATER_HEATER_RECORD = """
     INSERT INTO %s (
 template,
+product_class,
 fuel_type,
 minimum_capacity,
 maximum_capacity,
+minimum_storage,
+maximum_storage,
+minimum_capacity_per_storage,
+draw_profile,
 start_date,
 end_date,
 energy_factor_base,
@@ -56,16 +81,26 @@ standby_loss_volume_allowance,
 hourly_loss_base,
 hourly_loss_volume_allowance,
 thermal_efficiency,
+uniform_energy_factor,
+uniform_energy_factor_base,
+uniform_energy_factor_volume_allowance,
+cop,
+r_value,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
     "template": "",
+    "product_class": "",
     "fuel_type": "",
     "minimum_capacity": 0.0,
     "maximum_capacity": 0.0,
+    "minimum_storage": 0.0,
+    "maximum_storage": 0.0,
+    "minimum_capacity_per_storage": 0.0,
+    "draw_profile": "",
     "start_date": "",
     "end_date": "",
     "energy_factor_base,": 0.0,
@@ -76,6 +111,11 @@ RECORD_TEMPLATE = {
     "hourly_loss_base,": 0.0,
     "hourly_loss_volume_allowance,": 0.0,
     "thermal_efficiency,": 0.0,
+    "uniform_energy_factor": 0.0,
+    "uniform_energy_factor_base": 0.0,
+    "uniform_energy_factor_volume_allowance": 0.0,
+    "cop": 0.0,
+    "r_value": 0.0,
     "annotation": "",
 }
 
@@ -103,6 +143,8 @@ class HVACMinimumRequirementWaterHeaters(DBOperation):
             "fuel_type",
             "start_date",
             "end_date",
+            "product_class",
+            "draw_profile",
         ]
 
         for f in str_expected:
@@ -114,6 +156,9 @@ class HVACMinimumRequirementWaterHeaters(DBOperation):
         float_expected = [
             "minimum_capacity",
             "maximum_capacity",
+            "minimum_storage",
+            "maximum_storage",
+            "minimum_capacity_per_storage",
             "energy_factor_base",
             "energy_factor_volume_derate",
             "standby_loss_base",
@@ -122,6 +167,11 @@ class HVACMinimumRequirementWaterHeaters(DBOperation):
             "hourly_loss_base",
             "hourly_loss_volume_allowance",
             "thermal_efficiency",
+            "uniform_energy_factor",
+            "uniform_energy_factor_base",
+            "uniform_energy_factor_volume_allowance",
+            "cop",
+            "r_value",
         ]
 
         for f in float_expected:
@@ -140,9 +190,14 @@ class HVACMinimumRequirementWaterHeaters(DBOperation):
 
         return (
             getattr_either("template", record),
+            getattr_either("product_class", record),
             getattr_either("fuel_type", record),
             getattr_either("minimum_capacity", record),
             getattr_either("maximum_capacity", record),
+            getattr_either("minimum_storage", record),
+            getattr_either("maximum_storage", record),
+            getattr_either("minimum_capacity_per_storage", record),
+            getattr_either("draw_profile", record),
             getattr_either("start_date", record),
             getattr_either("end_date", record),
             getattr_either("energy_factor_base", record),
@@ -153,5 +208,10 @@ class HVACMinimumRequirementWaterHeaters(DBOperation):
             getattr_either("hourly_loss_base", record),
             getattr_either("hourly_loss_volume_allowance", record),
             getattr_either("thermal_efficiency", record),
+            getattr_either("uniform_energy_factor", record),
+            getattr_either("uniform_energy_factor_base", record),
+            getattr_either("uniform_energy_factor_volume_allowance", record),
+            getattr_either("cop", record),
+            getattr_either("r_value", record),
             getattr_either("annotation", record),
         )
