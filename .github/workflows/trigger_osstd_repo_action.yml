@@ -1,0 +1,14 @@
+name: Trigger OpenStudio Standards GitHub Action to Update Data
+run-name: ${{github.actor}} is triggering GitHub Action in OSSTD
+on: [push] # to be modified later with PR merge
+jobs:
+  trigger-osstd-update:
+    name: Trigger OpenStudio GitHub Action to initiate a PR there with data update pulling data from here.
+    runs-on: 'ubuntu-latest'
+    steps:
+        - name: GitHub API POST
+          run: |
+            curl -X POST https://api.github.com/repos/NREL/openstudio-standards/dispatches \
+            -H 'Accept: application/vnd.github.everest-preview+json' \
+            -u ${{ secrets.JERRY_ACTIONS_KEY }} \
+            --data '{"event_type": "Trigger Workflow", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
