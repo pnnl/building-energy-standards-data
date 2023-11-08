@@ -15,7 +15,6 @@ end_date: TEXT
 minimum_annual_fuel_utilization_efficiency: NUMERIC
 minimum_thermal_efficiency: NUMERIC
 minimum_combustion_efficiency: NUMERIC
-efffplr: NUMERIC
 annotation: TEXT (optional)
 """
 
@@ -34,7 +33,6 @@ end_date TEXT NOT NULL,
 minimum_annual_fuel_utilization_efficiency NUMERIC,
 minimum_thermal_efficiency NUMERIC,
 minimum_combustion_efficiency NUMERIC,
-efffplr NUMERIC,
 annotation TEXT);
 """
 
@@ -52,10 +50,9 @@ end_date,
 minimum_annual_fuel_utilization_efficiency,
 minimum_thermal_efficiency,
 minimum_combustion_efficiency,
-efffplr,
 annotation
 ) 
-VALUES (?, ?, ?, ? ,? , ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ? ,? , ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -71,7 +68,6 @@ RECORD_TEMPLATE = {
     "minimum_annual_fuel_utilization_efficiency": 0.0,
     "minimum_thermal_efficiency": 0.0,
     "minimum_combustion_efficiency": 0.0,
-    "efffplr": "",
     "annotation": "",
 }
 
@@ -101,7 +97,6 @@ class HVACMinReqBoilers(DBOperation):
             "condensing_control",
             "start_date",
             "end_date",
-            "efffplr",
         ]
 
         for f in str_expected:
@@ -144,6 +139,5 @@ class HVACMinReqBoilers(DBOperation):
             getattr_either("minimum_annual_fuel_utilization_efficiency", record),
             getattr_either("minimum_thermal_efficiency", record),
             getattr_either("minimum_combustion_efficiency", record),
-            getattr_either("efffplr", record),
             getattr_either("annotation", record, ""),
         )
