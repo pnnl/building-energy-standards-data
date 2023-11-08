@@ -12,6 +12,7 @@ __all__ = [
     "hvac_minimum_requirement_motors_90_1",
     "hvac_minimum_requirement_water_heaters_90_1",
     "hvac_minimum_requirement_water_heaters_90_1_prm",
+    "hvac_minimum_requirement_water_heaters_IECC",
     "hvac_minimum_requirement_heat_rejection_90_1",
     "hvac_minimum_requirement_water_source_heat_pumps_cooling_90_1",
     "hvac_minimum_requirement_water_source_heat_pumps_heating_90_1",
