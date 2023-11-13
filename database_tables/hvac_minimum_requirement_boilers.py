@@ -55,7 +55,7 @@ minimum_thermal_efficiency,
 minimum_combustion_efficiency,
 annotation
 ) 
-VALUES (?, ?, ?, ? ,? , ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ? , ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -134,8 +134,8 @@ class HVACMinReqBoilers(DBOperation):
         return (
             getattr_either("template", record),
             getattr_either("fluid_type", record),
-            getattr_either("draft_type", record),
             getattr_either("fuel_type", record),
+            getattr_either("draft_type", record),
             getattr_either("condensing", record),
             getattr_either("condensing_control", record),
             getattr_either("minimum_capacity", record),
