@@ -6,6 +6,7 @@ Must provide a tuple that contains:
 template: TEXT
 fluid_type: TEXT
 fuel_type: TEXT
+draft_type: TEXT
 condensing: NUMERIC
 condensing_control: NUMERIC
 minimum_capacity: NUMERIC
@@ -24,6 +25,7 @@ CREATE TABLE IF NOT EXISTS %s
 template TEXT NOT NULL, 
 fluid_type TEXT NOT NULL,
 fuel_type TEXT NOT NULL,
+draft_type TEXT,
 condensing TEXT,
 condensing_control TEXT,
 minimum_capacity NUMERIC,
@@ -41,6 +43,7 @@ INSERT_A_BOILER_RECORD = """
 template, 
 fluid_type,
 fuel_type,
+draft_type,
 condensing,
 condensing_control,
 minimum_capacity,
@@ -59,6 +62,7 @@ RECORD_TEMPLATE = {
     "template": "",
     "fluid_type": "",
     "fuel_type": "",
+    "draft_type": "",
     "condensing": 0.0,
     "condensing_control": 0.0,
     "minimum_capacity": 0.0,
@@ -93,6 +97,7 @@ class HVACMinReqBoilers(DBOperation):
         str_expected = [
             "template",
             "fluid_type",
+            "draft_type",
             "condensing",
             "condensing_control",
             "start_date",
@@ -129,6 +134,7 @@ class HVACMinReqBoilers(DBOperation):
         return (
             getattr_either("template", record),
             getattr_either("fluid_type", record),
+            getattr_either("draft_type", record),
             getattr_either("fuel_type", record),
             getattr_either("condensing", record),
             getattr_either("condensing_control", record),
