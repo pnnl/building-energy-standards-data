@@ -8,16 +8,15 @@ cooling_type: TEXT
 condenser_type: TEXT
 compressor_type: TEXT
 absorption_type: TEXT
-variable_speed_drive: TEXT
+compliance_path: TEXT
 minimum_capacity: NUMERIC
 maximum_capacity: NUMERIC
 start_date: TEXT
 end_date: TEXT
-minimum_full_load_efficiency: NUMERIC
+minimum_coefficient_of_performance: NUMERIC
+minimum_energy_efficiency_ratio: NUMERIC
+minimum_kilowatts_per_tons: NUMERIC
 minimum_integrated_part_load_value: NUMERIC
-capft: TEXT
-eirft: TEXT
-eirfplr: TEXT
 annotation: TEXT (optional)
 """
 
@@ -29,16 +28,15 @@ cooling_type TEXT,
 condenser_type TEXT,
 compressor_type TEXT,
 absorption_type TEXT,
-variable_speed_drive TEXT,
+compliance_path TEXT,
 minimum_capacity NUMERIC,
 maximum_capacity NUMERIC,
 start_date TEXT,
 end_date TEXT,
-minimum_full_load_efficiency NUMERIC,
+minimum_coefficient_of_performance NUMERIC,
+minimum_energy_efficiency_ratio NUMERIC,
+minimum_kilowatts_per_tons NUMERIC,
 minimum_integrated_part_load_value NUMERIC,
-capft TEXT,
-eirft TEXT,
-eirfplr TEXT,
 annotation TEXT);
 """
 
@@ -49,19 +47,18 @@ cooling_type,
 condenser_type,
 compressor_type,
 absorption_type,
-variable_speed_drive,
+compliance_path,
 minimum_capacity,
 maximum_capacity,
 start_date,
 end_date,
-minimum_full_load_efficiency,
+minimum_coefficient_of_performance,
+minimum_energy_efficiency_ratio,
+minimum_kilowatts_per_tons,
 minimum_integrated_part_load_value,
-capft,
-eirft,
-eirfplr,
 annotation
 ) 
-VALUES (?, ?, ?, ? ,? , ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -70,16 +67,15 @@ RECORD_TEMPLATE = {
     "condenser_type": "",
     "compressor_type": "",
     "absorption_type": "",
-    "variable_speed_drive": "",
+    "compliance_path": "",
     "minimum_capacity": 0.0,
     "maximum_capacity": 0.0,
     "start_date": "",
     "end_date": "",
-    "minimum_full_load_efficiency": 0.0,
+    "minimum_coefficient_of_performance": 0.0,
+    "minimum_energy_efficiency_ratio": 0.0,
+    "minimum_kilowatts_per_tons": 0.0,
     "minimum_integrated_part_load_value": 0.0,
-    "capft": "",
-    "eirft": "",
-    "eirfplr": "",
     "annotation": "",
 }
 
@@ -108,12 +104,9 @@ class HVACMinimumRequirementChillers(DBOperation):
             "condenser_type",
             "compressor_type",
             "absorption_type",
-            "variable_speed_drive",
+            "compliance_path",
             "start_date",
             "end_date",
-            "capft",
-            "eirft",
-            "eirfplr",
         ]
 
         for f in str_expected:
@@ -125,7 +118,9 @@ class HVACMinimumRequirementChillers(DBOperation):
         float_expected = [
             "minimum_capacity",
             "maximum_capacity",
-            "minimum_full_load_efficiency",
+            "minimum_coefficient_of_performance",
+            "minimum_energy_efficiency_ratio",
+            "minimum_kilowatts_per_tons",
             "minimum_integrated_part_load_value",
         ]
 
@@ -149,15 +144,14 @@ class HVACMinimumRequirementChillers(DBOperation):
             getattr_either("condenser_type", record),
             getattr_either("compressor_type", record),
             getattr_either("absorption_type", record),
-            getattr_either("variable_speed_drive", record),
+            getattr_either("compliance_path", record),
             getattr_either("minimum_capacity", record),
             getattr_either("maximum_capacity", record),
             getattr_either("start_date", record),
             getattr_either("end_date", record),
-            getattr_either("minimum_full_load_efficiency", record),
+            getattr_either("minimum_coefficient_of_performance", record),
+            getattr_either("minimum_energy_efficiency_ratio", record),
+            getattr_either("minimum_kilowatts_per_tons", record),
             getattr_either("minimum_integrated_part_load_value", record),
-            getattr_either("capft", record),
-            getattr_either("eirft", record),
-            getattr_either("eirfplr", record),
             getattr_either("annotation", record),
         )
