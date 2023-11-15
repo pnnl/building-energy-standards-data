@@ -6,7 +6,9 @@ import sqlite3
 from query.util import (
     _convert_list_tuple_to_list_dict,
     _convert_tuple_to_dict,
+    _convert_list_single_tuple_to_list_str,
     is_table_exist,
+    is_field_in_table,
 )
 
 
@@ -20,6 +22,28 @@ def fetch_table(conn: sqlite3.Connection, table_name: str):
     # Make sure the table exist
     if is_table_exist(conn, table_name):
         fetch_query = f"""SELECT * FROM {table_name}"""
+        cur = conn.execute(fetch_query)
+        data_header = list(map(lambda x: x[0], cur.description))
+
+        return _convert_list_tuple_to_list_dict(cur.fetchall(), data_header)
+    return []
+
+
+def fetch_columns_from_table(
+    conn: sqlite3.Connection, table_name: str, field_names: list | str
+):
+    """
+    Fetch specific columns from a specific table
+    :param conn:
+    :param table_name: String data table
+    :param field_names: list of columns to fetch
+    :return: list of data or empty list
+    """
+    # Make sure the table exist
+    if is_field_in_table(conn, table_name, field_names):
+        if isinstance(field_names, list):
+            field_names = field_names.join(", ")
+        fetch_query = f"""SELECT {field_names} FROM {table_name}"""
         cur = conn.execute(fetch_query)
         data_header = list(map(lambda x: x[0], cur.description))
 
@@ -67,3 +91,15 @@ def fetch_records_from_table_by_key_values(
         data_header = list(map(lambda x: x[0], cur.description))
         return _convert_list_tuple_to_list_dict(cur.fetchall(), data_header)
     return []
+
+
+def fetch_table_names_containing_keyword(conn: sqlite3.Connection, keyword: str):
+    """
+    Fetch a data record matched by key value pairs in the dict from a specific table
+    :param conn:
+    :param keyword: keyword to search tables for
+    :return: list
+    """
+    query = "SELECT name FROM sqlite_master WHERE type='table' AND name LIKE ?"
+    cur = conn.execute(query, ("%" + keyword + "%",))
+    return _convert_list_single_tuple_to_list_str(cur.fetchall())
