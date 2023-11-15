@@ -91,9 +91,7 @@ def get_subspace_types(
                     # find closest template
                     years = [
                         int(year)
-                        for year in subspace_type_info[subspace_type][
-                            "template"
-                        ].keys()
+                        for year in subspace_type_info[subspace_type]["template"].keys()
                     ]
                     years.append(int(template))
                     years.sort()
@@ -105,10 +103,10 @@ def get_subspace_types(
                             template = years[template_index - 1]
                     else:
                         return
-                subspace_type_info[subspace_type] = subspace_type_info[
-                    subspace_type
-                ]["template"][template]
-        subspace_type_info['schedules'] = get_schedules(space_info, conn)
+                subspace_type_info[subspace_type] = subspace_type_info[subspace_type][
+                    "template"
+                ][template]
+        subspace_type_info["schedules"] = get_schedules(space_info, conn)
 
     return subspace_type_info
 
@@ -172,9 +170,7 @@ def get_subspace_type_info(
     if subspace_type == "lighting":
         subspace_type_info[
             "lighting_space_type_target_illuminance_setpoint"
-        ] = raw_subspace_type_info[0][
-            "lighting_space_type_target_illuminance_setpoint"
-        ]
+        ] = raw_subspace_type_info[0]["lighting_space_type_target_illuminance_setpoint"]
         subspace_type_info[
             "lighting_space_type_target_illuminance_setpoint_unit"
         ] = raw_subspace_type_info[0][
@@ -183,12 +179,13 @@ def get_subspace_type_info(
 
     return subspace_type_info
 
-def get_schedules(
-    space_info: dict,
-    conn
-):
-    schedule_name = space_info['schedule_set_name']
-    return fetch_records_from_table_by_key_values(conn, 'support_schedules', key_value_dict={'name': schedule_name})
+
+def get_schedules(space_info: dict, conn):
+    schedule_name = space_info["schedule_set_name"]
+    return fetch_records_from_table_by_key_values(
+        conn, "support_schedules", key_value_dict={"name": schedule_name}
+    )
+
 
 def get_lighting(
     max: int | None = None,
@@ -229,7 +226,7 @@ def _get_lighting_or_ventilation_helper(
     database_path: str | None = None,
 ):
     conn = create_connect(database_path)
-
+    print("yo")
     if template:
         table_name = f"{level_3_base}{template}"
         table = fetch_table(conn, table_name)
