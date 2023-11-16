@@ -226,7 +226,6 @@ def _get_lighting_or_ventilation_helper(
     database_path: str | None = None,
 ):
     conn = create_connect(database_path)
-    print("yo")
     if template:
         table_name = f"{level_3_base}{template}"
         table = fetch_table(conn, table_name)
@@ -277,3 +276,76 @@ def get_assembly_value(**kwargs):
         # no filters
         assembly_values = fetch_table(conn, "envelope_requirement")
     return assembly_values
+
+
+def get_water_heater_data(**kwargs):
+    # filter out null kwargs
+    res = {k: v for k, v in kwargs.items() if v is not None}
+
+    capacity, storage = None, None
+    if res.get("capacity"):
+        capacity = res["capacity"]
+        del res["capacity"]
+
+    if res.get("storage"):
+        storage = res["storage"]
+        del res["storage"]
+
+    conn = create_connect(res["database_path"])
+    del res["database_path"]
+
+    table_name = None
+    table_name_prefix = "hvac_minimum_requirement_water_heaters_"
+    for k in res:
+        if k in ["product_class", "fuel_type"]:
+            res[k] = res[k].replace("_", " ").title()
+        elif k == "template":
+            if "IECC" in res[k].value:
+                table_name_suffix = "IECC"
+            elif "PRM" in res[k].value:
+                table_name_suffix = "90_1_prm"
+            else:
+                table_name_suffix = "90_1"
+            table_name = f"{table_name_prefix}{table_name_suffix}"
+
+    if table_name:
+        reqs = fetch_records_from_table_by_key_values(
+            conn, table_name, key_value_dict=res
+        )
+        return _water_heater_reqs_filter(reqs, capacity, storage)
+    else:
+        water_heater_table_dict = {
+            f"{table_name_prefix}{suffix}": None
+            for suffix in ["90_1", "90_1_prm", "IECC"]
+        }
+        for table_name in water_heater_table_dict:
+            if res:
+                reqs = fetch_records_from_table_by_key_values(
+                    conn, table_name, key_value_dict=res
+                )
+                reqs = _water_heater_reqs_filter(
+                    reqs, capacity, storage
+                )
+            else:
+                reqs = fetch_table(conn, table_name)
+            water_heater_table_dict[table_name] = reqs
+    return water_heater_table_dict
+
+
+def _water_heater_reqs_filter(
+    reqs: list, capacity: float | None = None, storage: float | None = None
+):
+    if capacity and reqs and reqs[0]["minimum_capacity"]:
+        reqs = [
+            item
+            for item in reqs
+            if item["minimum_capacity"] and item["minimum_capacity"] <= capacity <= item["maximum_capacity"]
+        ]
+    if storage and reqs:
+        reqs = [
+            item
+            for item in reqs
+            if item["minimum_storage"] and item["minimum_storage"] <= storage <= item["maximum_storage"]
+        ]
+
+    return reqs
