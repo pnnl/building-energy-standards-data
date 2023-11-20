@@ -225,15 +225,20 @@ def get_assembly_value(**kwargs):
     conn = create_connect(res["database_path"])
 
     del res["database_path"]
+
     for k in res:
-        if k == "standards_construction_type":
-            res["standards_construction_type"] = res[
-                "standards_construction_type"
-            ].replace("_", " ")
+        if k == "template":
+            res[k] = f"90.1-{res[k]}"
         elif k == "climate_zone_set":
-            res["climate_zone_set"] = f"ClimateZone {res['climate_zone_set']}"
-        elif k == "template":
-            res["template"] = f"90.1-{res['template']}"
+            res[k] = f"ClimateZone {res[k]}"
+        elif k == "intended_surface_type":
+            res[k] = res[k].replace('_', " ").title().replace(" ", "")
+            print(res[k])
+        elif k == "standards_construction_type":
+            res[k] = res[k].replace("_", " ")       
+        elif k == "building_category":
+            res[k] = res[k].title()
+        
 
     if res:
         assembly_values = fetch_records_from_table_by_key_values(
