@@ -39,10 +39,7 @@ def _get_electric_or_ng_equipment_helper(
 
 
 def _get_value_and_remove_from_dict(res: dict, key: str):
-    val = None
-    if res.get(key):
-        val = res[key]
-        del res[key]
+    val = res.pop(key, None)
     return val
 
 
@@ -52,7 +49,6 @@ def _water_heater_reqs_filter(
     storage: float | None = None,
     capacity_per_storage: float | None = None,
 ):
-
     if capacity:
         reqs = [
             item
@@ -60,14 +56,14 @@ def _water_heater_reqs_filter(
             if item["minimum_capacity"] is None
             or (item["minimum_capacity"] <= capacity <= item["maximum_capacity"])
         ]
-    if storage and reqs[0]["minimum_storage"]:
+    if storage:
         reqs = [
             item
             for item in reqs
             if item["minimum_storage"] is None
             or item["minimum_storage"] <= storage <= item["maximum_storage"]
         ]
-    if capacity_per_storage and reqs[0]["minimum_capacity_per_storage"]:
+    if capacity_per_storage:
         reqs = [
             item
             for item in reqs

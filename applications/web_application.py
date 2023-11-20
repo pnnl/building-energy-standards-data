@@ -278,7 +278,6 @@ def get_water_heater_data(**kwargs):
         reqs = fetch_records_from_table_by_key_values(
             conn, table_name, key_value_dict=res
         )
-
         reqs = helpers._water_heater_reqs_filter(
             reqs, capacity, storage, capacity_per_storage
         )
@@ -294,9 +293,9 @@ def get_water_heater_data(**kwargs):
                 reqs = fetch_records_from_table_by_key_values(
                     conn, table_name, key_value_dict=res
                 )
-                helpers._water_heater_reqs_filter(reqs, capacity, storage)
             else:
                 # get entire table
                 reqs = fetch_table(conn, table_name)
+            reqs = helpers._water_heater_reqs_filter(reqs, capacity, storage, capacity_per_storage)
             water_heater_table_dict[table_name] = reqs
     return water_heater_table_dict
