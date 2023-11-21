@@ -21,6 +21,7 @@ __all__ = [
     "hvac_minimum_requirement_heat_pump_heating_90_1",
     "hvac_minimum_requirement_chillers_90_1",
     "hvac_minimum_requirement_boilers_90_1",
+    "hvac_minimum_requirement_boilers_90_1_prm",
     "hvac_minimum_requirement_boilers_IECC",
     "hvac_minimum_requirement_furnaces_90_1",
     "level_3_lighting_90_1_2019",
