@@ -234,8 +234,8 @@ def get_assembly_value(**kwargs):
         elif k == "intended_surface_type":
             res[k] = res[k].replace('_', " ").title().replace(" ", "")
             print(res[k])
-        elif k == "standards_construction_type":
-            res[k] = res[k].replace("_", " ")       
+        elif k in ["standards_construction_type", "construction"]:
+            res[k] = res[k].replace("_", " ").title()    
         elif k == "building_category":
             res[k] = res[k].title()
         
