@@ -1,9 +1,12 @@
 import sqlite3
 import logging
 
-import database_tables as tables
-from database_engine.assertions import assert_
-from database_engine.database_util import read_csv_to_list_dict, read_json_to_list_dict
+import building_energy_standards_data.database_tables as tables
+from building_energy_standards_data.database_engine.assertions import assert_
+from building_energy_standards_data.database_engine.database_util import (
+    read_csv_to_list_dict,
+    read_json_to_list_dict,
+)
 
 
 def create_openstudio_standards_database_from_csv(conn: sqlite3.Connection):

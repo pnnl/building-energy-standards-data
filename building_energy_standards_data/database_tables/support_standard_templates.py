@@ -1,7 +1,7 @@
 import sqlite3
 
-from database_engine.database import DBOperation
-from database_engine.database_util import getattr_either
+from building_energy_standards_data.database_engine.database import DBOperation
+from building_energy_standards_data.database_engine.database_util import getattr_either
 
 TABLE_NAME = "support_standard_templates"
 
@@ -42,7 +42,7 @@ class StandardTemplateTable(DBOperation):
         super(StandardTemplateTable, self).__init__(
             table_name=TABLE_NAME,
             record_template=RECORD_TEMPLATE,
-            initial_data_directory=f"database_files/{TABLE_NAME}",
+            initial_data_directory=f"building_energy_standards_data/database_files/{TABLE_NAME}",
             create_table_query=CREATE_SUPPORT_STANDARD_TEMPLATES % TABLE_NAME,
             insert_record_query=INSERT_A_TEMPLATE_RECORD % TABLE_NAME,
         )

@@ -1,6 +1,9 @@
-from database_engine.assertions import assert_
-from database_engine.database import DBOperation
-from database_engine.database_util import is_float, getattr_either
+from building_energy_standards_data.database_engine.assertions import assert_
+from building_energy_standards_data.database_engine.database import DBOperation
+from building_energy_standards_data.database_engine.database_util import (
+    is_float,
+    getattr_either,
+)
 
 TABLE_NAME = "envelope_requirement"
 
@@ -110,7 +113,7 @@ class EnvelopeRequirementTable(DBOperation):
         super(EnvelopeRequirementTable, self).__init__(
             table_name=TABLE_NAME,
             record_template=RECORD_TEMPLATE,
-            initial_data_directory=f"database_files/{TABLE_NAME}",
+            initial_data_directory=f"building_energy_standards_data/database_files/{TABLE_NAME}",
             create_table_query=CREATE_ENVELOPE_REQUIREMENTS_TABLE % TABLE_NAME,
             insert_record_query=INSERT_A_ENVELOPE_REQUIREMENT_RECORD % TABLE_NAME,
         )

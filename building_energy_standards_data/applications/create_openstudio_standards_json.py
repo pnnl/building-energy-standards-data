@@ -2,11 +2,11 @@ import json
 import sqlite3
 import logging
 
-from database_tables.level_2_electric_equipment import (
+from building_energy_standards_data.database_tables.level_2_electric_equipment import (
     RECORD_TEMPLATE as plug_load_record_template,
 )
-from query.fetch.space import fetch_space_data
-from query.fetch.database_table import (
+from building_energy_standards_data.query.fetch.space import fetch_space_data
+from building_energy_standards_data.query.fetch.database_table import (
     fetch_table,
     fetch_records_from_table_by_key_values,
 )

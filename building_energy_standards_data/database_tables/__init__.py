@@ -1,8 +1,8 @@
 import importlib
 import inspect
 
-import database_engine.database as database_classes
-import database_tables as db_tables
+import building_energy_standards_data.database_engine.database as database_classes
+import building_energy_standards_data.database_tables as db_tables
 
 # need to be in orders of complexity
 # Tables with no foreign key need to be created

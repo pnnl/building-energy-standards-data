@@ -4,7 +4,7 @@ import csv
 import json
 import logging
 
-from query.util import is_index_in_table
+from building_energy_standards_data.query.util import is_index_in_table
 
 DB_FILE = "openstudio_standards_database.db"
 

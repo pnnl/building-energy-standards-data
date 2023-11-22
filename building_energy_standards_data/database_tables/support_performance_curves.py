@@ -1,5 +1,8 @@
-from database_engine.database import DBOperation
-from database_engine.database_util import is_float, getattr_either
+from building_energy_standards_data.database_engine.database import DBOperation
+from building_energy_standards_data.database_engine.database_util import (
+    is_float,
+    getattr_either,
+)
 
 TABLE_NAME = "support_performance_curves"
 
@@ -123,7 +126,7 @@ class VentSpaceTagTable(DBOperation):
         super(VentSpaceTagTable, self).__init__(
             table_name=TABLE_NAME,
             record_template=RECORD_TEMPLATE,
-            initial_data_directory=f"database_files/{TABLE_NAME}",
+            initial_data_directory=f"building_energy_standards_data/database_files/{TABLE_NAME}",
             create_table_query=CREATE_PERFORMANCE_CURVES_TABLE % TABLE_NAME,
             insert_record_query=INSERT_PERFORMANCE_CURVE % TABLE_NAME,
         )

@@ -1,7 +1,10 @@
 import sqlite3, os
 
-from query.fetch.template import fetch_templates, fetch_template_data_by_template
-from applications.database_maintenance import (
+from building_energy_standards_data.query.fetch.template import (
+    fetch_templates,
+    fetch_template_data_by_template,
+)
+from building_energy_standards_data.applications.database_maintenance import (
     create_openstudio_standards_database_from_csv,
 )
 

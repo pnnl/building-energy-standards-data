@@ -1,5 +1,8 @@
-from database_engine.database import DBOperation
-from database_engine.database_util import getattr_either, is_float
+from building_energy_standards_data.database_engine.database import DBOperation
+from building_energy_standards_data.database_engine.database_util import (
+    getattr_either,
+    is_float,
+)
 
 TABLE_NAME = "support_schedules"
 
@@ -155,7 +158,7 @@ class SupportScheduleTable(DBOperation):
         super(SupportScheduleTable, self).__init__(
             table_name=TABLE_NAME,
             record_template=RECORD_TEMPLATE,
-            initial_data_directory=f"database_files/{TABLE_NAME}",
+            initial_data_directory=f"building_energy_standards_data/database_files/{TABLE_NAME}",
             create_table_query=CREATE_SCHEDULES_TABLE % TABLE_NAME,
             insert_record_query=INSERT_SCHEDULE % TABLE_NAME,
         )

@@ -4,7 +4,7 @@ building data includes:
 lighting, ventilation (and more...)
 """
 import sqlite3
-from query.util import _convert_list_tuple_to_list_dict
+from building_energy_standards_data.query.util import _convert_list_tuple_to_list_dict
 
 SPACE_DATA_HEADER = [
     "space_type_name",

@@ -1,6 +1,6 @@
 import sqlite3
 
-from database_tables.hvac_minimum_requirement_heat_rejection import (
+from building_energy_standards_data.database_tables.hvac_minimum_requirement_heat_rejection import (
     HVACMinimumRequirementHeatRejection,
 )
 
@@ -11,5 +11,5 @@ class HVACMinimumRequirementHeatRejection901Table(HVACMinimumRequirementHeatReje
     def __init__(self):
         super(HVACMinimumRequirementHeatRejection901Table, self).__init__(
             table_name=TABLE_NAME,
-            initial_data_directory=f"database_files/{TABLE_NAME}",
+            initial_data_directory=f"building_energy_standards_data/database_files/{TABLE_NAME}",
         )

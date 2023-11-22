@@ -10,8 +10,10 @@ from applications.database_maintenance import (
 # create_openstudio_standards_database()
 # create_openstudio_standards_building_data_json("openstudio_standards_building_data.json", "openstudio_standards_database.db")
 from applications.form.update_space_data import update_openstudio_standards_space_data
-from database_engine.database import create_connect
-from query.fetch.database_table import fetch_a_record_from_table_by_id
+from building_energy_standards_data.database_engine.database import create_connect
+from building_energy_standards_data.query.fetch.database_table import (
+    fetch_a_record_from_table_by_id,
+)
 
 logging.basicConfig(
     filename="new_log",

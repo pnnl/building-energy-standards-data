@@ -6,7 +6,7 @@ e.g. 2019 -> lighting: ASHRAE 90.1-2019, ventilation: ASHRAE 62.1-2019
 """
 import sqlite3
 
-from query.util import _convert_list_tuple_to_list_dict
+from building_energy_standards_data.query.util import _convert_list_tuple_to_list_dict
 
 DATA_HEADER = [
     "template",

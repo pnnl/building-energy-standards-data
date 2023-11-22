@@ -1,21 +1,27 @@
 import sqlite3
 
-from database_engine.assertions import getattr_
-from database_tables.level_2_electric_equipment import EquipLoadTable
-from query.fetch.database_table import fetch_records_from_table_by_key_values
-from query.fetch.template import fetch_template_data_by_template_first
-from database_tables.level_1_space_types import (
+from building_energy_standards_data.database_engine.assertions import getattr_
+from building_energy_standards_data.database_tables.level_2_electric_equipment import (
+    EquipLoadTable,
+)
+from building_energy_standards_data.query.fetch.database_table import (
+    fetch_records_from_table_by_key_values,
+)
+from building_energy_standards_data.query.fetch.template import (
+    fetch_template_data_by_template_first,
+)
+from building_energy_standards_data.database_tables.level_1_space_types import (
     TABLE_NAME as GENERAL_SPACE_TYPE_TABLE_NAME,
 )
-from database_tables.level_2_lighting_space_types import (
+from building_energy_standards_data.database_tables.level_2_lighting_space_types import (
     TABLE_NAME as LIGHT_SUBSPACES_TABLE_NAME,
 )
-from database_tables.level_2_ventilation_space_types import (
+from building_energy_standards_data.database_tables.level_2_ventilation_space_types import (
     TABLE_NAME as VENT_SUBSPACES_TABLE_NAME,
 )
-from query.update.update_a_table import update_a_table
-import database_tables as tables
-from query.util import match_dict_data_by_key
+from building_energy_standards_data.query.update.update_a_table import update_a_table
+import building_energy_standards_data.database_tables as tables
+from building_energy_standards_data.query.util import match_dict_data_by_key
 
 SPACE_TABLE_HEADER = [
     "space_type",
