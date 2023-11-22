@@ -1,18 +1,14 @@
-import unittest
+import unittest, os, sqlite3, glob, shutil
 from unittest import TestCase
 from unittest import mock
-import os
-import sqlite3
-import difflib
-import glob
-import shutil
-from applications.database_maintenance import (
+
+from building_energy_standards_data.applications.database_maintenance import (
     create_openstudio_standards_database_from_csv,
     create_openstudio_standards_database_from_json,
     export_openstudio_standards_database_to_csv,
     export_openstudio_standards_database_to_json,
 )
-from database_engine.database import DBOperation
+from building_energy_standards_data.database_engine.database import DBOperation
 
 
 CREATE_L3_TEST_TABLE = """
@@ -135,11 +131,17 @@ def test_create_export_database():
     # Create a copy of original JSON files
     if os.path.isdir("./original_database_files"):
         shutil.rmtree("./original_database_files", ignore_errors=True)
-    shutil.copytree("./database_files", "./original_database_files")
+    shutil.copytree(
+        "./building_energy_standards_data/database_files", "./original_database_files"
+    )
 
     # Export data to JSON and CSV files
-    export_openstudio_standards_database_to_json(conn, save_dir="./database_files/")
-    export_openstudio_standards_database_to_csv(conn, save_dir="./database_files/")
+    export_openstudio_standards_database_to_json(
+        conn, save_dir="./building_energy_standards_data/database_files/"
+    )
+    export_openstudio_standards_database_to_csv(
+        conn, save_dir="./building_energy_standards_data/database_files/"
+    )
     conn.close()
 
     # Regenerate DB from JSON and CSV files

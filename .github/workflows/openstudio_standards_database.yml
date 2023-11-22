@@ -22,22 +22,23 @@ jobs:
             version: "22.12.0"
   run-unit-tests:
     name: Run unit tests
-    runs-on: 'ubuntu-latest'
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Setup Python
+      - uses: actions/checkout@v3
+      - name: Install Python
         uses: actions/setup-python@v4
+      - name: Install poetry
+        uses: abatilo/actions-poetry@v2
+      - name: Setup a local virtual environment (if no poetry.toml file)
+        run: |
+          poetry config virtualenvs.create true --local
+          poetry config virtualenvs.in-project true --local
+      - uses: actions/cache@v3
+        name: Define a cache for the virtual environment based on the dependencies lock file
         with:
-          python-version: '3.10'
-          cache: 'pipenv'
-      - name: Install pipenv
-        run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
-        working-directory: './'
-      - name: Install dpendencies
-        run: pipenv install --dev
-        working-directory: './'
-      - name: Run pytests
-        # This will halt the action if any of the tests fail
-        run: pipenv run pytest -v
-        working-directory: './'
+          path: ./.venv
+          key: venv-${{ hashFiles('poetry.lock') }}
+      - name: Install the project dependencies
+        run: poetry install
+      - name: Run the tests
+        run: poetry run pytest -v
