@@ -254,53 +254,40 @@ def get_water_heater_data(**kwargs):
     # filter out null kwargs
     res = {k: v for k, v in kwargs.items() if v is not None}
 
-    capacity = helpers._get_value_and_remove_from_dict(res, "capacity")
-    storage = helpers._get_value_and_remove_from_dict(res, "storage")
-    capacity_per_storage = helpers._get_value_and_remove_from_dict(
-        res, "capacity_per_storage"
-    )
+    numerical_filters = ["capacity", "storage", "capacity_per_storage"]
 
-    conn = create_connect(res["database_path"])
-    del res["database_path"]
-
-    table_name = None
     table_name_prefix = "hvac_minimum_requirement_water_heaters_"
-    for k in res:
-        if k == "template":
-            if "IECC" in res[k].value:
-                table_name_suffix = "IECC"
-            elif "PRM" in res[k].value:
-                table_name_suffix = "90_1_prm"
-            else:
-                table_name_suffix = "90_1"
-            table_name = f"{table_name_prefix}{table_name_suffix}"
-        else:
-            res[k] = res[k].replace("_", " ")
-            if k in ["product_class", "fuel_type"]:
-                res[k] = res[k].title()
 
-    if table_name:
-        reqs = fetch_records_from_table_by_key_values(
-            conn, table_name, key_value_dict=res
-        )
-        reqs = helpers._water_heater_reqs_filter(
-            reqs, capacity, storage, capacity_per_storage
-        )
-        return reqs
-    else:
-        water_heater_table_dict = {
-            f"{table_name_prefix}{suffix}": None
-            for suffix in ["90_1", "90_1_prm", "IECC"]
-        }
-        for table_name in water_heater_table_dict:
-            if res:
-                # filter table
-                reqs = fetch_records_from_table_by_key_values(
-                    conn, table_name, key_value_dict=res
-                )
-            else:
-                # get entire table
-                reqs = fetch_table(conn, table_name)
-            reqs = helpers._water_heater_reqs_filter(reqs, capacity, storage, capacity_per_storage)
-            water_heater_table_dict[table_name] = reqs
-    return water_heater_table_dict
+    str_transformation_dict = {"product_class": "caps with space", "fuel_type": "caps without space"}
+
+    table_suffixes = ["90_1", "90_1_prm", "IECC"]
+
+    return helpers.get_min_reqs_data(res, numerical_filters, table_name_prefix, str_transformation_dict, table_suffixes)
+
+def get_boiler_data(**kwargs):
+    # filter out null kwargs
+    res = {k: v for k, v in kwargs.items() if v is not None}
+
+    numerical_filters = ["capacity"]
+
+    table_name_prefix = "hvac_minimum_requirement_boilers_"
+
+    str_transformation_dict = {"fluid_type": "caps with space", "fuel_type": "caps without space", "draft_type": "caps without space"}
+
+    table_suffixes = ["90_1", "IECC"]
+
+    return helpers.get_min_reqs_data(res, numerical_filters, table_name_prefix, str_transformation_dict, table_suffixes)
+
+def get_chiller_data(**kwargs):
+    # filter out null kwargs
+    res = {k: v for k, v in kwargs.items() if v is not None}
+
+    numerical_filters = ["capacity"]
+
+    table_name_prefix = "hvac_minimum_requirement_chillers_"
+
+    str_transformation_dict = {"cooling_type": "caps without space", "condenser_type": "caps without space", "compressor_type": "caps with space", "absorption_type": "caps with space"}
+
+    table_suffixes = ["90_1"]
+
+    return helpers.get_min_reqs_data(res, numerical_filters, table_name_prefix, str_transformation_dict, table_suffixes)
