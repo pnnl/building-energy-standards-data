@@ -28,10 +28,9 @@ def fetch_table(conn: sqlite3.Connection, table_name: str):
         return _convert_list_tuple_to_list_dict(cur.fetchall(), data_header)
     return []
 
+
 def fetch_table_with_max_numbers_of_records(
-    conn,
-    table_name: str,
-    max: int | None = None
+    conn, table_name: str, max: int | None = None
 ):
     """
     Fetch data from a specific table limited to a max number of records
@@ -67,9 +66,8 @@ def fetch_columns_from_table(
         return _convert_list_tuple_to_list_dict(cur.fetchall(), data_header)
     return []
 
-def fetch_column_from_table(
-    conn: sqlite3.Connection, table_name: str, field_name: str  
-):
+
+def fetch_column_from_table(conn: sqlite3.Connection, table_name: str, field_name: str):
     """
     Fetch specific column from a specific table
     :param conn:
@@ -79,6 +77,7 @@ def fetch_column_from_table(
     """
     column_list = fetch_columns_from_table(conn, table_name, field_name)
     return [entry[field_name] for entry in column_list]
+
 
 def fetch_a_record_from_table_by_id(
     conn: sqlite3.Connection, table_name: str, index: int
