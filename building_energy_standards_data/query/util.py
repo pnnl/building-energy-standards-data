@@ -22,6 +22,10 @@ def _convert_tuple_to_dict(data: tuple, data_head_list: List[str]):
     return dict(zip(data_head_list, data))
 
 
+def _convert_list_single_tuple_to_list_str(data: List[tuple]):
+    return [row[0] for row in data]
+
+
 def is_index_in_table(
     conn: sqlite3.Connection, table_name: str | None, key: str | None, index: str | None
 ):
@@ -55,6 +59,33 @@ def is_table_exist(conn: sqlite3.Connection, table_name):
         f"""SELECT tbl_name FROM sqlite_master WHERE type='table' AND tbl_name='{table_name}'"""
     ).fetchall()
     return True if list_of_tables else False
+
+
+def is_field_in_table(
+    conn: sqlite3.Connection, table_name, fields_to_check: list | str
+):
+    """
+    Utility function to ensure the table name provided is correct and exist in the openstudio_standards data tables
+    :param conn:
+    :param table_name:
+    :return:
+    """
+    cur = conn.cursor()
+
+    if not is_table_exist(conn, table_name):
+        return False
+
+    list_of_tables = cur.execute(f"""PRAGMA table_info({table_name})""").fetchall()
+
+    if isinstance(fields_to_check, str):
+        fields_to_check = [fields_to_check]
+
+    if list_of_tables:
+        existing_columns = [row[1] for row in list_of_tables]
+        fields_exist = all(field in existing_columns for field in fields_to_check)
+    else:
+        fields_exist = False
+    return fields_exist
 
 
 def match_dict_data_by_key(primary_data: dict, secondary_data: dict):
