@@ -28,6 +28,23 @@ def fetch_table(conn: sqlite3.Connection, table_name: str):
         return _convert_list_tuple_to_list_dict(cur.fetchall(), data_header)
     return []
 
+def fetch_table_with_max_numbers_of_records(
+    conn,
+    table_name: str,
+    max: int | None = None
+):
+    """
+    Fetch data from a specific table limited to a max number of records
+    :param conn:
+    :param table_name: String data table
+    :param max: max number of records to be returned
+    :return: list of data or empty list
+    """
+    table = fetch_table(conn, table_name)
+    if max and len(table) > max:
+        table = table[0:max]
+    return table
+
 
 def fetch_columns_from_table(
     conn: sqlite3.Connection, table_name: str, field_names: list | str
@@ -50,6 +67,18 @@ def fetch_columns_from_table(
         return _convert_list_tuple_to_list_dict(cur.fetchall(), data_header)
     return []
 
+def fetch_column_from_table(
+    conn: sqlite3.Connection, table_name: str, field_name: str  
+):
+    """
+    Fetch specific column from a specific table
+    :param conn:
+    :param table_name: table name
+    :param field_name: column to fetch
+    :return: list of data in column
+    """
+    column_list = fetch_columns_from_table(conn, table_name, field_name)
+    return [entry[field_name] for entry in column_list]
 
 def fetch_a_record_from_table_by_id(
     conn: sqlite3.Connection, table_name: str, index: int
@@ -72,7 +101,7 @@ def fetch_a_record_from_table_by_id(
 
 
 def fetch_records_from_table_by_key_values(
-    conn: sqlite3.Connection, table_name: str, key_value_dict: dict
+    conn: sqlite3.Connection, table_name: str, key_value_dict: dict | None = None
 ):
     """
     Fetch a data record matched by key value pairs in the dict from a specific table
@@ -83,6 +112,8 @@ def fetch_records_from_table_by_key_values(
     """
     # Make sure the table exist
     if is_table_exist(conn, table_name):
+        if not key_value_dict:
+            return fetch_table(conn, table_name)
         condition = " AND ".join(
             [f"{key} = '{key_value_dict[key]}'" for key in key_value_dict.keys()]
         )
