@@ -1,8 +1,8 @@
 import json
 import os
 
-from database_engine.database import create_connect
-from query.fetch.database_table import (
+from building_energy_standards_data.database_engine.database import create_connect
+from building_energy_standards_data.query.fetch.database_table import (
     fetch_table,
     fetch_table_names_containing_keyword,
 )
