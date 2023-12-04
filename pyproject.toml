@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "building-energy-standards-data"
-version = "0.0.1"
+version = "0.0.2"
 description = ""
-authors = ["Lerond, Jeremy <jeremy.lerond@pnnl.gov>", "Xu, Weili <weili.xu@pnnl.gov>", "Lei, Xuechen <xuechen.lei@pnnl.gov>", "Wang, Lingzhe <lingzhe.wang@pnnl.gov>", "Dehwah, Ammar <ammar.dehwah@pnnl.gov>"]
+authors = ["Lerond, Jeremy <jeremy.lerond@pnnl.gov>", "Xu, Weili <weili.xu@pnnl.gov>", "Lei, Xuechen <xuechen.lei@pnnl.gov>", "Wang, Lingzhe <lingzhe.wang@pnnl.gov>", "Dehwah, Ammar <ammar.dehwah@pnnl.gov>", "Slane-Holloway, Julian <julian.slane-holloway@pnnl.gov>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
