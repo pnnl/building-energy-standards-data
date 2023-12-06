@@ -16,7 +16,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2004 Table 6.8.1E page 49"
+        "annotation": "From 90.1-2004 Table 6.8.1E"
     },
     {
         "template": "90.1-2004",
@@ -35,7 +35,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2004 Table 6.8.1E page 49"
+        "annotation": "From 90.1-2004 Table 6.8.1E"
     },
     {
         "template": "90.1-2004",
@@ -54,7 +54,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2004 Table 6.8.1E page 49"
+        "annotation": "From 90.1-2004 Table 6.8.1E"
     },
     {
         "template": "90.1-2004",
@@ -73,7 +73,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2004 Table 6.8.1E page 49"
+        "annotation": "From 90.1-2004 Table 6.8.1E"
     },
     {
         "template": "90.1-2004",
@@ -92,7 +92,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2004 Table 6.8.1E page 49"
+        "annotation": "From 90.1-2004 Table 6.8.1E"
     },
     {
         "template": "90.1-2004",
@@ -111,7 +111,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2004 Table 6.8.1E page 49"
+        "annotation": "From 90.1-2004 Table 6.8.1E"
     },
     {
         "template": "90.1-2004",
@@ -130,7 +130,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2004 Table 6.8.1E page 49"
+        "annotation": "From 90.1-2004 Table 6.8.1E"
     },
     {
         "template": "90.1-2007",
@@ -149,7 +149,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2007 Table 6.8.1E page 49"
+        "annotation": "From 90.1-2007 Table 6.8.1E"
     },
     {
         "template": "90.1-2007",
@@ -168,7 +168,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2007 Table 6.8.1E page 49"
+        "annotation": "From 90.1-2007 Table 6.8.1E"
     },
     {
         "template": "90.1-2007",
@@ -187,7 +187,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2007 Table 6.8.1E page 49"
+        "annotation": "From 90.1-2007 Table 6.8.1E"
     },
     {
         "template": "90.1-2007",
@@ -206,7 +206,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2007 Table 6.8.1E page 49"
+        "annotation": "From 90.1-2007 Table 6.8.1E"
     },
     {
         "template": "90.1-2007",
@@ -225,7 +225,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2007 Table 6.8.1E page 49"
+        "annotation": "From 90.1-2007 Table 6.8.1E"
     },
     {
         "template": "90.1-2007",
@@ -244,7 +244,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2007 Table 6.8.1E page 49"
+        "annotation": "From 90.1-2007 Table 6.8.1E"
     },
     {
         "template": "90.1-2007",
@@ -263,7 +263,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2007 Table 6.8.1E page 49"
+        "annotation": "From 90.1-2007 Table 6.8.1E"
     },
     {
         "template": "90.1-2010",
@@ -282,7 +282,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2010 Table 6.8.1E page 62"
+        "annotation": "From 90.1-2010 Table 6.8.1E"
     },
     {
         "template": "90.1-2010",
@@ -301,7 +301,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2010 Table 6.8.1E page 62"
+        "annotation": "From 90.1-2010 Table 6.8.1E"
     },
     {
         "template": "90.1-2010",
@@ -320,7 +320,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2010 Table 6.8.1E page 62"
+        "annotation": "From 90.1-2010 Table 6.8.1E"
     },
     {
         "template": "90.1-2010",
@@ -339,7 +339,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2010 Table 6.8.1E page 62"
+        "annotation": "From 90.1-2010 Table 6.8.1E"
     },
     {
         "template": "90.1-2010",
@@ -358,7 +358,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2010 Table 6.8.1E page 62"
+        "annotation": "From 90.1-2010 Table 6.8.1E"
     },
     {
         "template": "90.1-2010",
@@ -377,7 +377,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2010 Table 6.8.1E page 62"
+        "annotation": "From 90.1-2010 Table 6.8.1E"
     },
     {
         "template": "90.1-2010",
@@ -396,7 +396,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2010 Table 6.8.1E page 62"
+        "annotation": "From 90.1-2010 Table 6.8.1E"
     },
     {
         "template": "90.1-2013",
@@ -415,7 +415,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2013 Table 6.8.1-5 page 72"
+        "annotation": "From 90.1-2013 Table 6.8.1-5"
     },
     {
         "template": "90.1-2013",
@@ -434,7 +434,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2013 Table 6.8.1-5 page 72"
+        "annotation": "From 90.1-2013 Table 6.8.1-5"
     },
     {
         "template": "90.1-2013",
@@ -453,7 +453,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2013 Table 6.8.1-5 page 72"
+        "annotation": "From 90.1-2013 Table 6.8.1-5"
     },
     {
         "template": "90.1-2013",
@@ -472,7 +472,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2013 Table 6.8.1-5 page 72"
+        "annotation": "From 90.1-2013 Table 6.8.1-5"
     },
     {
         "template": "90.1-2013",
@@ -491,7 +491,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2013 Table 6.8.1-5 page 72"
+        "annotation": "From 90.1-2013 Table 6.8.1-5"
     },
     {
         "template": "90.1-2013",
@@ -510,7 +510,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2013 Table 6.8.1-5 page 72"
+        "annotation": "From 90.1-2013 Table 6.8.1-5"
     },
     {
         "template": "90.1-2013",
@@ -529,7 +529,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2013 Table 6.8.1-5 page 72"
+        "annotation": "From 90.1-2013 Table 6.8.1-5"
     },
     {
         "template": "90.1-2016",
@@ -548,7 +548,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2016 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2016 Table 6.8.1-5"
     },
     {
         "template": "90.1-2016",
@@ -567,7 +567,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2016 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2016 Table 6.8.1-5"
     },
     {
         "template": "90.1-2016",
@@ -586,7 +586,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2016 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2016 Table 6.8.1-5"
     },
     {
         "template": "90.1-2016",
@@ -605,7 +605,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2016 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2016 Table 6.8.1-5"
     },
     {
         "template": "90.1-2016",
@@ -624,7 +624,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2016 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2016 Table 6.8.1-5"
     },
     {
         "template": "90.1-2016",
@@ -643,7 +643,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2016 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2016 Table 6.8.1-5"
     },
     {
         "template": "90.1-2016",
@@ -662,7 +662,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2016 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2016 Table 6.8.1-5"
     },
     {
         "template": "90.1-2019",
@@ -681,7 +681,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2019 Table F-4 page 295"
+        "annotation": "From 90.1-2019 Table F-4"
     },
     {
         "template": "90.1-2019",
@@ -700,7 +700,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2019 Table F-4 page 295"
+        "annotation": "From 90.1-2019 Table F-4"
     },
     {
         "template": "90.1-2019",
@@ -719,7 +719,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2019 Table F-4 page 295"
+        "annotation": "From 90.1-2019 Table F-4"
     },
     {
         "template": "90.1-2019",
@@ -738,7 +738,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2019 Table 6.8.1-5 page 132"
+        "annotation": "From 90.1-2019 Table 6.8.1-5"
     },
     {
         "template": "90.1-2019",
@@ -757,7 +757,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2019 Table 6.8.1-5 page 132"
+        "annotation": "From 90.1-2019 Table 6.8.1-5"
     },
     {
         "template": "90.1-2019",
@@ -776,7 +776,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": 11,
         "off_mode_power": 11,
-        "annotation": "From 90.1-2019 Table F-4 page 295"
+        "annotation": "From 90.1-2019 Table F-4"
     },
     {
         "template": "90.1-2019",
@@ -795,7 +795,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": 11,
         "off_mode_power": 11,
-        "annotation": "From 90.1-2019 Table F-4 page 295"
+        "annotation": "From 90.1-2019 Table F-4"
     },
     {
         "template": "90.1-2019",
@@ -814,7 +814,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2019 Table F-4 page 295"
+        "annotation": "From 90.1-2019 Table F-4"
     },
     {
         "template": "90.1-2019",
@@ -833,7 +833,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2019 Table 6.8.1-5 page 132"
+        "annotation": "From 90.1-2019 Table 6.8.1-5"
     },
     {
         "template": "90.1-2019",
@@ -852,7 +852,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2019 Table 6.8.1-5 page 132"
+        "annotation": "From 90.1-2019 Table 6.8.1-5"
     },
     {
         "template": "90.1-2019",
@@ -871,7 +871,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": 10,
         "off_mode_power": 10,
-        "annotation": "From 90.1-2019 Table F-4 page 295"
+        "annotation": "From 90.1-2019 Table F-4"
     },
     {
         "template": "90.1-2019",
@@ -890,7 +890,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2019 Table 6.8.1-5 page 132"
+        "annotation": "From 90.1-2019 Table 6.8.1-5"
     },
     {
         "template": "90.1-2019",
@@ -909,7 +909,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2019 Table 6.8.1-5 page 132"
+        "annotation": "From 90.1-2019 Table 6.8.1-5"
     },
     {
         "template": "90.1-2019",
@@ -928,7 +928,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2019 Table 6.8.1-5 page 132"
+        "annotation": "From 90.1-2019 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -947,7 +947,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table F-4 page 299"
+        "annotation": "From 90.1-2022 Table F-4"
     },
     {
         "template": "90.1-2022",
@@ -966,7 +966,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table F-4 page 299"
+        "annotation": "From 90.1-2022 Table F-4"
     },
     {
         "template": "90.1-2022",
@@ -985,7 +985,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table F-4 page 299"
+        "annotation": "From 90.1-2022 Table F-4"
     },
     {
         "template": "90.1-2022",
@@ -1004,7 +1004,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1023,7 +1023,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1042,7 +1042,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1061,7 +1061,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1080,7 +1080,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1099,7 +1099,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1118,7 +1118,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1137,7 +1137,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1156,7 +1156,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": 11,
         "off_mode_power": 11,
-        "annotation": "From 90.1-2022 Table F-4 page 299"
+        "annotation": "From 90.1-2022 Table F-4"
     },
     {
         "template": "90.1-2022",
@@ -1175,7 +1175,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": 11,
         "off_mode_power": 11,
-        "annotation": "From 90.1-2022 Table F-4 page 299"
+        "annotation": "From 90.1-2022 Table F-4"
     },
     {
         "template": "90.1-2022",
@@ -1194,7 +1194,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table F-4 page 299"
+        "annotation": "From 90.1-2022 Table F-4"
     },
     {
         "template": "90.1-2022",
@@ -1213,7 +1213,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1232,7 +1232,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 116"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1251,7 +1251,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 117"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1270,7 +1270,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 117"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1289,7 +1289,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 117"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1308,7 +1308,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 117"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1327,7 +1327,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": 10,
         "off_mode_power": 10,
-        "annotation": "From 90.1-2022 Table F-4 page 299"
+        "annotation": "From 90.1-2022 Table F-4"
     },
     {
         "template": "90.1-2022",
@@ -1346,7 +1346,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 117"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1365,7 +1365,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 117"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1384,7 +1384,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 117"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1403,7 +1403,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 117"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     },
     {
         "template": "90.1-2022",
@@ -1422,6 +1422,6 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From 90.1-2022 Table 6.8.1-5 page 117"
+        "annotation": "From 90.1-2022 Table 6.8.1-5"
     }
 ]
