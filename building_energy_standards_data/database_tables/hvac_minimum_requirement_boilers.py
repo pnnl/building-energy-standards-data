@@ -19,6 +19,8 @@ end_date: TEXT
 minimum_annual_fuel_utilization_efficiency: NUMERIC
 minimum_thermal_efficiency: NUMERIC
 minimum_combustion_efficiency: NUMERIC
+standby_mode_power: NUMERIC
+off_mode_power: NUMERIC
 annotation: TEXT (optional)
 """
 
@@ -38,6 +40,8 @@ end_date TEXT NOT NULL,
 minimum_annual_fuel_utilization_efficiency NUMERIC,
 minimum_thermal_efficiency NUMERIC,
 minimum_combustion_efficiency NUMERIC,
+standby_mode_power NUMERIC,
+off_mode_power NUMERIC,
 annotation TEXT);
 """
 
@@ -56,9 +60,11 @@ end_date,
 minimum_annual_fuel_utilization_efficiency,
 minimum_thermal_efficiency,
 minimum_combustion_efficiency,
+standby_mode_power,
+off_mode_power,
 annotation
 ) 
-VALUES (?, ?, ?, ? , ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ? , ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -75,6 +81,8 @@ RECORD_TEMPLATE = {
     "minimum_annual_fuel_utilization_efficiency": 0.0,
     "minimum_thermal_efficiency": 0.0,
     "minimum_combustion_efficiency": 0.0,
+    "standby_mode_power": 0.0,
+    "off_mode_power": 0.0,   
     "annotation": "",
 }
 
@@ -119,6 +127,8 @@ class HVACMinReqBoilers(DBOperation):
             "minimum_annual_fuel_utilization_efficiency",
             "minimum_thermal_efficiency",
             "minimum_combustion_efficiency",
+            "standby_mode_power",
+            "off_mode_power",
         ]
 
         for f in float_expected:
@@ -148,5 +158,7 @@ class HVACMinReqBoilers(DBOperation):
             getattr_either("minimum_annual_fuel_utilization_efficiency", record),
             getattr_either("minimum_thermal_efficiency", record),
             getattr_either("minimum_combustion_efficiency", record),
+            getattr_either("standby_mode_power", record),
+            getattr_either("off_mode_power", record),
             getattr_either("annotation", record, ""),
         )

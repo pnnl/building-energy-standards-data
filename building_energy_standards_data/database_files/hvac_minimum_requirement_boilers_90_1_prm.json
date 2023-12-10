@@ -13,6 +13,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.8,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2004 Table 6.8.1F"
     },
     {
@@ -29,6 +31,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.75,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2004 Table 6.8.1F"
     },
     {
@@ -45,6 +49,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.75,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2004 Table 6.8.1F"
     },
     {
@@ -61,6 +67,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.75,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2004 Table 6.8.1F"
     },
     {
@@ -77,6 +85,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.8,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2004 Table 6.8.1F"
     },
     {
@@ -93,6 +103,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.8,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2004 Table 6.8.1F"
     },
     {
@@ -109,6 +121,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.8,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2004 Table 6.8.1F"
     },
     {
@@ -125,6 +139,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.8,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2004 Table 6.8.1F"
     },
     {
@@ -141,6 +157,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.78,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2004 Table 6.8.1F"
     },
     {
@@ -157,6 +175,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.78,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2004 Table 6.8.1F"
     },
     {
@@ -173,6 +193,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.83,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2004 Table 6.8.1F"
     },
     {
@@ -189,6 +211,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.83,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2004 Table 6.8.1F"
     },
     {
@@ -205,6 +229,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.8,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -221,6 +247,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.75,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -237,6 +265,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.8,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -253,6 +283,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.8,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -269,6 +301,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.82,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -285,6 +319,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.8,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -301,6 +337,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.78,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -317,6 +355,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.82,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -333,6 +373,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.83,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -349,6 +391,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.84,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -365,6 +409,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.75,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -381,6 +427,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.75,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -397,6 +445,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.79,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -413,6 +463,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.8,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -429,6 +481,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.79,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -445,6 +499,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.75,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -461,6 +517,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.77,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -477,6 +535,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.79,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -493,6 +553,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.8,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -509,6 +571,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.77,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -525,6 +589,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.79,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -541,6 +607,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.8,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -557,6 +625,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.78,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -573,6 +643,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.81,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -589,6 +661,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.83,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -605,6 +679,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.81,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2007 Table 6.8.1F"
     },
     {
@@ -621,6 +697,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.8,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -637,6 +715,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.75,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -653,6 +733,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.8,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -669,6 +751,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.8,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -685,6 +769,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.82,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -701,6 +787,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.8,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -717,6 +805,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.78,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -733,6 +823,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.82,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -749,6 +841,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.83,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -765,6 +859,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.84,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -781,6 +877,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.75,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -797,6 +895,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.75,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -813,6 +913,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.79,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -829,6 +931,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.8,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -845,6 +949,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.79,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -861,6 +967,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.75,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -877,6 +985,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.77,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -893,6 +1003,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.79,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -909,6 +1021,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.8,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -925,6 +1039,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.77,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -941,6 +1057,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.79,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -957,6 +1075,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.8,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -973,6 +1093,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.78,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -989,6 +1111,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.81,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -1005,6 +1129,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.83,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -1021,6 +1147,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.81,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2010 Table 6.8.1F"
     },
     {
@@ -1037,6 +1165,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.82,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2013 Table 6.8.1-6"
     },
     {
@@ -1053,6 +1183,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.8,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2013 Table 6.8.1-6"
     },
     {
@@ -1069,6 +1201,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.82,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2013 Table 6.8.1-6"
     },
     {
@@ -1085,6 +1219,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.84,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2013 Table 6.8.1-6"
     },
     {
@@ -1101,6 +1237,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.82,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2013 Table 6.8.1-6"
     },
     {
@@ -1117,6 +1255,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.84,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2013 Table 6.8.1-6"
     },
     {
@@ -1133,6 +1273,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.8,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2013 Table 6.8.1-6"
     },
     {
@@ -1149,6 +1291,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.79,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2013 Table 6.8.1-6"
     },
     {
@@ -1165,6 +1309,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.79,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2013 Table 6.8.1-6"
     },
     {
@@ -1181,6 +1327,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.77,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2013 Table 6.8.1-6"
     },
     {
@@ -1197,6 +1345,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.79,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2013 Table 6.8.1-6"
     },
     {
@@ -1213,6 +1363,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.77,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2013 Table 6.8.1-6"
     },
     {
@@ -1229,6 +1381,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.79,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2013 Table 6.8.1-6"
     },
     {
@@ -1245,6 +1399,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.82,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2013 Table 6.8.1-6"
     },
     {
@@ -1261,6 +1417,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.81,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2013 Table 6.8.1-6"
     },
     {
@@ -1277,6 +1435,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.81,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2013 Table 6.8.1-6"
     },
     {
@@ -1293,6 +1453,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.8,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2016 Table G3.5.6"
     },
     {
@@ -1309,6 +1471,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.75,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2016 Table G3.5.6"
     },
     {
@@ -1325,6 +1489,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.8,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2016 Table G3.5.6"
     },
     {
@@ -1341,6 +1507,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.8,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2019 Table G3.5.6"
     },
     {
@@ -1357,6 +1525,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.75,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2019 Table G3.5.6"
     },
     {
@@ -1373,6 +1543,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.8,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2019 Table G3.5.6"
     },
     {
@@ -1389,6 +1561,8 @@
         "minimum_annual_fuel_utilization_efficiency": 0.8,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2022 Table G3.5.6"
     },
     {
@@ -1405,6 +1579,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.75,
         "minimum_combustion_efficiency": null,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2022 Table G3.5.6"
     },
     {
@@ -1421,6 +1597,8 @@
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
         "minimum_combustion_efficiency": 0.8,
+        "standby_mode_power": null,
+        "off_mode_power": null,
         "annotation": "From 90.1-2022 Table G3.5.6"
     }
 ]

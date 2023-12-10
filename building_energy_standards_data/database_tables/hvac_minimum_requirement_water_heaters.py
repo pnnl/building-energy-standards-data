@@ -7,7 +7,7 @@ from building_energy_standards_data.database_engine.database_util import (
 RECORD_HELP = """
 Must provide a tuple that contains:
 template: TEXT
-product_class: TEXT
+equipment_type: TEXT
 fuel_type: TEXT
 minimum_capacity: NUMERIC
 maximum_capacity: NUMERIC
@@ -39,7 +39,7 @@ CREATE_HVAC_REQUIREMENT_WATER_HEATERS_TABLE = """
 CREATE TABLE IF NOT EXISTS %s
 (id INTEGER PRIMARY KEY, 
 template TEXT NOT NULL,
-product_class TEXT,
+equipment_type TEXT,
 fuel_type TEXT NOT NULL,
 minimum_capacity NUMERIC,
 maximum_capacity NUMERIC,
@@ -70,7 +70,7 @@ annotation TEXT);
 INSERT_A_WATER_HEATER_RECORD = """
     INSERT INTO %s (
 template,
-product_class,
+equipment_type,
 fuel_type,
 minimum_capacity,
 maximum_capacity,
@@ -102,7 +102,7 @@ VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 
 
 RECORD_TEMPLATE = {
     "template": "",
-    "product_class": "",
+    "equipment_type": "",
     "fuel_type": "",
     "minimum_capacity": 0.0,
     "maximum_capacity": 0.0,
@@ -154,7 +154,7 @@ class HVACMinimumRequirementWaterHeaters(DBOperation):
             "fuel_type",
             "start_date",
             "end_date",
-            "product_class",
+            "equipment_type",
             "draw_profile",
         ]
 
@@ -203,7 +203,7 @@ class HVACMinimumRequirementWaterHeaters(DBOperation):
 
         return (
             getattr_either("template", record),
-            getattr_either("product_class", record),
+            getattr_either("equipment_type", record),
             getattr_either("fuel_type", record),
             getattr_either("minimum_capacity", record),
             getattr_either("maximum_capacity", record),

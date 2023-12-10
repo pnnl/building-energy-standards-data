@@ -857,7 +857,7 @@
     {
         "template": "90.1-2019",
         "equipment_type": "Warm Air Furnace",
-        "fuel_type": "Electric",
+        "fuel_type": "Electricity",
         "electric_power_phase": null,
         "minimum_capacity": 0,
         "maximum_capacity": 224999.99,
@@ -1313,7 +1313,7 @@
     {
         "template": "90.1-2022",
         "equipment_type": "Warm Air Furnace",
-        "fuel_type": "Electric",
+        "fuel_type": "Electricity",
         "electric_power_phase": 1,
         "minimum_capacity": 0,
         "maximum_capacity": 224999.99,
@@ -1332,7 +1332,7 @@
     {
         "template": "90.1-2022",
         "equipment_type": "Warm Air Furnace",
-        "fuel_type": "Electric",
+        "fuel_type": "Electricity",
         "electric_power_phase": 1,
         "minimum_capacity": 0,
         "maximum_capacity": 224999.99,
@@ -1351,7 +1351,7 @@
     {
         "template": "90.1-2022",
         "equipment_type": "Warm Air Furnace",
-        "fuel_type": "Electric",
+        "fuel_type": "Electricity",
         "electric_power_phase": 3,
         "minimum_capacity": 0,
         "maximum_capacity": 224999.99,
