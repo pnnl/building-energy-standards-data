@@ -82,7 +82,7 @@ RECORD_TEMPLATE = {
     "minimum_thermal_efficiency": 0.0,
     "minimum_combustion_efficiency": 0.0,
     "standby_mode_power": 0.0,
-    "off_mode_power": 0.0,   
+    "off_mode_power": 0.0,
     "annotation": "",
 }
 
