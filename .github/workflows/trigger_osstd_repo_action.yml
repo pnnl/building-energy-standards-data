@@ -13,7 +13,7 @@ jobs:
             cd building-energy-standards-data
             git checkout cross_repo_actions
             cd osstd_data_update
-            export $COMMIT_ID=${{ github.sha }}
+            export COMMIT_ID=${{ github.sha }}
             ./run.sh
         # TODO: remove git checkout cross_repo_actions before merge to develop
 
