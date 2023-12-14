@@ -35,10 +35,11 @@ The equipment assumptions are based on a plug-load values derived from a project
 ### Schedules
 The schedules used in the database were determined based on the PNNL led *Development of Building-Space-Specific Loads for Performance Rating Methods* project. The schedules were derived from the [SBEM-NCN database](https://www.ncm-pcdb.org.uk/sap/page.jsp?id=7), modifications were applied to make them perceived as more realistic such as reducing the occupancy fraction during the day (as space is very rarely fully occupied), or leave a very small fraction of the lights on at night.
 ## Quick Start Guide
+Please note that if you have installed the database with `pip` you will need to add `import building_energy_standards_data` at the beginning of the code snippets shown below. Otherwise, if you are running the following code snippets from a clone of the repository, make sure to run them from the root of the directory.
 ### Create the Database
 ```python
 import sqlite3
-from applications.database_maintenance import create_openstudio_standards_database_from_json
+from building_energy_standards_data.applications.database_maintenance import create_openstudio_standards_database_from_json
 
 conn = sqlite3.connect('openstudio_standards.db')
 create_openstudio_standards_database_from_json(conn)
@@ -48,13 +49,13 @@ conn.close()
 This code will generate an `openstudio_standards_database.sql` file in the same file directory. The database can be opened using a software such as [DB Browser for SQLite](https://sqlitebrowser.org/).
 ### Export the Database Data
 ```python
-from applications.database_maintenance import export_openstudio_standards_database_to_json
+from building_energy_standards_data.applications.database_maintenance import export_openstudio_standards_database_to_json
 conn = sqlite3.connect('openstudio_standards.db')
 export_openstudio_standards_database_to_json(conn, save_dir='./database_files/')
 ```
 Assuming that `openstudio_standards.db` is a valid SQLite database name, the code above will export the content of the database tables to JSON files located in `./database_files/`. Because data tables are typically easier to read, parse, and modify in a spreadsheet format, the data tables can also be exported to CSV files. The code block below shows an example of how one can do so.
 ```python
-from applications.database_maintenance import export_openstudio_standards_database_to_csv
+from building_energy_standards_data.applications.database_maintenance import export_openstudio_standards_database_to_csv
 conn = sqlite3.connect('openstudio_standards.db')
 export_openstudio_standards_database_to_csv(conn, save_dir='./database_files/')
 ```
@@ -62,7 +63,7 @@ export_openstudio_standards_database_to_csv(conn, save_dir='./database_files/')
 The database data can be updated by modifying the JSON files directly, or the exported CSV files and then be regenerated using the following code block.
 ```python
 import sqlite3
-from applications.database_maintenance import create_openstudio_standards_database_from_csv
+from building_energy_standards_data.applications.database_maintenance import create_openstudio_standards_database_from_csv
 
 conn = sqlite3.connect('openstudio_standards.db')
 create_openstudio_standards_database_from_csv(conn)
@@ -81,7 +82,7 @@ The following code block can be used to generate the non-space type related data
 ```python
 import sqlite3
 conn = sqlite3.connect('openstudio_standards.db')
-from applications.create_openstudio_standards_json import create_openstudio_standards_data_json_ashrae_90_1
+from building_energy_standards_data.applications.create_openstudio_standards_json import create_openstudio_standards_data_json_ashrae_90_1
 for t in ["2004", "2007", "2010", "2013", "2016", "2019"]:
     create_openstudio_standards_data_json_ashrae_90_1(conn=conn, version_90_1=t)
 conn.close()
@@ -90,7 +91,7 @@ The following code block can be used to generate the space type related data nee
 ```python
 import sqlite3
 conn = sqlite3.connect('openstudio_standards.db')
-from applications.create_openstudio_standards_json import create_openstudio_standards_space_data_json_ashrae_90_1
+from building_energy_standards_data.applications.create_openstudio_standards_json import create_openstudio_standards_space_data_json_ashrae_90_1
 for t in ["2004", "2007", "2010", "2013", "2016", "2019"]:
     create_openstudio_standards_space_data_json_ashrae_90_1(conn=conn, version_90_1=t)
 conn.close()
