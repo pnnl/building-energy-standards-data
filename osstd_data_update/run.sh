@@ -29,13 +29,9 @@ rm -rf data_update
 echo "===="
 
 echo "Step 6: push new branch to OSSTD github"
+git config --global user.email "xuechen.lei@pnnl.gov"
+git config --global user.name "Xuechen (Jerry) Lei"
 git add --all
 git commit -m "data_update $COMMIT_ID"
 git push -u origin data_update_$COMMIT_ID
 echo "===="
-
-# echo "Step 7: Create PR"
-
-
-
-
