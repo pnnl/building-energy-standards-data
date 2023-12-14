@@ -1,3 +1,5 @@
+import os
+print(os.getcwd())
 import sqlite3
 conn = sqlite3.connect('openstudio_standards.db')
 from building_energy_standards_data.applications.create_openstudio_standards_json import create_openstudio_standards_data_json_ashrae_90_1
