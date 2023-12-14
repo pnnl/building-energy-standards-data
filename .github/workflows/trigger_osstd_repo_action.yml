@@ -1,7 +1,7 @@
 # majority adapt from https://dev.to/moaaz_adel/github-actions-a-simple-way-to-trigger-workflow-from-another-workflow-1b55
 name: Trigger OpenStudio Standards GitHub Action to Update Data
 run-name: ${{github.actor}} is triggering GitHub Action in OSSTD
-on: [push] # to be modified later with PR merge
+on: [push] # TODO: to be modified later with PR merge
 jobs:
   trigger-osstd-update:
     name: Trigger OpenStudio GitHub Action to initiate a PR there with data update pulling data from here.
@@ -10,9 +10,12 @@ jobs:
         - name: Update Data
           run: |
             git clone https://github.com/pnnl/building-energy-standards-data.git
-            cd building-energy-standards-data/osstd_data_update
+            cd building-energy-standards-data
+            git checkout cross_repo_actions
+            cd osstd_data_update
             export $COMMIT_ID=${{ github.sha }}
             ./run.sh
+        # TODO: remove git checkout cross_repo_actions before merge to develop
 
         - name: GitHub API to trigger PR
           run: |
