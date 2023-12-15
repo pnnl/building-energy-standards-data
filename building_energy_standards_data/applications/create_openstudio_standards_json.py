@@ -302,13 +302,14 @@ def create_openstudio_standards_space_data_json(
 
 
 def create_openstudio_standards_data_json_ashrae_90_1(
-    conn: sqlite3.Connection, version_90_1: str
+    conn: sqlite3.Connection, version_90_1: str, osstd_repository_path: str
 ) -> None:
     """
     Create and export data for a specific version of ASHRAE 90.1 to be used by OpenStudio Standards
 
     :param conn (sqlite3.Connection): database connection
     :param version_90_1 (str): code version of ASHRAE 90.1, e.g. "2004", "2007", etc.
+    :param osstd_repository_path (str): path of the local openstudio-standards repository
     """
     # Dictionary that maps OpenStudio Standards JSON data file names to database table(s)
     # The mapping defined here covers data that varies based on code version
@@ -340,6 +341,7 @@ def create_openstudio_standards_data_json_ashrae_90_1(
         code_version=version_90_1,
         template=f"90.1-{version_90_1}",
         tables_to_export=tables_to_export_90_1,
+        osstd_repository_path=osstd_repository_path,
     )
 
     # The mapping defined here covers data that does NOT vary based on code version
@@ -352,7 +354,10 @@ def create_openstudio_standards_data_json_ashrae_90_1(
 
     # Generate and "export" the data to the correct location within the OpenStudio Standards repository
     create_openstudio_standards_code_data_json(
-        conn, code="ashrae_90_1", tables_to_export=tables_to_export_90_1
+        conn,
+        code="ashrae_90_1",
+        tables_to_export=tables_to_export_90_1,
+        osstd_repository_path=osstd_repository_path,
     )
 
 
@@ -362,6 +367,7 @@ def create_openstudio_standards_code_version_data_json(
     code_version: str,
     template: str,
     tables_to_export: dict,
+    osstd_repository_path: str,
 ) -> None:
     """Extract code- and code version-specific OpenStudio Standards data from the database and export it to JSON files
     :param conn (sqlite3.Connection): database connection
@@ -369,6 +375,7 @@ def create_openstudio_standards_code_version_data_json(
     :param code_version (str): verion of the code, e.g. "2004", "2007", etc.
     :param template (str): template corresponding to the code and code version, e.g. "90.1-2004", or "90.1-2007"
     :param tables_to_export (dict): mapping of name of OpenStudio Standards JSON file name to corresponding tables from the database that contains the data for the code and code version data
+    :param osstd_repository_path (str): path of the local openstudio-standards repository
     """
     for table_type, tables in tables_to_export.items():
         logging.info(f"Creating {table_type} data")
@@ -393,7 +400,7 @@ def create_openstudio_standards_code_version_data_json(
         # Export retrieved data
         if len(file_content[table_type]) > 0:
             with open(
-                f"../../lib/openstudio-standards/standards/{code}/{code}_{code_version}/data/{code}_{code_version}.{table_type}.json",
+                f"{osstd_repository_path}/lib/openstudio-standards/standards/{code}/{code}_{code_version}/data/{code}_{code_version}.{table_type}.json",
                 "w+",
             ) as output_report:
                 output_report.write(json.dumps(file_content, indent=2))
@@ -404,13 +411,17 @@ def create_openstudio_standards_code_version_data_json(
 
 
 def create_openstudio_standards_code_data_json(
-    conn: sqlite3.Connection, code: str, tables_to_export: dict
+    conn: sqlite3.Connection,
+    code: str,
+    tables_to_export: dict,
+    osstd_repository_path: str,
 ) -> None:
     """
     Extract code version-specific OpenStudio Standards data from the database and export it to JSON files
     :param conn (sqlite3.Connection): database connection
     :param code (str): name of the building energy code, e.g. "ashrae_90_1"
     :param tables_to_export (dict): mapping of name of OpenStudio Standards JSON file name to corresponding tables from the database that contains the data for the code and code version data
+    :param osstd_repository_path (str): path of the local openstudio-standards repository
     """
     for table_type, table in tables_to_export.items():
         # Store the retrieved content from the database
@@ -429,7 +440,7 @@ def create_openstudio_standards_code_data_json(
         # Export retrieved data
         if len(file_content[table_type]) > 0:
             with open(
-                f"../../lib/openstudio-standards/standards/{code}/data/{code}.{table_type}.json",
+                f"{osstd_repository_path}/lib/openstudio-standards/standards/{code}/data/{code}.{table_type}.json",
                 "w+",
             ) as output_report:
                 output_report.write(json.dumps(file_content, indent=2))
