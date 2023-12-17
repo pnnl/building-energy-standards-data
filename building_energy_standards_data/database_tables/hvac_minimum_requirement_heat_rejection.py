@@ -95,7 +95,7 @@ class HVACMinimumRequirementHeatRejection(DBOperation):
 
         float_expected = [
             "minimum_performance_gpm_per_hp",
-            "minimum_performance_btu_per_hr_per_hp",                 
+            "minimum_performance_btu_per_hr_per_hp",
         ]
         
         for f in float_expected:
