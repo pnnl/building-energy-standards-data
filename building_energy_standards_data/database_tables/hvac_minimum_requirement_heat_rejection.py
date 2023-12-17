@@ -97,7 +97,7 @@ class HVACMinimumRequirementHeatRejection(DBOperation):
             "minimum_performance_gpm_per_hp",
             "minimum_performance_btu_per_hr_per_hp",
         ]
-        
+
         for f in float_expected:
             if record.get(f):
                 assert is_float(
@@ -111,7 +111,6 @@ class HVACMinimumRequirementHeatRejection(DBOperation):
         :param record: dict
         :return:
         """
-
         return (
             getattr_either("template", record),
             getattr_either("equipment_type", record),
