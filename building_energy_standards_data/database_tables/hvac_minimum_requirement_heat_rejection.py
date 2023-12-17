@@ -9,9 +9,11 @@ Must provide a tuple that contains:
 template: TEXT
 equipment_type: TEXT
 fan_type: TEXT
+test_fluid: TEXT
 start_date: TEXT
 end_date: TEXT
 minimum_performance_gpm_per_hp: NUMERIC
+minimum_performance_btu_per_hr_per_hp: NUMERIC
 annotation: TEXT (optional)
 """
 
@@ -20,10 +22,12 @@ CREATE TABLE IF NOT EXISTS %s
 (id INTEGER PRIMARY KEY, 
 template TEXT NOT NULL, 
 equipment_type TEXT NOT NULL,
-fan_type TEXT NOT NULL,
+fan_type TEXT,
+test_fluid TEXT,
 start_date TEXT NOT NULL,
 end_date TEXT NOT NULL,
-minimum_performance_gpm_per_hp NUMERIC NOT NULL,
+minimum_performance_gpm_per_hp NUMERIC,
+minimum_performance_btu_per_hr_per_hp NUMERIC,
 annotation TEXT);
 """
 
@@ -32,21 +36,25 @@ INSERT_A_HEAT_REJECTION_RECORD = """
 template, 
 equipment_type,
 fan_type,
+test_fluid,
 start_date,
 end_date,
 minimum_performance_gpm_per_hp,
+minimum_performance_btu_per_hr_per_hp,
 annotation
 ) 
-VALUES (?, ?, ?, ? ,? , ?, ?);
+VALUES (?, ?, ?, ? ,? , ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
     "template": "",
     "equipment_type": "",
     "fan_type": "",
+    "test_fluid": "",
     "start_date": "",
     "end_date": "",
     "minimum_performance_gpm_per_hp": 0.0,
+    "minimum_performance_btu_per_hr_per_hp": 0.0,
     "annotation": "",
 }
 
@@ -76,6 +84,7 @@ class HVACMinimumRequirementHeatRejection(DBOperation):
             "start_date",
             "end_date",
             "fan_type",
+            "test_fluid",
         ]
 
         for f in str_expected:
@@ -84,10 +93,16 @@ class HVACMinimumRequirementHeatRejection(DBOperation):
                     record[f], str
                 ), f"{f} requires to be a string, instead got {record[f]}"
 
-        if record.get("minimum_performance_gpm_per_hp"):
-            assert is_float(
-                record.get("minimum_performance_gpm_per_hp")
-            ), f"minimum_performance_gpm_per_hp requires to be numeric data type, instead got {record['minimum_performance_gpm_per_hp']}"
+        float_expected = [
+            "minimum_performance_gpm_per_hp",
+            "minimum_performance_btu_per_hr_per_hp",                 
+        ]
+        
+        for f in float_expected:
+            if record.get(f):
+                assert is_float(
+                    record.get(f)
+                ), f"{f} requires to be numeric data type, instead got {record[f]}"
         return True
 
     def _preprocess_record(self, record):
@@ -101,8 +116,10 @@ class HVACMinimumRequirementHeatRejection(DBOperation):
             getattr_either("template", record),
             getattr_either("equipment_type", record),
             getattr_either("fan_type", record),
+            getattr_either("test_fluid", record),
             getattr_either("start_date", record),
             getattr_either("end_date", record),
             getattr_either("minimum_performance_gpm_per_hp", record),
+            getattr_either("minimum_performance_btu_per_hr_per_hp", record),
             getattr_either("annotation", record),
         )
