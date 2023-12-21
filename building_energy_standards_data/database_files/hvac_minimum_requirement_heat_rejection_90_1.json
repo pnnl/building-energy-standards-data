@@ -45,7 +45,7 @@
     },
     {
         "template": "90.1-2004",
-        "equipment_type": "AirCooled Condensers",
+        "equipment_type": "Air Cooled Condensers",
         "fan_type": null,
         "test_fluid": null,
         "start_date": "9/9/1919",
@@ -111,7 +111,7 @@
     },
     {
         "template": "90.1-2007",
-        "equipment_type": "AirCooled Condensers",
+        "equipment_type": "Air Cooled Condensers",
         "fan_type": null,
         "test_fluid": null,
         "start_date": "9/9/1919",
@@ -177,7 +177,7 @@
     },
     {
         "template": "90.1-2010",
-        "equipment_type": "AirCooled Condensers",
+        "equipment_type": "Air Cooled Condensers",
         "fan_type": null,
         "test_fluid": null,
         "start_date": "9/9/1919",
@@ -287,7 +287,7 @@
     },
     {
         "template": "90.1-2013",
-        "equipment_type": "AirCooled Condensers",
+        "equipment_type": "Air Cooled Condensers",
         "fan_type": null,
         "test_fluid": null,
         "start_date": "9/9/1919",
@@ -397,7 +397,7 @@
     },
     {
         "template": "90.1-2016",
-        "equipment_type": "AirCooled Condensers",
+        "equipment_type": "Air Cooled Condensers",
         "fan_type": null,
         "test_fluid": null,
         "start_date": "9/9/1919",
@@ -507,7 +507,7 @@
     },
     {
         "template": "90.1-2019",
-        "equipment_type": "AirCooled Condensers",
+        "equipment_type": "Air Cooled Condensers",
         "fan_type": null,
         "test_fluid": null,
         "start_date": "9/9/1919",
@@ -617,7 +617,7 @@
     },
     {
         "template": "90.1-2022",
-        "equipment_type": "AirCooled Condensers",
+        "equipment_type": "Air Cooled Condensers",
         "fan_type": null,
         "test_fluid": null,
         "start_date": "9/9/1919",
