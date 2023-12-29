@@ -7,7 +7,9 @@ from building_energy_standards_data.database_tables.hvac_minimum_requirement_hea
 TABLE_NAME = "hvac_minimum_requirement_heat_rejection_90_1_prm"
 
 
-class HVACMinimumRequirementHeatRejection901PRMTable(HVACMinimumRequirementHeatRejection):
+class HVACMinimumRequirementHeatRejection901PRMTable(
+    HVACMinimumRequirementHeatRejection
+):
     def __init__(self):
         super(HVACMinimumRequirementHeatRejection901PRMTable, self).__init__(
             table_name=TABLE_NAME,
