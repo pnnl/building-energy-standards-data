@@ -25,5 +25,5 @@ jobs:
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer ${{ secrets.JERRY_ACTIONS_KEY }}" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
-            https://api.github.com/repos/pnnl/building-energy-standards-data/pulls \
-            -d '{"title":"Pull Data from building-energy-standards-data repo","body":"Automated PR created by Github Action from the BES Data repository (with Commit ID: ${{ github.sha }}), to update OSSTD data. Human review is needed.","head":"data_update","base":"develop"}'
+            https://api.github.com/repos/NREL/openstudio-standards/pulls \
+            -d '{"title":"Pull Data from building-energy-standards-data repo","body":"Automated PR created by Github Action from the BES Data repository (with Commit ID: ${{ github.sha }}), to update OSSTD data. Human review is needed.","head":"data_update","base":"master"}'
