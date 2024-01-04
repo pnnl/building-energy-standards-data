@@ -34,5 +34,5 @@ git config --global user.name "Xuechen (Jerry) Lei"
 git add --all
 git commit -m "data_update $COMMIT_ID"
 git remote set-url origin https://leijerry888:$GHTOKEN@github.com/NREL/openstudio-standards.git
-git push -u origin data_update_$COMMIT_ID
+git push -u origin data_update
 echo "===="
