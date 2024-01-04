@@ -6,7 +6,7 @@ cd openstudio-standards
 echo "===="
 
 echo "Step 2: Create new branch data_update_$COMMIT_ID in OSSTD"
-git checkout -b data_update_$COMMIT_ID
+git checkout -b data_update
 echo "===="
 
 echo "Step 3: Clone data repo"
