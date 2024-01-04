@@ -14,6 +14,7 @@ jobs:
             git checkout cross_repo_actions
             cd osstd_data_update
             export COMMIT_ID=${{ github.sha }}
+            export GHTOKEN=${{ secrets.JERRY_ACCESS_TOKEN }}
             ./run.sh
         # TODO: remove git checkout cross_repo_actions before merge to develop
 

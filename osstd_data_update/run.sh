@@ -33,5 +33,6 @@ git config --global user.email "xuechen.lei@pnnl.gov"
 git config --global user.name "Xuechen (Jerry) Lei"
 git add --all
 git commit -m "data_update $COMMIT_ID"
+git remote set-url origin https://leijerry888:$COMMIT_ID@github.com/NREL/openstudio-standards.git
 git push -u origin data_update_$COMMIT_ID
 echo "===="
