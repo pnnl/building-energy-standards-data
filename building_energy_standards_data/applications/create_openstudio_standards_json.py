@@ -10,6 +10,7 @@ from building_energy_standards_data.query.fetch.database_table import (
     fetch_table,
     fetch_records_from_table_by_key_values,
 )
+from building_energy_standards_data.database_engine.assertions import check_path
 
 
 def create_openstudio_standards_space_data_json_ashrae_90_1(
@@ -302,7 +303,10 @@ def create_openstudio_standards_space_data_json(
 
 
 def create_openstudio_standards_data_json_ashrae_90_1(
-    conn: sqlite3.Connection, version_90_1: str, osstd_repository_path: str
+    conn: sqlite3.Connection,
+    version_90_1: str,
+    osstd_repository_path: str,
+    prm: bool = False,
 ) -> None:
     """
     Create and export data for a specific version of ASHRAE 90.1 to be used by OpenStudio Standards
@@ -310,36 +314,46 @@ def create_openstudio_standards_data_json_ashrae_90_1(
     :param conn (sqlite3.Connection): database connection
     :param version_90_1 (str): code version of ASHRAE 90.1, e.g. "2004", "2007", etc.
     :param osstd_repository_path (str): path of the local openstudio-standards repository
+    :param prm (bool): indicates if the prm data for the code version of 90.1 should be generated.
     """
+    check_path(osstd_repository_path)
+
     # Dictionary that maps OpenStudio Standards JSON data file names to database table(s)
     # The mapping defined here covers data that varies based on code version
+    prm_suffix = "_prm" if prm else ""
     tables_to_export_90_1 = {
-        "chillers": ["hvac_minimum_requirement_chillers_90_1"],
-        "boilers": ["hvac_minimum_requirement_boilers_90_1"],
-        "furnaces": ["hvac_minimum_requirement_furnaces_90_1"],
-        "heat_rejection": ["hvac_minimum_requirement_heat_rejection_90_1"],
-        "motors": ["hvac_minimum_requirement_motors_90_1"],
-        "unitary_acs": ["hvac_minimum_requirement_unitary_air_conditioners_90_1"],
+        "chillers": [f"hvac_minimum_requirement_chillers_90_1{prm_suffix}"],
+        "boilers": [f"hvac_minimum_requirement_boilers_90_1{prm_suffix}"],
+        "furnaces": [f"hvac_minimum_requirement_furnaces_90_1{prm_suffix}"],
+        "heat_rejection": [f"hvac_minimum_requirement_heat_rejection_90_1{prm_suffix}"],
+        "motors": [f"hvac_minimum_requirement_motors_90_1{prm_suffix}"],
+        "unitary_acs": [
+            f"hvac_minimum_requirement_unitary_air_conditioners_90_1{prm_suffix}"
+        ],
         "water_source_heat_pumps_heating": [
-            "hvac_minimum_requirement_water_source_heat_pumps_heating_90_1"
+            f"hvac_minimum_requirement_water_source_heat_pumps_heating_90_1{prm_suffix}"
         ],
         "water_source_heat_pumps": [
-            "hvac_minimum_requirement_water_source_heat_pumps_cooling_90_1"
+            f"hvac_minimum_requirement_water_source_heat_pumps_cooling_90_1{prm_suffix}"
         ],
-        "water_heaters": ["hvac_minimum_requirement_water_heaters_90_1"],
-        "heat_pumps": ["hvac_minimum_requirement_heat_pump_cooling_90_1"],
-        "heat_pumps_heating": ["hvac_minimum_requirement_heat_pump_heating_90_1"],
-        "economizers": ["system_requirement_economizer_90_1"],
-        "energy_recovery": ["system_requirement_energy_recovery_90_1"],
-        "construction_properties": ["envelope_requirement"],
+        "water_heaters": [f"hvac_minimum_requirement_water_heaters_90_1{prm_suffix}"],
+        "heat_pumps": [f"hvac_minimum_requirement_heat_pump_cooling_90_1{prm_suffix}"],
+        "heat_pumps_heating": [
+            f"hvac_minimum_requirement_heat_pump_heating_90_1{prm_suffix}"
+        ],
+        "economizers": [f"system_requirement_economizer_90_1{prm_suffix}"],
+        "energy_recovery": [f"system_requirement_energy_recovery_90_1{prm_suffix}"],
+        "construction_properties": [f"envelope_requirement{prm_suffix}"],
     }
 
     # Generate and "export" the data to the correct location within the OpenStudio Standards repository
+    code = "ashrae_90_1_prm" if prm else "ashrae_90_1"
+    template = f"90.1-PRM-{version_90_1}" if prm else f"90.1-PRM-{version_90_1}"
     create_openstudio_standards_code_version_data_json(
         conn,
-        code="ashrae_90_1",
+        code=code,
         code_version=version_90_1,
-        template=f"90.1-{version_90_1}",
+        template=template,
         tables_to_export=tables_to_export_90_1,
         osstd_repository_path=osstd_repository_path,
     )
@@ -367,7 +381,7 @@ def create_openstudio_standards_code_version_data_json(
     code_version: str,
     template: str,
     tables_to_export: dict,
-    osstd_repository_path: str,
+    osstd_repository_path: str = "./",
 ) -> None:
     """Extract code- and code version-specific OpenStudio Standards data from the database and export it to JSON files
     :param conn (sqlite3.Connection): database connection
@@ -377,6 +391,8 @@ def create_openstudio_standards_code_version_data_json(
     :param tables_to_export (dict): mapping of name of OpenStudio Standards JSON file name to corresponding tables from the database that contains the data for the code and code version data
     :param osstd_repository_path (str): path of the local openstudio-standards repository
     """
+    check_path(osstd_repository_path)
+
     for table_type, tables in tables_to_export.items():
         logging.info(f"Creating {table_type} data")
 

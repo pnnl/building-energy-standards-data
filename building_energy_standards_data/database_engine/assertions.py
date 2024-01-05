@@ -1,4 +1,4 @@
-import logging
+import logging, os
 
 
 class OpenStudioStandardsDataException(Exception):
@@ -21,6 +21,33 @@ class MissingKeyException(OpenStudioStandardsDataException):
     def __init__(self, object_name, first_key):
         message = f"{object_name} is missing {'one of the fields in: ' if isinstance(first_key, list) else ''}{first_key}"
         super().__init__(message)
+
+
+class PathNotFound(OpenStudioStandardsDataException):
+    def __init__(self, path):
+        message = f"{path} cannot be found"
+        super().__init__(message)
+
+
+def check_path(path):
+    """Check that a path exists
+
+    Parameters
+    ----------
+    path : str
+        String that represent a path to a directory
+
+    Returns
+    -------
+    True: if the path is valid
+
+    Raises:
+    ------
+        PathNotFound: the path is not valid
+    """
+    if not os.path.exists(path):
+        raise PathNotFound(path)
+    return True
 
 
 def getattr_(obj, obj_name: str, first_key, *remaining_keys):
