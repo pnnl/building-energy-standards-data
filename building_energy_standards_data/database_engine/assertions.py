@@ -25,7 +25,7 @@ class MissingKeyException(OpenStudioStandardsDataException):
 
 class PathNotFound(OpenStudioStandardsDataException):
     def __init__(self, path):
-        message = f"{path} cannot be found"
+        message = f"The path {path} cannot be found"
         super().__init__(message)
 
 
@@ -45,6 +45,8 @@ def check_path(path):
     ------
         PathNotFound: the path is not valid
     """
+    if path is None:
+        raise PathNotFound(path)
     if not os.path.exists(path):
         raise PathNotFound(path)
     return True
