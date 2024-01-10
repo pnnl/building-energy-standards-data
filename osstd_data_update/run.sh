@@ -6,7 +6,7 @@ cd openstudio-standards
 echo "===="
 
 echo "Step 2: Create new branch data_update_$COMMIT_ID in OSSTD"
-git checkout -b data_update
+git checkout -b data_update_${COMMIT_ID:0:7}
 echo "===="
 
 echo "Step 3: Clone data repo"
@@ -28,11 +28,11 @@ cd ../../
 rm -rf data_update
 echo "===="
 
-echo "Step 6: push new branch to OSSTD github $GHTOKEN (REPLACE TOKEN AFTER TEST!!!)"
+echo "Step 6: push new branch to OSSTD github"
 git config --global user.email "xuechen.lei@pnnl.gov"
 git config --global user.name "Xuechen (Jerry) Lei"
 git add --all
 git commit -m "data_update $COMMIT_ID"
 git remote set-url origin https://leijerry888:$GHTOKEN@github.com/NREL/openstudio-standards.git
-git push -u origin data_update
+git push -u origin data_update_${COMMIT_ID:0:7}
 echo "===="
