@@ -25,13 +25,11 @@ from building_energy_standards_data.applications.create_openstudio_standards_jso
 
 for t in ["2004", "2007", "2010", "2013", "2016", "2019"]:
     create_openstudio_standards_data_json_ashrae_90_1(
-        conn=conn, version_90_1=t, osstd_repository_path="../openstudio-standards"
+        conn=conn, version_90_1=t, osstd_repository_path="../.."
     )
-conn.close()
-
 
 for t in ["2019"]:
     create_openstudio_standards_data_json_ashrae_90_1(
-        conn=conn, version_90_1=t, osstd_repository_path="../OSSTD-T1.1", prm=True
+        conn=conn, version_90_1=t, osstd_repository_path="../..", prm=True
     )
 conn.close()
