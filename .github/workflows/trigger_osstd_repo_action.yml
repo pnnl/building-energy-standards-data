@@ -21,6 +21,9 @@ jobs:
 
         - name: GitHub API to trigger PR
           run: |
+            export COMMIT_ID=${{ github.sha }}
+            export SHORT_COMMIT_ID=${COMMIT_ID:0:7}
+            echo "Using GitHub API to create PR on branch data_update $SHORT_COMMIT_ID"
             curl -L \
             -X POST \
             -H "Accept: application/vnd.github+json" \
