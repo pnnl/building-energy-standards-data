@@ -8,7 +8,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 20,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE 503.2.3(11)"
+        "annotation": "From IECC-2006 Table 503.2.3(11)"
     },
     {
         "template": "IECC-2006",
@@ -19,7 +19,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 38.2,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE 503.2.3(11)"
+        "annotation": "From IECC-2006 Table 503.2.3(11)"
     },
     {
         "template": "IECC-2006",
@@ -30,7 +30,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 20,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE 503.2.3(11)"
+        "annotation": "From IECC-2006 Table 503.2.3(11)"
     },
     {
         "template": "IECC-2006",
@@ -41,7 +41,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 38.2,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE 503.2.3(11)"
+        "annotation": "From IECC-2006 Table 503.2.3(11)"
     },
     {
         "template": "IECC-2006",
@@ -52,7 +52,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 176000,
-        "annotation": "From TABLE 503.2.3(11)"
+        "annotation": "From IECC-2006 Table 503.2.3(11)"
     },
     {
         "template": "IECC-2006",
@@ -74,7 +74,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 20,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE 503.2.3(8)"
+        "annotation": "From IECC-2009 Table 503.2.3(8)"
     },
     {
         "template": "IECC-2009",
@@ -85,7 +85,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 38.2,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE 503.2.3(8)"
+        "annotation": "From IECC-2009 Table 503.2.3(8)"
     },
     {
         "template": "IECC-2009",
@@ -96,7 +96,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 20,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE 503.2.3(8)"
+        "annotation": "From IECC-2009 Table 503.2.3(8)"
     },
     {
         "template": "IECC-2009",
@@ -107,7 +107,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 38.2,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE 503.2.3(8)"
+        "annotation": "From IECC-2009 Table 503.2.3(8)"
     },
     {
         "template": "IECC-2009",
@@ -118,7 +118,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 176000,
-        "annotation": "From TABLE 503.2.3(8)"
+        "annotation": "From IECC-2009 Table 503.2.3(8)"
     },
     {
         "template": "IECC-2009",
@@ -140,7 +140,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 20,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2012 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2012",
@@ -151,7 +151,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 38.2,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2012 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2012",
@@ -162,7 +162,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 7,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2012 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2012",
@@ -173,7 +173,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 14,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2012 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2012",
@@ -184,7 +184,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 176000,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2012 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2012",
@@ -206,7 +206,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 20,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2015 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2015",
@@ -217,7 +217,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 40.2,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2015 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2015",
@@ -228,7 +228,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 7,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2015 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2015",
@@ -239,7 +239,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 14,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2015 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2015",
@@ -250,7 +250,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 135000,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2015 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2015",
@@ -261,7 +261,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 157000,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2015 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2015",
@@ -272,7 +272,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 110000,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2015 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2015",
@@ -283,7 +283,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 134000,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2015 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2015",
@@ -294,7 +294,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 176000,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2015 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2015",
@@ -316,7 +316,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 20,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2018 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2018",
@@ -327,7 +327,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 40.2,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2018 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2018",
@@ -338,7 +338,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 7,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2018 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2018",
@@ -349,7 +349,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 16.1,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2018 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2018",
@@ -360,7 +360,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 135000,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2018 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2018",
@@ -371,7 +371,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 157000,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2018 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2018",
@@ -382,7 +382,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 110000,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2018 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2018",
@@ -393,7 +393,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 134000,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2018 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2018",
@@ -404,7 +404,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 176000,
-        "annotation": "From TABLE C403.2.3(8)"
+        "annotation": "From IECC-2018 Table C403.2.3(8)"
     },
     {
         "template": "IECC-2018",
@@ -426,7 +426,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 20,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(7)"
+        "annotation": "From IECC-2021 Table C403.2.3(7)"
     },
     {
         "template": "IECC-2021",
@@ -437,7 +437,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 40.2,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(7)"
+        "annotation": "From IECC-2021 Table C403.2.3(7)"
     },
     {
         "template": "IECC-2021",
@@ -448,7 +448,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 7,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(7)"
+        "annotation": "From IECC-2021 Table C403.2.3(7)"
     },
     {
         "template": "IECC-2021",
@@ -459,7 +459,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 16.1,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(7)"
+        "annotation": "From IECC-2021 Table C403.2.3(7)"
     },
     {
         "template": "IECC-2021",
@@ -470,7 +470,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 137000,
-        "annotation": "From TABLE C403.2.3(7)"
+        "annotation": "From IECC-2021 Table C403.2.3(7)"
     },
     {
         "template": "IECC-2021",
@@ -481,7 +481,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 160000,
-        "annotation": "From TABLE C403.2.3(7)"
+        "annotation": "From IECC-2021 Table C403.2.3(7)"
     },
     {
         "template": "IECC-2021",
@@ -492,7 +492,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 110000,
-        "annotation": "From TABLE C403.2.3(7)"
+        "annotation": "From IECC-2021 Table C403.2.3(7)"
     },
     {
         "template": "IECC-2021",
@@ -503,7 +503,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 134000,
-        "annotation": "From TABLE C403.2.3(7)"
+        "annotation": "From IECC-2021 Table C403.2.3(7)"
     },
     {
         "template": "IECC-2021",
@@ -514,7 +514,7 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 176000,
-        "annotation": "From TABLE C403.2.3(7)"
+        "annotation": "From IECC-2021 Table C403.2.3(7)"
     },
     {
         "template": "IECC-2021",
@@ -525,6 +525,6 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 4.5,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From TABLE C403.2.3(7)"
+        "annotation": "From IECC-2021 Table C403.2.3(7)"
     }
 ]
