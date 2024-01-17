@@ -1,7 +1,7 @@
 # majority adapt from https://dev.to/moaaz_adel/github-actions-a-simple-way-to-trigger-workflow-from-another-workflow-1b55
 name: Trigger OpenStudio Standards GitHub Action to Update Data
 run-name: ${{github.actor}} is triggering GitHub Action in OSSTD
-on: [push] # TODO: to be modified later with PR merge
+on: workflow_dispatch
 jobs:
   trigger-osstd-update:
     name: Trigger OpenStudio GitHub Action to initiate a PR there with data update pulling data from here.
