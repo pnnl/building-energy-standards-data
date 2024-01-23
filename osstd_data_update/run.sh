@@ -31,7 +31,8 @@ echo "===="
 echo "Step 6: push new branch to OSSTD github (currently updating boiler (**/*boiler*.json) data only)"
 git config --global user.email "xuechen.lei@pnnl.gov"
 git config --global user.name "Xuechen (Jerry) Lei"
-git add **/*boiler*.json
+#git add **/*boiler*.json
+git add **/*chiller*.json
 git commit -m "data_update (boiler_only) ${COMMIT_ID:0:7}"
 git remote set-url origin https://leijerry888:$GHTOKEN@github.com/NREL/openstudio-standards.git
 git push -u origin data_update_${COMMIT_ID:0:7}
