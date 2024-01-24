@@ -12,7 +12,6 @@ jobs:
           run: |
             git clone https://github.com/pnnl/building-energy-standards-data.git
             cd building-energy-standards-data
-            git checkout cross_repo_actions
             cd osstd_data_update
             export COMMIT_ID=${{ github.sha }}
             echo "shortsha=${COMMIT_ID:0:7}" >> $GITHUB_OUTPUT
