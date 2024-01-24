@@ -18,8 +18,8 @@ minimum_capacity: NUMERIC
 maximum_capacity: NUMERIC
 start_date: TEXT
 end_date: TEXT
-minimum_seasonal_efficiency: NUMERIC
-minimum_seasonal_efficiency_2: NUMERIC
+minimum_seasonal_energy_efficiency_ratio: NUMERIC
+minimum_seasonal_energy_efficiency_ratio_2: NUMERIC
 minimum_energy_efficiency_ratio: NUMERIC
 minimum_energy_efficiency_ratio_2: NUMERIC
 minimum_integrated_part_load_value: NUMERIC
@@ -46,8 +46,8 @@ minimum_capacity NUMERIC,
 maximum_capacity NUMERIC,
 start_date TEXT,
 end_date TEXT,
-minimum_seasonal_efficiency NUMERIC,
-minimum_seasonal_efficiency_2 NUMERIC,
+minimum_seasonal_energy_efficiency_ratio NUMERIC,
+minimum_seasonal_energy_efficiency_ratio_2 NUMERIC,
 minimum_energy_efficiency_ratio NUMERIC,
 minimum_energy_efficiency_ratio_2 NUMERIC,
 minimum_integrated_part_load_value NUMERIC,
@@ -73,8 +73,8 @@ minimum_capacity,
 maximum_capacity,
 start_date,
 end_date,
-minimum_seasonal_efficiency,
-minimum_seasonal_efficiency_2,
+minimum_seasonal_energy_efficiency_ratio,
+minimum_seasonal_energy_efficiency_ratio_2,
 minimum_energy_efficiency_ratio,
 minimum_energy_efficiency_ratio_2,
 minimum_integrated_part_load_value,
@@ -101,8 +101,8 @@ RECORD_TEMPLATE = {
     "maximum_capacity": 0.0,
     "start_date": "",
     "end_date": "",
-    "minimum_seasonal_efficiency": 0.0,
-    "minimum_seasonal_efficiency_2": 0.0,
+    "minimum_seasonal_energy_efficiency_ratio": 0.0,
+    "minimum_seasonal_energy_efficiency_ratio_2": 0.0,
     "minimum_energy_efficiency_ratio": 0.0,
     "minimum_energy_efficiency_ratio_2": 0.0,
     "minimum_integrated_part_load_value": 0.0,
@@ -156,8 +156,8 @@ class HVACMinimumRequirementUnitaryAirConditioners(DBOperation):
             "electric_power_phase",
             "minimum_capacity",
             "maximum_capacity",
-            "minimum_seasonal_efficiency",
-            "minimum_seasonal_efficiency_2",
+            "minimum_seasonal_energy_efficiency_ratio",
+            "minimum_seasonal_energy_efficiency_ratio_2",
             "minimum_energy_efficiency_ratio",
             "minimum_energy_efficiency_ratio_2",
             "minimum_integrated_part_load_value",
@@ -195,8 +195,8 @@ class HVACMinimumRequirementUnitaryAirConditioners(DBOperation):
             getattr_either("maximum_capacity", record),
             getattr_either("start_date", record),
             getattr_either("end_date", record),
-            getattr_either("minimum_seasonal_efficiency", record),
-            getattr_either("minimum_seasonal_efficiency_2", record),
+            getattr_either("minimum_seasonal_energy_efficiency_ratio", record),
+            getattr_either("minimum_seasonal_energy_efficiency_ratio_2", record),
             getattr_either("minimum_energy_efficiency_ratio", record),
             getattr_either("minimum_energy_efficiency_ratio_2", record),
             getattr_either("minimum_integrated_part_load_value", record),
