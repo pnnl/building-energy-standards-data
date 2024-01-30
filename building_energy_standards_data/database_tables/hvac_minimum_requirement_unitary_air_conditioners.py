@@ -28,6 +28,7 @@ minimum_combined_energy_efficiency_ratio: NUMERIC
 ptac_eer_coefficient_1: NUMERIC
 ptac_eer_coefficient_2: NUMERIC
 off_mode_power: NUMERIC
+minimum_coefficient_of_performance_no_fan_cooling: NUMERIC
 annotation: TEXT (optional)
 """
 
@@ -56,6 +57,7 @@ minimum_combined_energy_efficiency_ratio NUMERIC,
 ptac_eer_coefficient_1 NUMERIC,
 ptac_eer_coefficient_2 NUMERIC,
 off_mode_power NUMERIC,
+minimum_coefficient_of_performance_no_fan_cooling NUMERIC,
 annotation TEXT);
 """
 
@@ -83,9 +85,10 @@ minimum_combined_energy_efficiency_ratio,
 ptac_eer_coefficient_1,
 ptac_eer_coefficient_2,
 off_mode_power,
+minimum_coefficient_of_performance_no_fan_cooling,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -111,6 +114,7 @@ RECORD_TEMPLATE = {
     "ptac_eer_coefficient_1": 0.0,
     "ptac_eer_coefficient_2": 0.0,
     "off_mode_power": 0.0,
+    "minimum_coefficient_of_performance_no_fan_cooling": 0.0,
     "annotation": "",
 }
 
@@ -166,6 +170,7 @@ class HVACMinimumRequirementUnitaryAirConditioners(DBOperation):
             "ptac_eer_coefficient_1",
             "ptac_eer_coefficient_2",
             "off_mode_power",
+            "minimum_coefficient_of_performance_no_fan_cooling",
         ]
 
         for f in float_expected:
@@ -205,5 +210,6 @@ class HVACMinimumRequirementUnitaryAirConditioners(DBOperation):
             getattr_either("ptac_eer_coefficient_1", record),
             getattr_either("ptac_eer_coefficient_2", record),
             getattr_either("off_mode_power", record),
+            getattr_either("minimum_coefficient_of_performance_no_fan_cooling", record),
             getattr_either("annotation", record),
         )
