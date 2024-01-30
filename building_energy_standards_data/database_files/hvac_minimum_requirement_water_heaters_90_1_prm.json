@@ -1,7 +1,7 @@
 [
     {
         "template": "90.1-PRM-2004",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -30,7 +30,7 @@
     },
     {
         "template": "90.1-PRM-2004",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 40944.01,
         "maximum_capacity": 99999999,
@@ -581,7 +581,7 @@
     },
     {
         "template": "90.1-PRM-2007",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -610,7 +610,7 @@
     },
     {
         "template": "90.1-PRM-2007",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 40944.01,
         "maximum_capacity": 99999999,
@@ -1190,7 +1190,7 @@
     },
     {
         "template": "90.1-PRM-2010",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -1219,7 +1219,7 @@
     },
     {
         "template": "90.1-PRM-2010",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 40944.01,
         "maximum_capacity": 99999999,
@@ -1799,7 +1799,7 @@
     },
     {
         "template": "90.1-PRM-2013",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -1828,7 +1828,7 @@
     },
     {
         "template": "90.1-PRM-2013",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 40944.01,
         "maximum_capacity": 99999999,
@@ -2408,7 +2408,7 @@
     },
     {
         "template": "90.1-PRM-2016",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -2437,7 +2437,7 @@
     },
     {
         "template": "90.1-PRM-2016",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -2466,7 +2466,7 @@
     },
     {
         "template": "90.1-PRM-2016",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 40944.01,
         "maximum_capacity": 99999999,
@@ -3162,7 +3162,7 @@
     },
     {
         "template": "90.1-PRM-2019",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -3191,7 +3191,7 @@
     },
     {
         "template": "90.1-PRM-2019",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -3220,7 +3220,7 @@
     },
     {
         "template": "90.1-PRM-2019",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -3249,7 +3249,7 @@
     },
     {
         "template": "90.1-PRM-2019",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -3278,7 +3278,7 @@
     },
     {
         "template": "90.1-PRM-2019",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -3307,7 +3307,7 @@
     },
     {
         "template": "90.1-PRM-2019",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -3336,7 +3336,7 @@
     },
     {
         "template": "90.1-PRM-2019",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -3365,7 +3365,7 @@
     },
     {
         "template": "90.1-PRM-2019",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -3394,7 +3394,7 @@
     },
     {
         "template": "90.1-PRM-2019",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 40944.01,
         "maximum_capacity": 99999999,
@@ -4873,7 +4873,7 @@
     },
     {
         "template": "90.1-PRM-2022",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -4902,7 +4902,7 @@
     },
     {
         "template": "90.1-PRM-2022",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -4931,7 +4931,7 @@
     },
     {
         "template": "90.1-PRM-2022",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -4960,7 +4960,7 @@
     },
     {
         "template": "90.1-PRM-2022",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -4989,7 +4989,7 @@
     },
     {
         "template": "90.1-PRM-2022",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -5018,7 +5018,7 @@
     },
     {
         "template": "90.1-PRM-2022",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -5047,7 +5047,7 @@
     },
     {
         "template": "90.1-PRM-2022",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -5076,7 +5076,7 @@
     },
     {
         "template": "90.1-PRM-2022",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -5105,7 +5105,7 @@
     },
     {
         "template": "90.1-PRM-2022",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 40944.01,
         "maximum_capacity": 99999999,
