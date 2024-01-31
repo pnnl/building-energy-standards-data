@@ -22,6 +22,7 @@
         "ptac_eer_coefficient_1": 12.5,
         "ptac_eer_coefficient_2": 0.213,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1D"
     },
     {
@@ -47,6 +48,7 @@
         "ptac_eer_coefficient_1": 10.9,
         "ptac_eer_coefficient_2": 0.213,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1D"
     },
     {
@@ -72,6 +74,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1D"
     },
     {
@@ -97,6 +100,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1D"
     },
     {
@@ -122,6 +126,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1D"
     },
     {
@@ -147,6 +152,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1D"
     },
     {
@@ -172,6 +178,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1D"
     },
     {
@@ -197,6 +204,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1D"
     },
     {
@@ -222,6 +230,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1D"
     },
     {
@@ -247,6 +256,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1D"
     },
     {
@@ -272,6 +282,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1D"
     },
     {
@@ -297,6 +308,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1D"
     },
     {
@@ -322,6 +334,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1D"
     },
     {
@@ -347,6 +360,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -372,6 +386,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -397,6 +412,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -422,6 +438,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -447,6 +464,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -472,6 +490,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -497,6 +516,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -522,6 +542,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -547,6 +568,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -572,6 +594,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -597,6 +620,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -622,6 +646,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -647,6 +672,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -672,6 +698,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -697,6 +724,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -722,6 +750,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -747,6 +776,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -772,6 +802,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -797,6 +828,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -822,6 +854,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -847,6 +880,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -872,6 +906,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -897,6 +932,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -922,6 +958,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -947,6 +984,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -972,6 +1010,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -997,6 +1036,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1022,6 +1062,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1047,6 +1088,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1072,6 +1114,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1097,6 +1140,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1122,6 +1166,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1147,6 +1192,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1172,6 +1218,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1197,6 +1244,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1222,6 +1270,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1247,6 +1296,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1272,6 +1322,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1297,6 +1348,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1322,6 +1374,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1347,6 +1400,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1372,6 +1426,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1397,6 +1452,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1422,6 +1478,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1447,6 +1504,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1472,6 +1530,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1497,6 +1556,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1522,6 +1582,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1547,6 +1608,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1572,6 +1634,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1597,6 +1660,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1622,6 +1686,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1647,6 +1712,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1672,6 +1738,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1697,6 +1764,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1722,6 +1790,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1747,6 +1816,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1772,6 +1842,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2004 Table 6.8.1A"
     },
     {
@@ -1797,6 +1868,7 @@
         "ptac_eer_coefficient_1": 12.5,
         "ptac_eer_coefficient_2": 0.213,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1D"
     },
     {
@@ -1822,6 +1894,7 @@
         "ptac_eer_coefficient_1": 10.9,
         "ptac_eer_coefficient_2": 0.213,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1D"
     },
     {
@@ -1847,6 +1920,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1D"
     },
     {
@@ -1872,6 +1946,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1D"
     },
     {
@@ -1897,6 +1972,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1D"
     },
     {
@@ -1922,6 +1998,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1D"
     },
     {
@@ -1947,6 +2024,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1D"
     },
     {
@@ -1972,6 +2050,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1D"
     },
     {
@@ -1997,6 +2076,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1D"
     },
     {
@@ -2022,6 +2102,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1D"
     },
     {
@@ -2047,6 +2128,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1D"
     },
     {
@@ -2072,6 +2154,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1D"
     },
     {
@@ -2097,6 +2180,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1D"
     },
     {
@@ -2122,6 +2206,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1D"
     },
     {
@@ -2147,6 +2232,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1D"
     },
     {
@@ -2172,6 +2258,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2197,6 +2284,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2222,6 +2310,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2247,6 +2336,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2272,6 +2362,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2297,6 +2388,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2322,6 +2414,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2347,6 +2440,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2372,6 +2466,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2397,6 +2492,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2422,6 +2518,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2447,6 +2544,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2472,6 +2570,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2497,6 +2596,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2522,6 +2622,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2547,6 +2648,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2572,6 +2674,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2597,6 +2700,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2622,6 +2726,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2647,6 +2752,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2672,6 +2778,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2697,6 +2804,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2722,6 +2830,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2747,6 +2856,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2772,6 +2882,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2797,6 +2908,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2822,6 +2934,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2847,6 +2960,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2872,6 +2986,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2897,6 +3012,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2922,6 +3038,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2947,6 +3064,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2972,6 +3090,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -2997,6 +3116,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3022,6 +3142,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3047,6 +3168,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3072,6 +3194,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3097,6 +3220,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3122,6 +3246,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3147,6 +3272,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3172,6 +3298,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3197,6 +3324,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3222,6 +3350,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A. AirCooled Small Duct High Velocity was removed according to 90.1-2007-ip-erratasheet-3-8-2018."
     },
     {
@@ -3247,6 +3376,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3272,6 +3402,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3297,6 +3428,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3322,6 +3454,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3347,6 +3480,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3372,6 +3506,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3397,6 +3532,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3422,6 +3558,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3447,6 +3584,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3472,6 +3610,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3497,6 +3636,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3522,6 +3662,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3547,6 +3688,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3572,6 +3714,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3597,6 +3740,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3622,6 +3766,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3647,6 +3792,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3672,6 +3818,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3697,6 +3844,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3722,6 +3870,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3747,6 +3896,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3772,6 +3922,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3797,6 +3948,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3822,6 +3974,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3847,6 +4000,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3872,6 +4026,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3897,6 +4052,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3922,6 +4078,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3947,6 +4104,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3972,6 +4130,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2007 Table 6.8.1A"
     },
     {
@@ -3997,6 +4156,7 @@
         "ptac_eer_coefficient_1": 12.5,
         "ptac_eer_coefficient_2": 0.213,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1D. The terms under \"application\" previously called \"New Construction\" and \"Replacements\"."
     },
     {
@@ -4022,6 +4182,7 @@
         "ptac_eer_coefficient_1": 13.8,
         "ptac_eer_coefficient_2": 0.3,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1D. The terms under \"application\" previously called \"New Construction\" and \"Replacements\"."
     },
     {
@@ -4047,6 +4208,7 @@
         "ptac_eer_coefficient_1": 10.9,
         "ptac_eer_coefficient_2": 0.213,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1D. The terms under \"application\" previously called \"New Construction\" and \"Replacements\"."
     },
     {
@@ -4072,6 +4234,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1D"
     },
     {
@@ -4097,6 +4260,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1D"
     },
     {
@@ -4122,6 +4286,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1D"
     },
     {
@@ -4147,6 +4312,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1D"
     },
     {
@@ -4172,6 +4338,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1D"
     },
     {
@@ -4197,6 +4364,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1D"
     },
     {
@@ -4222,6 +4390,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1D"
     },
     {
@@ -4247,6 +4416,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1D"
     },
     {
@@ -4272,6 +4442,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1D"
     },
     {
@@ -4297,6 +4468,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1D"
     },
     {
@@ -4322,6 +4494,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1D"
     },
     {
@@ -4347,6 +4520,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1D"
     },
     {
@@ -4372,6 +4546,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1D"
     },
     {
@@ -4397,6 +4572,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4422,6 +4598,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4447,6 +4624,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4472,6 +4650,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4497,6 +4676,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4522,6 +4702,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4547,6 +4728,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4572,6 +4754,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4597,6 +4780,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4622,6 +4806,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4647,6 +4832,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4672,6 +4858,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4697,6 +4884,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4722,6 +4910,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4747,6 +4936,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4772,6 +4962,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4797,6 +4988,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4822,6 +5014,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4847,6 +5040,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4872,6 +5066,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4897,6 +5092,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4922,6 +5118,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4947,6 +5144,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4972,6 +5170,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -4997,6 +5196,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5022,6 +5222,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5047,6 +5248,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5072,6 +5274,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5097,6 +5300,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5122,6 +5326,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5147,6 +5352,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5172,6 +5378,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5197,6 +5404,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5222,6 +5430,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5247,6 +5456,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5272,6 +5482,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5297,6 +5508,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5322,6 +5534,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5347,6 +5560,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5372,6 +5586,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5397,6 +5612,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5422,6 +5638,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5447,6 +5664,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5472,6 +5690,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5497,6 +5716,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5522,6 +5742,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5547,6 +5768,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5572,6 +5794,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5597,6 +5820,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5622,6 +5846,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5647,6 +5872,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5672,6 +5898,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5697,6 +5924,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5722,6 +5950,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5747,6 +5976,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5772,6 +6002,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5797,6 +6028,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5822,6 +6054,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5847,6 +6080,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5872,6 +6106,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5897,6 +6132,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5922,6 +6158,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5947,6 +6184,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5972,6 +6210,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -5997,6 +6236,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6022,6 +6262,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6047,6 +6288,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6072,6 +6314,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6097,6 +6340,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6122,6 +6366,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6147,6 +6392,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6172,6 +6418,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6197,6 +6444,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6222,6 +6470,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6247,6 +6496,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6272,6 +6522,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6297,6 +6548,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6322,6 +6574,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6347,6 +6600,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6372,6 +6626,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6397,6 +6652,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6422,6 +6678,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6447,6 +6704,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6472,6 +6730,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6497,6 +6756,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6522,6 +6782,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6547,6 +6808,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6572,6 +6834,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6597,6 +6860,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6622,6 +6886,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6647,6 +6912,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6672,6 +6938,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6697,6 +6964,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6722,6 +6990,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6747,6 +7016,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2010 Table 6.8.1A"
     },
     {
@@ -6772,6 +7042,7 @@
         "ptac_eer_coefficient_1": 13.8,
         "ptac_eer_coefficient_2": 0.3,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -6797,6 +7068,7 @@
         "ptac_eer_coefficient_1": 14,
         "ptac_eer_coefficient_2": 0.3,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -6822,6 +7094,7 @@
         "ptac_eer_coefficient_1": 10.9,
         "ptac_eer_coefficient_2": 0.213,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -6847,6 +7120,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -6872,6 +7146,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -6897,6 +7172,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -6922,6 +7198,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -6947,6 +7224,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -6972,6 +7250,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -6997,6 +7276,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -7022,6 +7302,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -7047,6 +7328,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -7072,6 +7354,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -7097,6 +7380,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -7122,6 +7406,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -7147,6 +7432,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -7172,6 +7458,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -7197,6 +7484,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -7222,6 +7510,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-4"
     },
     {
@@ -7247,6 +7536,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7272,6 +7562,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7297,6 +7588,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7322,6 +7614,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7347,6 +7640,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7372,6 +7666,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7397,6 +7692,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7422,6 +7718,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7447,6 +7744,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7472,6 +7770,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7497,6 +7796,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7522,6 +7822,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7547,6 +7848,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7572,6 +7874,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7597,6 +7900,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7622,6 +7926,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7647,6 +7952,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7672,6 +7978,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7697,6 +8004,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7722,6 +8030,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7747,6 +8056,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7772,6 +8082,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7797,6 +8108,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7822,6 +8134,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7847,6 +8160,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7872,6 +8186,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7897,6 +8212,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7922,6 +8238,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7947,6 +8264,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7972,6 +8290,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -7997,6 +8316,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8022,6 +8342,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8047,6 +8368,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8072,6 +8394,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8097,6 +8420,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8122,6 +8446,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8147,6 +8472,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8172,6 +8498,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8197,6 +8524,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8222,6 +8550,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8247,6 +8576,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8272,6 +8602,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8297,6 +8628,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8322,6 +8654,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8347,6 +8680,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8372,6 +8706,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8397,6 +8732,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8422,6 +8758,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8447,6 +8784,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8472,6 +8810,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8497,6 +8836,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8522,6 +8862,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8547,6 +8888,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8572,6 +8914,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8597,6 +8940,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8622,6 +8966,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8647,6 +8992,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8672,6 +9018,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8697,6 +9044,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8722,6 +9070,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8747,6 +9096,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8772,6 +9122,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8797,6 +9148,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8822,6 +9174,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8847,6 +9200,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8872,6 +9226,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8897,6 +9252,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8922,6 +9278,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8947,6 +9304,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8972,6 +9330,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -8997,6 +9356,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9022,6 +9382,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9047,6 +9408,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9072,6 +9434,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9097,6 +9460,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9122,6 +9486,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9147,6 +9512,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9172,6 +9538,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9197,6 +9564,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9222,6 +9590,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9247,6 +9616,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9272,6 +9642,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9297,6 +9668,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9322,6 +9694,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9347,6 +9720,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9372,6 +9746,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9397,6 +9772,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9422,6 +9798,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9447,6 +9824,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9472,6 +9850,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9497,6 +9876,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9522,6 +9902,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2013 Table 6.8.1-1"
     },
     {
@@ -9547,6 +9928,7 @@
         "ptac_eer_coefficient_1": 12.5,
         "ptac_eer_coefficient_2": 0.213,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2016 Table G3.5.4"
     },
     {
@@ -9572,6 +9954,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2016 Table G3.5.1"
     },
     {
@@ -9597,6 +9980,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2016 Table G3.5.1"
     },
     {
@@ -9622,6 +10006,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2016 Table G3.5.1"
     },
     {
@@ -9647,6 +10032,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2016 Table G3.5.1"
     },
     {
@@ -9672,6 +10058,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2016 Table G3.5.1"
     },
     {
@@ -9697,6 +10084,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2016 Table G3.5.1"
     },
     {
@@ -9722,6 +10110,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2016 Table G3.5.1"
     },
     {
@@ -9747,6 +10136,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2016 Table G3.5.1"
     },
     {
@@ -9772,6 +10162,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": null,
         "annotation": "From 90.1-2016 Table G3.5.1"
     },
     {
@@ -9797,6 +10188,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.2,
         "annotation": "From 90.1-2019 Table G3.5.4"
     },
     {
@@ -9822,6 +10214,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3,
         "annotation": "From 90.1-2019 Table G3.5.1"
     },
     {
@@ -9847,6 +10240,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.5,
         "annotation": "From 90.1-2019 Table G3.5.1"
     },
     {
@@ -9872,6 +10266,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.4,
         "annotation": "From 90.1-2019 Table G3.5.1"
     },
     {
@@ -9897,6 +10292,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.5,
         "annotation": "From 90.1-2019 Table G3.5.1"
     },
     {
@@ -9922,6 +10318,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.6,
         "annotation": "From 90.1-2019 Table G3.5.1"
     },
     {
@@ -9947,6 +10344,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.5,
         "annotation": "From 90.1-2019 Table G3.5.1"
     },
     {
@@ -9972,6 +10370,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.4,
         "annotation": "From 90.1-2019 Table G3.5.1"
     },
     {
@@ -9997,6 +10396,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.5,
         "annotation": "From 90.1-2019 Table G3.5.1"
     },
     {
@@ -10022,6 +10422,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.6,
         "annotation": "From 90.1-2019 Table G3.5.1"
     },
     {
@@ -10047,6 +10448,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.2,
         "annotation": "From 90.1-2022 Table G3.5.4"
     },
     {
@@ -10072,6 +10474,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3,
         "annotation": "From 90.1-2022 Table G3.5.1"
     },
     {
@@ -10097,6 +10500,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.5,
         "annotation": "From 90.1-2022 Table G3.5.1"
     },
     {
@@ -10122,6 +10526,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.4,
         "annotation": "From 90.1-2022 Table G3.5.1"
     },
     {
@@ -10147,6 +10552,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.5,
         "annotation": "From 90.1-2022 Table G3.5.1"
     },
     {
@@ -10172,6 +10578,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.6,
         "annotation": "From 90.1-2022 Table G3.5.1"
     },
     {
@@ -10197,6 +10604,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.5,
         "annotation": "From 90.1-2022 Table G3.5.1"
     },
     {
@@ -10222,6 +10630,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.4,
         "annotation": "From 90.1-2022 Table G3.5.1"
     },
     {
@@ -10247,6 +10656,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.5,
         "annotation": "From 90.1-2022 Table G3.5.1"
     },
     {
@@ -10272,6 +10682,7 @@
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_cooling": 3.6,
         "annotation": "From 90.1-2022 Table G3.5.1"
     }
 ]
