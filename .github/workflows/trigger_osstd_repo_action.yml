@@ -1,0 +1,31 @@
+# majority adapt from https://dev.to/moaaz_adel/github-actions-a-simple-way-to-trigger-workflow-from-another-workflow-1b55
+name: Trigger OpenStudio Standards GitHub Action to Update Data
+run-name: ${{github.actor}} is triggering GitHub Action in OSSTD
+on: workflow_dispatch
+jobs:
+  trigger-osstd-update:
+    name: Trigger OpenStudio GitHub Action to initiate a PR there with data update pulling data from here.
+    runs-on: 'ubuntu-latest'
+    steps:
+        - name: Update Data
+          id: updatedata
+          run: |
+            git clone https://github.com/pnnl/building-energy-standards-data.git
+            cd building-energy-standards-data
+            cd osstd_data_update
+            export COMMIT_ID=${{ github.sha }}
+            echo "shortsha=${COMMIT_ID:0:7}" >> $GITHUB_OUTPUT
+            export GHTOKEN=${{ secrets.JERRY_ACTIONS_KEY }}
+            ./run.sh
+        # TODO: remove git checkout cross_repo_actions before merge to develop
+
+        - name: GitHub API to trigger PR
+          run: |
+            echo "Using GitHub API to create PR on branch data_update_${{ steps.updatedata.outputs.shortsha }}"
+            curl -L \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.JERRY_ACTIONS_KEY }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/NREL/openstudio-standards/pulls \
+            -d '{"title":"Building Energy Standards Data Update","body":"Updates have been made to the Building Energy Standards Data repository, see [here](https://github.com/pnnl/building-energy-standards-data/commit/${{ github.sha }}). This pull request was automatically generated.","head":"data_update_${{ steps.updatedata.outputs.shortsha }}","base":"master"}'

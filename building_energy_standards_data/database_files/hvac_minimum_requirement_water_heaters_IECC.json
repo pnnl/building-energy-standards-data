@@ -1,7 +1,7 @@
 [
     {
         "template": "IECC-2006",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -30,7 +30,7 @@
     },
     {
         "template": "IECC-2006",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 40944.01,
         "maximum_capacity": 99999999,
@@ -610,7 +610,7 @@
     },
     {
         "template": "IECC-2009",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -639,7 +639,7 @@
     },
     {
         "template": "IECC-2009",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 40944.01,
         "maximum_capacity": 99999999,
@@ -1219,7 +1219,7 @@
     },
     {
         "template": "IECC-2012",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -1248,7 +1248,7 @@
     },
     {
         "template": "IECC-2012",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 40944.01,
         "maximum_capacity": 99999999,
@@ -1828,7 +1828,7 @@
     },
     {
         "template": "IECC-2015",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -1857,7 +1857,7 @@
     },
     {
         "template": "IECC-2015",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 40944.01,
         "maximum_capacity": 99999999,
@@ -2466,7 +2466,7 @@
     },
     {
         "template": "IECC-2018",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -2524,7 +2524,7 @@
     },
     {
         "template": "IECC-2018",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 40944.01,
         "maximum_capacity": 99999999,
@@ -3162,7 +3162,7 @@
     },
     {
         "template": "IECC-2021",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 40944,
@@ -3220,7 +3220,7 @@
     },
     {
         "template": "IECC-2021",
-        "equipment_type": "Water Heaters",
+        "equipment_type": "Storage Water Heaters",
         "fuel_type": "Electricity",
         "minimum_capacity": 40944.01,
         "maximum_capacity": 99999999,

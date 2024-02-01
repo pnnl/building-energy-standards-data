@@ -348,7 +348,7 @@ def create_openstudio_standards_data_json_ashrae_90_1(
 
     # Generate and "export" the data to the correct location within the OpenStudio Standards repository
     code = "ashrae_90_1_prm" if prm else "ashrae_90_1"
-    template = f"90.1-PRM-{version_90_1}" if prm else f"90.1-PRM-{version_90_1}"
+    template = f"90.1-PRM-{version_90_1}" if prm else f"90.1-{version_90_1}"
     create_openstudio_standards_code_version_data_json(
         conn,
         code=code,
