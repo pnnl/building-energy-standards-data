@@ -9513,7 +9513,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-3 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-3 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -9539,7 +9539,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-3 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-3 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -9565,7 +9565,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-3 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-3 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -9591,7 +9591,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-3 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-3 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -9617,7 +9617,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-3 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-3 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -9643,7 +9643,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-3 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-3 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -9669,7 +9669,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-3 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-3 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -9695,7 +9695,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-3 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-3 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -9721,7 +9721,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-3 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-3 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -9747,7 +9747,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-3 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-3 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -9773,7 +9773,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-3 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-3 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -9799,7 +9799,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-3 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-3 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -9825,7 +9825,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-3 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-3 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -9851,7 +9851,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-3 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-3 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -11983,7 +11983,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12009,7 +12009,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12035,7 +12035,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12061,7 +12061,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12087,7 +12087,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12113,7 +12113,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12139,7 +12139,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12165,7 +12165,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12191,7 +12191,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12217,7 +12217,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1. EER2 of 9.8 applies to products with a certified SEER2 >= 15.2 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1. EER2 of 9.8 applies to products with a certified SEER2 >= 15.2 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12243,7 +12243,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12269,7 +12269,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1. EER2 of 9.8 applies to products with a certified SEER2 >= 15.2. (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1. EER2 of 9.8 applies to products with a certified SEER2 >= 15.2. (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12295,7 +12295,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12321,7 +12321,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12347,7 +12347,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12373,7 +12373,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12399,7 +12399,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12425,7 +12425,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12451,7 +12451,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12477,7 +12477,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12503,7 +12503,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12529,7 +12529,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12555,7 +12555,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     },
     {
         "template": "IECC-2021",
@@ -12581,6 +12581,6 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": 30,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From 90.1-2019 Table F-1 (IECC does not include this data, therefore the data is from 90.1)"
+        "annotation": "From 90.1-2019 Table F-1 (See note d to Table C403.3.2)"
     }
 ]
