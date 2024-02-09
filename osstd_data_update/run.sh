@@ -31,7 +31,7 @@ echo "===="
 echo "Step 6: push new branch to OSSTD github (currently updating boiler (**/*unitary_air_conditioners*.json) data only)"
 git config --global user.email "xuechen.lei@pnnl.gov"
 git config --global user.name "Xuechen (Jerry) Lei"
-git add **/*unitary_air_conditioners*.json
+git add **/*unitary_acs*.json
 #git add **/*water_heater*.json
 #git add **/*furnace*.json
 #git add **/*boiler*.json
