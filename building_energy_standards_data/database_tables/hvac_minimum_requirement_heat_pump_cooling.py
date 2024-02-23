@@ -7,12 +7,12 @@ from building_energy_standards_data.database_engine.database_util import (
 RECORD_HELP = """
 Must provide a tuple that contains:
 template: TEXT
+equipment_type: TEXT
 cooling_type: TEXT
 configuration: TEXT
 heating_type: TEXT
 subcategory: TEXT
 application: TEXT
-entering_water_temperature: NUMERIC
 electric_power_phase: NUMERIC
 region: TEXT
 minimum_capacity: NUMERIC
@@ -36,12 +36,12 @@ CREATE_HVAC_REQUIREMENT_HEAT_PUMP_COOLING_TABLE = """
 CREATE TABLE IF NOT EXISTS %s
 (id INTEGER PRIMARY KEY, 
 template TEXT NOT NULL, 
+equipment_type TEXT NOT NULL,
 cooling_type TEXT NOT NULL,
 heating_type TEXT,
 configuration TEXT,
 subcategory TEXT,
 application TEXT,
-entering_water_temperature NUMERIC,
 electric_power_phase NUMERIC,
 region TEXT,
 minimum_capacity NUMERIC,
@@ -64,12 +64,12 @@ annotation TEXT);
 INSERT_A_HEAT_PUMP_COOLING_RECORD = """
     INSERT INTO %s (
 template, 
+equipment_type,
 cooling_type,
 heating_type,
 configuration,
 subcategory,
 application,
-entering_water_temperature,
 electric_power_phase,
 region,
 minimum_capacity,
@@ -93,12 +93,12 @@ VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 
 RECORD_TEMPLATE = {
     "template": "",
+    "equipment_type": "",
     "cooling_type": "",
     "heating_type": "",
     "configuration": "",
     "subcategory": "",
     "application": "",
-    "entering_water_temperature": 0.0,
     "electric_power_phase": 0.0,
     "region": "",
     "minimum_capacity": 0.0,
@@ -140,6 +140,7 @@ class HVACMinimumRequirementHeatPumpCooling(DBOperation):
     def validate_record_datatype(self, record):
         str_expected = [
             "template",
+            "equipment_type",
             "cooling_type",
             "heating_type",
             "configuration",
@@ -157,7 +158,6 @@ class HVACMinimumRequirementHeatPumpCooling(DBOperation):
                 ), f"{f} requires to be a string, instead got {record[f]}"
 
         float_expected = [
-            "entering_water_temperature",
             "electric_power_phase",
             "minimum_capacity",
             "maximum_capacity",
@@ -189,12 +189,12 @@ class HVACMinimumRequirementHeatPumpCooling(DBOperation):
 
         return (
             getattr_either("template", record),
+            getattr_either("equipment_type", record),
             getattr_either("cooling_type", record),
             getattr_either("heating_type", record),
             getattr_either("configuration", record),
             getattr_either("subcategory", record),
             getattr_either("application", record),
-            getattr_either("entering_water_temperature", record),
             getattr_either("electric_power_phase", record),
             getattr_either("region", record),
             getattr_either("minimum_capacity", record),

@@ -7,11 +7,12 @@ from building_energy_standards_data.database_engine.database_util import (
 RECORD_HELP = """
 Must provide a tuple that contains:
 template: TEXT
+equipment_type: TEXT
 cooling_type: TEXT
 configuration: TEXT
 subcategory: TEXT
 application: TEXT
-entering_water_temperature: NUMERIC
+rating_condition: TEXT
 electric_power_phase: NUMERIC
 region: TEXT
 minimum_capacity: NUMERIC
@@ -32,11 +33,12 @@ CREATE_HVAC_REQUIREMENT_HEAT_PUMP_HEATING_TABLE = """
 CREATE TABLE IF NOT EXISTS %s
 (id INTEGER PRIMARY KEY, 
 template TEXT NOT NULL, 
+equipment_type TEXT NOT NULL,
 cooling_type TEXT NOT NULL,
 configuration TEXT,
 subcategory TEXT,
 application TEXT,
-entering_water_temperature NUMERIC,
+rating_condition TEXT,
 electric_power_phase NUMERIC,
 region TEXT,
 minimum_capacity NUMERIC,
@@ -56,11 +58,12 @@ annotation TEXT);
 INSERT_A_HEAT_PUMP_HEATING_RECORD = """
     INSERT INTO %s (
 template, 
+equipment_type,
 cooling_type,
 configuration,
 subcategory,
 application,
-entering_water_temperature,
+rating_condition,
 electric_power_phase,
 region,
 minimum_capacity,
@@ -76,16 +79,17 @@ off_mode_power,
 minimum_coefficient_of_performance_no_fan_heating,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
     "template": "",
+    "equipment_type": "",
     "cooling_type": "",
     "configuration": "",
     "subcategory": "",
     "application": "",
-    "entering_water_temperature": 0.0,
+    "rating_condition": "",
     "electric_power_phase": 0.0,
     "region": "",
     "minimum_capacity": 0.0,
@@ -124,10 +128,12 @@ class HVACMinimumRequirementHeatPumpHeating(DBOperation):
     def validate_record_datatype(self, record):
         str_expected = [
             "template",
+            "equipment_type",
             "cooling_type",
             "configuration",
             "subcategory",
             "application",
+            "rating_condition",
             "region",
             "start_date",
             "end_date",
@@ -140,7 +146,6 @@ class HVACMinimumRequirementHeatPumpHeating(DBOperation):
                 ), f"{f} requires to be a string, instead got {record[f]}"
 
         float_expected = [
-            "entering_water_temperature",
             "electric_power_phase",
             "minimum_capacity",
             "maximum_capacity",
@@ -169,11 +174,12 @@ class HVACMinimumRequirementHeatPumpHeating(DBOperation):
 
         return (
             getattr_either("template", record),
+            getattr_either("equipment_type", record),
             getattr_either("cooling_type", record),
             getattr_either("configuration", record),
             getattr_either("subcategory", record),
             getattr_either("application", record),
-            getattr_either("entering_water_temperature", record),
+            getattr_either("rating_condition", record),
             getattr_either("electric_power_phase", record),
             getattr_either("region", record),
             getattr_either("minimum_capacity", record),
