@@ -7,22 +7,25 @@ from building_energy_standards_data.database_engine.database_util import (
 RECORD_HELP = """
 Must provide a tuple that contains:
 template: TEXT
+equipment_type: TEXT
 cooling_type: TEXT
+configuration: TEXT
 subcategory: TEXT
+application: TEXT
+rating_condition: TEXT
+electric_power_phase: NUMERIC
+region: TEXT
 minimum_capacity: NUMERIC
 maximum_capacity: NUMERIC
 start_date: TEXT
 end_date: TEXT
 minimum_heating_seasonal_performance_factor: NUMERIC
+minimum_heating_seasonal_performance_factor_2: NUMERIC
 minimum_coefficient_of_performance_heating: NUMERIC
-minimum_energy_efficiency_ratio: NUMERIC
 pthp_cop_coefficient_1: NUMERIC
 pthp_cop_coefficient_2: NUMERIC
-heat_cap_ft: TEXT
-heat_cap_fflow: TEXT
-heat_eir_ft: TEXT
-heat_eir_fflow: TEXT
-heat_plf_fplr: TEXT
+off_mode_power: NUMERIC
+minimum_coefficient_of_performance_no_fan_heating: NUMERIC
 annotation: TEXT (optional)
 """
 
@@ -30,67 +33,76 @@ CREATE_HVAC_REQUIREMENT_HEAT_PUMP_HEATING_TABLE = """
 CREATE TABLE IF NOT EXISTS %s
 (id INTEGER PRIMARY KEY, 
 template TEXT NOT NULL, 
+equipment_type TEXT NOT NULL,
 cooling_type TEXT NOT NULL,
-subcategory TEXT NOT NULL,
+configuration TEXT,
+subcategory TEXT,
+application TEXT,
+rating_condition TEXT,
+electric_power_phase NUMERIC,
+region TEXT,
 minimum_capacity NUMERIC,
 maximum_capacity NUMERIC,
 start_date TEXT,
 end_date TEXT,
 minimum_heating_seasonal_performance_factor NUMERIC,
+minimum_heating_seasonal_performance_factor_2 NUMERIC,
 minimum_coefficient_of_performance_heating NUMERIC,
-minimum_energy_efficiency_ratio NUMERIC,
 pthp_cop_coefficient_1 NUMERIC,
 pthp_cop_coefficient_2 NUMERIC,
-heat_cap_ft TEXT,
-heat_cap_fflow TEXT,
-heat_eir_ft TEXT,
-heat_eir_fflow TEXT,
-heat_plf_fplr TEXT,
+off_mode_power NUMERIC,
+minimum_coefficient_of_performance_no_fan_heating NUMERIC,
 annotation TEXT);
 """
 
 INSERT_A_HEAT_PUMP_HEATING_RECORD = """
     INSERT INTO %s (
 template, 
+equipment_type,
 cooling_type,
+configuration,
 subcategory,
+application,
+rating_condition,
+electric_power_phase,
+region,
 minimum_capacity,
 maximum_capacity,
 start_date,
 end_date,
 minimum_heating_seasonal_performance_factor,
+minimum_heating_seasonal_performance_factor_2,
 minimum_coefficient_of_performance_heating,
-minimum_energy_efficiency_ratio,
 pthp_cop_coefficient_1,
 pthp_cop_coefficient_2,
-heat_cap_ft,
-heat_cap_fflow,
-heat_eir_ft,
-heat_eir_fflow,
-heat_plf_fplr,
+off_mode_power,
+minimum_coefficient_of_performance_no_fan_heating,
 annotation
 ) 
-VALUES (?, ?, ?, ? ,? , ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
     "template": "",
+    "equipment_type": "",
     "cooling_type": "",
+    "configuration": "",
     "subcategory": "",
+    "application": "",
+    "rating_condition": "",
+    "electric_power_phase": 0.0,
+    "region": "",
     "minimum_capacity": 0.0,
     "maximum_capacity": 0.0,
     "start_date": "",
     "end_date": "",
     "minimum_heating_seasonal_performance_factor": 0.0,
+    "minimum_heating_seasonal_performance_factor_2": 0.0,
     "minimum_coefficient_of_performance_heating": 0.0,
-    "minimum_energy_efficiency_ratio": 0.0,
     "pthp_cop_coefficient_1": 0.0,
     "pthp_cop_coefficient_2": 0.0,
-    "heat_cap_ft": "",
-    "heat_cap_fflow": "",
-    "heat_eir_ft": "",
-    "heat_eir_fflow": "",
-    "heat_plf_fplr": "",
+    "off_mode_power": 0.0,
+    "minimum_coefficient_of_performance_no_fan_heating": 0.0,
     "annotation": "",
 }
 
@@ -116,15 +128,15 @@ class HVACMinimumRequirementHeatPumpHeating(DBOperation):
     def validate_record_datatype(self, record):
         str_expected = [
             "template",
+            "equipment_type",
             "cooling_type",
+            "configuration",
             "subcategory",
+            "application",
+            "rating_condition",
+            "region",
             "start_date",
             "end_date",
-            "heat_cap_ft",
-            "heat_cap_fflow",
-            "heat_eir_ft",
-            "heat_eir_fflow",
-            "heat_plf_fplr",
         ]
 
         for f in str_expected:
@@ -134,13 +146,16 @@ class HVACMinimumRequirementHeatPumpHeating(DBOperation):
                 ), f"{f} requires to be a string, instead got {record[f]}"
 
         float_expected = [
+            "electric_power_phase",
             "minimum_capacity",
             "maximum_capacity",
             "minimum_heating_seasonal_performance_factor",
+            "minimum_heating_seasonal_performance_factor_2",
             "minimum_coefficient_of_performance_heating",
-            "minimum_energy_efficiency_ratio",
             "pthp_cop_coefficient_1",
             "pthp_cop_coefficient_2",
+            "off_mode_power",
+            "minimum_coefficient_of_performance_no_fan_heating",
         ]
 
         for f in float_expected:
@@ -159,21 +174,24 @@ class HVACMinimumRequirementHeatPumpHeating(DBOperation):
 
         return (
             getattr_either("template", record),
+            getattr_either("equipment_type", record),
             getattr_either("cooling_type", record),
+            getattr_either("configuration", record),
             getattr_either("subcategory", record),
+            getattr_either("application", record),
+            getattr_either("rating_condition", record),
+            getattr_either("electric_power_phase", record),
+            getattr_either("region", record),
             getattr_either("minimum_capacity", record),
             getattr_either("maximum_capacity", record),
             getattr_either("start_date", record),
             getattr_either("end_date", record),
             getattr_either("minimum_heating_seasonal_performance_factor", record),
+            getattr_either("minimum_heating_seasonal_performance_factor_2", record),
             getattr_either("minimum_coefficient_of_performance_heating", record),
-            getattr_either("minimum_energy_efficiency_ratio", record),
             getattr_either("pthp_cop_coefficient_1", record),
             getattr_either("pthp_cop_coefficient_2", record),
-            getattr_either("heat_cap_ft", record),
-            getattr_either("heat_cap_fflow", record),
-            getattr_either("heat_eir_ft", record),
-            getattr_either("heat_eir_fflow", record),
-            getattr_either("heat_plf_fplr", record),
+            getattr_either("off_mode_power", record),
+            getattr_either("minimum_coefficient_of_performance_no_fan_heating", record),
             getattr_either("annotation", record),
         )
