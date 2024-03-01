@@ -2190,9 +2190,9 @@
         "energy_factor_base": null,
         "energy_factor_volume_derate": null,
         "standby_loss_base": null,
-        "standby_loss_capacity_allowance": 799,
+        "standby_loss_capacity_allowance": 800,
         "standby_loss_volume_allowance": null,
-        "standby_loss_square_root_volume_allowance": 16.6,
+        "standby_loss_square_root_volume_allowance": 110,
         "hourly_loss_base": null,
         "hourly_loss_volume_allowance": null,
         "thermal_efficiency": 0.8,
@@ -2201,7 +2201,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "annotation": "From 90.1-2013 Table 7.8"
+        "annotation": "From 90.1-2013 Table 7.8; Errata"
     },
     {
         "template": "90.1-PRM-2013",
@@ -2277,9 +2277,9 @@
         "energy_factor_base": null,
         "energy_factor_volume_derate": null,
         "standby_loss_base": null,
-        "standby_loss_capacity_allowance": 799,
+        "standby_loss_capacity_allowance": 800,
         "standby_loss_volume_allowance": null,
-        "standby_loss_square_root_volume_allowance": 16.6,
+        "standby_loss_square_root_volume_allowance": 110,
         "hourly_loss_base": null,
         "hourly_loss_volume_allowance": null,
         "thermal_efficiency": 0.8,
@@ -2288,7 +2288,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "annotation": "From 90.1-2013 Table 7.8"
+        "annotation": "From 90.1-2013 Table 7.8; Errata"
     },
     {
         "template": "90.1-PRM-2013",
@@ -2335,9 +2335,9 @@
         "energy_factor_base": null,
         "energy_factor_volume_derate": null,
         "standby_loss_base": null,
-        "standby_loss_capacity_allowance": 799,
+        "standby_loss_capacity_allowance": 800,
         "standby_loss_volume_allowance": null,
-        "standby_loss_square_root_volume_allowance": 16.6,
+        "standby_loss_square_root_volume_allowance": 110,
         "hourly_loss_base": null,
         "hourly_loss_volume_allowance": null,
         "thermal_efficiency": 0.8,
@@ -2346,7 +2346,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "annotation": "From 90.1-2013 Table 7.8"
+        "annotation": "From 90.1-2013 Table 7.8; Errata"
     },
     {
         "template": "90.1-PRM-2013",
@@ -2422,9 +2422,9 @@
         "energy_factor_base": null,
         "energy_factor_volume_derate": null,
         "standby_loss_base": null,
-        "standby_loss_capacity_allowance": 799,
+        "standby_loss_capacity_allowance": 800,
         "standby_loss_volume_allowance": null,
-        "standby_loss_square_root_volume_allowance": 16.6,
+        "standby_loss_square_root_volume_allowance": 110,
         "hourly_loss_base": null,
         "hourly_loss_volume_allowance": null,
         "thermal_efficiency": 0.78,
@@ -2433,7 +2433,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "annotation": "From 90.1-2013 Table 7.8"
+        "annotation": "From 90.1-2013 Table 7.8; Errata"
     },
     {
         "template": "90.1-PRM-2013",
@@ -2509,9 +2509,9 @@
         "energy_factor_base": null,
         "energy_factor_volume_derate": null,
         "standby_loss_base": null,
-        "standby_loss_capacity_allowance": 799,
+        "standby_loss_capacity_allowance": 800,
         "standby_loss_volume_allowance": null,
-        "standby_loss_square_root_volume_allowance": 16.6,
+        "standby_loss_square_root_volume_allowance": 110,
         "hourly_loss_base": null,
         "hourly_loss_volume_allowance": null,
         "thermal_efficiency": 0.8,
@@ -2520,7 +2520,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "annotation": "From 90.1-2013 Table 7.8"
+        "annotation": "From 90.1-2013 Table 7.8; Errata"
     },
     {
         "template": "90.1-PRM-2013",
@@ -2538,9 +2538,9 @@
         "energy_factor_base": null,
         "energy_factor_volume_derate": null,
         "standby_loss_base": null,
-        "standby_loss_capacity_allowance": 799,
+        "standby_loss_capacity_allowance": 800,
         "standby_loss_volume_allowance": null,
-        "standby_loss_square_root_volume_allowance": 16.6,
+        "standby_loss_square_root_volume_allowance": 110,
         "hourly_loss_base": null,
         "hourly_loss_volume_allowance": null,
         "thermal_efficiency": 0.78,
@@ -2549,7 +2549,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "annotation": "From 90.1-2013 Table 7.8"
+        "annotation": "From 90.1-2013 Table 7.8; Errata"
     },
     {
         "template": "90.1-PRM-2013",
