@@ -13,6 +13,7 @@ configuration: TEXT
 heating_type: TEXT
 subcategory: TEXT
 application: TEXT
+rating_condition: TEXT
 electric_power_phase: NUMERIC
 region: TEXT
 minimum_capacity: NUMERIC
@@ -42,6 +43,7 @@ heating_type TEXT,
 configuration TEXT,
 subcategory TEXT,
 application TEXT,
+rating_condition TEXT,
 electric_power_phase NUMERIC,
 region TEXT,
 minimum_capacity NUMERIC,
@@ -70,6 +72,7 @@ heating_type,
 configuration,
 subcategory,
 application,
+rating_condition,
 electric_power_phase,
 region,
 minimum_capacity,
@@ -88,7 +91,7 @@ off_mode_power,
 minimum_coefficient_of_performance_no_fan_cooling,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -99,6 +102,7 @@ RECORD_TEMPLATE = {
     "configuration": "",
     "subcategory": "",
     "application": "",
+    "rating_condition": "",
     "electric_power_phase": 0.0,
     "region": "",
     "minimum_capacity": 0.0,
@@ -146,6 +150,7 @@ class HVACMinimumRequirementHeatPumpCooling(DBOperation):
             "configuration",
             "subcategory",
             "application",
+            "rating_condition",
             "region",
             "start_date",
             "end_date",
@@ -195,6 +200,7 @@ class HVACMinimumRequirementHeatPumpCooling(DBOperation):
             getattr_either("configuration", record),
             getattr_either("subcategory", record),
             getattr_either("application", record),
+            getattr_either("rating_condition", record),
             getattr_either("electric_power_phase", record),
             getattr_either("region", record),
             getattr_either("minimum_capacity", record),
