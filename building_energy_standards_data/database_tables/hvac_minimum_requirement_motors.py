@@ -12,6 +12,8 @@ type: TEXT
 synchronous_speed: TEXT
 minimum_capacity: NUMERIC
 maximum_capacity: NUMERIC
+start_date: TEXT
+end_date: TEXT
 nominal_full_load_efficiency: NUMERIC
 annotation: TEXT (optional)
 """
@@ -25,6 +27,8 @@ type TEXT NOT NULL,
 synchronous_speed NUMERIC NOT NULL,
 minimum_capacity NUMERIC,
 maximum_capacity NUMERIC NOT NULL,
+start_date TEXT NOT NULL,
+end_date TEXT NOT NULL,
 nominal_full_load_efficiency NUMERIC NOT NULL,
 annotation TEXT);
 """
@@ -37,10 +41,12 @@ type,
 synchronous_speed,
 minimum_capacity,
 maximum_capacity,
+start_date,
+end_date,
 nominal_full_load_efficiency,
 annotation
 ) 
-VALUES (?, ?, ?, ? , ?, ?, ?, ?);
+VALUES (?, ?, ?, ? , ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -50,6 +56,8 @@ RECORD_TEMPLATE = {
     "synchronous_speed": 0.0,
     "minimum_capacity": 0.0,
     "maximum_capacity": 0.0,
+    "start_date": "",
+    "end_date": "",
     "nominal_full_load_efficiency": 0.0,
     "annotation": "",
 }
@@ -76,6 +84,8 @@ class HVACMinimumRequirementMotors(DBOperation):
         str_expected = [
             "template",
             "type",
+            "start_date",
+            "end_date",
         ]
 
         for f in str_expected:
@@ -113,6 +123,8 @@ class HVACMinimumRequirementMotors(DBOperation):
             getattr_either("synchronous_speed", record),
             getattr_either("minimum_capacity", record),
             getattr_either("maximum_capacity", record),
+            getattr_either("start_date", record),
+            getattr_either("end_date", record),
             getattr_either("nominal_full_load_efficiency", record),
             getattr_either("annotation", record),
         )
