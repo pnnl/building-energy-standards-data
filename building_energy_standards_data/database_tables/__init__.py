@@ -10,6 +10,7 @@ import building_energy_standards_data.database_tables as db_tables
 __all__ = [
     # tables no foreign keys
     "hvac_minimum_requirement_motors_90_1",
+    "hvac_minimum_requirement_motors_90_1_prm",
     "hvac_minimum_requirement_water_heaters_90_1",
     "hvac_minimum_requirement_water_heaters_90_1_prm",
     "hvac_minimum_requirement_water_heaters_IECC",
