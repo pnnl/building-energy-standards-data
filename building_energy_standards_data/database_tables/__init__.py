@@ -42,6 +42,7 @@ __all__ = [
     "level_3_lighting_90_1_2010",
     "level_3_lighting_90_1_2007",
     "level_3_lighting_90_1_2004",
+    "level_3_ventilation_62_1_2022",
     "level_3_ventilation_62_1_2019",
     "level_3_ventilation_62_1_2016",
     "level_3_ventilation_62_1_2013",
