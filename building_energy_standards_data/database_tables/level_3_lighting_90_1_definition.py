@@ -11,9 +11,9 @@ Must provide a tuple that contains:
 method: [BA, CS, SS]
 lighting_primary_space_type: TEXT
 lighting_secondary_space_type: TEXT
-lighting_per_area: REAL
+lighting_power_density: REAL
 lighting_power_density_unit: TEXT
-supplemental_lighting_per_area: REAL
+supplemental_lighting_power_density: REAL
 supplemental_lighting_power_density_unit: TEXT
 rcr_threshold: NUMERIC
 automatic_daylight_responsive_controls_for_sidelighting: TEXT
