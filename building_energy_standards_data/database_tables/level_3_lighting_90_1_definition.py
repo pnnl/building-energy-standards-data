@@ -13,6 +13,8 @@ lighting_primary_space_type: TEXT
 lighting_secondary_space_type: TEXT
 lighting_per_area: REAL
 lighting_power_density_unit: TEXT
+supplemental_lighting_per_area: REAL
+supplemental_lighting_power_density_unit: TEXT
 rcr_threshold: NUMERIC
 automatic_daylight_responsive_controls_for_sidelighting: TEXT
 automatic_daylight_responsive_controls_for_toplighting: TEXT
@@ -30,6 +32,8 @@ lighting_primary_space_type TEXT,
 lighting_secondary_space_type TEXT, 
 lighting_power_density NUMERIC NOT NULL,
 lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_per_area NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
 rcr_threshold NUMERIC,
 automatic_daylight_responsive_controls_for_sidelighting TEXT,
 automatic_daylight_responsive_controls_for_toplighting TEXT,
@@ -47,6 +51,8 @@ INSERT_A_LIGHT_RECORD = """
         lighting_secondary_space_type,
         lighting_power_density,
         lighting_power_density_unit,
+        supplemental_lighting_per_area,
+        supplemental_lighting_power_density_unit,
         rcr_threshold,
         automatic_daylight_responsive_controls_for_sidelighting,
         automatic_daylight_responsive_controls_for_toplighting,
@@ -55,7 +61,7 @@ INSERT_A_LIGHT_RECORD = """
         scheduled_shutoff,
         annotation
         )
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -64,6 +70,8 @@ RECORD_TEMPLATE = {
     "lighting_secondary_space_type": "",
     "lighting_power_density": 0.0,
     "lighting_power_density_unit": "W/ft2",
+    "supplemental_lighting_per_area": 0.0,
+    "supplemental_lighting_power_density_unit": "W/ft2",
     "rcr_threshold": 0.0,
     "automatic_daylight_responsive_controls_for_sidelighting": "",
     "automatic_daylight_responsive_controls_for_toplighting": "",
@@ -116,6 +124,8 @@ class LightDef901(DBOperation):
             getattr_either("lighting_secondary_space_type", record),
             getattr_either("lighting_power_density", record),
             getattr_either("lighting_power_density_unit", record, "W/ft2"),
+            getattr_either("supplemental_lighting_per_area", record),
+            getattr_either("supplemental_lighting_power_density_unit", record, "W/ft2"),
             getattr_either("rcr_threshold", record),
             getattr_either(
                 "automatic_daylight_responsive_controls_for_sidelighting", record
