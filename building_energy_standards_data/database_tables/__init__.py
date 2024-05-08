@@ -36,6 +36,7 @@ __all__ = [
     "hvac_minimum_requirement_furnaces_90_1",
     "hvac_minimum_requirement_furnaces_90_1_prm",
     "hvac_minimum_requirement_furnaces_IECC",
+    "level_3_lighting_90_1_2022",
     "level_3_lighting_90_1_2019",
     "level_3_lighting_90_1_2016",
     "level_3_lighting_90_1_2013",
