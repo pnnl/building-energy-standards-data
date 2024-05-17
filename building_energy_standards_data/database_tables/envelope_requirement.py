@@ -5,7 +5,7 @@ from building_energy_standards_data.database_engine.database_util import (
     getattr_either,
 )
 
-TABLE_NAME = "envelope_requirement"
+#TABLE_NAME = "envelope_requirement"
 
 RECORD_HELP = """
 Must provide a tuple that contains:
@@ -15,7 +15,6 @@ intended_surface_type: TEXT
 standards_construction_type: TEXT
 building_category: TEXT
 construction: TEXT
-orientation: TEXT
 minimum_percent_of_surface: NUMERIC
 maximum_percent_of_surface: NUMERIC
 assembly_maximum_u_value: NUMERIC
@@ -40,7 +39,6 @@ intended_surface_type TEXT NOT NULL,
 standards_construction_type TEXT,
 building_category TEXT NOT NULL,
 construction TEXT NOT NULL,
-orientation TEXT,
 minimum_percent_of_surface NUMERIC,
 maximum_percent_of_surface NUMERIC,
 assembly_maximum_u_value NUMERIC,
@@ -66,7 +64,6 @@ intended_surface_type,
 standards_construction_type,
 building_category,
 construction,
-orientation,
 minimum_percent_of_surface,
 maximum_percent_of_surface,
 assembly_maximum_u_value,
@@ -81,7 +78,7 @@ assembly_maximum_solar_heat_gain_coefficient,
 assembly_minimum_vt_shgc,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? , ? , ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? , ?);
 """
 
 RECORD_TEMPLATE = {
@@ -91,7 +88,6 @@ RECORD_TEMPLATE = {
     "standards_construction_type": "",
     "building_category": "",
     "construction": "",
-    "orientation": "",
     "minimum_percent_of_surface": 0.0,
     "maximum_percent_of_surface": 0.0,
     "assembly_maximum_u_value": 0.0,
@@ -108,14 +104,14 @@ RECORD_TEMPLATE = {
 }
 
 
-class EnvelopeRequirementTable(DBOperation):
-    def __init__(self):
-        super(EnvelopeRequirementTable, self).__init__(
-            table_name=TABLE_NAME,
+class EnvelopeRequirement(DBOperation):
+    def __init__(self, table_name, initial_data_directory):
+        super(EnvelopeRequirement, self).__init__(
+            table_name=table_name,
             record_template=RECORD_TEMPLATE,
-            initial_data_directory=f"building_energy_standards_data/database_files/{TABLE_NAME}",
-            create_table_query=CREATE_ENVELOPE_REQUIREMENTS_TABLE % TABLE_NAME,
-            insert_record_query=INSERT_A_ENVELOPE_REQUIREMENT_RECORD % TABLE_NAME,
+            initial_data_directory=initial_data_directory,
+            create_table_query=CREATE_ENVELOPE_REQUIREMENTS_TABLE % table_name,
+            insert_record_query=INSERT_A_ENVELOPE_REQUIREMENT_RECORD % table_name,
         )
 
     def get_record_info(self):
@@ -133,7 +129,6 @@ class EnvelopeRequirementTable(DBOperation):
             "standards_construction_type",
             "building_category",
             "construction",
-            "orientation",
             "value_includes_interior_film_coefficient",
             "value_includes_exterior_film_coefficient",
         ]
@@ -177,7 +172,6 @@ class EnvelopeRequirementTable(DBOperation):
             getattr_either("standards_construction_type", record),
             getattr_either("building_category", record),
             getattr_either("construction", record),
-            getattr_either("orientation", record),
             getattr_either("minimum_percent_of_surface", record),
             getattr_either("maximum_percent_of_surface", record),
             getattr_either("assembly_maximum_u_value", record),
