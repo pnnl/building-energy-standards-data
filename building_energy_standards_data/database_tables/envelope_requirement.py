@@ -5,8 +5,6 @@ from building_energy_standards_data.database_engine.database_util import (
     getattr_either,
 )
 
-# TABLE_NAME = "envelope_requirement"
-
 RECORD_HELP = """
 Must provide a tuple that contains:
 template: TEXT
