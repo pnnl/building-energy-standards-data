@@ -6849,5 +6849,57 @@
         "material_4": null,
         "material_5": null,
         "material_6": null
+    },
+    {
+        "name": "U 0.47 SHGC 0.25 Simple Glazing Window",
+        "intended_surface_type": "ExteriorWindow",
+        "standards_construction_type": null,
+        "insulation_layer": null,
+        "skylight_framing": null,
+        "material_1": "U 0.47 SHGC 0.25 Simple Glazing",
+        "material_2": null,
+        "material_3": null,
+        "material_4": null,
+        "material_5": null,
+        "material_6": null
+    },
+    {
+        "name": "U 0.81 SHGC 0.45 Simple Glazing Skylight",
+        "intended_surface_type": "ExteriorWindow",
+        "standards_construction_type": null,
+        "insulation_layer": null,
+        "skylight_framing": null,
+        "material_1": "U 0.81 SHGC 0.45 Simple Glazing",
+        "material_2": null,
+        "material_3": null,
+        "material_4": null,
+        "material_5": null,
+        "material_6": null
+    },
+    {
+        "name": "U 0.9 SHGC 0.45 Simple Glazing Skylight",
+        "intended_surface_type": "ExteriorWindow",
+        "standards_construction_type": null,
+        "insulation_layer": null,
+        "skylight_framing": null,
+        "material_1": "U 0.9 SHGC 0.45 Simple Glazing",
+        "material_2": null,
+        "material_3": null,
+        "material_4": null,
+        "material_5": null,
+        "material_6": null
+    },
+    {
+        "name": "U 0.44 SHGC 0.45 Simple Glazing Skylight",
+        "intended_surface_type": "ExteriorWindow",
+        "standards_construction_type": null,
+        "insulation_layer": null,
+        "skylight_framing": null,
+        "material_1": "U 0.44 SHGC 0.45 Simple Glazing",
+        "material_2": null,
+        "material_3": null,
+        "material_4": null,
+        "material_5": null,
+        "material_6": null
     }
 ]
