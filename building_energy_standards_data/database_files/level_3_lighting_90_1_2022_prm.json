@@ -1465,7 +1465,7 @@
     {
         "method": "CS",
         "lighting_primary_space_type": "Restroom",
-        "lighting_secondary_space_type": "All other restrooms",
+        "lighting_secondary_space_type": "General",
         "lighting_power_density": 0.9,
         "lighting_power_density_unit": "W/ft2",
         "supplemental_lighting_power_density": null,
