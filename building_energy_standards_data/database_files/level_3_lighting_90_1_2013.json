@@ -533,7 +533,7 @@
         "lighting_secondary_space_type": "that is >40 ft in height",
         "lighting_power_density": 0.4,
         "lighting_power_density_unit": "W/ft2",
-        "supplemental_lighting_power_density": null,
+        "supplemental_lighting_power_density": 0.02,
         "supplemental_lighting_power_density_unit": "W/ft",
         "rcr_threshold": null,
         "automatic_daylight_responsive_controls_for_sidelighting": "REQ",
