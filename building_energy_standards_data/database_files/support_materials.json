@@ -38936,7 +38936,7 @@
         "annotation": null
     },
     {
-        "name": "U 0.75 SHGC 0.35 Simple Glazing Window",
+        "name": "U 0.75 SHGC 0.35 Simple Glazing",
         "material_type": "SimpleGlazing",
         "roughness": null,
         "thickness": null,
@@ -38967,7 +38967,7 @@
         "annotation": null
     },
     {
-        "name": "U 0.65 SHGC 0.35 Simple Glazing Window",
+        "name": "U 0.65 SHGC 0.35 Simple Glazing",
         "material_type": "SimpleGlazing",
         "roughness": null,
         "thickness": null,
