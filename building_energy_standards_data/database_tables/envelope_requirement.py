@@ -23,6 +23,9 @@ assembly_maximum_f_factor: NUMERIC
 assembly_maximum_f_factor_unit: TEXT
 assembly_maximum_c_factor: NUMERIC
 assembly_maximum_c_factor_unit: TEXT
+orientation: TEXT
+minimum_projection_factor: NUMERIC
+maximum_projection_factor: NUMERIC
 assembly_maximum_solar_heat_gain_coefficient: NUMERIC
 assembly_minimum_vt_SHGC: NUMERIC
 annotation: TEXT (optional)
@@ -47,6 +50,9 @@ assembly_maximum_f_factor NUMERIC,
 assembly_maximum_f_factor_unit TEXT,
 assembly_maximum_c_factor NUMERIC,
 assembly_maximum_c_factor_unit TEXT,
+orientation TEXT,
+minimum_projection_factor NUMERIC,
+maximum_projection_factor NUMERIC,
 assembly_maximum_solar_heat_gain_coefficient NUMERIC,
 assembly_minimum_vt_shgc NUMERIC,
 annotation TEXT,
@@ -72,11 +78,14 @@ assembly_maximum_f_factor,
 assembly_maximum_f_factor_unit,
 assembly_maximum_c_factor,
 assembly_maximum_c_factor_unit,
+orientation,
+minimum_projection_factor,
+maximum_projection_factor,
 assembly_maximum_solar_heat_gain_coefficient,
 assembly_minimum_vt_shgc,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? , ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -96,6 +105,9 @@ RECORD_TEMPLATE = {
     "assembly_maximum_f_factor_unit": "btu/h-ft-F",
     "assembly_maximum_c_factor": 0.0,
     "assembly_maximum_c_factor_unit": "btu/h-ft2-F",
+    "orientation": "",
+    "minimum_projection_factor": 0.0,
+    "maximum_projection_factor": 0.0,
     "assembly_maximum_solar_heat_gain_coefficient": 0.0,
     "assembly_minimum_vt_shgc": 0.0,
     "annotation": "",
@@ -129,6 +141,7 @@ class EnvelopeRequirement(DBOperation):
             "construction",
             "value_includes_interior_film_coefficient",
             "value_includes_exterior_film_coefficient",
+            "orientation",
         ]
 
         for f in str_expected:
@@ -144,6 +157,8 @@ class EnvelopeRequirement(DBOperation):
             "assembly_maximum_u_value",
             "assembly_maximum_f_factor",
             "assembly_maximum_c_factor",
+            "minimum_projection_factor",
+            "maximum_projection_factor",
             "assembly_maximum_solar_heat_gain_coefficient",
             "assembly_minimum_vt_shgc",
         ]
@@ -180,6 +195,9 @@ class EnvelopeRequirement(DBOperation):
             getattr_either("assembly_maximum_f_factor_unit", record, "btu/h-ft-F"),
             getattr_either("assembly_maximum_c_factor", record),
             getattr_either("assembly_maximum_c_factor_unit", record, "btu/h-ft2-F"),
+            getattr_either("orientation", record),
+            getattr_either("minimum_projection_factor", record),
+            getattr_either("maximum_projection_factor", record),
             getattr_either("assembly_maximum_solar_heat_gain_coefficient", record),
             getattr_either("assembly_minimum_vt_shgc", record),
             getattr_either("annotation", record),
