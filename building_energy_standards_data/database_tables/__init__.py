@@ -77,6 +77,7 @@ __all__ = [
     "support_constructions",
     "envelope_requirement_90_1",
     "envelope_requirement_90_1_prm",
+    "envelope_requirement_IECC",
 ]
 
 
