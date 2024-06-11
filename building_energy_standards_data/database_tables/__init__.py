@@ -71,6 +71,7 @@ __all__ = [
     "system_requirement_energy_recovery_90_1",
     "system_requirement_economizer_90_1",
     "hvac_minimum_requirement_computer_room_air_conditioners_90_1",
+    "hvac_minimum_requirement_computer_room_air_conditioners_IECC",
     # tables with foreign keys
     "level_2_lighting_space_types",
     "level_2_ventilation_space_types",
