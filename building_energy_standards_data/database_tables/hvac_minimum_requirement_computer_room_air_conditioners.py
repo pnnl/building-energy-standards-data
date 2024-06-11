@@ -7,8 +7,6 @@ from building_energy_standards_data.database_engine.database_util import (
 RECORD_HELP = """
 Must provide a tuple that contains:
 template: TEXT
-equipment_type: TEXT
-subcategory: TEXT
 cooling_type: TEXT
 standard_model: TEXT
 rating_condition: TEXT
@@ -24,8 +22,6 @@ CREATE_HVAC_REQUIREMENT_COMPUTER_ROOM_AIR_CONDITIONERS_TABLE = """
 CREATE TABLE IF NOT EXISTS %s
 (id INTEGER PRIMARY KEY, 
 template TEXT NOT NULL, 
-equipment_type TEXT NOT NULL, 
-subcategory TEXT,
 cooling_type TEXT NOT NULL,
 standard_model TEXT,
 rating_condition TEXT,
@@ -40,8 +36,6 @@ annotation TEXT);
 INSERT_A_COMPUTER_ROOM_AIR_CONDITIONERS_RECORD = """
     INSERT INTO %s (
 template, 
-equipment_type,
-subcategory,
 cooling_type,
 standard_model,
 rating_condition,
@@ -52,13 +46,11 @@ end_date,
 minimum_scop,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
     "template": "",
-    "equipment_type": "",
-    "subcategory": "",
     "cooling_type": "",
     "standard_model": "",
     "rating_condition": "",
@@ -93,8 +85,6 @@ class HVACMinimumRequirementComputerRoomAirConditioners(DBOperation):
     def validate_record_datatype(self, record):
         str_expected = [
             "template",
-            "equipment_type",
-            "subcategory",
             "cooling_type",
             "standard_model",
             "rating_condition",
@@ -128,8 +118,6 @@ class HVACMinimumRequirementComputerRoomAirConditioners(DBOperation):
 
         return (
             getattr_either("template", record),
-            getattr_either("equipment_type", record),
-            getattr_either("subcategory", record),
             getattr_either("cooling_type", record),
             getattr_either("standard_model", record),
             getattr_either("rating_condition", record),
