@@ -10,6 +10,9 @@ template: TEXT
 climate_zone: TEXT
 data_center: TEXT
 capacity_limit: NUMERIC
+minimum_conditioned_area_interior_systems_3_4: NUMERIC
+minimum_conditioned_area_perimeter_systems_3_4: NUMERIC
+economizer_included_baselie_system: TEXT
 fixed_dry_bulb_is_allowed: TEXT
 differential_dry_bulb_is_allowed: TEXT
 electronic_enthalpy_is_allowed: TEXT
@@ -36,6 +39,9 @@ template TEXT NOT NULL,
 climate_zone TEXT NOT NULL,
 data_center TEXT,
 capacity_limit NUMERIC,
+minimum_conditioned_area_interior_systems_3_4 NUMERIC,
+minimum_conditioned_area_perimeter_systems_3_4 NUMERIC,
+economizer_included_baselie_system TEXT,
 fixed_dry_bulb_is_allowed TEXT,
 differential_dry_bulb_is_allowed TEXT,
 electronic_enthalpy_is_allowed TEXT,
@@ -61,6 +67,9 @@ template,
 climate_zone,
 data_center,
 capacity_limit,
+minimum_conditioned_area_interior_systems_3_4,
+minimum_conditioned_area_perimeter_systems_3_4,
+economizer_included_baselie_system,
 fixed_dry_bulb_is_allowed,
 differential_dry_bulb_is_allowed,
 electronic_enthalpy_is_allowed,
@@ -79,7 +88,7 @@ differential_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp,
 percent_increase_cooling_efficiency_eliminate_requirement,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -87,6 +96,9 @@ RECORD_TEMPLATE = {
     "climate_zone": "",
     "data_center": "",
     "capacity_limit": 0.0,
+    "minimum_conditioned_area_interior_systems_3_4": 0.0,
+    "minimum_conditioned_area_perimeter_systems_3_4": 0.0,
+    "economizer_included_baselie_system": "",
     "fixed_dry_bulb_is_allowed": "",
     "differential_dry_bulb_is_allowed": "",
     "electronic_enthalpy_is_allowed": "",
@@ -129,6 +141,7 @@ class SystemRequirementEconomizer(DBOperation):
             "template",
             "climate_zone",
             "data_center",
+            "economizer_included_baselie_system",
             "fixed_dry_bulb_is_allowed",
             "differential_dry_bulb_is_allowed",
             "electronic_enthalpy_is_allowed",
@@ -147,6 +160,8 @@ class SystemRequirementEconomizer(DBOperation):
 
         float_expected = [
             "capacity_limit",
+            "minimum_conditioned_area_interior_systems_3_4",
+            "minimum_conditioned_area_perimeter_systems_3_4",
             "fixed_dry_bulb_high_limit_shutoff_temp",
             "fixed_enthalpy_high_limit_shutoff_enthalpy",
             "dew_point_dry_bulb_high_limit_shutoff_dew_point_temp",
@@ -176,6 +191,9 @@ class SystemRequirementEconomizer(DBOperation):
             getattr_either("climate_zone", record),
             getattr_either("data_center", record),
             getattr_either("capacity_limit", record),
+            getattr_either("minimum_conditioned_area_interior_systems_3_4", record),
+            getattr_either("minimum_conditioned_area_perimeter_systems_3_4", record),
+            getattr_either("economizer_included_baselie_system", record),
             getattr_either("fixed_dry_bulb_is_allowed", record),
             getattr_either("differential_dry_bulb_is_allowed", record),
             getattr_either("electronic_enthalpy_is_allowed", record),
