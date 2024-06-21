@@ -1,13 +1,13 @@
 import sqlite3
 
-from building_energy_standards_data.database_tables.system_requirement_economizer import (
-    SystemRequirementEconomizer,
+from building_energy_standards_data.database_tables.system_requirement_economizer_90_1_prm_definition import (
+    SystemRequirementEconomizer901PRM,
 )
 
 TABLE_NAME = "system_requirement_economizer_90_1_prm"
 
 
-class SystemRequirementEconomizer901PRMTable(SystemRequirementEconomizer):
+class SystemRequirementEconomizer901PRMTable(SystemRequirementEconomizer901PRM):
     def __init__(self):
         super(SystemRequirementEconomizer901PRMTable, self).__init__(
             table_name=TABLE_NAME,
