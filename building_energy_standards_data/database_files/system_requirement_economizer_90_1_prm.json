@@ -9,7 +9,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -24,7 +24,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -39,7 +39,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -54,7 +54,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -69,7 +69,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -84,7 +84,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -99,7 +99,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -114,7 +114,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -129,7 +129,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -144,7 +144,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -159,7 +159,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -174,7 +174,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -189,7 +189,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -204,7 +204,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -219,7 +219,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -234,7 +234,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -249,7 +249,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -264,7 +264,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -279,7 +279,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -294,7 +294,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -309,7 +309,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -324,7 +324,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -339,7 +339,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -354,7 +354,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -369,7 +369,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -384,7 +384,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -399,7 +399,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -414,7 +414,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -429,7 +429,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -444,7 +444,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -459,7 +459,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -474,7 +474,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -489,7 +489,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -504,7 +504,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -519,7 +519,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -534,7 +534,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -549,7 +549,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -564,7 +564,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -579,7 +579,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -594,7 +594,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -609,7 +609,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -624,7 +624,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -639,7 +639,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -654,7 +654,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -669,7 +669,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -684,7 +684,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -699,7 +699,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -714,7 +714,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -729,7 +729,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -744,7 +744,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -759,7 +759,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -774,7 +774,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2004 Table G3.1.2.6A, Table G3.1.2.6B and Table G3.1.2.6C"
@@ -789,7 +789,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -804,7 +804,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -819,7 +819,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -834,7 +834,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -849,7 +849,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -864,7 +864,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -879,7 +879,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -894,7 +894,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -909,7 +909,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -924,7 +924,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -939,7 +939,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -954,7 +954,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -969,7 +969,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -984,7 +984,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -999,7 +999,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1014,7 +1014,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1029,7 +1029,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1044,7 +1044,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1059,7 +1059,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1074,7 +1074,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1089,7 +1089,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1104,7 +1104,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1119,7 +1119,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1134,7 +1134,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1149,7 +1149,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1164,7 +1164,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1179,7 +1179,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1194,7 +1194,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1209,7 +1209,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1224,7 +1224,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1239,7 +1239,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1254,7 +1254,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1269,7 +1269,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1284,7 +1284,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1299,7 +1299,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1314,7 +1314,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1329,7 +1329,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1344,7 +1344,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2007 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1359,7 +1359,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1374,7 +1374,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1389,7 +1389,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1404,7 +1404,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1419,7 +1419,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1434,7 +1434,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1449,7 +1449,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1464,7 +1464,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1479,7 +1479,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1494,7 +1494,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1509,7 +1509,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1524,7 +1524,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1539,7 +1539,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1554,7 +1554,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1569,7 +1569,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1584,7 +1584,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1599,7 +1599,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1614,7 +1614,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1629,7 +1629,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1644,7 +1644,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1659,7 +1659,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1674,7 +1674,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1689,7 +1689,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1704,7 +1704,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1719,7 +1719,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1734,7 +1734,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1749,7 +1749,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1764,7 +1764,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1779,7 +1779,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1794,7 +1794,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1809,7 +1809,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1824,7 +1824,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1839,7 +1839,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1854,7 +1854,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1869,7 +1869,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1884,7 +1884,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1899,7 +1899,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1914,7 +1914,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2010 Table G3.1.2.6A and Table G3.1.2.6B"
@@ -1929,7 +1929,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -1944,7 +1944,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -1959,7 +1959,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -1974,7 +1974,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -1989,7 +1989,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": "Dry Bulb",
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": 28,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2004,7 +2004,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": "Dry Bulb",
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": 28,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2019,7 +2019,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2034,7 +2034,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2049,7 +2049,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": "Dry Bulb",
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": 28,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2064,7 +2064,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": "Dry Bulb",
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": 28,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2079,7 +2079,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2094,7 +2094,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2109,7 +2109,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2124,7 +2124,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2139,7 +2139,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": "Dry Bulb",
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": 28,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2154,7 +2154,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": "Dry Bulb",
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": 28,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2169,7 +2169,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2184,7 +2184,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2199,7 +2199,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2214,7 +2214,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2229,7 +2229,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2244,7 +2244,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2259,7 +2259,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2274,7 +2274,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2289,7 +2289,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2304,7 +2304,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2319,7 +2319,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2334,7 +2334,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2349,7 +2349,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2364,7 +2364,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2379,7 +2379,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2394,7 +2394,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2409,7 +2409,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2424,7 +2424,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2439,7 +2439,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2454,7 +2454,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2469,7 +2469,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2484,7 +2484,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2013 Table G3.1.2.7 and Table G3.1.2.8"
@@ -2499,7 +2499,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "Based on entries for climate zone 1A"
@@ -2514,7 +2514,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "Based on entries for climate zone 1B"
@@ -2529,7 +2529,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "Based on entries for climate zone 1A"
@@ -2544,7 +2544,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "Based on entries for climate zone 1B"
@@ -2559,7 +2559,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "Based on entries for climate zone 1A"
@@ -2574,7 +2574,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "Based on entries for climate zone 1B"
@@ -2589,7 +2589,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "Based on entries for climate zone 1A"
@@ -2604,7 +2604,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "Based on entries for climate zone 1B"
@@ -2619,7 +2619,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "Based on entries for climate zone 1A"
@@ -2634,7 +2634,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "Based on entries for climate zone 1B"
@@ -2649,7 +2649,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "Based on entries for climate zone 1A"
@@ -2664,7 +2664,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "Based on entries for climate zone 1B"
@@ -2679,7 +2679,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "Based on entries for climate zone 1A"
@@ -2694,7 +2694,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "Based on entries for climate zone 1B"
@@ -2709,7 +2709,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 65,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "Based on entries for climate zone 1A"
@@ -2724,7 +2724,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "Based on entries for climate zone 1B"
@@ -2754,7 +2754,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2016 Table G3.1.2.6 and Table G3.1.2.7"
@@ -2784,7 +2784,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2016 Table G3.1.2.6 and Table G3.1.2.7"
@@ -2814,7 +2814,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2016 Table G3.1.2.6 and Table G3.1.2.7"
@@ -2874,7 +2874,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2016 Table G3.1.2.6 and Table G3.1.2.7"
@@ -2964,7 +2964,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2016 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3309,7 +3309,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2016 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3324,7 +3324,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2016 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3384,7 +3384,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3414,7 +3414,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3444,7 +3444,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3474,7 +3474,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3504,7 +3504,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3534,7 +3534,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3564,7 +3564,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3594,7 +3594,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3624,7 +3624,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3654,7 +3654,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3684,7 +3684,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3714,7 +3714,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3744,7 +3744,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3774,7 +3774,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 70,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3804,7 +3804,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3834,7 +3834,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3864,7 +3864,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3894,7 +3894,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3924,7 +3924,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": "Any",
         "systems_11_12_13_minimum_threshold": 0,
         "systems_11_12_13_minimum_threshold_descriptor": "Any",
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3939,7 +3939,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -3954,7 +3954,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2019 Table G3.1.2.6 and Table G3.1.2.7"
@@ -4014,7 +4014,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2022 Table G3.2.2.5 and Table G3.2.2.6"
@@ -4044,7 +4044,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2022 Table G3.2.2.5 and Table G3.2.2.6"
@@ -4074,7 +4074,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2022 Table G3.2.2.5 and Table G3.2.2.6"
@@ -4134,7 +4134,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2022 Table G3.2.2.5 and Table G3.2.2.6"
@@ -4224,7 +4224,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2022 Table G3.2.2.5 and Table G3.2.2.6"
@@ -4569,7 +4569,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": null,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2022 Table G3.2.2.5 and Table G3.2.2.6"
@@ -4584,7 +4584,7 @@
         "systems_5_through_8_minimum_threshold_descriptor": null,
         "systems_11_12_13_minimum_threshold": null,
         "systems_11_12_13_minimum_threshold_descriptor": null,
-        "allowed_control_type": null,
+        "allowed_control_type": "Dry-Bulb",
         "fixed_dry_bulb_high_limit_shutoff_temp": 75,
         "fixed_enthalpy_high_limit_shutoff_enthalpy": null,
         "annotation": "From 90.1-2022 Table G3.2.2.5 and Table G3.2.2.6"
