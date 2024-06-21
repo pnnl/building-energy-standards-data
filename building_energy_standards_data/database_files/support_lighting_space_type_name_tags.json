@@ -219,7 +219,10 @@
         "lighting_space_type_name": "ba_hospital_lighting"
     },
     {
-        "lighting_space_type_name": "ba_hotel_motel_lighting"
+        "lighting_space_type_name": "ba_hotel_lighting"
+    },
+    {
+        "lighting_space_type_name": "ba_motel_lighting"
     },
     {
         "lighting_space_type_name": "ba_motion_picture_theater_lighting"
