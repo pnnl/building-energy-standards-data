@@ -10,7 +10,7 @@ template: TEXT
 climate_zone: TEXT
 data_center: TEXT
 minimum_capacity: NUMERIC
-application: NUMERIC
+application: TEXT
 fixed_dry_bulb_is_allowed: TEXT
 differential_dry_bulb_is_allowed: TEXT
 electronic_enthalpy_is_allowed: TEXT
@@ -37,7 +37,7 @@ template TEXT NOT NULL,
 climate_zone TEXT NOT NULL,
 data_center TEXT,
 minimum_capacity NUMERIC,
-application NUMERIC,
+application TEXT,
 fixed_dry_bulb_is_allowed TEXT,
 differential_dry_bulb_is_allowed TEXT,
 electronic_enthalpy_is_allowed TEXT,
