@@ -10,11 +10,8 @@ template: TEXT
 climate_zone: TEXT
 data_center: TEXT
 minimum_direct_expansion_capacity: NUMERIC
-minimum_direct_expansion_other_than_group_r_capacity: NUMERIC
 minimum_water_cooled_chilled_water_capacity: NUMERIC
 minimum_air_cooled_chilled_water_or_district_chilled_water_capacity: NUMERIC
-minimum_residential_water_cooled_chilled_water_capacity: NUMERIC
-minimum_residential_air_cooled_chilled_water_or_district_chilled_water_capacity: NUMERIC
 fixed_dry_bulb_is_allowed: TEXT
 differential_dry_bulb_is_allowed: TEXT
 electronic_enthalpy_is_allowed: TEXT
@@ -43,11 +40,8 @@ template TEXT NOT NULL,
 climate_zone TEXT NOT NULL,
 data_center TEXT,
 minimum_direct_expansion_capacity NUMERIC,
-minimum_direct_expansion_other_than_group_r_capacity NUMERIC,
 minimum_water_cooled_chilled_water_capacity NUMERIC,
 minimum_air_cooled_chilled_water_or_district_chilled_water_capacity NUMERIC,
-minimum_residential_water_cooled_chilled_water_capacity NUMERIC,
-minimum_residential_air_cooled_chilled_water_or_district_chilled_water_capacity NUMERIC,
 fixed_dry_bulb_is_allowed TEXT,
 differential_dry_bulb_is_allowed TEXT,
 electronic_enthalpy_is_allowed TEXT,
@@ -75,11 +69,8 @@ template,
 climate_zone,
 data_center,
 minimum_direct_expansion_capacity,
-minimum_direct_expansion_other_than_group_r_capacity,
 minimum_water_cooled_chilled_water_capacity,
 minimum_air_cooled_chilled_water_or_district_chilled_water_capacity,
-minimum_residential_water_cooled_chilled_water_capacity,
-minimum_residential_air_cooled_chilled_water_or_district_chilled_water_capacity,
 fixed_dry_bulb_is_allowed,
 differential_dry_bulb_is_allowed,
 electronic_enthalpy_is_allowed,
@@ -100,7 +91,7 @@ heat_recovery_exempted,
 vrf_doas_exempted,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -108,11 +99,8 @@ RECORD_TEMPLATE = {
     "climate_zone": "",
     "data_center": "",
     "minimum_direct_expansion_capacity": 0.0,
-    "minimum_direct_expansion_other_than_group_r_capacity": 0.0,
     "minimum_water_cooled_chilled_water_capacity": 0.0,
     "minimum_air_cooled_chilled_water_or_district_chilled_water_capacity": 0.0,
-    "minimum_residential_water_cooled_chilled_water_capacity": 0.0,
-    "minimum_residential_air_cooled_chilled_water_or_district_chilled_water_capacity": 0.0,
     "fixed_dry_bulb_is_allowed": "",
     "differential_dry_bulb_is_allowed": "",
     "electronic_enthalpy_is_allowed": "",
@@ -178,11 +166,8 @@ class SystemRequirementEconomizerIECC(DBOperation):
 
         float_expected = [
             "minimum_direct_expansion_capacity",
-            "minimum_direct_expansion_other_than_group_r_capacity",
             "minimum_water_cooled_chilled_water_capacity",
             "minimum_air_cooled_chilled_water_or_district_chilled_water_capacity",
-            "minimum_residential_water_cooled_chilled_water_capacity",
-            "minimum_residential_air_cooled_chilled_water_or_district_chilled_water_capacity",
             "fixed_dry_bulb_high_limit_shutoff_temp",
             "fixed_enthalpy_high_limit_shutoff_enthalpy",
             "dew_point_dry_bulb_high_limit_shutoff_dew_point_temp",
@@ -212,19 +197,9 @@ class SystemRequirementEconomizerIECC(DBOperation):
             getattr_either("climate_zone", record),
             getattr_either("data_center", record),
             getattr_either("minimum_direct_expansion_capacity", record),
-            getattr_either(
-                "minimum_direct_expansion_other_than_group_r_capacity", record
-            ),
             getattr_either("minimum_water_cooled_chilled_water_capacity", record),
             getattr_either(
                 "minimum_air_cooled_chilled_water_or_district_chilled_water_capacity",
-                record,
-            ),
-            getattr_either(
-                "minimum_residential_water_cooled_chilled_water_capacity", record
-            ),
-            getattr_either(
-                "minimum_residential_air_cooled_chilled_water_or_district_chilled_water_capacity",
                 record,
             ),
             getattr_either("fixed_dry_bulb_is_allowed", record),
