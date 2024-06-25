@@ -9,7 +9,7 @@ Must provide a tuple that contains:
 template: TEXT
 climate_zone: TEXT
 data_center: TEXT
-minimum_direct_expansion_capacity: NUMERIC
+minimum_capacity: NUMERIC
 minimum_water_cooled_chilled_water_capacity: NUMERIC
 minimum_air_cooled_chilled_water_or_district_chilled_water_capacity: NUMERIC
 fixed_dry_bulb_is_allowed: TEXT
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS %s
 template TEXT NOT NULL, 
 climate_zone TEXT NOT NULL,
 data_center TEXT,
-minimum_direct_expansion_capacity NUMERIC,
+minimum_capacity NUMERIC,
 minimum_water_cooled_chilled_water_capacity NUMERIC,
 minimum_air_cooled_chilled_water_or_district_chilled_water_capacity NUMERIC,
 fixed_dry_bulb_is_allowed TEXT,
@@ -68,7 +68,7 @@ INSERT_A_SYSTEM_REQUIREMENT_ECONOMIZER = """
 template,
 climate_zone,
 data_center,
-minimum_direct_expansion_capacity,
+minimum_capacity,
 minimum_water_cooled_chilled_water_capacity,
 minimum_air_cooled_chilled_water_or_district_chilled_water_capacity,
 fixed_dry_bulb_is_allowed,
@@ -98,7 +98,7 @@ RECORD_TEMPLATE = {
     "template": "",
     "climate_zone": "",
     "data_center": "",
-    "minimum_direct_expansion_capacity": 0.0,
+    "minimum_capacity": 0.0,
     "minimum_water_cooled_chilled_water_capacity": 0.0,
     "minimum_air_cooled_chilled_water_or_district_chilled_water_capacity": 0.0,
     "fixed_dry_bulb_is_allowed": "",
@@ -165,7 +165,7 @@ class SystemRequirementEconomizerIECC(DBOperation):
                 ), f"{f} requires to be a string, instead got {record[f]}"
 
         float_expected = [
-            "minimum_direct_expansion_capacity",
+            "minimum_capacity",
             "minimum_water_cooled_chilled_water_capacity",
             "minimum_air_cooled_chilled_water_or_district_chilled_water_capacity",
             "fixed_dry_bulb_high_limit_shutoff_temp",
@@ -196,7 +196,7 @@ class SystemRequirementEconomizerIECC(DBOperation):
             getattr_either("template", record),
             getattr_either("climate_zone", record),
             getattr_either("data_center", record),
-            getattr_either("minimum_direct_expansion_capacity", record),
+            getattr_either("minimum_capacity", record),
             getattr_either("minimum_water_cooled_chilled_water_capacity", record),
             getattr_either(
                 "minimum_air_cooled_chilled_water_or_district_chilled_water_capacity",
