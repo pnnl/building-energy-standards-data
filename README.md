@@ -5,7 +5,7 @@ This repository hosts a database of building energy standards data to be used in
 
 Note that not all prescriptive requirements are included in the database as building energy codes and standards include many exceptions to certain requirements which makes the creation of practical data table difficult. Users of the database are encouraged to leverage knowledge of the codes along with the data tables.
 
-The database covers data related to ASHRAE Standard 90.1-2004 through 2022, ASHRAE Standard 62.1-1999 through 2022, and the International Energy Conservation Code (IECC) 2006 through 2021. It also includes specific data tables to the Performance Rating Method of ASHRAE 90.1 (Appendix G). The structure of the database is documented [here](.\docs\Structure.md).
+The database covers data related to ASHRAE Standard 90.1-2004 through 2022, ASHRAE Standard 62.1-1999 through 2022, and the International Energy Conservation Code (IECC) 2006 through 2021. It also includes specific data tables to the Performance Rating Method of ASHRAE 90.1 (Appendix G). The structure of the database is documented [here](/docs/Structure.md).
 
 The database is the main data source for the [openstudio-standards](https://github.com/NREL/openstudio-standards) Ruby gem and supersedes its original [database](https://drive.google.com/drive/folders/1x7yEU4jnKw-gskLBih8IopStwl0KAMEi).
 
@@ -13,13 +13,13 @@ This repository includes the database as well as Python APIs that can be used to
 
 # Accessing the Database
 ## Locally
-The database can be access by either cloning this repository or by installing it using `pip` by running `pip install building-energy-standards-data`. To get started with the database, a quick start guide is provided [here](.\docs\QuickStartGuide.md).
+The database can be access by either cloning this repository or by installing it using `pip` by running `pip install building-energy-standards-data`. To get started with the database, a quick start guide is provided [here](/docs/QuickStartGuide.md).
 
 ## Webservices
 Forthcoming
 
 # Contributing
-Developer documentation, notes, and contribution guidelines are located [here](.\docs\DeveloperNotes.md).
+Developer documentation, notes, and contribution guidelines are located [here](/docs/DeveloperNotes.md).
 
 # Potential Future Enhancements
 - Input validation to the functions used to generate/export the database and the OpenStudio-Standards data
