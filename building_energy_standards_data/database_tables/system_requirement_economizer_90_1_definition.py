@@ -10,7 +10,9 @@ template: TEXT
 climate_zone: TEXT
 data_center: TEXT
 minimum_capacity: NUMERIC
-application: TEXT
+fan_cooling_application: TEXT
+minimum_water_cooled_chilled_water_capacity_no_fan_cooling: NUMERIC
+minimum_air_cooled_chilled_water_or_district_chilled_water_capacity_no_fan_cooling: NUMERIC
 fixed_dry_bulb_is_allowed: TEXT
 differential_dry_bulb_is_allowed: TEXT
 electronic_enthalpy_is_allowed: TEXT
@@ -27,6 +29,7 @@ fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_enthalpy: NUMERIC
 fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp: NUMERIC
 differential_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp: NUMERIC
 percent_increase_cooling_efficiency_eliminate_requirement: NUMERIC
+heat_recovery_exempted: TEXT
 annotation: TEXT (optional)
 """
 
@@ -37,7 +40,9 @@ template TEXT NOT NULL,
 climate_zone TEXT NOT NULL,
 data_center TEXT,
 minimum_capacity NUMERIC,
-application TEXT,
+fan_cooling_application TEXT,
+minimum_water_cooled_chilled_water_capacity_no_fan_cooling NUMERIC,
+minimum_air_cooled_chilled_water_or_district_chilled_water_capacity_no_fan_cooling NUMERIC,
 fixed_dry_bulb_is_allowed TEXT,
 differential_dry_bulb_is_allowed TEXT,
 electronic_enthalpy_is_allowed TEXT,
@@ -54,6 +59,7 @@ fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_enthalpy NUMERIC,
 fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp NUMERIC,
 differential_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp NUMERIC,
 percent_increase_cooling_efficiency_eliminate_requirement NUMERIC,
+heat_recovery_exempted TEXT,
 annotation TEXT);
 """
 
@@ -63,7 +69,9 @@ template,
 climate_zone,
 data_center,
 minimum_capacity,
-application,
+fan_cooling_application,
+minimum_water_cooled_chilled_water_capacity_no_fan_cooling,
+minimum_air_cooled_chilled_water_or_district_chilled_water_capacity_no_fan_cooling,
 fixed_dry_bulb_is_allowed,
 differential_dry_bulb_is_allowed,
 electronic_enthalpy_is_allowed,
@@ -80,9 +88,10 @@ fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_enthalpy,
 fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp,
 differential_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp,
 percent_increase_cooling_efficiency_eliminate_requirement,
+heat_recovery_exempted,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -90,7 +99,9 @@ RECORD_TEMPLATE = {
     "climate_zone": "",
     "data_center": "",
     "minimum_capacity": 0.0,
-    "application": "",
+    "fan_cooling_application": "",
+    "minimum_water_cooled_chilled_water_capacity_no_fan_cooling": 0.0,
+    "minimum_air_cooled_chilled_water_or_district_chilled_water_capacity_no_fan_cooling": 0.0,
     "fixed_dry_bulb_is_allowed": "",
     "differential_dry_bulb_is_allowed": "",
     "electronic_enthalpy_is_allowed": "",
@@ -107,6 +118,7 @@ RECORD_TEMPLATE = {
     "fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp": 0.0,
     "differential_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp": 0.0,
     "percent_increase_cooling_efficiency_eliminate_requirement": 0.0,
+    "heat_recovery_exempted": "",
     "annotation": "",
 }
 
@@ -134,7 +146,7 @@ class SystemRequirementEconomizer901(DBOperation):
             "template",
             "climate_zone",
             "data_center",
-            "application",
+            "fan_cooling_application",
             "fixed_dry_bulb_is_allowed",
             "differential_dry_bulb_is_allowed",
             "electronic_enthalpy_is_allowed",
@@ -143,6 +155,7 @@ class SystemRequirementEconomizer901(DBOperation):
             "fixed_enthalpy_is_allowed",
             "fixed_enthalpy_fixed_dry_bulb_is_allowed",
             "differential_enthalpy_fixed_dry_bulb_is_allowed",
+            "heat_recovery_exempted",
         ]
 
         for f in str_expected:
@@ -153,6 +166,8 @@ class SystemRequirementEconomizer901(DBOperation):
 
         float_expected = [
             "minimum_capacity",
+            "minimum_water_cooled_chilled_water_capacity_no_fan_cooling",
+            "minimum_air_cooled_chilled_water_or_district_chilled_water_capacity_no_fan_cooling",
             "fixed_dry_bulb_high_limit_shutoff_temp",
             "fixed_enthalpy_high_limit_shutoff_enthalpy",
             "dew_point_dry_bulb_high_limit_shutoff_dew_point_temp",
@@ -182,7 +197,9 @@ class SystemRequirementEconomizer901(DBOperation):
             getattr_either("climate_zone", record),
             getattr_either("data_center", record),
             getattr_either("minimum_capacity", record),
-            getattr_either("application", record),
+            getattr_either("fan_cooling_application", record),
+            getattr_either("minimum_water_cooled_chilled_water_capacity_no_fan_cooling", record),
+            getattr_either("minimum_air_cooled_chilled_water_or_district_chilled_water_capacity_no_fan_cooling", record),
             getattr_either("fixed_dry_bulb_is_allowed", record),
             getattr_either("differential_dry_bulb_is_allowed", record),
             getattr_either("electronic_enthalpy_is_allowed", record),
@@ -212,5 +229,6 @@ class SystemRequirementEconomizer901(DBOperation):
             getattr_either(
                 "percent_increase_cooling_efficiency_eliminate_requirement", record
             ),
+            getattr_either("heat_recovery_exempted", record),
             getattr_either("annotation", record),
         )
