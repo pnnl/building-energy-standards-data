@@ -1,7 +1,9 @@
 # Notes for Developers
-## Prerequisites
-Below are listed the prerequisites to any of the database related code.
-- Python 3.10
+## Contribution Guidelines
+### Code Formatting
+Consistent code formatting is enforced by using the [Black Python code formatter](https://github.com/psf/black). Tests are run to make sure that any changes to the code is consistent with Black's formatting standards. Before creating a pull request and after installing Black, run `black -l 88 ./` to format all Python files within this directory.
+### Tests
+A small set of tests have been implemented, mostly to make sure that further edits to the data or database structure is valid, and that JSON and CSV files generated from the database include the same content. Tests are run using a GitHub action, see the workflow YAML file in `../../.github/workflow/openstudio_standards_database.yml`.
 ## Expanding the Database
 Developers wishing to expand the database do not need advanced SQL knowledge to do so. The following tips should provide enough information to expand the database.
 ### Adding Tables and Data for a New Code Versions
