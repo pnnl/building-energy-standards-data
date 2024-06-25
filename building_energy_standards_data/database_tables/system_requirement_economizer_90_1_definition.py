@@ -198,8 +198,13 @@ class SystemRequirementEconomizer901(DBOperation):
             getattr_either("data_center", record),
             getattr_either("minimum_capacity", record),
             getattr_either("fan_cooling_application", record),
-            getattr_either("minimum_water_cooled_chilled_water_capacity_no_fan_cooling", record),
-            getattr_either("minimum_air_cooled_chilled_water_or_district_chilled_water_capacity_no_fan_cooling", record),
+            getattr_either(
+                "minimum_water_cooled_chilled_water_capacity_no_fan_cooling", record
+            ),
+            getattr_either(
+                "minimum_air_cooled_chilled_water_or_district_chilled_water_capacity_no_fan_cooling",
+                record,
+            ),
             getattr_either("fixed_dry_bulb_is_allowed", record),
             getattr_either("differential_dry_bulb_is_allowed", record),
             getattr_either("electronic_enthalpy_is_allowed", record),
