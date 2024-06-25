@@ -9,7 +9,10 @@ Must provide a tuple that contains:
 template: TEXT
 climate_zone: TEXT
 data_center: TEXT
-capacity_limit: NUMERIC
+minimum_capacity: NUMERIC
+fan_cooling_application: TEXT
+minimum_water_cooled_chilled_water_capacity_no_fan_cooling: NUMERIC
+minimum_air_cooled_chilled_water_or_district_chilled_water_capacity_no_fan_cooling: NUMERIC
 fixed_dry_bulb_is_allowed: TEXT
 differential_dry_bulb_is_allowed: TEXT
 electronic_enthalpy_is_allowed: TEXT
@@ -26,16 +29,20 @@ fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_enthalpy: NUMERIC
 fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp: NUMERIC
 differential_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp: NUMERIC
 percent_increase_cooling_efficiency_eliminate_requirement: NUMERIC
+heat_recovery_exempted: TEXT
 annotation: TEXT (optional)
 """
 
-CREATE_SYSTEM_REQUIREMENT_ECONOMIZER_TABLE = """
+CREATE_SYSTEM_REQUIREMENT_ECONOMIZER_90_1_TABLE = """
 CREATE TABLE IF NOT EXISTS %s
 (id INTEGER PRIMARY KEY, 
 template TEXT NOT NULL, 
 climate_zone TEXT NOT NULL,
 data_center TEXT,
-capacity_limit NUMERIC,
+minimum_capacity NUMERIC,
+fan_cooling_application TEXT,
+minimum_water_cooled_chilled_water_capacity_no_fan_cooling NUMERIC,
+minimum_air_cooled_chilled_water_or_district_chilled_water_capacity_no_fan_cooling NUMERIC,
 fixed_dry_bulb_is_allowed TEXT,
 differential_dry_bulb_is_allowed TEXT,
 electronic_enthalpy_is_allowed TEXT,
@@ -52,6 +59,7 @@ fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_enthalpy NUMERIC,
 fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp NUMERIC,
 differential_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp NUMERIC,
 percent_increase_cooling_efficiency_eliminate_requirement NUMERIC,
+heat_recovery_exempted TEXT,
 annotation TEXT);
 """
 
@@ -60,7 +68,10 @@ INSERT_A_SYSTEM_REQUIREMENT_ECONOMIZER = """
 template,
 climate_zone,
 data_center,
-capacity_limit,
+minimum_capacity,
+fan_cooling_application,
+minimum_water_cooled_chilled_water_capacity_no_fan_cooling,
+minimum_air_cooled_chilled_water_or_district_chilled_water_capacity_no_fan_cooling,
 fixed_dry_bulb_is_allowed,
 differential_dry_bulb_is_allowed,
 electronic_enthalpy_is_allowed,
@@ -77,16 +88,20 @@ fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_enthalpy,
 fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp,
 differential_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp,
 percent_increase_cooling_efficiency_eliminate_requirement,
+heat_recovery_exempted,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
     "template": "",
     "climate_zone": "",
     "data_center": "",
-    "capacity_limit": 0.0,
+    "minimum_capacity": 0.0,
+    "fan_cooling_application": "",
+    "minimum_water_cooled_chilled_water_capacity_no_fan_cooling": 0.0,
+    "minimum_air_cooled_chilled_water_or_district_chilled_water_capacity_no_fan_cooling": 0.0,
     "fixed_dry_bulb_is_allowed": "",
     "differential_dry_bulb_is_allowed": "",
     "electronic_enthalpy_is_allowed": "",
@@ -103,17 +118,19 @@ RECORD_TEMPLATE = {
     "fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp": 0.0,
     "differential_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp": 0.0,
     "percent_increase_cooling_efficiency_eliminate_requirement": 0.0,
+    "heat_recovery_exempted": "",
     "annotation": "",
 }
 
 
-class SystemRequirementEconomizer(DBOperation):
+class SystemRequirementEconomizer901(DBOperation):
     def __init__(self, table_name, initial_data_directory):
-        super(SystemRequirementEconomizer, self).__init__(
+        super(SystemRequirementEconomizer901, self).__init__(
             table_name=table_name,
             record_template=RECORD_TEMPLATE,
             initial_data_directory=initial_data_directory,
-            create_table_query=CREATE_SYSTEM_REQUIREMENT_ECONOMIZER_TABLE % table_name,
+            create_table_query=CREATE_SYSTEM_REQUIREMENT_ECONOMIZER_90_1_TABLE
+            % table_name,
             insert_record_query=INSERT_A_SYSTEM_REQUIREMENT_ECONOMIZER % table_name,
         )
 
@@ -129,6 +146,7 @@ class SystemRequirementEconomizer(DBOperation):
             "template",
             "climate_zone",
             "data_center",
+            "fan_cooling_application",
             "fixed_dry_bulb_is_allowed",
             "differential_dry_bulb_is_allowed",
             "electronic_enthalpy_is_allowed",
@@ -137,6 +155,7 @@ class SystemRequirementEconomizer(DBOperation):
             "fixed_enthalpy_is_allowed",
             "fixed_enthalpy_fixed_dry_bulb_is_allowed",
             "differential_enthalpy_fixed_dry_bulb_is_allowed",
+            "heat_recovery_exempted",
         ]
 
         for f in str_expected:
@@ -146,7 +165,9 @@ class SystemRequirementEconomizer(DBOperation):
                 ), f"{f} requires to be a string, instead got {record[f]}"
 
         float_expected = [
-            "capacity_limit",
+            "minimum_capacity",
+            "minimum_water_cooled_chilled_water_capacity_no_fan_cooling",
+            "minimum_air_cooled_chilled_water_or_district_chilled_water_capacity_no_fan_cooling",
             "fixed_dry_bulb_high_limit_shutoff_temp",
             "fixed_enthalpy_high_limit_shutoff_enthalpy",
             "dew_point_dry_bulb_high_limit_shutoff_dew_point_temp",
@@ -175,7 +196,15 @@ class SystemRequirementEconomizer(DBOperation):
             getattr_either("template", record),
             getattr_either("climate_zone", record),
             getattr_either("data_center", record),
-            getattr_either("capacity_limit", record),
+            getattr_either("minimum_capacity", record),
+            getattr_either("fan_cooling_application", record),
+            getattr_either(
+                "minimum_water_cooled_chilled_water_capacity_no_fan_cooling", record
+            ),
+            getattr_either(
+                "minimum_air_cooled_chilled_water_or_district_chilled_water_capacity_no_fan_cooling",
+                record,
+            ),
             getattr_either("fixed_dry_bulb_is_allowed", record),
             getattr_either("differential_dry_bulb_is_allowed", record),
             getattr_either("electronic_enthalpy_is_allowed", record),
@@ -205,5 +234,6 @@ class SystemRequirementEconomizer(DBOperation):
             getattr_either(
                 "percent_increase_cooling_efficiency_eliminate_requirement", record
             ),
+            getattr_either("heat_recovery_exempted", record),
             getattr_either("annotation", record),
         )
