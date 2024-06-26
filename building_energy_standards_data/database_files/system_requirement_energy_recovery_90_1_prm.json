@@ -13,8 +13,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "Based on entries for climate zone 1A"
     },
     {
@@ -31,8 +33,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "Based on entries for climate zone 1B"
     },
     {
@@ -49,8 +53,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -67,8 +73,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -85,8 +93,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -103,8 +113,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -121,8 +133,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -139,8 +153,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -157,8 +173,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -175,8 +193,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -193,8 +213,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -211,8 +233,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -229,8 +253,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -247,8 +273,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -265,8 +293,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -283,8 +313,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -301,8 +333,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -319,8 +353,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -337,8 +373,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -355,8 +393,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -373,8 +413,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -391,8 +433,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -409,8 +453,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -427,8 +473,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
     {
@@ -445,8 +493,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "Based on entries for climate zone 1A"
     },
     {
@@ -463,8 +513,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "Based on entries for climate zone 1B"
     },
     {
@@ -481,8 +533,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -499,8 +553,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -517,8 +573,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -535,8 +593,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -553,8 +613,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -571,8 +633,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -589,8 +653,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -607,8 +673,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -625,8 +693,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -643,8 +713,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -661,8 +733,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -679,8 +753,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -697,8 +773,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -715,8 +793,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -733,8 +813,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -751,8 +833,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -769,8 +853,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -787,8 +873,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -805,8 +893,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -823,8 +913,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -841,8 +933,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -859,8 +953,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2007 Section 6.5.6.1"
     },
     {
@@ -877,8 +973,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "Based on entries for climate zone 1A"
     },
     {
@@ -895,8 +993,10 @@
         "percent_oa_60_to_70": 12000,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 4000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "Based on entries for climate zone 1B"
     },
     {
@@ -913,8 +1013,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -931,8 +1033,10 @@
         "percent_oa_60_to_70": 12000,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 4000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -949,8 +1053,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -967,8 +1073,10 @@
         "percent_oa_60_to_70": 12000,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 4000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -985,8 +1093,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1003,8 +1113,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1021,8 +1133,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1039,8 +1153,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1057,8 +1173,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1075,8 +1193,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1093,8 +1213,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1111,8 +1233,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1129,8 +1253,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1147,8 +1273,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1165,8 +1293,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1183,8 +1313,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1201,8 +1333,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1219,8 +1353,10 @@
         "percent_oa_60_to_70": 12000,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 4000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1237,8 +1373,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1255,8 +1393,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1273,8 +1413,10 @@
         "percent_oa_60_to_70": 3500,
         "percent_oa_70_to_80": 2500,
         "percent_oa_greater_than_80": 1500,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1291,8 +1433,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1309,8 +1453,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1327,8 +1473,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2010 Table 6.5.6.1"
     },
     {
@@ -1345,8 +1493,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "Based on entries for climate zone 1A"
     },
     {
@@ -1363,8 +1513,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "Based on entries for climate zone 1A"
     },
     {
@@ -1381,8 +1533,10 @@
         "percent_oa_60_to_70": 12000,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 4000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "Based on entries for climate zone 1B"
     },
     {
@@ -1399,8 +1553,10 @@
         "percent_oa_60_to_70": 3000,
         "percent_oa_70_to_80": 1500,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "Based on entries for climate zone 1B"
     },
     {
@@ -1417,8 +1573,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1435,8 +1593,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1453,8 +1613,10 @@
         "percent_oa_60_to_70": 12000,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 4000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1471,8 +1633,10 @@
         "percent_oa_60_to_70": 3000,
         "percent_oa_70_to_80": 1500,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1489,8 +1653,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1507,8 +1673,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1525,8 +1693,10 @@
         "percent_oa_60_to_70": 12000,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 4000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1543,8 +1713,10 @@
         "percent_oa_60_to_70": 3000,
         "percent_oa_70_to_80": 1500,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1561,8 +1733,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1579,8 +1753,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1597,8 +1773,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1615,8 +1793,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1633,8 +1813,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": null,
         "percent_oa_greater_than_80": null,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1651,8 +1833,10 @@
         "percent_oa_60_to_70": 3000,
         "percent_oa_70_to_80": 1500,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1669,8 +1853,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": null,
         "percent_oa_greater_than_80": null,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1687,8 +1873,10 @@
         "percent_oa_60_to_70": 3000,
         "percent_oa_70_to_80": 1500,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1705,8 +1893,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": null,
         "percent_oa_greater_than_80": null,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1723,8 +1913,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": null,
         "percent_oa_greater_than_80": null,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1741,8 +1933,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1759,8 +1953,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1777,8 +1973,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1795,8 +1993,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1813,8 +2013,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": null,
         "percent_oa_greater_than_80": null,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1831,8 +2033,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1849,8 +2053,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": null,
         "percent_oa_greater_than_80": null,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1867,8 +2073,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1885,8 +2093,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": null,
         "percent_oa_greater_than_80": null,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1903,8 +2113,10 @@
         "percent_oa_60_to_70": 3000,
         "percent_oa_70_to_80": 1500,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1921,8 +2133,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1939,8 +2153,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1957,8 +2173,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1975,8 +2193,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -1993,8 +2213,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": null,
         "percent_oa_greater_than_80": null,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -2011,8 +2233,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -2029,8 +2253,10 @@
         "percent_oa_60_to_70": 12000,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 4000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -2047,8 +2273,10 @@
         "percent_oa_60_to_70": 3000,
         "percent_oa_70_to_80": 1500,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -2065,8 +2293,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -2083,8 +2313,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -2101,8 +2333,10 @@
         "percent_oa_60_to_70": 2000,
         "percent_oa_70_to_80": 1000,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -2119,8 +2353,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Cooling",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -2137,8 +2373,10 @@
         "percent_oa_60_to_70": 3500,
         "percent_oa_70_to_80": 2500,
         "percent_oa_greater_than_80": 1500,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -2155,8 +2393,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -2173,8 +2413,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -2191,8 +2433,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -2209,8 +2453,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -2227,8 +2473,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -2245,8 +2493,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -2263,8 +2513,10 @@
         "percent_oa_60_to_70": 0,
         "percent_oa_70_to_80": 0,
         "percent_oa_greater_than_80": 0,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
-        "enthalpy_recovery_ratio": 0.5,
+        "design_conditions": "Heating",
+        "enthalpy_recovery_ratio": null,
+        "energy_recovery_effectiveness": 0.5,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2013 Table 6.5.6.1-1 and Table 6.5.6.1-2"
     },
     {
@@ -2281,8 +2533,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2299,8 +2553,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2317,8 +2573,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2335,8 +2593,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2353,8 +2613,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2371,8 +2633,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2389,8 +2653,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2407,8 +2673,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2425,8 +2693,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2443,8 +2713,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2461,8 +2733,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2479,8 +2753,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2497,8 +2773,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2515,8 +2793,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2533,8 +2813,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2551,8 +2833,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2569,8 +2853,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2587,8 +2873,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2605,8 +2893,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2623,8 +2913,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2641,8 +2933,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2659,8 +2953,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2677,8 +2973,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2695,8 +2993,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
     },
     {
@@ -2713,8 +3013,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -2731,8 +3033,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -2749,8 +3053,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -2767,8 +3073,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -2785,8 +3093,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -2803,8 +3113,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -2821,8 +3133,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -2839,8 +3153,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -2857,8 +3173,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -2875,8 +3193,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -2893,8 +3213,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -2911,8 +3233,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -2929,8 +3253,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -2947,8 +3273,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -2965,8 +3293,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -2983,8 +3313,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -3001,8 +3333,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -3019,8 +3353,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -3037,8 +3373,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -3055,8 +3393,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -3073,8 +3413,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -3091,8 +3433,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -3109,8 +3453,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -3127,8 +3473,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
     },
     {
@@ -3145,8 +3493,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3163,8 +3513,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3181,8 +3533,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3199,8 +3553,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3217,8 +3573,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3235,8 +3593,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3253,8 +3613,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3271,8 +3633,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3289,8 +3653,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3307,8 +3673,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3325,8 +3693,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3343,8 +3713,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3361,8 +3733,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3379,8 +3753,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3397,8 +3773,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3415,8 +3793,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3433,8 +3813,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3451,8 +3833,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3469,8 +3853,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3487,8 +3873,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Cooling",
+        "design_conditions": "Cooling",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3505,8 +3893,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3523,8 +3913,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3541,8 +3933,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     },
     {
@@ -3559,8 +3953,10 @@
         "percent_oa_60_to_70": null,
         "percent_oa_70_to_80": 5000,
         "percent_oa_greater_than_80": 5000,
-        "enthalpy_recovery_ratio_design_conditions": "Heating",
+        "design_conditions": "Heating",
         "enthalpy_recovery_ratio": 0.5,
+        "energy_recovery_effectiveness": null,
+        "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
     }
 ]
