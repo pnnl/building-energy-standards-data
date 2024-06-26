@@ -525,7 +525,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -541,7 +541,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -557,7 +557,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -573,7 +573,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -589,7 +589,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -605,7 +605,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -621,7 +621,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -637,7 +637,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -653,7 +653,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -669,7 +669,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -685,7 +685,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -701,7 +701,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -717,7 +717,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -733,7 +733,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -747,9 +747,9 @@
         "automatic_daylight_responsive_controls_for_sidelighting": null,
         "automatic_daylight_responsive_controls_for_toplighting": null,
         "automatic_partial_off": null,
-        "automatic_full_off": "REQ",
+        "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -763,9 +763,9 @@
         "automatic_daylight_responsive_controls_for_sidelighting": null,
         "automatic_daylight_responsive_controls_for_toplighting": null,
         "automatic_partial_off": null,
-        "automatic_full_off": "REQ",
+        "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -781,7 +781,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -795,9 +795,9 @@
         "automatic_daylight_responsive_controls_for_sidelighting": null,
         "automatic_daylight_responsive_controls_for_toplighting": null,
         "automatic_partial_off": null,
-        "automatic_full_off": "REQ",
+        "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -813,7 +813,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -829,7 +829,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -845,7 +845,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -861,7 +861,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -877,7 +877,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -893,7 +893,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -909,7 +909,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -925,7 +925,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -941,7 +941,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -957,7 +957,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -973,7 +973,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -989,7 +989,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1005,7 +1005,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1021,7 +1021,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1037,7 +1037,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1053,7 +1053,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1069,7 +1069,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1085,7 +1085,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1101,7 +1101,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1117,7 +1117,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1133,7 +1133,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1149,7 +1149,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1165,7 +1165,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1181,7 +1181,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1197,7 +1197,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1213,7 +1213,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1229,7 +1229,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1243,9 +1243,9 @@
         "automatic_daylight_responsive_controls_for_sidelighting": null,
         "automatic_daylight_responsive_controls_for_toplighting": null,
         "automatic_partial_off": null,
-        "automatic_full_off": "REQ",
+        "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1259,9 +1259,9 @@
         "automatic_daylight_responsive_controls_for_sidelighting": null,
         "automatic_daylight_responsive_controls_for_toplighting": null,
         "automatic_partial_off": null,
-        "automatic_full_off": "REQ",
+        "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1277,7 +1277,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1293,7 +1293,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1309,7 +1309,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1325,7 +1325,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1341,7 +1341,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1357,7 +1357,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1373,7 +1373,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1389,7 +1389,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1405,7 +1405,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1421,7 +1421,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1437,7 +1437,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1453,7 +1453,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "CS",
@@ -1469,7 +1469,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1485,7 +1485,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1501,7 +1501,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1517,7 +1517,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1533,7 +1533,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1549,7 +1549,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1565,7 +1565,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1581,7 +1581,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1597,7 +1597,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1613,7 +1613,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1629,7 +1629,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1645,7 +1645,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1661,7 +1661,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1677,7 +1677,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1693,7 +1693,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1709,7 +1709,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1725,7 +1725,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1741,7 +1741,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1757,7 +1757,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1773,7 +1773,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1789,7 +1789,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1805,7 +1805,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1821,7 +1821,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1837,7 +1837,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1853,7 +1853,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1869,7 +1869,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1885,7 +1885,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1901,7 +1901,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1917,7 +1917,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1933,7 +1933,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1949,7 +1949,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1965,7 +1965,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1981,7 +1981,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -1997,7 +1997,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -2013,7 +2013,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -2029,7 +2029,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -2045,7 +2045,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -2061,7 +2061,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -2077,7 +2077,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -2093,7 +2093,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -2109,7 +2109,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -2125,7 +2125,7 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
     {
         "method": "SS",
@@ -2141,6 +2141,6 @@
         "automatic_partial_off": null,
         "automatic_full_off": null,
         "scheduled_shutoff": null,
-        "annotation": "No common space types or specific space types data are provided in IECC-2009. Use the weighted average of IECC-2012, IECC-2015, and IECC-2018. "
+        "annotation": "No common space types or specific space types data are provided in IECC-2009. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     }
 ]
