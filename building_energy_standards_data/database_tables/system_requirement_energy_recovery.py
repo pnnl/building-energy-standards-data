@@ -21,6 +21,8 @@ percent_oa_70_to_80: NUMERIC
 percent_oa_greater_than_80: NUMERIC
 enthalpy_recovery_ratio_design_conditions: TEXT
 enthalpy_recovery_ratio: NUMERIC
+energy_recovery_effectiveness: NUMERIC
+sensible_energy_recovery_ratio: NUMERIC
 annotation: TEXT (optional)
 """
 
@@ -42,6 +44,8 @@ percent_oa_70_to_80 NUMERIC,
 percent_oa_greater_than_80 NUMERIC,
 enthalpy_recovery_ratio_design_conditions TEXT,
 enthalpy_recovery_ratio NUMERIC,
+energy_recovery_effectiveness NUMERIC,
+sensible_energy_recovery_ratio NUMERIC,
 annotation TEXT);
 """
 
@@ -62,9 +66,11 @@ percent_oa_70_to_80,
 percent_oa_greater_than_80,
 enthalpy_recovery_ratio_design_conditions,
 enthalpy_recovery_ratio,
+energy_recovery_effectiveness,
+sensible_energy_recovery_ratio,
 annotation
 ) 
-VALUES (?, ?, ?, ? , ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ? , ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -83,6 +89,8 @@ RECORD_TEMPLATE = {
     "percent_oa_greater_than_80": 0.0,
     "enthalpy_recovery_ratio_design_conditions": "",
     "enthalpy_recovery_ratio": 0.0,
+    "energy_recovery_effectiveness": 0.0,
+    "sensible_energy_recovery_ratio": 0.0,
     "annotation": "",
 }
 
@@ -132,6 +140,8 @@ class SystemRequirementEnergyRecovery(DBOperation):
             "percent_oa_70_to_80",
             "percent_oa_greater_than_80",
             "enthalpy_recovery_ratio",
+            "energy_recovery_effectiveness",
+            "sensible_energy_recovery_ratio",
         ]
 
         for f in float_expected:
@@ -164,5 +174,7 @@ class SystemRequirementEnergyRecovery(DBOperation):
             getattr_either("percent_oa_greater_than_80", record),
             getattr_either("enthalpy_recovery_ratio_design_conditions", record),
             getattr_either("enthalpy_recovery_ratio", record),
+            getattr_either("energy_recovery_effectiveness", record),
+            getattr_either("sensible_energy_recovery_ratio", record),
             getattr_either("annotation", record),
         )
