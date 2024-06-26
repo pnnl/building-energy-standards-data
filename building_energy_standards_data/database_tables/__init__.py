@@ -80,6 +80,9 @@ __all__ = [
     "system_requirement_economizer_IECC",
     "hvac_minimum_requirement_computer_room_air_conditioners_90_1",
     "hvac_minimum_requirement_computer_room_air_conditioners_IECC",
+    "exterior_lighting_90_1",
+    "exterior_lighting_90_1_prm",
+    "exterior_lighting_IECC",
     # tables with foreign keys
     "level_2_lighting_space_types",
     "level_2_ventilation_space_types",
