@@ -19,7 +19,7 @@ percent_oa_50_to_60: NUMERIC
 percent_oa_60_to_70: NUMERIC
 percent_oa_70_to_80: NUMERIC
 percent_oa_greater_than_80: NUMERIC
-enthalpy_recovery_ratio_design_conditions: TEXT
+design_conditions: TEXT
 enthalpy_recovery_ratio: NUMERIC
 energy_recovery_effectiveness: NUMERIC
 sensible_energy_recovery_ratio: NUMERIC
@@ -42,7 +42,7 @@ percent_oa_50_to_60 NUMERIC,
 percent_oa_60_to_70 NUMERIC,
 percent_oa_70_to_80 NUMERIC,
 percent_oa_greater_than_80 NUMERIC,
-enthalpy_recovery_ratio_design_conditions TEXT,
+design_conditions TEXT,
 enthalpy_recovery_ratio NUMERIC,
 energy_recovery_effectiveness NUMERIC,
 sensible_energy_recovery_ratio NUMERIC,
@@ -64,7 +64,7 @@ percent_oa_50_to_60,
 percent_oa_60_to_70,
 percent_oa_70_to_80,
 percent_oa_greater_than_80,
-enthalpy_recovery_ratio_design_conditions,
+design_conditions,
 enthalpy_recovery_ratio,
 energy_recovery_effectiveness,
 sensible_energy_recovery_ratio,
@@ -87,7 +87,7 @@ RECORD_TEMPLATE = {
     "percent_oa_60_to_70": 0.0,
     "percent_oa_70_to_80": 0.0,
     "percent_oa_greater_than_80": 0.0,
-    "enthalpy_recovery_ratio_design_conditions": "",
+    "design_conditions": "",
     "enthalpy_recovery_ratio": 0.0,
     "energy_recovery_effectiveness": 0.0,
     "sensible_energy_recovery_ratio": 0.0,
@@ -120,7 +120,7 @@ class SystemRequirementEnergyRecovery(DBOperation):
             "climate_zone",
             "under_8000_hours",
             "nontransient_dwelling",
-            "enthalpy_recovery_ratio_design_conditions",
+            "design_conditions",
         ]
 
         for f in str_expected:
@@ -172,7 +172,7 @@ class SystemRequirementEnergyRecovery(DBOperation):
             getattr_either("percent_oa_60_to_70", record),
             getattr_either("percent_oa_70_to_80", record),
             getattr_either("percent_oa_greater_than_80", record),
-            getattr_either("enthalpy_recovery_ratio_design_conditions", record),
+            getattr_either("design_conditions", record),
             getattr_either("enthalpy_recovery_ratio", record),
             getattr_either("energy_recovery_effectiveness", record),
             getattr_either("sensible_energy_recovery_ratio", record),
