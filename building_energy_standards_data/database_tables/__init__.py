@@ -75,6 +75,8 @@ __all__ = [
     "support_performance_curves",
     "support_schedules",
     "system_requirement_energy_recovery_90_1",
+    "system_requirement_energy_recovery_IECC",
+    "system_requirement_energy_recovery_90_1_prm",
     "system_requirement_economizer_90_1",
     "system_requirement_economizer_90_1_prm",
     "system_requirement_economizer_IECC",
