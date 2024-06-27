@@ -15,13 +15,13 @@ This code will generate an `openstudio_standards_database.sql` file in the same 
 ```python
 from building_energy_standards_data.applications.database_maintenance import export_openstudio_standards_database_to_json
 conn = sqlite3.connect('openstudio_standards.db')
-export_openstudio_standards_database_to_json(conn, save_dir='./database_files/')
+export_openstudio_standards_database_to_json(conn, save_dir='./building_energy_standards_data/database_files/')
 ```
 Assuming that `openstudio_standards.db` is a valid SQLite database name, the code above will export the content of the database tables to JSON files located in `./database_files/`. Because data tables are typically easier to read, parse, and modify in a spreadsheet format, the data tables can also be exported to CSV files. The code block below shows an example of how one can do so.
 ```python
 from building_energy_standards_data.applications.database_maintenance import export_openstudio_standards_database_to_csv
 conn = sqlite3.connect('openstudio_standards.db')
-export_openstudio_standards_database_to_csv(conn, save_dir='./database_files/')
+export_openstudio_standards_database_to_csv(conn, save_dir='./building_energy_standards_data/database_files/')
 ```
 ### Modifying the Database
 The database data can be updated by modifying the JSON files directly, or the exported CSV files and then be regenerated using the following code block.

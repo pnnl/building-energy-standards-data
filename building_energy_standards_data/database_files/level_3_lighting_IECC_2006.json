@@ -747,7 +747,7 @@
         "automatic_daylight_responsive_controls_for_sidelighting": null,
         "automatic_daylight_responsive_controls_for_toplighting": null,
         "automatic_partial_off": null,
-        "automatic_full_off": null,
+        "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "annotation": "No common space types or specific space types data are provided in IECC-2006. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
@@ -763,7 +763,7 @@
         "automatic_daylight_responsive_controls_for_sidelighting": null,
         "automatic_daylight_responsive_controls_for_toplighting": null,
         "automatic_partial_off": null,
-        "automatic_full_off": null,
+        "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "annotation": "No common space types or specific space types data are provided in IECC-2006. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
@@ -795,7 +795,7 @@
         "automatic_daylight_responsive_controls_for_sidelighting": null,
         "automatic_daylight_responsive_controls_for_toplighting": null,
         "automatic_partial_off": null,
-        "automatic_full_off": null,
+        "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "annotation": "No common space types or specific space types data are provided in IECC-2006. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
@@ -1227,7 +1227,7 @@
         "automatic_daylight_responsive_controls_for_sidelighting": null,
         "automatic_daylight_responsive_controls_for_toplighting": null,
         "automatic_partial_off": null,
-        "automatic_full_off": null,
+        "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "annotation": "No common space types or specific space types data are provided in IECC-2006. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
@@ -1243,7 +1243,7 @@
         "automatic_daylight_responsive_controls_for_sidelighting": null,
         "automatic_daylight_responsive_controls_for_toplighting": null,
         "automatic_partial_off": null,
-        "automatic_full_off": null,
+        "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "annotation": "No common space types or specific space types data are provided in IECC-2006. This LPD was determined by multiplying the space-by-space LPD for this space type from IECC-2012 by the average ratio of the building area method LPD for this version of IECC and IECC-2012."
     },
