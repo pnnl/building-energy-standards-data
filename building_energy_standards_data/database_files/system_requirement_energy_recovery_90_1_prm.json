@@ -171,11 +171,11 @@
         "percent_oa_40_to_50": null,
         "percent_oa_50_to_60": null,
         "percent_oa_60_to_70": null,
-        "percent_oa_70_to_80": 5000,
-        "percent_oa_greater_than_80": 5000,
-        "design_conditions": "Cooling",
+        "percent_oa_70_to_80": null,
+        "percent_oa_greater_than_80": null,
+        "design_conditions": null,
         "enthalpy_recovery_ratio": null,
-        "energy_recovery_effectiveness": 0.5,
+        "energy_recovery_effectiveness": null,
         "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2004 Section G3.1.2.10"
     },
@@ -537,7 +537,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -557,7 +557,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -577,7 +577,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -597,7 +597,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -617,7 +617,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -637,7 +637,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -651,13 +651,13 @@
         "percent_oa_40_to_50": null,
         "percent_oa_50_to_60": null,
         "percent_oa_60_to_70": null,
-        "percent_oa_70_to_80": 5000,
-        "percent_oa_greater_than_80": 5000,
-        "design_conditions": "Cooling",
+        "percent_oa_70_to_80": null,
+        "percent_oa_greater_than_80": null,
+        "design_conditions": null,
         "enthalpy_recovery_ratio": null,
-        "energy_recovery_effectiveness": 0.5,
+        "energy_recovery_effectiveness": null,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -677,7 +677,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -697,7 +697,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -717,7 +717,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -737,7 +737,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -757,7 +757,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -777,7 +777,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -797,7 +797,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -817,7 +817,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -837,7 +837,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -857,7 +857,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -877,7 +877,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -897,7 +897,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -917,7 +917,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -937,7 +937,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2007",
@@ -957,7 +957,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From 90.1-2007 Section 6.5.6.1"
+        "annotation": "From 90.1-2007 Section G3.1.2.10"
     },
     {
         "template": "90.1-PRM-2010",
@@ -2691,10 +2691,10 @@
         "percent_oa_40_to_50": null,
         "percent_oa_50_to_60": null,
         "percent_oa_60_to_70": null,
-        "percent_oa_70_to_80": 5000,
-        "percent_oa_greater_than_80": 5000,
-        "design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "percent_oa_70_to_80": null,
+        "percent_oa_greater_than_80": null,
+        "design_conditions": null,
+        "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": null,
         "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2016 Section G3.1.2.10"
@@ -3171,10 +3171,10 @@
         "percent_oa_40_to_50": null,
         "percent_oa_50_to_60": null,
         "percent_oa_60_to_70": null,
-        "percent_oa_70_to_80": 5000,
-        "percent_oa_greater_than_80": 5000,
-        "design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "percent_oa_70_to_80": null,
+        "percent_oa_greater_than_80": null,
+        "design_conditions": null,
+        "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": null,
         "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2019 Section G3.1.2.10"
@@ -3651,10 +3651,10 @@
         "percent_oa_40_to_50": null,
         "percent_oa_50_to_60": null,
         "percent_oa_60_to_70": null,
-        "percent_oa_70_to_80": 5000,
-        "percent_oa_greater_than_80": 5000,
-        "design_conditions": "Cooling",
-        "enthalpy_recovery_ratio": 0.5,
+        "percent_oa_70_to_80": null,
+        "percent_oa_greater_than_80": null,
+        "design_conditions": null,
+        "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": null,
         "sensible_energy_recovery_ratio": null,
         "annotation": "From 90.1-2022 Section G3.2.2.9"
