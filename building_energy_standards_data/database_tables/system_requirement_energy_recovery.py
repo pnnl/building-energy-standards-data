@@ -90,7 +90,7 @@ RECORD_TEMPLATE = {
     "design_conditions": "",
     "enthalpy_recovery_ratio": 0.0,
     "energy_recovery_effectiveness": 0.0,
-    "sensible_energy_recovery_ratio": 0.0,    
+    "sensible_energy_recovery_ratio": 0.0,
     "annotation": "",
 }
 
@@ -121,7 +121,6 @@ class SystemRequirementEnergyRecovery(DBOperation):
             "under_8000_hours",
             "nontransient_dwelling",
             "design_conditions",
-
         ]
 
         for f in str_expected:
