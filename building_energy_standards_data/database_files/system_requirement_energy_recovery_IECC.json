@@ -57,7 +57,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -77,7 +77,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -97,7 +97,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -117,7 +117,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -137,7 +137,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -157,7 +157,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -177,7 +177,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -197,7 +197,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -217,7 +217,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -237,7 +237,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -257,7 +257,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -277,7 +277,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -297,7 +297,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -317,7 +317,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -337,7 +337,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -357,7 +357,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -377,7 +377,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -397,7 +397,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -417,7 +417,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -437,7 +437,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -457,7 +457,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -477,7 +477,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -497,7 +497,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2006",
@@ -517,7 +517,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2006 Section 503.2.6"
+        "annotation": "From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -577,7 +577,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -597,7 +597,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -617,7 +617,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -637,7 +637,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -657,7 +657,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -677,7 +677,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -697,7 +697,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -717,7 +717,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -737,7 +737,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -757,7 +757,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -777,7 +777,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -797,7 +797,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -817,7 +817,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -837,7 +837,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -857,7 +857,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -877,7 +877,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -897,7 +897,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -917,7 +917,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -937,7 +937,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -957,7 +957,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -977,7 +977,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -997,7 +997,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -1017,7 +1017,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2009",
@@ -1037,7 +1037,7 @@
         "enthalpy_recovery_ratio": null,
         "energy_recovery_effectiveness": 0.5,
         "sensible_energy_recovery_ratio": null,
-        "annotation": "From IECC-2009 Section 503.2.6"
+        "annotation": "From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012"
     },
     {
         "template": "IECC-2012",
