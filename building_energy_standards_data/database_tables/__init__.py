@@ -82,6 +82,8 @@ __all__ = [
     "system_requirement_economizer_IECC",
     "hvac_minimum_requirement_computer_room_air_conditioners_90_1",
     "hvac_minimum_requirement_computer_room_air_conditioners_IECC",
+    "hvac_minimum_requirement_variable_refrigerant_flow_systems_90_1",
+    "hvac_minimum_requirement_variable_refrigerant_flow_systems_IECC",
     "exterior_lighting_90_1",
     "exterior_lighting_90_1_prm",
     "exterior_lighting_IECC",
