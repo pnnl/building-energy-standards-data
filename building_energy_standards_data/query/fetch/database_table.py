@@ -1,6 +1,7 @@
 """
 This module contains functions that help to fetch data from tables
 """
+
 import sqlite3
 
 from building_energy_standards_data.query.util import (

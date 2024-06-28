@@ -276,15 +276,15 @@ def create_openstudio_standards_space_data_json(
             space_type_data["ventilation_per_area"] = vent_per_area
             # assume unit is cfm/ft2; TODO: unit check
             space_type_data["ventilation_air_changes"] = 0.0
-            space_type_data[
-                "occupancy_per_area"
-            ] = occ_per_area  # assume unit is people / 1000 ft2; TODO: unit check
+            space_type_data["occupancy_per_area"] = (
+                occ_per_area  # assume unit is people / 1000 ft2; TODO: unit check
+            )
 
             # Schedules
             schedule_set_name = space_type_infos["schedule_set_name"]
-            space_type_data[
-                "electric_equipment_schedule"
-            ] = f"{schedule_set_name}_equipment"
+            space_type_data["electric_equipment_schedule"] = (
+                f"{schedule_set_name}_equipment"
+            )
             space_type_data["gas_equipment_schedule"] = f"{schedule_set_name}_equipment"
             space_type_data["lighting_schedule"] = f"{schedule_set_name}_lighting"
             space_type_data["occupancy_schedule"] = f"{schedule_set_name}_occupancy"
@@ -325,7 +325,9 @@ def create_openstudio_standards_data_json_ashrae_90_1(
         "chillers": [f"hvac_minimum_requirements_chillers_90_1{prm_suffix}"],
         "boilers": [f"hvac_minimum_requirements_boilers_90_1{prm_suffix}"],
         "furnaces": [f"hvac_minimum_requirements_furnaces_90_1{prm_suffix}"],
-        "heat_rejection": [f"hvac_minimum_requirements_heat_rejection_90_1{prm_suffix}"],
+        "heat_rejection": [
+            f"hvac_minimum_requirements_heat_rejection_90_1{prm_suffix}"
+        ],
         "motors": [f"hvac_minimum_requirements_motors_90_1{prm_suffix}"],
         "unitary_acs": [
             f"hvac_minimum_requirements_unitary_air_conditioners_90_1{prm_suffix}"
@@ -337,7 +339,9 @@ def create_openstudio_standards_data_json_ashrae_90_1(
             f"hvac_minimum_requirements_water_source_heat_pumps_cooling_90_1{prm_suffix}"
         ],
         "water_heaters": [f"hvac_minimum_requirements_water_heaters_90_1{prm_suffix}"],
-        "heat_pumps": [f"hvac_minimum_requirements_heat_pumps_cooling_90_1{prm_suffix}"],
+        "heat_pumps": [
+            f"hvac_minimum_requirements_heat_pumps_cooling_90_1{prm_suffix}"
+        ],
         "heat_pumps_heating": [
             f"hvac_minimum_requirements_heat_pumps_heating_90_1{prm_suffix}"
         ],

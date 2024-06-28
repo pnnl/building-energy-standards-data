@@ -137,7 +137,8 @@ class HVACMinimumRequirementWaterHeaters(DBOperation):
             table_name=table_name,
             record_template=RECORD_TEMPLATE,
             initial_data_directory=initial_data_directory,
-            create_table_query=CREATE_HVAC_requirements_WATER_HEATERS_TABLE % table_name,
+            create_table_query=CREATE_HVAC_requirements_WATER_HEATERS_TABLE
+            % table_name,
             insert_record_query=INSERT_A_WATER_HEATER_RECORD % table_name,
         )
 

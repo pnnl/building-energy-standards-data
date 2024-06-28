@@ -3,6 +3,7 @@ This module contains a number of functions to fetch building data
 building data includes:
 lighting, ventilation (and more...)
 """
+
 import sqlite3
 from building_energy_standards_data.query.util import _convert_list_tuple_to_list_dict
 
