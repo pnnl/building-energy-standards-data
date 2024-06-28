@@ -2974,7 +2974,7 @@
         "percent_oa_70_to_80": null,
         "percent_oa_greater_than_80": null,
         "design_conditions": "Heating",
-        "energy_recovery_effectiveness": 0.5,
+        "energy_recovery_effectiveness": null,
         "enthalpy_recovery_ratio": null,
         "sensible_energy_recovery_ratio": null,
         "annotation": "From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)"
@@ -3214,7 +3214,7 @@
         "percent_oa_70_to_80": null,
         "percent_oa_greater_than_80": null,
         "design_conditions": "Heating",
-        "energy_recovery_effectiveness": 0.5,
+        "energy_recovery_effectiveness": null,
         "enthalpy_recovery_ratio": null,
         "sensible_energy_recovery_ratio": null,
         "annotation": "From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)"
@@ -4714,7 +4714,7 @@
         "percent_oa_70_to_80": null,
         "percent_oa_greater_than_80": null,
         "design_conditions": "Heating",
-        "energy_recovery_effectiveness": 0.5,
+        "energy_recovery_effectiveness": null,
         "enthalpy_recovery_ratio": null,
         "sensible_energy_recovery_ratio": null,
         "annotation": "From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)"
