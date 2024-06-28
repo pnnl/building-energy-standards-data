@@ -28,10 +28,10 @@ cd ../../
 rm -rf data_update
 echo "===="
 
-echo "Step 6: push new branch to OSSTD github (currently updating boiler (**/*heat_pump*.json) data only)"
+echo "Step 6: push new branch to OSSTD github (currently updating heat pump (**/*heat_pumps*.json) data only)"
 git config --global user.email "xuechen.lei@pnnl.gov"
 git config --global user.name "Xuechen (Jerry) Lei"
-git add **/*heat_pump*.json
+git add **/*heat_pumps*.json
 #git add **/*motor*.json
 #git add **/*heat_rejection*.json
 #git add **/*unitary_acs*.json
