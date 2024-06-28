@@ -4,6 +4,7 @@ template specify the standard versions for each set of study
 
 e.g. 2019 -> lighting: ASHRAE 90.1-2019, ventilation: ASHRAE 62.1-2019
 """
+
 import sqlite3
 
 from building_energy_standards_data.query.util import _convert_list_tuple_to_list_dict

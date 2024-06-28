@@ -322,27 +322,31 @@ def create_openstudio_standards_data_json_ashrae_90_1(
     # The mapping defined here covers data that varies based on code version
     prm_suffix = "_prm" if prm else ""
     tables_to_export_90_1 = {
-        "chillers": [f"hvac_minimum_requirement_chillers_90_1{prm_suffix}"],
-        "boilers": [f"hvac_minimum_requirement_boilers_90_1{prm_suffix}"],
-        "furnaces": [f"hvac_minimum_requirement_furnaces_90_1{prm_suffix}"],
-        "heat_rejection": [f"hvac_minimum_requirement_heat_rejection_90_1{prm_suffix}"],
-        "motors": [f"hvac_minimum_requirement_motors_90_1{prm_suffix}"],
+        "chillers": [f"hvac_minimum_requirements_chillers_90_1{prm_suffix}"],
+        "boilers": [f"hvac_minimum_requirements_boilers_90_1{prm_suffix}"],
+        "furnaces": [f"hvac_minimum_requirements_furnaces_90_1{prm_suffix}"],
+        "heat_rejection": [
+            f"hvac_minimum_requirements_heat_rejection_90_1{prm_suffix}"
+        ],
+        "motors": [f"hvac_minimum_requirements_motors_90_1{prm_suffix}"],
         "unitary_acs": [
-            f"hvac_minimum_requirement_unitary_air_conditioners_90_1{prm_suffix}"
+            f"hvac_minimum_requirements_unitary_air_conditioners_90_1{prm_suffix}"
         ],
         "water_source_heat_pumps_heating": [
-            f"hvac_minimum_requirement_water_source_heat_pumps_heating_90_1{prm_suffix}"
+            f"hvac_minimum_requirements_water_source_heat_pumps_heating_90_1{prm_suffix}"
         ],
         "water_source_heat_pumps": [
-            f"hvac_minimum_requirement_water_source_heat_pumps_cooling_90_1{prm_suffix}"
+            f"hvac_minimum_requirements_water_source_heat_pumps_cooling_90_1{prm_suffix}"
         ],
-        "water_heaters": [f"hvac_minimum_requirement_water_heaters_90_1{prm_suffix}"],
-        "heat_pumps": [f"hvac_minimum_requirement_heat_pump_cooling_90_1{prm_suffix}"],
+        "water_heaters": [f"hvac_minimum_requirements_water_heaters_90_1{prm_suffix}"],
+        "heat_pumps": [
+            f"hvac_minimum_requirements_heat_pumps_cooling_90_1{prm_suffix}"
+        ],
         "heat_pumps_heating": [
-            f"hvac_minimum_requirement_heat_pump_heating_90_1{prm_suffix}"
+            f"hvac_minimum_requirements_heat_pumps_heating_90_1{prm_suffix}"
         ],
-        "economizers": [f"system_requirement_economizer_90_1{prm_suffix}"],
-        "energy_recovery": [f"system_requirement_energy_recovery_90_1{prm_suffix}"],
+        "economizers": [f"system_requirements_air_economizer_90_1{prm_suffix}"],
+        "energy_recovery": [f"system_requirements_energy_recovery_90_1{prm_suffix}"],
         "construction_properties": [f"envelope_requirement{prm_suffix}"],
     }
 
