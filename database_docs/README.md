@@ -1064,59 +1064,59 @@ todo
 
 todo
 
-### hvac_minimum_requirement_boilers_90_1
+### hvac_minimum_requirements_boilers_90_1
 
 todo
 
-### hvac_minimum_requirement_boilers_IECC
+### hvac_minimum_requirements_boilers_IECC
 
 todo
 
-### hvac_minimum_requirement_chillers_90_1
+### hvac_minimum_requirements_chillers_90_1
 
 todo
 
-### hvac_minimum_requirement_furnaces_90_1
+### hvac_minimum_requirements_furnaces_90_1
 
 todo
 
-### hvac_minimum_requirement_heat_pump_cooling_90_1
+### hvac_minimum_requirements_heat_pumps_cooling_90_1
 
 todo
 
-### hvac_minimum_requirement_heat_pump_heating_90_1
+### hvac_minimum_requirements_heat_pumps_heating_90_1
 
 todo
 
-### hvac_minimum_requirement_heat_rejection_90_1
+### hvac_minimum_requirements_heat_rejection_90_1
 
 todo
 
-### hvac_minimum_requirement_motors_90_1
+### hvac_minimum_requirements_motors_90_1
 
 todo
 
-### hvac_minimum_requirement_unitary_air_conditioners_90_1
+### hvac_minimum_requirements_unitary_air_conditioners_90_1
 
 todo
 
-### hvac_minimum_requirement_water_heaters_90_1
+### hvac_minimum_requirements_water_heaters_90_1
 
 todo
 
-### hvac_minimum_requirement_water_heaters_90_1_prm
+### hvac_minimum_requirements_water_heaters_90_1_prm
 
 todo
 
-### hvac_minimum_requirement_water_heaters_IECC
+### hvac_minimum_requirements_water_heaters_IECC
 
 todo
 
-### hvac_minimum_requirement_water_source_heat_pumps_cooling_90_1
+### hvac_minimum_requirements_water_source_heat_pumps_cooling_90_1
 
 todo
 
-### hvac_minimum_requirement_water_source_heat_pumps_heating_90_1
+### hvac_minimum_requirements_water_source_heat_pumps_heating_90_1
 
 todo
 
@@ -1228,11 +1228,11 @@ todo
 
 todo
 
-### system_requirement_economizer_90_1
+### system_requirements_air_economizer_90_1
 
 todo
 
-### system_requirement_energy_recovery_90_1
+### system_requirements_energy_recovery_90_1
 
 todo
 
