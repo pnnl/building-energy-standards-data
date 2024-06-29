@@ -13,7 +13,7 @@ This repository includes the database as well as Python APIs that can be used to
 
 # Accessing the Database
 ## Locally
-The database can be access by either cloning this repository or by installing it using `pip` by running `pip install building-energy-standards-data`. To get started with the database, a quick start guide is provided [here](/docs/QuickStartGuide.md).
+The database can be accessed by either cloning this repository or by installing it using `pip` by running `pip install building-energy-standards-data`. To get started with the database, a quick start guide is provided [here](/docs/QuickStartGuide.md).
 
 ## Webservices
 Forthcoming!
