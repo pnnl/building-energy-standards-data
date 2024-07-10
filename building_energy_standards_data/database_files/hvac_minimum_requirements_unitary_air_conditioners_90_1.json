@@ -13703,7 +13703,7 @@
     },
     {
         "template": "90.1-2019",
-        "equipment_type": "Space constrained",
+        "equipment_type": "Space Constrained",
         "cooling_type": "AirCooled",
         "heating_type": "Any",
         "subcategory": "Single Package",
@@ -13729,7 +13729,7 @@
     },
     {
         "template": "90.1-2019",
-        "equipment_type": "Space constrained",
+        "equipment_type": "Space Constrained",
         "cooling_type": "AirCooled",
         "heating_type": "Any",
         "subcategory": "Single Package",
@@ -13755,7 +13755,7 @@
     },
     {
         "template": "90.1-2019",
-        "equipment_type": "Space constrained",
+        "equipment_type": "Space Constrained",
         "cooling_type": "AirCooled",
         "heating_type": "Any",
         "subcategory": "Split System",
@@ -13781,7 +13781,7 @@
     },
     {
         "template": "90.1-2019",
-        "equipment_type": "Space constrained",
+        "equipment_type": "Space Constrained",
         "cooling_type": "AirCooled",
         "heating_type": "Any",
         "subcategory": "Split System",
@@ -17031,7 +17031,7 @@
     },
     {
         "template": "90.1-2022",
-        "equipment_type": "Space constrained",
+        "equipment_type": "Space Constrained",
         "cooling_type": "AirCooled",
         "heating_type": "Any",
         "subcategory": "Single Package",
@@ -17057,7 +17057,7 @@
     },
     {
         "template": "90.1-2022",
-        "equipment_type": "Space constrained",
+        "equipment_type": "Space Constrained",
         "cooling_type": "AirCooled",
         "heating_type": "Any",
         "subcategory": "Single Package",
@@ -17083,7 +17083,7 @@
     },
     {
         "template": "90.1-2022",
-        "equipment_type": "Space constrained",
+        "equipment_type": "Space Constrained",
         "cooling_type": "AirCooled",
         "heating_type": "Any",
         "subcategory": "Split System",
@@ -17109,7 +17109,7 @@
     },
     {
         "template": "90.1-2022",
-        "equipment_type": "Space constrained",
+        "equipment_type": "Space Constrained",
         "cooling_type": "AirCooled",
         "heating_type": "Any",
         "subcategory": "Split System",
