@@ -28,10 +28,11 @@ cd ../../
 rm -rf data_update
 echo "===="
 
-echo "Step 6: push new branch to OSSTD github (currently updating heat pump (**/*heat_pumps*.json) data only)"
+echo "Step 6: push new branch to OSSTD github (currently updating heat pump (**/*construction_properties*.json) data only)"
 git config --global user.email "xuechen.lei@pnnl.gov"
 git config --global user.name "Xuechen (Jerry) Lei"
-git add **/*heat_pumps*.json
+git add **/*construction_properties*.json
+#git add **/*heat_pumps*.json
 #git add **/*motor*.json
 #git add **/*heat_rejection*.json
 #git add **/*unitary_acs*.json
@@ -39,7 +40,7 @@ git add **/*heat_pumps*.json
 #git add **/*furnace*.json
 #git add **/*boiler*.json
 #git add **/*chiller*.json
-git commit -m "data_update (heat_pump_only) ${COMMIT_ID:0:7}"
+git commit -m "data_update (construction_propeties_only) ${COMMIT_ID:0:7}"
 git remote set-url origin https://leijerry888:$GHTOKEN@github.com/NREL/openstudio-standards.git
 git push -u origin data_update_${COMMIT_ID:0:7}
 echo "===="
