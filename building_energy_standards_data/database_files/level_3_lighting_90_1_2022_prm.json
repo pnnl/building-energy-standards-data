@@ -622,8 +622,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -641,8 +641,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -660,8 +660,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -679,8 +679,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -698,8 +698,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -717,8 +717,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -736,8 +736,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -755,8 +755,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -774,8 +774,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -793,8 +793,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -812,8 +812,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -850,8 +850,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.3,
-        "occup_sensor_savings": 0.375,
+        "occup_sensor_auto_on_svgs": 0.375,
+        "occup_sensor_savings": 0.3,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -869,8 +869,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.35,
-        "occup_sensor_savings": 0.4375,
+        "occup_sensor_auto_on_svgs": 0.4375,
+        "occup_sensor_savings": 0.35,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -907,8 +907,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -945,8 +945,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -964,8 +964,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.35,
-        "occup_sensor_savings": 0.4375,
+        "occup_sensor_auto_on_svgs": 0.4375,
+        "occup_sensor_savings": 0.35,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -983,8 +983,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.35,
-        "occup_sensor_savings": 0.4375,
+        "occup_sensor_auto_on_svgs": 0.4375,
+        "occup_sensor_savings": 0.35,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1002,8 +1002,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.35,
-        "occup_sensor_savings": 0.4375,
+        "occup_sensor_auto_on_svgs": 0.4375,
+        "occup_sensor_savings": 0.35,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1021,8 +1021,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.35,
-        "occup_sensor_savings": 0.4375,
+        "occup_sensor_auto_on_svgs": 0.4375,
+        "occup_sensor_savings": 0.35,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1059,8 +1059,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1078,8 +1078,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1097,8 +1097,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.3,
-        "occup_sensor_savings": 0.375,
+        "occup_sensor_auto_on_svgs": 0.375,
+        "occup_sensor_savings": 0.3,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1135,8 +1135,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1154,8 +1154,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.3,
-        "occup_sensor_savings": 0.375,
+        "occup_sensor_auto_on_svgs": 0.375,
+        "occup_sensor_savings": 0.3,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1173,8 +1173,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1192,8 +1192,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1306,8 +1306,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.25,
-        "occup_sensor_savings": 0.3125,
+        "occup_sensor_auto_on_svgs": 0.3125,
+        "occup_sensor_savings": 0.25,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1344,8 +1344,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.24,
-        "occup_sensor_savings": 0.3,
+        "occup_sensor_auto_on_svgs": 0.3,
+        "occup_sensor_savings": 0.24,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1363,8 +1363,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.3,
-        "occup_sensor_savings": 0.375,
+        "occup_sensor_auto_on_svgs": 0.375,
+        "occup_sensor_savings": 0.3,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1382,8 +1382,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.3,
-        "occup_sensor_savings": 0.375,
+        "occup_sensor_auto_on_svgs": 0.375,
+        "occup_sensor_savings": 0.3,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1401,8 +1401,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.15,
-        "occup_sensor_savings": 0.1875,
+        "occup_sensor_auto_on_svgs": 0.1875,
+        "occup_sensor_savings": 0.15,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2; For occupancy sensors controlling individual workstation lighting, occupancy sensor reduction factor shall be 30%"
     },
     {
@@ -1420,8 +1420,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 0,
-        "occup_sensor_auto_on_svgs": 0.3,
-        "occup_sensor_savings": 0.375,
+        "occup_sensor_auto_on_svgs": 0.375,
+        "occup_sensor_savings": 0.3,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1439,8 +1439,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 0,
-        "occup_sensor_auto_on_svgs": 0.3,
-        "occup_sensor_savings": 0.375,
+        "occup_sensor_auto_on_svgs": 0.375,
+        "occup_sensor_savings": 0.3,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1458,8 +1458,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1496,8 +1496,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.15,
-        "occup_sensor_savings": 0.1875,
+        "occup_sensor_auto_on_svgs": 0.1875,
+        "occup_sensor_savings": 0.15,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1515,8 +1515,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1610,8 +1610,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.45,
-        "occup_sensor_savings": 0.5625,
+        "occup_sensor_auto_on_svgs": 0.5625,
+        "occup_sensor_savings": 0.45,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1648,8 +1648,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1667,8 +1667,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1686,8 +1686,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.3,
-        "occup_sensor_savings": 0.375,
+        "occup_sensor_auto_on_svgs": 0.375,
+        "occup_sensor_savings": 0.3,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1781,8 +1781,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.35,
-        "occup_sensor_savings": 0.4375,
+        "occup_sensor_auto_on_svgs": 0.4375,
+        "occup_sensor_savings": 0.35,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1800,8 +1800,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1838,8 +1838,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1857,8 +1857,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.35,
-        "occup_sensor_savings": 0.4375,
+        "occup_sensor_auto_on_svgs": 0.4375,
+        "occup_sensor_savings": 0.35,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1895,8 +1895,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1933,8 +1933,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.35,
-        "occup_sensor_savings": 0.4375,
+        "occup_sensor_auto_on_svgs": 0.4375,
+        "occup_sensor_savings": 0.35,
         "annotation": "From 90.1-2022 Table G3.7-1; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -1971,8 +1971,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2028,8 +2028,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.35,
-        "occup_sensor_savings": 0.4375,
+        "occup_sensor_auto_on_svgs": 0.4375,
+        "occup_sensor_savings": 0.35,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2047,8 +2047,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.35,
-        "occup_sensor_savings": 0.4375,
+        "occup_sensor_auto_on_svgs": 0.4375,
+        "occup_sensor_savings": 0.35,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2294,8 +2294,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.15,
-        "occup_sensor_savings": 0.1875,
+        "occup_sensor_auto_on_svgs": 0.1875,
+        "occup_sensor_savings": 0.15,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2313,8 +2313,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.15,
-        "occup_sensor_savings": 0.1875,
+        "occup_sensor_auto_on_svgs": 0.1875,
+        "occup_sensor_savings": 0.15,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2332,8 +2332,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2351,8 +2351,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2370,8 +2370,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2389,8 +2389,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2408,8 +2408,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2427,8 +2427,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2484,8 +2484,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2503,8 +2503,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2522,8 +2522,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2541,8 +2541,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2560,8 +2560,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2579,8 +2579,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2598,8 +2598,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2617,8 +2617,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2636,8 +2636,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2655,8 +2655,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2674,8 +2674,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2693,8 +2693,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2712,8 +2712,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2826,8 +2826,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2845,8 +2845,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2864,8 +2864,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2883,8 +2883,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.1,
-        "occup_sensor_savings": 0.125,
+        "occup_sensor_auto_on_svgs": 0.125,
+        "occup_sensor_savings": 0.1,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2902,8 +2902,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.45,
-        "occup_sensor_savings": 0.5625,
+        "occup_sensor_auto_on_svgs": 0.5625,
+        "occup_sensor_savings": 0.45,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     },
     {
@@ -2921,8 +2921,8 @@
         "automatic_full_off": "REQ",
         "scheduled_shutoff": null,
         "manon_or_partauto": 1,
-        "occup_sensor_auto_on_svgs": 0.45,
-        "occup_sensor_savings": 0.5625,
+        "occup_sensor_auto_on_svgs": 0.5625,
+        "occup_sensor_savings": 0.45,
         "annotation": "From 90.1-2022 Table G3.7-2; Automatic shutoff controls shall be modeled in buildings >5000 ft2"
     }
 ]
