@@ -347,7 +347,7 @@ def create_openstudio_standards_data_json_ashrae_90_1(
         ],
         "economizers": [f"system_requirements_air_economizer_90_1{prm_suffix}"],
         "energy_recovery": [f"system_requirements_energy_recovery_90_1{prm_suffix}"],
-        "construction_properties": [f"envelope_requirement{prm_suffix}"],
+        "construction_properties": [f"envelope_requirements_90_1{prm_suffix}"],
     }
 
     # Generate and "export" the data to the correct location within the OpenStudio Standards repository
