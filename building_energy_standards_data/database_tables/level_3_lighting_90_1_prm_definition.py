@@ -22,8 +22,8 @@ automatic_partial_off: TEXT
 automatic_full_off: TEXT
 scheduled_shutoff: TEXT
 manon_or_partauto: NUMERIC
-occup_sensor_auto_on_svgs: NUMERIC
-occup_sensor_savings: NUMERIC
+occup_sensor_reduction: NUMERIC
+occup_sensor_manon_or_partauto_reduction: NUMERIC
 annotation: TEXT (optional)
 """
 
@@ -44,8 +44,8 @@ automatic_partial_off TEXT,
 automatic_full_off TEXT,
 scheduled_shutoff TEXT,
 manon_or_partauto NUMERIC,
-occup_sensor_auto_on_svgs NUMERIC,
-occup_sensor_savings NUMERIC,
+occup_sensor_reduction NUMERIC,
+occup_sensor_manon_or_partauto_reduction NUMERIC,
 annotation TEXT);
 """
 
@@ -66,8 +66,8 @@ INSERT_A_LIGHT_RECORD = """
         automatic_full_off,
         scheduled_shutoff,
         manon_or_partauto,
-        occup_sensor_auto_on_svgs,
-        occup_sensor_savings,
+        occup_sensor_reduction,
+        occup_sensor_manon_or_partauto_reduction,
         annotation
         )
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
@@ -88,8 +88,8 @@ RECORD_TEMPLATE = {
     "automatic_full_off": "",
     "scheduled_shutoff": "",
     "manon_or_partauto": 0.0,
-    "occup_sensor_auto_on_svgs": 0.0,
-    "occup_sensor_savings": 0.0,
+    "occup_sensor_reduction": 0.0,
+    "occup_sensor_manon_or_partauto_reduction": 0.0,
     "annotation": "",
 }
 
@@ -149,8 +149,8 @@ class LightDef901PRM(DBOperation):
             getattr_either("automatic_full_off", record),
             getattr_either("scheduled_shutoff", record),
             getattr_either("manon_or_partauto", record),
-            getattr_either("occup_sensor_auto_on_svgs", record),
-            getattr_either("occup_sensor_savings", record),
+            getattr_either("occup_sensor_reduction", record),
+            getattr_either("occup_sensor_manon_or_partauto_reduction", record),
             getattr_either("annotation", record),
         )
         return record_tuple
