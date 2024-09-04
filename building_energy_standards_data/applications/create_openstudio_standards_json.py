@@ -14,13 +14,16 @@ from building_energy_standards_data.database_engine.assertions import check_path
 
 
 def create_openstudio_standards_space_data_json_ashrae_90_1(
-    conn: sqlite3.Connection, version_90_1: str
+    conn: sqlite3.Connection, version_90_1: str, osstd_repository_path: str
 ):
     """Create and export space type related data for a specific version of ASHRAE 90.1 to be used by OpenStudio Standards
 
     :param conn (sqlite3.Connection): database connection
     :param version_90_1 (str): code version of ASHRAE 90.1, e.g. "2004", "2007", etc.
+    :param osstd_repository_path (str): path of the local openstudio-standards repository
     """
+    check_path(osstd_repository_path)
+
     missing_data_lookup_hierarchy = [
         "1999",
         "2004",
@@ -33,7 +36,12 @@ def create_openstudio_standards_space_data_json_ashrae_90_1(
     code = "ashrae_90_1"
     template = f"90.1-{version_90_1}"
     create_openstudio_standards_space_data_json(
-        conn, template, version_90_1, missing_data_lookup_hierarchy, code
+        conn,
+        template,
+        version_90_1,
+        missing_data_lookup_hierarchy,
+        code,
+        osstd_repository_path,
     )
 
 
@@ -79,6 +87,7 @@ def create_openstudio_standards_space_data_json(
     code_version: str,
     missing_data_lookup_hierarchy: list,
     code: str,
+    osstd_repository_path: str,
 ):
     """Extract code- and code version-specific OpenStudio Standards space type data from the database and export it to JSON files
     :param conn (sqlite3.Connection): database connection
@@ -86,6 +95,7 @@ def create_openstudio_standards_space_data_json(
     :param code_version (str): verion of the code, e.g. "2004", "2007", etc.
     :param missing_data_lookup_hierarchy (list): list (ordered) of values to use to look up record if targeted value cannot be found
     :param code (str): name of the building energy code, e.g. "ashrae_90_1"
+    :param osstd_repository_path (str): path of the local openstudio-standards repository
     """
     space_map_table = fetch_space_data(conn)
     # Drop other code versions
@@ -294,7 +304,7 @@ def create_openstudio_standards_space_data_json(
     # Export retrieved data
     if len(space_types) > 0:
         with open(
-            f"../../lib/openstudio-standards/standards/{code}/{code}_{code_version}/data/{code}_{code_version}.space_types.json",
+            f"{osstd_repository_path}/lib/openstudio-standards/standards/{code}/{code}_{code_version}/data/{code}_{code_version}.space_types.json",
             "w+",
         ) as output_report:
             output_report.write(json.dumps(space_types, indent=2))
