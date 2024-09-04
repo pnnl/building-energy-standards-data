@@ -332,12 +332,6 @@ def create_openstudio_standards_data_json_ashrae_90_1(
         "unitary_acs": [
             f"hvac_minimum_requirements_unitary_air_conditioners_90_1{prm_suffix}"
         ],
-        "water_source_heat_pumps_heating": [
-            f"hvac_minimum_requirements_water_source_heat_pumps_heating_90_1{prm_suffix}"
-        ],
-        "water_source_heat_pumps": [
-            f"hvac_minimum_requirements_water_source_heat_pumps_cooling_90_1{prm_suffix}"
-        ],
         "water_heaters": [f"hvac_minimum_requirements_water_heaters_90_1{prm_suffix}"],
         "heat_pumps": [
             f"hvac_minimum_requirements_heat_pumps_cooling_90_1{prm_suffix}"
