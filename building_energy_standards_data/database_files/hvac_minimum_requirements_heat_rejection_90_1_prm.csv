@@ -1,8 +1,0 @@
-template,equipment_type,fan_type,test_fluid,start_date,end_date,minimum_performance_gpm_per_hp,minimum_performance_btu_per_hr_per_hp,annotation
-90.1-PRM-2004,Open Cooling Tower,Propeller or Axial,,9/9/1919,9/9/2999,38.2,,From 90.1-2004 Section G3.1.3.11 and Table 6.8.1G
-90.1-PRM-2007,Open Cooling Tower,Propeller or Axial,,9/9/1919,9/9/2999,38.2,,From 90.1-2007 Section G3.1.3.11 and Table 6.8.1G
-90.1-PRM-2010,Open Cooling Tower,Propeller or Axial,,9/9/1919,9/9/2999,38.2,,From 90.1-2010 Section G3.1.3.11 and Table 6.8.1G
-90.1-PRM-2013,Open Cooling Tower,Propeller or Axial,,9/9/1919,9/9/2999,40.2,,From 90.1-2013 Section G3.1.3.11 and Table 6.8.1-7
-90.1-PRM-2016,Open Cooling Tower,Propeller or Axial,,9/9/1919,9/9/2999,38.2,,From 90.1-2016 Section G3.1.3.11
-90.1-PRM-2019,Open Cooling Tower,Propeller or Axial,,9/9/1919,9/9/2999,38.2,,From 90.1-2019 Section G3.1.3.11
-90.1-PRM-2022,Open Cooling Tower,Propeller or Axial,,9/9/1919,9/9/2999,38.2,,From 90.1-2022 Section G3.2.3.11
