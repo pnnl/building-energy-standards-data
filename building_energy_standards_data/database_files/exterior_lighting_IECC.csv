@@ -1,0 +1,651 @@
+template,lighting_zone,allowance_type,allowance,allowance_unit,tradable,off_control,daylight_off_control,scheduled_off_control,scheduled_light_reduction_control,occupancy_sensing_light_reduction_control,annotation
+IECC-2006,0,parking lots and drives,0.15,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,walkways less than 10 feet wide,1,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,walkways 10 feet wide or greater,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,plaza areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,special feature areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,stairways,1,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,main entries,30,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,other doors,20,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,canopies,1.25,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,outdoor sales open areas,0.5,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,outdoor sales street frontage for vehicle sales lot in addition to open area,20,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,building facades,0.2,W/ft2,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,building facades,5,W/ft,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,entrances and gatehouse inspection stations at guarded facilities (uncovered),1.25,W/ft2,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,base site allowance,0,W,FALSE,,,,,,From IECC-2006 Table 505.6.2
+IECC-2006,0,additional unrestricted allowance,5,%,FALSE,,,,,,From IECC-2006 Section 505.6.2
+IECC-2006,1,parking lots and drives,0.15,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,walkways less than 10 feet wide,1,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,walkways 10 feet wide or greater,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,plaza areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,special feature areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,stairways,1,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,main entries,30,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,other doors,20,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,canopies,1.25,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,outdoor sales open areas,0.5,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,outdoor sales street frontage for vehicle sales lot in addition to open area,20,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,building facades,0.2,W/ft2,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,building facades,5,W/ft,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,entrances and gatehouse inspection stations at guarded facilities (uncovered),1.25,W/ft2,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,base site allowance,0,W,FALSE,,,,,,From IECC-2006 Table 505.6.2
+IECC-2006,1,additional unrestricted allowance,5,%,FALSE,,,,,,From IECC-2006 Section 505.6.2
+IECC-2006,2,parking lots and drives,0.15,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,walkways less than 10 feet wide,1,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,walkways 10 feet wide or greater,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,plaza areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,special feature areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,stairways,1,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,main entries,30,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,other doors,20,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,canopies,1.25,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,outdoor sales open areas,0.5,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,outdoor sales street frontage for vehicle sales lot in addition to open area,20,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,building facades,0.2,W/ft2,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,building facades,5,W/ft,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,entrances and gatehouse inspection stations at guarded facilities (uncovered),1.25,W/ft2,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,base site allowance,0,W,FALSE,,,,,,From IECC-2006 Table 505.6.2
+IECC-2006,2,additional unrestricted allowance,5,%,FALSE,,,,,,From IECC-2006 Section 505.6.2
+IECC-2006,3,parking lots and drives,0.15,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,walkways less than 10 feet wide,1,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,walkways 10 feet wide or greater,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,plaza areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,special feature areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,stairways,1,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,main entries,30,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,other doors,20,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,canopies,1.25,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,outdoor sales open areas,0.5,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,outdoor sales street frontage for vehicle sales lot in addition to open area,20,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,building facades,0.2,W/ft2,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,building facades,5,W/ft,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,entrances and gatehouse inspection stations at guarded facilities (uncovered),1.25,W/ft2,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,base site allowance,0,W,FALSE,,,,,,From IECC-2006 Table 505.6.2
+IECC-2006,3,additional unrestricted allowance,5,%,FALSE,,,,,,From IECC-2006 Section 505.6.2
+IECC-2006,4,parking lots and drives,0.15,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,walkways less than 10 feet wide,1,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,walkways 10 feet wide or greater,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,plaza areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,special feature areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,stairways,1,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,main entries,30,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,other doors,20,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,canopies,1.25,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,outdoor sales open areas,0.5,W/ft2,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,outdoor sales street frontage for vehicle sales lot in addition to open area,20,W/ft,TRUE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,building facades,0.2,W/ft2,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,building facades,5,W/ft,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,entrances and gatehouse inspection stations at guarded facilities (uncovered),1.25,W/ft2,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,base site allowance,0,W,FALSE,,,,,,From IECC-2006 Table 505.6.2
+IECC-2006,4,additional unrestricted allowance,5,%,FALSE,,,,,,From IECC-2006 Section 505.6.2
+IECC-2021,0,base site allowance,0,W,FALSE,,,,,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,base site allowance,350,W,FALSE,,,,,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,base site allowance,400,W,FALSE,,,,,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,base site allowance,500,W,FALSE,,,,,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,base site allowance,900,W,FALSE,,,,,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,parking lots and drives,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,parking lots and drives,0.03,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,parking lots and drives,0.04,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,parking lots and drives,0.06,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,parking lots and drives,0.08,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,walkways less than 10 feet wide,0,W/ft,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,walkways less than 10 feet wide,0.5,W/ft,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,walkways less than 10 feet wide,0.5,W/ft,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,walkways less than 10 feet wide,0.6,W/ft,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,walkways less than 10 feet wide,0.7,W/ft,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,walkways 10 feet wide or greater,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,walkways 10 feet wide or greater,0.1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,walkways 10 feet wide or greater,0.1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,walkways 10 feet wide or greater,0.11,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,walkways 10 feet wide or greater,0.14,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,plaza areas,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,plaza areas,0.1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,plaza areas,0.1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,plaza areas,0.11,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,plaza areas,0.14,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,special feature areas,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,special feature areas,0.1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,special feature areas,0.1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,special feature areas,0.11,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,special feature areas,0.14,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,dining areas,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,dining areas,0.65,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,dining areas,0.65,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,dining areas,0.75,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,dining areas,0.95,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,stairways,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,stairways,0.6,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,stairways,0.7,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,stairways,0.7,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,stairways,0.7,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,pedestrian tunnels,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,pedestrian tunnels,0.12,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,pedestrian tunnels,0.12,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,pedestrian tunnels,0.14,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,pedestrian tunnels,0.21,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,lanscaping,0,W/ft2,TRUE,,REQ,REQ,,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,lanscaping,0.03,W/ft2,TRUE,,REQ,REQ,,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,lanscaping,0.04,W/ft2,TRUE,,REQ,REQ,,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,lanscaping,0.04,W/ft2,TRUE,,REQ,REQ,,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,lanscaping,0.04,W/ft2,TRUE,,REQ,REQ,,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,pedestrian and vehicular entrances and exists,0,W/ft,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,pedestrian and vehicular entrances and exists,14,W/ft,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,pedestrian and vehicular entrances and exists,14,W/ft,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,pedestrian and vehicular entrances and exists,21,W/ft,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,pedestrian and vehicular entrances and exists,21,W/ft,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,entry canopies,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,entry canopies,0.2,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,entry canopies,0.25,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,entry canopies,0.4,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,entry canopies,0.4,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,loading docks,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,loading docks,0.35,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,loading docks,0.35,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,loading docks,0.35,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,loading docks,0.35,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,sales canopies free standing and attached,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,sales canopies free standing and attached,0.4,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,sales canopies free standing and attached,0.4,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,sales canopies free standing and attached,0.6,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,sales canopies free standing and attached,0.7,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,outdoor sales open area,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,outdoor sales open area,0.2,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,outdoor sales open area,0.2,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,outdoor sales open area,0.35,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,outdoor sales open area,0.5,W/ft2,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,outdoor sales street frontage for vehicle sales lot in addition to open area,0,W/ft,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,outdoor sales street frontage for vehicle sales lot in addition to open area,0,W/ft,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,outdoor sales street frontage for vehicle sales lot in addition to open area,7,W/ft,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,outdoor sales street frontage for vehicle sales lot in addition to open area,7,W/ft,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,outdoor sales street frontage for vehicle sales lot in addition to open area,21,W/ft,TRUE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,building facades,0,W/ft2,FALSE,,REQ,REQ,,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,building facades,0,W/ft2,FALSE,,REQ,REQ,,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,building facades,0.075,W/ft2,FALSE,,REQ,REQ,,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,building facades,0.113,W/ft2,FALSE,,REQ,REQ,,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,building facades,0.15,W/ft2,FALSE,,REQ,REQ,,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,automated teller machines and night depositories,0,W/location,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,automated teller machines and night depositories,135,W/location,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,automated teller machines and night depositories,135,W/location,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,automated teller machines and night depositories,135,W/location,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,automated teller machines and night depositories,135,W/location,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,automated teller machines and night depositories,0,W/additional ATM per location,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,automated teller machines and night depositories,45,W/additional ATM per location,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,automated teller machines and night depositories,45,W/additional ATM per location,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,automated teller machines and night depositories,45,W/additional ATM per location,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,automated teller machines and night depositories,45,W/additional ATM per location,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,entrances and gatehouse inspection stations at guarded facilities (uncovered),0,W/ft2,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,entrances and gatehouse inspection stations at guarded facilities (uncovered),0.5,W/ft2,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,entrances and gatehouse inspection stations at guarded facilities (uncovered),0.5,W/ft2,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,entrances and gatehouse inspection stations at guarded facilities (uncovered),0.5,W/ft2,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,entrances and gatehouse inspection stations at guarded facilities (uncovered),0.5,W/ft2,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0,W/ft2,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.35,W/ft2,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.35,W/ft2,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.35,W/ft2,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.35,W/ft2,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,drive-up windows at fast food restaurant,0,W,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,drive-up windows at fast food restaurant,200,W,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,drive-up windows at fast food restaurant,200,W,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,drive-up windows at fast food restaurant,200,W,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,drive-up windows at fast food restaurant,200,W,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,0,parking near 24-hour retail entrances,0,W,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,1,parking near 24-hour retail entrances,400,W,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,2,parking near 24-hour retail entrances,400,W,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,3,parking near 24-hour retail entrances,400,W,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2021,4,parking near 24-hour retail entrances,400,W,FALSE,,REQ,,REQ,,From IECC-2021 Table C405.5.2(2)
+IECC-2009,0,parking lots and drives,0.15,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,walkways less than 10 feet wide,1,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,walkways 10 feet wide or greater,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,plaza areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,special feature areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,stairways,1,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,main entries,30,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,other doors,20,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,canopies,1.25,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,outdoor sales open areas,0.5,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,outdoor sales street frontage for vehicle sales lot in addition to open area,20,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,building facades,0.2,W/ft2,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,building facades,5,W/ft,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,entrances and gatehouse inspection stations at guarded facilities (uncovered),1.25,W/ft2,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,0,base site allowance,0,W,FALSE,,,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,parking lots and drives,0.15,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,walkways less than 10 feet wide,1,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,walkways 10 feet wide or greater,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,plaza areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,special feature areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,stairways,1,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,main entries,30,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,other doors,20,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,canopies,1.25,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,outdoor sales open areas,0.5,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,outdoor sales street frontage for vehicle sales lot in addition to open area,20,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,building facades,0.2,W/ft2,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,building facades,5,W/ft,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,entrances and gatehouse inspection stations at guarded facilities (uncovered),1.25,W/ft2,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,1,base site allowance,0,W,FALSE,,,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,parking lots and drives,0.15,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,walkways less than 10 feet wide,1,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,walkways 10 feet wide or greater,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,plaza areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,special feature areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,stairways,1,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,main entries,30,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,other doors,20,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,canopies,1.25,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,outdoor sales open areas,0.5,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,outdoor sales street frontage for vehicle sales lot in addition to open area,20,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,building facades,0.2,W/ft2,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,building facades,5,W/ft,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,entrances and gatehouse inspection stations at guarded facilities (uncovered),1.25,W/ft2,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,2,base site allowance,0,W,FALSE,,,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,parking lots and drives,0.15,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,walkways less than 10 feet wide,1,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,walkways 10 feet wide or greater,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,plaza areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,special feature areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,stairways,1,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,main entries,30,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,other doors,20,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,canopies,1.25,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,outdoor sales open areas,0.5,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,outdoor sales street frontage for vehicle sales lot in addition to open area,20,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,building facades,0.2,W/ft2,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,building facades,5,W/ft,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,entrances and gatehouse inspection stations at guarded facilities (uncovered),1.25,W/ft2,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,3,base site allowance,0,W,FALSE,,,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,parking lots and drives,0.15,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,walkways less than 10 feet wide,1,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,walkways 10 feet wide or greater,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,plaza areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,special feature areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,stairways,1,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,main entries,30,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,other doors,20,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,canopies,1.25,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,outdoor sales open areas,0.5,W/ft2,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,outdoor sales street frontage for vehicle sales lot in addition to open area,20,W/ft,TRUE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,building facades,0.2,W/ft2,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,building facades,5,W/ft,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,entrances and gatehouse inspection stations at guarded facilities (uncovered),1.25,W/ft2,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,,,From IECC-2009 Table 505.6.2
+IECC-2009,4,base site allowance,0,W,FALSE,,,,,,From IECC-2009 Table 505.6.2
+IECC-2012,0,base site allowance,0,W,FALSE,,,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,base site allowance,500,W,FALSE,,,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,base site allowance,600,W,FALSE,,,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,base site allowance,750,W,FALSE,,,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,base site allowance,1300,W,FALSE,,,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,parking lots and drives,0,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,parking lots and drives,0.04,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,parking lots and drives,0.06,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,parking lots and drives,0.1,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,parking lots and drives,0.13,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,walkways less than 10 feet wide,0,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,walkways less than 10 feet wide,0.7,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,walkways less than 10 feet wide,0.7,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,walkways less than 10 feet wide,0.8,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,walkways less than 10 feet wide,1,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,walkways 10 feet wide or greater,0,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,walkways 10 feet wide or greater,0.14,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,walkways 10 feet wide or greater,0.14,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,walkways 10 feet wide or greater,0.16,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,walkways 10 feet wide or greater,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,plaza areas,0,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,plaza areas,0.14,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,plaza areas,0.14,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,plaza areas,0.16,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,plaza areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,special feature areas,0,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,special feature areas,0.14,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,special feature areas,0.14,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,special feature areas,0.16,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,special feature areas,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,stairways,0,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,stairways,0.75,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,stairways,1,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,stairways,1,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,stairways,1,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,pedestrian tunnels,0,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,pedestrian tunnels,0.15,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,pedestrian tunnels,0.15,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,pedestrian tunnels,0.2,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,pedestrian tunnels,0.3,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,main entries,0,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,main entries,20,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,main entries,20,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,main entries,30,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,main entries,30,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,other doors,0,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,other doors,20,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,other doors,20,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,other doors,20,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,other doors,20,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,entry canopies,0,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,entry canopies,0.25,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,entry canopies,0.25,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,entry canopies,0.4,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,entry canopies,0.4,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,sales canopies free standing and attached,0,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,sales canopies free standing and attached,0.6,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,sales canopies free standing and attached,0.6,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,sales canopies free standing and attached,0.8,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,sales canopies free standing and attached,1,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,outdoor sales open area,0,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,outdoor sales open area,0.25,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,outdoor sales open area,0.25,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,outdoor sales open area,0.5,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,outdoor sales open area,0.7,W/ft2,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,outdoor sales street frontage for vehicle sales lot in addition to open area,0,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,outdoor sales street frontage for vehicle sales lot in addition to open area,0,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,outdoor sales street frontage for vehicle sales lot in addition to open area,10,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,outdoor sales street frontage for vehicle sales lot in addition to open area,10,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,outdoor sales street frontage for vehicle sales lot in addition to open area,30,W/ft,TRUE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,building facades,0,W/ft2,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,building facades,0,W/ft2,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,building facades,0.1,W/ft2,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,building facades,0.15,W/ft2,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,building facades,0.2,W/ft2,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,building facades,0,W/ft,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,building facades,0,W/ft,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,building facades,2.5,W/ft,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,building facades,3.75,W/ft,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,building facades,5,W/ft,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,automated teller machines and night depositories,0,W/location,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,automated teller machines and night depositories,0,W/additional ATM per location,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,entrances and gatehouse inspection stations at guarded facilities (uncovered),0,W/ft2,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,entrances and gatehouse inspection stations at guarded facilities (uncovered),0.75,W/ft2,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,entrances and gatehouse inspection stations at guarded facilities (uncovered),0.75,W/ft2,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,entrances and gatehouse inspection stations at guarded facilities (uncovered),0.75,W/ft2,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,entrances and gatehouse inspection stations at guarded facilities (uncovered),0.75,W/ft2,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0,W/ft2,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,drive-up windows at fast food restaurant,0,W,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,0,parking near 24-hour retail entrances,0,W,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,1,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,2,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,3,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2012,4,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,,,From IECC-2012 Table C405.6.2(2)
+IECC-2015,0,base site allowance,0,W,FALSE,,,,,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,base site allowance,500,W,FALSE,,,,,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,base site allowance,600,W,FALSE,,,,,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,base site allowance,750,W,FALSE,,,,,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,base site allowance,1300,W,FALSE,,,,,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,parking lots and drives,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,parking lots and drives,0.04,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,parking lots and drives,0.06,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,parking lots and drives,0.1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,parking lots and drives,0.13,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,walkways less than 10 feet wide,0,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,walkways less than 10 feet wide,0.7,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,walkways less than 10 feet wide,0.7,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,walkways less than 10 feet wide,0.8,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,walkways less than 10 feet wide,1,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,walkways 10 feet wide or greater,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,walkways 10 feet wide or greater,0.14,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,walkways 10 feet wide or greater,0.14,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,walkways 10 feet wide or greater,0.16,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,walkways 10 feet wide or greater,0.2,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,plaza areas,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,plaza areas,0.14,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,plaza areas,0.14,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,plaza areas,0.16,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,plaza areas,0.2,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,special feature areas,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,special feature areas,0.14,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,special feature areas,0.14,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,special feature areas,0.16,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,special feature areas,0.2,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,stairways,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,stairways,0.75,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,stairways,1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,stairways,1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,stairways,1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,pedestrian tunnels,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,pedestrian tunnels,0.15,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,pedestrian tunnels,0.15,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,pedestrian tunnels,0.2,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,pedestrian tunnels,0.3,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,main entries,0,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,main entries,20,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,main entries,20,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,main entries,30,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,main entries,30,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,other doors,0,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,other doors,20,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,other doors,20,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,other doors,20,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,other doors,20,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,entry canopies,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,entry canopies,0.25,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,entry canopies,0.25,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,entry canopies,0.4,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,entry canopies,0.4,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,sales canopies free standing and attached,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,sales canopies free standing and attached,0.6,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,sales canopies free standing and attached,0.6,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,sales canopies free standing and attached,0.8,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,sales canopies free standing and attached,1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,outdoor sales open area,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,outdoor sales open area,0.25,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,outdoor sales open area,0.25,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,outdoor sales open area,0.5,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,outdoor sales open area,0.7,W/ft2,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,outdoor sales street frontage for vehicle sales lot in addition to open area,0,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,outdoor sales street frontage for vehicle sales lot in addition to open area,0,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,outdoor sales street frontage for vehicle sales lot in addition to open area,10,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,outdoor sales street frontage for vehicle sales lot in addition to open area,10,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,outdoor sales street frontage for vehicle sales lot in addition to open area,30,W/ft,TRUE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,building facades,0,W/ft2,FALSE,,REQ,REQ,,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,building facades,0,W/ft2,FALSE,,REQ,REQ,,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,building facades,0.075,W/ft2,FALSE,,REQ,REQ,,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,building facades,0.113,W/ft2,FALSE,,REQ,REQ,,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,building facades,0.15,W/ft2,FALSE,,REQ,REQ,,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,automated teller machines and night depositories,0,W/location,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,automated teller machines and night depositories,270,W/location,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,automated teller machines and night depositories,0,W/additional ATM per location,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,automated teller machines and night depositories,90,W/additional ATM per location,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,entrances and gatehouse inspection stations at guarded facilities (uncovered),0,W/ft2,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,entrances and gatehouse inspection stations at guarded facilities (uncovered),0.75,W/ft2,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,entrances and gatehouse inspection stations at guarded facilities (uncovered),0.75,W/ft2,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,entrances and gatehouse inspection stations at guarded facilities (uncovered),0.75,W/ft2,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,entrances and gatehouse inspection stations at guarded facilities (uncovered),0.75,W/ft2,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0,W/ft2,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.5,W/ft2,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,drive-up windows at fast food restaurant,0,W,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,drive-up windows at fast food restaurant,400,W,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,0,parking near 24-hour retail entrances,0,W,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,1,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,2,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,3,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2015,4,parking near 24-hour retail entrances,800,W,FALSE,,REQ,,REQ,,From IECC-2015 Table C405.5.2(2)
+IECC-2018,0,base site allowance,0,W,FALSE,,,,,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,base site allowance,350,W,FALSE,,,,,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,base site allowance,400,W,FALSE,,,,,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,base site allowance,500,W,FALSE,,,,,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,base site allowance,900,W,FALSE,,,,,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,parking lots and drives,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,parking lots and drives,0.03,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,parking lots and drives,0.04,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,parking lots and drives,0.06,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,parking lots and drives,0.08,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,walkways less than 10 feet wide,0,W/ft,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,walkways less than 10 feet wide,0.5,W/ft,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,walkways less than 10 feet wide,0.5,W/ft,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,walkways less than 10 feet wide,0.6,W/ft,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,walkways less than 10 feet wide,0.7,W/ft,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,walkways 10 feet wide or greater,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,walkways 10 feet wide or greater,0.1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,walkways 10 feet wide or greater,0.1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,walkways 10 feet wide or greater,0.11,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,walkways 10 feet wide or greater,0.14,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,plaza areas,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,plaza areas,0.1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,plaza areas,0.1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,plaza areas,0.11,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,plaza areas,0.14,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,special feature areas,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,special feature areas,0.1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,special feature areas,0.1,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,special feature areas,0.11,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,special feature areas,0.14,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,dining areas,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,dining areas,0.65,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,dining areas,0.65,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,dining areas,0.75,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,dining areas,0.95,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,stairways,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,stairways,0.6,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,stairways,0.7,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,stairways,0.7,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,stairways,0.7,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,pedestrian tunnels,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,pedestrian tunnels,0.12,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,pedestrian tunnels,0.12,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,pedestrian tunnels,0.14,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,pedestrian tunnels,0.21,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,lanscaping,0,W/ft2,TRUE,,REQ,REQ,,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,lanscaping,0.03,W/ft2,TRUE,,REQ,REQ,,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,lanscaping,0.04,W/ft2,TRUE,,REQ,REQ,,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,lanscaping,0.04,W/ft2,TRUE,,REQ,REQ,,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,lanscaping,0.04,W/ft2,TRUE,,REQ,REQ,,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,pedestrian and vehicular entrances and exists,0,W/ft,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,pedestrian and vehicular entrances and exists,14,W/ft,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,pedestrian and vehicular entrances and exists,14,W/ft,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,pedestrian and vehicular entrances and exists,21,W/ft,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,pedestrian and vehicular entrances and exists,21,W/ft,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,entry canopies,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,entry canopies,0.2,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,entry canopies,0.25,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,entry canopies,0.4,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,entry canopies,0.4,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,loading docks,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,loading docks,0.35,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,loading docks,0.35,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,loading docks,0.35,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,loading docks,0.35,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,sales canopies free standing and attached,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,sales canopies free standing and attached,0.4,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,sales canopies free standing and attached,0.4,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,sales canopies free standing and attached,0.6,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,sales canopies free standing and attached,0.7,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,outdoor sales open area,0,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,outdoor sales open area,0.2,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,outdoor sales open area,0.2,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,outdoor sales open area,0.35,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,outdoor sales open area,0.5,W/ft2,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,outdoor sales street frontage for vehicle sales lot in addition to open area,0,W/ft,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,outdoor sales street frontage for vehicle sales lot in addition to open area,0,W/ft,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,outdoor sales street frontage for vehicle sales lot in addition to open area,7,W/ft,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,outdoor sales street frontage for vehicle sales lot in addition to open area,7,W/ft,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,outdoor sales street frontage for vehicle sales lot in addition to open area,21,W/ft,TRUE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,building facades,0,W/ft2,FALSE,,REQ,REQ,,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,building facades,0,W/ft2,FALSE,,REQ,REQ,,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,building facades,0.075,W/ft2,FALSE,,REQ,REQ,,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,building facades,0.113,W/ft2,FALSE,,REQ,REQ,,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,building facades,0.15,W/ft2,FALSE,,REQ,REQ,,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,automated teller machines and night depositories,0,W/location,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,automated teller machines and night depositories,135,W/location,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,automated teller machines and night depositories,135,W/location,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,automated teller machines and night depositories,135,W/location,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,automated teller machines and night depositories,135,W/location,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,automated teller machines and night depositories,0,W/additional ATM per location,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,automated teller machines and night depositories,45,W/additional ATM per location,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,automated teller machines and night depositories,45,W/additional ATM per location,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,automated teller machines and night depositories,45,W/additional ATM per location,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,automated teller machines and night depositories,45,W/additional ATM per location,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,entrances and gatehouse inspection stations at guarded facilities (uncovered),0,W/ft2,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,entrances and gatehouse inspection stations at guarded facilities (uncovered),0.5,W/ft2,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,entrances and gatehouse inspection stations at guarded facilities (uncovered),0.5,W/ft2,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,entrances and gatehouse inspection stations at guarded facilities (uncovered),0.5,W/ft2,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,entrances and gatehouse inspection stations at guarded facilities (uncovered),0.5,W/ft2,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0,W/ft2,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.35,W/ft2,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.35,W/ft2,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.35,W/ft2,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,"loading areas for law enforcement, fire, ambulance and other emergency service vehicles (uncovered)",0.35,W/ft2,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,drive-up windows at fast food restaurant,0,W,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,drive-up windows at fast food restaurant,200,W,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,drive-up windows at fast food restaurant,200,W,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,drive-up windows at fast food restaurant,200,W,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,drive-up windows at fast food restaurant,200,W,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,0,parking near 24-hour retail entrances,0,W,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,1,parking near 24-hour retail entrances,400,W,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,2,parking near 24-hour retail entrances,400,W,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,3,parking near 24-hour retail entrances,400,W,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)
+IECC-2018,4,parking near 24-hour retail entrances,400,W,FALSE,,REQ,,REQ,,From IECC-2018 Table C405.4.2(3)

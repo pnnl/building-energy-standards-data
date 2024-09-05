@@ -1,0 +1,427 @@
+template,climate_zone,under_8000_hours,nontransient_dwelling,percent_oa_0_to_10,percent_oa_10_to_20,percent_oa_20_to_30,percent_oa_30_to_40,percent_oa_40_to_50,percent_oa_50_to_60,percent_oa_60_to_70,percent_oa_70_to_80,percent_oa_greater_than_80,design_conditions,energy_recovery_effectiveness,enthalpy_recovery_ratio,sensible_energy_recovery_ratio,annotation
+IECC-2006,0A,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,Based on entries for climate zone 1A
+IECC-2006,0B,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,Based on entries for climate zone 1B
+IECC-2006,1A,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,1B,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,2A,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,2B,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,0A,Any,Any,,,,,,,,,,Heating,,,,Based on entries for climate zone 1A
+IECC-2006,0B,Any,Any,,,,,,,,,,Heating,,,,Based on entries for climate zone 1B
+IECC-2006,1A,Any,Any,,,,,,,,,,Heating,,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,1B,Any,Any,,,,,,,,,,Heating,,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,2A,Any,Any,,,,,,,,,,Heating,,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,2B,Any,Any,,,,,,,,,,Heating,,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,3A,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,3A,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,3B,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,3B,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,3C,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,3C,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,4A,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,4A,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,4B,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,4B,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,4C,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,4C,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,5A,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,5A,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,5B,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,5C,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,5B,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,5C,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,6A,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,6A,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,6B,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,7A,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,7B,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,8,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,6B,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,7A,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,7B,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2006,8,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2006 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,0A,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,Based on entries for climate zone 1A
+IECC-2009,0B,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,Based on entries for climate zone 1B
+IECC-2009,1A,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,1B,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,2A,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,2B,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,0A,Any,Any,,,,,,,,,,Heating,,,,Based on entries for climate zone 1A
+IECC-2009,0B,Any,Any,,,,,,,,,,Heating,,,,Based on entries for climate zone 1B
+IECC-2009,1A,Any,Any,,,,,,,,,,Heating,,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,1B,Any,Any,,,,,,,,,,Heating,,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,2A,Any,Any,,,,,,,,,,Heating,,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,2B,Any,Any,,,,,,,,,,Heating,,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,3A,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,3A,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,3B,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,3B,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,3C,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,3C,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,4A,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,4A,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,4B,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,4B,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,4C,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,4C,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,5A,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,5A,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,5B,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,5C,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,5B,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,5C,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,6A,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,6A,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,6B,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,7A,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,7B,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,8,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,6B,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,7A,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,7B,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2009,8,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2009 Section 503.2.6. Climate zone requirements in the exception are taken from IECC-2012
+IECC-2012,0A,Any,Any,,,,5500,4500,3500,2000,1000,0,Cooling,0.5,,,Based on entries for climate zone 1A
+IECC-2012,0B,Any,Any,,,,,,26000,12000,5000,4000,Cooling,0.5,,,Based on entries for climate zone 1B
+IECC-2012,1A,Any,Any,,,,5500,4500,3500,2000,1000,0,Cooling,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,1B,Any,Any,,,,,,26000,12000,5000,4000,Cooling,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,2A,Any,Any,,,,5500,4500,3500,2000,1000,0,Cooling,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,2B,Any,Any,,,,,,26000,12000,5000,4000,Cooling,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,0A,Any,Any,,,,,,,,,,Heating,,,,Based on entries for climate zone 1A
+IECC-2012,0B,Any,Any,,,,,,,,,,Heating,,,,Based on entries for climate zone 1B
+IECC-2012,1A,Any,Any,,,,,,,,,,Heating,,,,From IECC-2012 Section C403.2.6
+IECC-2012,1B,Any,Any,,,,,,,,,,Heating,,,,From IECC-2012 Section C403.2.6
+IECC-2012,2A,Any,Any,,,,,,,,,,Heating,,,,From IECC-2012 Section C403.2.6
+IECC-2012,2B,Any,Any,,,,,,,,,,Heating,,,,From IECC-2012 Section C403.2.6
+IECC-2012,3A,Any,Any,,,,5500,4500,3500,2000,1000,0,Heating,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,3A,Any,Any,,,,5500,4500,3500,2000,1000,0,Cooling,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,3B,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,3B,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,3C,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,3C,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2012 Section C403.2.6
+IECC-2012,4A,Any,Any,,,,5500,4500,3500,2000,1000,0,Heating,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,4A,Any,Any,,,,5500,4500,3500,2000,1000,0,Cooling,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,4B,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,4B,Any,Any,,,,,,,,5000,5000,Cooling,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,4C,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,4C,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2012 Section C403.2.6
+IECC-2012,5A,Any,Any,,,,5500,4500,3500,2000,1000,0,Heating,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,5A,Any,Any,,,,5500,4500,3500,2000,1000,0,Cooling,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,5B,Any,Any,,,,,,,,5000,5000,Heating,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,5C,Any,Any,,,,,,26000,12000,5000,4000,Heating,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,5B,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2012 Section C403.2.6
+IECC-2012,5C,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2012 Section C403.2.6
+IECC-2012,6A,Any,Any,,,,5500,4500,3500,2000,1000,0,Heating,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,6A,Any,Any,,,,5500,4500,3500,2000,1000,0,Cooling,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,6B,Any,Any,,,,11000,5500,4500,3500,2500,1500,Heating,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,7A,Any,Any,,,,2500,1000,0,0,0,0,Heating,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,7B,Any,Any,,,,2500,1000,0,0,0,0,Heating,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,8,Any,Any,,,,2500,1000,0,0,0,0,Heating,0.5,,,From IECC-2012 Table C403.2.6
+IECC-2012,6B,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2012 Section C403.2.6
+IECC-2012,7A,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2012 Section C403.2.6
+IECC-2012,7B,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2012 Section C403.2.6
+IECC-2012,8,Any,Any,,,,,,,,,,Cooling,,,,From IECC-2012 Section C403.2.6
+IECC-2015,0A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,0,Cooling,0.5,,,Based on entries for climate zone 1A
+IECC-2015,0A,FALSE,Any,,2500,2000,1000,500,0,0,0,0,Cooling,0.5,,,Based on entries for climate zone 1A
+IECC-2015,0B,TRUE,Any,,,,,,26000,12000,5000,4000,Cooling,0.5,,,Based on entries for climate zone 1B
+IECC-2015,0B,FALSE,Any,,,19500,9000,5000,4000,3000,1500,0,Cooling,0.5,,,Based on entries for climate zone 1B
+IECC-2015,1A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,0,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,1A,FALSE,Any,,2500,2000,1000,500,0,0,0,0,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,1B,TRUE,Any,,,,,,26000,12000,5000,4000,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,1B,FALSE,Any,,,19500,9000,5000,4000,3000,1500,0,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,2A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,0,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,2A,FALSE,Any,,2500,2000,1000,500,0,0,0,0,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,2B,TRUE,Any,,,,,,26000,12000,5000,4000,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,2B,FALSE,Any,,,19500,9000,5000,4000,3000,1500,0,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,0A,TRUE,Any,,,,,,,,,,Heating,,,,Based on entries for climate zone 1A
+IECC-2015,0A,FALSE,Any,,,,,,,,,,Heating,,,,Based on entries for climate zone 1A
+IECC-2015,0B,TRUE,Any,,,,,,,,,,Heating,,,,Based on entries for climate zone 1B
+IECC-2015,0B,FALSE,Any,,,,,,,,,,Heating,,,,Based on entries for climate zone 1B
+IECC-2015,1A,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2015 Section C403.2.7
+IECC-2015,1A,FALSE,Any,,,,,,,,,,Heating,,,,From IECC-2015 Section C403.2.7
+IECC-2015,1B,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2015 Section C403.2.7
+IECC-2015,1B,FALSE,Any,,,,,,,,,,Heating,,,,From IECC-2015 Section C403.2.7
+IECC-2015,2A,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2015 Section C403.2.7
+IECC-2015,2A,FALSE,Any,,,,,,,,,,Heating,,,,From IECC-2015 Section C403.2.7
+IECC-2015,2B,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2015 Section C403.2.7
+IECC-2015,2B,FALSE,Any,,,,,,,,,,Heating,,,,From IECC-2015 Section C403.2.7
+IECC-2015,3A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,3A,FALSE,Any,,2500,2000,1000,500,0,0,0,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,3A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,0,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,3A,FALSE,Any,,2500,2000,1000,500,0,0,0,0,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,3B,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,3B,FALSE,Any,,,19500,9000,5000,4000,3000,1500,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,3B,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,3B,FALSE,Any,,,19500,9000,5000,4000,3000,1500,0,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,3C,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,3C,FALSE,Any,,,,,,,,,,Heating,,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,3C,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,3C,FALSE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,4A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,4A,FALSE,Any,,0,0,0,0,0,0,0,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,4A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,0,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,4A,FALSE,Any,,0,0,0,0,0,0,0,0,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,4B,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,4B,FALSE,Any,,2500,2000,1000,500,0,0,0,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,4B,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,4B,FALSE,Any,,2500,2000,1000,500,0,0,0,0,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,4C,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,4C,FALSE,Any,,,19500,9000,5000,4000,3000,1500,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,4C,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Section C403.2.7
+IECC-2015,4C,FALSE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Section C403.2.7
+IECC-2015,5A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,5A,FALSE,Any,,0,0,0,0,0,0,0,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,5A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,0,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,5A,FALSE,Any,,0,0,0,0,0,0,0,0,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,5B,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,5B,FALSE,Any,,2500,2000,1000,500,0,0,0,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,5C,TRUE,Any,,,,,,26000,12000,5000,4000,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,5C,FALSE,Any,,,19500,9000,5000,4000,3000,1500,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,5B,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Section C403.2.7
+IECC-2015,5B,FALSE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Section C403.2.7
+IECC-2015,5C,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Section C403.2.7
+IECC-2015,5C,FALSE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Section C403.2.7
+IECC-2015,6A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,6A,FALSE,Any,,0,0,0,0,0,0,0,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,6A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,0,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,6A,FALSE,Any,,0,0,0,0,0,0,0,0,Cooling,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,6B,TRUE,Any,,28000,26500,11000,5500,4500,3500,2500,1500,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,6B,FALSE,Any,,0,0,0,0,0,0,0,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,7A,TRUE,Any,,4500,4000,2500,1000,0,0,0,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,7A,FALSE,Any,,0,0,0,0,0,0,0,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,7B,TRUE,Any,,4500,4000,2500,1000,0,0,0,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,7B,FALSE,Any,,0,0,0,0,0,0,0,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,8,TRUE,Any,,4500,4000,2500,1000,0,0,0,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,8,FALSE,Any,,0,0,0,0,0,0,0,0,Heating,0.5,,,From IECC-2015 Table C403.2.7(1) and Table C403.2.7(2)
+IECC-2015,6B,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Section C403.2.7
+IECC-2015,6B,FALSE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Section C403.2.7
+IECC-2015,7A,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Section C403.2.7
+IECC-2015,7A,FALSE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Section C403.2.7
+IECC-2015,7B,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Section C403.2.7
+IECC-2015,7B,FALSE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Section C403.2.7
+IECC-2015,8,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Section C403.2.7
+IECC-2015,8,FALSE,Any,,,,,,,,,,Cooling,,,,From IECC-2015 Section C403.2.7
+IECC-2018,0A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,120,Cooling,0.5,,,Based on entries for climate zone 1A
+IECC-2018,0A,FALSE,Any,,2500,2000,1000,500,140,120,100,80,Cooling,0.5,,,Based on entries for climate zone 1A
+IECC-2018,0B,TRUE,Any,,,,,,26000,12000,5000,4000,Cooling,0.5,,,Based on entries for climate zone 1B
+IECC-2018,0B,FALSE,Any,,,19500,9000,5000,4000,3000,1500,120,Cooling,0.5,,,Based on entries for climate zone 1B
+IECC-2018,1A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,120,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,1A,FALSE,Any,,2500,2000,1000,500,140,120,100,80,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,1B,TRUE,Any,,,,,,26000,12000,5000,4000,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,1B,FALSE,Any,,,19500,9000,5000,4000,3000,1500,120,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,2A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,120,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,2A,FALSE,Any,,2500,2000,1000,500,140,120,100,80,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,2B,TRUE,Any,,,,,,26000,12000,5000,4000,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,2B,FALSE,Any,,,19500,9000,5000,4000,3000,1500,120,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,0A,TRUE,Any,,,,,,,,,,Heating,,,,Based on entries for climate zone 1A
+IECC-2018,0A,FALSE,Any,,,,,,,,,,Heating,,,,Based on entries for climate zone 1A
+IECC-2018,0B,TRUE,Any,,,,,,,,,,Heating,,,,Based on entries for climate zone 1B
+IECC-2018,0B,FALSE,Any,,,,,,,,,,Heating,,,,Based on entries for climate zone 1B
+IECC-2018,1A,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2018 Section C403.7.4
+IECC-2018,1A,FALSE,Any,,,,,,,,,,Heating,,,,From IECC-2018 Section C403.7.4
+IECC-2018,1B,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2018 Section C403.7.4
+IECC-2018,1B,FALSE,Any,,,,,,,,,,Heating,,,,From IECC-2018 Section C403.7.4
+IECC-2018,2A,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2018 Section C403.7.4
+IECC-2018,2A,FALSE,Any,,,,,,,,,,Heating,,,,From IECC-2018 Section C403.7.4
+IECC-2018,2B,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2018 Section C403.7.4
+IECC-2018,2B,FALSE,Any,,,,,,,,,,Heating,,,,From IECC-2018 Section C403.7.4
+IECC-2018,3A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,120,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,3A,FALSE,Any,,2500,2000,1000,500,140,120,100,80,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,3B,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,3B,FALSE,Any,,,19500,9000,5000,4000,3000,1500,120,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,3C,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,3C,FALSE,Any,,,,,,,,,,Heating,,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,3C,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,3C,FALSE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,4A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,120,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,4A,FALSE,Any,,200,130,100,80,70,60,50,40,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,4B,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,4B,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,4B,FALSE,Any,,2500,2000,1000,500,140,120,100,80,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,4B,FALSE,Any,,2500,2000,1000,500,140,120,100,80,Heating,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,4C,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,4C,FALSE,Any,,,19500,9000,5000,4000,3000,1500,120,Heating,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,4C,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Section C403.7.4
+IECC-2018,4C,FALSE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Section C403.7.4
+IECC-2018,5A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,120,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,5A,FALSE,Any,,200,130,100,80,70,60,50,40,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,5B,TRUE,Any,,,,,,,,,,Heating,,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,5B,FALSE,Any,,2500,2000,1000,500,140,120,100,80,Heating,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,5C,TRUE,Any,,,,,,26000,12000,5000,4000,Heating,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,5C,FALSE,Any,,,19500,9000,5000,4000,3000,1500,120,Heating,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,5B,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Section C403.7.4
+IECC-2018,5B,FALSE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Section C403.7.4
+IECC-2018,5C,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Section C403.7.4
+IECC-2018,5C,FALSE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Section C403.7.4
+IECC-2018,6A,TRUE,Any,,26000,16000,5500,4500,3500,2000,1000,120,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,6A,FALSE,Any,,200,130,100,80,70,60,50,40,Cooling,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,6B,TRUE,Any,,28000,26500,11000,5500,4500,3500,2500,1500,Heating,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,6B,FALSE,Any,,200,130,100,80,70,60,50,40,Heating,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,7A,TRUE,Any,,4500,4000,2500,1000,140,120,100,80,Heating,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,7A,FALSE,Any,,200,130,100,80,70,60,50,40,Heating,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,7B,TRUE,Any,,4500,4000,2500,1000,140,120,100,80,Heating,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,7B,FALSE,Any,,200,130,100,80,70,60,50,40,Heating,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,8,TRUE,Any,,4500,4000,2500,1000,140,120,100,80,Heating,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,8,FALSE,Any,,200,130,100,80,70,60,50,40,Heating,0.5,,,From IECC-2018 Table C403.7.4(1) and Table C403.7.4(2)
+IECC-2018,6B,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Section C403.7.4
+IECC-2018,6B,FALSE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Section C403.7.4
+IECC-2018,7A,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Section C403.7.4
+IECC-2018,7A,FALSE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Section C403.7.4
+IECC-2018,7B,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Section C403.7.4
+IECC-2018,7B,FALSE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Section C403.7.4
+IECC-2018,8,TRUE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Section C403.7.4
+IECC-2018,8,FALSE,Any,,,,,,,,,,Cooling,,,,From IECC-2018 Section C403.7.4
+IECC-2021,1A,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Cooling,,0.5,,From IECC-2021 Section C403.7.4.1
+IECC-2021,1A,TRUE,FALSE,,26000,16000,5500,4500,3500,2000,1000,120,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,1A,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Cooling,,0.5,,From IECC-2021 Section C403.7.4.1
+IECC-2021,1A,FALSE,FALSE,,2500,2000,1000,500,140,120,100,80,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,1B,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Cooling,,0.5,,From IECC-2021 Section C403.7.4.1
+IECC-2021,1B,TRUE,FALSE,,,,,,26000,12000,5000,4000,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,1B,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Cooling,,0.5,,From IECC-2021 Section C403.7.4.1
+IECC-2021,1B,FALSE,FALSE,,,19500,9000,5000,4000,3000,1500,120,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,2A,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Cooling,,0.5,,From IECC-2021 Section C403.7.4.1
+IECC-2021,2A,TRUE,FALSE,,26000,16000,5500,4500,3500,2000,1000,120,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,2A,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Cooling,,0.5,,From IECC-2021 Section C403.7.4.1
+IECC-2021,2A,FALSE,FALSE,,2500,2000,1000,500,140,120,100,80,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,2B,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Cooling,,0.5,,From IECC-2021 Section C403.7.4.1
+IECC-2021,2B,TRUE,FALSE,,,,,,26000,12000,5000,4000,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,2B,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Cooling,,0.5,,From IECC-2021 Section C403.7.4.1
+IECC-2021,2B,FALSE,FALSE,,,19500,9000,5000,4000,3000,1500,120,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,1A,TRUE,TRUE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,1A,TRUE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,1A,FALSE,TRUE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,1A,FALSE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,1B,TRUE,TRUE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,1B,TRUE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,1B,FALSE,TRUE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,1B,FALSE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,2A,TRUE,TRUE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,2A,TRUE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,2A,FALSE,TRUE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,2A,FALSE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,2B,TRUE,TRUE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,2B,TRUE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,2B,FALSE,TRUE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,2B,FALSE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,3A,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Cooling,,0.5,,From IECC-2021 Section C403.7.4.1
+IECC-2021,3A,TRUE,FALSE,,26000,16000,5500,4500,3500,2000,1000,120,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,3A,TRUE,FALSE,,26000,16000,5500,4500,3500,2000,1000,120,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,3A,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Cooling,,0.5,,From IECC-2021 Section C403.7.4.1
+IECC-2021,3A,FALSE,FALSE,,2500,2000,1000,500,140,120,100,80,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,3A,FALSE,FALSE,,2500,2000,1000,500,140,120,100,80,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,3B,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Cooling,,0.5,,From IECC-2021 Section C403.7.4.1
+IECC-2021,3B,TRUE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,3B,TRUE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,3B,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Cooling,,0.5,,From IECC-2021 Section C403.7.4.1
+IECC-2021,3B,FALSE,FALSE,,,19500,9000,5000,4000,3000,1500,120,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,3B,FALSE,FALSE,,,19500,9000,5000,4000,3000,1500,120,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,3C,TRUE,TRUE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,3C,TRUE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,3C,TRUE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,3C,TRUE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,3C,FALSE,TRUE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,3C,FALSE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,3C,FALSE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,3C,FALSE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,4A,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,4A,TRUE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,4A,TRUE,FALSE,,26000,16000,5500,4500,3500,2000,1000,120,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,4A,TRUE,FALSE,,26000,16000,5500,4500,3500,2000,1000,120,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,4A,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,4A,FALSE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,4A,FALSE,FALSE,,200,130,100,80,70,60,50,40,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,4A,FALSE,FALSE,,200,130,100,80,70,60,50,40,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,4B,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,4B,TRUE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,4B,TRUE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,4B,TRUE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,4B,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,4B,FALSE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,4B,FALSE,FALSE,,2500,2000,1000,500,140,120,100,80,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,4B,FALSE,FALSE,,2500,2000,1000,500,140,120,100,80,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,4C,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,4C,TRUE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,4C,TRUE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,4C,TRUE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,4C,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,4C,FALSE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,4C,FALSE,FALSE,,,19500,9000,5000,4000,3000,1500,120,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,4C,FALSE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,5A,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,5A,TRUE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,5A,TRUE,FALSE,,26000,16000,5500,4500,3500,2000,1000,120,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,5A,TRUE,FALSE,,26000,16000,5500,4500,3500,2000,1000,120,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,5A,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,5A,FALSE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,5A,FALSE,FALSE,,200,130,100,80,70,60,50,40,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,5A,FALSE,FALSE,,200,130,100,80,70,60,50,40,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,5B,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,5B,TRUE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,5B,TRUE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,5B,TRUE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,5B,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,5B,FALSE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,5B,FALSE,FALSE,,2500,2000,1000,500,140,120,100,80,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,5B,FALSE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,5C,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,5C,TRUE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,5C,TRUE,FALSE,,,,,,26000,12000,5000,4000,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,5C,TRUE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,5C,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,5C,FALSE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,5C,FALSE,FALSE,,,19500,9000,5000,4000,3000,1500,120,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,5C,FALSE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,6A,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,6A,TRUE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,6A,TRUE,FALSE,,26000,16000,5500,4500,3500,2000,1000,120,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,6A,TRUE,FALSE,,26000,16000,5500,4500,3500,2000,1000,120,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,6A,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,6A,FALSE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,6A,FALSE,FALSE,,200,130,100,80,70,60,50,40,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,6A,FALSE,FALSE,,200,130,100,80,70,60,50,40,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,6B,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,6B,TRUE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,6B,TRUE,FALSE,,28000,26500,11000,5500,4500,3500,2500,1500,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,6B,TRUE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,6B,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,6B,FALSE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,6B,FALSE,FALSE,,200,130,100,80,70,60,50,40,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,6B,FALSE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,7A,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,7A,TRUE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,7A,TRUE,FALSE,,4500,4000,2500,1000,140,120,100,80,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,7A,TRUE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,7A,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,7A,FALSE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,7A,FALSE,FALSE,,200,130,100,80,70,60,50,40,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,7A,FALSE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,7B,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,7B,TRUE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,7B,TRUE,FALSE,,4500,4000,2500,1000,140,120,100,80,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,7B,TRUE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,7B,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,7B,FALSE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,7B,FALSE,FALSE,,200,130,100,80,70,60,50,40,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,7B,FALSE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,8,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,8,TRUE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,8,TRUE,FALSE,,4500,4000,2500,1000,140,120,100,80,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,8,TRUE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,8,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Heating,,0.6,,From IECC-2021 Section C403.7.4.1
+IECC-2021,8,FALSE,TRUE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,8,FALSE,FALSE,,200,130,100,80,70,60,50,40,Heating,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,8,FALSE,FALSE,,,,,,,,,,Cooling,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,0A,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Cooling,,0.5,,From IECC-2021 Section C403.7.4.1
+IECC-2021,0A,TRUE,FALSE,,26000,16000,5500,4500,3500,2000,1000,120,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,0A,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Cooling,,0.5,,From IECC-2021 Section C403.7.4.1
+IECC-2021,0A,FALSE,FALSE,,2500,2000,1000,500,140,120,100,80,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,0B,TRUE,TRUE,0,0,0,0,0,0,0,0,0,Cooling,,0.5,,From IECC-2021 Section C403.7.4.1
+IECC-2021,0B,TRUE,FALSE,,,,,,26000,12000,5000,4000,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,0B,FALSE,TRUE,0,0,0,0,0,0,0,0,0,Cooling,,0.5,,From IECC-2021 Section C403.7.4.1
+IECC-2021,0B,FALSE,FALSE,,,19500,9000,5000,4000,3000,1500,120,Cooling,,0.5,,From IECC-2021 Table C403.7.4.2(1) and Table C403.7.4.2(2)
+IECC-2021,0A,TRUE,TRUE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,0A,TRUE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,0A,FALSE,TRUE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,0A,FALSE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,0B,TRUE,TRUE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,0B,TRUE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.2
+IECC-2021,0B,FALSE,TRUE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.1
+IECC-2021,0B,FALSE,FALSE,,,,,,,,,,Heating,,,,From IECC-2021 Section C403.7.4.2
