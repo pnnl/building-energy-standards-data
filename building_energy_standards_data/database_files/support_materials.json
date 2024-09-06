@@ -49321,7 +49321,7 @@
         "annotation": null
     },
     {
-        "name": "U 0.46 SHGC 0.4 VT 0.44 Simple Glazing",
+        "name": "U 0.46 SHGC 0.40 VT 0.44 Simple Glazing",
         "material_type": "SimpleGlazing",
         "roughness": null,
         "thickness": null,
