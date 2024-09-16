@@ -1,0 +1,9 @@
+[
+  {
+    "name": "office_wasteful",
+    "category": "Thermostat",
+    "cooling_setpoint":21.9,
+    "cooling_setpoint_units": "Ceilus",
+    "heating_setpoint":24.9
+  }
+]

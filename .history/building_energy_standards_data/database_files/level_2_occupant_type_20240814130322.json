@@ -1,0 +1,12 @@
+[
+  {
+      "name": "kitchen",
+      "natural_gas_equipment_minimum_epd": 51.16,
+      "natural_gas_equipment_average_epd": 361.7807576,
+      "natural_gas_equipment_median_epd": 302.6,
+      "natural_gas_equipment_maximum_epd": 767,
+      "natural_gas_equipment_epd_unit": "Btu/h-ft2",
+      "natural_gas_equipment_fraction_latent": 0.1,
+      "natural_gas_equipment_fraction_radiant": 0.2,
+      "natural_gas_equipment_fraction_lost": 0.7
+  }]

@@ -1,0 +1,159 @@
+method,lighting_primary_space_type,lighting_secondary_space_type,lighting_power_density,lighting_power_density_unit,supplemental_lighting_power_density,supplemental_lighting_power_density_unit,rcr_threshold,automatic_daylight_responsive_controls_for_sidelighting,automatic_daylight_responsive_controls_for_toplighting,automatic_partial_off,automatic_full_off,scheduled_shutoff,annotation
+BA,Automotive facility,General,0.73,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Convention center,General,0.64,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Courthouse,General,0.75,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Dining: Bar lounge/leisure,General,0.74,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Dining: Cafeteria/fast food,General,0.7,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Dining: Family,General,0.65,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Dormitory,General,0.52,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Exercise center,General,0.72,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Fire station,General,0.56,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Gymnasium,General,0.75,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Health-care clinic,General,0.77,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Hospital,General,0.92,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Hotel/motel,General,0.53,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Library,General,0.83,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Manufacturing facility,General,0.82,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Motion picture theater,General,0.43,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Multifamily,General,0.46,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Museum,General,0.56,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Office,General,0.62,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Parking garage,General,0.17,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Penitentiary,General,0.65,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Performing arts theater,General,0.82,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Police station,General,0.62,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Post office,General,0.64,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Religious facility,General,0.66,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Retail,General,0.78,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,School/university,General,0.7,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Sports arena,General,0.73,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Town hall,General,0.67,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Transportation,General,0.56,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Warehouse,General,0.45,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+BA,Workshop,General,0.86,W/ft2,,W/ft2,,,,,,,From 90.1-2022 Table 9.5.1
+CS,Atrium,< 20 ft in height,0.32,W/ft2,,W/ft2,,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Atrium,> 40 ft in height,0.51,W/ft2,,W/ft2,11,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Atrium,>= 20 ft and <= 40 ft in height,0.41,W/ft2,,W/ft2,,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Audience Seating Area,All other audience seating areas,0.23,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Audience Seating Area,Auditorium,0.57,W/ft2,,W/ft2,6,REQ,,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Audience Seating Area,Gymnasium,0.23,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Audience Seating Area,Motion picture theater,0.27,W/ft2,,W/ft2,4,,,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Audience Seating Area,Performing arts theater,1.1,W/ft2,,W/ft2,8,,,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Audience Seating Area,Sports arena,0.27,W/ft2,,W/ft2,4,,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Banking Activity Area,General,0.56,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Classroom/Lecture Hall/Training Room,All other classrooms/lecture halls/training rooms,0.72,W/ft2,,W/ft2,4,REQ,REQ,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+CS,Classroom/Lecture Hall/Training Room,Shop classroom,1.17,W/ft2,,W/ft2,6,REQ,REQ,,,REQ,From 90.1-2022 Table 9.5.2.1-1
+CS,Computer Room,General,0.75,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Conference/Meeting/Multipurpose Rooms,General,0.88,W/ft2,,W/ft2,6,REQ,REQ,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+CS,Copy/Print Room,General,0.56,W/ft2,,W/ft2,6,REQ,REQ,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+CS,Corridor,General,0.44,W/ft2,,W/ft2,,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1; rcr_threshold: width<8 ft
+CS,Courtroom,General,1.08,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Dining Area,All other dining areas,0.42,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Dining Area,Bar/lounge or leisure dining,0.76,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Dining Area,Cafeteria or fast food dining,0.36,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Dining Area,Family dining,0.52,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Electrical/Mechanical Room,General,0.71,W/ft2,,W/ft2,6,,,,,,From 90.1-2022 Table 9.5.2.1-1
+CS,Emergency Vehicle Garage,General,0.51,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Equipment Room,General,0.73,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Food Preparation Area,General,1.19,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Guest Room,General,0.41,W/ft2,,W/ft2,6,,,,,,From 90.1-2022 Table 9.5.2.1-1; See section 9.4.1.3(b)
+CS,Laboratory,All other laboratories,1.21,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Laboratory,In or as a classroom,1.05,W/ft2,,W/ft2,6,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Laundry/Washing Area,General,0.51,W/ft2,,W/ft2,4,REQ,REQ,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+CS,"Loading Dock, Interior",General,0.87,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Lobby,All other lobbies,0.8,W/ft2,,W/ft2,4,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Lobby,Elevator,0.64,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Lobby,Hotel,0.48,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Lobby,Motion picture theater,0.2,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Lobby,Performing arts theater ,1.21,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Locker Room,General,0.43,W/ft2,,W/ft2,6,REQ,REQ,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+CS,Lounge/Breakroom,All other lounges/breakrooms,0.55,W/ft2,,W/ft2,4,REQ,REQ,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+CS,Lounge/Breakroom,Mother’s/wellness room,0.68,W/ft2,,W/ft2,6,,,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+CS,Office,Enclosed and <= 150 ft2,0.73,W/ft2,,W/ft2,8,,,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+CS,Office,Enclosed and > 150 ft2 and <= 300 ft2,0.66,W/ft2,,W/ft2,8,,,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+CS,Office,Offices > 300 ft2,0.56,W/ft2,,W/ft2,4,REQ,REQ,REQ,REQ,,From 90.1-2022 Table 9.5.2.1-1
+CS,Parking Garage,All other parking and drive areas,0.11,W/ft2,,W/ft2,4,,,,,,From 90.1-2022 Table 9.5.2.1-1; See Section 9.4.1.2
+CS,Parking Garage,Daylight transition zone,1.06,W/ft2,,W/ft2,4,,,,,,From 90.1-2022 Table 9.5.2.1-1; See Section 9.4.1.2
+CS,Pharmacy Area,General,1.59,W/ft2,,W/ft2,6,,,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Restroom,General,0.74,W/ft2,,W/ft2,8,,,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+CS,Sales Area,General,0.85,W/ft2,,W/ft2,6,,REQ,,ADD2,ADD2,"From 90.1-2022 Table 9.5.2.1-1; For accent lighting, see Section 9.5.2.2[b]"
+CS,Security Screening,Airport/bus/ship/train/transportation screening,0.93,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Security Screening,Airport/bus/ship/train/transportation screening queue,0.56,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Security Screening,General security screening,0.64,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,"Seating Area, General",General,0.21,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Stairway,General,0.47,W/ft2,,W/ft2,10,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Stairwell,General,0.47,W/ft2,,W/ft2,10,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Storage Room,< 50 ft2,0.49,W/ft2,,W/ft2,9,,,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+CS,Storage Room,>= 50 ft2,0.35,W/ft2,,W/ft2,6,,,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+CS,Vehicular Maintenance Area,General,0.59,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+CS,Workshop (Including workshop classrooms),General,1.17,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Casino-Gaming Area,Betting/sportsbook/keno/bingo area,0.82,W/ft2,,W/ft2,5,,,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Casino-Gaming Area,High-limit game area,1.68,W/ft2,,W/ft2,4,,,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Casino-Gaming Area,Slot machine/digital gaming area,0.54,W/ft2,,W/ft2,5,,,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Casino-Gaming Area,Table games area,1.09,W/ft2,,W/ft2,5,,,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Convention Center-Exhibit Space,General,0.5,W/ft2,,W/ft2,4,REQ,REQ,,,REQ,From 90.1-2022 Table 9.5.2.1-1
+SS,Correctional Facilities,Audience seating area,0.56,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Correctional Facilities,Classroom/lecture hall/training room,0.74,W/ft2,,W/ft2,4,REQ,REQ,,,,From 90.1-2022 Table 9.5.2.1-1
+SS,Correctional Facilities,Confinement cells,0.6,W/ft2,,W/ft2,6,,,,,REQ,From 90.1-2022 Table 9.5.2.1-1
+SS,Correctional Facilities,Dining area,0.35,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Dormitory-Living Quarters,General,0.48,W/ft2,,W/ft2,8,,,,,,From 90.1-2022 Table 9.5.2.1-1
+SS,Facility for the Visually Impaired,Chapel (used primarily by residents),0.58,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Facility for the Visually Impaired,Corridor (used primarily by residents),0.71,W/ft2,,W/ft2,,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1; rcr_threshold: width<8 ft
+SS,Facility for the Visually Impaired,Dining (used primarily by residents),1.22,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1; rcr_threshold: width<8 ft
+SS,Facility for the Visually Impaired,Lobby,1.44,W/ft2,,W/ft2,4,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1; rcr_threshold: width<8 ft
+SS,Facility for the Visually Impaired,Recreation room/common living room (used primarily by residents),1.2,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Facility for the Visually Impaired,Restroom (used primarily by residents),0.96,W/ft2,,W/ft2,8,REQ,REQ,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+SS,Fire Station-Sleeping Quarters,General,0.22,W/ft2,,W/ft2,6,,,,,,From 90.1-2022 Table 9.5.2.1-1
+SS,Gymnasium/Fitness Center,Exercise area,0.82,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Gymnasium/Fitness Center,Playing area,0.82,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Healthcare Facility,Control room (MRI/CT/radiology/PET),0.78,W/ft2,,W/ft2,8,,,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+SS,Healthcare Facility,Exam/treatment room,1.33,W/ft2,,W/ft2,8,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Healthcare Facility,Hospital corridor,0.61,W/ft2,,W/ft2,6,,,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1; rcr_threshold: width<8 ft
+SS,Healthcare Facility,Imaging room,0.94,W/ft2,,W/ft2,6,,,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Healthcare Facility,Lounge,0.77,W/ft2,,W/ft2,6,REQ,REQ,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+SS,Healthcare Facility,Medical supply room,0.56,W/ft2,,W/ft2,6,,,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+SS,Healthcare Facility,Nursery,0.87,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Healthcare Facility,Nurse's station,1.07,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Healthcare Facility,Operating room,2.31,W/ft2,,W/ft2,6,,,,,,From 90.1-2022 Table 9.5.2.1-1
+SS,Healthcare Facility,Patient room,0.78,W/ft2,,W/ft2,6,,,,,,From 90.1-2022 Table 9.5.2.1-1
+SS,Healthcare Facility,Physical therapy room,0.82,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Healthcare Facility,Recovery room,1.18,W/ft2,,W/ft2,6,,,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Healthcare Facility,Telemedicine,1.44,W/ft2,,W/ft2,8,REQ,REQ,,REQ,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Library,Reading area,0.86,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Library,Stacks,1.18,W/ft2,,W/ft2,4,,,REQ,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Manufacturing Facility,Detailed manufacturing area,0.75,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Manufacturing Facility,Extra high bay area (> 50 ft floor-to-ceiling height),1.36,W/ft2,,W/ft2,8,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Manufacturing Facility,High bay area (25 to 50 ft floor-to-ceiling height),1.24,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Manufacturing Facility,Low bay area (< 25 ft floor-to-ceiling height),0.85,W/ft2,,W/ft2,3,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Museum,General exhibition area,0.31,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Museum,Restoration area,1.24,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,None,None,0,W/ft2,,W/ft2,,,,,,,
+SS,Performing Arts Theater-Dressing Room,General,0.39,W/ft2,,W/ft2,6,,,,REQ,,From 90.1-2022 Table 9.5.2.1-1
+SS,Post Office-Sorting Area,General,0.71,W/ft2,,W/ft2,4,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Religious Facility,Audience seating area,0.72,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Religious Facility,Fellowship hall,0.5,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Religious Facility,Worship/pulpit/choir area,0.75,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Retail Facilities,Dressing/fitting room,0.45,W/ft2,,W/ft2,8,,,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Retail Facilities,Hair care,0.65,W/ft2,,W/ft2,6,,,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Retail Facilities,Mall concourse,0.57,W/ft2,,W/ft2,4,,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Retail Facilities,Massage,0.81,W/ft2,,W/ft2,8,,,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Retail Facilities,Nail care,0.75,W/ft2,,W/ft2,6,,,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Retail,Sales Additional (Retail Area 1),0.4,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.2
+SS,Retail,Sales Additional (Retail Area 2),0.4,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.2
+SS,Retail,Sales Additional (Retail Area 3),0.7,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.2
+SS,Retail,Sales Additional (Retail Area 4),1,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.2
+SS,Sports Arena-Playing Area,Class I facility,2.86,W/ft2,,W/ft2,4,REQ,REQ,,,REQ,From 90.1-2022 Table 9.5.2.1-1; Class of play as defined by ANSI/IES RP-6)
+SS,Sports Arena-Playing Area,Class II facility,1.98,W/ft2,,W/ft2,4,REQ,REQ,,,REQ,From 90.1-2022 Table 9.5.2.1-1; Class of play as defined by ANSI/IES RP-6)
+SS,Sports Arena-Playing Area,Class III facility,1.29,W/ft2,,W/ft2,4,REQ,REQ,,,REQ,From 90.1-2022 Table 9.5.2.1-1; Class of play as defined by ANSI/IES RP-6)
+SS,Sports Arena-Playing Area,Class IV facility,0.85,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1; Class of play as defined by ANSI/IES RP-6)
+SS,Natatorium,Class I facility,2.2,W/ft2,,W/ft2,4,REQ,REQ,,,REQ,From 90.1-2022 Table 9.5.2.1-1; Class of play as defined by IES RP-6
+SS,Natatorium,Class II facility,0.47,W/ft2,,W/ft2,4,REQ,REQ,,,REQ,From 90.1-2022 Table 9.5.2.1-1; Class of play as defined by IES RP-6
+SS,Natatorium,Class III facility,0.99,W/ft2,,W/ft2,4,REQ,REQ,,,REQ,From 90.1-2022 Table 9.5.2.1-1; Class of play as defined by IES RP-6
+SS,Natatorium,Class IV facility,0.59,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1; Class of play as defined by IES RP-6
+SS,Transportation Facility,Airport hanger,1.36,W/ft2,,W/ft2,4,REQ,REQ,,,REQ,From 90.1-2022 Table 9.5.2.1-1
+SS,Transportation Facility,Baggage/carousel area,0.28,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Transportation Facility,Concourse,0.49,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Transportation Facility,Passenger loading area,0.71,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Transportation Facility,Ticket counter,0.4,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Warehouse-Storage Area,"Medium-to-bulky, palletized items",0.33,W/ft2,,W/ft2,4,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1
+SS,Warehouse-Storage Area,"Smaller items, picking areas",0.69,W/ft2,,W/ft2,6,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2022 Table 9.5.2.1-1

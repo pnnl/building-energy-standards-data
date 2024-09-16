@@ -1,0 +1,83 @@
+[
+  {
+      "name": "office_occupant_normal",
+      "occupant_control": "True",
+      "energy_behavior":"office_normal",
+      "occupant_schedule": {
+        "early_bird": 
+        {
+          "fraction":0.2289,
+          "occupant_schedule":"office_early_bird_schedule"
+        },
+        "regular_worker": 
+        {
+          "fraction":0.6529,
+          "occupant_schedule":"office_regular_worker_schedule"
+        },
+        "late_owl": 
+        {
+          "fraction":0.0867,
+          "occupant_schedule":"office_late_owl_schedule"
+        },
+        "night_shift":
+        {
+          "fraction":0.03152,
+          "occupant_schedule":"office_night_shift_schedule"
+        }
+      }
+  },
+  {
+    "name": "office_occupant_normal",
+    "occupant_control": "True",
+    "energy_behavior":"office_normal",
+    "occupant_schedule": {
+      "early_bird": 
+      {
+        "fraction":0.2289,
+        "occupant_schedule":"office_early_bird_schedule"
+      },
+      "regular_worker": 
+      {
+        "fraction":0.6529,
+        "occupant_schedule":"office_regular_worker_schedule"
+      },
+      "late_owl": 
+      {
+        "fraction":0.0867,
+        "occupant_schedule":"office_late_owl_schedule"
+      },
+      "night_shift":
+      {
+        "fraction":0.03152,
+        "occupant_schedule":"office_night_shift_schedule"
+      }
+    }
+},
+{
+  "name": "office_occupant_wasteful",
+  "occupant_control": "True",
+  "energy_behavior":"office_wasteful",
+  "occupant_schedule": {
+    "early_bird": 
+    {
+      "fraction":0.2289,
+      "occupant_schedule":"office_early_bird_schedule"
+    },
+    "regular_worker": 
+    {
+      "fraction":0.6529,
+      "occupant_schedule":"office_regular_worker_schedule"
+    },
+    "late_owl": 
+    {
+      "fraction":0.0867,
+      "occupant_schedule":"office_late_owl_schedule"
+    },
+    "night_shift":
+    {
+      "fraction":0.03152,
+      "occupant_schedule":"office_night_shift_schedule"
+    }
+  }
+}
+]

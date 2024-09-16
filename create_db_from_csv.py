@@ -1,0 +1,6 @@
+import sqlite3
+from building_energy_standards_data.applications.database_maintenance import create_openstudio_standards_database_from_csv
+
+conn = sqlite3.connect('openstudio_standards_from_csv.db')
+create_openstudio_standards_database_from_csv(conn)
+conn.close()

@@ -1,0 +1,41 @@
+[
+  {
+      "name": "office_occupant",
+      "occupant_control": "True",
+      "energy_behavior": "office_wasteful",
+      "occupant_schedule_early_bird_fraction": 0.2289,
+      "occupant_schedule_early_bird_occupant_schedule": "office_early_bird_schedule",
+      "occupant_schedule_regular_worker_fraction": 0.6529,
+      "occupant_schedule_regular_worker_occupant_schedule": "office_regular_worker_schedule",
+      "occupant_schedule_late_owl_fraction": 0.0867,
+      "occupant_schedule_late_owl_occupant_schedule": "office_late_owl_schedule",
+      "occupant_schedule_night_shift_fraction": 0.03152,
+      "occupant_schedule_night_shift_occupant_schedule": "office_night_shift_schedule"
+  },
+  {
+    "name": "office_occupant",
+    "occupant_control": "True",
+    "energy_behavior": "office_normal",
+    "occupant_schedule_early_bird_fraction": 0.2289,
+    "occupant_schedule_early_bird_occupant_schedule": "office_early_bird_schedule",
+    "occupant_schedule_regular_worker_fraction": 0.6529,
+    "occupant_schedule_regular_worker_occupant_schedule": "office_regular_worker_schedule",
+    "occupant_schedule_late_owl_fraction": 0.0867,
+    "occupant_schedule_late_owl_occupant_schedule": "office_late_owl_schedule",
+    "occupant_schedule_night_shift_fraction": 0.03152,
+    "occupant_schedule_night_shift_occupant_schedule": "office_night_shift_schedule"
+},
+{
+  "name": "office_occupant",
+  "occupant_control": "True",
+  "energy_behavior": "office_austerity",
+  "occupant_schedule_early_bird_fraction": 0.2289,
+  "occupant_schedule_early_bird_occupant_schedule": "office_early_bird_schedule",
+  "occupant_schedule_regular_worker_fraction": 0.6529,
+  "occupant_schedule_regular_worker_occupant_schedule": "office_regular_worker_schedule",
+  "occupant_schedule_late_owl_fraction": 0.0867,
+  "occupant_schedule_late_owl_occupant_schedule": "office_late_owl_schedule",
+  "occupant_schedule_night_shift_fraction": 0.03152,
+  "occupant_schedule_night_shift_occupant_schedule": "office_night_shift_schedule"
+}
+]

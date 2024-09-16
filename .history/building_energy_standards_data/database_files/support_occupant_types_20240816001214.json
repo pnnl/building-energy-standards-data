@@ -1,0 +1,26 @@
+[
+  {
+    "name": "office_occupant",
+    "occupant_control": "True",
+    "energy_behavior": "office_wasteful",
+    "occupant_schedule": "office_occupant_schedule"
+  },
+  {
+    "name": "office_occupant",
+    "occupant_control": "True",
+    "energy_behavior": "office_normal",
+    "occupant_schedule": "office_occupant_schedule"
+  },
+  {
+    "name": "office_occupant",
+    "occupant_control": "True",
+    "energy_behavior": "office_austerity",
+    "occupant_schedule": "office_occupant_schedule"
+  },
+  {
+    "name": "office_occupant",
+    "occupant_control": "True",
+    "energy_behavior": "office_wasteful",
+    "occupant_schedule": "office_occupant_schedule"
+  }
+]

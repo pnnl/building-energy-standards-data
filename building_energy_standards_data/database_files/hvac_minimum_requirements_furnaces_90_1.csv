@@ -1,0 +1,76 @@
+template,equipment_type,fuel_type,electric_power_phase,minimum_capacity,maximum_capacity,minimum_combo_unit_cooling_capacity,maximum_combo_unit_cooling_capacity,subtype,start_date,end_date,minimum_annual_fuel_utilization_efficiency,minimum_thermal_efficiency,minimum_combustion_efficiency,standby_mode_power,off_mode_power,annotation
+90.1-2004,Warm Air Furnace,NaturalGas,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2004 Table 6.8.1E
+90.1-2004,Warm Air Furnace,NaturalGas,,225000,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2004 Table 6.8.1E
+90.1-2004,Warm Air Furnace,Oil,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2004 Table 6.8.1E
+90.1-2004,Warm Air Furnace,Oil,,225000,9999999999,,,,9/9/1919,9/9/2999,,0.81,,,,From 90.1-2004 Table 6.8.1E
+90.1-2004,Warm Air Duct Furnaces,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2004 Table 6.8.1E
+90.1-2004,Warm Air Unit Heaters,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2004 Table 6.8.1E
+90.1-2004,Warm Air Unit Heaters,Oil,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2004 Table 6.8.1E
+90.1-2007,Warm Air Furnace,NaturalGas,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2007 Table 6.8.1E
+90.1-2007,Warm Air Furnace,NaturalGas,,225000,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2007 Table 6.8.1E
+90.1-2007,Warm Air Furnace,Oil,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2007 Table 6.8.1E
+90.1-2007,Warm Air Furnace,Oil,,225000,9999999999,,,,9/9/1919,9/9/2999,,0.81,,,,From 90.1-2007 Table 6.8.1E
+90.1-2007,Warm Air Duct Furnaces,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2007 Table 6.8.1E
+90.1-2007,Warm Air Unit Heaters,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2007 Table 6.8.1E
+90.1-2007,Warm Air Unit Heaters,Oil,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2007 Table 6.8.1E
+90.1-2010,Warm Air Furnace,NaturalGas,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2010 Table 6.8.1E
+90.1-2010,Warm Air Furnace,NaturalGas,,225000,9999999999,,,,9/9/1919,9/9/2999,,0.8,,,,From 90.1-2010 Table 6.8.1E
+90.1-2010,Warm Air Furnace,Oil,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2010 Table 6.8.1E
+90.1-2010,Warm Air Furnace,Oil,,225000,9999999999,,,,9/9/1919,9/9/2999,,0.81,,,,From 90.1-2010 Table 6.8.1E
+90.1-2010,Warm Air Duct Furnaces,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2010 Table 6.8.1E
+90.1-2010,Warm Air Unit Heaters,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2010 Table 6.8.1E
+90.1-2010,Warm Air Unit Heaters,Oil,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2010 Table 6.8.1E
+90.1-2013,Warm Air Furnace,NaturalGas,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2013 Table 6.8.1-5
+90.1-2013,Warm Air Furnace,NaturalGas,,225000,9999999999,,,,9/9/1919,9/9/2999,,0.8,,,,From 90.1-2013 Table 6.8.1-5
+90.1-2013,Warm Air Furnace,Oil,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2013 Table 6.8.1-5
+90.1-2013,Warm Air Furnace,Oil,,225000,9999999999,,,,9/9/1919,9/9/2999,,0.81,,,,From 90.1-2013 Table 6.8.1-5
+90.1-2013,Warm Air Duct Furnaces,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2013 Table 6.8.1-5
+90.1-2013,Warm Air Unit Heaters,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2013 Table 6.8.1-5
+90.1-2013,Warm Air Unit Heaters,Oil,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2013 Table 6.8.1-5
+90.1-2016,Warm Air Furnace,NaturalGas,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2016 Table 6.8.1-5
+90.1-2016,Warm Air Furnace,NaturalGas,,225000,9999999999,,,,9/9/1919,9/9/2999,,0.8,,,,From 90.1-2016 Table 6.8.1-5
+90.1-2016,Warm Air Furnace,Oil,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2016 Table 6.8.1-5
+90.1-2016,Warm Air Furnace,Oil,,225000,9999999999,,,,9/9/1919,9/9/2999,,0.81,,,,From 90.1-2016 Table 6.8.1-5
+90.1-2016,Warm Air Duct Furnaces,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2016 Table 6.8.1-5
+90.1-2016,Warm Air Unit Heaters,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2016 Table 6.8.1-5
+90.1-2016,Warm Air Unit Heaters,Oil,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2016 Table 6.8.1-5
+90.1-2019,Warm Air Furnace,NaturalGas,,0,224999.99,,,Nonweatherized excluding mobile home,9/9/1919,9/9/2999,0.8,,,,,From 90.1-2019 Table F-4
+90.1-2019,Warm Air Furnace,NaturalGas,,0,224999.99,,,Nonweatherized mobile home,9/9/1919,9/9/2999,0.8,,,,,From 90.1-2019 Table F-4
+90.1-2019,Warm Air Furnace,NaturalGas,,0,224999.99,,,Weatherized,9/9/1919,9/9/2999,0.81,,,,,From 90.1-2019 Table F-4
+90.1-2019,Warm Air Furnace,NaturalGas,,225000,9999999999,,,,9/9/1919,12/31/2022,,0.8,,,,From 90.1-2019 Table 6.8.1-5
+90.1-2019,Warm Air Furnace,NaturalGas,,225000,9999999999,,,,1/1/2023,9/9/2999,,0.81,,,,From 90.1-2019 Table 6.8.1-5
+90.1-2019,Warm Air Furnace,Oil,,0,224999.99,,,Nonweatherized excluding mobile home,9/9/1919,9/9/2999,0.83,,,11,11,From 90.1-2019 Table F-4
+90.1-2019,Warm Air Furnace,Oil,,0,224999.99,,,Nonweatherized mobile home,9/9/1919,9/9/2999,0.75,,,11,11,From 90.1-2019 Table F-4
+90.1-2019,Warm Air Furnace,Oil,,0,224999.99,,,Weatherized,9/9/1919,9/9/2999,0.78,,,,,From 90.1-2019 Table F-4
+90.1-2019,Warm Air Furnace,Oil,,225000,9999999999,,,,9/9/1919,12/31/2022,,0.81,,,,From 90.1-2019 Table 6.8.1-5
+90.1-2019,Warm Air Furnace,Oil,,225000,9999999999,,,,1/1/2023,9/9/2999,,0.82,,,,From 90.1-2019 Table 6.8.1-5
+90.1-2019,Warm Air Furnace,Electricity,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,,,10,10,From 90.1-2019 Table F-4
+90.1-2019,Warm Air Duct Furnaces,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2019 Table 6.8.1-5
+90.1-2019,Warm Air Unit Heaters,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2019 Table 6.8.1-5
+90.1-2019,Warm Air Unit Heaters,Oil,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2019 Table 6.8.1-5
+90.1-2022,Warm Air Furnace,NaturalGas,1,0,224999.99,0,64999.99,Nonweatherized excluding mobile home,9/9/1919,9/9/2999,0.8,,,,,From 90.1-2022 Table F-4
+90.1-2022,Warm Air Furnace,NaturalGas,1,0,224999.99,0,64999.99,Nonweatherized mobile home,9/9/1919,9/9/2999,0.8,,,,,From 90.1-2022 Table F-4
+90.1-2022,Warm Air Furnace,NaturalGas,1,0,224999.99,0,64999.99,Weatherized,9/9/1919,9/9/2999,0.81,,,,,From 90.1-2022 Table F-4
+90.1-2022,Warm Air Furnace,NaturalGas,1,0,224999.99,65000,99999,Nonweatherized,9/9/1919,9/9/2999,0.8,,,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Furnace,NaturalGas,1,0,224999.99,65000,99999,Weatherized,9/9/1919,9/9/2999,0.81,0.8,,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Furnace,NaturalGas,3,0,224999.99,,,Nonweatherized,9/9/1919,9/9/2999,0.8,,,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Furnace,NaturalGas,3,0,224999.99,,,Weatherized,9/9/1919,9/9/2999,0.81,0.8,,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Furnace,NaturalGas,,225000,400000,,,,9/9/1919,12/31/2022,,0.8,,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Furnace,NaturalGas,,225000,400000,,,,1/1/2023,9/9/2999,,0.81,,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Furnace,NaturalGas,,400000.01,9999999999,,,,9/9/1919,12/31/2022,,0.8,,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Furnace,NaturalGas,,400000.01,9999999999,,,,1/1/2023,9/9/2999,,0.81,,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Furnace,Oil,1,0,224999.99,0,64999.99,Nonweatherized excluding mobile home,9/9/1919,9/9/2999,0.83,,,11,11,From 90.1-2022 Table F-4
+90.1-2022,Warm Air Furnace,Oil,1,0,224999.99,0,64999.99,Nonweatherized mobile home,9/9/1919,9/9/2999,0.75,,,11,11,From 90.1-2022 Table F-4
+90.1-2022,Warm Air Furnace,Oil,1,0,224999.99,0,64999.99,Weatherized,9/9/1919,9/9/2999,0.78,,,,,From 90.1-2022 Table F-4
+90.1-2022,Warm Air Furnace,Oil,1,0,224999.99,65000,99999,Nonweatherized,9/9/1919,9/9/2999,0.83,,,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Furnace,Oil,1,0,224999.99,65000,99999,Weatherized,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Furnace,Oil,3,0,224999.99,,,Nonweatherized,9/9/1919,9/9/2999,0.83,,,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Furnace,Oil,3,0,224999.99,,,Weatherized,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Furnace,Oil,,225000,9999999999,,,,9/9/1919,12/31/2022,,0.81,,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Furnace,Oil,,225000,9999999999,,,,1/1/2023,9/9/2999,,0.82,,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Furnace,Electricity,1,0,224999.99,0,64999.99,,9/9/1919,9/9/2999,0.78,,,10,10,From 90.1-2022 Table F-4
+90.1-2022,Warm Air Furnace,Electricity,1,0,224999.99,65000,99999,,9/9/1919,9/9/2999,0.96,,,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Furnace,Electricity,3,0,224999.99,,,,9/9/1919,9/9/2999,0.96,,,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Duct Furnaces,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Unit Heaters,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2022 Table 6.8.1-5
+90.1-2022,Warm Air Unit Heaters,Oil,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2022 Table 6.8.1-5

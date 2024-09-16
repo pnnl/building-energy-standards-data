@@ -1,0 +1,29 @@
+[
+  {
+    "name": "office_wasteful",
+    "category": "Thermostat",
+    "cooling_setpoint":21.9,
+    "cooling_setpoint_units": "Ceilus",
+    "heating_setpoint":24.9,
+    "Minimum Input Power Fraction for Continuous Dimming Control":0,
+    "Minimum Light Output Fraction for Continuous Dimming Control":0
+  },
+  {
+    "name": "office_normal",
+    "category": "Thermostat",
+    "cooling_setpoint":21.9,
+    "cooling_setpoint_units": "Ceilus",
+    "heating_setpoint":24.9,
+    "Minimum Input Power Fraction for Continuous Dimming Control":0,
+    "Minimum Light Output Fraction for Continuous Dimming Control":0
+  },
+  {
+    "name": "office_",
+    "category": "Thermostat",
+    "cooling_setpoint":21.9,
+    "cooling_setpoint_units": "Ceilus",
+    "heating_setpoint":24.9,
+    "Minimum Input Power Fraction for Continuous Dimming Control":0,
+    "Minimum Light Output Fraction for Continuous Dimming Control":0
+  }
+]

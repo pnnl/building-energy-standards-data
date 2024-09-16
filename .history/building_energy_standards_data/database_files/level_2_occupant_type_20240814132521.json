@@ -1,0 +1,30 @@
+[
+  {
+      "name": "office_occupant",
+      "occupant_control": "True",
+      "energy_behavior":{
+      "wasteful_occupant_fraction": 0.2,
+      "normal_occupant_fraction": 0.5,
+      "austerity_occupant_fraction": 0.3
+      },
+      "occupant_schedule": {
+        "early_bird": {
+          "fraction":0.03,
+          "occupant_schedule":"office_early_bird_schedule"
+        },
+        "regular_worker": {
+          "fraction":0.03,
+          "occupant_schedule":"office_early_bird_schedule"
+        },
+        "austerity_occupant": 0.3
+      }
+  },
+  {
+    "name": "classroom_occupant",
+    "occupant_control": "False",
+    "wasteful_occupant_fraction": 0.3,
+    "normal_occupant_fraction": 0.4,
+    "austerity_occupant_fraction": 0.3,
+    "natural_gas_equipment_maximum_epd": 767
+}
+]

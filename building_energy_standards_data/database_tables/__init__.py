@@ -87,7 +87,9 @@ __all__ = [
     "exterior_lighting_90_1",
     "exterior_lighting_90_1_prm",
     "exterior_lighting_IECC",
+    "support_occupant_energy_behavior",
     # tables with foreign keys
+    "support_occupant_physical_characteristics",
     "level_2_lighting_space_types",
     "level_2_ventilation_space_types",
     "level_1_space_types",
@@ -95,6 +97,7 @@ __all__ = [
     "envelope_requirements_90_1",
     "envelope_requirements_90_1_prm",
     "envelope_requirements_IECC",
+    "support_occupant_types",
 ]
 
 
@@ -106,12 +109,8 @@ def __get_light_tables__():
 def __gettables__():
     tables = inspect.getmembers(db_tables, inspect.ismodule)
     # sort the list tuples to the same order as __all__
-    tables_sorted = [
-        table for table_name in __all__ for table in tables if table_name == table[0]
-    ]
-    base_class_names = [
-        f[0] for f in inspect.getmembers(database_classes, inspect.isclass)
-    ]
+    tables_sorted = [table for table_name in __all__ for table in tables if table_name == table[0]]
+    base_class_names = [f[0] for f in inspect.getmembers(database_classes, inspect.isclass)]
     available_tables = []
     for table in tables_sorted:
         available_tables += [
@@ -125,7 +124,7 @@ def __gettables__():
             and (not f[0] in base_class_names)
             and (f[0].endswith("Table"))
         ]
-
+    
     return available_tables
 
 

@@ -1,0 +1,36 @@
+[
+  {
+      "name": "office_occupant",
+      "occupant_control": "True",
+      "energy_behavior":{
+      "wasteful_occupant": {
+        "fraction":0.2,
+        "energy_behavior":"office_early_bird_schedule"
+      },
+      "normal_occupant": 0.5,
+      "austerity_occupant": 0.3
+      },
+      "occupant_schedule": {
+        "early_bird": 
+        {
+          "fraction":0.2289,
+          "occupant_schedule":"office_early_bird_schedule"
+        },
+        "regular_worker": 
+        {
+          "fraction":0.6529,
+          "occupant_schedule":"office_regular_worker_schedule"
+        },
+        "late_owl": 
+        {
+          "fraction":0.0867,
+          "occupant_schedule":"office_late_owl_schedule"
+        },
+        "night_shift":
+        {
+          "fraction":0.03152,
+          "occupant_schedule":"office_night_shift_schedule"
+        }
+      }
+  }
+]

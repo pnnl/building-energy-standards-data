@@ -1,0 +1,32 @@
+[
+  {
+    "name": "office_wasteful",
+    "category": "Behavior",
+    "cooling_setpoint": 21.9,
+    "cooling_setpoint_units": "Celsius",
+    "heating_setpoint": 24.9,
+    "heating_setpoint_units": "Celsius",
+    "min_input_power_fraction": 0,
+    "min_light_output_fraction": 0
+  },
+  {
+    "name": "office_normal",
+    "category": "Behavior",
+    "cooling_setpoint": 23.7,
+    "cooling_setpoint_units": "Celsius",
+    "heating_setpoint": 22.7,
+    "heating_setpoint_units": "Celsius",
+    "min_input_power_fraction": 0.2,
+    "min_light_output_fraction": 0.2
+  },
+  {
+    "name": "office_austerity",
+    "category": "Behavior",
+    "cooling_setpoint": 25.4,
+    "cooling_setpoint_units": "Celsius",
+    "heating_setpoint": 20.5,
+    "heating_setpoint_units": "Celsius",
+    "min_input_power_fraction": 0.5,
+    "min_light_output_fraction": 0.5
+  }
+]
