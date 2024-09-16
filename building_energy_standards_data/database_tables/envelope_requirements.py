@@ -27,7 +27,8 @@ orientation: TEXT
 minimum_projection_factor: NUMERIC
 maximum_projection_factor: NUMERIC
 assembly_maximum_solar_heat_gain_coefficient: NUMERIC
-assembly_minimum_vt_SHGC: NUMERIC
+assembly_minimum_visible_transmittance: NUMERIC
+assembly_minimum_vt_shgc: NUMERIC
 annotation: TEXT (optional)
 """
 
@@ -54,6 +55,7 @@ orientation TEXT,
 minimum_projection_factor NUMERIC,
 maximum_projection_factor NUMERIC,
 assembly_maximum_solar_heat_gain_coefficient NUMERIC,
+assembly_minimum_visible_transmittance NUMERIC,
 assembly_minimum_vt_shgc NUMERIC,
 annotation TEXT,
 FOREIGN KEY(construction) REFERENCES support_constructions(name)
@@ -82,10 +84,11 @@ orientation,
 minimum_projection_factor,
 maximum_projection_factor,
 assembly_maximum_solar_heat_gain_coefficient,
+assembly_minimum_visible_transmittance,
 assembly_minimum_vt_shgc,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -109,6 +112,7 @@ RECORD_TEMPLATE = {
     "minimum_projection_factor": 0.0,
     "maximum_projection_factor": 0.0,
     "assembly_maximum_solar_heat_gain_coefficient": 0.0,
+    "assembly_minimum_visible_transmittance": 0.0,
     "assembly_minimum_vt_shgc": 0.0,
     "annotation": "",
 }
@@ -160,6 +164,7 @@ class EnvelopeRequirement(DBOperation):
             "minimum_projection_factor",
             "maximum_projection_factor",
             "assembly_maximum_solar_heat_gain_coefficient",
+            "assembly_minimum_visible_transmittance",
             "assembly_minimum_vt_shgc",
         ]
 
@@ -199,6 +204,7 @@ class EnvelopeRequirement(DBOperation):
             getattr_either("minimum_projection_factor", record),
             getattr_either("maximum_projection_factor", record),
             getattr_either("assembly_maximum_solar_heat_gain_coefficient", record),
+            getattr_either("assembly_minimum_visible_transmittance", record),
             getattr_either("assembly_minimum_vt_shgc", record),
             getattr_either("annotation", record),
         )

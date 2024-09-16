@@ -1,5 +1,7 @@
 ## Quick Start Guide
 Please note that if you have installed the database with `pip` you will need to add `import building_energy_standards_data` at the beginning of the code snippets shown below. Otherwise, if you are running the following code snippets from a clone of the repository, make sure to run them from the root directory.
+
+Also, if installing the database using `pip`, one should use `create_database()` in place of `create_openstudio_standards_database_from_json()` or `create_openstudio_standards_database_from_csv()`.
 ### Create the Database
 ```python
 import sqlite3
