@@ -1,9 +1,0 @@
-[
-  {
-      "name": "office_occupant",
-      "wasteful_occupant_fraction": 0.2,
-      "normal_occupant_fraction": 0.5,
-      "austerity_occupant_fraction": 0.3,
-      "natural_gas_equipment_maximum_epd": 767
-  },
-  ]

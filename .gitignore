@@ -3,4 +3,5 @@
 openstudio_standards.db
 dist/
 openstudio-standards/
-env
+env/
+.history
