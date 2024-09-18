@@ -24,7 +24,7 @@ The people density and ventilation data originate from values specified in ASHRA
 #### Equipment
 The equipment assumptions are based on a plug-load values derived from a project led at the Pacific Northwest National Laboratory (PNNL) named *Development of Building-Space-Specific Loads for Performance Rating Methods*. Plug-load for each space type were determined using a bottom-up approach, see the figure below. Minimum, maximum, average, and median equipment power density values are provided (average values are currently used when exporting the data to the JSON files used by OpenStudio-Standards).
 
-![Occupant schedule clustering](plug_loads_methodology.png "Occupant schedule clustering")
+![Equipment Power Density Determination Using Plug-Load Data](plug_loads_methodology.png "Equipment Power Density Determination Using Plug-Load Data")
 #### Schedules
 The schedules used in the database were determined based on the PNNL led *Development of Building-Space-Specific Loads for Performance Rating Methods* project. The schedules were derived from the [SBEM-NCN database](https://www.ncm-pcdb.org.uk/sap/page.jsp?id=7), modifications were applied to make them perceived as more realistic such as reducing the occupancy fraction during the day (as space is very rarely fully occupied), or leave a very small fraction of the lights on at night. 
 
