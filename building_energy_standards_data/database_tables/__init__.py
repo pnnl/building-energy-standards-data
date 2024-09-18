@@ -109,8 +109,12 @@ def __get_light_tables__():
 def __gettables__():
     tables = inspect.getmembers(db_tables, inspect.ismodule)
     # sort the list tuples to the same order as __all__
-    tables_sorted = [table for table_name in __all__ for table in tables if table_name == table[0]]
-    base_class_names = [f[0] for f in inspect.getmembers(database_classes, inspect.isclass)]
+    tables_sorted = [
+        table for table_name in __all__ for table in tables if table_name == table[0]
+    ]
+    base_class_names = [
+        f[0] for f in inspect.getmembers(database_classes, inspect.isclass)
+    ]
     available_tables = []
     for table in tables_sorted:
         available_tables += [
