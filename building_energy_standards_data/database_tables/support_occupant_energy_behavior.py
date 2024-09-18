@@ -8,7 +8,7 @@ TABLE_NAME = "support_occupant_energy_behavior"
 
 RECORD_HELP = """
 Must provide a dict that contains the following key-value pairs:
-energy_behavior_name TEXT NOT NULL,
+energy_behavior_name TEXT NOT NULL UNIQUE ,
 cooling_setpoint NUMERIC,
 cooling_setpoint_units TEXT,
 heating_setpoint NUMERIC,
@@ -19,8 +19,7 @@ annotation TEXT
 
 CREATE_ENERGY_BEHAVIOR_TABLE = """
 CREATE TABLE IF NOT EXISTS support_occupant_energy_behavior (
-    id INTEGER PRIMARY KEY,
-    energy_behavior_name TEXT NOT NULL,
+    energy_behavior_name TEXT UNIQUE NOT NULL PRIMARY KEY,
     cooling_setpoint NUMERIC,
     cooling_setpoint_units TEXT,
     heating_setpoint NUMERIC,

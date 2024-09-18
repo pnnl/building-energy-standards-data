@@ -1,0 +1,108 @@
+template,equipment_type,cooling_type,configuration,subcategory,application,rating_condition,electric_power_phase,region,minimum_capacity,maximum_capacity,start_date,end_date,minimum_heating_seasonal_performance_factor,minimum_heating_seasonal_performance_factor_2,minimum_coefficient_of_performance_heating,pthp_cop_coefficient_1,pthp_cop_coefficient_2,off_mode_power,minimum_coefficient_of_performance_no_fan_heating,annotation
+90.1-PRM-2004,PTHP,AirCooled,,,New Construction,,,,0,9999999999,9/9/1919,9/9/2999,,,,3.2,0.026,,,From 90.1-2004 Table 6.8.1D
+90.1-PRM-2004,PTHP,AirCooled,,,Replacements,,,,0,9999999999,9/9/1919,9/9/2999,,,,2.9,0.026,,,From 90.1-2004 Table 6.8.1D
+90.1-PRM-2004,SPVHP,AirCooled,,,,,,,0,9999999999,9/9/1919,9/9/2999,,,2.7,,,,,From 90.1-2004 Table 6.8.1D
+90.1-PRM-2004,Heat Pumps,AirCooled,,Single Package,,,,,0,64999.99,9/9/1919,1/22/2006,6.6,,,,,,,From 90.1-2004 Table 6.8.1B
+90.1-PRM-2004,Heat Pumps,AirCooled,,Single Package,,,,,0,64999.99,1/23/2006,9/9/2999,7.4,,,,,,,From 90.1-2004 Table 6.8.1B
+90.1-PRM-2004,Heat Pumps,AirCooled,,,,47F db/43F wb outdoor air,,,65000,134999.99,9/9/1919,9/9/2999,,,3.2,,,,,From 90.1-2004 Table 6.8.1B. For 47°F db/43°F wb
+90.1-PRM-2004,Heat Pumps,AirCooled,,,,17F db/15F wb outdoor air,,,65000,134999.99,9/9/1919,9/9/2999,,,2.2,,,,,From 90.1-2004 Table 6.8.1B. For 47°F db/43°F wb
+90.1-PRM-2004,Heat Pumps,AirCooled,,,,47F db/43F wb outdoor air,,,135000,9999999999,9/9/1919,9/9/2999,,,3.1,,,,,From 90.1-2004 Table 6.8.1B. For 47°F db/43°F wb
+90.1-PRM-2004,Heat Pumps,AirCooled,,,,17F db/15F wb outdoor air,,,135000,9999999999,9/9/1919,9/9/2999,,,2,,,,,From 90.1-2004 Table 6.8.1B. For 47°F db/43°F wb
+90.1-PRM-2004,Heat Pumps,AirCooled,,Split System,,,,,0,64999.99,9/9/1919,1/22/2006,6.8,,,,,,,From 90.1-2004 Table 6.8.1B. For 17°F db/15°F wb
+90.1-PRM-2004,Heat Pumps,AirCooled,,Split System,,,,,0,64999.99,1/23/2006,9/9/2999,7.4,,,,,,,From 90.1-2004 Table 6.8.1B. For 17°F db/15°F wb
+90.1-PRM-2004,Through the Wall,AirCooled,,Single Package,,,,,0,30000,9/9/1919,1/22/2006,6.6,,,,,,,From 90.1-2004 Table 6.8.1B
+90.1-PRM-2004,Through the Wall,AirCooled,,Single Package,,,,,0,30000,1/23/2006,1/22/2010,7,,,,,,,From 90.1-2004 Table 6.8.1B
+90.1-PRM-2004,Through the Wall,AirCooled,,Single Package,,,,,0,30000,1/23/2010,9/9/2999,7.4,,,,,,,From 90.1-2004 Table 6.8.1B
+90.1-PRM-2004,Through the Wall,AirCooled,,Split System,,,,,0,30000,9/9/1919,1/22/2006,6.8,,,,,,,From 90.1-2004 Table 6.8.1B
+90.1-PRM-2004,Through the Wall,AirCooled,,Split System,,,,,0,30000,1/23/2006,1/22/2010,7.1,,,,,,,From 90.1-2004 Table 6.8.1B
+90.1-PRM-2004,Through the Wall,AirCooled,,Split System,,,,,0,30000,1/23/2010,9/9/2999,7.4,,,,,,,From 90.1-2004 Table 6.8.1B
+90.1-PRM-2004,Small Duct High Velocity,AirCooled,,Split System,,,,,0,64999.99,9/9/1919,9/9/2999,6.8,,,,,,,From 90.1-2004 Table 6.8.1B
+90.1-PRM-2004,Heat Pumps,WaterSource,,,,,,,0,134999.99,9/9/1919,9/9/2999,,,4.2,,,,,From 90.1-2004 Table 6.8.1B
+90.1-PRM-2004,Heat Pumps,GroundWaterSource,,,,,,,0,134999.99,9/9/1919,9/9/2999,,,3.6,,,,,From 90.1-2004 Table 6.8.1B
+90.1-PRM-2004,Heat Pumps,GroundSource,,,,,,,0,134999.99,9/9/1919,9/9/2999,,,3.1,,,,,From 90.1-2004 Table 6.8.1B
+90.1-PRM-2007,PTHP,AirCooled,,,New Construction,,,,0,9999999999,9/9/1919,9/9/2999,,,,3.2,0.026,,,From 90.1-2007 Table 6.8.1D
+90.1-PRM-2007,PTHP,AirCooled,,,Replacements,,,,0,9999999999,9/9/1919,9/9/2999,,,,2.9,0.026,,,From 90.1-2007 Table 6.8.1D
+90.1-PRM-2007,SPVHP,AirCooled,,,,,,,0,64999.99,9/9/1919,9/9/2999,,,3,,,,,From 90.1-2007 Table 6.8.1D
+90.1-PRM-2007,SPVHP,AirCooled,,,,,,,65000,134999.99,9/9/1919,9/9/2999,,,3,,,,,From 90.1-2007 Table 6.8.1D
+90.1-PRM-2007,SPVHP,AirCooled,,,,,,,135000,239999.99,9/9/1919,9/9/2999,,,2.9,,,,,From 90.1-2007 Table 6.8.1D
+90.1-PRM-2007,Heat Pumps,AirCooled,,Single Package,,,,,0,64999.99,9/9/1919,1/22/2006,6.6,,,,,,,From 90.1-2007 Table 6.8.1B
+90.1-PRM-2007,Heat Pumps,AirCooled,,Single Package,,,,,0,64999.99,1/23/2006,9/9/2999,7.7,,,,,,,From 90.1-2007 Table 6.8.1B
+90.1-PRM-2007,Heat Pumps,AirCooled,,,,47F db/43F wb outdoor air,,,65000,134999.99,9/9/1919,12/31/2009,,,3.2,,,,,From 90.1-2007 Table 6.8.1B. For 47°F db/43°F wb
+90.1-PRM-2007,Heat Pumps,AirCooled,,,,47F db/43F wb outdoor air,,,65000,134999.99,1/1/2010,9/9/2999,,,3.3,,,,,From 90.1-2007 Table 6.8.1B. For 47°F db/43°F wb
+90.1-PRM-2007,Heat Pumps,AirCooled,,,,17F db/15F wb outdoor air,,,65000,134999.99,1/1/2010,9/9/2999,,,2.2,,,,,From 90.1-2007 Table 6.8.1B. For 17°F db/15°F wb
+90.1-PRM-2007,Heat Pumps,AirCooled,,,,47F db/43F wb outdoor air,,,135000,9999999999,9/9/1919,12/31/2009,,,3.1,,,,,From 90.1-2007 Table 6.8.1B. For 47°F db/43°F wb
+90.1-PRM-2007,Heat Pumps,AirCooled,,,,47F db/43F wb outdoor air,,,135000,9999999999,1/1/2010,9/9/2999,,,3.2,,,,,From 90.1-2007 Table 6.8.1B. For 47°F db/43°F wb
+90.1-PRM-2007,Heat Pumps,AirCooled,,,,17F db/15F wb outdoor air,,,135000,9999999999,1/1/2010,9/9/2999,,,2,,,,,From 90.1-2007 Table 6.8.1B. For 17°F db/15°F wb
+90.1-PRM-2007,Heat Pumps,AirCooled,,Split System,,,,,0,64999.99,9/9/1919,1/22/2006,6.8,,,,,,,From 90.1-2007 Table 6.8.1B
+90.1-PRM-2007,Heat Pumps,AirCooled,,Split System,,,,,0,64999.99,1/23/2006,9/9/2999,7.7,,,,,,,From 90.1-2007 Table 6.8.1B
+90.1-PRM-2007,Through the Wall,AirCooled,,Single Package,,,,,0,30000,9/9/1919,1/22/2006,6.6,,,,,,,From 90.1-2007 Table 6.8.1B
+90.1-PRM-2007,Through the Wall,AirCooled,,Single Package,,,,,0,30000,1/23/2006,1/22/2010,7,,,,,,,From 90.1-2007 Table 6.8.1B
+90.1-PRM-2007,Through the Wall,AirCooled,,Single Package,,,,,0,30000,1/23/2010,9/9/2999,7.4,,,,,,,From 90.1-2007 Table 6.8.1B
+90.1-PRM-2007,Through the Wall,AirCooled,,Split System,,,,,0,30000,9/9/1919,1/22/2006,6.8,,,,,,,From 90.1-2007 Table 6.8.1B
+90.1-PRM-2007,Through the Wall,AirCooled,,Split System,,,,,0,30000,1/23/2006,1/22/2010,7.1,,,,,,,From 90.1-2007 Table 6.8.1B
+90.1-PRM-2007,Through the Wall,AirCooled,,Split System,,,,,0,30000,1/23/2010,9/9/2999,7.4,,,,,,,From 90.1-2007 Table 6.8.1B
+90.1-PRM-2007,Heat Pumps,WaterSource,,,,,,,0,134999.99,9/9/1919,9/9/2999,,,4.2,,,,,From 90.1-2007 Table 6.8.1B
+90.1-PRM-2007,Heat Pumps,GroundWaterSource,,,,,,,0,134999.99,9/9/1919,9/9/2999,,,3.6,,,,,From 90.1-2007 Table 6.8.1B
+90.1-PRM-2007,Heat Pumps,GroundSource,,,,,,,0,134999.99,9/9/1919,9/9/2999,,,3.1,,,,,From 90.1-2007 Table 6.8.1B
+90.1-PRM-2010,PTHP,AirCooled,,,Standard Size,,,,0,9999999999,9/9/1919,10/7/2012,,,,3.2,0.026,,,From 90.1-2010 Table 6.8.1D
+90.1-PRM-2010,PTHP,AirCooled,,,Standard Size,,,,0,9999999999,10/8/2012,9/9/2999,,,,3.7,0.052,,,From 90.1-2010 Table 6.8.1D
+90.1-PRM-2010,PTHP,AirCooled,,,Nonstandard Size,,,,0,9999999999,9/9/1919,9/9/2999,,,,2.9,0.026,,,From 90.1-2010 Table 6.8.1D
+90.1-PRM-2010,SPVHP,AirCooled,,,,,,,0,64999.99,9/9/1919,9/9/2999,,,3,,,,,From 90.1-2010 Table 6.8.1D
+90.1-PRM-2010,SPVHP,AirCooled,,,,,,,65000,134999.99,9/9/1919,9/9/2999,,,3,,,,,From 90.1-2010 Table 6.8.1D
+90.1-PRM-2010,SPVHP,AirCooled,,,,,,,135000,239999.99,9/9/1919,9/9/2999,,,2.9,,,,,From 90.1-2010 Table 6.8.1D
+90.1-PRM-2010,Heat Pumps,AirCooled,,Single Package,,,,,0,64999.99,9/9/1919,9/9/2999,7.7,,,,,,,From 90.1-2010 Table 6.8.1B
+90.1-PRM-2010,Heat Pumps,AirCooled,,Single Package,,47F db/43F wb outdoor air,,,65000,134999.99,9/9/1919,9/9/2999,,,3.3,,,,,From 90.1-2010 Table 6.8.1B. For 47°F db/43°F wb
+90.1-PRM-2010,Heat Pumps,AirCooled,,Single Package,,17F db/15F wb outdoor air,,,65000,134999.99,9/9/1919,9/9/2999,,,2.25,,,,,From 90.1-2010 Table 6.8.1B. For 17°F db/15°F wb
+90.1-PRM-2010,Heat Pumps,AirCooled,,Single Package,,47F db/43F wb outdoor air,,,135000,9999999999,9/9/1919,9/9/2999,,,3.2,,,,,From 90.1-2010 Table 6.8.1B. For 47°F db/43°F wb
+90.1-PRM-2010,Heat Pumps,AirCooled,,Single Package,,17F db/15F wb outdoor air,,,135000,9999999999,9/9/1919,9/9/2999,,,2.05,,,,,From 90.1-2010 Table 6.8.1B. For 17°F db/15°F wb
+90.1-PRM-2010,Heat Pumps,AirCooled,,Split System,,,,,0,64999.99,9/9/1919,9/9/2999,7.7,,,,,,,From 90.1-2010 Table 6.8.1B
+90.1-PRM-2010,Through the Wall,AirCooled,,Single Package,,,,,0,30000,9/9/1919,9/9/2999,7.4,,,,,,,From 90.1-2010 Table 6.8.1B
+90.1-PRM-2010,Through the Wall,AirCooled,,Split System,,,,,0,30000,9/9/1919,9/9/2999,7.4,,,,,,,From 90.1-2010 Table 6.8.1B
+90.1-PRM-2010,Heat Pumps,WaterSource,,,,,,,0,134999.99,9/9/1919,9/9/2999,,,4.2,,,,,From 90.1-2010 Table 6.8.1B
+90.1-PRM-2010,Heat Pumps,GroundWaterSource,,,,,,,0,134999.99,9/9/1919,9/9/2999,,,3.6,,,,,From 90.1-2010 Table 6.8.1B
+90.1-PRM-2010,Heat Pumps,GroundSource,,,,,,,0,134999.99,9/9/1919,9/9/2999,,,3.1,,,,,From 90.1-2010 Table 6.8.1B
+90.1-PRM-2010,Heat Pumps,WaterSource,Water to Water,,,,,,0,134999.99,9/9/1919,9/9/2999,,,3.7,,,,,From 90.1-2010 Table 6.8.1B
+90.1-PRM-2010,Heat Pumps,GroundWaterSource,Water to Water,,,,,,0,134999.99,9/9/1919,9/9/2999,,,3.1,,,,,From 90.1-2010 Table 6.8.1B
+90.1-PRM-2010,Heat Pumps,GroundSource,Brine to Water,,,,,,0,134999.99,9/9/1919,9/9/2999,,,2.5,,,,,From 90.1-2010 Table 6.8.1B
+90.1-PRM-2013,PTHP,AirCooled,,,Standard Size,,,,0,9999999999,9/9/1919,9/9/2999,,,,3.7,0.052,,,From 90.1-2013 Table 6.8.1-4
+90.1-PRM-2013,PTHP,AirCooled,,,Nonstandard Size,,,,0,9999999999,9/9/1919,9/9/2999,,,,2.9,0.026,,,From 90.1-2013 Table 6.8.1-4
+90.1-PRM-2013,SPVHP,AirCooled,,,,,,,0,64999.99,9/9/1919,9/9/2999,,,3,,,,,From 90.1-2013 Table 6.8.1-4
+90.1-PRM-2013,SPVHP,AirCooled,,,,,,,65000,134999.99,9/9/1919,9/9/2999,,,3,,,,,From 90.1-2013 Table 6.8.1-4
+90.1-PRM-2013,SPVHP,AirCooled,,,,,,,135000,239999.99,9/9/1919,9/9/2999,,,3,,,,,From 90.1-2013 Table 6.8.1-4
+90.1-PRM-2013,SPVHP,AirCooled,,Nonweatherized Space Constrained,,,,,0,30000,9/9/1919,9/9/2999,,,3,,,,,From 90.1-2013 Table 6.8.1-4
+90.1-PRM-2013,SPVHP,AirCooled,,Nonweatherized Space Constrained,,,,,30000.01,36000,9/9/1919,9/9/2999,,,3,,,,,From 90.1-2013 Table 6.8.1-4
+90.1-PRM-2013,Heat Pumps,AirCooled,,Single Package,,,,,0,64999.99,9/9/1919,12/31/2014,7.7,,,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2013,Heat Pumps,AirCooled,,Single Package,,,,,0,64999.99,1/1/2015,9/9/2999,8,,,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2013,Heat Pumps,AirCooled,,,,47F db/43F wb outdoor air,,,65000,134999.99,9/9/1919,9/9/2999,,,3.3,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2013,Heat Pumps,AirCooled,,,,17F db/15F wb outdoor air,,,65000,134999.99,9/9/1919,9/9/2999,,,2.25,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2013,Heat Pumps,AirCooled,,,,47F db/43F wb outdoor air,,,135000,9999999999,9/9/1919,9/9/2999,,,3.2,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2013,Heat Pumps,AirCooled,,,,17F db/15F wb outdoor air,,,135000,9999999999,9/9/1919,9/9/2999,,,2.05,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2013,Heat Pumps,AirCooled,,Split System,,,,,0,64999.99,9/9/1919,12/31/2014,7.7,,,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2013,Heat Pumps,AirCooled,,Split System,,,,,0,64999.99,1/1/2015,9/9/2999,8.2,,,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2013,Through the Wall,AirCooled,,Single Package,,,,,0,30000,9/9/1919,9/9/2999,7.4,,,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2013,Through the Wall,AirCooled,,Split System,,,,,0,30000,9/9/1919,9/9/2999,7.4,,,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2013,Small Duct High Velocity,AirCooled,,Split System,,,,,0,64999.99,9/9/1919,9/9/2999,6.8,,,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2013,Heat Pumps,WaterSource,Water to Air,,,,,,0,134999.99,9/9/1919,9/9/2999,,,4.3,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2013,Heat Pumps,GroundWaterSource,Water to Air,,,,,,0,134999.99,9/9/1919,9/9/2999,,,3.7,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2013,Heat Pumps,GroundSource,Brine to Air,,,,,,0,134999.99,9/9/1919,9/9/2999,,,3.2,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2013,Heat Pumps,WaterSource,Water to Water,,,,,,0,134999.99,9/9/1919,9/9/2999,,,3.7,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2013,Heat Pumps,GroundWaterSource,Water to Water,,,,,,0,134999.99,9/9/1919,9/9/2999,,,3.1,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2013,Heat Pumps,GroundSource,Brine to Water,,,,,,0,134999.99,9/9/1919,9/9/2999,,,2.5,,,,,From 90.1-2013 Table 6.8.1-2
+90.1-PRM-2016,PTHP,AirCooled,,,,,,,0,9999999999,9/9/1919,9/9/2999,,,,3.2,0.026,,,From 90.1-2016 Table G3.5.4
+90.1-PRM-2016,Heat Pumps,AirCooled,,Single Package,,,,,0,64999.99,9/9/1919,9/9/2999,6.6,,,,,,,From 90.1-2016 Table G3.5.2
+90.1-PRM-2016,Heat Pumps,AirCooled,,,,47F db/43F wb outdoor air,,,65000,134999.99,9/9/1919,9/9/2999,,,3.2,,,,,From 90.1-2016 Table G3.5.2
+90.1-PRM-2016,Heat Pumps,AirCooled,,,,17F db/15F wb outdoor air,,,65000,134999.99,9/9/1919,9/9/2999,,,2.2,,,,,From 90.1-2016 Table G3.5.2
+90.1-PRM-2016,Heat Pumps,AirCooled,,,,47F db/43F wb outdoor air,,,135000,9999999999,9/9/1919,9/9/2999,,,3.1,,,,,From 90.1-2016 Table G3.5.2
+90.1-PRM-2016,Heat Pumps,AirCooled,,,,17F db/15F wb outdoor air,,,135000,9999999999,9/9/1919,9/9/2999,,,2,,,,,From 90.1-2016 Table G3.5.2
+90.1-PRM-2019,PTHP,AirCooled,,,,,,,0,9999999999,9/9/1919,9/9/2999,,,,,,,3.1,From 90.1-2019 Table G3.5.2
+90.1-PRM-2019,Heat Pumps,AirCooled,,Single Package,,,,,0,64999.99,9/9/1919,9/9/2999,,,,,,,3.4,From 90.1-2019 Table G3.5.2
+90.1-PRM-2019,Heat Pumps,AirCooled,,,,47F db/43F wb outdoor air,,,65000,134999.99,9/9/1919,9/9/2999,,,,,,,3.4,From 90.1-2019 Table G3.5.2
+90.1-PRM-2019,Heat Pumps,AirCooled,,,,17F db/15F wb outdoor air,,,65000,134999.99,9/9/1919,9/9/2999,,,,,,,2.3,From 90.1-2019 Table G3.5.2
+90.1-PRM-2019,Heat Pumps,AirCooled,,,,47F db/43F wb outdoor air,,,135000,9999999999,9/9/1919,9/9/2999,,,,,,,3.4,From 90.1-2019 Table G3.5.2
+90.1-PRM-2019,Heat Pumps,AirCooled,,,,17F db/15F wb outdoor air,,,135000,9999999999,9/9/1919,9/9/2999,,,,,,,2.1,From 90.1-2019 Table G3.5.2
+90.1-PRM-2022,PTHP,AirCooled,,,,,,,0,9999999999,9/9/1919,9/9/2999,,,,,,,3.1,From 90.1-2022 Table G3.5.4
+90.1-PRM-2022,Heat Pumps,AirCooled,,Single Package,,,,,0,64999.99,9/9/1919,9/9/2999,,,,,,,3.4,From 90.1-2022 Table G3.5.2
+90.1-PRM-2022,Heat Pumps,AirCooled,,,,47F db/43F wb outdoor air,,,65000,134999.99,9/9/1919,9/9/2999,,,,,,,3.4,From 90.1-2022 Table G3.5.2
+90.1-PRM-2022,Heat Pumps,AirCooled,,,,17F db/15F wb outdoor air,,,65000,134999.99,9/9/1919,9/9/2999,,,,,,,2.3,From 90.1-2022 Table G3.5.2
+90.1-PRM-2022,Heat Pumps,AirCooled,,,,47F db/43F wb outdoor air,,,135000,239999.99,9/9/1919,9/9/2999,,,,,,,3.4,From 90.1-2022 Table G3.5.2
+90.1-PRM-2022,Heat Pumps,AirCooled,,,,17F db/15F wb outdoor air,,,135000,239999.99,9/9/1919,9/9/2999,,,,,,,2.1,From 90.1-2022 Table G3.5.2

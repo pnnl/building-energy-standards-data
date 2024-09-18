@@ -22,7 +22,6 @@ CREATE TABLE IF NOT EXISTS support_occupant_types (
     occupant_schedule TEXT NOT NULL,
     occupant_physical_characteristics TEXT NOT NULL,
     FOREIGN KEY(energy_behavior) REFERENCES support_occupant_energy_behavior(energy_behavior_name),
-    FOREIGN KEY(occupant_schedule) REFERENCES support_schedules(name),
     FOREIGN KEY(occupant_physical_characteristics) REFERENCES support_occupant_physical_characteristics(physical_characteristic_name)
 );
 """

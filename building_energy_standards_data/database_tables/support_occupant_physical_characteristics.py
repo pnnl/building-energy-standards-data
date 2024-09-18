@@ -8,7 +8,7 @@ TABLE_NAME = "support_occupant_physical_characteristics"
 
 RECORD_HELP = """
 Must provide a dict that contains following key value pairs:
-physical_characteristic_name TEXT NOT NULL,
+physical_characteristic_name TEXT UNIQUE NOT NULL PRIMARY KEY,
 schedule_activity_level TEXT NOT NULL,
 schedule_clothing_insulation TEXT NOT NULL,
 schedule_air_velocity TEXT NOT NULL,
@@ -20,18 +20,14 @@ annotation TEXT,
 
 CREATE_PHYSICAL_CHAR_TABLE = """
 CREATE TABLE IF NOT EXISTS support_occupant_physical_characteristics (
-    id INTEGER PRIMARY KEY,
-    physical_characteristic_name TEXT NOT NULL,
+    physical_characteristic_name TEXT UNIQUE NOT NULL PRIMARY KEY ,
     schedule_activity_level TEXT NOT NULL,
     schedule_clothing_insulation TEXT NOT NULL,
     schedule_air_velocity TEXT NOT NULL,
     work_efficiency NUMERIC,
     co2_generation NUMERIC,
     co2_generation_units TEXT,
-    annotation TEXT,
-    FOREIGN KEY(schedule_activity_level) REFERENCES support_schedules(name),
-    FOREIGN KEY(schedule_clothing_insulation) REFERENCES support_schedules(name),
-    FOREIGN KEY(schedule_air_velocity) REFERENCES support_schedules(name)
+    annotation TEXT
 );
 """
 

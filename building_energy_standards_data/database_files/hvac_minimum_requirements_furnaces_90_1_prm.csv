@@ -1,0 +1,38 @@
+template,equipment_type,fuel_type,electric_power_phase,minimum_capacity,maximum_capacity,minimum_combo_unit_cooling_capacity,maximum_combo_unit_cooling_capacity,subtype,start_date,end_date,minimum_annual_fuel_utilization_efficiency,minimum_thermal_efficiency,minimum_combustion_efficiency,standby_mode_power,off_mode_power,annotation
+90.1-PRM-2004,Warm Air Furnace,NaturalGas,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2004 Table 6.8.1E
+90.1-PRM-2004,Warm Air Furnace,NaturalGas,,225000,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2004 Table 6.8.1E
+90.1-PRM-2004,Warm Air Furnace,Oil,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2004 Table 6.8.1E
+90.1-PRM-2004,Warm Air Furnace,Oil,,225000,9999999999,,,,9/9/1919,9/9/2999,,0.81,,,,From 90.1-2004 Table 6.8.1E
+90.1-PRM-2004,Warm Air Duct Furnaces,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2004 Table 6.8.1E
+90.1-PRM-2004,Warm Air Unit Heaters,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2004 Table 6.8.1E
+90.1-PRM-2004,Warm Air Unit Heaters,Oil,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2004 Table 6.8.1E
+90.1-PRM-2007,Warm Air Furnace,NaturalGas,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2007 Table 6.8.1E
+90.1-PRM-2007,Warm Air Furnace,NaturalGas,,225000,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2007 Table 6.8.1E
+90.1-PRM-2007,Warm Air Furnace,Oil,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2007 Table 6.8.1E
+90.1-PRM-2007,Warm Air Furnace,Oil,,225000,9999999999,,,,9/9/1919,9/9/2999,,0.81,,,,From 90.1-2007 Table 6.8.1E
+90.1-PRM-2007,Warm Air Duct Furnaces,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2007 Table 6.8.1E
+90.1-PRM-2007,Warm Air Unit Heaters,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2007 Table 6.8.1E
+90.1-PRM-2007,Warm Air Unit Heaters,Oil,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2007 Table 6.8.1E
+90.1-PRM-2010,Warm Air Furnace,NaturalGas,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2010 Table 6.8.1E
+90.1-PRM-2010,Warm Air Furnace,NaturalGas,,225000,9999999999,,,,9/9/1919,9/9/2999,,0.8,,,,From 90.1-2010 Table 6.8.1E
+90.1-PRM-2010,Warm Air Furnace,Oil,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2010 Table 6.8.1E
+90.1-PRM-2010,Warm Air Furnace,Oil,,225000,9999999999,,,,9/9/1919,9/9/2999,,0.81,,,,From 90.1-2010 Table 6.8.1E
+90.1-PRM-2010,Warm Air Duct Furnaces,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2010 Table 6.8.1E
+90.1-PRM-2010,Warm Air Unit Heaters,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2010 Table 6.8.1E
+90.1-PRM-2010,Warm Air Unit Heaters,Oil,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2010 Table 6.8.1E
+90.1-PRM-2013,Warm Air Furnace,NaturalGas,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2013 Table 6.8.1-5
+90.1-PRM-2013,Warm Air Furnace,NaturalGas,,225000,9999999999,,,,9/9/1919,9/9/2999,,0.8,,,,From 90.1-2013 Table 6.8.1-5
+90.1-PRM-2013,Warm Air Furnace,Oil,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2013 Table 6.8.1-5
+90.1-PRM-2013,Warm Air Furnace,Oil,,225000,9999999999,,,,9/9/1919,9/9/2999,,0.81,,,,From 90.1-2013 Table 6.8.1-5
+90.1-PRM-2013,Warm Air Duct Furnaces,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2013 Table 6.8.1-5
+90.1-PRM-2013,Warm Air Unit Heaters,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2013 Table 6.8.1-5
+90.1-PRM-2013,Warm Air Unit Heaters,Oil,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2013 Table 6.8.1-5
+90.1-PRM-2016,Warm Air Furnace,NaturalGas,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2016 Table G3.5.5
+90.1-PRM-2016,Warm Air Furnace,NaturalGas,,225000,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2016 Table G3.5.5
+90.1-PRM-2016,Warm Air Unit Heaters,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2016 Table G3.5.5
+90.1-PRM-2019,Warm Air Furnace,NaturalGas,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2019 Table G3.5.5
+90.1-PRM-2019,Warm Air Furnace,NaturalGas,,225000,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2019 Table G3.5.5
+90.1-PRM-2019,Warm Air Unit Heaters,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2019 Table G3.5.5
+90.1-PRM-2022,Warm Air Furnace,NaturalGas,,0,224999.99,,,,9/9/1919,9/9/2999,0.78,0.8,,,,From 90.1-2022 Table G3.5.5
+90.1-PRM-2022,Warm Air Furnace,NaturalGas,,225000,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2022 Table G3.5.5
+90.1-PRM-2022,Warm Air Unit Heaters,NaturalGas,,0,9999999999,,,,9/9/1919,9/9/2999,,,0.8,,,From 90.1-2022 Table G3.5.5

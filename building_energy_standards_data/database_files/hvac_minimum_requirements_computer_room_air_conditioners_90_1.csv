@@ -1,0 +1,325 @@
+template,cooling_type,standard_model,rating_condition,minimum_capacity,maximum_capacity,start_date,end_date,minimum_scop,annotation
+90.1-2004,AirCooled,Downflow units,,0,64999.99,9/9/1919,9/9/2999,2.2,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,AirCooled,Upflow units,,0,64999.99,9/9/1919,9/9/2999,2.09,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,AirCooled,Downflow units,,65000,239999.99,9/9/1919,9/9/2999,2.1,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,AirCooled,Upflow units,,65000,239999.99,9/9/1919,9/9/2999,1.99,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,AirCooled,Downflow units,,240000,9999999999,9/9/1919,9/9/2999,1.9,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,AirCooled,Upflow units,,240000,9999999999,9/9/1919,9/9/2999,1.79,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,WaterCooled,Downflow units,,0,64999.99,9/9/1919,9/9/2999,2.6,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,WaterCooled,Upflow units,,0,64999.99,9/9/1919,9/9/2999,2.49,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,WaterCooled,Downflow units,,65000,239999.99,9/9/1919,9/9/2999,2.5,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,WaterCooled,Upflow units,,65000,239999.99,9/9/1919,9/9/2999,2.39,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,WaterCooled,Downflow units,,240000,9999999999,9/9/1919,9/9/2999,2.4,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,WaterCooled,Upflow units,,240000,9999999999,9/9/1919,9/9/2999,2.29,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,WaterCooled with fluid economizer,Downflow units,,0,64999.99,9/9/1919,9/9/2999,2.55,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,WaterCooled with fluid economizer,Upflow units,,0,64999.99,9/9/1919,9/9/2999,2.44,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,WaterCooled with fluid economizer,Downflow units,,65000,239999.99,9/9/1919,9/9/2999,2.45,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,WaterCooled with fluid economizer,Upflow units,,65000,239999.99,9/9/1919,9/9/2999,2.34,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,WaterCooled with fluid economizer,Downflow units,,240000,9999999999,9/9/1919,9/9/2999,2.35,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,WaterCooled with fluid economizer,Upflow units,,240000,9999999999,9/9/1919,9/9/2999,2.24,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,GlycolCooled,Downflow units,,0,64999.99,9/9/1919,9/9/2999,2.5,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,GlycolCooled,Upflow units,,0,64999.99,9/9/1919,9/9/2999,2.39,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,GlycolCooled,Downflow units,,65000,239999.99,9/9/1919,9/9/2999,2.15,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,GlycolCooled,Upflow units,,65000,239999.99,9/9/1919,9/9/2999,2.04,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,GlycolCooled,Downflow units,,240000,9999999999,9/9/1919,9/9/2999,2.1,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,GlycolCooled,Upflow units,,240000,9999999999,9/9/1919,9/9/2999,1.99,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,GlycolCooled with fluid economizer,Downflow units,,0,64999.99,9/9/1919,9/9/2999,2.45,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,GlycolCooled with fluid economizer,Upflow units,,0,64999.99,9/9/1919,9/9/2999,2.34,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,GlycolCooled with fluid economizer,Downflow units,,65000,239999.99,9/9/1919,9/9/2999,2.1,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,GlycolCooled with fluid economizer,Upflow units,,65000,239999.99,9/9/1919,9/9/2999,1.99,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,GlycolCooled with fluid economizer,Downflow units,,240000,9999999999,9/9/1919,9/9/2999,2.05,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2004,GlycolCooled with fluid economizer,Upflow units,,240000,9999999999,9/9/1919,9/9/2999,1.94,"Not specified in 2004, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,AirCooled,Downflow units,,0,64999.99,9/9/1919,9/9/2999,2.2,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,AirCooled,Upflow units,,0,64999.99,9/9/1919,9/9/2999,2.09,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,AirCooled,Downflow units,,65000,239999.99,9/9/1919,9/9/2999,2.1,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,AirCooled,Upflow units,,65000,239999.99,9/9/1919,9/9/2999,1.99,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,AirCooled,Downflow units,,240000,9999999999,9/9/1919,9/9/2999,1.9,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,AirCooled,Upflow units,,240000,9999999999,9/9/1919,9/9/2999,1.79,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,WaterCooled,Downflow units,,0,64999.99,9/9/1919,9/9/2999,2.6,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,WaterCooled,Upflow units,,0,64999.99,9/9/1919,9/9/2999,2.49,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,WaterCooled,Downflow units,,65000,239999.99,9/9/1919,9/9/2999,2.5,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,WaterCooled,Upflow units,,65000,239999.99,9/9/1919,9/9/2999,2.39,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,WaterCooled,Downflow units,,240000,9999999999,9/9/1919,9/9/2999,2.4,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,WaterCooled,Upflow units,,240000,9999999999,9/9/1919,9/9/2999,2.29,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,WaterCooled with fluid economizer,Downflow units,,0,64999.99,9/9/1919,9/9/2999,2.55,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,WaterCooled with fluid economizer,Upflow units,,0,64999.99,9/9/1919,9/9/2999,2.44,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,WaterCooled with fluid economizer,Downflow units,,65000,239999.99,9/9/1919,9/9/2999,2.45,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,WaterCooled with fluid economizer,Upflow units,,65000,239999.99,9/9/1919,9/9/2999,2.34,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,WaterCooled with fluid economizer,Downflow units,,240000,9999999999,9/9/1919,9/9/2999,2.35,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,WaterCooled with fluid economizer,Upflow units,,240000,9999999999,9/9/1919,9/9/2999,2.24,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,GlycolCooled,Downflow units,,0,64999.99,9/9/1919,9/9/2999,2.5,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,GlycolCooled,Upflow units,,0,64999.99,9/9/1919,9/9/2999,2.39,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,GlycolCooled,Downflow units,,65000,239999.99,9/9/1919,9/9/2999,2.15,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,GlycolCooled,Upflow units,,65000,239999.99,9/9/1919,9/9/2999,2.04,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,GlycolCooled,Downflow units,,240000,9999999999,9/9/1919,9/9/2999,2.1,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,GlycolCooled,Upflow units,,240000,9999999999,9/9/1919,9/9/2999,1.99,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,GlycolCooled with fluid economizer,Downflow units,,0,64999.99,9/9/1919,9/9/2999,2.45,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,GlycolCooled with fluid economizer,Upflow units,,0,64999.99,9/9/1919,9/9/2999,2.34,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,GlycolCooled with fluid economizer,Downflow units,,65000,239999.99,9/9/1919,9/9/2999,2.1,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,GlycolCooled with fluid economizer,Upflow units,,65000,239999.99,9/9/1919,9/9/2999,1.99,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,GlycolCooled with fluid economizer,Downflow units,,240000,9999999999,9/9/1919,9/9/2999,2.05,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2007,GlycolCooled with fluid economizer,Upflow units,,240000,9999999999,9/9/1919,9/9/2999,1.94,"Not specified in 2007, follow ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only"
+90.1-2010,AirCooled,Downflow units,,0,64999.99,9/9/1919,9/9/2999,2.2,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,AirCooled,Upflow units,,0,64999.99,9/9/1919,9/9/2999,2.09,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,AirCooled,Downflow units,,65000,239999.99,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,AirCooled,Upflow units,,65000,239999.99,9/9/1919,9/9/2999,1.99,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,AirCooled,Downflow units,,240000,9999999999,9/9/1919,9/9/2999,1.9,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,AirCooled,Upflow units,,240000,9999999999,9/9/1919,9/9/2999,1.79,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,WaterCooled,Downflow units,,0,64999.99,9/9/1919,9/9/2999,2.6,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,WaterCooled,Upflow units,,0,64999.99,9/9/1919,9/9/2999,2.49,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,WaterCooled,Downflow units,,65000,239999.99,9/9/1919,9/9/2999,2.5,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,WaterCooled,Upflow units,,65000,239999.99,9/9/1919,9/9/2999,2.39,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,WaterCooled,Downflow units,,240000,9999999999,9/9/1919,9/9/2999,2.4,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,WaterCooled,Upflow units,,240000,9999999999,9/9/1919,9/9/2999,2.29,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,WaterCooled with fluid economizer,Downflow units,,0,64999.99,9/9/1919,9/9/2999,2.55,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,WaterCooled with fluid economizer,Upflow units,,0,64999.99,9/9/1919,9/9/2999,2.44,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,WaterCooled with fluid economizer,Downflow units,,65000,239999.99,9/9/1919,9/9/2999,2.45,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,WaterCooled with fluid economizer,Upflow units,,65000,239999.99,9/9/1919,9/9/2999,2.34,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,WaterCooled with fluid economizer,Downflow units,,240000,9999999999,9/9/1919,9/9/2999,2.35,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,WaterCooled with fluid economizer,Upflow units,,240000,9999999999,9/9/1919,9/9/2999,2.24,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,GlycolCooled,Downflow units,,0,64999.99,9/9/1919,9/9/2999,2.5,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,GlycolCooled,Upflow units,,0,64999.99,9/9/1919,9/9/2999,2.39,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,GlycolCooled,Downflow units,,65000,239999.99,9/9/1919,9/9/2999,2.15,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,GlycolCooled,Upflow units,,65000,239999.99,9/9/1919,9/9/2999,2.04,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,GlycolCooled,Downflow units,,240000,9999999999,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,GlycolCooled,Upflow units,,240000,9999999999,9/9/1919,9/9/2999,1.99,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,GlycolCooled with fluid economizer,Downflow units,,0,64999.99,9/9/1919,9/9/2999,2.45,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,GlycolCooled with fluid economizer,Upflow units,,0,64999.99,9/9/1919,9/9/2999,2.34,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,GlycolCooled with fluid economizer,Downflow units,,65000,239999.99,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,GlycolCooled with fluid economizer,Upflow units,,65000,239999.99,9/9/1919,9/9/2999,1.99,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,GlycolCooled with fluid economizer,Downflow units,,240000,9999999999,9/9/1919,9/9/2999,2.05,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2010,GlycolCooled with fluid economizer,Upflow units,,240000,9999999999,9/9/1919,9/9/2999,1.94,ASHRAE 90.1-2010 Table 6.8.1K. capacity here is sensible only
+90.1-2013,AirCooled,,,0,64999.99,9/9/1919,9/9/2999,2.2,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,AirCooled,,,0,64999.99,9/9/1919,9/9/2999,2.09,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,AirCooled,,,65000,239999.99,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,AirCooled,,,65000,239999.99,9/9/1919,9/9/2999,1.99,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,AirCooled,,,240000,9999999999,9/9/1919,9/9/2999,1.9,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,AirCooled,,,240000,9999999999,9/9/1919,9/9/2999,1.79,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,WaterCooled,,,0,64999.99,9/9/1919,9/9/2999,2.6,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,WaterCooled,,,0,64999.99,9/9/1919,9/9/2999,2.49,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,WaterCooled,,,65000,239999.99,9/9/1919,9/9/2999,2.5,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,WaterCooled,,,65000,239999.99,9/9/1919,9/9/2999,2.39,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,WaterCooled,,,240000,9999999999,9/9/1919,9/9/2999,2.4,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,WaterCooled,,,240000,9999999999,9/9/1919,9/9/2999,2.29,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,WaterCooled with fluid economizer,,,0,64999.99,9/9/1919,9/9/2999,2.55,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,WaterCooled with fluid economizer,,,0,64999.99,9/9/1919,9/9/2999,2.44,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,WaterCooled with fluid economizer,,,65000,239999.99,9/9/1919,9/9/2999,2.45,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,WaterCooled with fluid economizer,,,65000,239999.99,9/9/1919,9/9/2999,2.34,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,WaterCooled with fluid economizer,,,240000,9999999999,9/9/1919,9/9/2999,2.35,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,WaterCooled with fluid economizer,,,240000,9999999999,9/9/1919,9/9/2999,2.24,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,GlycolCooled,,,0,64999.99,9/9/1919,9/9/2999,2.5,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,GlycolCooled,,,0,64999.99,9/9/1919,9/9/2999,2.39,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,GlycolCooled,,,65000,239999.99,9/9/1919,9/9/2999,2.15,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,GlycolCooled,,,65000,239999.99,9/9/1919,9/9/2999,2.04,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,GlycolCooled,,,240000,9999999999,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,GlycolCooled,,,240000,9999999999,9/9/1919,9/9/2999,1.99,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,GlycolCooled with fluid economizer,,,0,64999.99,9/9/1919,9/9/2999,2.45,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,GlycolCooled with fluid economizer,,,0,64999.99,9/9/1919,9/9/2999,2.34,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,GlycolCooled with fluid economizer,,,65000,239999.99,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,GlycolCooled with fluid economizer,,,65000,239999.99,9/9/1919,9/9/2999,1.99,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,GlycolCooled with fluid economizer,,,240000,9999999999,9/9/1919,9/9/2999,2.05,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2013,GlycolCooled with fluid economizer,,,240000,9999999999,9/9/1919,9/9/2999,1.94,ASHRAE 90.1-2013 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,AirCooled,Downflow unit,85F/52F (Class 2),0,64999.99,9/9/1919,9/9/2999,2.3,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,AirCooled,Upflow unit-ducted,85F/52F (Class 2),0,64999.99,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,AirCooled,Upflow unit-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2.09,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,AirCooled,Horizontal-flow unit,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.45,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,AirCooled,Downflow unit,85F/52F (Class 2),65000,239999.99,9/9/1919,9/9/2999,2.2,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,AirCooled,Upflow unit-ducted,85F/52F (Class 2),65000,239999.99,9/9/1919,9/9/2999,2.05,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,AirCooled,Upflow unit-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,1.99,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,AirCooled,Horizontal-flow unit,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.35,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,AirCooled,Downflow unit,85F/52F (Class 2),240000,9999999999,9/9/1919,9/9/2999,2,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,AirCooled,Upflow unit-ducted,85F/52F (Class 2),240000,9999999999,9/9/1919,9/9/2999,1.85,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,AirCooled,Upflow unit-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,1.79,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,AirCooled,Horizontal-flow unit,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.15,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled,Downflow unit,85F/52F (Class 2),0,64999.99,9/9/1919,9/9/2999,2.5,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled,Upflow unit-ducted,85F/52F (Class 2),0,64999.99,9/9/1919,9/9/2999,2.3,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled,Upflow unit-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2.25,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled,Horizontal-flow unit,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.7,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled,Downflow unit,85F/52F (Class 2),65000,239999.99,9/9/1919,9/9/2999,2.4,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled,Upflow unit-ducted,85F/52F (Class 2),65000,239999.99,9/9/1919,9/9/2999,2.2,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled,Upflow unit-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,2.15,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled,Horizontal-flow unit,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.6,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled,Downflow unit,85F/52F (Class 2),240000,9999999999,9/9/1919,9/9/2999,2.25,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled,Upflow unit-ducted,85F/52F (Class 2),240000,9999999999,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled,Upflow unit-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,2.05,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled,Horizontal-flow unit,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.45,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled with fluid economizer,Downflow unit,85F/52F (Class 2),0,64999.99,9/9/1919,9/9/2999,2.45,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled with fluid economizer,Upflow unit-ducted,85F/52F (Class 2),0,64999.99,9/9/1919,9/9/2999,2.25,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled with fluid economizer,Upflow unit-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2.2,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled with fluid economizer,Horizontal-flow unit,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.6,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled with fluid economizer,Downflow unit,85F/52F (Class 2),65000,239999.99,9/9/1919,9/9/2999,2.35,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled with fluid economizer,Upflow unit-ducted,85F/52F (Class 2),65000,239999.99,9/9/1919,9/9/2999,2.15,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled with fluid economizer,Upflow unit-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled with fluid economizer,Horizontal-flow unit,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.55,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled with fluid economizer,Downflow unit,85F/52F (Class 2),240000,9999999999,9/9/1919,9/9/2999,2.2,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled with fluid economizer,Upflow unit-ducted,85F/52F (Class 2),240000,9999999999,9/9/1919,9/9/2999,2.05,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled with fluid economizer,Upflow unit-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,2,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,WaterCooled with fluid economizer,Horizontal-flow unit,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.4,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled,Downflow unit,85F/52F (Class 2),0,64999.99,9/9/1919,9/9/2999,2.3,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled,Upflow unit-ducted,85F/52F (Class 2),0,64999.99,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled,Upflow unit-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled,Horizontal-flow unit,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.4,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled,Downflow unit,85F/52F (Class 2),65000,239999.99,9/9/1919,9/9/2999,2.05,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled,Upflow unit-ducted,85F/52F (Class 2),65000,239999.99,9/9/1919,9/9/2999,1.85,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled,Upflow unit-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,1.85,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled,Horizontal-flow unit,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.15,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled,Downflow unit,85F/52F (Class 2),240000,9999999999,9/9/1919,9/9/2999,1.95,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled,Upflow unit-ducted,85F/52F (Class 2),240000,9999999999,9/9/1919,9/9/2999,1.8,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled,Upflow unit-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,1.75,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled,Horizontal-flow unit,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled with fluid economizer,Downflow unit,85F/52F (Class 2),0,64999.99,9/9/1919,9/9/2999,2.25,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled with fluid economizer,Upflow unit-ducted,85F/52F (Class 2),0,64999.99,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled with fluid economizer,Upflow unit-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled with fluid economizer,Horizontal-flow unit,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.35,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled with fluid economizer,Downflow unit,85F/52F (Class 2),65000,239999.99,9/9/1919,9/9/2999,1.95,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled with fluid economizer,Upflow unit-ducted,85F/52F (Class 2),65000,239999.99,9/9/1919,9/9/2999,1.8,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled with fluid economizer,Upflow unit-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,1.75,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled with fluid economizer,Horizontal-flow unit,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled with fluid economizer,Downflow unit,85F/52F (Class 2),240000,9999999999,9/9/1919,9/9/2999,1.9,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled with fluid economizer,Upflow unit-ducted,85F/52F (Class 2),240000,9999999999,9/9/1919,9/9/2999,1.8,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled with fluid economizer,Upflow unit-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,1.7,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2016,GlycolCooled with fluid economizer,Horizontal-flow unit,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2016 Table 6.8.1-11. capacity here is sensible only
+90.1-2019,AirCooled,Downflow,85F/52F (Class 2),0,79999.99,9/9/1919,9/9/2999,2.7,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled,Downflow,85F/52F (Class 2),80000,294999.99,9/9/1919,9/9/2999,2.58,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled,Downflow,85F/52F (Class 2),295000,9999999999,9/9/1919,9/9/2999,2.36,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled,Upflow-ducted,85F/52F (Class 2),0,79999.99,9/9/1919,9/9/2999,2.67,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled,Upflow-ducted,85F/52F (Class 2),80000,294999.99,9/9/1919,9/9/2999,2.55,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled,Upflow-ducted,85F/52F (Class 2),295000,9999999999,9/9/1919,9/9/2999,2.33,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled,Upflow-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2.16,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled,Upflow-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,2.04,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled,Upflow-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,1.89,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled,Horizontal,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.65,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled,Horizontal,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.55,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled,Horizontal,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.47,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled with fluid economizer,Downflow,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.7,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled with fluid economizer,Downflow,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.58,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled with fluid economizer,Downflow,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.36,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.67,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.55,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.33,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2.09,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,1.99,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,1.81,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled with fluid economizer,Horizontal,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.65,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled with fluid economizer,Horizontal,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.55,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,AirCooled with fluid economizer,Horizontal,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.47,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled,Downflow,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.82,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled,Downflow,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.73,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled,Downflow,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.67,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled,Upflow-ducted,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.79,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled,Upflow-ducted,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.7,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled,Upflow-ducted,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.64,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled,Upflow-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2.43,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled,Upflow-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,2.32,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled,Upflow-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,2.2,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled,Horizontal,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.79,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled,Horizontal,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.68,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled,Horizontal,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.6,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled with fluid economizer,Downflow,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.77,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled with fluid economizer,Downflow,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.68,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled with fluid economizer,Downflow,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.61,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.74,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.65,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.58,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2.35,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,2.24,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,2.12,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled with fluid economizer,Horizontal,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.71,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled with fluid economizer,Horizontal,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.6,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,WaterCooled with fluid economizer,Horizontal,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.54,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled,Downflow,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.56,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled,Downflow,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.24,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled,Downflow,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.21,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled,Upflow-ducted,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.53,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled,Upflow-ducted,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.21,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled,Upflow-ducted,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.18,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled,Upflow-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2.08,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled,Upflow-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,1.9,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled,Upflow-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,1.81,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled,Horizontal,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.48,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled,Horizontal,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.18,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled,Horizontal,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.18,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled with fluid economizer,Downflow,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.51,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled with fluid economizer,Downflow,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.19,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled with fluid economizer,Downflow,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.15,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.48,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.16,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.12,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,1.82,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,1.73,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled with fluid economizer,Horizontal,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.44,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled with fluid economizer,Horizontal,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2019,GlycolCooled with fluid economizer,Horizontal,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2019 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled,Downflow,85F/52F (Class 2),0,79999.99,9/9/1919,9/9/2999,2.7,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled,Downflow,85F/52F (Class 2),80000,294999.99,9/9/1919,9/9/2999,2.58,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled,Downflow,85F/52F (Class 2),295000,9999999999,9/9/1919,9/9/2999,2.36,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled,Upflow-ducted,85F/52F (Class 2),0,79999.99,9/9/1919,9/9/2999,2.67,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled,Upflow-ducted,85F/52F (Class 2),80000,294999.99,9/9/1919,9/9/2999,2.55,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled,Upflow-ducted,85F/52F (Class 2),295000,9999999999,9/9/1919,9/9/2999,2.33,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled,Upflow-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2.16,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled,Upflow-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,2.04,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled,Upflow-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,1.89,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled,Horizontal,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.65,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled,Horizontal,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.55,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled,Horizontal,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.47,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled with fluid economizer,Downflow,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.7,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled with fluid economizer,Downflow,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.58,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled with fluid economizer,Downflow,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.36,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.67,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.55,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.33,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2.09,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,1.99,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,1.81,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled with fluid economizer,Horizontal,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.65,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled with fluid economizer,Horizontal,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.55,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,AirCooled with fluid economizer,Horizontal,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.47,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled,Downflow,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.82,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled,Downflow,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.73,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled,Downflow,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.67,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled,Upflow-ducted,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.79,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled,Upflow-ducted,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.7,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled,Upflow-ducted,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.64,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled,Upflow-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2.43,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled,Upflow-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,2.32,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled,Upflow-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,2.2,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled,Horizontal,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.79,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled,Horizontal,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.68,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled,Horizontal,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.6,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled with fluid economizer,Downflow,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.77,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled with fluid economizer,Downflow,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.68,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled with fluid economizer,Downflow,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.61,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.74,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.65,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.58,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2.35,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,2.24,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,2.12,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled with fluid economizer,Horizontal,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.71,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled with fluid economizer,Horizontal,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.6,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,WaterCooled with fluid economizer,Horizontal,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.54,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled,Downflow,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.56,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled,Downflow,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.24,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled,Downflow,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.21,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled,Upflow-ducted,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.53,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled,Upflow-ducted,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.21,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled,Upflow-ducted,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.18,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled,Upflow-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2.08,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled,Upflow-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,1.9,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled,Upflow-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,1.81,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled,Horizontal,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.48,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled,Horizontal,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.18,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled,Horizontal,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.18,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled with fluid economizer,Downflow,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.51,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled with fluid economizer,Downflow,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.19,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled with fluid economizer,Downflow,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.15,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),0,79999.99,9/9/1919,9/9/2999,2.48,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),80000,294999.99,9/9/1919,9/9/2999,2.16,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled with fluid economizer,Upflow-ducted,85F/52F (Class 1),295000,9999999999,9/9/1919,9/9/2999,2.12,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),0,64999.99,9/9/1919,9/9/2999,2,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),65000,239999.99,9/9/1919,9/9/2999,1.82,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled with fluid economizer,Upflow-nonducted,75F/52F (Class 1),240000,9999999999,9/9/1919,9/9/2999,1.73,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled with fluid economizer,Horizontal,95F/52F (Class 3),0,64999.99,9/9/1919,9/9/2999,2.44,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled with fluid economizer,Horizontal,95F/52F (Class 3),65000,239999.99,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only
+90.1-2022,GlycolCooled with fluid economizer,Horizontal,95F/52F (Class 3),240000,9999999999,9/9/1919,9/9/2999,2.1,ASHRAE 90.1-2022 Table 6.8.1-10. capacity here is sensible only

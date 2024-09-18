@@ -1,0 +1,143 @@
+method,lighting_primary_space_type,lighting_secondary_space_type,lighting_power_density,lighting_power_density_unit,supplemental_lighting_power_density,supplemental_lighting_power_density_unit,rcr_threshold,automatic_daylight_responsive_controls_for_sidelighting,automatic_daylight_responsive_controls_for_toplighting,automatic_partial_off,automatic_full_off,scheduled_shutoff,annotation
+BA,Automotive Facility,General,0.71,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Convention Center,General,0.76,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Courthouse,General,0.9,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Dining: Bar Lounge/leisure,General,0.9,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Dining: Cafeteria/Fast Food,General,0.79,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Dining: Family,General,0.78,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Dormitory,General,0.61,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Exercise Center,General,0.65,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Fire Station,General,0.53,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Gymnasium,General,0.68,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Health-care Clinic,General,0.82,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Hospital,General,1.05,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Hotel/motel,General,0.75,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Library,General,0.78,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Manufacturing Facility,General,0.9,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Motion Picture Theater,General,0.83,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Multifamily,General,0.68,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Museum,General,1.06,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Office,General,0.79,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Parking Garage,General,0.15,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Penitentiary,General,0.75,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Performing Arts Theater,General,1.18,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Police Station,General,0.8,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Post Office,General,0.67,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Religious Facility,General,0.94,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Retail,General,1.06,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,School/University,General,0.81,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Sports Arena,General,0.87,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Town Hall,General,0.8,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Transportation,General,0.61,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Warehouse,General,0.48,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+BA,Workshop,General,0.9,W/ft2,,W/ft2,,,,,,,From 90.1-2016 Table 9.5.1
+CS,Atrium,< 20 ft in height,0.03,W/ft,,W/ft2,,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Atrium,> 40 ft in height,0.4,W/ft2,0.02,W/ft,,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Atrium,>= 20 ft and <= 40 ft in height,0.03,W/ft,,W/ft2,,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Audience Seating Area,All Other Audience Seating Areas,0.43,W/ft2,,W/ft2,4,,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Audience Seating Area,Auditorium,0.63,W/ft2,,W/ft2,6,,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Audience Seating Area,Convention Center,0.82,W/ft2,,W/ft2,4,,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Audience Seating Area,Gymnasium,0.65,W/ft2,,W/ft2,6,,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Audience Seating Area,Motion Picture Theater,1.14,W/ft2,,W/ft2,4,,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Audience Seating Area,Penitentiary,0.28,W/ft2,,W/ft2,4,,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Audience Seating Area,Performing Arts Theater,2.03,W/ft2,,W/ft2,8,,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Audience Seating Area,Religious Facility,1.53,W/ft2,,W/ft2,4,,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Audience Seating Area,Sports Arena,0.43,W/ft2,,W/ft2,4,,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Banking Activity Area,General,0.86,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Breakroom,General,0.62,W/ft2,,W/ft2,4,REQ,REQ,REQ,,,From 90.1-2016 Table 9.6.1
+CS,Classroom/lecture Hall/training Room,All Other Classrooms/lecture Halls/training Rooms,0.92,W/ft2,,W/ft2,4,REQ,REQ,,REQ,,From 90.1-2016 Table 9.6.1
+CS,Classroom/lecture Hall/training Room,Penitentiary,1.34,W/ft2,,W/ft2,4,REQ,REQ,,REQ,,From 90.1-2016 Table 9.6.1
+CS,Computer Room,General,1.33,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Conference/meeting/multipurpose Room,General,1.07,W/ft2,,W/ft2,6,REQ,REQ,,REQ,,From 90.1-2016 Table 9.6.1
+CS,Confinement Cells,General,0.81,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Copy/Print Room,General,0.56,W/ft2,,W/ft2,6,REQ,REQ,,REQ,,From 90.1-2016 Table 9.6.1
+CS,Corridor,All Other Corridors,0.66,W/ft2,,W/ft2,,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1; rcr_threshold: width<8 ft
+CS,Corridor,Facility For The Visually Impaired (and Not Used Primarily By The Staff),0.92,W/ft2,,W/ft2,,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1; rcr_threshold: width<8 ft
+CS,Corridor,Hospital,0.92,W/ft2,,W/ft2,,REQ,REQ,ADD2,ADD2,ADD2,From 90.1-2016 Table 9.6.1; rcr_threshold: width<8 ft
+CS,Corridor,Manufacturing Facility,0.29,W/ft2,,W/ft2,,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1; rcr_threshold: width<8 ft
+CS,Courtroom,General,1.39,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Dining Area,All Other Dining Areas,0.63,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Dining Area,Bar/lounge Or Leisure Dining,0.93,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Dining Area,Cafeteria Or Fast Food Dining,0.63,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Dining Area,Facility For The Visually Impaired (and Not Used Primarily By Staff),2,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Dining Area,Family Dining,0.71,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Dining Area,Penitentiary,0.96,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Electrical/mechanical Room,General,0.43,W/ft2,,W/ft2,6,REQ,REQ,,,,From 90.1-2016 Table 9.6.1
+CS,Emergency Vehicle Garage,General,0.41,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Food Preparation Area,General,1.06,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Guest Room,General,0.77,W/ft2,,W/ft2,6,,,,,,From 90.1-2016 Table 9.6.1; See section 9.4.1.3(b)
+CS,Laboratory,All Other Laboratories,1.45,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Laboratory,In Or As A Classroom,1.2,W/ft2,,W/ft2,6,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Laundry/washing Area,General,0.43,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,"Loading Dock, Interior",General,0.58,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Lobby,All Other Lobbies,1,W/ft2,,W/ft2,4,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Lobby,Elevator,0.69,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Lobby,Facility For The Visually Impaired (and Not Used Primarily By The Staff),2.03,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Lobby,Hotel,1.06,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Lobby,Motion Picture Theater,0.45,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Lobby,Performing Arts Theater,1.7,W/ft2,,W/ft2,6,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Locker Room,General,0.48,W/ft2,,W/ft2,6,REQ,REQ,,REQ,,From 90.1-2016 Table 9.6.1
+CS,Lounge/Breakroom,All Other Lounges/breakrooms,0.62,W/ft2,,W/ft2,4,REQ,REQ,,REQ,,From 90.1-2016 Table 9.6.1
+CS,Lounge/Breakroom,Healthcare Facility,0.78,W/ft2,,W/ft2,6,REQ,REQ,,REQ,,From 90.1-2016 Table 9.6.1
+CS,Office,Enclosed And > 250 ft2,0.93,W/ft2,,W/ft2,8,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Office,Enclosed And <= 250 ft2,0.93,W/ft2,,W/ft2,8,REQ,REQ,,REQ,,From 90.1-2016 Table 9.6.1
+CS,Office,Open Plan,0.81,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,"Parking Area, Interior",General,0.14,W/ft2,,W/ft2,4,,,,,,From 90.1-2016 Table 9.6.1; See Section 9.4.1.2
+CS,Pharmacy Area,General,1.34,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Restroom,All Other Restrooms,0.85,W/ft2,,W/ft2,8,REQ,REQ,,REQ,,From 90.1-2016 Table 9.6.1
+CS,Restroom,Facility For The Visually Impaired (and Not Used Primarily By The Staff),0.96,W/ft2,,W/ft2,8,REQ,REQ,,REQ,,From 90.1-2016 Table 9.6.1
+CS,Sales Area,General,1.22,W/ft2,,W/ft2,3,,REQ,,ADD2,ADD2,"From 90.1-2016 Table 9.6.1; For accent lighting, see Section 9.6.2(b)"
+CS,"Seating Area, General",General,0.42,W/ft2,,W/ft2,4,,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Stairway,General,0.58,W/ft2,,W/ft2,10,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Stairwell,General,0.58,W/ft2,,W/ft2,10,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Storage Room,< 50 ft2,0.97,W/ft2,,W/ft2,6,,,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Storage Room,All Other Storage Rooms,0.46,W/ft2,,W/ft2,6,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Storage Room,>= 50 ft2 And <= 1000 ft2,0.46,W/ft2,,W/ft2,6,REQ,REQ,,REQ,,From 90.1-2016 Table 9.6.1
+CS,Vehicular Maintenance Area,General,0.56,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+CS,Workshop,General,1.14,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Automotive,General,0.56,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Convention Center-exhibit Space,General,0.88,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Dormitory-living Quarters,General,0.54,W/ft2,,W/ft2,8,,,,,,From 90.1-2016 Table 9.6.1
+SS,Facility For The Visually Impaired,Chapel (used Primarily By Residents),1.06,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Facility For The Visually Impaired,Recreation Room/common Living Room (and Not Used Primarily By Staff),1.8,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Fire Station-sleeping Quarters,General,0.2,W/ft2,,W/ft2,6,,,,,,From 90.1-2016 Table 9.6.1
+SS,Gymnasium/fitness Center,Exercise Area,0.5,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Gymnasium/fitness Center,Playing Area,0.82,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Healthcare Facility,Exam/treatment Room,1.68,W/ft2,,W/ft2,8,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Healthcare Facility,Imaging Room,1.06,W/ft2,,W/ft2,6,,,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Healthcare Facility,Medical Supply Room,0.54,W/ft2,,W/ft2,6,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Healthcare Facility,Nurse's Station,0.81,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Healthcare Facility,Nursery,1,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Healthcare Facility,Operating Room,2.17,W/ft2,,W/ft2,6,,,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Healthcare Facility,Patient Room,0.62,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Healthcare Facility,Physical Therapy Room,0.84,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Healthcare Facility,Recovery Room,1.03,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Library,Reading Area,0.82,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Library,Stacks,1.2,W/ft2,,W/ft2,4,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Manufacturing Facility,Detailed Manufacturing Area,0.93,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Manufacturing Facility,Equipment Room,0.65,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Manufacturing Facility,Extra High Bay Area (>50 Ft Floor-to-ceiling Height),1.05,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Manufacturing Facility,High Bay Area (25 To 50 Ft Floor-to-ceiling Height),0.75,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Manufacturing Facility,Low Bay Area (<25 Ft Floor-to-ceiling Height),0.96,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Museum,General Exhibition Area,1.05,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Museum,Restoration Room,0.85,W/ft2,,W/ft2,6,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,None,None,0,W/ft2,,W/ft2,,,,,,,
+SS,Performing Arts Theater-dressing Room,General,0.36,W/ft2,,W/ft2,6,REQ,REQ,,REQ,,From 90.1-2016 Table 9.6.1
+SS,Post Office-sorting Area,General,0.68,W/ft2,,W/ft2,4,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Religious Facility,Fellowship Hall,0.55,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Religious Facility,Worship/Pulpit/Choir Area,1.53,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Retail,Sales Additional (type 1),0.45,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Section 9.6.2
+SS,Retail,Sales Additional (type 2),0.45,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Section 9.6.2
+SS,Retail,Sales Additional (type 3),1.05,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Section 9.6.2
+SS,Retail,Sales Additional (type 4),1.88,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Section 9.6.2
+SS,Retail Facilities,Dressing/Fitting Room,0.5,W/ft2,,W/ft2,8,,REQ,,REQ,,From 90.1-2016 Table 9.6.1
+SS,Retail Facilities,Mall Concourse,0.9,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Sports Arena-playing Area,Class I Facility,2.47,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Sports Arena-playing Area,Class II Facility,1.96,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Sports Arena-playing Area,Class Iii Facility,1.7,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Sports Arena-playing Area,Class Iv Facility,1.13,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Transportation Facility,Airport Concourse,0.31,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Transportation Facility,Baggage/carousel Area,0.46,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Transportation Facility,Terminal Ticket Counter,0.62,W/ft2,,W/ft2,4,REQ,REQ,,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Warehouse-storage Area,"Medium To Bulky, Palletized Items",0.35,W/ft2,,W/ft2,4,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
+SS,Warehouse-storage Area,"Smaller, Hand-carried Items",0.69,W/ft2,,W/ft2,6,REQ,REQ,REQ,ADD2,ADD2,From 90.1-2016 Table 9.6.1
