@@ -1,4 +1,0 @@
-energy_behavior_name,cooling_setpoint,cooling_setpoint_units,heating_setpoint,heating_setpoint_units,minimum_dimming_level,annotation
-office_wasteful,21.9,Celsius,24.9,Celsius,0,Based on previous works of literature
-office_normal,23.7,Celsius,22.7,Celsius,0.2,Based on previous works of literature
-office_austerity,25.4,Celsius,20.5,Celsius,0.5,Based on previous works of literature
