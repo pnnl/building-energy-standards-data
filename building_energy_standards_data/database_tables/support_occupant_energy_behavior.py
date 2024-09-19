@@ -47,7 +47,7 @@ RECORD_TEMPLATE = {
     "heating_setpoint": 0.0,
     "heating_setpoint_units": "",
     "minimum_dimming_level": 0.0,
-    "annotation": ""
+    "annotation": "",
 }
 
 
@@ -72,7 +72,7 @@ class SupportEnergyBehaviorTable(DBOperation):
         str_expected = [
             "energy_behavior_name",
             "cooling_setpoint_units",
-            "heating_setpoint_units"
+            "heating_setpoint_units",
         ]
 
         for f in str_expected:
@@ -84,7 +84,7 @@ class SupportEnergyBehaviorTable(DBOperation):
         float_expected = [
             "cooling_setpoint",
             "heating_setpoint",
-            "minimum_dimming_level"
+            "minimum_dimming_level",
         ]
 
         for f in float_expected:

@@ -40,7 +40,7 @@ RECORD_TEMPLATE = {
     "name": "",
     "enrgy_behavior": "",
     "occupant_schedule": "",
-    "occupant_physical_characteristics":""
+    "occupant_physical_characteristics": "",
 }
 
 
@@ -59,10 +59,9 @@ class SupportOccupantTypeTable(DBOperation):
 
     def validate_record_datatype(self, record):
         str_expected = [
-            "name"
-            "energy_behavior",
+            "name" "energy_behavior",
             "occupant_schedule",
-            "occupant_physical_characteristics"
+            "occupant_physical_characteristics",
         ]
 
         for f in str_expected:

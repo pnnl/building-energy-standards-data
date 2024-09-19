@@ -51,7 +51,7 @@ RECORD_TEMPLATE = {
     "work_efficiency": 0.0,
     "co2_generation": 0.0,
     "co2_generation_units": "",
-    "annotation":""
+    "annotation": "",
 }
 
 
@@ -78,7 +78,7 @@ class SupportPhysicalCharacteristicsTable(DBOperation):
             "schedule_activity_level",
             "schedule_clothing_insulation",
             "schedule_air_velocity",
-            "co2_generation_units"
+            "co2_generation_units",
         ]
 
         for f in str_expected:
@@ -87,10 +87,7 @@ class SupportPhysicalCharacteristicsTable(DBOperation):
                     record[f], str
                 ), f"{f} requires to be a string, instead got {record[f]}"
 
-        float_expected = [             
-            "work_efficiency",
-            "co2_generation"
-        ]
+        float_expected = ["work_efficiency", "co2_generation"]
 
         for f in float_expected:
             if record.get(f):
@@ -114,5 +111,5 @@ class SupportPhysicalCharacteristicsTable(DBOperation):
             getattr_either("work_efficiency", record),
             getattr_either("co2_generation", record),
             getattr_either("co2_generation_units", record),
-            getattr_either("annotation", record)    
+            getattr_either("annotation", record),
         )

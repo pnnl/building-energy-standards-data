@@ -128,7 +128,7 @@ def __gettables__():
             and (not f[0] in base_class_names)
             and (f[0].endswith("Table"))
         ]
-    
+
     return available_tables
 
 
