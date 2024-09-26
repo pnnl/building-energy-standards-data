@@ -88,8 +88,8 @@ __all__ = [
     "exterior_lighting_90_1_prm",
     "exterior_lighting_IECC",
     "support_occupant_energy_behavior",
-    # tables with foreign keys
     "support_occupant_physical_characteristics",
+    # tables with foreign keys
     "level_2_lighting_space_types",
     "level_2_ventilation_space_types",
     "level_1_space_types",

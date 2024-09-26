@@ -10,9 +10,9 @@ RECORD_HELP = """
 Must provide a dict that contains the following key-value pairs:
 energy_behavior_name TEXT NOT NULL UNIQUE ,
 cooling_setpoint NUMERIC,
-cooling_setpoint_units TEXT,
+cooling_setpoint_units TEXT NOT NULL,
 heating_setpoint NUMERIC,
-heating_setpoint_units TEXT,
+heating_setpoint_units TEXT NOT NULL,
 minimum_dimming_level NUMERIC,
 annotation TEXT
 """
@@ -21,9 +21,9 @@ CREATE_ENERGY_BEHAVIOR_TABLE = """
 CREATE TABLE IF NOT EXISTS support_occupant_energy_behavior (
     energy_behavior_name TEXT UNIQUE NOT NULL PRIMARY KEY,
     cooling_setpoint NUMERIC,
-    cooling_setpoint_units TEXT,
+    cooling_setpoint_units TEXT NOT NULL,
     heating_setpoint NUMERIC,
-    heating_setpoint_units TEXT,
+    heating_setpoint_units TEXT NOT NULL,
     minimum_dimming_level NUMERIC,
     annotation TEXT
 );

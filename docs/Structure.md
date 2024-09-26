@@ -29,10 +29,10 @@ The equipment assumptions are based on a plug-load values derived from a project
 The schedules used in the database were determined based on the PNNL led *Development of Building-Space-Specific Loads for Performance Rating Methods* project. The schedules were derived from the [SBEM-NCN database](https://www.ncm-pcdb.org.uk/sap/page.jsp?id=7), modifications were applied to make them perceived as more realistic such as reducing the occupancy fraction during the day (as space is very rarely fully occupied), or leave a very small fraction of the lights on at night. 
 
 ### Occupant Types Dataset
-Different groups of occupants may exhibit varying behaviors influenced by factors such as the type of space, cultural background, and social context. The occupant types database is designed to caputure diverse behavioral patterns and create a representative dataset that enables users to improve the building energy modeling and advance research on dynamic occupant behavior using OpenStudio. 
+Different groups of occupants may exhibit varying behaviors influenced by factors such as the type of space, cultural background, and social context. The occupant types database is designed to caputure diverse behavioral patterns and create a representative dataset that enables users to improve the building energy modeling and advance research on dynamic occupant behavior. 
 
 #### Occupant Types Data Structure
-This database is insipried by a previous work Lawrence Berkeley National Laboratory (LBNL) led [(Sun and Hong 2017)](https://www.sciencedirect.com/science/article/abs/pii/S0378778817302013), which established a framework categorizing occupant types into three primary categories: 
+This database is insipried by a previous work led by Lawrence Berkeley National Laboratory (LBNL) [(Sun and Hong 2017)](https://www.sciencedirect.com/science/article/abs/pii/S0378778817302013), which established a framework categorizing occupant types into three primary categories: 
 - energy behavior (including actions related to thermostat and lighting),
 - physical characteristics of occupants (including clothing insulation, work efficiency, CO2 generation, and air velocity),
 - 24-hour occupant schedule. 
@@ -67,4 +67,4 @@ The specific details of each subcategory of design occupant types are summarized
 <tr><td>CO<sub>2</sub> generation rate</td><td><a href="https://www.ashrae.org/technical-resources/standards-and-guidelines/read-only-versions-of-ashrae-standards">ANSI/ASHRAE Standard 62.1-2017 </td><td>A default metabolic rate of 1 met is assumed.</td><td></tr>
 </table>
 
-**Notice**: This initial design of the occupant types database focuses specifically on office space types and has not yet been integrated into OpenStudio-Standards yet. 
+**Notice**: This initial design of the occupant types database focuses specifically on office space types and has not yet been integrated into simulation software. 

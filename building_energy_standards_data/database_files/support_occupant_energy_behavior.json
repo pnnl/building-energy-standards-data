@@ -6,7 +6,7 @@
         "heating_setpoint": 24.9,
         "heating_setpoint_units": "Celsius",
         "minimum_dimming_level": 0,
-        "annotation": "Based on previous works of literature"
+        "annotation": "Based on previous literature, see the reference table in Occupant Types Dataset section in Structure.md"
     },
     {
         "energy_behavior_name": "office_normal",
@@ -15,7 +15,7 @@
         "heating_setpoint": 22.7,
         "heating_setpoint_units": "Celsius",
         "minimum_dimming_level": 0.2,
-        "annotation": "Based on previous works of literature"
+        "annotation": "Based on previous literature, see the reference table in Occupant Types Dataset section in Structure.md"
     },
     {
         "energy_behavior_name": "office_austerity",
@@ -24,6 +24,6 @@
         "heating_setpoint": 20.5,
         "heating_setpoint_units": "Celsius",
         "minimum_dimming_level": 0.5,
-        "annotation": "Based on previous works of literature"
+        "annotation": "Based on previous literature, see the reference table in Occupant Types Dataset section in Structure.md"
     }
 ]
