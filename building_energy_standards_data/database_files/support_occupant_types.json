@@ -1,0 +1,74 @@
+[
+    {
+        "name": "office_occupant",
+        "energy_behavior": "office_wasteful",
+        "occupant_schedule": "office_occupant_early_bird",
+        "occupant_physical_characteristics": "office_worker_physical_characteristics"
+    },
+    {
+        "name": "office_occupant",
+        "energy_behavior": "office_wasteful",
+        "occupant_schedule": "office_occupant_regular_worker",
+        "occupant_physical_characteristics": "office_worker_physical_characteristics"
+    },
+    {
+        "name": "office_occupant",
+        "energy_behavior": "office_wasteful",
+        "occupant_schedule": "office_occupant_late_owl",
+        "occupant_physical_characteristics": "office_worker_physical_characteristics"
+    },
+    {
+        "name": "office_occupant",
+        "energy_behavior": "office_wasteful",
+        "occupant_schedule": "office_occupant_night_shift",
+        "occupant_physical_characteristics": "office_worker_physical_characteristics"
+    },
+    {
+        "name": "office_occupant",
+        "energy_behavior": "office_normal",
+        "occupant_schedule": "office_occupant_early_bird",
+        "occupant_physical_characteristics": "office_worker_physical_characteristics"
+    },
+    {
+        "name": "office_occupant",
+        "energy_behavior": "office_normal",
+        "occupant_schedule": "office_occupant_regular_worker",
+        "occupant_physical_characteristics": "office_worker_physical_characteristics"
+    },
+    {
+        "name": "office_occupant",
+        "energy_behavior": "office_normal",
+        "occupant_schedule": "office_occupant_late_owl",
+        "occupant_physical_characteristics": "office_worker_physical_characteristics"
+    },
+    {
+        "name": "office_occupant",
+        "energy_behavior": "office_normal",
+        "occupant_schedule": "office_occupant_night_shift",
+        "occupant_physical_characteristics": "office_worker_physical_characteristics"
+    },
+    {
+        "name": "office_occupant",
+        "energy_behavior": "office_austerity",
+        "occupant_schedule": "office_occupant_early_bird",
+        "occupant_physical_characteristics": "office_worker_physical_characteristics"
+    },
+    {
+        "name": "office_occupant",
+        "energy_behavior": "office_austerity",
+        "occupant_schedule": "office_occupant_regular_worker",
+        "occupant_physical_characteristics": "office_worker_physical_characteristics"
+    },
+    {
+        "name": "office_occupant",
+        "energy_behavior": "office_austerity",
+        "occupant_schedule": "office_occupant_late_owl",
+        "occupant_physical_characteristics": "office_worker_physical_characteristics"
+    },
+    {
+        "name": "office_occupant",
+        "energy_behavior": "office_austerity",
+        "occupant_schedule": "office_occupant_night_shift",
+        "occupant_physical_characteristics": "office_worker_physical_characteristics"
+    }
+]
