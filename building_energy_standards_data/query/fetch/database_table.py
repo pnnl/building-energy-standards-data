@@ -114,7 +114,7 @@ def fetch_records_from_table_by_key_values(
     if is_table_exist(conn, table_name):
         if not key_value_dict:
             return fetch_table(conn, table_name)
-        
+
         conditions = []
         for key, value in key_value_dict.items():
             if value is None:
