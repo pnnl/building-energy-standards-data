@@ -8476,19 +8476,6 @@
         "material_6": null
     },
     {
-        "name": "U 1.22 SHGC 0.40 VT 0.44 Simple Glazing",
-        "intended_surface_type": "ExteriorWindow",
-        "standards_construction_type": null,
-        "insulation_layer": null,
-        "skylight_framing": null,
-        "material_1": "U 1.22 SHGC 0.40 VT 0.44 Simple Glazing",
-        "material_2": null,
-        "material_3": null,
-        "material_4": null,
-        "material_5": null,
-        "material_6": null
-    },
-    {
         "name": "U 1.36 SHGC 0.36 VT 0.4 Simple Glazing",
         "intended_surface_type": "ExteriorWindow",
         "standards_construction_type": null,
@@ -8775,12 +8762,12 @@
         "material_6": null
     },
     {
-        "name": "U 0.46 SHGC 0.40 VT 0.44 Simple Glazing",
+        "name": "U 0.46 SHGC 0.4 VT 0.44 Simple Glazing",
         "intended_surface_type": "ExteriorWindow",
         "standards_construction_type": null,
         "insulation_layer": null,
         "skylight_framing": null,
-        "material_1": "U 0.46 SHGC 0.40 VT 0.44 Simple Glazing",
+        "material_1": "U 0.46 SHGC 0.4 VT 0.44 Simple Glazing",
         "material_2": null,
         "material_3": null,
         "material_4": null,

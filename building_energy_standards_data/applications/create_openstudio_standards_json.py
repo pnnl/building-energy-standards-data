@@ -361,6 +361,7 @@ def create_openstudio_standards_data_json_ashrae_90_1(
         "economizers": [f"system_requirements_air_economizer_90_1{prm_suffix}"],
         "energy_recovery": [f"system_requirements_energy_recovery_90_1{prm_suffix}"],
         "construction_properties": [f"envelope_requirements_90_1{prm_suffix}"],
+        "vrf": [f"hvac_minimum_requirements_variable_refrigerant_flow_systems{prm_suffix}"],
     }
 
     # Generate and "export" the data to the correct location within the OpenStudio Standards repository
@@ -381,6 +382,9 @@ def create_openstudio_standards_data_json_ashrae_90_1(
         "constructions": "support_constructions",
         "curves": "support_performance_curves",
         "space_type_schedules": "support_schedules",
+        "occupant_types": "support_occupant_types",
+        "occupant_energy_behavior": "support_occupant_energy_behavior",
+        "occupant_physical_characteristics": "support_occupant_physical_characteristics",
     }
 
     # Generate and "export" the data to the correct location within the OpenStudio Standards repository

@@ -1,0 +1,12 @@
+[
+    {
+        "physical_characteristic_name": "office_worker_physical_characteristics",
+        "schedule_activity_level": "default_activity_schedule",
+        "schedule_clothing_insulation": "default_clothing_insulation_schedule",
+        "schedule_air_velocity": "default_air_velocity_schedule",
+        "work_efficiency": 0,
+        "co2_generation": 0.0084,
+        "co2_generation_units": "cfm/met/person",
+        "annotation": null
+    }
+]

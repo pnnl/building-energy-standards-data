@@ -87,6 +87,8 @@ __all__ = [
     "exterior_lighting_90_1",
     "exterior_lighting_90_1_prm",
     "exterior_lighting_IECC",
+    "support_occupant_energy_behavior",
+    "support_occupant_physical_characteristics",
     # tables with foreign keys
     "level_2_lighting_space_types",
     "level_2_ventilation_space_types",
@@ -95,6 +97,7 @@ __all__ = [
     "envelope_requirements_90_1",
     "envelope_requirements_90_1_prm",
     "envelope_requirements_IECC",
+    "support_occupant_types",
 ]
 
 
