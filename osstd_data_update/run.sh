@@ -28,10 +28,11 @@ cd ../../
 rm -rf data_update
 echo "===="
 
-echo "Step 6: push new branch to OSSTD github (currently updating vrf (**/*variable_refrigerant_flow_systems*.json) data only)"
+echo "Step 6: push new branch to OSSTD github (currently updating economizers (**/*economizers*.json.json) data only)"
 git config --global user.email "xuechen.lei@pnnl.gov"
 git config --global user.name "Xuechen (Jerry) Lei"
-git add **/*vrfs*.json
+git add **/*economizers*.json
+#git add **/*vrfs*.json
 #git add **/*construction_properties*.json
 #git add **/*heat_pumps*.json
 #git add **/*motor*.json
