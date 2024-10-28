@@ -114,9 +114,14 @@ def fetch_records_from_table_by_key_values(
     if is_table_exist(conn, table_name):
         if not key_value_dict:
             return fetch_table(conn, table_name)
-        condition = " AND ".join(
-            [f"{key} = '{key_value_dict[key]}'" for key in key_value_dict.keys()]
-        )
+
+        conditions = []
+        for key, value in key_value_dict.items():
+            if value is None:
+                conditions.append(f"{key} IS NULL")
+            else:
+                conditions.append(f"{key} = '{value}'")
+        condition = " AND ".join(conditions)
         fetch_query = f"""SELECT * FROM  {table_name} WHERE {condition}"""
         cur = conn.execute(fetch_query)
         data_header = list(map(lambda x: x[0], cur.description))
