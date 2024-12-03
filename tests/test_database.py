@@ -177,4 +177,4 @@ def test_create_export_database():
             fc_org = f_org.readlines()
             assert (
                 fc_from_json == fc_from_csv == fc_org
-            ), f"Content is different in {f}.json files"
+            ), f"Content is different in {f} files"
