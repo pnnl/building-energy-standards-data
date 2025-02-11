@@ -27,8 +27,8 @@ mitigated_psi_factor NUMERIC,
 unmitigated_psi_factor NUMERIC,
 mitigated_chi_factor NUMERIC,
 unmitigated_chi_factor NUMERIC,
-psi_factor_unit TEXT NOT NULL,
-chi_factor_unit TEXT NOT NULL,
+psi_factor_unit TEXT,
+chi_factor_unit TEXT,
 annotation TEXT
 );
 """
