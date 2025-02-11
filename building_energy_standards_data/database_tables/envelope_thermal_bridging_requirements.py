@@ -22,7 +22,7 @@ CREATE_ENVELOPE_THERMAL_BRIDGING_REQUIREMENTS_TABLE = """
 CREATE TABLE IF NOT EXISTS %s
 (id INTEGER PRIMARY KEY, 
 template TEXT NOT NULL, 
-thermal_bridge_type TEXT NOT NULL,
+thermal_bridge_type TEXT,
 mitigated_psi_factor NUMERIC,
 unmitigated_psi_factor NUMERIC,
 mitigated_chi_factor NUMERIC,
