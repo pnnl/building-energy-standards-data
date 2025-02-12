@@ -52,7 +52,7 @@ VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 
 RECORD_TEMPLATE = {
     "template": "",
-    "class_of_construction": ""
+    "class_of_construction": "",
     "thermal_bridge_type": "",
     "mitigated_psi_factor": 0.0,
     "unmitigated_psi_factor": 0.0,
@@ -85,8 +85,7 @@ class EnvelopeThermalBridgingRequirement(DBOperation):
 
     def validate_record_datatype(self, record):
         str_expected = [
-            "class_of_construction"
-            "template",
+            "class_of_construction" "template",
             "thermal_bridge_type" "psi_factor_unit",
             "chi_factor_unit",
         ]
