@@ -21,7 +21,8 @@ annotation: TEXT (optional)
 CREATE_ENVELOPE_THERMAL_BRIDGING_REQUIREMENTS_TABLE = """
 CREATE TABLE IF NOT EXISTS %s
 (id INTEGER PRIMARY KEY, 
-template TEXT NOT NULL, 
+template TEXT NOT NULL,
+class_of_construction TEXT, 
 thermal_bridge_type TEXT,
 mitigated_psi_factor NUMERIC,
 unmitigated_psi_factor NUMERIC,
@@ -36,6 +37,7 @@ annotation TEXT
 INSERT_A_ENVELOPE_THERMAL_BRIDGING_requirements_RECORD = """
     INSERT INTO %s (
 template,
+class_of_construction,
 thermal_bridge_type,
 mitigated_psi_factor,
 unmitigated_psi_factor,
@@ -45,11 +47,12 @@ psi_factor_unit,
 chi_factor_unit,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
     "template": "",
+    "class_of_construction": ""
     "thermal_bridge_type": "",
     "mitigated_psi_factor": 0.0,
     "unmitigated_psi_factor": 0.0,
@@ -82,6 +85,7 @@ class EnvelopeThermalBridgingRequirement(DBOperation):
 
     def validate_record_datatype(self, record):
         str_expected = [
+            "class_of_construction"
             "template",
             "thermal_bridge_type" "psi_factor_unit",
             "chi_factor_unit",

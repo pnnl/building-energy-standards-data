@@ -1,6 +1,7 @@
 [
     {
         "template": "IECC-2024",
+        "class_of_construction": "Any",
         "thermal_bridge_type": "Balconies and floor decks",
         "mitigated_psi_factor": 0.2,
         "unmitigated_psi_factor": 0.5,
@@ -12,6 +13,7 @@
     },
     {
         "template": "IECC-2024",
+        "class_of_construction": "Any",
         "thermal_bridge_type": "Cladding supports",
         "mitigated_psi_factor": 0.2,
         "unmitigated_psi_factor": 0.3,
@@ -23,6 +25,7 @@
     },
     {
         "template": "IECC-2024",
+        "class_of_construction": "Any",
         "thermal_bridge_type": "Structural beams and columns, carbon steel",
         "mitigated_psi_factor": null,
         "unmitigated_psi_factor": 1,
@@ -34,6 +37,7 @@
     },
     {
         "template": "IECC-2024",
+        "class_of_construction": "Any",
         "thermal_bridge_type": "Structural beams and columns, concrete",
         "mitigated_psi_factor": null,
         "unmitigated_psi_factor": 0.3,
@@ -45,6 +49,7 @@
     },
     {
         "template": "IECC-2024",
+        "class_of_construction": "Any",
         "thermal_bridge_type": "Vertical fenestration",
         "mitigated_psi_factor": 0.15,
         "unmitigated_psi_factor": null,
@@ -56,6 +61,7 @@
     },
     {
         "template": "IECC-2024",
+        "class_of_construction": "Any",
         "thermal_bridge_type": "Parapets",
         "mitigated_psi_factor": 0.2,
         "unmitigated_psi_factor": null,
