@@ -8,6 +8,7 @@ from building_energy_standards_data.database_engine.database_util import (
 RECORD_HELP = """
 Must provide a tuple that contains:
 template: TEXT
+class_of_construction: TEXT
 thermal_bridge_type: TEXT
 mitigated_psi_factor: NUMERIC
 unmitigated_psi_factor: NUMERIC
@@ -122,6 +123,7 @@ class EnvelopeThermalBridgingRequirement(DBOperation):
 
         return (
             getattr_either("template", record),
+            getattr_either("class_of_construction", record),
             getattr_either("thermal_bridge_type", record),
             getattr_either("mitigated_psi_factor", record),
             getattr_either("unmitigated_psi_factor", record),
