@@ -85,7 +85,6 @@ class EnvelopeThermalBridgingRequirement(DBOperation):
             "template",
             "thermal_bridge_type" "psi_factor_unit",
             "chi_factor_unit",
-            "orientation",
         ]
 
         for f in str_expected:
@@ -119,12 +118,12 @@ class EnvelopeThermalBridgingRequirement(DBOperation):
 
         return (
             getattr_either("template", record),
-            getattr_either("thermal_bridge_type,", record),
-            getattr_either("mitigated_psi_factor,", record),
-            getattr_either("unmitigated_psi_factor,", record),
-            getattr_either("mitigated_chi_factor,", record),
-            getattr_either("unmitigated_chi_factor,", record),
-            getattr_either("psi_factor_unit,", record),
-            getattr_either("chi_factor_unit,", record),
+            getattr_either("thermal_bridge_type", record),
+            getattr_either("mitigated_psi_factor", record),
+            getattr_either("unmitigated_psi_factor", record),
+            getattr_either("mitigated_chi_factor", record),
+            getattr_either("unmitigated_chi_factor", record),
+            getattr_either("psi_factor_unit", record),
+            getattr_either("chi_factor_unit", record),
             getattr_either("annotation", record),
         )
