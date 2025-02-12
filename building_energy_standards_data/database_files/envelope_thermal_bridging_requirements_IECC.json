@@ -1,0 +1,74 @@
+[
+    {
+        "template": "IECC-2024",
+        "class_of_construction": "Any",
+        "thermal_bridge_type": "Balconies and floor decks",
+        "mitigated_psi_factor": 0.2,
+        "unmitigated_psi_factor": 0.5,
+        "mitigated_chi_factor": null,
+        "unmitigated_chi_factor": null,
+        "psi_factor_unit": "Btu/h.ft.F",
+        "chi_factor_unit": "Btu/h.F",
+        "annotation": "Relates to C402.7.1; From IECC-2024 Table C402.1.4"
+    },
+    {
+        "template": "IECC-2024",
+        "class_of_construction": "Any",
+        "thermal_bridge_type": "Cladding supports",
+        "mitigated_psi_factor": 0.2,
+        "unmitigated_psi_factor": 0.3,
+        "mitigated_chi_factor": null,
+        "unmitigated_chi_factor": null,
+        "psi_factor_unit": "Btu/h.ft.F",
+        "chi_factor_unit": "Btu/h.F",
+        "annotation": "Relates to C402.7.2; From IECC-2024 Table C402.1.4"
+    },
+    {
+        "template": "IECC-2024",
+        "class_of_construction": "Any",
+        "thermal_bridge_type": "Structural beams and columns, carbon steel",
+        "mitigated_psi_factor": null,
+        "unmitigated_psi_factor": 1,
+        "mitigated_chi_factor": null,
+        "unmitigated_chi_factor": 2,
+        "psi_factor_unit": "Btu/h.ft.F",
+        "chi_factor_unit": "Btu/h.F",
+        "annotation": "Relates to C402.7.3; From IECC-2024 Table C402.1.4"
+    },
+    {
+        "template": "IECC-2024",
+        "class_of_construction": "Any",
+        "thermal_bridge_type": "Structural beams and columns, concrete",
+        "mitigated_psi_factor": null,
+        "unmitigated_psi_factor": 0.3,
+        "mitigated_chi_factor": null,
+        "unmitigated_chi_factor": 1,
+        "psi_factor_unit": "Btu/h.ft.F",
+        "chi_factor_unit": "Btu/h.F",
+        "annotation": "Relates to C402.7.3; From IECC-2024 Table C402.1.4"
+    },
+    {
+        "template": "IECC-2024",
+        "class_of_construction": "Any",
+        "thermal_bridge_type": "Vertical fenestration",
+        "mitigated_psi_factor": 0.15,
+        "unmitigated_psi_factor": null,
+        "mitigated_chi_factor": 0.3,
+        "unmitigated_chi_factor": null,
+        "psi_factor_unit": "Btu/h.ft.F",
+        "chi_factor_unit": "Btu/h.F",
+        "annotation": "Relates to C402.7.4; From IECC-2024 Table C402.1.4"
+    },
+    {
+        "template": "IECC-2024",
+        "class_of_construction": "Any",
+        "thermal_bridge_type": "Parapets",
+        "mitigated_psi_factor": 0.2,
+        "unmitigated_psi_factor": null,
+        "mitigated_chi_factor": 0.4,
+        "unmitigated_chi_factor": null,
+        "psi_factor_unit": "Btu/h.ft.F",
+        "chi_factor_unit": "Btu/h.F",
+        "annotation": "Relates to C402.7.5; From IECC-2024 Table C402.1.4"
+    }
+]

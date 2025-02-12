@@ -313,12 +313,20 @@
     "visible_absorptance": "Visible absorptance",
     "visible_transmittance": "Visible transmittance",
     "visible_transmittance_at_normal_incidence": "Visible transmittance at normal incidence",
-    "vrf_doas_exempted": "Economizer requirement exemption with VRF installed with a dedicated outdoor air system"
+    "vrf_doas_exempted": "Economizer requirement exemption with VRF installed with a dedicated outdoor air system",
+    "thermal_bridge_type": "Type of thermal bridging",
+    "mitigated_psi_factor": "Migitaged/compliant thermal bridging PSI-factor",
+    "unmitigated_psi_factor": "Unmigitaged/noncompliant thermal bridging PSI-factor",
+    "mitigated_chi_factor": "Migitaged/compliant thermal bridging CHI-factor",
+    "unmitigated_chi_factor": "Unmigitaged/noncompliant thermal bridging CHI-factor",
+    "psi_factor_unit": "Unit for PSI-factor",
+    "chi_factor_unit": "Unit for CHI-factor"
   },
   "table descriptions": {
     "envelope_requirements_90_1": "Envelope requirements for ASHRAE Standard 90.1",
     "envelope_requirements_90_1_prm": "Envelope requirements for ASHRAE Standard 90.1 Appendix G",
     "envelope_requirements_IECC": "Envelope requirements for the IECC",
+    "envelope_thermal_bridging_requirements_IECC": "Envelope thermal bridging requirements for the IECC",
     "exterior_lighting_90_1": "Exterior lighting requirements for ASHRAE Standard 90.1",
     "exterior_lighting_90_1_prm": "Exterior lighting requirements for ASHRAE Standard 90.1 Appendix G",
     "exterior_lighting_IECC": "Exterior lighting requirements for the IECC",
