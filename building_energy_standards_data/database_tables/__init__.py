@@ -90,6 +90,7 @@ __all__ = [
     "support_occupant_energy_behavior",
     "support_occupant_physical_characteristics",
     "envelope_thermal_bridging_requirements_IECC",
+    "envelope_thermal_bridging_requirements_90_1",
     # tables with foreign keys
     "level_2_lighting_space_types",
     "level_2_ventilation_space_types",
