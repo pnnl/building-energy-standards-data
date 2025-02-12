@@ -85,7 +85,8 @@ class EnvelopeThermalBridgingRequirement(DBOperation):
 
     def validate_record_datatype(self, record):
         str_expected = [
-            "class_of_construction" "template",
+            "class_of_construction",
+            "template",
             "thermal_bridge_type" "psi_factor_unit",
             "chi_factor_unit",
         ]
