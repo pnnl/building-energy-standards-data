@@ -364,6 +364,7 @@ def create_openstudio_standards_data_json_ashrae_90_1(
         "vrfs": [
             f"hvac_minimum_requirements_variable_refrigerant_flow_systems_90_1{prm_suffix}"
         ],
+        "ext_ltg": [f"exterior_lighting_90_1{prm_suffix}"],
     }
 
     # Generate and "export" the data to the correct location within the OpenStudio Standards repository
