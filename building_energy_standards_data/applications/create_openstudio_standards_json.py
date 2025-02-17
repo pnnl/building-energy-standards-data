@@ -294,15 +294,15 @@ def create_openstudio_standards_space_data_json(
             space_type_data["ventilation_per_area"] = vent_per_area
             # assume unit is cfm/ft2; TODO: unit check
             space_type_data["ventilation_air_changes"] = 0.0
-            space_type_data[
-                "occupancy_per_area"
-            ] = occ_per_area  # assume unit is people / 1000 ft2; TODO: unit check
+            space_type_data["occupancy_per_area"] = (
+                occ_per_area  # assume unit is people / 1000 ft2; TODO: unit check
+            )
 
             # Schedules
             schedule_set_name = space_type_infos["schedule_set_name"]
-            space_type_data[
-                "electric_equipment_schedule"
-            ] = f"{schedule_set_name}_equipment"
+            space_type_data["electric_equipment_schedule"] = (
+                f"{schedule_set_name}_equipment"
+            )
             space_type_data["gas_equipment_schedule"] = f"{schedule_set_name}_equipment"
             space_type_data["lighting_schedule"] = f"{schedule_set_name}_lighting"
             space_type_data["occupancy_schedule"] = f"{schedule_set_name}_occupancy"
@@ -364,6 +364,7 @@ def create_openstudio_standards_data_json_ashrae_90_1(
         "vrfs": [
             f"hvac_minimum_requirements_variable_refrigerant_flow_systems_90_1{prm_suffix}"
         ],
+        "ext_ltg": [f"exterior_lighting_90_1{prm_suffix}"],
     }
 
     # Generate and "export" the data to the correct location within the OpenStudio Standards repository
