@@ -365,6 +365,15 @@ def create_openstudio_standards_data_json_ashrae_90_1(
             f"hvac_minimum_requirements_variable_refrigerant_flow_systems_90_1{prm_suffix}"
         ],
         "ext_ltg": [f"exterior_lighting_90_1{prm_suffix}"],
+        "heat_pumps": [
+            f"hvac_minimum_requirements_heat_pumps_cooling_90_1{prm_suffix}"
+        ],
+        "heat_pumps_heating": [
+            f"hvac_minimum_requirements_heat_pumps_heating_90_1{prm_suffix}"
+        ],
+        "computer_room_acs": [
+            f"hvac_minimum_requirements_computer_room_air_conditioners_90_1{prm_suffix}"
+        ],
     }
 
     # Generate and "export" the data to the correct location within the OpenStudio Standards repository
@@ -381,13 +390,13 @@ def create_openstudio_standards_data_json_ashrae_90_1(
 
     # The mapping defined here covers data that does NOT vary based on code version
     tables_to_export_90_1 = {
-        "materials": "support_materials",
-        "constructions": "support_constructions",
-        "curves": "support_performance_curves",
-        "space_type_schedules": "support_schedules",
-        "occupant_types": "support_occupant_types",
-        "occupant_energy_behavior": "support_occupant_energy_behavior",
-        "occupant_physical_characteristics": "support_occupant_physical_characteristics",
+        #        "materials": "support_materials",
+        #        "constructions": "support_constructions",
+        #        "curves": "support_performance_curves",
+        #        "space_type_schedules": "support_schedules",
+        #        "occupant_types": "support_occupant_types",
+        #        "occupant_energy_behavior": "support_occupant_energy_behavior",
+        #        "occupant_physical_characteristics": "support_occupant_physical_characteristics",
     }
 
     # Generate and "export" the data to the correct location within the OpenStudio Standards repository
