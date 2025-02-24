@@ -3083,7 +3083,7 @@
         "template": "IECC-2009",
         "lighting_zone": 0,
         "allowance_type": "parking lots and drives",
-        "allowance": 0.15,
+        "allowance": 0.04,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3091,13 +3091,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 0,
         "allowance_type": "walkways less than 10 feet wide",
-        "allowance": 1,
+        "allowance": 0.7,
         "allowance_unit": "W/ft",
         "tradable": "TRUE",
         "off_control": null,
@@ -3105,13 +3105,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 0,
         "allowance_type": "walkways 10 feet wide or greater",
-        "allowance": 0.2,
+        "allowance": 0.14,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3119,13 +3119,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 0,
         "allowance_type": "plaza areas",
-        "allowance": 0.2,
+        "allowance": 0.14,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3133,13 +3133,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 0,
         "allowance_type": "special feature areas",
-        "allowance": 0.2,
+        "allowance": 0.14,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3147,13 +3147,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 0,
         "allowance_type": "stairways",
-        "allowance": 1,
+        "allowance": 0.75,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3161,13 +3161,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 0,
         "allowance_type": "main entries",
-        "allowance": 30,
+        "allowance": 20,
         "allowance_unit": "W/ft",
         "tradable": "TRUE",
         "off_control": null,
@@ -3175,7 +3175,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3189,13 +3189,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 0,
-        "allowance_type": "canopies",
-        "allowance": 1.25,
+        "allowance_type": "entry canopies",
+        "allowance": 0.25,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3203,13 +3203,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 0,
         "allowance_type": "outdoor sales open areas",
-        "allowance": 0.5,
+        "allowance": 0.25,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3217,13 +3217,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 0,
         "allowance_type": "outdoor sales street frontage for vehicle sales lot in addition to open area",
-        "allowance": 20,
+        "allowance": 0,
         "allowance_unit": "W/ft",
         "tradable": "TRUE",
         "off_control": null,
@@ -3231,13 +3231,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 0,
         "allowance_type": "building facades",
-        "allowance": 0.2,
+        "allowance": 0,
         "allowance_unit": "W/ft2",
         "tradable": "FALSE",
         "off_control": null,
@@ -3245,13 +3245,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 0,
         "allowance_type": "building facades",
-        "allowance": 5,
+        "allowance": 0,
         "allowance_unit": "W/ft",
         "tradable": "FALSE",
         "off_control": null,
@@ -3259,7 +3259,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3273,7 +3273,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3287,13 +3287,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 0,
         "allowance_type": "entrances and gatehouse inspection stations at guarded facilities (uncovered)",
-        "allowance": 1.25,
+        "allowance": 0.75,
         "allowance_unit": "W/ft2",
         "tradable": "FALSE",
         "off_control": null,
@@ -3301,7 +3301,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3315,7 +3315,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3329,7 +3329,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3343,7 +3343,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3357,13 +3357,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 1,
         "allowance_type": "parking lots and drives",
-        "allowance": 0.15,
+        "allowance": 0.04,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3371,13 +3371,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 1,
         "allowance_type": "walkways less than 10 feet wide",
-        "allowance": 1,
+        "allowance": 0.7,
         "allowance_unit": "W/ft",
         "tradable": "TRUE",
         "off_control": null,
@@ -3385,13 +3385,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 1,
         "allowance_type": "walkways 10 feet wide or greater",
-        "allowance": 0.2,
+        "allowance": 0.14,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3399,13 +3399,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 1,
         "allowance_type": "plaza areas",
-        "allowance": 0.2,
+        "allowance": 0.14,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3413,13 +3413,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 1,
         "allowance_type": "special feature areas",
-        "allowance": 0.2,
+        "allowance": 0.14,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3427,13 +3427,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 1,
         "allowance_type": "stairways",
-        "allowance": 1,
+        "allowance": 0.75,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3441,13 +3441,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 1,
         "allowance_type": "main entries",
-        "allowance": 30,
+        "allowance": 20,
         "allowance_unit": "W/ft",
         "tradable": "TRUE",
         "off_control": null,
@@ -3455,7 +3455,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3469,13 +3469,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 1,
-        "allowance_type": "canopies",
-        "allowance": 1.25,
+        "allowance_type": "entry canopies",
+        "allowance": 0.25,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3483,13 +3483,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 1,
         "allowance_type": "outdoor sales open areas",
-        "allowance": 0.5,
+        "allowance": 0.25,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3497,13 +3497,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 1,
         "allowance_type": "outdoor sales street frontage for vehicle sales lot in addition to open area",
-        "allowance": 20,
+        "allowance": 0,
         "allowance_unit": "W/ft",
         "tradable": "TRUE",
         "off_control": null,
@@ -3511,13 +3511,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 1,
         "allowance_type": "building facades",
-        "allowance": 0.2,
+        "allowance": 0,
         "allowance_unit": "W/ft2",
         "tradable": "FALSE",
         "off_control": null,
@@ -3525,13 +3525,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 1,
         "allowance_type": "building facades",
-        "allowance": 5,
+        "allowance": 0,
         "allowance_unit": "W/ft",
         "tradable": "FALSE",
         "off_control": null,
@@ -3539,7 +3539,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3553,7 +3553,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3567,13 +3567,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 1,
         "allowance_type": "entrances and gatehouse inspection stations at guarded facilities (uncovered)",
-        "allowance": 1.25,
+        "allowance": 0.75,
         "allowance_unit": "W/ft2",
         "tradable": "FALSE",
         "off_control": null,
@@ -3581,7 +3581,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3595,7 +3595,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3609,7 +3609,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3623,13 +3623,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 1,
         "allowance_type": "base site allowance",
-        "allowance": 0,
+        "allowance": 500,
         "allowance_unit": "W",
         "tradable": "FALSE",
         "off_control": null,
@@ -3637,13 +3637,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 2,
         "allowance_type": "parking lots and drives",
-        "allowance": 0.15,
+        "allowance": 0.06,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3651,13 +3651,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 2,
         "allowance_type": "walkways less than 10 feet wide",
-        "allowance": 1,
+        "allowance": 0.7,
         "allowance_unit": "W/ft",
         "tradable": "TRUE",
         "off_control": null,
@@ -3665,13 +3665,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 2,
         "allowance_type": "walkways 10 feet wide or greater",
-        "allowance": 0.2,
+        "allowance": 0.14,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3679,13 +3679,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 2,
         "allowance_type": "plaza areas",
-        "allowance": 0.2,
+        "allowance": 0.14,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3693,13 +3693,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 2,
         "allowance_type": "special feature areas",
-        "allowance": 0.2,
+        "allowance": 0.14,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3707,7 +3707,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3721,13 +3721,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 2,
         "allowance_type": "main entries",
-        "allowance": 30,
+        "allowance": 20,
         "allowance_unit": "W/ft",
         "tradable": "TRUE",
         "off_control": null,
@@ -3735,7 +3735,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3749,13 +3749,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 2,
-        "allowance_type": "canopies",
-        "allowance": 1.25,
+        "allowance_type": "entry canopies",
+        "allowance": 0.25,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3763,13 +3763,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 2,
         "allowance_type": "outdoor sales open areas",
-        "allowance": 0.5,
+        "allowance": 0.25,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3777,13 +3777,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 2,
         "allowance_type": "outdoor sales street frontage for vehicle sales lot in addition to open area",
-        "allowance": 20,
+        "allowance": 10,
         "allowance_unit": "W/ft",
         "tradable": "TRUE",
         "off_control": null,
@@ -3791,13 +3791,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 2,
         "allowance_type": "building facades",
-        "allowance": 0.2,
+        "allowance": 0.1,
         "allowance_unit": "W/ft2",
         "tradable": "FALSE",
         "off_control": null,
@@ -3805,13 +3805,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 2,
         "allowance_type": "building facades",
-        "allowance": 5,
+        "allowance": 2.5,
         "allowance_unit": "W/ft",
         "tradable": "FALSE",
         "off_control": null,
@@ -3819,7 +3819,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3833,7 +3833,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3847,13 +3847,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 2,
         "allowance_type": "entrances and gatehouse inspection stations at guarded facilities (uncovered)",
-        "allowance": 1.25,
+        "allowance": 0.75,
         "allowance_unit": "W/ft2",
         "tradable": "FALSE",
         "off_control": null,
@@ -3861,7 +3861,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3875,7 +3875,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3889,7 +3889,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -3903,13 +3903,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 2,
         "allowance_type": "base site allowance",
-        "allowance": 0,
+        "allowance": 600,
         "allowance_unit": "W",
         "tradable": "FALSE",
         "off_control": null,
@@ -3917,13 +3917,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 3,
         "allowance_type": "parking lots and drives",
-        "allowance": 0.15,
+        "allowance": 0.1,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3931,13 +3931,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 3,
         "allowance_type": "walkways less than 10 feet wide",
-        "allowance": 1,
+        "allowance": 0.8,
         "allowance_unit": "W/ft",
         "tradable": "TRUE",
         "off_control": null,
@@ -3945,13 +3945,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 3,
         "allowance_type": "walkways 10 feet wide or greater",
-        "allowance": 0.2,
+        "allowance": 0.16,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3959,13 +3959,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 3,
         "allowance_type": "plaza areas",
-        "allowance": 0.2,
+        "allowance": 0.16,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3973,13 +3973,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 3,
         "allowance_type": "special feature areas",
-        "allowance": 0.2,
+        "allowance": 0.16,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -3987,7 +3987,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4001,7 +4001,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4015,7 +4015,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4029,13 +4029,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 3,
-        "allowance_type": "canopies",
-        "allowance": 1.25,
+        "allowance_type": "entry canopies",
+        "allowance": 0.4,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -4043,7 +4043,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4057,13 +4057,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 3,
         "allowance_type": "outdoor sales street frontage for vehicle sales lot in addition to open area",
-        "allowance": 20,
+        "allowance": 10,
         "allowance_unit": "W/ft",
         "tradable": "TRUE",
         "off_control": null,
@@ -4071,13 +4071,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 3,
         "allowance_type": "building facades",
-        "allowance": 0.2,
+        "allowance": 0.15,
         "allowance_unit": "W/ft2",
         "tradable": "FALSE",
         "off_control": null,
@@ -4085,13 +4085,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 3,
         "allowance_type": "building facades",
-        "allowance": 5,
+        "allowance": 3.75,
         "allowance_unit": "W/ft",
         "tradable": "FALSE",
         "off_control": null,
@@ -4099,7 +4099,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4113,7 +4113,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4127,13 +4127,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 3,
         "allowance_type": "entrances and gatehouse inspection stations at guarded facilities (uncovered)",
-        "allowance": 1.25,
+        "allowance": 0.75,
         "allowance_unit": "W/ft2",
         "tradable": "FALSE",
         "off_control": null,
@@ -4141,7 +4141,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4155,7 +4155,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4169,7 +4169,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4183,13 +4183,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 3,
         "allowance_type": "base site allowance",
-        "allowance": 0,
+        "allowance": 750,
         "allowance_unit": "W",
         "tradable": "FALSE",
         "off_control": null,
@@ -4197,13 +4197,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 4,
         "allowance_type": "parking lots and drives",
-        "allowance": 0.15,
+        "allowance": 0.13,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -4211,7 +4211,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4225,7 +4225,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4239,7 +4239,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4253,7 +4253,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4267,7 +4267,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4281,7 +4281,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4295,7 +4295,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4309,13 +4309,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 4,
-        "allowance_type": "canopies",
-        "allowance": 1.25,
+        "allowance_type": "entry canopies",
+        "allowance": 0.4,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -4323,13 +4323,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 4,
         "allowance_type": "outdoor sales open areas",
-        "allowance": 0.5,
+        "allowance": 0.7,
         "allowance_unit": "W/ft2",
         "tradable": "TRUE",
         "off_control": null,
@@ -4337,13 +4337,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 4,
         "allowance_type": "outdoor sales street frontage for vehicle sales lot in addition to open area",
-        "allowance": 20,
+        "allowance": 30,
         "allowance_unit": "W/ft",
         "tradable": "TRUE",
         "off_control": null,
@@ -4351,7 +4351,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4365,7 +4365,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4379,7 +4379,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4393,7 +4393,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4407,13 +4407,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 4,
         "allowance_type": "entrances and gatehouse inspection stations at guarded facilities (uncovered)",
-        "allowance": 1.25,
+        "allowance": 0.75,
         "allowance_unit": "W/ft2",
         "tradable": "FALSE",
         "off_control": null,
@@ -4421,7 +4421,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4435,7 +4435,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4449,7 +4449,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
@@ -4463,13 +4463,13 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2009",
         "lighting_zone": 4,
         "allowance_type": "base site allowance",
-        "allowance": 0,
+        "allowance": 1300,
         "allowance_unit": "W",
         "tradable": "FALSE",
         "off_control": null,
@@ -4477,7 +4477,7 @@
         "scheduled_off_control": null,
         "scheduled_light_reduction_control": null,
         "occupancy_sensing_light_reduction_control": null,
-        "annotation": "From IECC-2009 Table 505.6.2"
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     },
     {
         "template": "IECC-2012",
@@ -9098,5 +9098,75 @@
         "scheduled_light_reduction_control": "REQ",
         "occupancy_sensing_light_reduction_control": null,
         "annotation": "From IECC-2018 Table C405.4.2(3)"
+    },
+    {
+        "template": "IECC-2009",
+        "lighting_zone": 0,
+        "allowance_type": "pedestrian tunnels",
+        "allowance": 0.15,
+        "allowance_unit": "W",
+        "tradable": "FALSE",
+        "off_control": null,
+        "daylight_off_control": null,
+        "scheduled_off_control": null,
+        "scheduled_light_reduction_control": null,
+        "occupancy_sensing_light_reduction_control": null,
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
+    },
+    {
+        "template": "IECC-2009",
+        "lighting_zone": 1,
+        "allowance_type": "pedestrian tunnels",
+        "allowance": 0.15,
+        "allowance_unit": "W",
+        "tradable": "FALSE",
+        "off_control": null,
+        "daylight_off_control": null,
+        "scheduled_off_control": null,
+        "scheduled_light_reduction_control": null,
+        "occupancy_sensing_light_reduction_control": null,
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
+    },
+    {
+        "template": "IECC-2009",
+        "lighting_zone": 2,
+        "allowance_type": "pedestrian tunnels",
+        "allowance": 0.15,
+        "allowance_unit": "W",
+        "tradable": "FALSE",
+        "off_control": null,
+        "daylight_off_control": null,
+        "scheduled_off_control": null,
+        "scheduled_light_reduction_control": null,
+        "occupancy_sensing_light_reduction_control": null,
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
+    },
+    {
+        "template": "IECC-2009",
+        "lighting_zone": 3,
+        "allowance_type": "pedestrian tunnels",
+        "allowance": 0.2,
+        "allowance_unit": "W",
+        "tradable": "FALSE",
+        "off_control": null,
+        "daylight_off_control": null,
+        "scheduled_off_control": null,
+        "scheduled_light_reduction_control": null,
+        "occupancy_sensing_light_reduction_control": null,
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
+    },
+    {
+        "template": "IECC-2009",
+        "lighting_zone": 4,
+        "allowance_type": "pedestrian tunnels",
+        "allowance": 0.3,
+        "allowance_unit": "W",
+        "tradable": "FALSE",
+        "off_control": null,
+        "daylight_off_control": null,
+        "scheduled_off_control": null,
+        "scheduled_light_reduction_control": null,
+        "occupancy_sensing_light_reduction_control": null,
+        "annotation": "From IECC-2009 Table 505.6.2(2)"
     }
 ]
