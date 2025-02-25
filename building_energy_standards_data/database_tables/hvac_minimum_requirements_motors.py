@@ -29,7 +29,7 @@ minimum_capacity NUMERIC NOT NULL,
 maximum_capacity NUMERIC NOT NULL,
 start_date TEXT NOT NULL,
 end_date TEXT NOT NULL,
-nominal_full_load_efficiency NUMERIC NOT NULL,
+nominal_full_load_efficiency NUMERIC,
 annotation TEXT);
 """
 
