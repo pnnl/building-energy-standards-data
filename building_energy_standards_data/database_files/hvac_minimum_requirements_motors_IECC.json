@@ -4,18 +4,6 @@
         "number_of_poles": 2,
         "type": "Open",
         "synchronous_speed": 3600,
-        "minimum_capacity": 0,
-        "maximum_capacity": 1,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2006",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
         "minimum_capacity": 1.001,
         "maximum_capacity": 1.5,
         "start_date": "9/9/1919",
@@ -226,18 +214,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.945,
         "annotation": "From 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2006",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.945,
-        "annotation": "Based on 90.1-2004 Table 10.8"
     },
     {
         "template": "IECC-2006",
@@ -466,18 +442,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.95,
         "annotation": "From 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2006",
-        "number_of_poles": 4,
-        "type": "Open",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2004 Table 10.8"
     },
     {
         "template": "IECC-2006",
@@ -709,18 +673,6 @@
     },
     {
         "template": "IECC-2006",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.945,
-        "annotation": "Based on 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2006",
         "number_of_poles": 2,
         "type": "Enclosed",
         "synchronous_speed": 3600,
@@ -949,18 +901,6 @@
     },
     {
         "template": "IECC-2006",
-        "number_of_poles": 2,
-        "type": "Enclosed",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2006",
         "number_of_poles": 4,
         "type": "Enclosed",
         "synchronous_speed": 1800,
@@ -1186,18 +1126,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.95,
         "annotation": "From 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2006",
-        "number_of_poles": 4,
-        "type": "Enclosed",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2004 Table 10.8"
     },
     {
         "template": "IECC-2006",
@@ -1428,30 +1356,6 @@
         "annotation": "From 90.1-2004 Table 10.8"
     },
     {
-        "template": "IECC-2006",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2009",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 0,
-        "maximum_capacity": 1,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2004 Table 10.8"
-    },
-    {
         "template": "IECC-2009",
         "number_of_poles": 2,
         "type": "Open",
@@ -1666,18 +1570,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.945,
         "annotation": "From 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2009",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.945,
-        "annotation": "Based on 90.1-2004 Table 10.8"
     },
     {
         "template": "IECC-2009",
@@ -1906,18 +1798,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.95,
         "annotation": "From 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2009",
-        "number_of_poles": 4,
-        "type": "Open",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2004 Table 10.8"
     },
     {
         "template": "IECC-2009",
@@ -2149,18 +2029,6 @@
     },
     {
         "template": "IECC-2009",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.945,
-        "annotation": "Based on 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2009",
         "number_of_poles": 2,
         "type": "Enclosed",
         "synchronous_speed": 3600,
@@ -2389,18 +2257,6 @@
     },
     {
         "template": "IECC-2009",
-        "number_of_poles": 2,
-        "type": "Enclosed",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2009",
         "number_of_poles": 4,
         "type": "Enclosed",
         "synchronous_speed": 1800,
@@ -2626,18 +2482,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.95,
         "annotation": "From 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2009",
-        "number_of_poles": 4,
-        "type": "Enclosed",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2004 Table 10.8"
     },
     {
         "template": "IECC-2009",
@@ -2868,30 +2712,6 @@
         "annotation": "From 90.1-2004 Table 10.8"
     },
     {
-        "template": "IECC-2009",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2012",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 0,
-        "maximum_capacity": 1,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2004 Table 10.8"
-    },
-    {
         "template": "IECC-2012",
         "number_of_poles": 2,
         "type": "Open",
@@ -3106,18 +2926,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.945,
         "annotation": "From 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2012",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.945,
-        "annotation": "Based on 90.1-2004 Table 10.8"
     },
     {
         "template": "IECC-2012",
@@ -3346,18 +3154,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.95,
         "annotation": "From 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2012",
-        "number_of_poles": 4,
-        "type": "Open",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2004 Table 10.8"
     },
     {
         "template": "IECC-2012",
@@ -3589,18 +3385,6 @@
     },
     {
         "template": "IECC-2012",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.945,
-        "annotation": "Based on 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2012",
         "number_of_poles": 2,
         "type": "Enclosed",
         "synchronous_speed": 3600,
@@ -3829,18 +3613,6 @@
     },
     {
         "template": "IECC-2012",
-        "number_of_poles": 2,
-        "type": "Enclosed",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2012",
         "number_of_poles": 4,
         "type": "Enclosed",
         "synchronous_speed": 1800,
@@ -4066,18 +3838,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.95,
         "annotation": "From 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "IECC-2012",
-        "number_of_poles": 4,
-        "type": "Enclosed",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2004 Table 10.8"
     },
     {
         "template": "IECC-2012",
@@ -4308,18 +4068,6 @@
         "annotation": "From 90.1-2004 Table 10.8"
     },
     {
-        "template": "IECC-2012",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2004 Table 10.8"
-    },
-    {
         "template": "IECC-2015",
         "number_of_poles": 2,
         "type": "Open",
@@ -4621,18 +4369,6 @@
     },
     {
         "template": "IECC-2015",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.958,
-        "annotation": "Based on IECC-2015 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2015",
         "number_of_poles": 4,
         "type": "Open",
         "synchronous_speed": 1800,
@@ -4930,18 +4666,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.962,
         "annotation": "From IECC-2015 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2015",
-        "number_of_poles": 4,
-        "type": "Open",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on IECC-2015 Table C405.8(1)"
     },
     {
         "template": "IECC-2015",
@@ -5245,18 +4969,6 @@
     },
     {
         "template": "IECC-2015",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on IECC-2015 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2015",
         "number_of_poles": 2,
         "type": "Enclosed",
         "synchronous_speed": 3600,
@@ -5557,18 +5269,6 @@
     },
     {
         "template": "IECC-2015",
-        "number_of_poles": 2,
-        "type": "Enclosed",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.958,
-        "annotation": "Based on IECC-2015 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2015",
         "number_of_poles": 4,
         "type": "Enclosed",
         "synchronous_speed": 1800,
@@ -5869,18 +5569,6 @@
     },
     {
         "template": "IECC-2015",
-        "number_of_poles": 4,
-        "type": "Enclosed",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on IECC-2015 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2015",
         "number_of_poles": 6,
         "type": "Enclosed",
         "synchronous_speed": 1200,
@@ -6178,18 +5866,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.958,
         "annotation": "From IECC-2015 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2015",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.958,
-        "annotation": "Based on IECC-2015 Table C405.8(1)"
     },
     {
         "template": "IECC-2018",
@@ -6493,18 +6169,6 @@
     },
     {
         "template": "IECC-2018",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
         "number_of_poles": 4,
         "type": "Open",
         "synchronous_speed": 1800,
@@ -6805,18 +6469,6 @@
     },
     {
         "template": "IECC-2018",
-        "number_of_poles": 4,
-        "type": "Open",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
         "number_of_poles": 6,
         "type": "Open",
         "synchronous_speed": 1200,
@@ -7078,54 +6730,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.958,
         "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on IECC-2018 Table C405.7(1)"
     },
     {
         "template": "IECC-2018",
@@ -7381,66 +6985,6 @@
     },
     {
         "template": "IECC-2018",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 300.001,
-        "maximum_capacity": 350,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
         "number_of_poles": 2,
         "type": "Enclosed",
         "synchronous_speed": 3600,
@@ -7741,18 +7285,6 @@
     },
     {
         "template": "IECC-2018",
-        "number_of_poles": 2,
-        "type": "Enclosed",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.958,
-        "annotation": "Based on IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
         "number_of_poles": 4,
         "type": "Enclosed",
         "synchronous_speed": 1800,
@@ -8053,18 +7585,6 @@
     },
     {
         "template": "IECC-2018",
-        "number_of_poles": 4,
-        "type": "Enclosed",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
         "number_of_poles": 6,
         "type": "Enclosed",
         "synchronous_speed": 1200,
@@ -8326,54 +7846,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.958,
         "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on IECC-2018 Table C405.7(1)"
     },
     {
         "template": "IECC-2018",
@@ -8616,78 +8088,6 @@
         "annotation": "From IECC-2018 Table C405.7(1)"
     },
     {
-        "template": "IECC-2018",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 250.001,
-        "maximum_capacity": 300,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 300.001,
-        "maximum_capacity": 350,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2018 Table C405.7(1)"
-    },
-    {
-        "template": "IECC-2018",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on IECC-2018 Table C405.7(1)"
-    },
-    {
         "template": "IECC-2021",
         "number_of_poles": 2,
         "type": "Open",
@@ -8989,18 +8389,6 @@
     },
     {
         "template": "IECC-2021",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
         "number_of_poles": 4,
         "type": "Open",
         "synchronous_speed": 1800,
@@ -9301,18 +8689,6 @@
     },
     {
         "template": "IECC-2021",
-        "number_of_poles": 4,
-        "type": "Open",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
         "number_of_poles": 6,
         "type": "Open",
         "synchronous_speed": 1200,
@@ -9610,18 +8986,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.962,
         "annotation": "From IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on IECC-2021 Table C405.8(1)"
     },
     {
         "template": "IECC-2021",
@@ -9865,78 +9229,6 @@
     },
     {
         "template": "IECC-2021",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 250.001,
-        "maximum_capacity": 300,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 300.001,
-        "maximum_capacity": 350,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
         "number_of_poles": 2,
         "type": "Enclosed",
         "synchronous_speed": 3600,
@@ -10237,18 +9529,6 @@
     },
     {
         "template": "IECC-2021",
-        "number_of_poles": 2,
-        "type": "Enclosed",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.958,
-        "annotation": "Based on IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
         "number_of_poles": 4,
         "type": "Enclosed",
         "synchronous_speed": 1800,
@@ -10549,18 +9829,6 @@
     },
     {
         "template": "IECC-2021",
-        "number_of_poles": 4,
-        "type": "Enclosed",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
         "number_of_poles": 6,
         "type": "Enclosed",
         "synchronous_speed": 1200,
@@ -10822,54 +10090,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.958,
         "annotation": "From IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on IECC-2021 Table C405.8(1)"
     },
     {
         "template": "IECC-2021",
@@ -11110,77 +10330,5 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.95,
         "annotation": "From IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 250.001,
-        "maximum_capacity": 300,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 300.001,
-        "maximum_capacity": 350,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From IECC-2021 Table C405.8(1)"
-    },
-    {
-        "template": "IECC-2021",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on IECC-2021 Table C405.8(1)"
     }
 ]

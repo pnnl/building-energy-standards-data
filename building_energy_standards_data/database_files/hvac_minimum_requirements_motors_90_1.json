@@ -4,18 +4,6 @@
         "number_of_poles": 2,
         "type": "Open",
         "synchronous_speed": 3600,
-        "minimum_capacity": 0,
-        "maximum_capacity": 1,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "90.1-2004",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
         "minimum_capacity": 1.001,
         "maximum_capacity": 1.5,
         "start_date": "9/9/1919",
@@ -226,18 +214,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.945,
         "annotation": "From 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "90.1-2004",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.945,
-        "annotation": "Based on 90.1-2004 Table 10.8"
     },
     {
         "template": "90.1-2004",
@@ -466,18 +442,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.95,
         "annotation": "From 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "90.1-2004",
-        "number_of_poles": 4,
-        "type": "Open",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2004 Table 10.8"
     },
     {
         "template": "90.1-2004",
@@ -709,18 +673,6 @@
     },
     {
         "template": "90.1-2004",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.945,
-        "annotation": "Based on 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "90.1-2004",
         "number_of_poles": 2,
         "type": "Enclosed",
         "synchronous_speed": 3600,
@@ -949,18 +901,6 @@
     },
     {
         "template": "90.1-2004",
-        "number_of_poles": 2,
-        "type": "Enclosed",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "90.1-2004",
         "number_of_poles": 4,
         "type": "Enclosed",
         "synchronous_speed": 1800,
@@ -1186,18 +1126,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.95,
         "annotation": "From 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "90.1-2004",
-        "number_of_poles": 4,
-        "type": "Enclosed",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2004 Table 10.8"
     },
     {
         "template": "90.1-2004",
@@ -1428,30 +1356,6 @@
         "annotation": "From 90.1-2004 Table 10.8"
     },
     {
-        "template": "90.1-2004",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2004 Table 10.8"
-    },
-    {
-        "template": "90.1-2007",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 0,
-        "maximum_capacity": 1,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2007 Table 10.8"
-    },
-    {
         "template": "90.1-2007",
         "number_of_poles": 2,
         "type": "Open",
@@ -1666,18 +1570,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.945,
         "annotation": "From 90.1-2007 Table 10.8"
-    },
-    {
-        "template": "90.1-2007",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.945,
-        "annotation": "Based on 90.1-2007 Table 10.8"
     },
     {
         "template": "90.1-2007",
@@ -1906,18 +1798,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.95,
         "annotation": "From 90.1-2007 Table 10.8"
-    },
-    {
-        "template": "90.1-2007",
-        "number_of_poles": 4,
-        "type": "Open",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2007 Table 10.8"
     },
     {
         "template": "90.1-2007",
@@ -2146,18 +2026,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.945,
         "annotation": "From 90.1-2007 Table 10.8"
-    },
-    {
-        "template": "90.1-2007",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.945,
-        "annotation": "Based on 90.1-2007 Table 10.8"
     },
     {
         "template": "90.1-2007",
@@ -2389,18 +2257,6 @@
     },
     {
         "template": "90.1-2007",
-        "number_of_poles": 2,
-        "type": "Enclosed",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2007 Table 10.8"
-    },
-    {
-        "template": "90.1-2007",
         "number_of_poles": 4,
         "type": "Enclosed",
         "synchronous_speed": 1800,
@@ -2626,18 +2482,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.95,
         "annotation": "From 90.1-2007 Table 10.8"
-    },
-    {
-        "template": "90.1-2007",
-        "number_of_poles": 4,
-        "type": "Enclosed",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2007 Table 10.8"
     },
     {
         "template": "90.1-2007",
@@ -2868,30 +2712,6 @@
         "annotation": "From 90.1-2007 Table 10.8"
     },
     {
-        "template": "90.1-2007",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2007 Table 10.8"
-    },
-    {
-        "template": "90.1-2010",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 0,
-        "maximum_capacity": 1,
-        "start_date": "9/9/1919",
-        "end_date": "12/18/2010",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2010 Table 10.8A"
-    },
-    {
         "template": "90.1-2010",
         "number_of_poles": 2,
         "type": "Open",
@@ -3106,18 +2926,6 @@
         "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.945,
         "annotation": "From 90.1-2010 Table 10.8A"
-    },
-    {
-        "template": "90.1-2010",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "12/18/2010",
-        "nominal_full_load_efficiency": 0.945,
-        "annotation": "Based on 90.1-2010 Table 10.8A"
     },
     {
         "template": "90.1-2010",
@@ -3346,18 +3154,6 @@
         "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.95,
         "annotation": "From 90.1-2010 Table 10.8A"
-    },
-    {
-        "template": "90.1-2010",
-        "number_of_poles": 4,
-        "type": "Open",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "12/18/2010",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2010 Table 10.8A"
     },
     {
         "template": "90.1-2010",
@@ -3586,18 +3382,6 @@
         "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.945,
         "annotation": "From 90.1-2010 Table 10.8A"
-    },
-    {
-        "template": "90.1-2010",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "12/18/2010",
-        "nominal_full_load_efficiency": 0.945,
-        "annotation": "Based on 90.1-2010 Table 10.8A"
     },
     {
         "template": "90.1-2010",
@@ -3829,18 +3613,6 @@
     },
     {
         "template": "90.1-2010",
-        "number_of_poles": 2,
-        "type": "Enclosed",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "12/18/2010",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2010 Table 10.8A"
-    },
-    {
-        "template": "90.1-2010",
         "number_of_poles": 4,
         "type": "Enclosed",
         "synchronous_speed": 1800,
@@ -4066,18 +3838,6 @@
         "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.95,
         "annotation": "From 90.1-2010 Table 10.8A"
-    },
-    {
-        "template": "90.1-2010",
-        "number_of_poles": 4,
-        "type": "Enclosed",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "12/18/2010",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2010 Table 10.8A"
     },
     {
         "template": "90.1-2010",
@@ -4309,18 +4069,6 @@
     },
     {
         "template": "90.1-2010",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 200.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "12/18/2010",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "Based on 90.1-2010 Table 10.8A"
-    },
-    {
-        "template": "90.1-2010",
         "number_of_poles": 2,
         "type": "Open",
         "synchronous_speed": 3600,
@@ -4621,18 +4369,6 @@
     },
     {
         "template": "90.1-2010",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "12/19/2010",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.958,
-        "annotation": "Based on 90.1-2010 Table 10.8B"
-    },
-    {
-        "template": "90.1-2010",
         "number_of_poles": 4,
         "type": "Open",
         "synchronous_speed": 1800,
@@ -4930,18 +4666,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.962,
         "annotation": "From 90.1-2010 Table 10.8B"
-    },
-    {
-        "template": "90.1-2010",
-        "number_of_poles": 4,
-        "type": "Open",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "12/19/2010",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on 90.1-2010 Table 10.8B"
     },
     {
         "template": "90.1-2010",
@@ -5245,18 +4969,6 @@
     },
     {
         "template": "90.1-2010",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "12/19/2010",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on 90.1-2010 Table 10.8B"
-    },
-    {
-        "template": "90.1-2010",
         "number_of_poles": 2,
         "type": "Enclosed",
         "synchronous_speed": 3600,
@@ -5557,18 +5269,6 @@
     },
     {
         "template": "90.1-2010",
-        "number_of_poles": 2,
-        "type": "Enclosed",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "12/19/2010",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.958,
-        "annotation": "Based on 90.1-2010 Table 10.8B"
-    },
-    {
-        "template": "90.1-2010",
         "number_of_poles": 4,
         "type": "Enclosed",
         "synchronous_speed": 1800,
@@ -5869,18 +5569,6 @@
     },
     {
         "template": "90.1-2010",
-        "number_of_poles": 4,
-        "type": "Enclosed",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "12/19/2010",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on 90.1-2010 Table 10.8B"
-    },
-    {
-        "template": "90.1-2010",
         "number_of_poles": 6,
         "type": "Enclosed",
         "synchronous_speed": 1200,
@@ -6178,18 +5866,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.958,
         "annotation": "From 90.1-2010 Table 10.8B"
-    },
-    {
-        "template": "90.1-2010",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "12/19/2010",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.958,
-        "annotation": "Based on 90.1-2010 Table 10.8B"
     },
     {
         "template": "90.1-2013",
@@ -6493,18 +6169,6 @@
     },
     {
         "template": "90.1-2013",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.958,
-        "annotation": "Based on 90.1-2013 Table 10.8-3"
-    },
-    {
-        "template": "90.1-2013",
         "number_of_poles": 4,
         "type": "Open",
         "synchronous_speed": 1800,
@@ -6805,18 +6469,6 @@
     },
     {
         "template": "90.1-2013",
-        "number_of_poles": 4,
-        "type": "Open",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.958,
-        "annotation": "Based on 90.1-2013 Table 10.8-3"
-    },
-    {
-        "template": "90.1-2013",
         "number_of_poles": 6,
         "type": "Open",
         "synchronous_speed": 1200,
@@ -7078,54 +6730,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.954,
         "annotation": "From 90.1-2013 Table 10.8-3"
-    },
-    {
-        "template": "90.1-2013",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2013 Table 10.8-3"
-    },
-    {
-        "template": "90.1-2013",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2013 Table 10.8-3"
-    },
-    {
-        "template": "90.1-2013",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2013 Table 10.8-3"
-    },
-    {
-        "template": "90.1-2013",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on 90.1-2013 Table 10.8-3"
     },
     {
         "template": "90.1-2013",
@@ -7429,18 +7033,6 @@
     },
     {
         "template": "90.1-2013",
-        "number_of_poles": 2,
-        "type": "Enclosed",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.954,
-        "annotation": "Based on 90.1-2013 Table 10.8-3"
-    },
-    {
-        "template": "90.1-2013",
         "number_of_poles": 4,
         "type": "Enclosed",
         "synchronous_speed": 1800,
@@ -7741,18 +7333,6 @@
     },
     {
         "template": "90.1-2013",
-        "number_of_poles": 4,
-        "type": "Enclosed",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.958,
-        "annotation": "Based on 90.1-2013 Table 10.8-3"
-    },
-    {
-        "template": "90.1-2013",
         "number_of_poles": 6,
         "type": "Enclosed",
         "synchronous_speed": 1200,
@@ -8014,54 +7594,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.95,
         "annotation": "From 90.1-2013 Table 10.8-3"
-    },
-    {
-        "template": "90.1-2013",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2013 Table 10.8-3"
-    },
-    {
-        "template": "90.1-2013",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2013 Table 10.8-3"
-    },
-    {
-        "template": "90.1-2013",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2013 Table 10.8-3"
-    },
-    {
-        "template": "90.1-2013",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on 90.1-2013 Table 10.8-3"
     },
     {
         "template": "90.1-2016",
@@ -8365,18 +7897,6 @@
     },
     {
         "template": "90.1-2016",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
         "number_of_poles": 4,
         "type": "Open",
         "synchronous_speed": 1800,
@@ -8677,18 +8197,6 @@
     },
     {
         "template": "90.1-2016",
-        "number_of_poles": 4,
-        "type": "Open",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
         "number_of_poles": 6,
         "type": "Open",
         "synchronous_speed": 1200,
@@ -8950,54 +8458,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.958,
         "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on 90.1-2016 Table 10.8-1"
     },
     {
         "template": "90.1-2016",
@@ -9253,66 +8713,6 @@
     },
     {
         "template": "90.1-2016",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 300.001,
-        "maximum_capacity": 350,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
         "number_of_poles": 2,
         "type": "Enclosed",
         "synchronous_speed": 3600,
@@ -9613,18 +9013,6 @@
     },
     {
         "template": "90.1-2016",
-        "number_of_poles": 2,
-        "type": "Enclosed",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.958,
-        "annotation": "Based on 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
         "number_of_poles": 4,
         "type": "Enclosed",
         "synchronous_speed": 1800,
@@ -9925,18 +9313,6 @@
     },
     {
         "template": "90.1-2016",
-        "number_of_poles": 4,
-        "type": "Enclosed",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
         "number_of_poles": 6,
         "type": "Enclosed",
         "synchronous_speed": 1200,
@@ -10198,54 +9574,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.958,
         "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on 90.1-2016 Table 10.8-1"
     },
     {
         "template": "90.1-2016",
@@ -10488,78 +9816,6 @@
         "annotation": "From 90.1-2016 Table 10.8-1"
     },
     {
-        "template": "90.1-2016",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 250.001,
-        "maximum_capacity": 300,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 300.001,
-        "maximum_capacity": 350,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2016 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2016",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on 90.1-2016 Table 10.8-1"
-    },
-    {
         "template": "90.1-2019",
         "number_of_poles": 2,
         "type": "Open",
@@ -10861,18 +10117,6 @@
     },
     {
         "template": "90.1-2019",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
         "number_of_poles": 4,
         "type": "Open",
         "synchronous_speed": 1800,
@@ -11173,18 +10417,6 @@
     },
     {
         "template": "90.1-2019",
-        "number_of_poles": 4,
-        "type": "Open",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
         "number_of_poles": 6,
         "type": "Open",
         "synchronous_speed": 1200,
@@ -11446,54 +10678,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.958,
         "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on 90.1-2019 Table 10.8-1"
     },
     {
         "template": "90.1-2019",
@@ -11737,78 +10921,6 @@
     },
     {
         "template": "90.1-2019",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 250.001,
-        "maximum_capacity": 300,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 300.001,
-        "maximum_capacity": 350,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
         "number_of_poles": 2,
         "type": "Enclosed",
         "synchronous_speed": 3600,
@@ -12109,18 +11221,6 @@
     },
     {
         "template": "90.1-2019",
-        "number_of_poles": 2,
-        "type": "Enclosed",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.958,
-        "annotation": "Based on 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
         "number_of_poles": 4,
         "type": "Enclosed",
         "synchronous_speed": 1800,
@@ -12421,18 +11521,6 @@
     },
     {
         "template": "90.1-2019",
-        "number_of_poles": 4,
-        "type": "Enclosed",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
         "number_of_poles": 6,
         "type": "Enclosed",
         "synchronous_speed": 1200,
@@ -12694,54 +11782,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.958,
         "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on 90.1-2019 Table 10.8-1"
     },
     {
         "template": "90.1-2019",
@@ -12984,78 +12024,6 @@
         "annotation": "From 90.1-2019 Table 10.8-1"
     },
     {
-        "template": "90.1-2019",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 250.001,
-        "maximum_capacity": 300,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 300.001,
-        "maximum_capacity": 350,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2019 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2019",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on 90.1-2019 Table 10.8-1"
-    },
-    {
         "template": "90.1-2022",
         "number_of_poles": 2,
         "type": "Open",
@@ -13357,18 +12325,6 @@
     },
     {
         "template": "90.1-2022",
-        "number_of_poles": 2,
-        "type": "Open",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
         "number_of_poles": 4,
         "type": "Open",
         "synchronous_speed": 1800,
@@ -13669,18 +12625,6 @@
     },
     {
         "template": "90.1-2022",
-        "number_of_poles": 4,
-        "type": "Open",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
         "number_of_poles": 6,
         "type": "Open",
         "synchronous_speed": 1200,
@@ -13942,54 +12886,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.958,
         "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 6,
-        "type": "Open",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on 90.1-2022 Table 10.8-1"
     },
     {
         "template": "90.1-2022",
@@ -14233,78 +13129,6 @@
     },
     {
         "template": "90.1-2022",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 250.001,
-        "maximum_capacity": 300,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 300.001,
-        "maximum_capacity": 350,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 8,
-        "type": "Open",
-        "synchronous_speed": 900,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
         "number_of_poles": 2,
         "type": "Enclosed",
         "synchronous_speed": 3600,
@@ -14605,18 +13429,6 @@
     },
     {
         "template": "90.1-2022",
-        "number_of_poles": 2,
-        "type": "Enclosed",
-        "synchronous_speed": 3600,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.958,
-        "annotation": "Based on 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
         "number_of_poles": 4,
         "type": "Enclosed",
         "synchronous_speed": 1800,
@@ -14917,18 +13729,6 @@
     },
     {
         "template": "90.1-2022",
-        "number_of_poles": 4,
-        "type": "Enclosed",
-        "synchronous_speed": 1800,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.962,
-        "annotation": "Based on 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
         "number_of_poles": 6,
         "type": "Enclosed",
         "synchronous_speed": 1200,
@@ -15190,54 +13990,6 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.958,
         "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 6,
-        "type": "Enclosed",
-        "synchronous_speed": 1200,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on 90.1-2022 Table 10.8-1"
     },
     {
         "template": "90.1-2022",
@@ -15478,77 +14230,5 @@
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.95,
         "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 250.001,
-        "maximum_capacity": 300,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 300.001,
-        "maximum_capacity": 350,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 350.001,
-        "maximum_capacity": 400,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 400.001,
-        "maximum_capacity": 450,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 450.001,
-        "maximum_capacity": 500,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "From 90.1-2022 Table 10.8-1"
-    },
-    {
-        "template": "90.1-2022",
-        "number_of_poles": 8,
-        "type": "Enclosed",
-        "synchronous_speed": 900,
-        "minimum_capacity": 500.001,
-        "maximum_capacity": 9999,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": null,
-        "annotation": "Based on 90.1-2022 Table 10.8-1"
     }
 ]
