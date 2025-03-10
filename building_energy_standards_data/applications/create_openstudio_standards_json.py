@@ -341,39 +341,84 @@ def create_openstudio_standards_data_json_ashrae_90_1(
     # The mapping defined here covers data that varies based on code version
     prm_suffix = "_prm" if prm else ""
     tables_to_export_90_1 = {
-        "chillers": [f"hvac_minimum_requirements_chillers_90_1{prm_suffix}"],
-        "boilers": [f"hvac_minimum_requirements_boilers_90_1{prm_suffix}"],
-        "furnaces": [f"hvac_minimum_requirements_furnaces_90_1{prm_suffix}"],
-        "heat_rejection": [
-            f"hvac_minimum_requirements_heat_rejection_90_1{prm_suffix}"
-        ],
-        "motors": [f"hvac_minimum_requirements_motors_90_1{prm_suffix}"],
-        "unitary_acs": [
-            f"hvac_minimum_requirements_unitary_air_conditioners_90_1{prm_suffix}"
-        ],
-        "water_heaters": [f"hvac_minimum_requirements_water_heaters_90_1{prm_suffix}"],
-        "heat_pumps": [
-            f"hvac_minimum_requirements_heat_pumps_cooling_90_1{prm_suffix}"
-        ],
-        "heat_pumps_heating": [
-            f"hvac_minimum_requirements_heat_pumps_heating_90_1{prm_suffix}"
-        ],
-        "economizers": [f"system_requirements_air_economizer_90_1{prm_suffix}"],
-        "energy_recovery": [f"system_requirements_energy_recovery_90_1{prm_suffix}"],
-        "construction_properties": [f"envelope_requirements_90_1{prm_suffix}"],
-        "vrfs": [
-            f"hvac_minimum_requirements_variable_refrigerant_flow_systems_90_1{prm_suffix}"
-        ],
-        "ext_ltg": [f"exterior_lighting_90_1{prm_suffix}"],
-        "heat_pumps": [
-            f"hvac_minimum_requirements_heat_pumps_cooling_90_1{prm_suffix}"
-        ],
-        "heat_pumps_heating": [
-            f"hvac_minimum_requirements_heat_pumps_heating_90_1{prm_suffix}"
-        ],
-        "computer_room_acs": [
-            f"hvac_minimum_requirements_computer_room_air_conditioners_90_1{prm_suffix}"
-        ],
+        "chillers": {
+            "table_refs": [f"hvac_minimum_requirements_chillers_90_1{prm_suffix}"],
+            "name": "chillers",
+        },
+        "boilers": {
+            "table_refs": [f"hvac_minimum_requirements_boilers_90_1{prm_suffix}"],
+            "name": "boilers",
+        },
+        "furnaces": {
+            "table_refs": [f"hvac_minimum_requirements_furnaces_90_1{prm_suffix}"],
+            "name": "furnaces",
+        },
+        "heat_rejection": {
+            "table_refs": [
+                f"hvac_minimum_requirements_heat_rejection_90_1{prm_suffix}"
+            ],
+            "name": "heat_rejection",
+        },
+        "motors": {
+            "table_refs": [f"hvac_minimum_requirements_motors_90_1{prm_suffix}"],
+            "name": "motors",
+        },
+        "unitary_acs": {
+            "table_refs": [
+                f"hvac_minimum_requirements_unitary_air_conditioners_90_1{prm_suffix}"
+            ],
+            "name": "unitary_acs",
+        },
+        "water_heaters": {
+            "table_refs": [f"hvac_minimum_requirements_water_heaters_90_1{prm_suffix}"],
+            "name": "water_heaters",
+        },
+        "heat_pumps": {
+            "table_refs": [
+                f"hvac_minimum_requirements_heat_pumps_cooling_90_1{prm_suffix}"
+            ],
+            "name": "heat_pumps",
+        },
+        "heat_pumps_heating": {
+            "table_refs": [
+                f"hvac_minimum_requirements_heat_pumps_heating_90_1{prm_suffix}"
+            ],
+            "name": "heat_pumps_heating",
+        },
+        "economizers": {
+            "table_refs": [
+                f"hvac_minimum_requirements_air_economizer_90_1{prm_suffix}"
+            ],
+            "name": "economizers",
+        },
+        "energy_recovery": {
+            "table_refs": [
+                f"hvac_minimum_requirements_energy_recovery_90_1{prm_suffix}"
+            ],
+            "name": "energy_recovery",
+        },
+        "construction_properties": {
+            "table_refs": [
+                f"hvac_minimum_requirements_construction_properties_90_1{prm_suffix}"
+            ],
+            "name": "construction_properties",
+        },
+        "vrfs": {
+            "table_refs": [
+                f"hvac_minimum_requirements_variable_refrigerant_flow_systems_90_1{prm_suffix}"
+            ],
+            "name": "vrfs",
+        },
+        "ext_ltg": {
+            "table_refs": [f"exterior_lighting_90_1{prm_suffix}"],
+            "name": "exterior_lighting",
+        },
+        "computer_room_acs": {
+            "table_refs": [
+                f"hvac_minimum_requirements_computer_room_air_conditioners_90_1{prm_suffix}"
+            ],
+            "name": "computer_room_acs",
+        },
     }
 
     # Generate and "export" the data to the correct location within the OpenStudio Standards repository
@@ -427,10 +472,12 @@ def create_openstudio_standards_code_version_data_json(
     check_path(osstd_repository_path)
 
     for table_type, tables in tables_to_export.items():
+        table_name = tables["name"]
+        tables = tables["table_refs"]
         logging.info(f"Creating {table_type} data")
 
         # Store the retrieved content from the database
-        file_content = {f"{table_type}": []}
+        file_content = {f"{table_name}": []}
 
         # Iterate through the database tables to retrieve necessary tables
         for table in tables:
@@ -444,10 +491,10 @@ def create_openstudio_standards_code_version_data_json(
 
             # Process/clean retrieved data
             if len(records) > 0:
-                file_content[table_type].extend(process_records(records))
+                file_content[table_name].extend(process_records(records))
 
         # Export retrieved data
-        if len(file_content[table_type]) > 0:
+        if len(file_content[table_name]) > 0:
             with open(
                 f"{osstd_repository_path}/lib/openstudio-standards/standards/{code}/{code}_{code_version}/data/{code}_{code_version}.{table_type}.json",
                 "w+",
