@@ -1,50 +1,50 @@
 [
     {
-        "template": "IECC-2006",
+        "template": "189.1-2009",
         "equipment_type": "Open Cooling Tower",
         "fan_type": "Centrifugal",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 20,
+        "minimum_performance_gpm_per_hp": 21.99,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2006 Table 503.2.3(11)"
+        "annotation": "From 189.1-2009 Table C-8"
     },
     {
-        "template": "IECC-2006",
+        "template": "189.1-2009",
         "equipment_type": "Open Cooling Tower",
         "fan_type": "Propeller or Axial",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 38.2,
+        "minimum_performance_gpm_per_hp": 39.96,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2006 Table 503.2.3(11)"
+        "annotation": "From 189.1-2009 Table C-8"
     },
     {
-        "template": "IECC-2006",
+        "template": "189.1-2009",
         "equipment_type": "Closed Cooling Tower",
         "fan_type": "Centrifugal",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 20,
+        "minimum_performance_gpm_per_hp": 8.04,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2006 Table 503.2.3(11)"
+        "annotation": "From 189.1-2009 Table C-8"
     },
     {
-        "template": "IECC-2006",
+        "template": "189.1-2009",
         "equipment_type": "Closed Cooling Tower",
         "fan_type": "Propeller or Axial",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 38.2,
+        "minimum_performance_gpm_per_hp": 15.01,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2006 Table 503.2.3(11)"
+        "annotation": "From 189.1-2009 Table C-8"
     },
     {
-        "template": "IECC-2006",
+        "template": "189.1-2009",
         "equipment_type": "Air Cooled Condensers",
         "fan_type": null,
         "test_fluid": null,
@@ -52,10 +52,10 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 176000,
-        "annotation": "From IECC-2006 Table 503.2.3(11)"
+        "annotation": "Not Applicable. Using values from ASHRAE Table 6.8.1G"
     },
     {
-        "template": "IECC-2006",
+        "template": "189.1-2009",
         "equipment_type": "Dry Cooler",
         "fan_type": "Propeller or Axial",
         "test_fluid": null,
@@ -66,51 +66,51 @@
         "annotation": "Not required by code. Value provided by 90.1 Mechanical Subcommittee"
     },
     {
-        "template": "IECC-2009",
+        "template": "189.1-2011",
         "equipment_type": "Open Cooling Tower",
         "fan_type": "Centrifugal",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 20,
+        "minimum_performance_gpm_per_hp": 22,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2009 Table 503.2.3(8)"
+        "annotation": "From 189.1-2011 Table C-8"
     },
     {
-        "template": "IECC-2009",
+        "template": "189.1-2011",
         "equipment_type": "Open Cooling Tower",
         "fan_type": "Propeller or Axial",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 38.2,
+        "minimum_performance_gpm_per_hp": 40,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2009 Table 503.2.3(8)"
+        "annotation": "From 189.1-2011 Table C-8"
     },
     {
-        "template": "IECC-2009",
+        "template": "189.1-2011",
         "equipment_type": "Closed Cooling Tower",
         "fan_type": "Centrifugal",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 20,
+        "minimum_performance_gpm_per_hp": 8,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2009 Table 503.2.3(8)"
+        "annotation": "From 189.1-2011 Table C-8"
     },
     {
-        "template": "IECC-2009",
+        "template": "189.1-2011",
         "equipment_type": "Closed Cooling Tower",
         "fan_type": "Propeller or Axial",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 38.2,
+        "minimum_performance_gpm_per_hp": 15,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2009 Table 503.2.3(8)"
+        "annotation": "From 189.1-2011 Table C-8"
     },
     {
-        "template": "IECC-2009",
+        "template": "189.1-2011",
         "equipment_type": "Air Cooled Condensers",
         "fan_type": null,
         "test_fluid": null,
@@ -118,10 +118,10 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 176000,
-        "annotation": "From IECC-2009 Table 503.2.3(8)"
+        "annotation": "Not Applicable. Using values from ASHRAE Table 6.8.1G"
     },
     {
-        "template": "IECC-2009",
+        "template": "189.1-2011",
         "equipment_type": "Dry Cooler",
         "fan_type": "Propeller or Axial",
         "test_fluid": null,
@@ -132,84 +132,18 @@
         "annotation": "Not required by code. Value provided by 90.1 Mechanical Subcommittee"
     },
     {
-        "template": "IECC-2012",
+        "template": "189.1-2014",
         "equipment_type": "Open Cooling Tower",
         "fan_type": "Centrifugal",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 20,
+        "minimum_performance_gpm_per_hp": 22,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2012 Table C403.2.3(8)"
+        "annotation": "From 189.1-2014 Table B-8"
     },
     {
-        "template": "IECC-2012",
-        "equipment_type": "Open Cooling Tower",
-        "fan_type": "Propeller or Axial",
-        "test_fluid": null,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 38.2,
-        "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2012 Table C403.2.3(8)"
-    },
-    {
-        "template": "IECC-2012",
-        "equipment_type": "Closed Cooling Tower",
-        "fan_type": "Centrifugal",
-        "test_fluid": null,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 7,
-        "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2012 Table C403.2.3(8)"
-    },
-    {
-        "template": "IECC-2012",
-        "equipment_type": "Closed Cooling Tower",
-        "fan_type": "Propeller or Axial",
-        "test_fluid": null,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 14,
-        "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2012 Table C403.2.3(8)"
-    },
-    {
-        "template": "IECC-2012",
-        "equipment_type": "Air Cooled Condensers",
-        "fan_type": null,
-        "test_fluid": null,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": null,
-        "minimum_performance_btu_per_hr_per_hp": 176000,
-        "annotation": "From IECC-2012 Table C403.2.3(8)"
-    },
-    {
-        "template": "IECC-2012",
-        "equipment_type": "Dry Cooler",
-        "fan_type": "Propeller or Axial",
-        "test_fluid": null,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 4,
-        "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "Not required by code. Value provided by 90.1 Mechanical Subcommittee"
-    },
-    {
-        "template": "IECC-2015",
-        "equipment_type": "Open Cooling Tower",
-        "fan_type": "Centrifugal",
-        "test_fluid": null,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 20,
-        "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2015 Table C403.2.3(8)"
-    },
-    {
-        "template": "IECC-2015",
+        "template": "189.1-2014",
         "equipment_type": "Open Cooling Tower",
         "fan_type": "Propeller or Axial",
         "test_fluid": null,
@@ -217,32 +151,54 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 40.2,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2015 Table C403.2.3(8)"
+        "annotation": "From 189.1-2014 Table B-8"
     },
     {
-        "template": "IECC-2015",
+        "template": "189.1-2014",
         "equipment_type": "Closed Cooling Tower",
         "fan_type": "Centrifugal",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 7,
+        "minimum_performance_gpm_per_hp": 8,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2015 Table C403.2.3(8)"
+        "annotation": "From 189.1-2014 Table B-8"
     },
     {
-        "template": "IECC-2015",
+        "template": "189.1-2014",
         "equipment_type": "Closed Cooling Tower",
         "fan_type": "Propeller or Axial",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 14,
+        "minimum_performance_gpm_per_hp": 15,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2015 Table C403.2.3(8)"
+        "annotation": "From 189.1-2014 Table B-8"
     },
     {
-        "template": "IECC-2015",
+        "template": "189.1-2014",
+        "equipment_type": "Evaporative Condenser",
+        "fan_type": "Centrifugal",
+        "test_fluid": "Ammonia",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_performance_gpm_per_hp": null,
+        "minimum_performance_btu_per_hr_per_hp": 110000,
+        "annotation": "From 189.1-2014 Table B-8"
+    },
+    {
+        "template": "189.1-2014",
+        "equipment_type": "Evaporative Condenser",
+        "fan_type": "Propeller or Axial",
+        "test_fluid": "Ammonia",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_performance_gpm_per_hp": null,
+        "minimum_performance_btu_per_hr_per_hp": 134000,
+        "annotation": "From 189.1-2014 Table B-8"
+    },
+    {
+        "template": "189.1-2014",
         "equipment_type": "Evaporative Condenser",
         "fan_type": "Centrifugal",
         "test_fluid": "R-507A",
@@ -250,10 +206,10 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 135000,
-        "annotation": "From IECC-2015 Table C403.2.3(8)"
+        "annotation": "From 189.1-2014 Table B-8"
     },
     {
-        "template": "IECC-2015",
+        "template": "189.1-2014",
         "equipment_type": "Evaporative Condenser",
         "fan_type": "Propeller or Axial",
         "test_fluid": "R-507A",
@@ -261,32 +217,10 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 157000,
-        "annotation": "From IECC-2015 Table C403.2.3(8)"
+        "annotation": "From 189.1-2014 Table B-8"
     },
     {
-        "template": "IECC-2015",
-        "equipment_type": "Evaporative Condenser",
-        "fan_type": "Centrifugal",
-        "test_fluid": "Ammonia",
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": null,
-        "minimum_performance_btu_per_hr_per_hp": 110000,
-        "annotation": "From IECC-2015 Table C403.2.3(8)"
-    },
-    {
-        "template": "IECC-2015",
-        "equipment_type": "Evaporative Condenser",
-        "fan_type": "Propeller or Axial",
-        "test_fluid": "Ammonia",
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": null,
-        "minimum_performance_btu_per_hr_per_hp": 134000,
-        "annotation": "From IECC-2015 Table C403.2.3(8)"
-    },
-    {
-        "template": "IECC-2015",
+        "template": "189.1-2014",
         "equipment_type": "Air Cooled Condensers",
         "fan_type": null,
         "test_fluid": null,
@@ -294,10 +228,10 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 176000,
-        "annotation": "From IECC-2015 Table C403.2.3(8)"
+        "annotation": "From 189.1-2014 Table B-8"
     },
     {
-        "template": "IECC-2015",
+        "template": "189.1-2014",
         "equipment_type": "Dry Cooler",
         "fan_type": "Propeller or Axial",
         "test_fluid": null,
@@ -305,43 +239,43 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 4,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "NOTE: Not required by code. Value provided by 90.1 Mechanical Subcommittee"
+        "annotation": "Not required by Bode. Value provided by 90.1 MeBhaniBal SubBommittee"
     },
     {
-        "template": "IECC-2018",
+        "template": "189.1-2017",
         "equipment_type": "Open Cooling Tower",
         "fan_type": "Centrifugal",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 20,
+        "minimum_performance_gpm_per_hp": 22,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2018 Table C403.2.3(8)"
+        "annotation": "From 189.1-2017 Table B-7"
     },
     {
-        "template": "IECC-2018",
+        "template": "189.1-2017",
         "equipment_type": "Open Cooling Tower",
         "fan_type": "Propeller or Axial",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 40.2,
+        "minimum_performance_gpm_per_hp": 42.1,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2018 Table C403.2.3(8)"
+        "annotation": "From 189.1-2017 Table B-7"
     },
     {
-        "template": "IECC-2018",
+        "template": "189.1-2017",
         "equipment_type": "Closed Cooling Tower",
         "fan_type": "Centrifugal",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 7,
+        "minimum_performance_gpm_per_hp": 8,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2018 Table C403.2.3(8)"
+        "annotation": "From 189.1-2017 Table B-7"
     },
     {
-        "template": "IECC-2018",
+        "template": "189.1-2017",
         "equipment_type": "Closed Cooling Tower",
         "fan_type": "Propeller or Axial",
         "test_fluid": null,
@@ -349,10 +283,32 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 16.1,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2018 Table C403.2.3(8)"
+        "annotation": "From 189.1-2017 Table B-7"
     },
     {
-        "template": "IECC-2018",
+        "template": "189.1-2017",
+        "equipment_type": "Evaporative Condenser",
+        "fan_type": "Centrifugal",
+        "test_fluid": "Ammonia",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_performance_gpm_per_hp": null,
+        "minimum_performance_btu_per_hr_per_hp": 110000,
+        "annotation": "From 189.1-2017 Table B-7"
+    },
+    {
+        "template": "189.1-2017",
+        "equipment_type": "Evaporative Condenser",
+        "fan_type": "Propeller or Axial",
+        "test_fluid": "Ammonia",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_performance_gpm_per_hp": null,
+        "minimum_performance_btu_per_hr_per_hp": 134000,
+        "annotation": "From 189.1-2017 Table B-7"
+    },
+    {
+        "template": "189.1-2017",
         "equipment_type": "Evaporative Condenser",
         "fan_type": "Centrifugal",
         "test_fluid": "R-507A",
@@ -360,10 +316,10 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 135000,
-        "annotation": "From IECC-2018 Table C403.2.3(8)"
+        "annotation": "From 189.1-2017 Table B-7"
     },
     {
-        "template": "IECC-2018",
+        "template": "189.1-2017",
         "equipment_type": "Evaporative Condenser",
         "fan_type": "Propeller or Axial",
         "test_fluid": "R-507A",
@@ -371,32 +327,10 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 157000,
-        "annotation": "From IECC-2018 Table C403.2.3(8)"
+        "annotation": "From 189.1-2017 Table B-7"
     },
     {
-        "template": "IECC-2018",
-        "equipment_type": "Evaporative Condenser",
-        "fan_type": "Centrifugal",
-        "test_fluid": "Ammonia",
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": null,
-        "minimum_performance_btu_per_hr_per_hp": 110000,
-        "annotation": "From IECC-2018 Table C403.2.3(8)"
-    },
-    {
-        "template": "IECC-2018",
-        "equipment_type": "Evaporative Condenser",
-        "fan_type": "Propeller or Axial",
-        "test_fluid": "Ammonia",
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": null,
-        "minimum_performance_btu_per_hr_per_hp": 134000,
-        "annotation": "From IECC-2018 Table C403.2.3(8)"
-    },
-    {
-        "template": "IECC-2018",
+        "template": "189.1-2017",
         "equipment_type": "Air Cooled Condensers",
         "fan_type": null,
         "test_fluid": null,
@@ -404,10 +338,10 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 176000,
-        "annotation": "From IECC-2018 Table C403.2.3(8)"
+        "annotation": "From 189.1-2017 Table B-7"
     },
     {
-        "template": "IECC-2018",
+        "template": "189.1-2017",
         "equipment_type": "Dry Cooler",
         "fan_type": "Propeller or Axial",
         "test_fluid": null,
@@ -415,153 +349,43 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 4,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "NOTE Not required by code. Value provided by 90.1 Mechanical Subcommittee"
+        "annotation": "Not required by Bode. Value provided by 90.1 MeBhaniBal SubBommittee"
     },
     {
-        "template": "IECC-2021",
+        "template": "189.1-2020",
         "equipment_type": "Open Cooling Tower",
         "fan_type": "Centrifugal",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 20,
+        "minimum_performance_gpm_per_hp": 22,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2021 Table C403.2.3(7)"
+        "annotation": "From 189.1-2020 Table B-7"
     },
     {
-        "template": "IECC-2021",
+        "template": "189.1-2020",
         "equipment_type": "Open Cooling Tower",
         "fan_type": "Propeller or Axial",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 40.2,
+        "minimum_performance_gpm_per_hp": 42.1,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2021 Table C403.2.3(7)"
+        "annotation": "From 189.1-2020 Table B-7"
     },
     {
-        "template": "IECC-2021",
+        "template": "189.1-2020",
         "equipment_type": "Closed Cooling Tower",
         "fan_type": "Centrifugal",
         "test_fluid": null,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 7,
+        "minimum_performance_gpm_per_hp": 8,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2021 Table C403.2.3(7)"
+        "annotation": "From 189.1-2020 Table B-7"
     },
     {
-        "template": "IECC-2021",
-        "equipment_type": "Closed Cooling Tower",
-        "fan_type": "Propeller or Axial",
-        "test_fluid": null,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 16.1,
-        "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2021 Table C403.2.3(7)"
-    },
-    {
-        "template": "IECC-2021",
-        "equipment_type": "Evaporative Condenser",
-        "fan_type": "Centrifugal",
-        "test_fluid": "R-448A",
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": null,
-        "minimum_performance_btu_per_hr_per_hp": 137000,
-        "annotation": "From IECC-2021 Table C403.2.3(7)"
-    },
-    {
-        "template": "IECC-2021",
-        "equipment_type": "Evaporative Condenser",
-        "fan_type": "Propeller or Axial",
-        "test_fluid": "R-448A",
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": null,
-        "minimum_performance_btu_per_hr_per_hp": 160000,
-        "annotation": "From IECC-2021 Table C403.2.3(7)"
-    },
-    {
-        "template": "IECC-2021",
-        "equipment_type": "Evaporative Condenser",
-        "fan_type": "Centrifugal",
-        "test_fluid": "Ammonia",
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": null,
-        "minimum_performance_btu_per_hr_per_hp": 110000,
-        "annotation": "From IECC-2021 Table C403.2.3(7)"
-    },
-    {
-        "template": "IECC-2021",
-        "equipment_type": "Evaporative Condenser",
-        "fan_type": "Propeller or Axial",
-        "test_fluid": "Ammonia",
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": null,
-        "minimum_performance_btu_per_hr_per_hp": 134000,
-        "annotation": "From IECC-2021 Table C403.2.3(7)"
-    },
-    {
-        "template": "IECC-2021",
-        "equipment_type": "Air Cooled Condensers",
-        "fan_type": null,
-        "test_fluid": null,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": null,
-        "minimum_performance_btu_per_hr_per_hp": 176000,
-        "annotation": "From IECC-2021 Table C403.2.3(7)"
-    },
-    {
-        "template": "IECC-2021",
-        "equipment_type": "Dry Cooler",
-        "fan_type": "Propeller or Axial",
-        "test_fluid": null,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 4.5,
-        "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2021 Table C403.2.3(7)"
-    },
-    {
-        "template": "IECC-2024",
-        "equipment_type": "Open Cooling Tower",
-        "fan_type": "Centrifugal",
-        "test_fluid": null,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 20,
-        "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2024 Table C403.2.3(7)"
-    },
-    {
-        "template": "IECC-2024",
-        "equipment_type": "Open Cooling Tower",
-        "fan_type": "Propeller or Axial",
-        "test_fluid": null,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 40.2,
-        "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2024 Table C403.2.3(7)"
-    },
-    {
-        "template": "IECC-2024",
-        "equipment_type": "Closed Cooling Tower",
-        "fan_type": "Centrifugal",
-        "test_fluid": null,
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": 7,
-        "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2024 Table C403.2.3(7)"
-    },
-    {
-        "template": "IECC-2024",
+        "template": "189.1-2020",
         "equipment_type": "Closed Cooling Tower",
         "fan_type": "Propeller or Axial",
         "test_fluid": null,
@@ -569,32 +393,10 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 16.1,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2024 Table C403.2.3(7)"
+        "annotation": "From 189.1-2020 Table B-7"
     },
     {
-        "template": "IECC-2024",
-        "equipment_type": "Evaporative Condenser",
-        "fan_type": "Centrifugal",
-        "test_fluid": "R-448A",
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": null,
-        "minimum_performance_btu_per_hr_per_hp": 137000,
-        "annotation": "From IECC-2024 Table C403.2.3(7)"
-    },
-    {
-        "template": "IECC-2024",
-        "equipment_type": "Evaporative Condenser",
-        "fan_type": "Propeller or Axial",
-        "test_fluid": "R-448A",
-        "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
-        "minimum_performance_gpm_per_hp": null,
-        "minimum_performance_btu_per_hr_per_hp": 160000,
-        "annotation": "From IECC-2024 Table C403.2.3(7)"
-    },
-    {
-        "template": "IECC-2024",
+        "template": "189.1-2020",
         "equipment_type": "Evaporative Condenser",
         "fan_type": "Centrifugal",
         "test_fluid": "Ammonia",
@@ -602,10 +404,10 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 110000,
-        "annotation": "From IECC-2024 Table C403.2.3(7)"
+        "annotation": "From 189.1-2020 Table B-7"
     },
     {
-        "template": "IECC-2024",
+        "template": "189.1-2020",
         "equipment_type": "Evaporative Condenser",
         "fan_type": "Propeller or Axial",
         "test_fluid": "Ammonia",
@@ -613,10 +415,32 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 134000,
-        "annotation": "From IECC-2024 Table C403.2.3(7)"
+        "annotation": "From 189.1-2020 Table B-7"
     },
     {
-        "template": "IECC-2024",
+        "template": "189.1-2020",
+        "equipment_type": "Evaporative Condenser",
+        "fan_type": "Centrifugal",
+        "test_fluid": "R-507A",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_performance_gpm_per_hp": null,
+        "minimum_performance_btu_per_hr_per_hp": 135000,
+        "annotation": "From 189.1-2020 Table B-7"
+    },
+    {
+        "template": "189.1-2020",
+        "equipment_type": "Evaporative Condenser",
+        "fan_type": "Propeller or Axial",
+        "test_fluid": "R-507A",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_performance_gpm_per_hp": null,
+        "minimum_performance_btu_per_hr_per_hp": 157000,
+        "annotation": "From 189.1-2020 Table B-7"
+    },
+    {
+        "template": "189.1-2020",
         "equipment_type": "Air Cooled Condensers",
         "fan_type": null,
         "test_fluid": null,
@@ -624,10 +448,120 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": null,
         "minimum_performance_btu_per_hr_per_hp": 176000,
-        "annotation": "From IECC-2024 Table C403.2.3(7)"
+        "annotation": "From 189.1-2020 Table B-7"
     },
     {
-        "template": "IECC-2024",
+        "template": "189.1-2020",
+        "equipment_type": "Dry Cooler",
+        "fan_type": "Propeller or Axial",
+        "test_fluid": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_performance_gpm_per_hp": 4,
+        "minimum_performance_btu_per_hr_per_hp": null,
+        "annotation": "Not required by Bode. Value provided by 90.1 MeBhaniBal SubBommittee"
+    },
+    {
+        "template": "189.1-2023",
+        "equipment_type": "Open Cooling Tower",
+        "fan_type": "Centrifugal",
+        "test_fluid": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_performance_gpm_per_hp": 20,
+        "minimum_performance_btu_per_hr_per_hp": null,
+        "annotation": "From 90.1-2022 Table 6.8.1-7"
+    },
+    {
+        "template": "189.1-2023",
+        "equipment_type": "Open Cooling Tower",
+        "fan_type": "Propeller or Axial",
+        "test_fluid": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_performance_gpm_per_hp": 40.2,
+        "minimum_performance_btu_per_hr_per_hp": null,
+        "annotation": "From 90.1-2022 Table 6.8.1-7"
+    },
+    {
+        "template": "189.1-2023",
+        "equipment_type": "Closed Cooling Tower",
+        "fan_type": "Centrifugal",
+        "test_fluid": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_performance_gpm_per_hp": 7,
+        "minimum_performance_btu_per_hr_per_hp": null,
+        "annotation": "From 90.1-2022 Table 6.8.1-7"
+    },
+    {
+        "template": "189.1-2023",
+        "equipment_type": "Closed Cooling Tower",
+        "fan_type": "Propeller or Axial",
+        "test_fluid": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_performance_gpm_per_hp": 16.1,
+        "minimum_performance_btu_per_hr_per_hp": null,
+        "annotation": "From 90.1-2022 Table 6.8.1-7"
+    },
+    {
+        "template": "189.1-2023",
+        "equipment_type": "Evaporative Condenser",
+        "fan_type": "Centrifugal",
+        "test_fluid": "R-448A",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_performance_gpm_per_hp": null,
+        "minimum_performance_btu_per_hr_per_hp": 137000,
+        "annotation": "From 90.1-2022 Table 6.8.1-7"
+    },
+    {
+        "template": "189.1-2023",
+        "equipment_type": "Evaporative Condenser",
+        "fan_type": "Propeller or Axial",
+        "test_fluid": "R-448A",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_performance_gpm_per_hp": null,
+        "minimum_performance_btu_per_hr_per_hp": 160000,
+        "annotation": "From 90.1-2022 Table 6.8.1-7"
+    },
+    {
+        "template": "189.1-2023",
+        "equipment_type": "Evaporative Condenser",
+        "fan_type": "Centrifugal",
+        "test_fluid": "Ammonia",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_performance_gpm_per_hp": null,
+        "minimum_performance_btu_per_hr_per_hp": 110000,
+        "annotation": "From 90.1-2022 Table 6.8.1-7"
+    },
+    {
+        "template": "189.1-2023",
+        "equipment_type": "Evaporative Condenser",
+        "fan_type": "Propeller or Axial",
+        "test_fluid": "Ammonia",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_performance_gpm_per_hp": null,
+        "minimum_performance_btu_per_hr_per_hp": 134000,
+        "annotation": "From 90.1-2022 Table 6.8.1-7"
+    },
+    {
+        "template": "189.1-2023",
+        "equipment_type": "Air Cooled Condensers",
+        "fan_type": null,
+        "test_fluid": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_performance_gpm_per_hp": null,
+        "minimum_performance_btu_per_hr_per_hp": 176000,
+        "annotation": "From 90.1-2022 Table 6.8.1-7"
+    },
+    {
+        "template": "189.1-2023",
         "equipment_type": "Dry Cooler",
         "fan_type": "Propeller or Axial",
         "test_fluid": null,
@@ -635,6 +569,6 @@
         "end_date": "9/9/2999",
         "minimum_performance_gpm_per_hp": 4.5,
         "minimum_performance_btu_per_hr_per_hp": null,
-        "annotation": "From IECC-2024 Table C403.2.3(7)"
+        "annotation": "From 90.1-2022 Table 6.8.1-7"
     }
 ]

@@ -26,6 +26,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -55,6 +57,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -84,6 +88,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -113,6 +119,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -142,6 +150,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -171,6 +181,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -200,6 +212,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -229,6 +243,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -258,6 +274,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -287,6 +305,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -316,6 +336,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -345,6 +367,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -374,6 +398,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -403,6 +429,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -432,6 +460,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -461,6 +491,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -490,6 +522,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -519,6 +553,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -548,6 +584,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -577,6 +615,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -606,6 +646,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": 4,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -635,6 +677,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": 12.5,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2004 Table 7.8"
     },
     {
@@ -664,6 +708,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -693,6 +739,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -722,6 +770,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -751,6 +801,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -780,6 +832,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -809,6 +863,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -838,6 +894,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -867,6 +925,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -896,6 +956,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -925,6 +987,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -954,6 +1018,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -983,6 +1049,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -1012,6 +1080,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -1041,6 +1111,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -1070,6 +1142,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -1099,6 +1173,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -1128,6 +1204,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -1157,6 +1235,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -1186,6 +1266,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -1215,6 +1297,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -1244,6 +1328,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": 4,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -1273,6 +1359,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": 12.5,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2007 Table 7.8"
     },
     {
@@ -1302,6 +1390,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -1331,6 +1421,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1360,6 +1452,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -1389,6 +1483,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1418,6 +1514,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1447,6 +1545,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -1476,6 +1576,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1505,6 +1607,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1534,6 +1638,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1563,6 +1669,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1592,6 +1700,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1621,6 +1731,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1650,6 +1762,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1679,6 +1793,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1708,6 +1824,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1737,6 +1855,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1766,6 +1886,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1795,6 +1917,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1824,6 +1948,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1853,6 +1979,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1882,6 +2010,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1911,6 +2041,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1940,6 +2072,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": 4,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1969,6 +2103,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": 12.5,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2010 Table 7.8"
     },
     {
@@ -1998,6 +2134,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -2027,6 +2165,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8"
     },
     {
@@ -2056,6 +2196,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -2085,6 +2227,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8"
     },
     {
@@ -2114,6 +2258,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8"
     },
     {
@@ -2143,6 +2289,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -2172,6 +2320,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8"
     },
     {
@@ -2201,6 +2351,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8; Errata"
     },
     {
@@ -2230,6 +2382,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8"
     },
     {
@@ -2259,6 +2413,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8"
     },
     {
@@ -2288,6 +2444,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8; Errata"
     },
     {
@@ -2317,6 +2475,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8"
     },
     {
@@ -2346,6 +2506,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8; Errata"
     },
     {
@@ -2375,6 +2537,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8"
     },
     {
@@ -2404,6 +2568,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8"
     },
     {
@@ -2433,6 +2599,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8; Errata"
     },
     {
@@ -2462,6 +2630,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8"
     },
     {
@@ -2491,6 +2661,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8"
     },
     {
@@ -2520,6 +2692,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8; Errata"
     },
     {
@@ -2549,6 +2723,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8; Errata"
     },
     {
@@ -2578,6 +2754,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8"
     },
     {
@@ -2607,6 +2785,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8"
     },
     {
@@ -2636,6 +2816,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": 4,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8"
     },
     {
@@ -2665,6 +2847,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": 12.5,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2013 Table 7.8"
     },
     {
@@ -2694,6 +2878,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -2723,6 +2909,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8 and Table F-2"
     },
     {
@@ -2752,6 +2940,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -2781,6 +2971,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8 and Table F-2"
     },
     {
@@ -2810,6 +3002,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8 and Table F-2"
     },
     {
@@ -2839,6 +3033,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8"
     },
     {
@@ -2868,6 +3064,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -2897,6 +3095,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8 and Table F-2"
     },
     {
@@ -2926,6 +3126,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8 and Table F-2"
     },
     {
@@ -2955,6 +3157,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8"
     },
     {
@@ -2984,6 +3188,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8 and Table F-2"
     },
     {
@@ -3013,6 +3219,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8"
     },
     {
@@ -3042,6 +3250,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8"
     },
     {
@@ -3071,6 +3281,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8 and Table F-2"
     },
     {
@@ -3100,6 +3312,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8"
     },
     {
@@ -3129,6 +3343,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8 and Table F-2; Assumed same requirement as instantaneous gas-fired water heater"
     },
     {
@@ -3158,6 +3374,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8"
     },
     {
@@ -3187,6 +3405,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8"
     },
     {
@@ -3216,6 +3436,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8"
     },
     {
@@ -3245,6 +3467,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8"
     },
     {
@@ -3274,6 +3498,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8"
     },
     {
@@ -3303,6 +3529,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8"
     },
     {
@@ -3332,6 +3560,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8 and Table F-2; Assumed same requirement as instantaneous gas-fired water heater"
     },
     {
@@ -3361,6 +3591,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8 and Table F-2; Assumed same requirement as instantaneous gas-fired water heater"
     },
     {
@@ -3390,6 +3622,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": 4,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8"
     },
     {
@@ -3419,6 +3653,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": 12.5,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2016 Table 7.8"
     },
     {
@@ -3448,6 +3684,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -3477,6 +3715,8 @@
         "uniform_energy_factor_volume_allowance": 0.0058,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3506,6 +3746,8 @@
         "uniform_energy_factor_volume_allowance": 0.0031,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3535,6 +3777,8 @@
         "uniform_energy_factor_volume_allowance": 0.0023,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3564,6 +3808,8 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3593,6 +3839,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -3622,6 +3870,8 @@
         "uniform_energy_factor_volume_allowance": 0.0008,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3651,6 +3901,8 @@
         "uniform_energy_factor_volume_allowance": 0.0003,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3680,6 +3932,8 @@
         "uniform_energy_factor_volume_allowance": 0.0002,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3709,6 +3963,8 @@
         "uniform_energy_factor_volume_allowance": 0.0001,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3738,6 +3994,8 @@
         "uniform_energy_factor_volume_allowance": 0.0011,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3767,6 +4025,8 @@
         "uniform_energy_factor_volume_allowance": 0.0011,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3796,6 +4056,8 @@
         "uniform_energy_factor_volume_allowance": 0.0011,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3825,6 +4087,8 @@
         "uniform_energy_factor_volume_allowance": 0.0011,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3854,6 +4118,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3883,6 +4149,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3912,6 +4180,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3941,6 +4211,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3970,6 +4242,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -3999,6 +4273,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4028,6 +4304,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4057,6 +4335,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4086,6 +4366,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4115,6 +4397,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -4144,6 +4428,8 @@
         "uniform_energy_factor_volume_allowance": 0.002,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -4173,6 +4459,8 @@
         "uniform_energy_factor_volume_allowance": 0.0019,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -4202,6 +4490,8 @@
         "uniform_energy_factor_volume_allowance": 0.0017,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -4231,6 +4521,8 @@
         "uniform_energy_factor_volume_allowance": 0.0013,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -4260,6 +4552,8 @@
         "uniform_energy_factor_volume_allowance": 0.0006,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -4289,6 +4583,8 @@
         "uniform_energy_factor_volume_allowance": 0.0005,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -4318,6 +4614,8 @@
         "uniform_energy_factor_volume_allowance": 0.0004,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -4347,6 +4645,8 @@
         "uniform_energy_factor_volume_allowance": 0.0003,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -4376,6 +4676,8 @@
         "uniform_energy_factor_volume_allowance": 0.0009,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4405,6 +4707,8 @@
         "uniform_energy_factor_volume_allowance": 0.0012,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4434,6 +4738,8 @@
         "uniform_energy_factor_volume_allowance": 0.0011,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4463,6 +4769,8 @@
         "uniform_energy_factor_volume_allowance": 0.0009,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4492,6 +4800,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4521,6 +4831,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -4550,6 +4862,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -4579,6 +4893,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -4608,6 +4924,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -4637,6 +4955,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4666,6 +4986,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4695,6 +5017,8 @@
         "uniform_energy_factor_volume_allowance": 0.0012,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -4724,6 +5048,8 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -4753,6 +5079,8 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -4782,6 +5110,8 @@
         "uniform_energy_factor_volume_allowance": 0.0014,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8 and Table F-2"
     },
     {
@@ -4811,6 +5141,8 @@
         "uniform_energy_factor_volume_allowance": 0.0015,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4840,6 +5172,8 @@
         "uniform_energy_factor_volume_allowance": 0.0018,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4869,6 +5203,8 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4898,6 +5234,8 @@
         "uniform_energy_factor_volume_allowance": 0.0013,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4927,6 +5265,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4956,6 +5296,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -4985,6 +5327,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -5014,6 +5358,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -5043,6 +5389,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -5072,6 +5420,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -5101,6 +5451,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -5130,6 +5482,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -5159,6 +5513,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -5188,6 +5544,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": 4,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -5217,6 +5575,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": 12.5,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2019 Table 7.8"
     },
     {
@@ -5246,6 +5606,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -5275,6 +5637,8 @@
         "uniform_energy_factor_volume_allowance": 0.0058,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5304,6 +5668,8 @@
         "uniform_energy_factor_volume_allowance": 0.0031,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5333,6 +5699,8 @@
         "uniform_energy_factor_volume_allowance": 0.0023,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5362,6 +5730,8 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5391,6 +5761,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -5420,6 +5792,8 @@
         "uniform_energy_factor_volume_allowance": 0.0008,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5449,6 +5823,8 @@
         "uniform_energy_factor_volume_allowance": 0.0003,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5478,6 +5854,8 @@
         "uniform_energy_factor_volume_allowance": 0.0002,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5507,6 +5885,8 @@
         "uniform_energy_factor_volume_allowance": 0.0001,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5536,6 +5916,8 @@
         "uniform_energy_factor_volume_allowance": 0.0011,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5565,6 +5947,8 @@
         "uniform_energy_factor_volume_allowance": 0.0011,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5594,6 +5978,8 @@
         "uniform_energy_factor_volume_allowance": 0.0011,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5623,6 +6009,8 @@
         "uniform_energy_factor_volume_allowance": 0.0011,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5652,6 +6040,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5681,6 +6071,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5710,6 +6102,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5739,6 +6133,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5768,6 +6164,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5797,6 +6195,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -5826,6 +6226,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -5855,6 +6257,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -5884,6 +6288,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -5913,6 +6319,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
     {
@@ -5942,6 +6350,8 @@
         "uniform_energy_factor_volume_allowance": 0.002,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -5971,6 +6381,8 @@
         "uniform_energy_factor_volume_allowance": 0.0019,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -6000,6 +6412,8 @@
         "uniform_energy_factor_volume_allowance": 0.0017,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -6029,6 +6443,8 @@
         "uniform_energy_factor_volume_allowance": 0.0013,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -6058,6 +6474,8 @@
         "uniform_energy_factor_volume_allowance": 0.0006,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -6087,6 +6505,8 @@
         "uniform_energy_factor_volume_allowance": 0.0005,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -6116,6 +6536,8 @@
         "uniform_energy_factor_volume_allowance": 0.0004,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -6145,6 +6567,8 @@
         "uniform_energy_factor_volume_allowance": 0.0003,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -6174,6 +6598,8 @@
         "uniform_energy_factor_volume_allowance": 0.0009,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6203,6 +6629,8 @@
         "uniform_energy_factor_volume_allowance": 0.0012,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6232,6 +6660,8 @@
         "uniform_energy_factor_volume_allowance": 0.0011,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6261,6 +6691,8 @@
         "uniform_energy_factor_volume_allowance": 0.0009,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6290,6 +6722,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6319,6 +6753,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -6348,6 +6784,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -6377,6 +6815,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -6406,6 +6846,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -6435,6 +6877,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6464,6 +6908,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6493,6 +6939,8 @@
         "uniform_energy_factor_volume_allowance": 0.0012,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -6522,6 +6970,8 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -6551,6 +7001,8 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -6580,6 +7032,8 @@
         "uniform_energy_factor_volume_allowance": 0.0014,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4 and Table F-2"
     },
     {
@@ -6609,6 +7063,8 @@
         "uniform_energy_factor_volume_allowance": 0.0015,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6638,6 +7094,8 @@
         "uniform_energy_factor_volume_allowance": 0.0018,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6667,6 +7125,8 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6696,6 +7156,8 @@
         "uniform_energy_factor_volume_allowance": 0.0013,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6725,6 +7187,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6754,6 +7218,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6783,6 +7249,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6812,6 +7280,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6841,6 +7311,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6870,6 +7342,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6899,6 +7373,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6928,6 +7404,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6957,6 +7435,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -6986,6 +7466,8 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": 4,
         "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
     },
     {
@@ -7015,6 +7497,1930 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": 12.5,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
         "annotation": "From 90.1-2022 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Table Top Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 0,
+        "maximum_storage": 19.99,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": 0.93,
+        "energy_factor_volume_derate": 0.00132,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Table Top Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 20,
+        "maximum_storage": 120,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": "very small",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.6323,
+        "uniform_energy_factor_volume_allowance": 0.0058,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Table Top Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 20,
+        "maximum_storage": 120,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": "low",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.9188,
+        "uniform_energy_factor_volume_allowance": 0.0031,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Table Top Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 20,
+        "maximum_storage": 120,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": "medium",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.9577,
+        "uniform_energy_factor_volume_allowance": 0.0023,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Table Top Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 20,
+        "maximum_storage": 120,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": "high",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.9884,
+        "uniform_energy_factor_volume_allowance": 0.0016,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 0,
+        "maximum_storage": 19.99,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": 0.93,
+        "energy_factor_volume_derate": 0.00132,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 20,
+        "maximum_storage": 55,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": "very small",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.8808,
+        "uniform_energy_factor_volume_allowance": 0.0008,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 20,
+        "maximum_storage": 55,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": "low",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.9254,
+        "uniform_energy_factor_volume_allowance": 0.0003,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 20,
+        "maximum_storage": 55,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": "medium",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.9307,
+        "uniform_energy_factor_volume_allowance": 0.0002,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 20,
+        "maximum_storage": 55,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": "high",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.9349,
+        "uniform_energy_factor_volume_allowance": 0.0001,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 55.01,
+        "maximum_storage": 120,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": "very small",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 1.9236,
+        "uniform_energy_factor_volume_allowance": 0.0011,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 55.01,
+        "maximum_storage": 120,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": "low",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 2.044,
+        "uniform_energy_factor_volume_allowance": 0.0011,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 55.01,
+        "maximum_storage": 120,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": "medium",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 2.1171,
+        "uniform_energy_factor_volume_allowance": 0.0011,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 55.01,
+        "maximum_storage": 120,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": "high",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 2.2418,
+        "uniform_energy_factor_volume_allowance": 0.0011,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 40944.01,
+        "maximum_capacity": 99999999,
+        "minimum_storage": null,
+        "maximum_storage": null,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": 0.3,
+        "hourly_loss_volume_allowance": 27,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 0,
+        "maximum_storage": 1.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": "very small",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": 0.91,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 0,
+        "maximum_storage": 1.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": "low",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": 0.91,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 0,
+        "maximum_storage": 1.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": "medium",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": 0.91,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 0,
+        "maximum_capacity": 40944,
+        "minimum_storage": 0,
+        "maximum_storage": 1.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": "high",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": 0.92,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 40944.01,
+        "maximum_capacity": 199943.2,
+        "minimum_storage": 0,
+        "maximum_storage": 1.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": "very small",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": 0.8,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 40944.01,
+        "maximum_capacity": 199943.2,
+        "minimum_storage": 0,
+        "maximum_storage": 1.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": "low",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": 0.8,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 40944.01,
+        "maximum_capacity": 199943.2,
+        "minimum_storage": 0,
+        "maximum_storage": 1.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": "medium",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": 0.8,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "Electricity",
+        "minimum_capacity": 40944.01,
+        "maximum_capacity": 199943.2,
+        "minimum_storage": 0,
+        "maximum_storage": 1.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": "high",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": 0.8,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 0,
+        "maximum_capacity": 75000,
+        "minimum_storage": 0,
+        "maximum_storage": 19.99,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": 0.62,
+        "energy_factor_volume_derate": 0.0019,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 0,
+        "maximum_capacity": 75000,
+        "minimum_storage": 20,
+        "maximum_storage": 55,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "very small",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.3456,
+        "uniform_energy_factor_volume_allowance": 0.002,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 0,
+        "maximum_capacity": 75000,
+        "minimum_storage": 20,
+        "maximum_storage": 55,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "low",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.5982,
+        "uniform_energy_factor_volume_allowance": 0.0019,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 0,
+        "maximum_capacity": 75000,
+        "minimum_storage": 20,
+        "maximum_storage": 55,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "medium",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.6483,
+        "uniform_energy_factor_volume_allowance": 0.0017,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 0,
+        "maximum_capacity": 75000,
+        "minimum_storage": 20,
+        "maximum_storage": 55,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "high",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.692,
+        "uniform_energy_factor_volume_allowance": 0.0013,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 0,
+        "maximum_capacity": 75000,
+        "minimum_storage": 55.01,
+        "maximum_storage": 100,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "very small",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.647,
+        "uniform_energy_factor_volume_allowance": 0.0006,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 0,
+        "maximum_capacity": 75000,
+        "minimum_storage": 55.01,
+        "maximum_storage": 100,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "low",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.7689,
+        "uniform_energy_factor_volume_allowance": 0.0005,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 0,
+        "maximum_capacity": 75000,
+        "minimum_storage": 55.01,
+        "maximum_storage": 100,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "medium",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.7897,
+        "uniform_energy_factor_volume_allowance": 0.0004,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 0,
+        "maximum_capacity": 75000,
+        "minimum_storage": 55.01,
+        "maximum_storage": 100,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "high",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.8072,
+        "uniform_energy_factor_volume_allowance": 0.0003,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 75000.01,
+        "maximum_capacity": 105000,
+        "minimum_storage": 0,
+        "maximum_storage": 120,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "very small",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.2674,
+        "uniform_energy_factor_volume_allowance": 0.0009,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 75000.01,
+        "maximum_capacity": 105000,
+        "minimum_storage": 0,
+        "maximum_storage": 120,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "low",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.5362,
+        "uniform_energy_factor_volume_allowance": 0.0012,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 75000.01,
+        "maximum_capacity": 105000,
+        "minimum_storage": 0,
+        "maximum_storage": 120,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "medium",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.6002,
+        "uniform_energy_factor_volume_allowance": 0.0011,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 75000.01,
+        "maximum_capacity": 105000,
+        "minimum_storage": 0,
+        "maximum_storage": 120,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "high",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.6597,
+        "uniform_energy_factor_volume_allowance": 0.0009,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 105000.01,
+        "maximum_capacity": 99999999,
+        "minimum_storage": null,
+        "maximum_storage": null,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": 800,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": 110,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": 0.8,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 50000.01,
+        "maximum_capacity": 199999.99,
+        "minimum_storage": 0,
+        "maximum_storage": 1.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": "very small",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": 0.8,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 50000.01,
+        "maximum_capacity": 199999.99,
+        "minimum_storage": 0,
+        "maximum_storage": 1.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": "low",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": 0.81,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 50000.01,
+        "maximum_capacity": 199999.99,
+        "minimum_storage": 0,
+        "maximum_storage": 1.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": "medium",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": 0.81,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 50000.01,
+        "maximum_capacity": 199999.99,
+        "minimum_storage": 0,
+        "maximum_storage": 1.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": "high",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": 0.81,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 200000,
+        "maximum_capacity": 99999999,
+        "minimum_storage": 0,
+        "maximum_storage": 9.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": 0.8,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 200000,
+        "maximum_capacity": 99999999,
+        "minimum_storage": 10,
+        "maximum_storage": 99999999,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": 800,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": 110,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": 0.8,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Oil",
+        "minimum_capacity": 0,
+        "maximum_capacity": 105000,
+        "minimum_storage": 0,
+        "maximum_storage": 50,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "very small",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.2509,
+        "uniform_energy_factor_volume_allowance": 0.0012,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Oil",
+        "minimum_capacity": 0,
+        "maximum_capacity": 105000,
+        "minimum_storage": 0,
+        "maximum_storage": 50,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "low",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.533,
+        "uniform_energy_factor_volume_allowance": 0.0016,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Oil",
+        "minimum_capacity": 0,
+        "maximum_capacity": 105000,
+        "minimum_storage": 0,
+        "maximum_storage": 50,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "medium",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.6078,
+        "uniform_energy_factor_volume_allowance": 0.0016,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Oil",
+        "minimum_capacity": 0,
+        "maximum_capacity": 105000,
+        "minimum_storage": 0,
+        "maximum_storage": 50,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "high",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.6815,
+        "uniform_energy_factor_volume_allowance": 0.0014,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4 and Table F-2"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Oil",
+        "minimum_capacity": 105000.01,
+        "maximum_capacity": 140000,
+        "minimum_storage": 50.01,
+        "maximum_storage": 120,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "very small",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.2932,
+        "uniform_energy_factor_volume_allowance": 0.0015,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Oil",
+        "minimum_capacity": 105000.01,
+        "maximum_capacity": 140000,
+        "minimum_storage": 50.01,
+        "maximum_storage": 120,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "low",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.5596,
+        "uniform_energy_factor_volume_allowance": 0.0018,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Oil",
+        "minimum_capacity": 105000.01,
+        "maximum_capacity": 140000,
+        "minimum_storage": 50.01,
+        "maximum_storage": 120,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "medium",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.6194,
+        "uniform_energy_factor_volume_allowance": 0.0016,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Oil",
+        "minimum_capacity": 105000.01,
+        "maximum_capacity": 140000,
+        "minimum_storage": 50.01,
+        "maximum_storage": 120,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": "high",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": 0.674,
+        "uniform_energy_factor_volume_allowance": 0.0013,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Storage Water Heaters",
+        "fuel_type": "Oil",
+        "minimum_capacity": 140000.01,
+        "maximum_capacity": 99999999,
+        "minimum_storage": null,
+        "maximum_storage": null,
+        "minimum_capacity_per_storage": 0,
+        "maximum_capacity_per_storage": 3999.99,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": 800,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": 110,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": 0.8,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "Oil",
+        "minimum_capacity": 0,
+        "maximum_capacity": 210000,
+        "minimum_storage": 0,
+        "maximum_storage": 1.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": 0.59,
+        "energy_factor_volume_derate": 0.0005,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": 0.8,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "Oil",
+        "minimum_capacity": 210000.01,
+        "maximum_capacity": 99999999,
+        "minimum_storage": 0,
+        "maximum_storage": 9.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": 0.8,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Instantaneous Water Heaters",
+        "fuel_type": "Oil",
+        "minimum_capacity": 210000.01,
+        "maximum_capacity": 99999999,
+        "minimum_storage": 10,
+        "maximum_storage": 99999999,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": 800,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": 110,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": 0.78,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Hot Water Supply Boiler",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 300000,
+        "maximum_capacity": 12499999.99,
+        "minimum_storage": 0,
+        "maximum_storage": 9.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": 0.8,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Hot Water Supply Boiler",
+        "fuel_type": "Oil",
+        "minimum_capacity": 300000,
+        "maximum_capacity": 12499999.99,
+        "minimum_storage": 0,
+        "maximum_storage": 9.99,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": 0.8,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Hot Water Supply Boiler",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": 300000,
+        "maximum_capacity": 12499999.99,
+        "minimum_storage": 10,
+        "maximum_storage": 99999999,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": 800,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": 110,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": 0.8,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Hot Water Supply Boiler",
+        "fuel_type": "Oil",
+        "minimum_capacity": 300000,
+        "maximum_capacity": 12499999.99,
+        "minimum_storage": 10,
+        "maximum_storage": 99999999,
+        "minimum_capacity_per_storage": 4000,
+        "maximum_capacity_per_storage": 99999999,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": 800,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": 110,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": 0.78,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Pool Heater",
+        "fuel_type": "NaturalGas",
+        "minimum_capacity": null,
+        "maximum_capacity": null,
+        "minimum_storage": null,
+        "maximum_storage": null,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": 0.82,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Heat Pump Pool Heater",
+        "fuel_type": "Electricity",
+        "minimum_capacity": null,
+        "maximum_capacity": null,
+        "minimum_storage": null,
+        "maximum_storage": null,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": 4,
+        "r_value": null,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
+    },
+    {
+        "template": "90.1-PRM-2025",
+        "equipment_type": "Unfired Storage Tank",
+        "fuel_type": "None",
+        "minimum_capacity": null,
+        "maximum_capacity": null,
+        "minimum_storage": null,
+        "maximum_storage": null,
+        "minimum_capacity_per_storage": null,
+        "maximum_capacity_per_storage": null,
+        "draw_profile": null,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "energy_factor_base": null,
+        "energy_factor_volume_derate": null,
+        "standby_loss_base": null,
+        "standby_loss_capacity_allowance": null,
+        "standby_loss_volume_allowance": null,
+        "standby_loss_square_root_volume_allowance": null,
+        "hourly_loss_base": null,
+        "hourly_loss_volume_allowance": null,
+        "thermal_efficiency": null,
+        "uniform_energy_factor": null,
+        "uniform_energy_factor_base": null,
+        "uniform_energy_factor_volume_allowance": null,
+        "cop": null,
+        "r_value": 12.5,
+        "first_hour_rating_gallon": null,
+        "solar_energy_factor": null,
+        "annotation": "From 90.1-2025 Table 7.4"
     }
 ]
