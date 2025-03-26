@@ -32,6 +32,8 @@ uniform_energy_factor_base: NUMERIC
 uniform_energy_factor_volume_allowance: NUMERIC
 cop: NUMERIC
 r_value: NUMERIC
+first_hour_rating: NUMERIC
+solar_energy_factor: NUMERIC
 annotation: TEXT (optional)
 """
 
@@ -64,6 +66,8 @@ uniform_energy_factor_base NUMERIC,
 uniform_energy_factor_volume_allowance NUMERIC,
 cop NUMERIC,
 r_value NUMERIC,
+first_hour_rating NUMERIC,
+solar_energy_factor NUMERIC,
 annotation TEXT);
 """
 
@@ -95,9 +99,11 @@ uniform_energy_factor_base,
 uniform_energy_factor_volume_allowance,
 cop,
 r_value,
+first_hour_rating,
+solar_energy_factor,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -127,6 +133,8 @@ RECORD_TEMPLATE = {
     "uniform_energy_factor_volume_allowance": 0.0,
     "cop": 0.0,
     "r_value": 0.0,
+    "first_hour_rating": 0.0,
+    "solar_energy_factor": 0.0,
     "annotation": "",
 }
 
@@ -186,6 +194,8 @@ class HVACMinimumRequirementWaterHeaters(DBOperation):
             "uniform_energy_factor_volume_allowance",
             "cop",
             "r_value",
+            "first_hour_rating",
+            "solar_energy_factor",
         ]
 
         for f in float_expected:
@@ -229,5 +239,7 @@ class HVACMinimumRequirementWaterHeaters(DBOperation):
             getattr_either("uniform_energy_factor_volume_allowance", record),
             getattr_either("cop", record),
             getattr_either("r_value", record),
+            getattr_either("first_hour_rating", record),
+            getattr_either("solar_energy_factor", record),
             getattr_either("annotation", record),
         )
