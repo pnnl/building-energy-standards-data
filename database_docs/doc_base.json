@@ -248,6 +248,8 @@
     "pthp_eer_coefficient_1": "Packaged terminal heat-pump EER coefficient 1",
     "pthp_eer_coefficient_2": "Packaged terminal heat-pump EER coefficient 2",
     "r_value": "Thermal resistance (h.ft2.F/Btu)",
+	"first_hour_rating": "First Hour Rating (Gallons)",
+	"solar_energy_factor": "Solar Energy Factor",
     "rating_condition": "Rating conditions",
     "rcr_threshold": "Room-cavity-ratio threshold",
     "region": "Region",

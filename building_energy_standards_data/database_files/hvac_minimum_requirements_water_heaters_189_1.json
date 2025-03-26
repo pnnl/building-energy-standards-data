@@ -26,7 +26,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE189.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -57,7 +57,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE189.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -88,7 +88,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE189.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -119,7 +119,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -150,7 +150,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -181,7 +181,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -212,7 +212,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE189.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -243,7 +243,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -274,7 +274,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -305,7 +305,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -336,7 +336,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -367,7 +367,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -398,7 +398,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -429,7 +429,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -460,7 +460,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -491,7 +491,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -522,7 +522,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -553,7 +553,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -584,7 +584,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -615,7 +615,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -646,7 +646,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -677,7 +677,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -708,7 +708,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -739,7 +739,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": 4,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -770,7 +770,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": 12.5,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2009 Table C-12"
     },
@@ -801,7 +801,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE189.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -832,7 +832,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE189.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -863,7 +863,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE189.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -894,7 +894,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -925,7 +925,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -956,7 +956,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -987,7 +987,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE189.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -1018,7 +1018,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1049,7 +1049,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1080,7 +1080,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1111,7 +1111,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1142,7 +1142,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1173,7 +1173,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1204,7 +1204,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1235,7 +1235,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1266,7 +1266,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1297,7 +1297,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1328,7 +1328,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1359,7 +1359,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1390,7 +1390,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1421,7 +1421,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1452,7 +1452,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1483,7 +1483,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1514,7 +1514,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": 4,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1545,7 +1545,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": 12.5,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2011 Table C-11"
     },
@@ -1576,7 +1576,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE189.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -1607,7 +1607,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -1638,7 +1638,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE189.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -1669,7 +1669,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -1700,7 +1700,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -1731,7 +1731,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -1762,7 +1762,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE189.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -1793,7 +1793,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -1824,7 +1824,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -1855,7 +1855,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -1886,7 +1886,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -1917,7 +1917,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -1948,7 +1948,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -1979,7 +1979,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -2010,7 +2010,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -2041,7 +2041,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -2072,7 +2072,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -2103,7 +2103,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -2134,7 +2134,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -2165,7 +2165,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -2196,7 +2196,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -2227,7 +2227,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -2258,7 +2258,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -2289,7 +2289,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": 4,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -2320,7 +2320,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": 12.5,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2014 Table B-9"
     },
@@ -2351,7 +2351,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -2382,7 +2382,7 @@
         "uniform_energy_factor_volume_allowance": 0.0058,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2413,7 +2413,7 @@
         "uniform_energy_factor_volume_allowance": 0.0031,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2444,7 +2444,7 @@
         "uniform_energy_factor_volume_allowance": 0.0023,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2475,7 +2475,7 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2506,7 +2506,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -2537,7 +2537,7 @@
         "uniform_energy_factor_volume_allowance": 0.0008,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2568,7 +2568,7 @@
         "uniform_energy_factor_volume_allowance": 0.0003,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2599,7 +2599,7 @@
         "uniform_energy_factor_volume_allowance": 0.0002,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2630,7 +2630,7 @@
         "uniform_energy_factor_volume_allowance": 0.0001,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2661,7 +2661,7 @@
         "uniform_energy_factor_volume_allowance": 0.0028,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2692,7 +2692,7 @@
         "uniform_energy_factor_volume_allowance": 0.0014,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2723,7 +2723,7 @@
         "uniform_energy_factor_volume_allowance": 0.001,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2754,7 +2754,7 @@
         "uniform_energy_factor_volume_allowance": 0.0007,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2785,7 +2785,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": 50,
+        "first_hour_rating": 50,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2816,7 +2816,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": 50,
+        "first_hour_rating": 50,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2847,7 +2847,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": 67,
+        "first_hour_rating": 67,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -2878,7 +2878,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": 67,
+        "first_hour_rating": 67,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2909,7 +2909,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2940,7 +2940,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -2971,7 +2971,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3002,7 +3002,7 @@
         "uniform_energy_factor_volume_allowance": 0.0012,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3033,7 +3033,7 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3064,7 +3064,7 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3095,7 +3095,7 @@
         "uniform_energy_factor_volume_allowance": 0.0014,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3126,7 +3126,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3157,7 +3157,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3188,7 +3188,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3219,7 +3219,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3250,7 +3250,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": 1.8,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3281,7 +3281,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": 1.2,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3312,7 +3312,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3343,7 +3343,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3374,7 +3374,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3405,7 +3405,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3436,7 +3436,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3467,7 +3467,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3498,7 +3498,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": 4,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3529,7 +3529,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": 12.5,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2017 Table B-8"
     },
@@ -3560,7 +3560,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -3591,7 +3591,7 @@
         "uniform_energy_factor_volume_allowance": 0.0058,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -3622,7 +3622,7 @@
         "uniform_energy_factor_volume_allowance": 0.0031,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -3653,7 +3653,7 @@
         "uniform_energy_factor_volume_allowance": 0.0023,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -3684,7 +3684,7 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -3715,7 +3715,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -3746,7 +3746,7 @@
         "uniform_energy_factor_volume_allowance": 0.0008,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -3777,7 +3777,7 @@
         "uniform_energy_factor_volume_allowance": 0.0003,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -3808,7 +3808,7 @@
         "uniform_energy_factor_volume_allowance": 0.0002,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -3839,7 +3839,7 @@
         "uniform_energy_factor_volume_allowance": 0.0001,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -3870,7 +3870,7 @@
         "uniform_energy_factor_volume_allowance": 0.0028,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -3901,7 +3901,7 @@
         "uniform_energy_factor_volume_allowance": 0.0014,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -3932,7 +3932,7 @@
         "uniform_energy_factor_volume_allowance": 0.001,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -3963,7 +3963,7 @@
         "uniform_energy_factor_volume_allowance": 0.0007,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -3994,7 +3994,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": 50,
+        "first_hour_rating": 50,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4025,7 +4025,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": 50,
+        "first_hour_rating": 50,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4056,7 +4056,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": 67,
+        "first_hour_rating": 67,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -4087,7 +4087,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": 67,
+        "first_hour_rating": 67,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4118,7 +4118,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4149,7 +4149,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4180,7 +4180,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4211,7 +4211,7 @@
         "uniform_energy_factor_volume_allowance": 0.0012,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4242,7 +4242,7 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4273,7 +4273,7 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4304,7 +4304,7 @@
         "uniform_energy_factor_volume_allowance": 0.0014,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4335,7 +4335,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4366,7 +4366,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4397,7 +4397,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4428,7 +4428,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4459,7 +4459,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": 1.8,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4490,7 +4490,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": 1.2,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4521,7 +4521,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4552,7 +4552,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4583,7 +4583,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4614,7 +4614,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4645,7 +4645,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4676,7 +4676,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4707,7 +4707,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": 4,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4738,7 +4738,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": 12.5,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2020 Table B-8"
     },
@@ -4769,7 +4769,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -4800,7 +4800,7 @@
         "uniform_energy_factor_volume_allowance": 0.0058,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -4831,7 +4831,7 @@
         "uniform_energy_factor_volume_allowance": 0.0031,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -4862,7 +4862,7 @@
         "uniform_energy_factor_volume_allowance": 0.0023,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -4893,7 +4893,7 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -4924,7 +4924,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -4955,7 +4955,7 @@
         "uniform_energy_factor_volume_allowance": 0.0008,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -4986,7 +4986,7 @@
         "uniform_energy_factor_volume_allowance": 0.0003,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5017,7 +5017,7 @@
         "uniform_energy_factor_volume_allowance": 0.0002,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5048,7 +5048,7 @@
         "uniform_energy_factor_volume_allowance": 0.0001,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5079,7 +5079,7 @@
         "uniform_energy_factor_volume_allowance": 0.0011,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5110,7 +5110,7 @@
         "uniform_energy_factor_volume_allowance": 0.0011,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5141,7 +5141,7 @@
         "uniform_energy_factor_volume_allowance": 0.0011,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5172,7 +5172,7 @@
         "uniform_energy_factor_volume_allowance": 0.0011,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5203,7 +5203,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5234,7 +5234,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5265,7 +5265,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5296,7 +5296,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5327,7 +5327,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5358,7 +5358,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -5389,7 +5389,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -5420,7 +5420,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -5451,7 +5451,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -5482,7 +5482,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "Not specified in ASHRAE90.1, follow 2022 Energy Efficiency Program for Consumer Products and Commercial and Industrial Table 5.15.2"
     },
@@ -5513,7 +5513,7 @@
         "uniform_energy_factor_volume_allowance": 0.002,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5544,7 +5544,7 @@
         "uniform_energy_factor_volume_allowance": 0.0019,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5575,7 +5575,7 @@
         "uniform_energy_factor_volume_allowance": 0.0017,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5606,7 +5606,7 @@
         "uniform_energy_factor_volume_allowance": 0.0013,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5637,7 +5637,7 @@
         "uniform_energy_factor_volume_allowance": 0.0006,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5668,7 +5668,7 @@
         "uniform_energy_factor_volume_allowance": 0.0005,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5699,7 +5699,7 @@
         "uniform_energy_factor_volume_allowance": 0.0004,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5730,7 +5730,7 @@
         "uniform_energy_factor_volume_allowance": 0.0003,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5761,7 +5761,7 @@
         "uniform_energy_factor_volume_allowance": 0.0009,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -5792,7 +5792,7 @@
         "uniform_energy_factor_volume_allowance": 0.0012,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -5823,7 +5823,7 @@
         "uniform_energy_factor_volume_allowance": 0.0011,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -5854,7 +5854,7 @@
         "uniform_energy_factor_volume_allowance": 0.0009,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -5885,7 +5885,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -5916,7 +5916,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5947,7 +5947,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -5978,7 +5978,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -6009,7 +6009,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -6040,7 +6040,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -6071,7 +6071,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -6102,7 +6102,7 @@
         "uniform_energy_factor_volume_allowance": 0.0012,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -6133,7 +6133,7 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -6164,7 +6164,7 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -6195,7 +6195,7 @@
         "uniform_energy_factor_volume_allowance": 0.0014,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4 and Table F-2"
     },
@@ -6226,7 +6226,7 @@
         "uniform_energy_factor_volume_allowance": 0.0015,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -6257,7 +6257,7 @@
         "uniform_energy_factor_volume_allowance": 0.0018,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -6288,7 +6288,7 @@
         "uniform_energy_factor_volume_allowance": 0.0016,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -6319,7 +6319,7 @@
         "uniform_energy_factor_volume_allowance": 0.0013,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -6350,7 +6350,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -6381,7 +6381,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -6412,7 +6412,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -6443,7 +6443,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -6474,7 +6474,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -6505,7 +6505,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -6536,7 +6536,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -6567,7 +6567,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -6598,7 +6598,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -6629,7 +6629,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": 4,
         "r_value": null,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     },
@@ -6660,7 +6660,7 @@
         "uniform_energy_factor_volume_allowance": null,
         "cop": null,
         "r_value": 12.5,
-        "first_hour_rating_gallon": null,
+        "first_hour_rating": null,
         "solar_energy_factor": null,
         "annotation": "From 189.1-2023 Table 7.4"
     }
