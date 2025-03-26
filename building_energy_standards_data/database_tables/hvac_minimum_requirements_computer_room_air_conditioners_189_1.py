@@ -11,7 +11,9 @@ class HVACMinimumRequirementComputerRoomAirConditioners1891Table(
     HVACMinimumRequirementComputerRoomAirConditioners
 ):
     def __init__(self):
-        super(HVACMinimumRequirementComputerRoomAirConditioners1891Table, self).__init__(
+        super(
+            HVACMinimumRequirementComputerRoomAirConditioners1891Table, self
+        ).__init__(
             table_name=TABLE_NAME,
             initial_data_directory=f"building_energy_standards_data/database_files/{TABLE_NAME}",
         )
