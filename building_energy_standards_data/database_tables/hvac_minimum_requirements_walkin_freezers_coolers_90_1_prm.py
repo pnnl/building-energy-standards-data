@@ -7,7 +7,9 @@ from building_energy_standards_data.database_tables.hvac_minimum_requirements_wa
 TABLE_NAME = "hvac_minimum_requirements_walkin_freezers_coolers_90_1_prm"
 
 
-class HVACMinimumRequirementWalkinFreezersCoolers901PRMTable(HVACMinimumRequirementWalkinFreezersCoolers):
+class HVACMinimumRequirementWalkinFreezersCoolers901PRMTable(
+    HVACMinimumRequirementWalkinFreezersCoolers
+):
     def __init__(self):
         super(HVACMinimumRequirementWalkinFreezersCoolers901PRMTable, self).__init__(
             table_name=TABLE_NAME,

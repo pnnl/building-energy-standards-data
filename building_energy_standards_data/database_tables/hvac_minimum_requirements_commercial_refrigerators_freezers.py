@@ -151,5 +151,5 @@ class HVACMinimumRequirementRefrigeratorsFreezers(DBOperation):
             getattr_either("max_daily_energy_consumption_coeff1", record),
             getattr_either("max_daily_energy_consumption_coeff2", record),
             getattr_either("max_daily_energy_consumption_variable", record),
-            getattr_either("annotation", record,""),
+            getattr_either("annotation", record, ""),
         )

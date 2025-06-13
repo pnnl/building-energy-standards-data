@@ -7,7 +7,9 @@ from building_energy_standards_data.database_tables.hvac_minimum_requirements_co
 TABLE_NAME = "hvac_minimum_requirements_commercial_refrigerators_freezers_IECC"
 
 
-class HVACMinimumRequirementRefrigeratorsFreezersIECCTable(HVACMinimumRequirementRefrigeratorsFreezers):
+class HVACMinimumRequirementRefrigeratorsFreezersIECCTable(
+    HVACMinimumRequirementRefrigeratorsFreezers
+):
     def __init__(self):
         super(HVACMinimumRequirementRefrigeratorsFreezersIECCTable, self).__init__(
             table_name=TABLE_NAME,
