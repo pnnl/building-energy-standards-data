@@ -19,12 +19,8 @@ def create_openstudio_standards_database_from_csv(conn: sqlite3.Connection):
         for datatable in table_list:
             datatable.create_a_table(conn)
             data = read_csv_to_list_dict(f"{datatable.initial_data_directory}.csv")
-            for record in data:
-                logging.info(record)
-                assert_(
-                    datatable.add_a_record(conn, record),
-                    f"Unsuccessful adding a new record: {record} to table {datatable.data_table_name}",
-                )
+
+            datatable.add_records(conn, data)
 
 
 def create_openstudio_standards_database_from_json(
@@ -38,12 +34,8 @@ def create_openstudio_standards_database_from_json(
             data = read_json_to_list_dict(
                 f"{path_suffix}{datatable.initial_data_directory}.json"
             )
-            for record in data:
-                logging.info(record)
-                assert_(
-                    datatable.add_a_record(conn, record),
-                    f"Unsuccessful adding a new record: {record} to table {datatable.data_table_name}",
-                )
+
+            datatable.add_records(conn, data)
 
 
 def create_database(conn: sqlite3.Connection):
