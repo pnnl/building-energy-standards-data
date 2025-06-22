@@ -34,18 +34,18 @@ git config --global user.name "Xuechen (Jerry) Lei"
 #git add **/*computer_room*.json
 #git add **/*space_types*.json
 #git add **/*heat_pumps*.json
-#git add **/*ext_ltg*.json
+git add **/*ext_ltg*.json
 git add **/*energy_recovery*.json
-#git add **/*economizers*.json
-#git add **/*vrfs*.json
+git add **/*economizers*.json
+git add **/*vrfs*.json
 #git add **/*construction_properties*.json
-#git add **/*motor*.json
-#git add **/*heat_rejection*.json
-#git add **/*unitary_acs*.json
-#git add **/*water_heater*.json
-#git add **/*furnace*.json
-#git add **/*boiler*.json
-#git add **/*chiller*.json
+git add **/*motor*.json
+git add **/*heat_rejection*.json
+git add **/*unitary_acs*.json
+git add **/*water_heater*.json
+git add **/*furnace*.json
+git add **/*boiler*.json
+git add **/*chiller*.json
 git commit -m "data_update (crac_only) ${COMMIT_ID:0:7}"
 git remote set-url origin https://leijerry888:$GHTOKEN@github.com/NREL/openstudio-standards.git
 git push -u origin data_update_${COMMIT_ID:0:7}
