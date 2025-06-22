@@ -387,19 +387,19 @@ def create_openstudio_standards_data_json_ashrae_90_1(
         },
         "economizers": {
             "table_refs": [
-                f"hvac_minimum_requirements_air_economizer_90_1{prm_suffix}"
+                f"system_requirements_air_economizer_90_1{prm_suffix}"
             ],
             "name": "economizers",
         },
         "energy_recovery": {
             "table_refs": [
-                f"hvac_minimum_requirements_energy_recovery_90_1{prm_suffix}"
+                f"system_requirements_energy_recovery_90_1{prm_suffix}"
             ],
             "name": "energy_recovery",
         },
         "construction_properties": {
             "table_refs": [
-                f"hvac_minimum_requirements_construction_properties_90_1{prm_suffix}"
+                f"envelope_requirements_90_1{prm_suffix}"
             ],
             "name": "construction_properties",
         },
