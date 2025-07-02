@@ -294,15 +294,15 @@ def create_openstudio_standards_space_data_json(
             space_type_data["ventilation_per_area"] = vent_per_area
             # assume unit is cfm/ft2; TODO: unit check
             space_type_data["ventilation_air_changes"] = 0.0
-            space_type_data[
-                "occupancy_per_area"
-            ] = occ_per_area  # assume unit is people / 1000 ft2; TODO: unit check
+            space_type_data["occupancy_per_area"] = (
+                occ_per_area  # assume unit is people / 1000 ft2; TODO: unit check
+            )
 
             # Schedules
             schedule_set_name = space_type_infos["schedule_set_name"]
-            space_type_data[
-                "electric_equipment_schedule"
-            ] = f"{schedule_set_name}_equipment"
+            space_type_data["electric_equipment_schedule"] = (
+                f"{schedule_set_name}_equipment"
+            )
             space_type_data["gas_equipment_schedule"] = f"{schedule_set_name}_equipment"
             space_type_data["lighting_schedule"] = f"{schedule_set_name}_lighting"
             space_type_data["occupancy_schedule"] = f"{schedule_set_name}_occupancy"
@@ -386,21 +386,15 @@ def create_openstudio_standards_data_json_ashrae_90_1(
             "name": "heat_pumps_heating",
         },
         "economizers": {
-            "table_refs": [
-                f"system_requirements_air_economizer_90_1{prm_suffix}"
-            ],
+            "table_refs": [f"system_requirements_air_economizer_90_1{prm_suffix}"],
             "name": "economizers",
         },
         "energy_recovery": {
-            "table_refs": [
-                f"system_requirements_energy_recovery_90_1{prm_suffix}"
-            ],
+            "table_refs": [f"system_requirements_energy_recovery_90_1{prm_suffix}"],
             "name": "energy_recovery",
         },
         "construction_properties": {
-            "table_refs": [
-                f"envelope_requirements_90_1{prm_suffix}"
-            ],
+            "table_refs": [f"envelope_requirements_90_1{prm_suffix}"],
             "name": "construction_properties",
         },
         "vrfs": {

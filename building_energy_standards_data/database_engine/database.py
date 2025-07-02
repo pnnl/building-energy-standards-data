@@ -100,7 +100,7 @@ class DBOperation:
             cur.executemany(self.insert_record_query, valid_records)
             connection.commit()
             return True
-        
+
         return False
 
     def get_all_records(self, connection):
