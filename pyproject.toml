@@ -10,6 +10,13 @@ python = "^3.10"
 pytest = "^7.4.3"
 black = "22.12.0"
 
+[tool.poetry.group.agent]
+optional = true
+
+[tool.poetry.group.agent.dependencies]
+langchain = ">=0.3.25"
+langchain-community = ">=0.3.25"
+langchain-core = ">=0.3.65"
 
 [build-system]
 requires = ["poetry-core"]
