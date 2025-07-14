@@ -10,7 +10,7 @@ RECORD_HELP = """
 Must provide a dict that contains following key value pairs:
 name: TEXT
 material_type: TEXT
-roughness: NUMERIC
+roughness: TEXT
 thickness: NUMERIC
 conductivity: NUMERIC
 resistance: NUMERIC
@@ -43,7 +43,7 @@ CREATE_MATERIALS_TABLE = f"""
 CREATE TABLE IF NOT EXISTS %s
 (name TEXT UNIQUE NOT NULL PRIMARY KEY,
 material_type TEXT,
-roughness NUMERIC,
+roughness TEXT,
 thickness NUMERIC,
 conductivity NUMERIC,
 resistance NUMERIC,

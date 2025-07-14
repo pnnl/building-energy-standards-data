@@ -386,21 +386,15 @@ def create_openstudio_standards_data_json_ashrae_90_1(
             "name": "heat_pumps_heating",
         },
         "economizers": {
-            "table_refs": [
-                f"system_requirements_air_economizer_90_1{prm_suffix}"
-            ],
+            "table_refs": [f"system_requirements_air_economizer_90_1{prm_suffix}"],
             "name": "economizers",
         },
         "energy_recovery": {
-            "table_refs": [
-                f"system_requirements_energy_recovery_90_1{prm_suffix}"
-            ],
+            "table_refs": [f"system_requirements_energy_recovery_90_1{prm_suffix}"],
             "name": "energy_recovery",
         },
         "construction_properties": {
-            "table_refs": [
-                f"envelope_requirements_90_1{prm_suffix}"
-            ],
+            "table_refs": [f"envelope_requirements_90_1{prm_suffix}"],
             "name": "construction_properties",
         },
         "vrfs": {

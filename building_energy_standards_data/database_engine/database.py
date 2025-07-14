@@ -4,6 +4,7 @@ import csv
 import json
 import logging
 
+from building_energy_standards_data.database_engine.assertions import assert_
 from building_energy_standards_data.query.util import is_index_in_table
 
 DB_FILE = "openstudio_standards_database.db"
@@ -75,6 +76,32 @@ class DBOperation:
             connection.commit()
             success_added = True
         return success_added
+
+    def add_records(self, connection, records: list[dict]) -> bool:
+        """
+        Add records to a table
+        :param connection:
+        :param records: list of table records
+        :return: bool indicating success or failure
+        """
+        cur = connection.cursor()
+
+        valid_records = []
+        for record in records:
+            logging.info(record)
+            assert_(
+                self.validate_record_datatype(record)
+                and self.validate_weak_foreign_key(connection, record),
+                f"Unsuccessful adding a new record: {record} to table {self.data_table_name}",
+            )
+            valid_records.append(self._preprocess_record(record))
+
+        if valid_records:
+            cur.executemany(self.insert_record_query, valid_records)
+            connection.commit()
+            return True
+
+        return False
 
     def get_all_records(self, connection):
         """
