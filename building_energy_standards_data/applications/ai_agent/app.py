@@ -1,6 +1,7 @@
 import streamlit as st
 from langchain.agents import AgentExecutor
 
+
 def run_sql_agent_ui(agent: AgentExecutor):
     st.title("BESD Agent Interface")
 
@@ -10,7 +11,7 @@ def run_sql_agent_ui(agent: AgentExecutor):
         if not user_query.strip():
             st.warning("Please enter a query.")
             return
-        
+
         try:
 
             with st.spinner("Running query..."):
