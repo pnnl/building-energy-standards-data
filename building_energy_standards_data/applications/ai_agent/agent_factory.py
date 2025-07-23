@@ -16,6 +16,6 @@ def setup_besd_agent(
 ) -> AgentExecutor:
     db = SQLDatabase.from_uri(db_uri)
     sql_agent = create_sql_agent(
-        llm=llm, db=db, tools=tools, agent=agent_type, verbose=verbose
+        llm=llm, db=db, tools=tools, agent=agent_type, verbose=verbose, handle_parsing_errors=True
     )
     return sql_agent

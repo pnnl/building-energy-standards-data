@@ -17,6 +17,7 @@ optional = true
 langchain = ">=0.3.25"
 langchain-community = ">=0.3.25"
 langchain-core = ">=0.3.65"
+streamlit = ">1.47.0"
 
 [build-system]
 requires = ["poetry-core"]
