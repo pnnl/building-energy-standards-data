@@ -22,5 +22,15 @@ def setup_besd_agent(
         agent=agent_type,
         verbose=verbose,
         handle_parsing_errors=True,
+        agent_kwargs= {
+            "prefix": "You are an agent that queries a SQL database using valid ReAct format. Always use chain-of-thoughts to reasoning. If retrieved multiple records, list all of them in the Final Answer.",
+            "format_instructions": (
+                "When you need to run a query, use:\n"
+                "Action: query_db\n"
+                'Action Input: "SQL query here"\n\n'
+                "Final Answer: the final answer to the original question\n\n"
+                "Important: Always end with `Final Answer:`."
+            )
+        }
     )
     return sql_agent
