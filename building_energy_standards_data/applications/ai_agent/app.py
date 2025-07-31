@@ -38,14 +38,12 @@ def run_sql_agent_ui(agent: AgentExecutor):
                                     st.markdown(
                                         f'<div style="background-color:#d4edda;padding:8px;border-radius:6px;"><strong>{line}</strong></div>',
                                         unsafe_allow_html=True,
-                                        )                                
+                                    )
                                 else:
-                                    st.markdown(f'<div style="background-color:#f8f9fa;padding:8px;border-radius:6px;">{line}</div>', unsafe_allow_html=True)
-
-                #response = agent.run(user_query)
-
-            #st.write("**Response:**")
-            #st.write(response)
+                                    st.markdown(
+                                        f'<div style="background-color:#f8f9fa;padding:8px;border-radius:6px;">{line}</div>',
+                                        unsafe_allow_html=True,
+                                    )
 
         except Exception as e:
             st.error(f"Error: {e}")
