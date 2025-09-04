@@ -1057,7 +1057,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2004",
         "level_3_lighting_code_definition_id": 125,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -1066,7 +1066,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2004",
         "level_3_lighting_code_definition_id": 124,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -2128,7 +2128,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2007",
         "level_3_lighting_code_definition_id": 128,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -2137,7 +2137,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2007",
         "level_3_lighting_code_definition_id": 127,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -3199,7 +3199,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2010",
         "level_3_lighting_code_definition_id": 132,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -3208,7 +3208,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2010",
         "level_3_lighting_code_definition_id": 131,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -4270,7 +4270,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2013",
         "level_3_lighting_code_definition_id": 141,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -4279,7 +4279,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2013",
         "level_3_lighting_code_definition_id": 142,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -5341,7 +5341,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2016",
         "level_3_lighting_code_definition_id": 140,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -5350,7 +5350,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2016",
         "level_3_lighting_code_definition_id": 141,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -6412,7 +6412,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2019",
         "level_3_lighting_code_definition_id": 137,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -6421,7 +6421,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2019",
         "level_3_lighting_code_definition_id": 138,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -7483,7 +7483,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2022",
         "level_3_lighting_code_definition_id": 154,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -7492,7 +7492,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2022",
         "level_3_lighting_code_definition_id": 154,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -8554,7 +8554,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2004_prm",
         "level_3_lighting_code_definition_id": 125,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -8563,7 +8563,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2004_prm",
         "level_3_lighting_code_definition_id": 124,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -9625,7 +9625,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2007_prm",
         "level_3_lighting_code_definition_id": 128,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -9634,7 +9634,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2007_prm",
         "level_3_lighting_code_definition_id": 127,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -10696,7 +10696,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2010_prm",
         "level_3_lighting_code_definition_id": 132,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -10705,7 +10705,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2010_prm",
         "level_3_lighting_code_definition_id": 131,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -11767,7 +11767,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2013_prm",
         "level_3_lighting_code_definition_id": 141,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -11776,7 +11776,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2013_prm",
         "level_3_lighting_code_definition_id": 142,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -12838,7 +12838,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2016_prm",
         "level_3_lighting_code_definition_id": 136,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -12847,7 +12847,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2016_prm",
         "level_3_lighting_code_definition_id": 137,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -13909,7 +13909,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2019_prm",
         "level_3_lighting_code_definition_id": 137,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -13918,7 +13918,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2019_prm",
         "level_3_lighting_code_definition_id": 138,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -14980,7 +14980,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2022_prm",
         "level_3_lighting_code_definition_id": 152,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -14989,7 +14989,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2022_prm",
         "level_3_lighting_code_definition_id": 153,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -16051,7 +16051,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_IECC_2006",
         "level_3_lighting_code_definition_id": 133,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -16060,7 +16060,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_IECC_2006",
         "level_3_lighting_code_definition_id": 133,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -17122,7 +17122,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_IECC_2009",
         "level_3_lighting_code_definition_id": 133,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -17131,7 +17131,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_IECC_2009",
         "level_3_lighting_code_definition_id": 133,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -18193,7 +18193,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_IECC_2012",
         "level_3_lighting_code_definition_id": 126,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -18202,7 +18202,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_IECC_2012",
         "level_3_lighting_code_definition_id": 125,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -19264,7 +19264,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_IECC_2015",
         "level_3_lighting_code_definition_id": 132,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -19273,7 +19273,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_IECC_2015",
         "level_3_lighting_code_definition_id": 133,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -20335,7 +20335,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_IECC_2018",
         "level_3_lighting_code_definition_id": 133,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -20344,7 +20344,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_IECC_2018",
         "level_3_lighting_code_definition_id": 134,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -21406,7 +21406,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_IECC_2021",
         "level_3_lighting_code_definition_id": 130,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 355,
+        "lighting_space_type_target_illuminance_setpoint": 237,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     },
@@ -21415,7 +21415,7 @@
         "level_3_lighting_code_definition_table": "level_3_lighting_IECC_2021",
         "level_3_lighting_code_definition_id": 131,
         "lighting_technology_name": "default",
-        "lighting_space_type_target_illuminance_setpoint": 237,
+        "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
         "annotation": "Illuminance setpoint values have been determined based on the \"2019\" total horizontal illuminance values based on IES"
     }
