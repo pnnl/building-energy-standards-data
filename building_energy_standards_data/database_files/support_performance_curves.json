@@ -18325,7 +18325,7 @@
         "annotation": null
     },
     {
-        "name": "Air-cooled <150 tons, 10.100 FL, 13.700 IPLV.IP Path A, Set A",
+        "name": "Air-cooled less than 150 tons, 10.100 FL, 13.700 IPLV.IP Path A, Set A",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -18350,7 +18350,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Air-cooled <150 tons, 10.100 FL, 13.700 IPLV.IP Path A, Set A",
+        "name": "Air-cooled less than 150 tons, 10.100 FL, 13.700 IPLV.IP Path A, Set A",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -18375,7 +18375,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Air-cooled <150 tons, 10.100 FL, 13.700 IPLV.IP Path A, Set A",
+        "name": "Air-cooled less than 150 tons, 10.100 FL, 13.700 IPLV.IP Path A, Set A",
         "category": "Electric Chiller",
         "form": "Cubic",
         "dependent_variable": "EIRRatio",
@@ -18400,7 +18400,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥150 and <300 tons 0.6337 FL, 0.5961 IPLV.IP, Set AA",
+        "name": "Liquid-cooled centrifugal greater or equal to 150 and less than 300 tons 0.6337 FL, 0.5961 IPLV.IP, Set AA",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -18425,7 +18425,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥150 and <300 tons 0.6337 FL, 0.5961 IPLV.IP, Set AA",
+        "name": "Liquid-cooled centrifugal greater or equal to 150 and less than 300 tons 0.6337 FL, 0.5961 IPLV.IP, Set AA",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -18450,7 +18450,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥150 and <300 tons 0.6337 FL, 0.5961 IPLV.IP, Set AA",
+        "name": "Liquid-cooled centrifugal greater or equal to 150 and less than 300 tons 0.6337 FL, 0.5961 IPLV.IP, Set AA",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -18475,7 +18475,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥300 tons 0.5766 FL, 0.5495 IPLV.IP, Set AB",
+        "name": "Liquid-cooled centrifugal greater or equal to 300 tons 0.5766 FL, 0.5495 IPLV.IP, Set AB",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -18500,7 +18500,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥300 tons 0.5766 FL, 0.5495 IPLV.IP, Set AB",
+        "name": "Liquid-cooled centrifugal greater or equal to 300 tons 0.5766 FL, 0.5495 IPLV.IP, Set AB",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -18525,7 +18525,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥300 tons 0.5766 FL, 0.5495 IPLV.IP, Set AB",
+        "name": "Liquid-cooled centrifugal greater or equal to 300 tons 0.5766 FL, 0.5495 IPLV.IP, Set AB",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -18550,7 +18550,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Air-cooled ≥150 tons, 10.100 FL, 14.00 IPLV.IP Path A, Set B",
+        "name": "Air-cooled greater or equal to 150 tons, 10.100 FL, 14.00 IPLV.IP Path A, Set B",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -18575,7 +18575,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Air-cooled ≥150 tons, 10.100 FL, 14.00 IPLV.IP Path A, Set B",
+        "name": "Air-cooled greater or equal to 150 tons, 10.100 FL, 14.00 IPLV.IP Path A, Set B",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -18600,7 +18600,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Air-cooled ≥150 tons, 10.100 FL, 14.00 IPLV.IP Path A, Set B",
+        "name": "Air-cooled greater or equal to 150 tons, 10.100 FL, 14.00 IPLV.IP Path A, Set B",
         "category": "Electric Chiller",
         "form": "Cubic",
         "dependent_variable": "EIRRatio",
@@ -18625,7 +18625,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement <75 tons 0.750 FL, 0.600 IPLV.IP Path A, Set C",
+        "name": "Liquid-cooled positive displacement less than 75 tons 0.750 FL, 0.600 IPLV.IP Path A, Set C",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -18650,7 +18650,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement <75 tons 0.750 FL, 0.600 IPLV.IP Path A, Set C",
+        "name": "Liquid-cooled positive displacement less than 75 tons 0.750 FL, 0.600 IPLV.IP Path A, Set C",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -18675,7 +18675,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement <75 tons 0.750 FL, 0.600 IPLV.IP Path A, Set C",
+        "name": "Liquid-cooled positive displacement less than 75 tons 0.750 FL, 0.600 IPLV.IP Path A, Set C",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -18700,7 +18700,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥75 and <150 tons 0.720 FL, 0.560 IPLV.IP Path A, Set D",
+        "name": "Liquid-cooled positive displacement greater or equal to 75 and less than 150 tons 0.720 FL, 0.560 IPLV.IP Path A, Set D",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -18725,7 +18725,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥75 and <150 tons 0.720 FL, 0.560 IPLV.IP Path A, Set D",
+        "name": "Liquid-cooled positive displacement greater or equal to 75 and less than 150 tons 0.720 FL, 0.560 IPLV.IP Path A, Set D",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -18750,7 +18750,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥75 and <150 tons 0.720 FL, 0.560 IPLV.IP Path A, Set D",
+        "name": "Liquid-cooled positive displacement greater or equal to 75 and less than 150 tons 0.720 FL, 0.560 IPLV.IP Path A, Set D",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -18775,7 +18775,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥150 and <300 tons 0.660 FL, 0.540 IPLV.IP Path A, Set E",
+        "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.660 FL, 0.540 IPLV.IP Path A, Set E",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -18800,7 +18800,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥150 and <300 tons 0.660 FL, 0.540 IPLV.IP Path A, Set E",
+        "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.660 FL, 0.540 IPLV.IP Path A, Set E",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -18825,7 +18825,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥150 and <300 tons 0.660 FL, 0.540 IPLV.IP Path A, Set E",
+        "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.660 FL, 0.540 IPLV.IP Path A, Set E",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -18850,7 +18850,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥300 and <600 tons 0.610 FL, 0.520 IPLV.IP Path A, Set F",
+        "name": "Liquid-cooled positive displacement greater or equal to 300 and less than 600 tons 0.610 FL, 0.520 IPLV.IP Path A, Set F",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -18875,7 +18875,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥300 and <600 tons 0.610 FL, 0.520 IPLV.IP Path A, Set F",
+        "name": "Liquid-cooled positive displacement greater or equal to 300 and less than 600 tons 0.610 FL, 0.520 IPLV.IP Path A, Set F",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -18900,7 +18900,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥300 and <600 tons 0.610 FL, 0.520 IPLV.IP Path A, Set F",
+        "name": "Liquid-cooled positive displacement greater or equal to 300 and less than 600 tons 0.610 FL, 0.520 IPLV.IP Path A, Set F",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -18925,7 +18925,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set G",
+        "name": "Liquid-cooled positive displacement greater or equal to 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set G",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -18950,7 +18950,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set G",
+        "name": "Liquid-cooled positive displacement greater or equal to 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set G",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -18975,7 +18975,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set G",
+        "name": "Liquid-cooled positive displacement greater or equal to 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set G",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -19000,7 +19000,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal <150 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
+        "name": "Liquid-cooled centrifugal less than 150 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -19025,7 +19025,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal <150 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
+        "name": "Liquid-cooled centrifugal less than 150 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -19050,7 +19050,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal <150 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
+        "name": "Liquid-cooled centrifugal less than 150 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -19075,7 +19075,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥150 tons <300 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
+        "name": "Liquid-cooled centrifugal greater or equal to 150 tons less than 300 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -19100,7 +19100,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥150 tons <300 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
+        "name": "Liquid-cooled centrifugal greater or equal to 150 tons less than 300 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -19125,7 +19125,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥150 tons <300 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
+        "name": "Liquid-cooled centrifugal greater or equal to 150 tons less than 300 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -19150,7 +19150,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥300 tons <400 tons 0.560 FL, 0.520 IPLV.IP Path A, Set I",
+        "name": "Liquid-cooled centrifugal greater or equal to 300 tons less than 400 tons 0.560 FL, 0.520 IPLV.IP Path A, Set I",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -19175,7 +19175,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥300 tons <400 tons 0.560 FL, 0.520 IPLV.IP Path A, Set I",
+        "name": "Liquid-cooled centrifugal greater or equal to 300 tons less than 400 tons 0.560 FL, 0.520 IPLV.IP Path A, Set I",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -19200,7 +19200,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥300 tons <400 tons 0.560 FL, 0.520 IPLV.IP Path A, Set I",
+        "name": "Liquid-cooled centrifugal greater or equal to 300 tons less than 400 tons 0.560 FL, 0.520 IPLV.IP Path A, Set I",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -19225,7 +19225,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥400 tons <600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
+        "name": "Liquid-cooled centrifugal greater or equal to 400 tons less than 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -19250,7 +19250,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥400 tons <600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
+        "name": "Liquid-cooled centrifugal greater or equal to 400 tons less than 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -19275,7 +19275,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥400 tons <600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
+        "name": "Liquid-cooled centrifugal greater or equal to 400 tons less than 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -19300,7 +19300,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
+        "name": "Liquid-cooled centrifugal greater or equal to 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -19325,7 +19325,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
+        "name": "Liquid-cooled centrifugal greater or equal to 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -19350,7 +19350,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
+        "name": "Liquid-cooled centrifugal greater or equal to 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -19375,7 +19375,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Air-cooled <150 tons, 9.700 FL, 15.800 IPLV.IP Path B, Set K",
+        "name": "Air-cooled less than 150 tons, 9.700 FL, 15.800 IPLV.IP Path B, Set K",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -19400,7 +19400,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Air-cooled <150 tons, 9.700 FL, 15.800 IPLV.IP Path B, Set K",
+        "name": "Air-cooled less than 150 tons, 9.700 FL, 15.800 IPLV.IP Path B, Set K",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -19425,7 +19425,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Air-cooled <150 tons, 9.700 FL, 15.800 IPLV.IP Path B, Set K",
+        "name": "Air-cooled less than 150 tons, 9.700 FL, 15.800 IPLV.IP Path B, Set K",
         "category": "Electric Chiller",
         "form": "Cubic",
         "dependent_variable": "EIRRatio",
@@ -19450,7 +19450,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Air-cooled ≥150 tons, 9.700 FL, 16.100 IPLV.IP Path B, Set L",
+        "name": "Air-cooled greater or equal to 150 tons, 9.700 FL, 16.100 IPLV.IP Path B, Set L",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -19475,7 +19475,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Air-cooled ≥150 tons, 9.700 FL, 16.100 IPLV.IP Path B, Set L",
+        "name": "Air-cooled greater or equal to 150 tons, 9.700 FL, 16.100 IPLV.IP Path B, Set L",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -19500,7 +19500,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Air-cooled ≥150 tons, 9.700 FL, 16.100 IPLV.IP Path B, Set L",
+        "name": "Air-cooled greater or equal to 150 tons, 9.700 FL, 16.100 IPLV.IP Path B, Set L",
         "category": "Electric Chiller",
         "form": "Cubic",
         "dependent_variable": "EIRRatio",
@@ -19525,7 +19525,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement <75 tons 0.780 FL, 0.500 IPLV.IP Path B, Set M",
+        "name": "Liquid-cooled positive displacement less than 75 tons 0.780 FL, 0.500 IPLV.IP Path B, Set M",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -19550,7 +19550,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement <75 tons 0.780 FL, 0.500 IPLV.IP Path B, Set M",
+        "name": "Liquid-cooled positive displacement less than 75 tons 0.780 FL, 0.500 IPLV.IP Path B, Set M",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -19575,7 +19575,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement <75 tons 0.780 FL, 0.500 IPLV.IP Path B, Set M",
+        "name": "Liquid-cooled positive displacement less than 75 tons 0.780 FL, 0.500 IPLV.IP Path B, Set M",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -19600,7 +19600,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥75 and <150 tons 0.750 FL, 0.490 IPLV.IP Path B, Set N",
+        "name": "Liquid-cooled positive displacement greater or equal to 75 and less than 150 tons 0.750 FL, 0.490 IPLV.IP Path B, Set N",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -19625,7 +19625,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥75 and <150 tons 0.750 FL, 0.490 IPLV.IP Path B, Set N",
+        "name": "Liquid-cooled positive displacement greater or equal to 75 and less than 150 tons 0.750 FL, 0.490 IPLV.IP Path B, Set N",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -19650,7 +19650,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥75 and <150 tons 0.750 FL, 0.490 IPLV.IP Path B, Set N",
+        "name": "Liquid-cooled positive displacement greater or equal to 75 and less than 150 tons 0.750 FL, 0.490 IPLV.IP Path B, Set N",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -19675,7 +19675,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥150 and <300 tons 0.680 FL, 0.440 IPLV.IP Path B, Set O",
+        "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.680 FL, 0.440 IPLV.IP Path B, Set O",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -19700,7 +19700,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥150 and <300 tons 0.680 FL, 0.440 IPLV.IP Path B, Set O",
+        "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.680 FL, 0.440 IPLV.IP Path B, Set O",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -19725,7 +19725,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥150 and <300 tons 0.680 FL, 0.440 IPLV.IP Path B, Set O",
+        "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.680 FL, 0.440 IPLV.IP Path B, Set O",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -19750,7 +19750,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥300 and <600 tons 0.625 FL, 0.410 IPLV.IP Path B, Set P",
+        "name": "Liquid-cooled positive displacement greater or equal to 300 and less than 600 tons 0.625 FL, 0.410 IPLV.IP Path B, Set P",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -19775,7 +19775,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥300 and <600 tons 0.625 FL, 0.410 IPLV.IP Path B, Set P",
+        "name": "Liquid-cooled positive displacement greater or equal to 300 and less than 600 tons 0.625 FL, 0.410 IPLV.IP Path B, Set P",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -19800,7 +19800,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥300 and <600 tons 0.625 FL, 0.410 IPLV.IP Path B, Set P",
+        "name": "Liquid-cooled positive displacement greater or equal to 300 and less than 600 tons 0.625 FL, 0.410 IPLV.IP Path B, Set P",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -19825,7 +19825,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set Q",
+        "name": "Liquid-cooled positive displacement greater or equal to 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set Q",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -19850,7 +19850,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set Q",
+        "name": "Liquid-cooled positive displacement greater or equal to 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set Q",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -19875,7 +19875,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set Q",
+        "name": "Liquid-cooled positive displacement greater or equal to 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set Q",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -19900,7 +19900,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal <150 tons 0.695 FL, 0.440 IPLV.IP Path B, Set R",
+        "name": "Liquid-cooled centrifugal less than 150 tons 0.695 FL, 0.440 IPLV.IP Path B, Set R",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -19925,7 +19925,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal <150 tons 0.695 FL, 0.440 IPLV.IP Path B, Set R",
+        "name": "Liquid-cooled centrifugal less than 150 tons 0.695 FL, 0.440 IPLV.IP Path B, Set R",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -19950,7 +19950,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal <150 tons 0.695 FL, 0.440 IPLV.IP Path B, Set R",
+        "name": "Liquid-cooled centrifugal less than 150 tons 0.695 FL, 0.440 IPLV.IP Path B, Set R",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -19975,7 +19975,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥150 tons <300 tons 0.635 FL, 0.400 IPLV.IP Path B, Set S",
+        "name": "Liquid-cooled centrifugal greater or equal to 150 tons less than 300 tons 0.635 FL, 0.400 IPLV.IP Path B, Set S",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -20000,7 +20000,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥150 tons <300 tons 0.635 FL, 0.400 IPLV.IP Path B, Set S",
+        "name": "Liquid-cooled centrifugal greater or equal to 150 tons less than 300 tons 0.635 FL, 0.400 IPLV.IP Path B, Set S",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -20025,7 +20025,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥150 tons <300 tons 0.635 FL, 0.400 IPLV.IP Path B, Set S",
+        "name": "Liquid-cooled centrifugal greater or equal to 150 tons less than 300 tons 0.635 FL, 0.400 IPLV.IP Path B, Set S",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -20050,7 +20050,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥300 tons <400 tons 0.595 FL, 0.390 IPLV.IP Path B, Set T",
+        "name": "Liquid-cooled centrifugal greater or equal to 300 tons less than 400 tons 0.595 FL, 0.390 IPLV.IP Path B, Set T",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -20075,7 +20075,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥300 tons <400 tons 0.595 FL, 0.390 IPLV.IP Path B, Set T",
+        "name": "Liquid-cooled centrifugal greater or equal to 300 tons less than 400 tons 0.595 FL, 0.390 IPLV.IP Path B, Set T",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -20100,7 +20100,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥300 tons <400 tons 0.595 FL, 0.390 IPLV.IP Path B, Set T",
+        "name": "Liquid-cooled centrifugal greater or equal to 300 tons less than 400 tons 0.595 FL, 0.390 IPLV.IP Path B, Set T",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -20125,7 +20125,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥400 tons <600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
+        "name": "Liquid-cooled centrifugal greater or equal to 400 tons less than 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -20150,7 +20150,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥400 tons <600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
+        "name": "Liquid-cooled centrifugal greater or equal to 400 tons less than 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -20175,7 +20175,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥400 tons <600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
+        "name": "Liquid-cooled centrifugal greater or equal to 400 tons less than 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -20200,7 +20200,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
+        "name": "Liquid-cooled centrifugal greater or equal to 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -20225,7 +20225,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
+        "name": "Liquid-cooled centrifugal greater or equal to 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -20250,7 +20250,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal ≥600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
+        "name": "Liquid-cooled centrifugal greater or equal to 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -20275,7 +20275,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement <150 tons 0.7903 FL, 0.6763 IPLV.IP, Set V",
+        "name": "Liquid-cooled positive displacement less than 150 tons 0.7903 FL, 0.6763 IPLV.IP, Set V",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -20300,7 +20300,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement <150 tons 0.7903 FL, 0.6763 IPLV.IP, Set V",
+        "name": "Liquid-cooled positive displacement less than 150 tons 0.7903 FL, 0.6763 IPLV.IP, Set V",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -20325,7 +20325,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement <150 tons 0.7903 FL, 0.6763 IPLV.IP, Set V",
+        "name": "Liquid-cooled positive displacement less than 150 tons 0.7903 FL, 0.6763 IPLV.IP, Set V",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -20350,7 +20350,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥150 and <300 tons 0.7178 FL, 0.6280 IPLV.IP, Set X",
+        "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.7178 FL, 0.6280 IPLV.IP, Set X",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -20375,7 +20375,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥150 and <300 tons 0.7178 FL, 0.6280 IPLV.IP, Set X",
+        "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.7178 FL, 0.6280 IPLV.IP, Set X",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -20400,7 +20400,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥150 and <300 tons 0.7178 FL, 0.6280 IPLV.IP, Set X",
+        "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.7178 FL, 0.6280 IPLV.IP, Set X",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -20425,7 +20425,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥300 tons 0.6395 FL, 0.5719 IPLV.IP, Set Y",
+        "name": "Liquid-cooled positive displacement greater or equal to 300 tons 0.6395 FL, 0.5719 IPLV.IP, Set Y",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -20450,7 +20450,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥300 tons 0.6395 FL, 0.5719 IPLV.IP, Set Y",
+        "name": "Liquid-cooled positive displacement greater or equal to 300 tons 0.6395 FL, 0.5719 IPLV.IP, Set Y",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -20475,7 +20475,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled positive displacement ≥300 tons 0.6395 FL, 0.5719 IPLV.IP, Set Y",
+        "name": "Liquid-cooled positive displacement greater or equal to 300 tons 0.6395 FL, 0.5719 IPLV.IP, Set Y",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
@@ -20500,7 +20500,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal <150 tons 0.7034 FL, 0.6699 IPLV.IP, Set Z",
+        "name": "Liquid-cooled centrifugal less than 150 tons 0.7034 FL, 0.6699 IPLV.IP, Set Z",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "EIRRatio",
@@ -20525,7 +20525,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal <150 tons 0.7034 FL, 0.6699 IPLV.IP, Set Z",
+        "name": "Liquid-cooled centrifugal less than 150 tons 0.7034 FL, 0.6699 IPLV.IP, Set Z",
         "category": "Electric Chiller",
         "form": "BiQuadraticratic",
         "dependent_variable": "QRatio",
@@ -20550,7 +20550,7 @@
         "annotation": "From ASHRAE 90.1-2022 Table J-5"
     },
     {
-        "name": "Liquid-cooled centrifugal <150 tons 0.7034 FL, 0.6699 IPLV.IP, Set Z",
+        "name": "Liquid-cooled centrifugal less than 150 tons 0.7034 FL, 0.6699 IPLV.IP, Set Z",
         "category": "Electric Chiller",
         "form": "Quadratic",
         "dependent_variable": "EIRRatio",
