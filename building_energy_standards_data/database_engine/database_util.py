@@ -9,8 +9,8 @@ def read_csv_to_tuples(csv_dir):
     :return: list<tuple> list of tuple
     """
     # Try UTF-8 first, then fall back to latin-1 if that fails
-    encodings_to_try = ['utf-8', 'latin-1', 'cp1252']
-    
+    encodings_to_try = ["utf-8", "latin-1", "cp1252"]
+
     for encoding in encodings_to_try:
         try:
             table_list = []
@@ -23,9 +23,11 @@ def read_csv_to_tuples(csv_dir):
             return table_list
         except UnicodeDecodeError:
             continue
-    
+
     # If all encodings fail, raise an error
-    raise UnicodeDecodeError(f"Could not decode file {csv_dir} with any of the attempted encodings: {encodings_to_try}")
+    raise UnicodeDecodeError(
+        f"Could not decode file {csv_dir} with any of the attempted encodings: {encodings_to_try}"
+    )
 
 
 def read_csv_to_list_dict(csv_dir):
@@ -35,8 +37,8 @@ def read_csv_to_list_dict(csv_dir):
     :return: list<dict> list of dictionary
     """
     # Try UTF-8 first, then fall back to latin-1 if that fails
-    encodings_to_try = ['utf-8', 'latin-1', 'cp1252']
-    
+    encodings_to_try = ["utf-8", "latin-1", "cp1252"]
+
     for encoding in encodings_to_try:
         try:
             with open(csv_dir, mode="r", encoding=encoding) as csv_file:
@@ -47,9 +49,11 @@ def read_csv_to_list_dict(csv_dir):
             return table_list
         except UnicodeDecodeError:
             continue
-    
+
     # If all encodings fail, raise an error
-    raise UnicodeDecodeError(f"Could not decode file {csv_dir} with any of the attempted encodings: {encodings_to_try}")
+    raise UnicodeDecodeError(
+        f"Could not decode file {csv_dir} with any of the attempted encodings: {encodings_to_try}"
+    )
 
 
 def read_json_to_list_dict(json_dir):
