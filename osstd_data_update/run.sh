@@ -28,17 +28,17 @@ cd ../../
 rm -rf data_update
 echo "===="
 
-echo "Step 6: push new branch to OSSTD github (currently updating space type data data only)"
+echo "Step 6: push new branch to openstudio-standards github repository"
 git config --global user.email "xuechen.lei@pnnl.gov"
 git config --global user.name "Xuechen (Jerry) Lei"
-#git add **/*computer_room*.json
+git add **/*computer_room*.json
 #git add **/*space_types*.json
-#git add **/*heat_pumps*.json
+git add **/*heat_pumps*.json
 git add **/*ext_ltg*.json
 git add **/*energy_recovery*.json
 git add **/*economizers*.json
 git add **/*vrfs*.json
-#git add **/*construction_properties*.json
+git add **/*construction_properties*.json
 git add **/*motor*.json
 git add **/*heat_rejection*.json
 git add **/*unitary_acs*.json
