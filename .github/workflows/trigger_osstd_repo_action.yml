@@ -1,7 +1,10 @@
-# majority adapt from https://dev.to/moaaz_adel/github-actions-a-simple-way-to-trigger-workflow-from-another-workflow-1b55
-name: Trigger OpenStudio Standards GitHub Action to Update Data
+name: Automatically update openstudio-standards data with the Building Energy Standards Database
 run-name: ${{github.actor}} is triggering GitHub Action in OSSTD
-on: workflow_dispatch
+#on: workflow_dispatch # manual trigger
+on:
+  push:
+    branches:
+      - develop
 jobs:
   trigger-osstd-update:
     name: Trigger OpenStudio GitHub Action to initiate a PR there with data update pulling data from here.
