@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain.agents import AgentExecutor
+from langchain_classic.agents.agent import AgentExecutor
 from langchain_core.messages import AIMessage
 
 
