@@ -9,12 +9,12 @@ def read_csv_to_tuples(csv_dir):
     :return: list<tuple> list of tuple
     """
     # Try UTF-8 first, then fall back to latin-1 if that fails
-    encodings_to_try = ["utf-8", "latin-1", "cp1252"]
+    encodings_to_try = ["utf-8-sig", "latin-1", "cp1252"]
 
     for encoding in encodings_to_try:
         try:
             table_list = []
-            with open(csv_dir, encoding=encoding) as csv_file:
+            with open(csv_dir, mode="r", encoding="utf-8-sig") as csv_file:
                 csv_reader = csv.reader(csv_file, delimiter=",")
                 for row in csv_reader:
                     # remove empty strings in the record
@@ -37,7 +37,7 @@ def read_csv_to_list_dict(csv_dir):
     :return: list<dict> list of dictionary
     """
     # Try UTF-8 first, then fall back to latin-1 if that fails
-    encodings_to_try = ["utf-8", "latin-1", "cp1252"]
+    encodings_to_try = ["utf-8-sig", "latin-1", "cp1252"]
 
     for encoding in encodings_to_try:
         try:
