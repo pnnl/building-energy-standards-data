@@ -752,3 +752,1013 @@ FOREIGN KEY(lighting_space_type_name) REFERENCES support_lighting_space_type_nam
 FOREIGN KEY(ventilation_space_type_name) REFERENCES support_ventilation_space_type_name_tags(ventilation_space_type_name)
 FOREIGN KEY(electric_equipment_space_type_name) REFERENCES support_electric_equipment_space_type_name_tags(support_electric_equipment_space_type_name_tags)
 )"
+"SELECT electric_equipment_space_type_name,
+       electric_equipment_minimum_epd,
+       electric_equipment_maximum_epd,
+       (electric_equipment_maximum_epd - electric_equipment_minimum_epd) as epd_range,
+       electric_equipment_fraction_latent,
+       electric_equipment_fraction_radiant,
+       electric_equipment_fraction_lost
+FROM level_2_electric_equipment
+WHERE electric_equipment_maximum_epd > electric_equipment_minimum_epd
+ORDER BY epd_range DESC;","Which space types have the highest variability in electric equipment loads, and what are their heat gain characteristics?","CREATE TABLE level_2_electric_equipment
+(id INTEGER PRIMARY KEY,
+electric_equipment_space_type_name TEXT NOT NULL,
+electric_equipment_minimum_epd NUMERIC,
+electric_equipment_average_epd NUMERIC,
+electric_equipment_median_epd NUMERIC,
+electric_equipment_maximum_epd NUMERIC,
+electric_equipment_epd_unit TEXT,
+electric_equipment_fraction_latent NUMERIC,
+electric_equipment_fraction_radiant NUMERIC,
+electric_equipment_fraction_lost NUMERIC
+)"
+"SELECT electric_equipment_space_type_name,
+       electric_equipment_average_epd,
+       electric_equipment_median_epd,
+       electric_equipment_fraction_latent,
+       electric_equipment_fraction_radiant
+FROM level_2_electric_equipment
+WHERE electric_equipment_average_epd > 0.7
+  AND electric_equipment_fraction_latent > 0
+ORDER BY electric_equipment_average_epd DESC;",What space types have electric equipment loads above 0.7 W/ft² and generate latent heat gains?,"CREATE TABLE level_2_electric_equipment
+(id INTEGER PRIMARY KEY,
+electric_equipment_space_type_name TEXT NOT NULL,
+electric_equipment_minimum_epd NUMERIC,
+electric_equipment_average_epd NUMERIC,
+electric_equipment_median_epd NUMERIC,
+electric_equipment_maximum_epd NUMERIC,
+electric_equipment_epd_unit TEXT,
+electric_equipment_fraction_latent NUMERIC,
+electric_equipment_fraction_radiant NUMERIC,
+electric_equipment_fraction_lost NUMERIC
+)"
+"SELECT lighting_space_type_name,
+       level_3_lighting_code_definition_table,
+       lighting_space_type_target_illuminance_setpoint,
+       level_3_lighting_code_definition_id
+FROM level_2_lighting_space_types
+WHERE lighting_space_type_name IN (
+    SELECT lighting_space_type_name 
+    FROM level_2_lighting_space_types 
+    GROUP BY lighting_space_type_name 
+    HAVING COUNT(DISTINCT level_3_lighting_code_definition_table) > 1
+)
+ORDER BY lighting_space_type_name, level_3_lighting_code_definition_table;",How do illuminance requirements vary between IECC and ASHRAE 90.1 standards for the same space types?,"CREATE TABLE level_2_lighting_space_types 
+(id INTEGER PRIMARY KEY,
+lighting_space_type_name TEXT NOT NULL,
+level_3_lighting_code_definition_table TEXT NOT NULL,
+level_3_lighting_code_definition_id INTEGER NOT NULL,
+lighting_technology_name TEXT,
+lighting_space_type_target_illuminance_setpoint NUMERIC,
+lighting_space_type_target_illuminance_setpoint_unit TEXT,
+annotation TEXT,
+FOREIGN KEY(lighting_space_type_name) REFERENCES support_lighting_space_type_name_tags(lighting_space_type_name)
+FOREIGN KEY(lighting_technology_name) REFERENCES support_lighting_technologies(lighting_technology_definition_name)
+); CREATE TABLE level_2_lighting_space_types 
+(id INTEGER PRIMARY KEY,
+lighting_space_type_name TEXT NOT NULL,
+level_3_lighting_code_definition_table TEXT NOT NULL,
+level_3_lighting_code_definition_id INTEGER NOT NULL,
+lighting_technology_name TEXT,
+lighting_space_type_target_illuminance_setpoint NUMERIC,
+lighting_space_type_target_illuminance_setpoint_unit TEXT,
+annotation TEXT,
+FOREIGN KEY(lighting_space_type_name) REFERENCES support_lighting_space_type_name_tags(lighting_space_type_name)
+FOREIGN KEY(lighting_technology_name) REFERENCES support_lighting_technologies(lighting_technology_definition_name)
+)"
+"SELECT DISTINCT lighting_space_type_name,
+       MAX(lighting_space_type_target_illuminance_setpoint) as max_illuminance,
+       lighting_technology_name,
+       lighting_space_type_target_illuminance_setpoint_unit
+FROM level_2_lighting_space_types
+WHERE lighting_space_type_target_illuminance_setpoint > 400
+GROUP BY lighting_space_type_name, lighting_technology_name, lighting_space_type_target_illuminance_setpoint_unit
+ORDER BY max_illuminance DESC;",Which space types require the highest illuminance levels above 400 Lux across any code version?,"CREATE TABLE level_2_lighting_space_types 
+(id INTEGER PRIMARY KEY,
+lighting_space_type_name TEXT NOT NULL,
+level_3_lighting_code_definition_table TEXT NOT NULL,
+level_3_lighting_code_definition_id INTEGER NOT NULL,
+lighting_technology_name TEXT,
+lighting_space_type_target_illuminance_setpoint NUMERIC,
+lighting_space_type_target_illuminance_setpoint_unit TEXT,
+annotation TEXT,
+FOREIGN KEY(lighting_space_type_name) REFERENCES support_lighting_space_type_name_tags(lighting_space_type_name)
+FOREIGN KEY(lighting_technology_name) REFERENCES support_lighting_technologies(lighting_technology_definition_name)
+)"
+"SELECT natural_gas_equipment_space_type_name,
+       natural_gas_equipment_average_epd,
+       natural_gas_equipment_maximum_epd,
+       natural_gas_equipment_fraction_lost,
+       (natural_gas_equipment_fraction_latent + natural_gas_equipment_fraction_radiant) as useful_heat_fraction
+FROM level_2_natural_gas_equipment
+WHERE natural_gas_equipment_average_epd > 100
+ORDER BY natural_gas_equipment_average_epd DESC;",Which space types have the highest natural gas equipment loads and what percentage of their heat is lost rather than contributing to space conditioning?,"CREATE TABLE level_2_natural_gas_equipment 
+(id INTEGER PRIMARY KEY, 
+natural_gas_equipment_space_type_name TEXT NOT NULL, 
+natural_gas_equipment_minimum_epd NUMERIC, 
+natural_gas_equipment_average_epd NUMERIC, 
+natural_gas_equipment_median_epd NUMERIC, 
+natural_gas_equipment_maximum_epd NUMERIC, 
+natural_gas_equipment_epd_unit TEXT,
+natural_gas_equipment_fraction_latent NUMERIC,
+natural_gas_equipment_fraction_radiant NUMERIC,
+natural_gas_equipment_fraction_lost NUMERIC
+)"
+"SELECT natural_gas_equipment_space_type_name,
+       natural_gas_equipment_minimum_epd,
+       natural_gas_equipment_median_epd,
+       natural_gas_equipment_maximum_epd,
+       natural_gas_equipment_fraction_latent,
+       natural_gas_equipment_fraction_radiant,
+       natural_gas_equipment_fraction_lost,
+       CASE 
+         WHEN natural_gas_equipment_space_type_name LIKE '%kitchen%' 
+           OR natural_gas_equipment_space_type_name LIKE '%deli%' 
+           OR natural_gas_equipment_space_type_name LIKE '%bakery%' 
+         THEN 'Food Service' 
+         ELSE 'Other' 
+       END as space_category
+FROM level_2_natural_gas_equipment
+ORDER BY space_category, natural_gas_equipment_average_epd DESC;",Compare the load variability and heat distribution patterns between kitchen-related spaces and other space types?,"CREATE TABLE level_2_natural_gas_equipment 
+(id INTEGER PRIMARY KEY, 
+natural_gas_equipment_space_type_name TEXT NOT NULL, 
+natural_gas_equipment_minimum_epd NUMERIC, 
+natural_gas_equipment_average_epd NUMERIC, 
+natural_gas_equipment_median_epd NUMERIC, 
+natural_gas_equipment_maximum_epd NUMERIC, 
+natural_gas_equipment_epd_unit TEXT,
+natural_gas_equipment_fraction_latent NUMERIC,
+natural_gas_equipment_fraction_radiant NUMERIC,
+natural_gas_equipment_fraction_lost NUMERIC
+)"
+"SELECT level_3_ventilation_definition_id,
+       level_3_ventilation_definition_table,
+       COUNT(*) as space_types_using_this_id,
+       STRING_AGG(ventilation_space_type_name, ', ') as space_types
+FROM level_2_ventilation_space_types
+GROUP BY level_3_ventilation_definition_id, level_3_ventilation_definition_table
+HAVING COUNT(*) > 1
+ORDER BY space_types_using_this_id DESC;","What are the most commonly referenced ventilation definition IDs across all space types, and which standard tables do they belong to?","CREATE TABLE level_2_ventilation_space_types 
+(id INTEGER PRIMARY KEY,
+ventilation_space_type_name TEXT NOT NULL,
+level_3_ventilation_definition_table TEXT NOT NULL,
+level_3_ventilation_definition_id INTEGER NOT NULL,
+FOREIGN KEY(ventilation_space_type_name) REFERENCES support_ventilation_space_type_name_tags(ventilation_space_type_name)
+)"
+"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       automatic_full_off,
+       method,
+       annotation
+FROM level_3_lighting_90_1_2004
+WHERE automatic_full_off = 'REQ'
+  AND lighting_power_density >= 1.2
+ORDER BY lighting_power_density DESC;",Which space types have the highest lighting power densities and require automatic full-off controls under 90.1-2004?,"CREATE TABLE level_3_lighting_90_1_2004
+(id INTEGER PRIMARY KEY,
+method TEXT DEFAULT 'BA' NOT NULL,
+lighting_primary_space_type TEXT,
+lighting_secondary_space_type TEXT, 
+lighting_power_density NUMERIC NOT NULL,
+lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_power_density NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
+rcr_threshold NUMERIC,
+automatic_daylight_responsive_controls_for_sidelighting TEXT,
+automatic_daylight_responsive_controls_for_toplighting TEXT,
+automatic_partial_off TEXT,
+automatic_full_off TEXT,
+scheduled_shutoff TEXT,
+annotation TEXT)"
+"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       method,
+       lighting_power_density,
+       automatic_full_off
+FROM level_3_lighting_90_1_2004
+WHERE lighting_primary_space_type IN (
+    SELECT lighting_primary_space_type 
+    FROM level_3_lighting_90_1_2004 
+    GROUP BY lighting_primary_space_type, lighting_secondary_space_type
+    HAVING COUNT(DISTINCT method) > 1
+)
+ORDER BY lighting_primary_space_type, lighting_secondary_space_type, method;",Compare the lighting power density requirements between CS (Complete System) and SS (Space-by-Space) methods for the same space types?,"CREATE TABLE level_3_lighting_90_1_2004
+(id INTEGER PRIMARY KEY,
+method TEXT DEFAULT 'BA' NOT NULL,
+lighting_primary_space_type TEXT,
+lighting_secondary_space_type TEXT, 
+lighting_power_density NUMERIC NOT NULL,
+lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_power_density NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
+rcr_threshold NUMERIC,
+automatic_daylight_responsive_controls_for_sidelighting TEXT,
+automatic_daylight_responsive_controls_for_toplighting TEXT,
+automatic_partial_off TEXT,
+automatic_full_off TEXT,
+scheduled_shutoff TEXT,
+annotation TEXT); CREATE TABLE level_3_lighting_90_1_2004
+(id INTEGER PRIMARY KEY,
+method TEXT DEFAULT 'BA' NOT NULL,
+lighting_primary_space_type TEXT,
+lighting_secondary_space_type TEXT, 
+lighting_power_density NUMERIC NOT NULL,
+lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_power_density NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
+rcr_threshold NUMERIC,
+automatic_daylight_responsive_controls_for_sidelighting TEXT,
+automatic_daylight_responsive_controls_for_toplighting TEXT,
+automatic_partial_off TEXT,
+automatic_full_off TEXT,
+scheduled_shutoff TEXT,
+annotation TEXT)"
+"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       supplemental_lighting_power_density,
+       automatic_full_off,
+       scheduled_shutoff,
+       method,
+       annotation
+FROM level_3_lighting_90_1_2007
+WHERE supplemental_lighting_power_density IS NOT NULL
+   OR automatic_full_off IS NOT NULL
+   OR scheduled_shutoff IS NOT NULL
+ORDER BY lighting_power_density DESC;",Which space types in 90.1-2007 have supplemental lighting allowances or special control requirements?,"CREATE TABLE level_3_lighting_90_1_2007
+(id INTEGER PRIMARY KEY,
+method TEXT DEFAULT 'BA' NOT NULL,
+lighting_primary_space_type TEXT,
+lighting_secondary_space_type TEXT, 
+lighting_power_density NUMERIC NOT NULL,
+lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_power_density NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
+rcr_threshold NUMERIC,
+automatic_daylight_responsive_controls_for_sidelighting TEXT,
+automatic_daylight_responsive_controls_for_toplighting TEXT,
+automatic_partial_off TEXT,
+automatic_full_off TEXT,
+scheduled_shutoff TEXT,
+annotation TEXT)"
+"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       method,
+       lighting_power_density,
+       automatic_daylight_responsive_controls_for_sidelighting,
+       automatic_daylight_responsive_controls_for_toplighting,
+       annotation
+FROM level_3_lighting_90_1_2010_prm
+WHERE method = 'BA'
+  AND (automatic_daylight_responsive_controls_for_sidelighting = 'REQ' 
+       OR automatic_daylight_responsive_controls_for_toplighting = 'REQ')
+ORDER BY lighting_power_density DESC;",Which space types in the PRM baseline have Building Area (BA) method requirements but still need daylight responsive controls?,"CREATE TABLE level_3_lighting_90_1_2010_prm
+(id INTEGER PRIMARY KEY,
+method TEXT DEFAULT 'BA' NOT NULL,
+lighting_primary_space_type TEXT,
+lighting_secondary_space_type TEXT, 
+lighting_power_density NUMERIC NOT NULL,
+lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_power_density NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
+rcr_threshold NUMERIC,
+automatic_daylight_responsive_controls_for_sidelighting TEXT,
+automatic_daylight_responsive_controls_for_toplighting TEXT,
+automatic_partial_off TEXT,
+automatic_full_off TEXT,
+scheduled_shutoff TEXT,
+manon_or_partauto NUMERIC,
+occup_sensor_reduction NUMERIC,
+occup_sensor_manon_or_partauto_reduction NUMERIC,
+annotation TEXT)"
+"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       method,
+       lighting_power_density,
+       rcr_threshold,
+       automatic_full_off,
+       automatic_daylight_responsive_controls_for_sidelighting,
+       automatic_daylight_responsive_controls_for_toplighting,
+       annotation
+FROM level_3_lighting_90_1_2010_prm
+WHERE lighting_power_density > 1.0
+  AND automatic_full_off = 'REQ'
+ORDER BY lighting_power_density DESC;",Which space types in the 2010 PRM baseline require automatic full-off controls and have lighting power densities above 1.0 W/ft²?,"CREATE TABLE level_3_lighting_90_1_2010_prm
+(id INTEGER PRIMARY KEY,
+method TEXT DEFAULT 'BA' NOT NULL,
+lighting_primary_space_type TEXT,
+lighting_secondary_space_type TEXT, 
+lighting_power_density NUMERIC NOT NULL,
+lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_power_density NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
+rcr_threshold NUMERIC,
+automatic_daylight_responsive_controls_for_sidelighting TEXT,
+automatic_daylight_responsive_controls_for_toplighting TEXT,
+automatic_partial_off TEXT,
+automatic_full_off TEXT,
+scheduled_shutoff TEXT,
+manon_or_partauto NUMERIC,
+occup_sensor_reduction NUMERIC,
+occup_sensor_manon_or_partauto_reduction NUMERIC,
+annotation TEXT)"
+"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       rcr_threshold,
+       automatic_partial_off,
+       automatic_daylight_responsive_controls_for_sidelighting,
+       automatic_daylight_responsive_controls_for_toplighting,
+       annotation
+FROM level_3_lighting_90_1_2013
+WHERE automatic_partial_off = 'REQ'
+  AND rcr_threshold <= 4
+ORDER BY lighting_power_density DESC;",Which space types require both automatic partial-off controls AND have the most stringent RCR thresholds?,"CREATE TABLE level_3_lighting_90_1_2013
+(id INTEGER PRIMARY KEY,
+method TEXT DEFAULT 'BA' NOT NULL,
+lighting_primary_space_type TEXT,
+lighting_secondary_space_type TEXT, 
+lighting_power_density NUMERIC NOT NULL,
+lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_power_density NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
+rcr_threshold NUMERIC,
+automatic_daylight_responsive_controls_for_sidelighting TEXT,
+automatic_daylight_responsive_controls_for_toplighting TEXT,
+automatic_partial_off TEXT,
+automatic_full_off TEXT,
+scheduled_shutoff TEXT,
+annotation TEXT)"
+"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       automatic_partial_off,
+       automatic_full_off,
+       scheduled_shutoff,
+       CASE 
+         WHEN lighting_primary_space_type LIKE '%Visually Impaired%' 
+           OR lighting_secondary_space_type LIKE '%visually impaired%'
+         THEN 'Visually Impaired Facility'
+         ELSE 'General Facility'
+       END as facility_type,
+       annotation
+FROM level_3_lighting_90_1_2013
+WHERE lighting_primary_space_type LIKE '%Visually Impaired%' 
+   OR lighting_secondary_space_type LIKE '%visually impaired%'
+   OR lighting_primary_space_type IN ('Lobby', 'Dormitory Living Quarters')
+ORDER BY facility_type, lighting_power_density DESC;",How do the control requirements (ADD2 vs REQ vs null) vary for facilities serving visually impaired populations compared to general spaces?,"CREATE TABLE level_3_lighting_90_1_2013
+(id INTEGER PRIMARY KEY,
+method TEXT DEFAULT 'BA' NOT NULL,
+lighting_primary_space_type TEXT,
+lighting_secondary_space_type TEXT, 
+lighting_power_density NUMERIC NOT NULL,
+lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_power_density NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
+rcr_threshold NUMERIC,
+automatic_daylight_responsive_controls_for_sidelighting TEXT,
+automatic_daylight_responsive_controls_for_toplighting TEXT,
+automatic_partial_off TEXT,
+automatic_full_off TEXT,
+scheduled_shutoff TEXT,
+annotation TEXT)"
+"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       automatic_daylight_responsive_controls_for_sidelighting,
+       automatic_partial_off,
+       automatic_full_off,
+       annotation
+FROM level_3_lighting_90_1_2016
+WHERE (lighting_primary_space_type LIKE '%Sports%' 
+       OR lighting_primary_space_type LIKE '%Religious%'
+       OR lighting_primary_space_type LIKE '%Convention%')
+  AND lighting_power_density > 1.0
+ORDER BY lighting_power_density DESC;","Which sports and entertainment venues have the highest lighting power densities, and how do their control requirements compare?","CREATE TABLE level_3_lighting_90_1_2016
+(id INTEGER PRIMARY KEY,
+method TEXT DEFAULT 'BA' NOT NULL,
+lighting_primary_space_type TEXT,
+lighting_secondary_space_type TEXT, 
+lighting_power_density NUMERIC NOT NULL,
+lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_power_density NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
+rcr_threshold NUMERIC,
+automatic_daylight_responsive_controls_for_sidelighting TEXT,
+automatic_daylight_responsive_controls_for_toplighting TEXT,
+automatic_partial_off TEXT,
+automatic_full_off TEXT,
+scheduled_shutoff TEXT,
+annotation TEXT)"
+"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       rcr_threshold,
+       annotation,
+       CASE 
+         WHEN annotation LIKE '%Section 9.6.2%' THEN 'Additional Allowances'
+         WHEN annotation LIKE '%Table 9.6.1%' THEN 'Standard Requirements'
+         ELSE 'Other'
+       END as code_section_type
+FROM level_3_lighting_90_1_2016
+WHERE lighting_primary_space_type LIKE '%Retail%'
+   OR lighting_secondary_space_type LIKE '%Sales%'
+   OR lighting_secondary_space_type LIKE '%Mall%'
+ORDER BY code_section_type, lighting_power_density DESC;",How do the lighting power densities for retail spaces compare between different retail categories and sections of the code?,"CREATE TABLE level_3_lighting_90_1_2016
+(id INTEGER PRIMARY KEY,
+method TEXT DEFAULT 'BA' NOT NULL,
+lighting_primary_space_type TEXT,
+lighting_secondary_space_type TEXT, 
+lighting_power_density NUMERIC NOT NULL,
+lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_power_density NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
+rcr_threshold NUMERIC,
+automatic_daylight_responsive_controls_for_sidelighting TEXT,
+automatic_daylight_responsive_controls_for_toplighting TEXT,
+automatic_partial_off TEXT,
+automatic_full_off TEXT,
+scheduled_shutoff TEXT,
+annotation TEXT)"
+"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       rcr_threshold,
+       automatic_partial_off,
+       automatic_daylight_responsive_controls_for_sidelighting,
+       automatic_daylight_responsive_controls_for_toplighting,
+       annotation
+FROM level_3_lighting_90_1_2019
+WHERE automatic_partial_off = 'REQ'
+  AND automatic_daylight_responsive_controls_for_sidelighting = 'REQ'
+ORDER BY lighting_power_density DESC;","Which space types require both automatic partial-off controls AND daylight responsive controls, and how do their lighting power densities compare?","CREATE TABLE level_3_lighting_90_1_2019
+(id INTEGER PRIMARY KEY,
+method TEXT DEFAULT 'BA' NOT NULL,
+lighting_primary_space_type TEXT,
+lighting_secondary_space_type TEXT, 
+lighting_power_density NUMERIC NOT NULL,
+lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_power_density NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
+rcr_threshold NUMERIC,
+automatic_daylight_responsive_controls_for_sidelighting TEXT,
+automatic_daylight_responsive_controls_for_toplighting TEXT,
+automatic_partial_off TEXT,
+automatic_full_off TEXT,
+scheduled_shutoff TEXT,
+annotation TEXT)"
+"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       automatic_full_off,
+       scheduled_shutoff,
+       rcr_threshold,
+       annotation
+FROM level_3_lighting_90_1_2019
+WHERE (lighting_primary_space_type LIKE '%Laboratory%' 
+       OR lighting_primary_space_type LIKE '%Healthcare%')
+  AND lighting_power_density > 1.0
+ORDER BY lighting_power_density DESC;","What are the most energy-intensive laboratory and healthcare spaces, and how do their control requirements differ?","CREATE TABLE level_3_lighting_90_1_2019
+(id INTEGER PRIMARY KEY,
+method TEXT DEFAULT 'BA' NOT NULL,
+lighting_primary_space_type TEXT,
+lighting_secondary_space_type TEXT, 
+lighting_power_density NUMERIC NOT NULL,
+lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_power_density NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
+rcr_threshold NUMERIC,
+automatic_daylight_responsive_controls_for_sidelighting TEXT,
+automatic_daylight_responsive_controls_for_toplighting TEXT,
+automatic_partial_off TEXT,
+automatic_full_off TEXT,
+scheduled_shutoff TEXT,
+annotation TEXT)"
+"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       rcr_threshold,
+       automatic_full_off,
+       scheduled_shutoff,
+       automatic_daylight_responsive_controls_for_sidelighting,
+       annotation
+FROM level_3_lighting_90_1_2022
+WHERE rcr_threshold <= 4
+  AND (automatic_full_off = 'ADD2' OR scheduled_shutoff = 'ADD2')
+ORDER BY rcr_threshold, lighting_power_density DESC;",Which space types have the most restrictive RCR thresholds (≤4) but still allow ADD2 (additional) controls instead of requiring them?,"CREATE TABLE level_3_lighting_90_1_2022
+(id INTEGER PRIMARY KEY,
+method TEXT DEFAULT 'BA' NOT NULL,
+lighting_primary_space_type TEXT,
+lighting_secondary_space_type TEXT, 
+lighting_power_density NUMERIC NOT NULL,
+lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_power_density NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
+rcr_threshold NUMERIC,
+automatic_daylight_responsive_controls_for_sidelighting TEXT,
+automatic_daylight_responsive_controls_for_toplighting TEXT,
+automatic_partial_off TEXT,
+automatic_full_off TEXT,
+scheduled_shutoff TEXT,
+annotation TEXT)"
+"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       automatic_full_off,
+       scheduled_shutoff,
+       rcr_threshold,
+       CASE 
+         WHEN lighting_primary_space_type LIKE '%Visually Impaired%' 
+         THEN 'Visually Impaired Facility'
+         ELSE 'General Facility'
+       END as facility_type,
+       annotation
+FROM level_3_lighting_90_1_2022
+WHERE lighting_primary_space_type LIKE '%Visually Impaired%'
+   OR lighting_primary_space_type IN ('Conference/Meeting/Multipurpose Rooms', 'Dining Area')
+ORDER BY facility_type, lighting_power_density DESC;",How do the lighting requirements for facilities serving the visually impaired compare to general facilities in terms of power density and control flexibility?,"CREATE TABLE level_3_lighting_90_1_2022
+(id INTEGER PRIMARY KEY,
+method TEXT DEFAULT 'BA' NOT NULL,
+lighting_primary_space_type TEXT,
+lighting_secondary_space_type TEXT, 
+lighting_power_density NUMERIC NOT NULL,
+lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_power_density NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
+rcr_threshold NUMERIC,
+automatic_daylight_responsive_controls_for_sidelighting TEXT,
+automatic_daylight_responsive_controls_for_toplighting TEXT,
+automatic_partial_off TEXT,
+automatic_full_off TEXT,
+scheduled_shutoff TEXT,
+annotation TEXT)"
+"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       method,
+       annotation
+FROM level_3_lighting_IECC_2006
+WHERE lighting_primary_space_type = 'Healthcare Facility'
+  AND lighting_power_density >= 1.0
+ORDER BY lighting_power_density DESC;","Which healthcare facility spaces have the highest lighting power densities, and how do they compare to other high-intensity space types?","CREATE TABLE level_3_lighting_IECC_2006
+(id INTEGER PRIMARY KEY,
+method TEXT DEFAULT 'BA' NOT NULL,
+lighting_primary_space_type TEXT,
+lighting_secondary_space_type TEXT, 
+lighting_power_density NUMERIC NOT NULL,
+lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_power_density NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
+rcr_threshold NUMERIC,
+automatic_daylight_responsive_controls_for_sidelighting TEXT,
+automatic_daylight_responsive_controls_for_toplighting TEXT,
+automatic_partial_off TEXT,
+automatic_full_off TEXT,
+scheduled_shutoff TEXT,
+annotation TEXT)"
+"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       method,
+       annotation
+FROM level_3_lighting_IECC_2006
+WHERE (lighting_primary_space_type LIKE '%Sports%' 
+       OR lighting_primary_space_type LIKE '%Audience%'
+       OR lighting_secondary_space_type LIKE '%Class%'
+       OR lighting_secondary_space_type LIKE '%sports arena%')
+ORDER BY lighting_power_density DESC;","What's the range of lighting power densities for sports and entertainment venues, and how do they vary by facility class or type?","CREATE TABLE level_3_lighting_IECC_2006
+(id INTEGER PRIMARY KEY,
+method TEXT DEFAULT 'BA' NOT NULL,
+lighting_primary_space_type TEXT,
+lighting_secondary_space_type TEXT, 
+lighting_power_density NUMERIC NOT NULL,
+lighting_power_density_unit TEXT DEFAULT 'w/ft2' NOT NULL,
+supplemental_lighting_power_density NUMERIC,
+supplemental_lighting_power_density_unit TEXT,
+rcr_threshold NUMERIC,
+automatic_daylight_responsive_controls_for_sidelighting TEXT,
+automatic_daylight_responsive_controls_for_toplighting TEXT,
+automatic_partial_off TEXT,
+automatic_full_off TEXT,
+scheduled_shutoff TEXT,
+annotation TEXT)"
+"SELECT ventilation_primary_space_type,
+       ventilation_secondary_space_type,
+       ventilation_rate_occupant,
+       ventilation_rate_area,
+       occupancy_per_area,
+       annotation
+FROM level_3_ventilation_62_1_1999
+WHERE ventilation_rate_occupant = 0
+  AND ventilation_rate_area > 0.3
+ORDER BY ventilation_rate_area DESC;",Which space types rely purely on area-based ventilation (no per-person requirements) and have high ventilation rates above 0.3 cfm/ft²?,"CREATE TABLE level_3_ventilation_62_1_1999
+(id INTEGER PRIMARY KEY, 
+ventilation_primary_space_type TEXT NOT NULL, 
+ventilation_secondary_space_type TEXT NOT NULL,
+ventilation_rate_occupant NUMERIC,
+ventilation_rate_occupant_unit TEXT DEFAULT 'cfm/person',
+ventilation_rate_area NUMERIC,
+ventilation_rate_area_unit TEXT DEFAULT 'cfm/ft2',
+occupancy_per_area NUMERIC,
+occupancy_per_area_unit TEXT DEFAULT 'ppl/1000 ft2',
+air_class INTEGER,
+os TEXT,
+annotation TEXT)"
+"SELECT ventilation_primary_space_type,
+       ventilation_secondary_space_type,
+       ventilation_rate_occupant,
+       ventilation_rate_area,
+       occupancy_per_area,
+       annotation
+FROM level_3_ventilation_62_1_1999
+WHERE ventilation_primary_space_type = 'Education'
+ORDER BY ventilation_rate_occupant DESC, occupancy_per_area DESC;",How do the ventilation requirements differ between educational spaces (classrooms vs labs vs auditoriums) in terms of per-person and occupancy assumptions?,"CREATE TABLE level_3_ventilation_62_1_1999
+(id INTEGER PRIMARY KEY, 
+ventilation_primary_space_type TEXT NOT NULL, 
+ventilation_secondary_space_type TEXT NOT NULL,
+ventilation_rate_occupant NUMERIC,
+ventilation_rate_occupant_unit TEXT DEFAULT 'cfm/person',
+ventilation_rate_area NUMERIC,
+ventilation_rate_area_unit TEXT DEFAULT 'cfm/ft2',
+occupancy_per_area NUMERIC,
+occupancy_per_area_unit TEXT DEFAULT 'ppl/1000 ft2',
+air_class INTEGER,
+os TEXT,
+annotation TEXT)"
+"SELECT ventilation_primary_space_type,
+       ventilation_secondary_space_type,
+       air_class,
+       ventilation_rate_occupant,
+       ventilation_rate_area,
+       occupancy_per_area,
+       annotation
+FROM level_3_ventilation_62_1_2004
+WHERE air_class = 2
+ORDER BY ventilation_rate_area DESC, ventilation_rate_occupant DESC;",Which space types are classified as Air Class 2 (higher contamination) and how do their ventilation rates compare to Air Class 1 spaces?,"CREATE TABLE level_3_ventilation_62_1_2004
+(id INTEGER PRIMARY KEY, 
+ventilation_primary_space_type TEXT NOT NULL, 
+ventilation_secondary_space_type TEXT NOT NULL,
+ventilation_rate_occupant NUMERIC,
+ventilation_rate_occupant_unit TEXT DEFAULT 'cfm/person',
+ventilation_rate_area NUMERIC,
+ventilation_rate_area_unit TEXT DEFAULT 'cfm/ft2',
+occupancy_per_area NUMERIC,
+occupancy_per_area_unit TEXT DEFAULT 'ppl/1000 ft2',
+air_class INTEGER,
+os TEXT,
+annotation TEXT)"
+"SELECT ventilation_primary_space_type,
+       ventilation_secondary_space_type,
+       ventilation_rate_occupant,
+       ventilation_rate_area,
+       occupancy_per_area,
+       air_class,
+       annotation
+FROM level_3_ventilation_62_1_2004
+WHERE ventilation_primary_space_type = 'Food and Beverage Service'
+ORDER BY ventilation_rate_occupant DESC, ventilation_rate_area DESC;","How do food service spaces compare in terms of ventilation requirements, and which have the highest per-person ventilation needs?","CREATE TABLE level_3_ventilation_62_1_2004
+(id INTEGER PRIMARY KEY, 
+ventilation_primary_space_type TEXT NOT NULL, 
+ventilation_secondary_space_type TEXT NOT NULL,
+ventilation_rate_occupant NUMERIC,
+ventilation_rate_occupant_unit TEXT DEFAULT 'cfm/person',
+ventilation_rate_area NUMERIC,
+ventilation_rate_area_unit TEXT DEFAULT 'cfm/ft2',
+occupancy_per_area NUMERIC,
+occupancy_per_area_unit TEXT DEFAULT 'ppl/1000 ft2',
+air_class INTEGER,
+os TEXT,
+annotation TEXT)"
+"SELECT ventilation_primary_space_type,
+       ventilation_secondary_space_type,
+       ventilation_rate_occupant,
+       ventilation_rate_area,
+       occupancy_per_area,
+       air_class,
+       annotation
+FROM level_3_ventilation_62_1_2007
+WHERE occupancy_per_area > 100
+  AND ventilation_rate_occupant > 5
+ORDER BY occupancy_per_area DESC, ventilation_rate_occupant DESC;",Which space types have both high occupancy density (>100 ppl/1000 ft²) AND require significant per-person ventilation rates?,"CREATE TABLE level_3_ventilation_62_1_2007
+(id INTEGER PRIMARY KEY, 
+ventilation_primary_space_type TEXT NOT NULL, 
+ventilation_secondary_space_type TEXT NOT NULL,
+ventilation_rate_occupant NUMERIC,
+ventilation_rate_occupant_unit TEXT DEFAULT 'cfm/person',
+ventilation_rate_area NUMERIC,
+ventilation_rate_area_unit TEXT DEFAULT 'cfm/ft2',
+occupancy_per_area NUMERIC,
+occupancy_per_area_unit TEXT DEFAULT 'ppl/1000 ft2',
+air_class INTEGER,
+os TEXT,
+annotation TEXT)"
+"SELECT ventilation_primary_space_type,
+       ventilation_secondary_space_type,
+       ventilation_rate_occupant,
+       ventilation_rate_area,
+       occupancy_per_area,
+       air_class,
+       annotation
+FROM level_3_ventilation_62_1_2007
+WHERE ventilation_primary_space_type = 'Sports and Entertainment'
+ORDER BY ventilation_rate_area DESC, ventilation_rate_occupant DESC;",How do sports and entertainment venues vary in their ventilation strategies between spectator areas and active play areas?,"CREATE TABLE level_3_ventilation_62_1_2007
+(id INTEGER PRIMARY KEY, 
+ventilation_primary_space_type TEXT NOT NULL, 
+ventilation_secondary_space_type TEXT NOT NULL,
+ventilation_rate_occupant NUMERIC,
+ventilation_rate_occupant_unit TEXT DEFAULT 'cfm/person',
+ventilation_rate_area NUMERIC,
+ventilation_rate_area_unit TEXT DEFAULT 'cfm/ft2',
+occupancy_per_area NUMERIC,
+occupancy_per_area_unit TEXT DEFAULT 'ppl/1000 ft2',
+air_class INTEGER,
+os TEXT,
+annotation TEXT)"
+"SELECT name,
+       material_type,
+       thickness,
+       resistance,
+       (resistance / thickness) as resistance_per_inch,
+       density,
+       conductivity,
+       annotation
+FROM support_materials
+WHERE material_type = 'StandardOpaqueMaterial'
+  AND resistance > 20
+  AND thickness > 0
+ORDER BY resistance_per_inch DESC;","Which insulation materials provide the highest thermal resistance per inch of thickness, and how do their densities compare?","CREATE TABLE support_materials
+(name TEXT UNIQUE NOT NULL PRIMARY KEY,
+material_type TEXT,
+roughness TEXT,
+thickness NUMERIC,
+conductivity NUMERIC,
+resistance NUMERIC,
+density NUMERIC,
+specific_heat NUMERIC,
+thermal_absorptance NUMERIC,
+solar_absorptance NUMERIC,
+visible_absorptance NUMERIC,
+gas_type TEXT,
+u_factor NUMERIC,
+solar_heat_gain_coefficient NUMERIC,
+visible_transmittance NUMERIC,
+optical_data_type TEXT,
+solar_transmittance_at_normal_incidence NUMERIC,
+front_side_solar_reflectance_at_normal_incidence NUMERIC,
+back_side_solar_reflectance_at_normal_incidence NUMERIC,
+visible_transmittance_at_normal_incidence NUMERIC,
+front_side_visible_reflectance_at_normal_incidence NUMERIC,
+back_side_visible_reflectance_at_normal_incidence NUMERIC,
+infrared_transmittance_at_normal_incidence NUMERIC,
+front_side_infrared_hemispherical_emissivity NUMERIC,
+back_side_infrared_hemispherical_emissivity NUMERIC,
+dirt_correction_factor_for_solar_and_visible_transmittance NUMERIC,
+solar_diffusing TEXT,
+frame_width NUMERIC,
+annotation TEXT
+)"
+"SELECT name,
+       thickness,
+       conductivity,
+       resistance,
+       density,
+       specific_heat,
+       annotation
+FROM support_materials
+WHERE name LIKE '%Glass fiber batt%'
+  AND name LIKE '%CEC Default%'
+ORDER BY resistance DESC, thickness;",How do the thermal properties of glass fiber batt insulations vary by R-value and thickness across different CEC defaults?,"CREATE TABLE support_materials
+(name TEXT UNIQUE NOT NULL PRIMARY KEY,
+material_type TEXT,
+roughness TEXT,
+thickness NUMERIC,
+conductivity NUMERIC,
+resistance NUMERIC,
+density NUMERIC,
+specific_heat NUMERIC,
+thermal_absorptance NUMERIC,
+solar_absorptance NUMERIC,
+visible_absorptance NUMERIC,
+gas_type TEXT,
+u_factor NUMERIC,
+solar_heat_gain_coefficient NUMERIC,
+visible_transmittance NUMERIC,
+optical_data_type TEXT,
+solar_transmittance_at_normal_incidence NUMERIC,
+front_side_solar_reflectance_at_normal_incidence NUMERIC,
+back_side_solar_reflectance_at_normal_incidence NUMERIC,
+visible_transmittance_at_normal_incidence NUMERIC,
+front_side_visible_reflectance_at_normal_incidence NUMERIC,
+back_side_visible_reflectance_at_normal_incidence NUMERIC,
+infrared_transmittance_at_normal_incidence NUMERIC,
+front_side_infrared_hemispherical_emissivity NUMERIC,
+back_side_infrared_hemispherical_emissivity NUMERIC,
+dirt_correction_factor_for_solar_and_visible_transmittance NUMERIC,
+solar_diffusing TEXT,
+frame_width NUMERIC,
+annotation TEXT
+)"
+"SELECT template,
+       climate_zone,
+       data_center,
+       fixed_dry_bulb_is_allowed,
+       differential_dry_bulb_is_allowed,
+       electronic_enthalpy_is_allowed,
+       differential_enthalpy_is_allowed,
+       dew_point_dry_bulb_is_allowed,
+       heat_recovery_exempted,
+       annotation
+FROM system_requirements_air_economizer_90_1
+WHERE template = '90.1-2010'
+  AND climate_zone IN ('2A', '3A', '4A')
+ORDER BY data_center DESC, climate_zone;",How do economizer control strategies differ between data centers and regular buildings across different climate zones?,"CREATE TABLE system_requirements_air_economizer_90_1
+(id INTEGER PRIMARY KEY, 
+template TEXT NOT NULL, 
+climate_zone TEXT NOT NULL,
+data_center TEXT,
+minimum_capacity NUMERIC,
+fan_cooling_application TEXT,
+minimum_water_cooled_chilled_water_capacity_no_fan_cooling NUMERIC,
+minimum_air_cooled_chilled_water_or_district_chilled_water_capacity_no_fan_cooling NUMERIC,
+fixed_dry_bulb_is_allowed TEXT,
+differential_dry_bulb_is_allowed TEXT,
+electronic_enthalpy_is_allowed TEXT,
+differential_enthalpy_is_allowed TEXT,
+dew_point_dry_bulb_is_allowed TEXT,
+fixed_enthalpy_is_allowed TEXT,
+fixed_enthalpy_fixed_dry_bulb_is_allowed TEXT,
+differential_enthalpy_fixed_dry_bulb_is_allowed TEXT,
+fixed_dry_bulb_high_limit_shutoff_temp NUMERIC,
+fixed_enthalpy_high_limit_shutoff_enthalpy NUMERIC,
+dew_point_dry_bulb_high_limit_shutoff_dew_point_temp NUMERIC,
+dew_point_dry_bulb_high_limit_shutoff_dry_bulb_temp NUMERIC,
+fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_enthalpy NUMERIC,
+fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp NUMERIC,
+differential_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp NUMERIC,
+percent_increase_cooling_efficiency_eliminate_requirement NUMERIC,
+heat_recovery_exempted TEXT,
+annotation TEXT)"
+"SELECT template,
+       climate_zone,
+       data_center,
+       fixed_dry_bulb_high_limit_shutoff_temp,
+       fixed_enthalpy_high_limit_shutoff_enthalpy,
+       dew_point_dry_bulb_high_limit_shutoff_dew_point_temp,
+       dew_point_dry_bulb_high_limit_shutoff_dry_bulb_temp,
+       annotation
+FROM system_requirements_air_economizer_90_1
+WHERE template IN ('90.1-2004', '90.1-2010')
+  AND climate_zone = '3A'
+ORDER BY template, data_center;","What are the high limit shutoff temperatures and enthalpies for different economizer control strategies, and how have they evolved between 90.1-2004 and 90.1-2010?","CREATE TABLE system_requirements_air_economizer_90_1
+(id INTEGER PRIMARY KEY, 
+template TEXT NOT NULL, 
+climate_zone TEXT NOT NULL,
+data_center TEXT,
+minimum_capacity NUMERIC,
+fan_cooling_application TEXT,
+minimum_water_cooled_chilled_water_capacity_no_fan_cooling NUMERIC,
+minimum_air_cooled_chilled_water_or_district_chilled_water_capacity_no_fan_cooling NUMERIC,
+fixed_dry_bulb_is_allowed TEXT,
+differential_dry_bulb_is_allowed TEXT,
+electronic_enthalpy_is_allowed TEXT,
+differential_enthalpy_is_allowed TEXT,
+dew_point_dry_bulb_is_allowed TEXT,
+fixed_enthalpy_is_allowed TEXT,
+fixed_enthalpy_fixed_dry_bulb_is_allowed TEXT,
+differential_enthalpy_fixed_dry_bulb_is_allowed TEXT,
+fixed_dry_bulb_high_limit_shutoff_temp NUMERIC,
+fixed_enthalpy_high_limit_shutoff_enthalpy NUMERIC,
+dew_point_dry_bulb_high_limit_shutoff_dew_point_temp NUMERIC,
+dew_point_dry_bulb_high_limit_shutoff_dry_bulb_temp NUMERIC,
+fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_enthalpy NUMERIC,
+fixed_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp NUMERIC,
+differential_enthalpy_fixed_dry_bulb_high_limit_shutoff_dry_bulb_temp NUMERIC,
+percent_increase_cooling_efficiency_eliminate_requirement NUMERIC,
+heat_recovery_exempted TEXT,
+annotation TEXT)"
+"SELECT template,
+       climate_zone,
+       under_8000_hours,
+       design_conditions,
+       percent_oa_70_to_80,
+       percent_oa_greater_than_80,
+       energy_recovery_effectiveness,
+       enthalpy_recovery_ratio,
+       sensible_energy_recovery_ratio,
+       annotation
+FROM system_requirements_energy_recovery_90_1
+WHERE percent_oa_greater_than_80 IS NOT NULL
+  AND percent_oa_greater_than_80 < 5000
+ORDER BY percent_oa_greater_than_80, climate_zone;","Which climate zones require energy recovery for the smallest outdoor air CFM thresholds, and how do the effectiveness requirements vary?","CREATE TABLE system_requirements_energy_recovery_90_1
+(id INTEGER PRIMARY KEY, 
+template TEXT NOT NULL, 
+climate_zone TEXT NOT NULL,
+under_8000_hours TEXT,
+nontransient_dwelling TEXT,
+percent_oa_0_to_10 NUMERIC,
+percent_oa_10_to_20 NUMERIC,
+percent_oa_20_to_30 NUMERIC,
+percent_oa_30_to_40 NUMERIC,
+percent_oa_40_to_50 NUMERIC,
+percent_oa_50_to_60 NUMERIC,
+percent_oa_60_to_70 NUMERIC,
+percent_oa_70_to_80 NUMERIC,
+percent_oa_greater_than_80 NUMERIC,
+design_conditions TEXT,
+energy_recovery_effectiveness NUMERIC,
+enthalpy_recovery_ratio NUMERIC,
+sensible_energy_recovery_ratio NUMERIC,
+annotation TEXT)"
+"SELECT template,
+       climate_zone,
+       design_conditions,
+       under_8000_hours,
+       percent_oa_30_to_40,
+       percent_oa_40_to_50,
+       percent_oa_50_to_60,
+       energy_recovery_effectiveness,
+       annotation
+FROM system_requirements_energy_recovery_90_1
+WHERE climate_zone IN ('6A', '6B', '7A', '7B', '8')
+  AND template = '90.1-2013'
+ORDER BY climate_zone, design_conditions;",How do energy recovery requirements differ between heating and cooling design conditions for cold climates (zones 6-8)?,"CREATE TABLE system_requirements_energy_recovery_90_1
+(id INTEGER PRIMARY KEY, 
+template TEXT NOT NULL, 
+climate_zone TEXT NOT NULL,
+under_8000_hours TEXT,
+nontransient_dwelling TEXT,
+percent_oa_0_to_10 NUMERIC,
+percent_oa_10_to_20 NUMERIC,
+percent_oa_20_to_30 NUMERIC,
+percent_oa_30_to_40 NUMERIC,
+percent_oa_40_to_50 NUMERIC,
+percent_oa_50_to_60 NUMERIC,
+percent_oa_60_to_70 NUMERIC,
+percent_oa_70_to_80 NUMERIC,
+percent_oa_greater_than_80 NUMERIC,
+design_conditions TEXT,
+energy_recovery_effectiveness NUMERIC,
+enthalpy_recovery_ratio NUMERIC,
+sensible_energy_recovery_ratio NUMERIC,
+annotation TEXT)"
+"SELECT template, climate_zone, design_conditions, percent_oa_30_to_40, percent_oa_40_to_50, percent_oa_50_to_60, percent_oa_60_to_70, percent_oa_70_to_80, percent_oa_greater_than_80, energy_recovery_effectiveness, CASE WHEN climate_zone LIKE '%A' THEN 'Humid' WHEN climate_zone LIKE '%B' THEN 'Dry' ELSE 'Other' END as moisture_regime, annotation FROM system_requirements_energy_recovery_IECC WHERE template = 'IECC-2012' AND climate_zone IN ('1A', '1B', '2A', '2B', '3A', '3B') ORDER BY moisture_regime, climate_zone, design_conditions;",How do the outdoor air percentage thresholds for energy recovery requirements differ between humid (A) and dry (B) climate zones in IECC-2012?,"CREATE TABLE system_requirements_energy_recovery_IECC
+(id INTEGER PRIMARY KEY, 
+template TEXT NOT NULL, 
+climate_zone TEXT NOT NULL,
+under_8000_hours TEXT,
+nontransient_dwelling TEXT,
+percent_oa_0_to_10 NUMERIC,
+percent_oa_10_to_20 NUMERIC,
+percent_oa_20_to_30 NUMERIC,
+percent_oa_30_to_40 NUMERIC,
+percent_oa_40_to_50 NUMERIC,
+percent_oa_50_to_60 NUMERIC,
+percent_oa_60_to_70 NUMERIC,
+percent_oa_70_to_80 NUMERIC,
+percent_oa_greater_than_80 NUMERIC,
+design_conditions TEXT,
+energy_recovery_effectiveness NUMERIC,
+enthalpy_recovery_ratio NUMERIC,
+sensible_energy_recovery_ratio NUMERIC,
+annotation TEXT)"
+"SELECT template, climate_zone, design_conditions, percent_oa_50_to_60, percent_oa_60_to_70, percent_oa_70_to_80, percent_oa_greater_than_80, energy_recovery_effectiveness, annotation FROM system_requirements_energy_recovery_IECC WHERE (percent_oa_50_to_60 IS NULL OR percent_oa_60_to_70 IS NULL OR percent_oa_70_to_80 IS NULL OR percent_oa_greater_than_80 IS NULL) AND template IN ('IECC-2009', 'IECC-2012') ORDER BY template, climate_zone;","Which climate zones completely exempt certain outdoor air percentage ranges from energy recovery requirements, and how have these exemptions evolved from IECC-2009 to IECC-2012?","CREATE TABLE system_requirements_energy_recovery_IECC
+(id INTEGER PRIMARY KEY, 
+template TEXT NOT NULL, 
+climate_zone TEXT NOT NULL,
+under_8000_hours TEXT,
+nontransient_dwelling TEXT,
+percent_oa_0_to_10 NUMERIC,
+percent_oa_10_to_20 NUMERIC,
+percent_oa_20_to_30 NUMERIC,
+percent_oa_30_to_40 NUMERIC,
+percent_oa_40_to_50 NUMERIC,
+percent_oa_50_to_60 NUMERIC,
+percent_oa_60_to_70 NUMERIC,
+percent_oa_70_to_80 NUMERIC,
+percent_oa_greater_than_80 NUMERIC,
+design_conditions TEXT,
+energy_recovery_effectiveness NUMERIC,
+enthalpy_recovery_ratio NUMERIC,
+sensible_energy_recovery_ratio NUMERIC,
+annotation TEXT)"
+"SELECT template, air_system_component, minimum_capacity, maximum_capacity, fan_power_allowance, fan_system, annotation FROM system_requirements_fan_power_allowance_90_1 WHERE air_system_component IN ('Filter not higher than MERV 12', 'MERV 13 to MERV 16 filter', 'HEPA filter') ORDER BY minimum_capacity, fan_power_allowance;",How do the fan power allowances compare between different filtration levels (MERV 12 vs MERV 13-16 vs HEPA) across different system capacities?,"CREATE TABLE system_requirements_fan_power_allowance_90_1
+(id INTEGER PRIMARY KEY, 
+template TEXT NOT NULL, 
+air_system TEXT NOT NULL,
+air_system_component TEXT NOT NULL,
+fan_system TEXT NOT NULL,
+minimum_capacity NUMERIC,
+maximum_capacity NUMERIC,
+fan_power_allowance NUMERIC,
+annotation TEXT)"
+"SELECT template, air_system, air_system_component, fan_system, minimum_capacity, maximum_capacity, fan_power_allowance, annotation FROM system_requirements_fan_power_allowance_90_1 WHERE (air_system_component LIKE '%recovery%' OR air_system_component LIKE '%enthalpy%' OR air_system_component LIKE '%run-around%') AND template = '90.1-2025' ORDER BY fan_power_allowance DESC, air_system;","What are the highest fan power allowances for energy recovery components, and how do they compare between supply and exhaust systems?","CREATE TABLE system_requirements_fan_power_allowance_90_1
+(id INTEGER PRIMARY KEY, 
+template TEXT NOT NULL, 
+air_system TEXT NOT NULL,
+air_system_component TEXT NOT NULL,
+fan_system TEXT NOT NULL,
+minimum_capacity NUMERIC,
+maximum_capacity NUMERIC,
+fan_power_allowance NUMERIC,
+annotation TEXT)"

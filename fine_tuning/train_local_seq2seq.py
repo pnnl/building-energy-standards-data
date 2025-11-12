@@ -10,7 +10,7 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, DataCollatorForSe
 
 
 def prepare_dataset(batch, tokenizer, max_input_len=512, max_output_len=128):
-    input_texts = [f"Context: {c}\nQuestion: {q}" for c, q in zip(batch["context"], batch["question"])]
+    input_texts = [f"Translate the following question to a single correct SQL query given this context. Output ONLY the SQL query ending with a semicolon (;). Do NOT include explanations, comments, or extra SQL statements.\n\nContext: {c}\nQuestion: {q}" for c, q in zip(batch["context"], batch["question"])]
     target_texts = batch["answer"]
 
     inputs = tokenizer(input_texts, max_length=max_input_len, truncation=True)
@@ -25,7 +25,6 @@ def prepare_dataset(batch, tokenizer, max_input_len=512, max_output_len=128):
     inputs["labels"] = labels
    
     return inputs
-
 
 class CustomTrainer(Seq2SeqTrainer):
     def __init__(self, *args, **kwargs):
@@ -79,10 +78,10 @@ def main(args):
 
     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
 
-    dataset = load_dataset("b-mc2/sql-create-context")
+    dataset = load_dataset(args.dataset_name_or_path)
 
     # Take a subset of the first 1000 examples
-    dataset["train"] = dataset["train"].select(range(1000))
+    # dataset["train"] = dataset["train"].select(range(1000))
 
     dataset = dataset["train"].train_test_split(test_size=0.1)
 
@@ -96,7 +95,7 @@ def main(args):
     config = LoraConfig(
         r=8,
         lora_alpha=32,
-        target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
+        target_modules = ["q", "v"],
         lora_dropout=0.05,
         bias="none",
         task_type="SEQ_2_SEQ_LM"
@@ -111,9 +110,10 @@ def main(args):
         num_train_epochs=args.num_epochs,
         fp16=False,
         per_device_eval_batch_size=args.batch_size,
-        logging_steps=100,
-        save_steps=1000,
-        eval_steps=1000,
+        eval_strategy="steps",
+        logging_steps=5,
+        save_steps=15,
+        eval_steps=15,
         predict_with_generate=True,  # now supported
     )
 
@@ -138,27 +138,46 @@ def main(args):
 
 def inference(args):
     base_model = args.model_name_or_path
-    fintuned_model = args.output_dir
+    finetuned_model = args.output_dir
 
     model = AutoModelForSeq2SeqLM.from_pretrained(
-        args.output_dir,
+        base_model,
         dtype=torch.float32,
         device_map="mps",
     )
 
     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
+    tokenizer.model_max_length = 1024
 
-    context = "CREATE TABLE courses (course_name VARCHAR, course_id VARCHAR); CREATE TABLE student_course_registrations (student_id VARCHAR, course_id VARCHAR)"
-    question = """What are all the ids of 10 students for courses and what are the names of those courses?"""
+    context = """"CREATE TABLE hvac_minimum_requirements_furnaces_90_1
+        (id INTEGER PRIMARY KEY, 
+        template TEXT NOT NULL,
+        equipment_type TEXT NOT NULL,
+        fuel_type TEXT NOT NULL,
+        electric_power_phase NUMERIC,
+        minimum_capacity NUMERIC,
+        maximum_capacity NUMERIC,
+        minimum_combo_unit_cooling_capacity NUMERIC,
+        maximum_combo_unit_cooling_capacity NUMERIC,
+        subtype TEXT,
+        start_date TEXT NOT NULL,
+        end_date TEXT NOT NULL,
+        minimum_annual_fuel_utilization_efficiency NUMERIC,
+        minimum_thermal_efficiency NUMERIC,
+        minimum_combustion_efficiency NUMERIC,
+        standby_mode_power NUMERIC,
+        off_mode_power NUMERIC,
+        annotation TEXT)"""
+    question = """what afue is required for a 150 kbtu / hr natural turf field installed in 2018?"""
 
     input_text = (
-        f"Translate the following question to a SQL query given this context and do not include an explanation. Context: {context}\nQuestion: {question}"
+        f"Translate the following question to a single correct SQL query given this context. Output ONLY the SQL query ending with a semicolon (;). Do NOT include explanations, comments, or extra SQL statements.\n\n Context: {context}\n Question: {question}"
     )
     inputs = tokenizer(input_text, return_tensors="pt").to('mps')
 
     generated_ids = model.generate(
         **inputs,
-        max_new_tokens=256,
+        max_new_tokens=512,
         repetition_penalty=1.2,
         eos_token_id=tokenizer.eos_token_id
     )
@@ -172,8 +191,9 @@ if __name__ == "__main__":
     mp.set_start_method("spawn", force=True)
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model_name_or_path", type=str, default="google/t5gemma-ml-ml-ul2-it")
-    parser.add_argument("--output_dir", type=str, default="./t5gemma-output-withAdapter")
+    parser.add_argument("--model_name_or_path", type=str, default="google/flan-t5-xl")
+    parser.add_argument("--dataset_name_or_path", type=str, default="b-mc2/sql-create-context")
+    parser.add_argument("--output_dir", type=str, default="./fine_tuning/output/flan-t5-output-withAdapter")
     parser.add_argument("--batch_size", type=int, default=4)
     parser.add_argument("--gradient_accumulation_steps", type=int, default=4)
     parser.add_argument("--learning_rate", type=float, default=1e-4)
