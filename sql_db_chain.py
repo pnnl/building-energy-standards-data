@@ -92,11 +92,11 @@ if __name__ == "__main__":
     # --- Set up your database and agent ---
     db_uri = "sqlite:///openstudio_standards.db"
 
-    query = "List all building standards in the database."
+    query = "SQLite query to list all building standards in the database."
 
     db = SQLDatabase.from_uri(db_uri)
 
-    sql_chain = SQLDatabaseChain.from_llm(llm, db)
+    sql_chain = SQLDatabaseChain.from_llm(llm, db, use_query_checker=True)
 
     result = sql_chain.invoke("List all building standards in the database.")
 
