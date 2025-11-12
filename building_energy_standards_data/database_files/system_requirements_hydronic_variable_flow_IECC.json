@@ -10,7 +10,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2006"
+        "annotation": "From IECC-2006, Section 503.3.2"
     },
     {
         "template": "IECC-2006",
@@ -23,7 +23,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2006"
+        "annotation": "From IECC-2006, Section 503.3.2"
     },
     {
         "template": "IECC-2009",
@@ -36,7 +36,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2009"
+        "annotation": "From IECC-2009, Section 503.3.2"
     },
     {
         "template": "IECC-2009",
@@ -49,7 +49,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2009"
+        "annotation": "From IECC-2009, Section 503.3.2"
     },
     {
         "template": "IECC-2012",
@@ -62,7 +62,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2012"
+        "annotation": "From IECC-2012, Section C403.3.2"
     },
     {
         "template": "IECC-2012",
@@ -75,7 +75,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2012"
+        "annotation": "From IECC-2012, Section C403.3.2"
     },
     {
         "template": "IECC-2015",
@@ -88,7 +88,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2015"
+        "annotation": "From IECC-2015, Section C403.4.2"
     },
     {
         "template": "IECC-2015",
@@ -101,7 +101,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2015"
+        "annotation": "From IECC-2015, Section C403.4.2"
     },
     {
         "template": "IECC-2018",
@@ -114,7 +114,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -127,7 +127,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -140,7 +140,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -153,7 +153,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -166,7 +166,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -179,7 +179,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -192,7 +192,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -205,7 +205,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -218,7 +218,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -231,7 +231,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -244,7 +244,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -257,7 +257,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -270,7 +270,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -283,7 +283,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -296,7 +296,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -309,7 +309,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -322,7 +322,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -335,7 +335,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -348,7 +348,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -361,7 +361,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -374,7 +374,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -387,7 +387,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -400,7 +400,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -413,7 +413,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -426,7 +426,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -439,7 +439,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -452,7 +452,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -465,7 +465,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -478,7 +478,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -491,7 +491,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -504,7 +504,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -517,7 +517,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -530,7 +530,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -543,7 +543,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -556,7 +556,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -569,7 +569,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -582,7 +582,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2018",
@@ -595,7 +595,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2018, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2021",
@@ -608,7 +608,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2021",
@@ -621,7 +621,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2021",
@@ -634,7 +634,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2021",
@@ -647,7 +647,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2021",
@@ -660,7 +660,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2021",
@@ -673,7 +673,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2021",
@@ -686,7 +686,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2021",
@@ -699,7 +699,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2021",
@@ -712,7 +712,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2021",
@@ -725,7 +725,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2021",
@@ -738,7 +738,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2021",
@@ -751,7 +751,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2021",
@@ -764,7 +764,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2021",
@@ -777,7 +777,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2021",
@@ -790,504 +790,10 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2021",
-        "operation": "heating",
-        "climate_zone": "1B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 100,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "heating",
-        "climate_zone": "0A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 200,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "heating",
-        "climate_zone": "0B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 200,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "heating",
-        "climate_zone": "1A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 200,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "0A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 2,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "0B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 2,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "1A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 2,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "1B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 2,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "2B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 2,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "2A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 3,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "3B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 3,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "3A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "3C",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "4A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "4B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "4C",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "5A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "5B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "5C",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "6A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "6B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "7",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 15,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2021",
-        "operation": "cooling",
-        "climate_zone": "8",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 15,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2024",
-        "operation": "heating",
-        "climate_zone": "7",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2024",
-        "operation": "heating",
-        "climate_zone": "8",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2024",
-        "operation": "heating",
-        "climate_zone": "3C",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2024",
-        "operation": "heating",
-        "climate_zone": "5A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2024",
-        "operation": "heating",
-        "climate_zone": "5C",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2024",
-        "operation": "heating",
-        "climate_zone": "6A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2024",
-        "operation": "heating",
-        "climate_zone": "6B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2024",
-        "operation": "heating",
-        "climate_zone": "4A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 10,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2024",
-        "operation": "heating",
-        "climate_zone": "4C",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 10,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2024",
-        "operation": "heating",
-        "climate_zone": "5B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 10,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2024",
-        "operation": "heating",
-        "climate_zone": "4B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 15,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2024",
-        "operation": "heating",
-        "climate_zone": "2A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 25,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2024",
-        "operation": "heating",
-        "climate_zone": "2B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 25,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2024",
-        "operation": "heating",
-        "climate_zone": "3A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 25,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2024",
-        "operation": "heating",
-        "climate_zone": "3B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 25,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
-    },
-    {
-        "template": "IECC-2024",
         "operation": "heating",
         "climate_zone": "1B",
         "pump_head_ft": null,
@@ -1297,7 +803,501 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "heating",
+        "climate_zone": "0A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 200,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "heating",
+        "climate_zone": "0B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 200,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "heating",
+        "climate_zone": "1A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 200,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "0A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 2,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "0B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 2,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "1A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 2,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "1B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 2,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "2B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 2,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "2A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 3,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "3B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 3,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "3A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "3C",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "4A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "4B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "4C",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "5A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "5B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "5C",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "6A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "6B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "7",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 15,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2021",
+        "operation": "cooling",
+        "climate_zone": "8",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 15,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2021, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2024",
+        "operation": "heating",
+        "climate_zone": "7",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2024",
+        "operation": "heating",
+        "climate_zone": "8",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2024",
+        "operation": "heating",
+        "climate_zone": "3C",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2024",
+        "operation": "heating",
+        "climate_zone": "5A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2024",
+        "operation": "heating",
+        "climate_zone": "5C",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2024",
+        "operation": "heating",
+        "climate_zone": "6A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2024",
+        "operation": "heating",
+        "climate_zone": "6B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2024",
+        "operation": "heating",
+        "climate_zone": "4A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 10,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2024",
+        "operation": "heating",
+        "climate_zone": "4C",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 10,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2024",
+        "operation": "heating",
+        "climate_zone": "5B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 10,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2024",
+        "operation": "heating",
+        "climate_zone": "4B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 15,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2024",
+        "operation": "heating",
+        "climate_zone": "2A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 25,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2024",
+        "operation": "heating",
+        "climate_zone": "2B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 25,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2024",
+        "operation": "heating",
+        "climate_zone": "3A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 25,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2024",
+        "operation": "heating",
+        "climate_zone": "3B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 25,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
+    },
+    {
+        "template": "IECC-2024",
+        "operation": "heating",
+        "climate_zone": "1B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 100,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1310,7 +1310,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1323,7 +1323,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1336,7 +1336,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1349,7 +1349,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1362,7 +1362,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1375,7 +1375,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1388,7 +1388,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1401,7 +1401,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1414,7 +1414,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1427,7 +1427,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1440,7 +1440,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1453,7 +1453,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1466,7 +1466,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1479,7 +1479,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1492,7 +1492,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1505,7 +1505,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1518,7 +1518,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1531,7 +1531,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1544,7 +1544,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1557,7 +1557,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1570,7 +1570,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     },
     {
         "template": "IECC-2024",
@@ -1583,6 +1583,6 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From IECC-2018"
+        "annotation": "From IECC-2024, Section C403.4.3 and Table C403.4.4"
     }
 ]

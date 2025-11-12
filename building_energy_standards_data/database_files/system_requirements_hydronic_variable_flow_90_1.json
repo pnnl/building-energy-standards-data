@@ -10,7 +10,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2004"
+        "annotation": "From 90.1-2004, Section 6.5.4.1"
     },
     {
         "template": "90.1-2007",
@@ -23,7 +23,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2004"
+        "annotation": "From 90.1-2007, Section 6.5.4.1"
     },
     {
         "template": "90.1-2010",
@@ -36,7 +36,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2010"
+        "annotation": "From 90.1-2010, Section 6.5.4.1"
     },
     {
         "template": "90.1-2010",
@@ -49,7 +49,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2010"
+        "annotation": "From 90.1-2010, Section 6.5.4.1"
     },
     {
         "template": "90.1-2013",
@@ -62,7 +62,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2013"
+        "annotation": "From 90.1-2013, Section 6.5.4.2"
     },
     {
         "template": "90.1-2013",
@@ -75,7 +75,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2013"
+        "annotation": "From 90.1-2013, Section 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -88,7 +88,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -101,7 +101,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -114,7 +114,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -127,7 +127,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -140,7 +140,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -153,7 +153,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -166,7 +166,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -179,7 +179,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -192,7 +192,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -205,7 +205,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -218,7 +218,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -231,7 +231,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -244,7 +244,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -257,7 +257,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -270,7 +270,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -283,7 +283,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -296,7 +296,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -309,7 +309,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -322,7 +322,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -335,7 +335,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -348,7 +348,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -361,7 +361,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -374,7 +374,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -387,7 +387,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -400,7 +400,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -413,7 +413,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -426,7 +426,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -439,7 +439,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -452,7 +452,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -465,7 +465,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -478,7 +478,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -491,7 +491,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -504,7 +504,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -517,7 +517,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -530,7 +530,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -543,7 +543,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -556,7 +556,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2016",
@@ -569,7 +569,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2016"
+        "annotation": "From 90.1-2016, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2019",
@@ -582,7 +582,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2019",
@@ -595,7 +595,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2019",
@@ -608,7 +608,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2019",
@@ -621,7 +621,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2019",
@@ -634,7 +634,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2019",
@@ -647,7 +647,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2019",
@@ -660,7 +660,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2019",
@@ -673,7 +673,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2019",
@@ -686,7 +686,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2019",
@@ -699,7 +699,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2019",
@@ -712,7 +712,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2019",
@@ -725,7 +725,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2019",
@@ -738,7 +738,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2019",
@@ -751,7 +751,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2019",
@@ -764,504 +764,10 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2019",
-        "operation": "heating",
-        "climate_zone": "1B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 100,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "heating",
-        "climate_zone": "0A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 200,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "heating",
-        "climate_zone": "0B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 200,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "heating",
-        "climate_zone": "1A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 200,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "0A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 2,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "0B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 2,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "1A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 2,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "1B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 2,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "2B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 2,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "2A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 3,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "3B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 3,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "3A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "3C",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "4A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "4B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "4C",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "5A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "5B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "5C",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "6A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "6B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "7",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 15,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2019",
-        "operation": "cooling",
-        "climate_zone": "8",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 15,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2019"
-    },
-    {
-        "template": "90.1-2022",
-        "operation": "heating",
-        "climate_zone": "7",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
-    },
-    {
-        "template": "90.1-2022",
-        "operation": "heating",
-        "climate_zone": "8",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
-    },
-    {
-        "template": "90.1-2022",
-        "operation": "heating",
-        "climate_zone": "3C",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
-    },
-    {
-        "template": "90.1-2022",
-        "operation": "heating",
-        "climate_zone": "5A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
-    },
-    {
-        "template": "90.1-2022",
-        "operation": "heating",
-        "climate_zone": "5C",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
-    },
-    {
-        "template": "90.1-2022",
-        "operation": "heating",
-        "climate_zone": "6A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
-    },
-    {
-        "template": "90.1-2022",
-        "operation": "heating",
-        "climate_zone": "6B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 7.5,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
-    },
-    {
-        "template": "90.1-2022",
-        "operation": "heating",
-        "climate_zone": "4A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 10,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
-    },
-    {
-        "template": "90.1-2022",
-        "operation": "heating",
-        "climate_zone": "4C",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 10,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
-    },
-    {
-        "template": "90.1-2022",
-        "operation": "heating",
-        "climate_zone": "5B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 10,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
-    },
-    {
-        "template": "90.1-2022",
-        "operation": "heating",
-        "climate_zone": "4B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 15,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
-    },
-    {
-        "template": "90.1-2022",
-        "operation": "heating",
-        "climate_zone": "2A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 25,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
-    },
-    {
-        "template": "90.1-2022",
-        "operation": "heating",
-        "climate_zone": "2B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 25,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
-    },
-    {
-        "template": "90.1-2022",
-        "operation": "heating",
-        "climate_zone": "3A",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 25,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
-    },
-    {
-        "template": "90.1-2022",
-        "operation": "heating",
-        "climate_zone": "3B",
-        "pump_head_ft": null,
-        "VSD_pump_horsepower_threshold": null,
-        "VSD_reset_pump_horsepower_threshold": 25,
-        "VSD_plant_W_threshold": null,
-        "VSD_reset_plant_W_threshold": null,
-        "VSD_building_area_served_threshold": null,
-        "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
-    },
-    {
-        "template": "90.1-2022",
         "operation": "heating",
         "climate_zone": "1B",
         "pump_head_ft": null,
@@ -1271,7 +777,501 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "heating",
+        "climate_zone": "0A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 200,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "heating",
+        "climate_zone": "0B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 200,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "heating",
+        "climate_zone": "1A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 200,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "0A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 2,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "0B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 2,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "1A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 2,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "1B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 2,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "2B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 2,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "2A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 3,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "3B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 3,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "3A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "3C",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "4A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "4B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "4C",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "5A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "5B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "5C",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "6A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "6B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "7",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 15,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2019",
+        "operation": "cooling",
+        "climate_zone": "8",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 15,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2019, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2022",
+        "operation": "heating",
+        "climate_zone": "7",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2022",
+        "operation": "heating",
+        "climate_zone": "8",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2022",
+        "operation": "heating",
+        "climate_zone": "3C",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2022",
+        "operation": "heating",
+        "climate_zone": "5A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2022",
+        "operation": "heating",
+        "climate_zone": "5C",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2022",
+        "operation": "heating",
+        "climate_zone": "6A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2022",
+        "operation": "heating",
+        "climate_zone": "6B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 7.5,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2022",
+        "operation": "heating",
+        "climate_zone": "4A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 10,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2022",
+        "operation": "heating",
+        "climate_zone": "4C",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 10,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2022",
+        "operation": "heating",
+        "climate_zone": "5B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 10,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2022",
+        "operation": "heating",
+        "climate_zone": "4B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 15,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2022",
+        "operation": "heating",
+        "climate_zone": "2A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 25,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2022",
+        "operation": "heating",
+        "climate_zone": "2B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 25,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2022",
+        "operation": "heating",
+        "climate_zone": "3A",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 25,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2022",
+        "operation": "heating",
+        "climate_zone": "3B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 25,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
+    },
+    {
+        "template": "90.1-2022",
+        "operation": "heating",
+        "climate_zone": "1B",
+        "pump_head_ft": null,
+        "VSD_pump_horsepower_threshold": null,
+        "VSD_reset_pump_horsepower_threshold": 100,
+        "VSD_plant_W_threshold": null,
+        "VSD_reset_plant_W_threshold": null,
+        "VSD_building_area_served_threshold": null,
+        "VSD_reset_building_area_served_threshold": null,
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1284,7 +1284,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1297,7 +1297,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1310,7 +1310,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1323,7 +1323,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1336,7 +1336,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1349,7 +1349,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1362,7 +1362,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1375,7 +1375,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1388,7 +1388,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1401,7 +1401,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1414,7 +1414,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1427,7 +1427,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1440,7 +1440,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1453,7 +1453,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1466,7 +1466,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1479,7 +1479,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1492,7 +1492,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1505,7 +1505,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1518,7 +1518,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1531,7 +1531,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1544,7 +1544,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2022",
@@ -1557,7 +1557,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2022"
+        "annotation": "From 90.1-2022, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1570,7 +1570,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1583,7 +1583,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1596,7 +1596,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1609,7 +1609,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1622,7 +1622,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1635,7 +1635,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1648,7 +1648,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1661,7 +1661,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1674,7 +1674,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1687,7 +1687,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1700,7 +1700,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1713,7 +1713,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1726,7 +1726,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1739,7 +1739,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1752,7 +1752,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1765,7 +1765,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1778,7 +1778,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1791,7 +1791,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1804,7 +1804,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1817,7 +1817,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1830,7 +1830,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1843,7 +1843,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1856,7 +1856,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1869,7 +1869,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1882,7 +1882,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1895,7 +1895,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1908,7 +1908,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1921,7 +1921,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1934,7 +1934,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1947,7 +1947,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1960,7 +1960,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1973,7 +1973,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1986,7 +1986,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -1999,7 +1999,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -2012,7 +2012,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -2025,7 +2025,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -2038,7 +2038,7 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     },
     {
         "template": "90.1-2025",
@@ -2051,6 +2051,6 @@
         "VSD_reset_plant_W_threshold": null,
         "VSD_building_area_served_threshold": null,
         "VSD_reset_building_area_served_threshold": null,
-        "annotation": "From 90.1-2025"
+        "annotation": "From 90.1-2025, Section 6.5.4.2 and Table 6.5.4.2"
     }
 ]
