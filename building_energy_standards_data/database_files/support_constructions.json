@@ -9100,20 +9100,7 @@
         "material_6": null
     },
     {
-        "name": "U  0.81 SHGC 0.45 Simple Glazing",
-        "intended_surface_type": null,
-        "standards_construction_type": null,
-        "insulation_layer": null,
-        "skylight_framing": null,
-        "material_1": "U  0.81 SHGC 0.45 Simple Glazing",
-        "material_2": null,
-        "material_3": null,
-        "material_4": null,
-        "material_5": null,
-        "material_6": null
-    },
-    {
-        "name": "U  SHGC 0.45 Simple Glazing",
+        "name": "U SHGC 0.45 Simple Glazing",
         "intended_surface_type": null,
         "standards_construction_type": null,
         "insulation_layer": null,
