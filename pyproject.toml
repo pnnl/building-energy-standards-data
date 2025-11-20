@@ -36,6 +36,8 @@ langchain_huggingface="*"
 dotenv="*"
 openpyxl="*"
 nltk="*"
+chromadb="*"
+
 
 [build-system]
 requires = ["poetry-core"]
