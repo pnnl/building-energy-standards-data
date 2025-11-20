@@ -16,10 +16,12 @@ from transformers import (
     DataCollatorForLanguageModeling,
 )
 
+
 def prepare_dataset(batch, tokenizer, max_input_len=512, max_output_len=256):
     # Combine context + question into input
     input_texts = [
-        f"Context: {c}\nQuestion: {q}" for c, q in zip(batch["context"], batch["question"])
+        f"Context: {c}\nQuestion: {q}"
+        for c, q in zip(batch["context"], batch["question"])
     ]
     target_texts = batch["answer"]
 
@@ -54,8 +56,17 @@ class CustomTrainer(Trainer):
         super().__init__(*args, **kwargs)
         self.loss_log = []
 
-    def training_step(self, model, inputs, num_items_in_batch = None,):
-        loss = super().training_step(model, inputs, num_items_in_batch,)
+    def training_step(
+        self,
+        model,
+        inputs,
+        num_items_in_batch=None,
+    ):
+        loss = super().training_step(
+            model,
+            inputs,
+            num_items_in_batch,
+        )
         if self.state.global_step % 50 == 0:
             self.loss_log.append((self.state.global_step, loss.item()))
             print(f"Step {self.state.global_step}: Loss = {loss.item()}")
@@ -73,6 +84,7 @@ def main(args):
 
     if args.quantize == True:
         from transformers import BitsAndBytesConfig
+
         bnb_config = BitsAndBytesConfig(
             load_in_8bit=True, llm_int8_enable_fp32_cpu_offload=True
         )
@@ -105,7 +117,7 @@ def main(args):
         target_modules=["q_proj", "v_proj"],
         lora_dropout=0.05,
         bias="none",
-        task_type="CAUSAL_LM"
+        task_type="CAUSAL_LM",
     )
     model = get_peft_model(model, config)
 
@@ -122,7 +134,9 @@ def main(args):
         eval_steps=1000,
     )
 
-    data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer,mlm=False)  # causal LM, so no masking)
+    data_collator = DataCollatorForLanguageModeling(
+        tokenizer=tokenizer, mlm=False
+    )  # causal LM, so no masking)
 
     trainer = CustomTrainer(
         model=model,
@@ -153,11 +167,11 @@ def inference(args):
     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
 
     context = "CREATE TABLE department (name STRING role STRING age INTEGER)"
-    question = "SQL query for getting how many heads of the departments are older than 56 ?"
-
-    input_text = (
-        f"You are a SQL assistant. Output ONLY the SQL query. Do NOT add explanations, results, numbers, questions, or reasoning. Only SQL.\n\nContext: {context}\n Question: {question}\nAnswer: "
+    question = (
+        "SQL query for getting how many heads of the departments are older than 56 ?"
     )
+
+    input_text = f"You are a SQL assistant. Output ONLY the SQL query. Do NOT add explanations, results, numbers, questions, or reasoning. Only SQL.\n\nContext: {context}\n Question: {question}\nAnswer: "
     inputs = tokenizer(input_text, return_tensors="pt")
     inputs = {k: v.to("cuda") for k, v in inputs.items()}
 
@@ -166,11 +180,10 @@ def inference(args):
         max_new_tokens=128,
         do_sample=False,
         repetition_penalty=1.2,
-        eos_token_id=tokenizer.eos_token_id
+        eos_token_id=tokenizer.eos_token_id,
     )
     answer = tokenizer.decode(
-        generated_ids[0][inputs['input_ids'].shape[1]:],
-        skip_special_tokens=True
+        generated_ids[0][inputs["input_ids"].shape[1] :], skip_special_tokens=True
     )
     print(f"{input_text}{answer}")
 
@@ -198,4 +211,3 @@ if __name__ == "__main__":
         main(args)
     elif args.mode == "inference":
         inference(args)
-

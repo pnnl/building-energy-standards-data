@@ -13,7 +13,7 @@ def setup_besd_agent(
     tools: Optional[List[BaseTool]] = [],
     agent_type: str = "tool-calling",
     verbose: bool = True,
-    callback_manager = None
+    callback_manager=None,
 ) -> AgentExecutor:
     db = SQLDatabase.from_uri(db_uri)
     sql_agent = create_sql_agent(
@@ -33,6 +33,6 @@ def setup_besd_agent(
         #         "Important: Always end with `Final Answer:`."
         #     ),
         # },
-        callback_manager=callback_manager
+        callback_manager=callback_manager,
     )
     return sql_agent

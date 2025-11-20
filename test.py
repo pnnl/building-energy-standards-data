@@ -1,13 +1,16 @@
 if __name__ == "__main__":
-    from building_energy_standards_data.applications.ai_agent.agent_factory import setup_besd_agent
-    from building_energy_standards_data.applications.ai_agent.app import run_sql_agent_ui
+    from building_energy_standards_data.applications.ai_agent.agent_factory import (
+        setup_besd_agent,
+    )
+    from building_energy_standards_data.applications.ai_agent.app import (
+        run_sql_agent_ui,
+    )
 
     from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
     from langchain_huggingface.llms import HuggingFacePipeline
     import torch
 
     import dotenv
-
 
     # Load environment variables
     dotenv.load_dotenv()
@@ -30,7 +33,7 @@ if __name__ == "__main__":
         tokenizer=tokenizer,
         max_new_tokens=512,
         temperature=0.0,
-        do_sample=False
+        do_sample=False,
     )
 
     # Wrap it as a LangChain LLM so your agent can use it

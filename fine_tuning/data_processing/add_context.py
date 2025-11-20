@@ -8,7 +8,6 @@ OUTPUT_FILE = "fine_tuning/dataset/processed/questions_with_context.csv"
 DB_FILE = "openstudio_standards.db"
 
 
-
 def add_context(dataset_path, db_path, output_path=None):
     # ---------- LOAD EXCEL ----------
     df = pd.read_excel(dataset_path)
@@ -28,7 +27,7 @@ def add_context(dataset_path, db_path, output_path=None):
     def extract_table_names(sql):
         """Extract all table names from a SQL SELECT statement."""
         # Matches FROM table_name or JOIN table_name
-        matches = re.findall(r'(?:FROM|JOIN)\s+([^\s,;]+)', sql, re.IGNORECASE)
+        matches = re.findall(r"(?:FROM|JOIN)\s+([^\s,;]+)", sql, re.IGNORECASE)
         return matches
 
     def get_table_schema(table_names):
@@ -48,7 +47,7 @@ def add_context(dataset_path, db_path, output_path=None):
             return get_table_schema(table_names)
         return None
 
-    df['context'] = df['answer'].apply(generate_context)
+    df["context"] = df["answer"].apply(generate_context)
 
     df = df[["answer", "question", "context"]]
 

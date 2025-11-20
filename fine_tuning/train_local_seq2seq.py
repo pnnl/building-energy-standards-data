@@ -6,25 +6,41 @@ import torch
 import torch.multiprocessing as mp
 from datasets import load_dataset
 from peft import LoraConfig, get_peft_model
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, DataCollatorForSeq2Seq, Seq2SeqTrainer, Seq2SeqTrainingArguments
+from transformers import (
+    AutoTokenizer,
+    AutoModelForSeq2SeqLM,
+    DataCollatorForSeq2Seq,
+    Seq2SeqTrainer,
+    Seq2SeqTrainingArguments,
+)
 
 
 def prepare_dataset(batch, tokenizer, max_input_len=512, max_output_len=128):
-    input_texts = [f"Translate the following question to a single correct SQL query given this context. Output ONLY the SQL query ending with a semicolon (;). Do NOT include explanations, comments, or extra SQL statements.\n\nContext: {c}\nQuestion: {q}" for c, q in zip(batch["context"], batch["question"])]
+    input_texts = [
+        f"Translate the following question to a single correct SQL query given this context. Output ONLY the SQL query ending with a semicolon (;). Do NOT include explanations, comments, or extra SQL statements.\n\nContext: {c}\nQuestion: {q}"
+        for c, q in zip(batch["context"], batch["question"])
+    ]
     target_texts = batch["answer"]
 
     inputs = tokenizer(input_texts, max_length=max_input_len, truncation=True)
-    labels = tokenizer(target_texts, max_length=max_output_len, truncation=True).input_ids
+    labels = tokenizer(
+        target_texts, max_length=max_output_len, truncation=True
+    ).input_ids
 
     # Replace pad tokens with -100 for loss calculation
-    labels = [[l if l != tokenizer.pad_token_id else -100 for l in seq] for seq in labels]
+    labels = [
+        [l if l != tokenizer.pad_token_id else -100 for l in seq] for seq in labels
+    ]
 
-    ignored_ratio = sum(l == -100 for seq in labels for l in seq) / sum(len(seq) for seq in labels)
+    ignored_ratio = sum(l == -100 for seq in labels for l in seq) / sum(
+        len(seq) for seq in labels
+    )
     print(f"Average % of ignored tokens: {ignored_ratio:.3f}")
 
     inputs["labels"] = labels
-   
+
     return inputs
+
 
 class CustomTrainer(Seq2SeqTrainer):
     def __init__(self, *args, **kwargs):
@@ -65,8 +81,11 @@ def main(args):
 
     if args.quantize == True:
         from transformers import BitsAndBytesConfig
+
         bnb_config = BitsAndBytesConfig(
-            load_in_8bit=True, quantization_config=bnb_config, llm_int8_enable_fp32_cpu_offload=True
+            load_in_8bit=True,
+            quantization_config=bnb_config,
+            llm_int8_enable_fp32_cpu_offload=True,
         )
     else:
         bnb_config = None
@@ -95,10 +114,10 @@ def main(args):
     config = LoraConfig(
         r=8,
         lora_alpha=32,
-        target_modules = ["q", "v"],
+        target_modules=["q", "v"],
         lora_dropout=0.05,
         bias="none",
-        task_type="SEQ_2_SEQ_LM"
+        task_type="SEQ_2_SEQ_LM",
     )
     model = get_peft_model(model, config)
 
@@ -170,16 +189,14 @@ def inference(args):
         annotation TEXT)"""
     question = """what afue is required for a 150 kbtu / hr natural turf field installed in 2018?"""
 
-    input_text = (
-        f"Translate the following question to a single correct SQL query given this context. Output ONLY the SQL query ending with a semicolon (;). Do NOT include explanations, comments, or extra SQL statements.\n\n Context: {context}\n Question: {question}"
-    )
-    inputs = tokenizer(input_text, return_tensors="pt").to('mps')
+    input_text = f"Translate the following question to a single correct SQL query given this context. Output ONLY the SQL query ending with a semicolon (;). Do NOT include explanations, comments, or extra SQL statements.\n\n Context: {context}\n Question: {question}"
+    inputs = tokenizer(input_text, return_tensors="pt").to("mps")
 
     generated_ids = model.generate(
         **inputs,
         max_new_tokens=512,
         repetition_penalty=1.2,
-        eos_token_id=tokenizer.eos_token_id
+        eos_token_id=tokenizer.eos_token_id,
     )
 
     answer = tokenizer.decode(generated_ids[0], skip_special_tokens=True)
@@ -192,8 +209,14 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, default="google/flan-t5-xl")
-    parser.add_argument("--dataset_name_or_path", type=str, default="b-mc2/sql-create-context")
-    parser.add_argument("--output_dir", type=str, default="./fine_tuning/output/flan-t5-output-withAdapter")
+    parser.add_argument(
+        "--dataset_name_or_path", type=str, default="b-mc2/sql-create-context"
+    )
+    parser.add_argument(
+        "--output_dir",
+        type=str,
+        default="./fine_tuning/output/flan-t5-output-withAdapter",
+    )
     parser.add_argument("--batch_size", type=int, default=4)
     parser.add_argument("--gradient_accumulation_steps", type=int, default=4)
     parser.add_argument("--learning_rate", type=float, default=1e-4)
@@ -209,4 +232,3 @@ if __name__ == "__main__":
         main(args)
     elif args.mode == "inference":
         inference(args)
-
