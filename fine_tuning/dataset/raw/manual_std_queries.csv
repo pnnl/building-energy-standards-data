@@ -1,0 +1,708 @@
+question,answer
+What is the maximum permitted assembly U-value for a residential exterior mass wall in Climate Zone 3A according to ASHRAE 90.1-2004?,"SELECT assembly_maximum_u_value, assembly_maximum_u_value_unit
+FROM envelope_requirements_90_1
+WHERE template = '90.1-2004'
+  AND climate_zone_set = 'ClimateZone 3A'
+  AND intended_surface_type = 'ExteriorWall'
+  AND standards_construction_type = 'Mass'
+  AND building_category = 'Residential';"
+What is the maximum permitted solar heat coefficient for a southern facing nonresidential glass door in Climate Zone 7 according to ASHRAE 90.1-2004?,"SELECT assembly_maximum_solar_heat_gain_coefficient, 
+       minimum_percent_of_surface, 
+       maximum_percent_of_surface,
+       orientation
+FROM envelope_requirements_90_1
+WHERE template = '90.1-2004'
+  AND climate_zone_set LIKE 'ClimateZone 7%'
+  AND intended_surface_type = 'GlassDoor'
+  AND building_category = 'Nonresidential'
+  AND orientation LIKE '%S%';"
+What is the maximum permitted assembly U-value for a residential exterior mass wall in Climate Zone 3A according to IECC-2012?,"SELECT assembly_maximum_u_value, assembly_maximum_u_value_unit
+FROM envelope_requirements_IECC
+WHERE template = 'IECC-2012'
+  AND climate_zone_set = 'ClimateZone 3'
+  AND intended_surface_type = 'ExteriorWall'
+  AND standards_construction_type = 'Mass'
+  AND building_category = 'Residential';"
+What climate zones are included in the IECC envelope requirements dataset?,"SELECT DISTINCT climate_zone_set
+FROM envelope_requirements_IECC
+ORDER BY climate_zone_set;"
+What are the allowance types for exterior lighting in 90.1?,"SELECT DISTINCT allowance_type
+FROM exterior_lighting_90_1
+ORDER BY allowance_type;"
+What are the exterior lighting requirements for walkways in 90.1-2007?,"SELECT lighting_zone, allowance_type, allowance, allowance_unit
+FROM exterior_lighting_90_1
+WHERE template = '90.1-2007'
+  AND allowance_type LIKE '%walkway%';"
+I have a 350 kBtu/hr natural gas boiler that was installed in 2011. What efficiency does 90.1 specify for a boiler of this size and fuel type?,"SELECT fluid_type, minimum_annual_fuel_utilization_efficiency, minimum_thermal_efficiency, minimum_combustion_efficiency, start_date, end_date
+FROM hvac_minimum_requirements_boilers_90_1
+WHERE template = '90.1-2010'
+  AND fuel_type = 'NaturalGas'
+  AND minimum_capacity <= 350000
+  AND (maximum_capacity >= 350000 OR maximum_capacity IS NULL);"
+What are the draft type options available for boilers?,"SELECT DISTINCT draft_type
+FROM hvac_minimum_requirements_boilers_90_1
+ORDER BY draft_type;"
+What part load efficiency is required for a 120 ton water cooled screw chiller installed in 2008 for IECC?,"SELECT template, 
+       cooling_type,
+       compressor_type,
+       minimum_capacity,
+       maximum_capacity,
+       start_date,
+       end_date,
+       minimum_integrated_part_load_value,
+       annotation
+FROM hvac_minimum_requirements_chillers_IECC
+WHERE template = 'IECC-2006'
+  AND cooling_type = 'WaterCooled'
+  AND compressor_type = 'Rotary Screw'
+  AND minimum_capacity <= 120
+  AND maximum_capacity >= 120;"
+What SCOP is required for a 150 kBtu/hr water cooled downflow computer room air conditioner installed in 2015?,"SELECT template,
+       cooling_type,
+       standard_model,
+       rating_condition,
+       minimum_capacity,
+       maximum_capacity,
+       minimum_scop,
+       annotation
+FROM hvac_minimum_requirements_computer_room_air_conditioners_90_1
+WHERE cooling_type LIKE '%WaterCooled%'
+  AND minimum_capacity <= 150000
+  AND maximum_capacity >= 150000
+  AND template = '90.1-2013'
+ORDER BY cooling_type, standard_model;"
+What AFUE is required for a 150 kBtu/hr natural gas furnace installed in 2018?,"SELECT template,
+       equipment_type,
+       fuel_type,
+       minimum_capacity,
+       maximum_capacity,
+       minimum_annual_fuel_utilization_efficiency,
+       minimum_thermal_efficiency,
+       annotation
+FROM hvac_minimum_requirements_furnaces_90_1
+WHERE equipment_type = 'Warm Air Furnace'
+  AND fuel_type = 'NaturalGas'
+  AND minimum_capacity <= 150000
+  AND maximum_capacity >= 150000
+  AND template = '90.1-2016';"
+"What are the efficiency requirements for any oil-fired furnace between 200,000-300,000 Btu/hr under 2019 standards?","SELECT template,
+       equipment_type,
+       fuel_type,
+       subtype,
+       minimum_capacity,
+       maximum_capacity,
+       minimum_annual_fuel_utilization_efficiency,
+       minimum_thermal_efficiency,
+       standby_mode_power,
+       off_mode_power,
+       annotation
+FROM hvac_minimum_requirements_furnaces_90_1
+WHERE fuel_type = 'Oil'
+  AND minimum_capacity <= 300000
+  AND maximum_capacity >= 200000
+  AND template = '90.1-2019'
+ORDER BY equipment_type, minimum_capacity;"
+How do the SEER2 requirements differ between regions for a 3-ton split system heat pump installed under the latest IECC standards?,"SELECT template,
+       equipment_type,
+       subcategory,
+       region,
+       minimum_seasonal_energy_efficiency_ratio_2 as seer2_requirement,
+       start_date,
+       end_date,
+       annotation
+FROM hvac_minimum_requirements_heat_pumps_cooling_IECC
+WHERE equipment_type = 'Heat Pumps'
+  AND subcategory = 'Split System'
+  AND minimum_capacity <= 36000  -- 3 tons = 36,000 Btu/hr
+  AND maximum_capacity >= 36000
+  AND template in ('IECC-2018', 'IECC-2021')
+ORDER BY region, template;"
+What's the difference in off-mode power requirements between Small Duct High Velocity systems and regular heat pumps in the Southeastern region across different IECC versions?,"SELECT template,
+       equipment_type,
+       region,
+       subcategory,
+       minimum_seasonal_energy_efficiency_ratio,
+       minimum_seasonal_energy_efficiency_ratio_2,
+       off_mode_power,
+       start_date,
+       annotation
+FROM hvac_minimum_requirements_heat_pumps_cooling_IECC
+WHERE region = 'Southeastern'
+  AND (equipment_type = 'Small Duct High Velocity' 
+       OR (equipment_type = 'Heat Pumps' AND subcategory = 'Single Package'))
+  AND minimum_capacity <= 48000  -- focusing on residential sizes
+  AND maximum_capacity >= 24000
+ORDER BY equipment_type, template;"
+How have the COP requirements at low outdoor temperatures (17 F) evolved over different ASHRAE 90.1 versions for large commercial heat pumps?,"SELECT template,
+       equipment_type,
+       rating_condition,
+       minimum_capacity,
+       maximum_capacity,
+       minimum_coefficient_of_performance_heating as cop_heating,
+       start_date,
+       end_date,
+       annotation
+FROM hvac_minimum_requirements_heat_pumps_heating_90_1
+WHERE rating_condition = '17F db/15F wb outdoor air'
+  AND minimum_capacity >= 135000  -- focusing on larger commercial units
+  AND equipment_type = 'Heat Pumps'
+ORDER BY template, minimum_capacity;"
+What's the performance difference between space-constrained Single Package Variable Heat Pumps (SPVHP) and standard heat pumps for mid-size applications across different rating conditions?,"SELECT template,
+       equipment_type,
+       subcategory,
+       rating_condition,
+       minimum_capacity,
+       maximum_capacity,
+       minimum_coefficient_of_performance_heating as cop_heating,
+       minimum_heating_seasonal_performance_factor as hspf,
+       annotation
+FROM hvac_minimum_requirements_heat_pumps_heating_90_1
+WHERE ((equipment_type = 'SPVHP' AND subcategory = 'Nonweatherized Space Constrained')
+       OR (equipment_type = 'Heat Pumps' AND subcategory = 'Single Package'))
+  AND minimum_capacity <= 65000
+  AND maximum_capacity >= 30000
+  AND template = '90.1-2013'
+ORDER BY equipment_type, rating_condition, minimum_capacity;"
+How do the BTU/hr per HP requirements compare between different refrigerants (R-448A vs Ammonia) for evaporative condensers with the same fan type under current IECC standards?,"SELECT template,
+       equipment_type,
+       fan_type,
+       test_fluid,
+       minimum_performance_btu_per_hr_per_hp,
+       start_date,
+       end_date,
+       annotation
+FROM hvac_minimum_requirements_heat_rejection_IECC
+WHERE equipment_type = 'Evaporative Condenser'
+  AND fan_type = 'Propeller or Axial'
+  AND test_fluid IN ('R-448A', 'Ammonia')
+  AND template IN ('IECC-2021', 'IECC-2024')
+ORDER BY test_fluid, template;"
+"What's the efficiency trade-off between fan types (Centrifugal vs Propeller/Axial) for cooling towers, and how have the GPM per HP requirements changed across IECC versions?","SELECT template,
+       equipment_type,
+       fan_type,
+       minimum_performance_gpm_per_hp,
+       minimum_performance_btu_per_hr_per_hp,
+       annotation
+FROM hvac_minimum_requirements_heat_rejection_IECC
+WHERE equipment_type LIKE '%Cooling Tower%'
+  AND minimum_performance_gpm_per_hp IS NOT NULL
+  AND fan_type IS NOT NULL
+ORDER BY equipment_type, fan_type, template;"
+"How do the efficiency requirements differ between enclosed and open motor designs for the same horsepower range, and which design requires higher efficiency?","SELECT template,
+       type,
+       number_of_poles,
+       synchronous_speed,
+       minimum_capacity,
+       maximum_capacity,
+       nominal_full_load_efficiency,
+       annotation
+FROM hvac_minimum_requirements_motors_90_1
+WHERE minimum_capacity <= 25
+  AND maximum_capacity >= 15
+  AND template = '90.1-2010'
+  AND type IN ('Enclosed', 'Open')
+ORDER BY type, number_of_poles, minimum_capacity;"
+"How has the efficiency requirement evolved over different 90.1 versions for high-speed 2-pole motors in the 30-40 HP range, and what's the efficiency penalty for going to slower 6-pole motors?","SELECT template,
+       number_of_poles,
+       synchronous_speed,
+       type,
+       minimum_capacity,
+       maximum_capacity,
+       nominal_full_load_efficiency,
+       start_date,
+       annotation
+FROM hvac_minimum_requirements_motors_90_1
+WHERE minimum_capacity <= 40
+  AND maximum_capacity >= 30
+  AND number_of_poles IN (2, 6)
+  AND type = 'Enclosed'
+ORDER BY template, number_of_poles, minimum_capacity;"
+"How do the EER and IEER requirements compare between evaporatively cooled and water cooled single package air conditioners in the 240,000-760,000 Btu/hr range for units installed after 2011","SELECT template,
+       equipment_type,
+       cooling_type,
+       heating_type,
+       subcategory,
+       minimum_capacity,
+       maximum_capacity,
+       minimum_energy_efficiency_ratio as eer,
+       minimum_integrated_energy_efficiency_ratio as ieer,
+       start_date,
+       annotation
+FROM hvac_minimum_requirements_unitary_air_conditioners_90_1
+WHERE equipment_type = 'Air Conditioners'
+  AND subcategory = 'Single Package'
+  AND cooling_type IN ('EvaporativelyCooled', 'WaterCooled')
+  AND minimum_capacity = 240000
+  AND maximum_capacity <= 760000
+  AND start_date >= '2011-06-01'
+ORDER BY cooling_type, heating_type, start_date;"
+"What's the efficiency improvement between 90.1-2004 and 90.1-2010 standards for air-cooled condensing units, and how do the requirements differ between EER and IPLV metrics","SELECT template,
+       equipment_type,
+       cooling_type,
+       minimum_capacity,
+       maximum_capacity,
+       minimum_energy_efficiency_ratio as eer,
+       minimum_integrated_part_load_value as iplv,
+       minimum_integrated_energy_efficiency_ratio as ieer,
+       annotation
+FROM hvac_minimum_requirements_unitary_air_conditioners_90_1
+WHERE equipment_type = 'Condensing Units'
+  AND cooling_type = 'AirCooled'
+  AND minimum_capacity = 135000
+  AND template IN ('90.1-2004', '90.1-2010')
+ORDER BY template, minimum_capacity;"
+"How do ground-source VRF systems compare to water-source systems in terms of cooling efficiency requirements, and which source type demands higher performance standards?","SELECT 
+    template,
+    equipment_type,
+	subcategory,
+    minimum_capacity,
+    maximum_capacity,
+    minimum_energy_efficiency_ratio,
+    annotation
+FROM hvac_minimum_requirements_variable_refrigerant_flow_systems_90_1
+WHERE equipment_type IN ('GroundSourceCoolingMode', 'WaterSourceCoolingMode', 
+                         'GroundWaterSourceCoolingMode')
+  AND minimum_capacity = 0
+  AND template IN ('90.1-2016', '90.1-2019', '90.1-2022', '90.1-2025')
+ORDER BY template, equipment_type;"
+"What are all the space types that use natural gas equipment, and what schedule sets do they follow for their operations?","SELECT space_type_name,
+       natural_gas_equipment_space_type_name,
+       schedule_set_name,
+       lighting_space_type_name,
+       annotation
+FROM level_1_space_types
+WHERE natural_gas_equipment_space_type_name IS NOT NULL
+ORDER BY schedule_set_name, space_type_name;"
+"Which space types share the same electric equipment profiles but have different ventilation requirements, and how do their schedule patterns compare?","SELECT space_type_name,
+       electric_equipment_space_type_name,
+       ventilation_space_type_name,
+       schedule_set_name,
+       annotation
+FROM level_1_space_types
+WHERE electric_equipment_space_type_name IN (
+    SELECT electric_equipment_space_type_name 
+    FROM level_1_space_types 
+    WHERE electric_equipment_space_type_name IS NOT NULL
+    GROUP BY electric_equipment_space_type_name 
+    HAVING COUNT(*) > 1
+)
+ORDER BY electric_equipment_space_type_name, space_type_name;"
+"Which space types have the highest variability in electric equipment loads, and what are their heat gain characteristics?","SELECT electric_equipment_space_type_name,
+       electric_equipment_minimum_epd,
+       electric_equipment_maximum_epd,
+       (electric_equipment_maximum_epd - electric_equipment_minimum_epd) as epd_range,
+       electric_equipment_fraction_latent,
+       electric_equipment_fraction_radiant,
+       electric_equipment_fraction_lost
+FROM level_2_electric_equipment
+WHERE electric_equipment_maximum_epd > electric_equipment_minimum_epd
+ORDER BY epd_range DESC;"
+What space types have electric equipment loads above 0.7 W/ft² and generate latent heat gains?,"SELECT electric_equipment_space_type_name,
+       electric_equipment_average_epd,
+       electric_equipment_median_epd,
+       electric_equipment_fraction_latent,
+       electric_equipment_fraction_radiant
+FROM level_2_electric_equipment
+WHERE electric_equipment_average_epd > 0.7
+  AND electric_equipment_fraction_latent > 0
+ORDER BY electric_equipment_average_epd DESC;"
+How do illuminance requirements vary between IECC and ASHRAE 90.1 standards for the same space types?,"SELECT lighting_space_type_name,
+       level_3_lighting_code_definition_table,
+       lighting_space_type_target_illuminance_setpoint,
+       level_3_lighting_code_definition_id
+FROM level_2_lighting_space_types
+WHERE lighting_space_type_name IN (
+    SELECT lighting_space_type_name 
+    FROM level_2_lighting_space_types 
+    GROUP BY lighting_space_type_name 
+    HAVING COUNT(DISTINCT level_3_lighting_code_definition_table) > 1
+)
+ORDER BY lighting_space_type_name, level_3_lighting_code_definition_table;"
+Which space types require the highest illuminance levels above 400 Lux across any code version?,"SELECT DISTINCT lighting_space_type_name,
+       MAX(lighting_space_type_target_illuminance_setpoint) as max_illuminance,
+       lighting_technology_name,
+       lighting_space_type_target_illuminance_setpoint_unit
+FROM level_2_lighting_space_types
+WHERE lighting_space_type_target_illuminance_setpoint > 400
+GROUP BY lighting_space_type_name, lighting_technology_name, lighting_space_type_target_illuminance_setpoint_unit
+ORDER BY max_illuminance DESC;"
+Which space types have the highest natural gas equipment loads and what percentage of their heat is lost rather than contributing to space conditioning?,"SELECT natural_gas_equipment_space_type_name,
+       natural_gas_equipment_average_epd,
+       natural_gas_equipment_maximum_epd,
+       natural_gas_equipment_fraction_lost,
+       (natural_gas_equipment_fraction_latent + natural_gas_equipment_fraction_radiant) as useful_heat_fraction
+FROM level_2_natural_gas_equipment
+WHERE natural_gas_equipment_average_epd > 100
+ORDER BY natural_gas_equipment_average_epd DESC;"
+Compare the load variability and heat distribution patterns between kitchen-related spaces and other space types?,"SELECT natural_gas_equipment_space_type_name,
+       natural_gas_equipment_minimum_epd,
+       natural_gas_equipment_median_epd,
+       natural_gas_equipment_maximum_epd,
+       natural_gas_equipment_fraction_latent,
+       natural_gas_equipment_fraction_radiant,
+       natural_gas_equipment_fraction_lost,
+       CASE 
+         WHEN natural_gas_equipment_space_type_name LIKE '%kitchen%' 
+           OR natural_gas_equipment_space_type_name LIKE '%deli%' 
+           OR natural_gas_equipment_space_type_name LIKE '%bakery%' 
+         THEN 'Food Service' 
+         ELSE 'Other' 
+       END as space_category
+FROM level_2_natural_gas_equipment
+ORDER BY space_category, natural_gas_equipment_average_epd DESC;"
+"What are the most commonly referenced ventilation definition IDs across all space types, and which standard tables do they belong to?","SELECT level_3_ventilation_definition_id,
+       level_3_ventilation_definition_table,
+       COUNT(*) as space_types_using_this_id,
+       STRING_AGG(ventilation_space_type_name, ', ') as space_types
+FROM level_2_ventilation_space_types
+GROUP BY level_3_ventilation_definition_id, level_3_ventilation_definition_table
+HAVING COUNT(*) > 1
+ORDER BY space_types_using_this_id DESC;"
+Which space types have the highest lighting power densities and require automatic full-off controls under 90.1-2004?,"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       automatic_full_off,
+       method,
+       annotation
+FROM level_3_lighting_90_1_2004
+WHERE automatic_full_off = 'REQ'
+  AND lighting_power_density >= 1.2
+ORDER BY lighting_power_density DESC;"
+Compare the lighting power density requirements between CS (Complete System) and SS (Space-by-Space) methods for the same space types?,"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       method,
+       lighting_power_density,
+       automatic_full_off
+FROM level_3_lighting_90_1_2004
+WHERE lighting_primary_space_type IN (
+    SELECT lighting_primary_space_type 
+    FROM level_3_lighting_90_1_2004 
+    GROUP BY lighting_primary_space_type, lighting_secondary_space_type
+    HAVING COUNT(DISTINCT method) > 1
+)
+ORDER BY lighting_primary_space_type, lighting_secondary_space_type, method;"
+Which space types in 90.1-2007 have supplemental lighting allowances or special control requirements?,"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       supplemental_lighting_power_density,
+       automatic_full_off,
+       scheduled_shutoff,
+       method,
+       annotation
+FROM level_3_lighting_90_1_2007
+WHERE supplemental_lighting_power_density IS NOT NULL
+   OR automatic_full_off IS NOT NULL
+   OR scheduled_shutoff IS NOT NULL
+ORDER BY lighting_power_density DESC;"
+Which space types in the PRM baseline have Building Area (BA) method requirements but still need daylight responsive controls?,"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       method,
+       lighting_power_density,
+       automatic_daylight_responsive_controls_for_sidelighting,
+       automatic_daylight_responsive_controls_for_toplighting,
+       annotation
+FROM level_3_lighting_90_1_2010_prm
+WHERE method = 'BA'
+  AND (automatic_daylight_responsive_controls_for_sidelighting = 'REQ' 
+       OR automatic_daylight_responsive_controls_for_toplighting = 'REQ')
+ORDER BY lighting_power_density DESC;"
+Which space types in the 2010 PRM baseline require automatic full-off controls and have lighting power densities above 1.0 W/ft²?,"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       method,
+       lighting_power_density,
+       rcr_threshold,
+       automatic_full_off,
+       automatic_daylight_responsive_controls_for_sidelighting,
+       automatic_daylight_responsive_controls_for_toplighting,
+       annotation
+FROM level_3_lighting_90_1_2010_prm
+WHERE lighting_power_density > 1.0
+  AND automatic_full_off = 'REQ'
+ORDER BY lighting_power_density DESC;"
+Which space types require both automatic partial-off controls AND have the most stringent RCR thresholds?,"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       rcr_threshold,
+       automatic_partial_off,
+       automatic_daylight_responsive_controls_for_sidelighting,
+       automatic_daylight_responsive_controls_for_toplighting,
+       annotation
+FROM level_3_lighting_90_1_2013
+WHERE automatic_partial_off = 'REQ'
+  AND rcr_threshold <= 4
+ORDER BY lighting_power_density DESC;"
+How do the control requirements (ADD2 vs REQ vs null) vary for facilities serving visually impaired populations compared to general spaces?,"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       automatic_partial_off,
+       automatic_full_off,
+       scheduled_shutoff,
+       CASE 
+         WHEN lighting_primary_space_type LIKE '%Visually Impaired%' 
+           OR lighting_secondary_space_type LIKE '%visually impaired%'
+         THEN 'Visually Impaired Facility'
+         ELSE 'General Facility'
+       END as facility_type,
+       annotation
+FROM level_3_lighting_90_1_2013
+WHERE lighting_primary_space_type LIKE '%Visually Impaired%' 
+   OR lighting_secondary_space_type LIKE '%visually impaired%'
+   OR lighting_primary_space_type IN ('Lobby', 'Dormitory Living Quarters')
+ORDER BY facility_type, lighting_power_density DESC;"
+"Which sports and entertainment venues have the highest lighting power densities, and how do their control requirements compare?","SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       automatic_daylight_responsive_controls_for_sidelighting,
+       automatic_partial_off,
+       automatic_full_off,
+       annotation
+FROM level_3_lighting_90_1_2016
+WHERE (lighting_primary_space_type LIKE '%Sports%' 
+       OR lighting_primary_space_type LIKE '%Religious%'
+       OR lighting_primary_space_type LIKE '%Convention%')
+  AND lighting_power_density > 1.0
+ORDER BY lighting_power_density DESC;"
+How do the lighting power densities for retail spaces compare between different retail categories and sections of the code?,"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       rcr_threshold,
+       annotation,
+       CASE 
+         WHEN annotation LIKE '%Section 9.6.2%' THEN 'Additional Allowances'
+         WHEN annotation LIKE '%Table 9.6.1%' THEN 'Standard Requirements'
+         ELSE 'Other'
+       END as code_section_type
+FROM level_3_lighting_90_1_2016
+WHERE lighting_primary_space_type LIKE '%Retail%'
+   OR lighting_secondary_space_type LIKE '%Sales%'
+   OR lighting_secondary_space_type LIKE '%Mall%'
+ORDER BY code_section_type, lighting_power_density DESC;"
+"Which space types require both automatic partial-off controls AND daylight responsive controls, and how do their lighting power densities compare?","SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       rcr_threshold,
+       automatic_partial_off,
+       automatic_daylight_responsive_controls_for_sidelighting,
+       automatic_daylight_responsive_controls_for_toplighting,
+       annotation
+FROM level_3_lighting_90_1_2019
+WHERE automatic_partial_off = 'REQ'
+  AND automatic_daylight_responsive_controls_for_sidelighting = 'REQ'
+ORDER BY lighting_power_density DESC;"
+"What are the most energy-intensive laboratory and healthcare spaces, and how do their control requirements differ?","SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       automatic_full_off,
+       scheduled_shutoff,
+       rcr_threshold,
+       annotation
+FROM level_3_lighting_90_1_2019
+WHERE (lighting_primary_space_type LIKE '%Laboratory%' 
+       OR lighting_primary_space_type LIKE '%Healthcare%')
+  AND lighting_power_density > 1.0
+ORDER BY lighting_power_density DESC;"
+Which space types have the most restrictive RCR thresholds (?4) but still allow ADD2 (additional) controls instead of requiring them?,"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       rcr_threshold,
+       automatic_full_off,
+       scheduled_shutoff,
+       automatic_daylight_responsive_controls_for_sidelighting,
+       annotation
+FROM level_3_lighting_90_1_2022
+WHERE rcr_threshold <= 4
+  AND (automatic_full_off = 'ADD2' OR scheduled_shutoff = 'ADD2')
+ORDER BY rcr_threshold, lighting_power_density DESC;"
+How do the lighting requirements for facilities serving the visually impaired compare to general facilities in terms of power density and control flexibility?,"SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       automatic_full_off,
+       scheduled_shutoff,
+       rcr_threshold,
+       CASE 
+         WHEN lighting_primary_space_type LIKE '%Visually Impaired%' 
+         THEN 'Visually Impaired Facility'
+         ELSE 'General Facility'
+       END as facility_type,
+       annotation
+FROM level_3_lighting_90_1_2022
+WHERE lighting_primary_space_type LIKE '%Visually Impaired%'
+   OR lighting_primary_space_type IN ('Conference/Meeting/Multipurpose Rooms', 'Dining Area')
+ORDER BY facility_type, lighting_power_density DESC;"
+"Which healthcare facility spaces have the highest lighting power densities, and how do they compare to other high-intensity space types?","SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       method,
+       annotation
+FROM level_3_lighting_IECC_2006
+WHERE lighting_primary_space_type = 'Healthcare Facility'
+  AND lighting_power_density >= 1.0
+ORDER BY lighting_power_density DESC;"
+"What's the range of lighting power densities for sports and entertainment venues, and how do they vary by facility class or type?","SELECT lighting_primary_space_type,
+       lighting_secondary_space_type,
+       lighting_power_density,
+       method,
+       annotation
+FROM level_3_lighting_IECC_2006
+WHERE (lighting_primary_space_type LIKE '%Sports%' 
+       OR lighting_primary_space_type LIKE '%Audience%'
+       OR lighting_secondary_space_type LIKE '%Class%'
+       OR lighting_secondary_space_type LIKE '%sports arena%')
+ORDER BY lighting_power_density DESC;"
+Which space types rely purely on area-based ventilation (no per-person requirements) and have high ventilation rates above 0.3 cfm/ft²?,"SELECT ventilation_primary_space_type,
+       ventilation_secondary_space_type,
+       ventilation_rate_occupant,
+       ventilation_rate_area,
+       occupancy_per_area,
+       annotation
+FROM level_3_ventilation_62_1_1999
+WHERE ventilation_rate_occupant = 0
+  AND ventilation_rate_area > 0.3
+ORDER BY ventilation_rate_area DESC;"
+How do the ventilation requirements differ between educational spaces (classrooms vs labs vs auditoriums) in terms of per-person and occupancy assumptions?,"SELECT ventilation_primary_space_type,
+       ventilation_secondary_space_type,
+       ventilation_rate_occupant,
+       ventilation_rate_area,
+       occupancy_per_area,
+       annotation
+FROM level_3_ventilation_62_1_1999
+WHERE ventilation_primary_space_type = 'Education'
+ORDER BY ventilation_rate_occupant DESC, occupancy_per_area DESC;"
+Which space types are classified as Air Class 2 (higher contamination) and how do their ventilation rates compare to Air Class 1 spaces?,"SELECT ventilation_primary_space_type,
+       ventilation_secondary_space_type,
+       air_class,
+       ventilation_rate_occupant,
+       ventilation_rate_area,
+       occupancy_per_area,
+       annotation
+FROM level_3_ventilation_62_1_2004
+WHERE air_class = 2
+ORDER BY ventilation_rate_area DESC, ventilation_rate_occupant DESC;"
+"How do food service spaces compare in terms of ventilation requirements, and which have the highest per-person ventilation needs?","SELECT ventilation_primary_space_type,
+       ventilation_secondary_space_type,
+       ventilation_rate_occupant,
+       ventilation_rate_area,
+       occupancy_per_area,
+       air_class,
+       annotation
+FROM level_3_ventilation_62_1_2004
+WHERE ventilation_primary_space_type = 'Food and Beverage Service'
+ORDER BY ventilation_rate_occupant DESC, ventilation_rate_area DESC;"
+Which space types have both high occupancy density (>100 ppl/1000 ft²) AND require significant per-person ventilation rates?,"SELECT ventilation_primary_space_type,
+       ventilation_secondary_space_type,
+       ventilation_rate_occupant,
+       ventilation_rate_area,
+       occupancy_per_area,
+       air_class,
+       annotation
+FROM level_3_ventilation_62_1_2007
+WHERE occupancy_per_area > 100
+  AND ventilation_rate_occupant > 5
+ORDER BY occupancy_per_area DESC, ventilation_rate_occupant DESC;"
+How do sports and entertainment venues vary in their ventilation strategies between spectator areas and active play areas?,"SELECT ventilation_primary_space_type,
+       ventilation_secondary_space_type,
+       ventilation_rate_occupant,
+       ventilation_rate_area,
+       occupancy_per_area,
+       air_class,
+       annotation
+FROM level_3_ventilation_62_1_2007
+WHERE ventilation_primary_space_type = 'Sports and Entertainment'
+ORDER BY ventilation_rate_area DESC, ventilation_rate_occupant DESC;"
+"Which insulation materials provide the highest thermal resistance per inch of thickness, and how do their densities compare?","SELECT name,
+       material_type,
+       thickness,
+       resistance,
+       (resistance / thickness) as resistance_per_inch,
+       density,
+       conductivity,
+       annotation
+FROM support_materials
+WHERE material_type = 'StandardOpaqueMaterial'
+  AND resistance > 20
+  AND thickness > 0
+ORDER BY resistance_per_inch DESC;"
+How do the thermal properties of glass fiber batt insulations vary by R-value and thickness across different CEC defaults?,"SELECT name,
+       thickness,
+       conductivity,
+       resistance,
+       density,
+       specific_heat,
+       annotation
+FROM support_materials
+WHERE name LIKE '%Glass fiber batt%'
+  AND name LIKE '%CEC Default%'
+ORDER BY resistance DESC, thickness;"
+How do economizer control strategies differ between data centers and regular buildings across different climate zones?,"SELECT template,
+       climate_zone,
+       data_center,
+       fixed_dry_bulb_is_allowed,
+       differential_dry_bulb_is_allowed,
+       electronic_enthalpy_is_allowed,
+       differential_enthalpy_is_allowed,
+       dew_point_dry_bulb_is_allowed,
+       heat_recovery_exempted,
+       annotation
+FROM system_requirements_air_economizer_90_1
+WHERE template = '90.1-2010'
+  AND climate_zone IN ('2A', '3A', '4A')
+ORDER BY data_center DESC, climate_zone;"
+"What are the high limit shutoff temperatures and enthalpies for different economizer control strategies, and how have they evolved between 90.1-2004 and 90.1-2010?","SELECT template,
+       climate_zone,
+       data_center,
+       fixed_dry_bulb_high_limit_shutoff_temp,
+       fixed_enthalpy_high_limit_shutoff_enthalpy,
+       dew_point_dry_bulb_high_limit_shutoff_dew_point_temp,
+       dew_point_dry_bulb_high_limit_shutoff_dry_bulb_temp,
+       annotation
+FROM system_requirements_air_economizer_90_1
+WHERE template IN ('90.1-2004', '90.1-2010')
+  AND climate_zone = '3A'
+ORDER BY template, data_center;"
+"Which climate zones require energy recovery for the smallest outdoor air CFM thresholds, and how do the effectiveness requirements vary?","SELECT template,
+       climate_zone,
+       under_8000_hours,
+       design_conditions,
+       percent_oa_70_to_80,
+       percent_oa_greater_than_80,
+       energy_recovery_effectiveness,
+       enthalpy_recovery_ratio,
+       sensible_energy_recovery_ratio,
+       annotation
+FROM system_requirements_energy_recovery_90_1
+WHERE percent_oa_greater_than_80 IS NOT NULL
+  AND percent_oa_greater_than_80 < 5000
+ORDER BY percent_oa_greater_than_80, climate_zone;"
+How do energy recovery requirements differ between heating and cooling design conditions for cold climates (zones 6-8)?,"SELECT template,
+       climate_zone,
+       design_conditions,
+       under_8000_hours,
+       percent_oa_30_to_40,
+       percent_oa_40_to_50,
+       percent_oa_50_to_60,
+       energy_recovery_effectiveness,
+       annotation
+FROM system_requirements_energy_recovery_90_1
+WHERE climate_zone IN ('6A', '6B', '7A', '7B', '8')
+  AND template = '90.1-2013'
+ORDER BY climate_zone, design_conditions;"
+How do the outdoor air percentage thresholds for energy recovery requirements differ between humid (A) and dry (B) climate zones in IECC-2012?,"SELECT template, climate_zone, design_conditions, percent_oa_30_to_40, percent_oa_40_to_50, percent_oa_50_to_60, percent_oa_60_to_70, percent_oa_70_to_80, percent_oa_greater_than_80, energy_recovery_effectiveness, CASE WHEN climate_zone LIKE '%A' THEN 'Humid' WHEN climate_zone LIKE '%B' THEN 'Dry' ELSE 'Other' END as moisture_regime, annotation FROM system_requirements_energy_recovery_IECC WHERE template = 'IECC-2012' AND climate_zone IN ('1A', '1B', '2A', '2B', '3A', '3B') ORDER BY moisture_regime, climate_zone, design_conditions;"
+"Which climate zones completely exempt certain outdoor air percentage ranges from energy recovery requirements, and how have these exemptions evolved from IECC-2009 to IECC-2012?","SELECT template, climate_zone, design_conditions, percent_oa_50_to_60, percent_oa_60_to_70, percent_oa_70_to_80, percent_oa_greater_than_80, energy_recovery_effectiveness, annotation FROM system_requirements_energy_recovery_IECC WHERE (percent_oa_50_to_60 IS NULL OR percent_oa_60_to_70 IS NULL OR percent_oa_70_to_80 IS NULL OR percent_oa_greater_than_80 IS NULL) AND template IN ('IECC-2009', 'IECC-2012') ORDER BY template, climate_zone;"
+How do the fan power allowances compare between different filtration levels (MERV 12 vs MERV 13-16 vs HEPA) across different system capacities?,"SELECT template, air_system_component, minimum_capacity, maximum_capacity, fan_power_allowance, fan_system, annotation FROM system_requirements_fan_power_allowance_90_1 WHERE air_system_component IN ('Filter not higher than MERV 12', 'MERV 13 to MERV 16 filter', 'HEPA filter') ORDER BY minimum_capacity, fan_power_allowance;"
+"What are the highest fan power allowances for energy recovery components, and how do they compare between supply and exhaust systems?","SELECT template, air_system, air_system_component, fan_system, minimum_capacity, maximum_capacity, fan_power_allowance, annotation FROM system_requirements_fan_power_allowance_90_1 WHERE (air_system_component LIKE '%recovery%' OR air_system_component LIKE '%enthalpy%' OR air_system_component LIKE '%run-around%') AND template = '90.1-2025' ORDER BY fan_power_allowance DESC, air_system;"
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
