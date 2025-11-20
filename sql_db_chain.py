@@ -28,38 +28,45 @@ class Text2TextLLM(LLM):
         output = self._hf_pipeline([prompt], max_new_tokens=512)
         return output[0]["generated_text"]
 
+
 class ToolCallLogger(BaseCallbackHandler):
     def __init__(self):
         self.steps = []
 
     def on_agent_action(self, action, **kwargs):
         # Logs every action the LLM tries to take
-        self.steps.append({
-            "tool": action.tool,
-            "input": action.tool_input,
-            "log": action.log
-        })
+        self.steps.append(
+            {"tool": action.tool, "input": action.tool_input, "log": action.log}
+        )
 
     def on_agent_finish(self, finish, **kwargs):
         self.steps.append({"final_answer": finish})
+
 
 logger = ToolCallLogger()
 callback_manager = CallbackManager([logger])
 
 if __name__ == "__main__":
-    from building_energy_standards_data.applications.ai_agent.agent_factory import setup_besd_agent
-    from building_energy_standards_data.applications.ai_agent.app import run_sql_agent_ui
+    from building_energy_standards_data.applications.ai_agent.agent_factory import (
+        setup_besd_agent,
+    )
+    from building_energy_standards_data.applications.ai_agent.app import (
+        run_sql_agent_ui,
+    )
 
-    from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline, Text2TextGenerationPipeline
+    from transformers import (
+        AutoTokenizer,
+        AutoModelForSeq2SeqLM,
+        pipeline,
+        Text2TextGenerationPipeline,
+    )
     from langchain_huggingface.llms import HuggingFacePipeline
     import torch
 
     import dotenv
 
-
     # Load environment variables
     dotenv.load_dotenv()
-
 
     # Load environment variables
     dotenv.load_dotenv()
