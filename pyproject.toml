@@ -38,6 +38,8 @@ dotenv="*"
 openpyxl="*"
 nltk="*"
 nlpaug = "^1.1.11"
+chromadb="*"
+
 
 [build-system]
 requires = ["poetry-core"]
