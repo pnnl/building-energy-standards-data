@@ -6,11 +6,9 @@ from dotenv import load_dotenv
 import re
 from datetime import datetime
 
-# local model libs
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
-# deepeval imports (from docs)
 from deepeval import assert_test
 from deepeval.test_case import LLMTestCase, LLMTestCaseParams
 from deepeval.metrics import AnswerRelevancyMetric, FaithfulnessMetric, GEval
@@ -67,13 +65,11 @@ def run_deepeval(model_path: str, csv_path: str, out_path: str):
         expected = row["answer"]
         ctx = row["context"]
 
-        # Build prompt (you can change template to match your prompt engineering)
         instructions = """Translate the following question to a single SQL query using ONLY the fields explicitly mentioned in the question for filtering.\nDo NOT add filters on any fields that are NOT directly mentioned in the question.\nIf a field is not mentioned, do NOT include it in the WHERE clause.\nOutput ONLY the SQL query ending with a semicolon (;).\nDo NOT include explanations, comments, or extra SQL statements."""
         full_prompt = f"{instructions}\n\nContext:\n{ctx}\n\nQuestion:\n{q}\n\nAnswer:"
         actual_output = ask_model(tokenizer, model, device, full_prompt)
         generated_sql = actual_output[len(full_prompt):]
 
-        # Create a DeepEval LLMTestCase
         test_case = LLMTestCase(
             input=f"{instructions}\n\nQuestion: {q}",
             actual_output=generated_sql,
@@ -84,7 +80,6 @@ def run_deepeval(model_path: str, csv_path: str, out_path: str):
         try:
             res = assert_test(test_case, metrics)
         except Exception as exc:
-            # If the DeepEval eval LLM fails (e.g., missing API key, rate limit), record the error.
             res = {"error": str(exc)}
 
         entry = {
@@ -97,7 +92,6 @@ def run_deepeval(model_path: str, csv_path: str, out_path: str):
         results.append(entry)
         print(f"[{i}] question: {q[:80]!r} -> score summary: {res}")
 
-    # save results
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
