@@ -1,0 +1,27 @@
+[
+  {
+    "index": 0,
+    "question": "What is the maximum permitted assembly U-value for a residential exterior mass wall in Climate Zone 3A according to ASHRAE 90.1-2004?",
+    "expected": "SELECT assembly_maximum_u_value, assembly_maximum_u_value_unit\nFROM envelope_requirements_90_1\nWHERE template = '90.1-2004'\n  AND climate_zone_set = 'ClimateZone 3A'\n  AND intended_surface_type = 'ExteriorWall'\n  AND standards_construction_type = 'Mass'\n  AND building_category = 'Residential';",
+    "actual_output": "SELECT MAX(assembly_maximum_u_value) FROM envelope_requirements_90_1 WHERE climate_zone_set = 'ClimateZone 3A' AND intended_surface_type = 'ExteriorWall' AND building_category = 'Residential' AND construction = 'Typical Insulated Metal Building Wall' AND minimum_percent_of_surface = 0 AND maximum_percent_of_surface = 0 AND u_value_includes_interior_film_coefficient = TRUE AND u_value_includes_exterior_film_coefficient = TRUE AND assembly_maximum_f_factor = 0 AND assembly_maximum_f_factor_unit = 0 AND assembly_maximum_c_factor = 0 AND assembly_maximum_c_factor_unit = 0 AND orientation = 'From 90.1-2004 Table 5.5-4';\n",
+    "deepeval_result": {
+      "error": "Metrics: Answer Relevancy (score: 0.6666666666666666, threshold: 0.9, strict: False, error: None, reason: The score is 0.67 because the actual output contains irrelevant statements that explain why certain SQL queries are not applicable, which distracts from the main topic of translating a question into a single SQL query.), Faithfulness (score: 0.0, threshold: 0.9, strict: False, error: None, reason: The score is 0.00 because the actual output contains SQL/database-related information, which contradicts the retrieval context.) failed."
+    }
+  },
+  {
+    "index": 1,
+    "question": "what is the maximum permitted assembly u - building in a residential exterior mass wall in climate zone 3a according to ashrae 90. 1 - b?",
+    "expected": "SELECT assembly_maximum_u_value, assembly_maximum_u_value_unit\nFROM envelope_requirements_90_1\nWHERE template = '90.1-2004'\n  AND climate_zone_set = 'ClimateZone 3A'\n  AND intended_surface_type = 'ExteriorWall'\n  AND standards_construction_type = 'Mass'\n  AND building_category = 'Residential';",
+    "actual_output": "\n\nSELECT MAX(assembly_maximum_u_value) FROM envelope_requirements_90_1 WHERE climate_zone_set = 'ClimateZone 3A' AND intended_surface_type = 'Residential Exterior Mass Wall' AND standards_construction_type = 'ASHRAE 90.1 - B';\n",
+    "deepeval_result": null
+  },
+  {
+    "index": 2,
+    "question": "What is the maximum permitted solar heat coefficient for a southern facing nonresidential glass door in Climate Zone 7 according to ASHRAE 90.1-2004?",
+    "expected": "SELECT assembly_maximum_solar_heat_gain_coefficient, \n       minimum_percent_of_surface, \n       maximum_percent_of_surface,\n       orientation\nFROM envelope_requirements_90_1\nWHERE template = '90.1-2004'\n  AND climate_zone_set LIKE 'ClimateZone 7%'\n  AND intended_surface_type = 'GlassDoor'\n  AND building_category = 'Nonresidential'\n  AND orientation LIKE '%S%';",
+    "actual_output": "SELECT MAX(assembly_maximum_solar_heat_gain_coefficient) FROM envelope_requirements_90_1 WHERE climate_zone_set = 'ClimateZone 7' AND intended_surface_type = 'ExteriorDoor' AND standards_construction_type = 'Swinging' AND building_category = 'Residential' AND construction = 'Typical Insulated Metal Door' AND orientation = 'South' AND minimum_projection_factor = 0 AND maximum_projection_factor = 0 AND u_value_includes_exterior_film_coefficient = TRUE AND u_value_includes_interior_film_coefficient = TRUE AND assembly_maximum_f_factor = 0 AND assembly_maximum_f_factor_unit = 'Btu/h-ft2-F' AND assembly_maximum_c_factor = 0 AND assembly_maximum_c_factor_unit = 'Btu/h-ft2-F' AND assembly_maximum_u_value = 0.37 AND assembly_maximum_u_value_unit = 'Btu/h-ft2-F' AND assembly_minimum_visible_transmittance = 0.37 AND assembly_minimum_vt_shgc = 0.37;",
+    "deepeval_result": {
+      "error": "Metrics: Answer Relevancy (score: 0.6666666666666666, threshold: 0.9, strict: False, error: None, reason: The score is 0.67 because the actual output contains irrelevant statements that are not directly related to translating the question into a SQL query, specifically the repeated explanations about filtering conditions and WHERE clauses.) failed."
+    }
+  }
+]
