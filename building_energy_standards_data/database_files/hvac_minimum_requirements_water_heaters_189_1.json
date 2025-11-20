@@ -156,7 +156,7 @@
     },
     {
         "template": "189.1-2009",
-        "equipment_type": "Storage Water Heaters Hea tPump",
+        "equipment_type": "Storage Water Heaters Heat Pump",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 99999999,
@@ -931,7 +931,7 @@
     },
     {
         "template": "189.1-2011",
-        "equipment_type": "Storage Water Heaters Hea tPump",
+        "equipment_type": "Storage Water Heaters Heat Pump",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 99999999,
@@ -1706,7 +1706,7 @@
     },
     {
         "template": "189.1-2014",
-        "equipment_type": "Storage Water Heaters Hea tPump",
+        "equipment_type": "Storage Water Heaters Heat Pump",
         "fuel_type": "Electricity",
         "minimum_capacity": 0,
         "maximum_capacity": 99999999,
