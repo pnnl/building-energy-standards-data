@@ -7,6 +7,7 @@ EXCEL_FILE = "fine_tuning/dataset/raw/building_std_queries.xlsx"
 OUTPUT_FILE = "fine_tuning/dataset/processed/questions_with_context.csv"
 DB_FILE = "openstudio_standards.db"
 
+
 def clean_create_table(sql):
     """
     Clean the CREATE TABLE statement by:
@@ -41,7 +42,9 @@ def clean_create_table(sql):
     col_names = []
     for col_def in col_defs:
         # skip constraints like PRIMARY KEY or FOREIGN KEY (those usually start with those keywords)
-        if re.match(r"^(PRIMARY|FOREIGN|UNIQUE|CHECK|CONSTRAINT)", col_def, re.IGNORECASE):
+        if re.match(
+            r"^(PRIMARY|FOREIGN|UNIQUE|CHECK|CONSTRAINT)", col_def, re.IGNORECASE
+        ):
             continue
         # extract first word as column name
         col_name = col_def.split()[0]
@@ -65,6 +68,7 @@ def get_sample_rows(conn, table_name, max_rows=3):
     except Exception as e:
         return f"Could not fetch sample rows: {e}"
 
+
 def add_context(dataset_path, db_path, output_path=None):
     # ---------- LOAD EXCEL ----------
     df = pd.read_excel(dataset_path)
@@ -82,7 +86,9 @@ def add_context(dataset_path, db_path, output_path=None):
     def extract_table_names(sql):
         """Extract all table names from a SQL SELECT statement."""
         # Matches FROM table_name or JOIN table_name, strip quotes if any
-        matches = re.findall(r"(?:FROM|JOIN)\s+['\"]?([^\s,;'\"()]+)['\"]?", sql, re.IGNORECASE)
+        matches = re.findall(
+            r"(?:FROM|JOIN)\s+['\"]?([^\s,;'\"()]+)['\"]?", sql, re.IGNORECASE
+        )
         # Deduplicate and preserve order
         seen = set()
         tables = []
