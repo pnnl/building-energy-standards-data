@@ -18,8 +18,7 @@ from deepeval.models import OllamaModel
 load_dotenv("../..")
 
 evaluation_model = OllamaModel(
-    model="llama3.1:8b",
-    base_url="http://host.docker.internal:11434"
+    model="llama3.1:8b", base_url="http://host.docker.internal:11434"
 )
 
 
@@ -37,11 +36,15 @@ def load_model(model_path: str):
     model.to(device)
     return tokenizer, model, device
 
+
 def ask_model(tokenizer, model, device, prompt: str, max_new_tokens: int = 512) -> str:
     inputs = tokenizer(prompt, return_tensors="pt").to(device)
     with torch.no_grad():
-        outputs = model.generate(**inputs, max_new_tokens=max_new_tokens, do_sample=False)
+        outputs = model.generate(
+            **inputs, max_new_tokens=max_new_tokens, do_sample=False
+        )
     return tokenizer.decode(outputs[0], skip_special_tokens=True)
+
 
 def load_csv(csv_path: str):
     rows = []
@@ -49,12 +52,15 @@ def load_csv(csv_path: str):
         reader = csv.DictReader(f)
         for r in reader:
             # expected CSV headers: question,answer,context
-            rows.append({
-                "question": r.get("question", "").strip(),
-                "answer": r.get("answer", "").strip(),
-                "context": r.get("context", "").strip(),
-            })
+            rows.append(
+                {
+                    "question": r.get("question", "").strip(),
+                    "answer": r.get("answer", "").strip(),
+                    "context": r.get("context", "").strip(),
+                }
+            )
     return rows
+
 
 def run_deepeval(model_path: str, csv_path: str, out_path: str):
     tokenizer, model, device = load_model(model_path)
@@ -75,13 +81,13 @@ def run_deepeval(model_path: str, csv_path: str, out_path: str):
         instructions = """Translate the following question to a single SQL query using ONLY the fields explicitly mentioned in the question for filtering.\nDo NOT add filters on any fields that are NOT directly mentioned in the question.\nIf a field is not mentioned, do NOT include it in the WHERE clause.\nOutput ONLY the SQL query ending with a semicolon (;).\nDo NOT include explanations, comments, or extra SQL statements."""
         full_prompt = f"{instructions}\n\nContext:\n{ctx}\n\nQuestion:\n{q}\n\nAnswer:"
         actual_output = ask_model(tokenizer, model, device, full_prompt)
-        generated_sql = actual_output[len(full_prompt):]
+        generated_sql = actual_output[len(full_prompt) :]
 
         test_case = LLMTestCase(
             input=f"{instructions}\n\nQuestion: {q}",
             actual_output=generated_sql,
             expected_output=expected,
-            retrieval_context=[ctx]
+            retrieval_context=[ctx],
         )
 
         try:
@@ -106,17 +112,29 @@ def run_deepeval(model_path: str, csv_path: str, out_path: str):
 
 
 def sanitize_filename(name: str) -> str:
-    return re.sub(r'[^a-zA-Z0-9_-]', '_', name)
+    return re.sub(r"[^a-zA-Z0-9_-]", "_", name)
+
 
 def default_output_path(model_name: str) -> str:
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     safe_model_name = sanitize_filename(model_name)
-    return f"fine_tuning/eval/output/deepeval_results_{safe_model_name}_{timestamp}.json"
+    return (
+        f"fine_tuning/eval/output/deepeval_results_{safe_model_name}_{timestamp}.json"
+    )
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model", default="meta-llama/Llama-3.2-1B", help="Path or name of your local model (transformers-compatible)")
-    parser.add_argument("--csv", default="fine_tuning/dataset/final/augmented_questions_with_context.csv", help="CSV file with headers: question,answer,context")
+    parser.add_argument(
+        "--model",
+        default="meta-llama/Llama-3.2-1B",
+        help="Path or name of your local model (transformers-compatible)",
+    )
+    parser.add_argument(
+        "--csv",
+        default="fine_tuning/dataset/final/augmented_questions_with_context.csv",
+        help="CSV file with headers: question,answer,context",
+    )
     parser.add_argument("--out", default=None, help="Path to save results")
 
     args = parser.parse_args()
