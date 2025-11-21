@@ -18,7 +18,8 @@ from deepeval.models import OllamaModel
 load_dotenv("../..")
 
 evaluation_model = OllamaModel(
-    model="llama3:8b",
+    model="llama3.1:8b",
+    base_url="http://host.docker.internal:11434"
 )
 
 
@@ -26,7 +27,13 @@ def load_model(model_path: str):
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     model = AutoModelForCausalLM.from_pretrained(model_path)
     model.eval()
-    device = torch.device("cuda" if torch.cuda.is_available() else "mps")
+    print(torch.backends.mps.is_available())
+    device_str = "cpu"
+    if torch.cuda.is_available():
+        device_str = "cuda"
+    elif torch.backends.mps.is_available():
+        device_str = "mps"
+    device = torch.device(device_str)
     model.to(device)
     return tokenizer, model, device
 
@@ -108,7 +115,7 @@ def default_output_path(model_name: str) -> str:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model", default="meta-llama/Llama-3.2-3B", help="Path or name of your local model (transformers-compatible)")
+    parser.add_argument("--model", default="meta-llama/Llama-3.2-1B", help="Path or name of your local model (transformers-compatible)")
     parser.add_argument("--csv", default="fine_tuning/dataset/final/augmented_questions_with_context.csv", help="CSV file with headers: question,answer,context")
     parser.add_argument("--out", default=None, help="Path to save results")
 
