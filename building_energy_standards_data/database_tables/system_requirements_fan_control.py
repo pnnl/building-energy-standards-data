@@ -10,31 +10,34 @@ template: TEXT
 start_date: TEXT
 end_date: TEXT
 cooling_capacity_threshold_for_single_zone_dx_vav: NUMERIC
-fan_motor_size_hp_threshold_for_single_zone_vav: NUMERIC
+fan_motor_size_hp_threshold_for_single_zone_dx_vav: NUMERIC
+fan_motor_size_hp_threshold_for_vav_part_load_power_limitation: NUMERIC
 annotation: TEXT (optional)
 """
 
-CREATE_SYSTEM_requirements_SINGLE_ZONE_VAV_TABLE = """
+CREATE_SYSTEM_requirements_fan_control_TABLE = """
 CREATE TABLE IF NOT EXISTS %s
 (id INTEGER PRIMARY KEY, 
 template TEXT NOT NULL, 
 start_date TEXT,
 end_date TEXT,
 cooling_capacity_threshold_for_single_zone_dx_vav NUMERIC,
-fan_motor_size_hp_threshold_for_single_zone_vav NUMERIC,
+fan_motor_size_hp_threshold_for_single_zone_dx_vav NUMERIC,
+fan_motor_size_hp_threshold_for_vav_part_load_power_limitation NUMERIC,
 annotation TEXT);
 """
 
-INSERT_A_SYSTEM_requirements_SINGLE_ZONE_VAV_RECORD = """
+INSERT_A_SYSTEM_requirements_fan_control_RECORD = """
     INSERT INTO %s (
 template, 
 start_date,
 end_date,
 cooling_capacity_threshold_for_single_zone_dx_vav,
-fan_motor_size_hp_threshold_for_single_zone_vav,
+fan_motor_size_hp_threshold_for_single_zone_dx_vav,
+fan_motor_size_hp_threshold_for_vav_part_load_power_limitation,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -42,7 +45,8 @@ RECORD_TEMPLATE = {
     "start_date": "",
     "end_date": "",
     "cooling_capacity_threshold_for_single_zone_dx_vav": 0.0,
-    "fan_motor_size_hp_threshold_for_single_zone_vav": 0.0,
+    "fan_motor_size_hp_threshold_for_single_zone_dx_vav": 0.0,
+    "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation": 0.0,
     "annotation": "",
 }
 
@@ -53,9 +57,9 @@ class SystemRequirementSingleZoneVAV(DBOperation):
             table_name=table_name,
             record_template=RECORD_TEMPLATE,
             initial_data_directory=initial_data_directory,
-            create_table_query=CREATE_SYSTEM_requirements_SINGLE_ZONE_VAV_TABLE
+            create_table_query=CREATE_SYSTEM_requirements_fan_control_TABLE
             % table_name,
-            insert_record_query=INSERT_A_SYSTEM_requirements_SINGLE_ZONE_VAV_RECORD
+            insert_record_query=INSERT_A_SYSTEM_requirements_fan_control_RECORD
             % table_name,
         )
 
@@ -81,7 +85,8 @@ class SystemRequirementSingleZoneVAV(DBOperation):
 
         float_expected = [
             "cooling_capacity_threshold_for_single_zone_dx_vav",
-            "fan_motor_size_hp_threshold_for_single_zone_vav",
+            "fan_motor_size_hp_threshold_for_single_zone_dx_vav",
+            "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation",
         ]
 
         for f in float_expected:
@@ -103,6 +108,11 @@ class SystemRequirementSingleZoneVAV(DBOperation):
             getattr_either("start_date", record),
             getattr_either("end_date", record),
             getattr_either("cooling_capacity_threshold_for_single_zone_dx_vav", record),
-            getattr_either("fan_motor_size_hp_threshold_for_single_zone_vav", record),
+            getattr_either(
+                "fan_motor_size_hp_threshold_for_single_zone_dx_vav", record
+            ),
+            getattr_either(
+                "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation", record
+            ),
             getattr_either("annotation", record),
         )

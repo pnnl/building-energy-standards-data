@@ -1,10 +1,10 @@
 import sqlite3
 
-from building_energy_standards_data.database_tables.system_requirements_single_zone_vav import (
+from building_energy_standards_data.database_tables.system_requirements_fan_control import (
     SystemRequirementSingleZoneVAV,
 )
 
-TABLE_NAME = "system_requirements_single_zone_vav_IECC"
+TABLE_NAME = "system_requirements_fan_control_IECC"
 
 
 class SystemRequirementSingleZoneVAVIECCTable(SystemRequirementSingleZoneVAV):

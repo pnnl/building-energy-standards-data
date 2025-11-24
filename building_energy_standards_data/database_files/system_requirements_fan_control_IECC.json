@@ -1,0 +1,74 @@
+[
+    {
+        "template": "IECC-2006",
+        "start_date": "9/9/19",
+        "end_date": "9/9/99",
+        "cooling_capacity_threshold_for_single_zone_dx_vav": null,
+        "fan_motor_size_hp_threshold_for_single_zone_dx_vav": null,
+        "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation": 10,
+        "annotation": "From IECC-2006, Section 503.4.2"
+    },
+    {
+        "template": "IECC-2009",
+        "start_date": "9/9/19",
+        "end_date": "9/9/99",
+        "cooling_capacity_threshold_for_single_zone_dx_vav": null,
+        "fan_motor_size_hp_threshold_for_single_zone_dx_vav": null,
+        "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation": 10,
+        "annotation": "From IECC-2009, Section 503.4.2"
+    },
+    {
+        "template": "IECC-2012",
+        "start_date": "9/9/19",
+        "end_date": "9/9/99",
+        "cooling_capacity_threshold_for_single_zone_dx_vav": null,
+        "fan_motor_size_hp_threshold_for_single_zone_dx_vav": null,
+        "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation": 7.5,
+        "annotation": "From IECC-2012, Section C403.4.2"
+    },
+    {
+        "template": "IECC-2015",
+        "start_date": "9/9/19",
+        "end_date": "12/31/15",
+        "cooling_capacity_threshold_for_single_zone_dx_vav": 75000,
+        "fan_motor_size_hp_threshold_for_single_zone_dx_vav": 5,
+        "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation": 5,
+        "annotation": "From IECC-2015, Section C403.4.1.1 and Table C403.4.1.1"
+    },
+    {
+        "template": "IECC-2015",
+        "start_date": "1/1/16",
+        "end_date": "9/9/99",
+        "cooling_capacity_threshold_for_single_zone_dx_vav": 65000,
+        "fan_motor_size_hp_threshold_for_single_zone_dx_vav": 0.25,
+        "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation": 0.25,
+        "annotation": "From IECC-2015, Section C403.4.1.1 and Table C403.4.1.1"
+    },
+    {
+        "template": "IECC-2018",
+        "start_date": "9/9/19",
+        "end_date": "9/9/99",
+        "cooling_capacity_threshold_for_single_zone_dx_vav": 65000,
+        "fan_motor_size_hp_threshold_for_single_zone_dx_vav": 0.25,
+        "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation": 0.25,
+        "annotation": "From IECC-2018, Section C403.8.5.1 and Table C403.8.5.1"
+    },
+    {
+        "template": "IECC-2021",
+        "start_date": "9/9/19",
+        "end_date": "9/9/99",
+        "cooling_capacity_threshold_for_single_zone_dx_vav": 65000,
+        "fan_motor_size_hp_threshold_for_single_zone_dx_vav": 0.25,
+        "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation": 0.25,
+        "annotation": "From IECC-2021, Section C403.8.6.1 and Table C403.8.6.1"
+    },
+    {
+        "template": "IECC-2024",
+        "start_date": "9/9/19",
+        "end_date": "9/9/99",
+        "cooling_capacity_threshold_for_single_zone_dx_vav": 65000,
+        "fan_motor_size_hp_threshold_for_single_zone_dx_vav": 0.25,
+        "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation": 0.25,
+        "annotation": "From IECC-2024, Section C403.8.6.1 and Table C403.8.6.1"
+    }
+]
