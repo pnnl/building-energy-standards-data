@@ -86,7 +86,7 @@ class SystemRequirementSingleZoneVAV(DBOperation):
         float_expected = [
             "cooling_capacity_threshold_for_single_zone_dx_vav",
             "fan_motor_size_hp_threshold_for_single_zone_dx_vav",
-            "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation"
+            "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation",
         ]
 
         for f in float_expected:
@@ -108,7 +108,11 @@ class SystemRequirementSingleZoneVAV(DBOperation):
             getattr_either("start_date", record),
             getattr_either("end_date", record),
             getattr_either("cooling_capacity_threshold_for_single_zone_dx_vav", record),
-            getattr_either("fan_motor_size_hp_threshold_for_single_zone_dx_vav", record),
-            getattr_either("fan_motor_size_hp_threshold_for_vav_part_load_power_limitation", record),
+            getattr_either(
+                "fan_motor_size_hp_threshold_for_single_zone_dx_vav", record
+            ),
+            getattr_either(
+                "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation", record
+            ),
             getattr_either("annotation", record),
         )
