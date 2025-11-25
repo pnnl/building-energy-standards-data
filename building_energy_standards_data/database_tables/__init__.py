@@ -132,6 +132,7 @@ __all__ = [
     "system_requirements_fan_power_allowance_90_1",
     "system_requirements_fan_power_allowance_IECC",
     "system_requirements_fan_power_allowance_189_1",
+    "system_requirements_fan_power_allowance_altitude_correction_factor_90_1",
     # tables with foreign keys
     "level_2_lighting_space_types",
     "level_2_ventilation_space_types",
