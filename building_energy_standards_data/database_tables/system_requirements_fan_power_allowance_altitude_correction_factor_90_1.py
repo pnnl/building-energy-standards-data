@@ -7,9 +7,13 @@ from building_energy_standards_data.database_tables.system_requirements_fan_powe
 TABLE_NAME = "system_requirements_fan_power_allowance_altitude_correction_factor_901"
 
 
-class SystemRequirementFanPowerAllowanceAltitudeCorrectionFactor901Table(SystemRequirementFanPowerAllowanceAltitudeCorrectionFactor):
+class SystemRequirementFanPowerAllowanceAltitudeCorrectionFactor901Table(
+    SystemRequirementFanPowerAllowanceAltitudeCorrectionFactor
+):
     def __init__(self):
-        super(SystemRequirementFanPowerAllowanceAltitudeCorrectionFactor901Table, self).__init__(
+        super(
+            SystemRequirementFanPowerAllowanceAltitudeCorrectionFactor901Table, self
+        ).__init__(
             table_name=TABLE_NAME,
             initial_data_directory=f"building_energy_standards_data/database_files/{TABLE_NAME}",
         )

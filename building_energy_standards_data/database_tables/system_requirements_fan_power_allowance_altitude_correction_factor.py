@@ -45,7 +45,9 @@ RECORD_TEMPLATE = {
 
 class SystemRequirementFanPowerAllowanceAltitudeCorrectionFactor(DBOperation):
     def __init__(self, table_name, initial_data_directory):
-        super(SystemRequirementFanPowerAllowanceAltitudeCorrectionFactor, self).__init__(
+        super(
+            SystemRequirementFanPowerAllowanceAltitudeCorrectionFactor, self
+        ).__init__(
             table_name=table_name,
             record_template=RECORD_TEMPLATE,
             initial_data_directory=initial_data_directory,
@@ -73,11 +75,7 @@ class SystemRequirementFanPowerAllowanceAltitudeCorrectionFactor(DBOperation):
                     record[f], str
                 ), f"{f} requires to be a string, instead got {record[f]}"
 
-        float_expected = [
-            "minimum_altitude",
-            "maximum_altitude",
-            "correction_factor"
-        ]
+        float_expected = ["minimum_altitude", "maximum_altitude", "correction_factor"]
 
         for f in float_expected:
             if record.get(f):
