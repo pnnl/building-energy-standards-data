@@ -4,7 +4,7 @@ from building_energy_standards_data.database_tables.system_requirements_fan_powe
     SystemRequirementFanPowerAllowanceAltitudeCorrectionFactor,
 )
 
-TABLE_NAME = "system_requirements_fan_power_allowance_altitude_correction_factor_901"
+TABLE_NAME = "system_requirements_fan_power_allowance_altitude_correction_factor_90_1"
 
 
 class SystemRequirementFanPowerAllowanceAltitudeCorrectionFactor901Table(
