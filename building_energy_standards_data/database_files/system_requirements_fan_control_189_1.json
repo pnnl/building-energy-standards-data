@@ -1,8 +1,8 @@
 [
     {
         "template": "189.1-2009",
-        "start_date": "9/9/19",
-        "end_date": "9/9/99",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
         "cooling_capacity_threshold_for_single_zone_dx_vav": 110000,
         "fan_motor_size_hp_threshold_for_single_zone_dx_vav": 5,
         "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation": 10,
@@ -10,8 +10,8 @@
     },
     {
         "template": "189.1-2011",
-        "start_date": "9/9/19",
-        "end_date": "9/9/99",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
         "cooling_capacity_threshold_for_single_zone_dx_vav": 110000,
         "fan_motor_size_hp_threshold_for_single_zone_dx_vav": 5,
         "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation": 10,
@@ -19,8 +19,8 @@
     },
     {
         "template": "189.1-2017",
-        "start_date": "9/9/19",
-        "end_date": "9/9/99",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
         "cooling_capacity_threshold_for_single_zone_dx_vav": 65000,
         "fan_motor_size_hp_threshold_for_single_zone_dx_vav": 0.25,
         "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation": 0.25,
@@ -28,8 +28,8 @@
     },
     {
         "template": "189.1-2020",
-        "start_date": "9/9/19",
-        "end_date": "9/9/99",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
         "cooling_capacity_threshold_for_single_zone_dx_vav": 65000,
         "fan_motor_size_hp_threshold_for_single_zone_dx_vav": 0.25,
         "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation": 0.25,
@@ -37,8 +37,8 @@
     },
     {
         "template": "189.1-2023",
-        "start_date": "9/9/19",
-        "end_date": "9/9/99",
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
         "cooling_capacity_threshold_for_single_zone_dx_vav": 65000,
         "fan_motor_size_hp_threshold_for_single_zone_dx_vav": 0.25,
         "fan_motor_size_hp_threshold_for_vav_part_load_power_limitation": 0.25,
