@@ -97,7 +97,7 @@ def create_openstudio_standards_space_data_json(
 
     :param conn (sqlite3.Connection): database connection
     :param template (str): template corresponding to the code and code version, e.g. "90.1-2004", or "90.1-2007"
-    :param code_version (str): verion of the code, e.g. "2004", "2007", etc.
+    :param code_version (str): version of the code, e.g. "2004", "2007", etc.
     :param missing_data_lookup_hierarchy (list): list (ordered) of values to use to look up record if targeted value cannot be found
     :param code (str): name of the building energy code, e.g. "ashrae_90_1"
     :param osstd_repository_path (str): path of the local openstudio-standards repository
@@ -458,7 +458,7 @@ def create_openstudio_standards_code_version_data_json(
     """Extract code- and code version-specific OpenStudio Standards data from the database and export it to JSON files
     :param conn (sqlite3.Connection): database connection
     :param code (str): name of the building energy code, e.g. "ashrae_90_1"
-    :param code_version (str): verion of the code, e.g. "2004", "2007", etc.
+    :param code_version (str): version of the code, e.g. "2004", "2007", etc.
     :param template (str): template corresponding to the code and code version, e.g. "90.1-2004", or "90.1-2007"
     :param tables_to_export (dict): mapping of name of OpenStudio Standards JSON file name to corresponding tables from the database that contains the data for the code and code version data
     :param osstd_repository_path (str): path of the local openstudio-standards repository
