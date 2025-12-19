@@ -1,0 +1,66 @@
+[
+    {
+        "template": "90.1-2004",
+        "maximum_gpm_for_open_centrifugal_tower": null,
+        "reference_condenser_water_return_deg_F": null,
+        "reference_condenser_water_supply_deg_F": null,
+        "reference_outdoor_air_wet_bulb_temperature_deg_F": null,
+        "annotation": null
+    },
+    {
+        "template": "90.1-2007",
+        "maximum_gpm_for_open_centrifugal_tower": null,
+        "reference_condenser_water_return_deg_F": null,
+        "reference_condenser_water_supply_deg_F": null,
+        "reference_outdoor_air_wet_bulb_temperature_deg_F": null,
+        "annotation": null
+    },
+    {
+        "template": "90.1-2010",
+        "maximum_gpm_for_open_centrifugal_tower": 1100,
+        "reference_condenser_water_return_deg_F": 95,
+        "reference_condenser_water_supply_deg_F": 85,
+        "reference_outdoor_air_wet_bulb_temperature_deg_F": 75,
+        "annotation": "From 90.1-2010, Section 6.5.5.3"
+    },
+    {
+        "template": "90.1-2013",
+        "maximum_gpm_for_open_centrifugal_tower": 1100,
+        "reference_condenser_water_return_deg_F": 95,
+        "reference_condenser_water_supply_deg_F": 85,
+        "reference_outdoor_air_wet_bulb_temperature_deg_F": 75,
+        "annotation": "From 90.1-2013, Section 6.5.5.3"
+    },
+    {
+        "template": "90.1-2016",
+        "maximum_gpm_for_open_centrifugal_tower": 1100,
+        "reference_condenser_water_return_deg_F": 95,
+        "reference_condenser_water_supply_deg_F": 85,
+        "reference_outdoor_air_wet_bulb_temperature_deg_F": 75,
+        "annotation": "From 90.1-2016, Section 6.5.5.3"
+    },
+    {
+        "template": "90.1-2019",
+        "maximum_gpm_for_open_centrifugal_tower": 1100,
+        "reference_condenser_water_return_deg_F": 95,
+        "reference_condenser_water_supply_deg_F": 85,
+        "reference_outdoor_air_wet_bulb_temperature_deg_F": 75,
+        "annotation": "From 90.1-2019, Section 6.5.5.3"
+    },
+    {
+        "template": "90.1-2022",
+        "maximum_gpm_for_open_centrifugal_tower": 1100,
+        "reference_condenser_water_return_deg_F": 95,
+        "reference_condenser_water_supply_deg_F": 85,
+        "reference_outdoor_air_wet_bulb_temperature_deg_F": 75,
+        "annotation": "From 90.1-2022, Section 6.5.5.3"
+    },
+    {
+        "template": "90.1-2025",
+        "maximum_gpm_for_open_centrifugal_tower": 1100,
+        "reference_condenser_water_return_deg_F": 95,
+        "reference_condenser_water_supply_deg_F": 85,
+        "reference_outdoor_air_wet_bulb_temperature_deg_F": 75,
+        "annotation": "From 90.1-2025, Section 6.5.5.3"
+    }
+]
