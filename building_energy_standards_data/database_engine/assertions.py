@@ -35,7 +35,7 @@ def check_path(path):
     Parameters
     ----------
     path : str
-        String that represent a path to a directory
+        String that represents a path to a directory
 
     Returns
     -------
@@ -53,7 +53,7 @@ def check_path(path):
 
 
 def getattr_(obj, obj_name: str, first_key, *remaining_keys):
-    """Gets the value inside a dictionary described by a key path or raises an expection
+    """Gets the value inside a dictionary described by a key path or raises an exception
 
     Parameters
     ----------
@@ -70,7 +70,7 @@ def getattr_(obj, obj_name: str, first_key, *remaining_keys):
     Returns
     -------
     any
-        The value stored the the given key path
+        The value stored at the given key path
 
     Raises
     ------

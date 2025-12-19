@@ -12,7 +12,7 @@ DB_FILE = "openstudio_standards_database.db"
 
 def create_connect(db_file):
     """
-    create a database_tables conection to the SQLite database_tables specified by db_file
+    create a database_tables connection to the SQLite database_tables specified by db_file
     :param db_file: database_tables file or None (None uses default
     :return: Connection object or None
     """
@@ -139,7 +139,7 @@ class DBOperation:
     def validate_weak_foreign_key(self, conn, record):
         """
         Validate if a key is existing in a weak associated table. The definition of weak associate table in OSSTD
-        means when the primary key in a table is referenced by another table in a column instead of SQL foriegn key
+        means when the primary key in a table is referenced by another table in a column instead of SQL foreign key
         relationship. An example is the level_2_lighting_space_type contains level_3_lighting_definition_id that
         references an index from the table specified in the column level_3_lighting_definition_table.
         For weak foreign key, we will use this function to determine whether it is correct addition or update.
