@@ -53,8 +53,10 @@ class SystemRequirementsHeatRejection(DBOperation):
             table_name=table_name,
             record_template=RECORD_TEMPLATE,
             initial_data_directory=initial_data_directory,
-            create_table_query=CREATE_SYSTEM_requirements_heat_rejection_TABLE % table_name,
-            insert_record_query=INSERT_A_SYSTEM_requirements_heat_rejection_RECORD % table_name,
+            create_table_query=CREATE_SYSTEM_requirements_heat_rejection_TABLE
+            % table_name,
+            insert_record_query=INSERT_A_SYSTEM_requirements_heat_rejection_RECORD
+            % table_name,
         )
 
     def get_record_info(self):
