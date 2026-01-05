@@ -87,15 +87,15 @@ def is_float(element: any) -> bool:
 
 def getattr_either(key: str, record: dict, option=None):
     """
-    A helper function to retrieve a key from a record object (dict) with an option for reject solution.
+    A helper function to retrieve a key from a record object (dict) with an option for a default value.
     :param key: key
-    :param record: dictionary that could contain value for the key.
-    :param option: value return when reject (optional), default is None
+    :param record: dictionary that could contain a value for the key.
+    :param option: value returned when missing (optional), defaults to None
     :return: value
     """
     if record.get(key) == "":  # used for reading data from CSV
         return option
-    elif record.get(key) is None:  # used for readting data from CSV
+    elif record.get(key) is None:  # used for reading data from CSV
         return option
     else:
         return f"{record[key]}"
