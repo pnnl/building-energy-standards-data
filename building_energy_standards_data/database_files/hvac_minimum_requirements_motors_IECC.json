@@ -2719,9 +2719,9 @@
         "minimum_capacity": 1.001,
         "maximum_capacity": 1.5,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.825,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2731,9 +2731,9 @@
         "minimum_capacity": 1.501,
         "maximum_capacity": 2,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.84,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2743,9 +2743,9 @@
         "minimum_capacity": 2.001,
         "maximum_capacity": 3,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.84,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2755,9 +2755,9 @@
         "minimum_capacity": 3.001,
         "maximum_capacity": 5,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.855,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2767,9 +2767,9 @@
         "minimum_capacity": 5.001,
         "maximum_capacity": 7.5,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.875,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2779,9 +2779,9 @@
         "minimum_capacity": 7.501,
         "maximum_capacity": 10,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.885,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2791,9 +2791,9 @@
         "minimum_capacity": 10.001,
         "maximum_capacity": 15,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.895,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2803,9 +2803,9 @@
         "minimum_capacity": 15.001,
         "maximum_capacity": 20,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.902,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2815,9 +2815,9 @@
         "minimum_capacity": 20.001,
         "maximum_capacity": 25,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.91,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2827,9 +2827,9 @@
         "minimum_capacity": 25.001,
         "maximum_capacity": 30,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.91,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2839,9 +2839,9 @@
         "minimum_capacity": 30.001,
         "maximum_capacity": 40,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.917,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2851,9 +2851,9 @@
         "minimum_capacity": 40.001,
         "maximum_capacity": 50,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.924,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2863,9 +2863,9 @@
         "minimum_capacity": 50.001,
         "maximum_capacity": 60,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.93,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2875,9 +2875,9 @@
         "minimum_capacity": 60.001,
         "maximum_capacity": 75,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.93,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2887,9 +2887,9 @@
         "minimum_capacity": 75.001,
         "maximum_capacity": 100,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.93,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2899,9 +2899,9 @@
         "minimum_capacity": 100.001,
         "maximum_capacity": 125,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.936,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2911,9 +2911,9 @@
         "minimum_capacity": 125.001,
         "maximum_capacity": 150,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.936,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2923,9 +2923,9 @@
         "minimum_capacity": 150.001,
         "maximum_capacity": 200,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.945,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2935,9 +2935,9 @@
         "minimum_capacity": 0,
         "maximum_capacity": 1,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.825,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2947,9 +2947,9 @@
         "minimum_capacity": 1.001,
         "maximum_capacity": 1.5,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.84,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2959,9 +2959,9 @@
         "minimum_capacity": 1.501,
         "maximum_capacity": 2,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.84,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2971,9 +2971,9 @@
         "minimum_capacity": 2.001,
         "maximum_capacity": 3,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.865,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2983,9 +2983,9 @@
         "minimum_capacity": 3.001,
         "maximum_capacity": 5,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.875,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -2995,9 +2995,9 @@
         "minimum_capacity": 5.001,
         "maximum_capacity": 7.5,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.885,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3007,9 +3007,9 @@
         "minimum_capacity": 7.501,
         "maximum_capacity": 10,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.895,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3019,9 +3019,9 @@
         "minimum_capacity": 10.001,
         "maximum_capacity": 15,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.91,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3031,9 +3031,9 @@
         "minimum_capacity": 15.001,
         "maximum_capacity": 20,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.91,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3043,9 +3043,9 @@
         "minimum_capacity": 20.001,
         "maximum_capacity": 25,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.917,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3055,9 +3055,9 @@
         "minimum_capacity": 25.001,
         "maximum_capacity": 30,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.924,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3067,9 +3067,9 @@
         "minimum_capacity": 30.001,
         "maximum_capacity": 40,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.93,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3079,9 +3079,9 @@
         "minimum_capacity": 40.001,
         "maximum_capacity": 50,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.93,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3091,9 +3091,9 @@
         "minimum_capacity": 50.001,
         "maximum_capacity": 60,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.936,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3103,9 +3103,9 @@
         "minimum_capacity": 60.001,
         "maximum_capacity": 75,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.941,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3115,9 +3115,9 @@
         "minimum_capacity": 75.001,
         "maximum_capacity": 100,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.941,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3127,9 +3127,9 @@
         "minimum_capacity": 100.001,
         "maximum_capacity": 125,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.945,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3139,9 +3139,9 @@
         "minimum_capacity": 125.001,
         "maximum_capacity": 150,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.95,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3151,9 +3151,9 @@
         "minimum_capacity": 150.001,
         "maximum_capacity": 200,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.95,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3163,9 +3163,9 @@
         "minimum_capacity": 0,
         "maximum_capacity": 1,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.8,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3175,9 +3175,9 @@
         "minimum_capacity": 1.001,
         "maximum_capacity": 1.5,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.84,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3187,9 +3187,9 @@
         "minimum_capacity": 1.501,
         "maximum_capacity": 2,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.855,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3199,9 +3199,9 @@
         "minimum_capacity": 2.001,
         "maximum_capacity": 3,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.865,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3211,9 +3211,9 @@
         "minimum_capacity": 3.001,
         "maximum_capacity": 5,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.875,
-        "annotation": "From 90.1-2004 Table 10.8. Efficiency changed from 85.5% to 86.5% according to 90-1-04_iperrata8-27-09"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3223,9 +3223,9 @@
         "minimum_capacity": 5.001,
         "maximum_capacity": 7.5,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.885,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3235,9 +3235,9 @@
         "minimum_capacity": 7.501,
         "maximum_capacity": 10,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.902,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3247,9 +3247,9 @@
         "minimum_capacity": 10.001,
         "maximum_capacity": 15,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.902,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3259,9 +3259,9 @@
         "minimum_capacity": 15.001,
         "maximum_capacity": 20,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.91,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3271,9 +3271,9 @@
         "minimum_capacity": 20.001,
         "maximum_capacity": 25,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.917,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3283,9 +3283,9 @@
         "minimum_capacity": 25.001,
         "maximum_capacity": 30,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.924,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3295,9 +3295,9 @@
         "minimum_capacity": 30.001,
         "maximum_capacity": 40,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.93,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3307,9 +3307,9 @@
         "minimum_capacity": 40.001,
         "maximum_capacity": 50,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.93,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3319,9 +3319,9 @@
         "minimum_capacity": 50.001,
         "maximum_capacity": 60,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.936,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3331,9 +3331,9 @@
         "minimum_capacity": 60.001,
         "maximum_capacity": 75,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.936,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3343,9 +3343,9 @@
         "minimum_capacity": 75.001,
         "maximum_capacity": 100,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.941,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3355,9 +3355,9 @@
         "minimum_capacity": 100.001,
         "maximum_capacity": 125,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.941,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3367,9 +3367,9 @@
         "minimum_capacity": 125.001,
         "maximum_capacity": 150,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.945,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3379,9 +3379,9 @@
         "minimum_capacity": 150.001,
         "maximum_capacity": 200,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.945,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3391,9 +3391,9 @@
         "minimum_capacity": 0,
         "maximum_capacity": 1,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.755,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3403,9 +3403,9 @@
         "minimum_capacity": 1.001,
         "maximum_capacity": 1.5,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.825,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3415,9 +3415,9 @@
         "minimum_capacity": 1.501,
         "maximum_capacity": 2,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.84,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3427,9 +3427,9 @@
         "minimum_capacity": 2.001,
         "maximum_capacity": 3,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.855,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3439,9 +3439,9 @@
         "minimum_capacity": 3.001,
         "maximum_capacity": 5,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.875,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3451,9 +3451,9 @@
         "minimum_capacity": 5.001,
         "maximum_capacity": 7.5,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.885,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3463,9 +3463,9 @@
         "minimum_capacity": 7.501,
         "maximum_capacity": 10,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.895,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3475,9 +3475,9 @@
         "minimum_capacity": 10.001,
         "maximum_capacity": 15,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.902,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3487,9 +3487,9 @@
         "minimum_capacity": 15.001,
         "maximum_capacity": 20,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.902,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3499,9 +3499,9 @@
         "minimum_capacity": 20.001,
         "maximum_capacity": 25,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.91,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3511,9 +3511,9 @@
         "minimum_capacity": 25.001,
         "maximum_capacity": 30,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.91,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3523,9 +3523,9 @@
         "minimum_capacity": 30.001,
         "maximum_capacity": 40,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.917,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3535,9 +3535,9 @@
         "minimum_capacity": 40.001,
         "maximum_capacity": 50,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.924,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3547,9 +3547,9 @@
         "minimum_capacity": 50.001,
         "maximum_capacity": 60,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.93,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3559,9 +3559,9 @@
         "minimum_capacity": 60.001,
         "maximum_capacity": 75,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.93,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3571,9 +3571,9 @@
         "minimum_capacity": 75.001,
         "maximum_capacity": 100,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.936,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3583,9 +3583,9 @@
         "minimum_capacity": 100.001,
         "maximum_capacity": 125,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.945,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3595,9 +3595,9 @@
         "minimum_capacity": 125.001,
         "maximum_capacity": 150,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.945,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3607,9 +3607,9 @@
         "minimum_capacity": 150.001,
         "maximum_capacity": 200,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.95,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3619,9 +3619,9 @@
         "minimum_capacity": 0,
         "maximum_capacity": 1,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.825,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3631,9 +3631,9 @@
         "minimum_capacity": 1.001,
         "maximum_capacity": 1.5,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.84,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3643,9 +3643,9 @@
         "minimum_capacity": 1.501,
         "maximum_capacity": 2,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.84,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3655,9 +3655,9 @@
         "minimum_capacity": 2.001,
         "maximum_capacity": 3,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.875,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3667,9 +3667,9 @@
         "minimum_capacity": 3.001,
         "maximum_capacity": 5,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.875,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3679,9 +3679,9 @@
         "minimum_capacity": 5.001,
         "maximum_capacity": 7.5,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.895,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3691,9 +3691,9 @@
         "minimum_capacity": 7.501,
         "maximum_capacity": 10,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.895,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3703,9 +3703,9 @@
         "minimum_capacity": 10.001,
         "maximum_capacity": 15,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.91,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3715,9 +3715,9 @@
         "minimum_capacity": 15.001,
         "maximum_capacity": 20,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.91,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3727,9 +3727,9 @@
         "minimum_capacity": 20.001,
         "maximum_capacity": 25,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.924,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3739,9 +3739,9 @@
         "minimum_capacity": 25.001,
         "maximum_capacity": 30,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.924,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3751,9 +3751,9 @@
         "minimum_capacity": 30.001,
         "maximum_capacity": 40,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.93,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3763,9 +3763,9 @@
         "minimum_capacity": 40.001,
         "maximum_capacity": 50,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.93,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3775,9 +3775,9 @@
         "minimum_capacity": 50.001,
         "maximum_capacity": 60,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.936,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3787,9 +3787,9 @@
         "minimum_capacity": 60.001,
         "maximum_capacity": 75,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.941,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3799,9 +3799,9 @@
         "minimum_capacity": 75.001,
         "maximum_capacity": 100,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.945,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3811,9 +3811,9 @@
         "minimum_capacity": 100.001,
         "maximum_capacity": 125,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.945,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3823,9 +3823,9 @@
         "minimum_capacity": 125.001,
         "maximum_capacity": 150,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.95,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3835,9 +3835,9 @@
         "minimum_capacity": 150.001,
         "maximum_capacity": 200,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.95,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3847,9 +3847,9 @@
         "minimum_capacity": 0,
         "maximum_capacity": 1,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.8,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3859,9 +3859,9 @@
         "minimum_capacity": 1.001,
         "maximum_capacity": 1.5,
         "start_date": "9/9/1919",
-        "end_date": "9/9/2999",
+        "end_date": "12/18/2010",
         "nominal_full_load_efficiency": 0.855,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8A"
     },
     {
         "template": "IECC-2012",
@@ -3871,9 +3871,1737 @@
         "minimum_capacity": 1.501,
         "maximum_capacity": 2,
         "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.865,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 2.001,
+        "maximum_capacity": 3,
+        "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.875,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 3.001,
+        "maximum_capacity": 5,
+        "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.875,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 5.001,
+        "maximum_capacity": 7.5,
+        "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.895,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 7.501,
+        "maximum_capacity": 10,
+        "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.895,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 10.001,
+        "maximum_capacity": 15,
+        "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.902,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 15.001,
+        "maximum_capacity": 20,
+        "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.902,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 20.001,
+        "maximum_capacity": 25,
+        "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.917,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 25.001,
+        "maximum_capacity": 30,
+        "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.917,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 30.001,
+        "maximum_capacity": 40,
+        "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.93,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 40.001,
+        "maximum_capacity": 50,
+        "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.93,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 50.001,
+        "maximum_capacity": 60,
+        "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.936,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 60.001,
+        "maximum_capacity": 75,
+        "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.936,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 75.001,
+        "maximum_capacity": 100,
+        "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.941,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 100.001,
+        "maximum_capacity": 125,
+        "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.941,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 125.001,
+        "maximum_capacity": 150,
+        "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.95,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 150.001,
+        "maximum_capacity": 200,
+        "start_date": "9/9/1919",
+        "end_date": "12/18/2010",
+        "nominal_full_load_efficiency": 0.95,
+        "annotation": "From 90.1-2010 Table 10.8A"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 0,
+        "maximum_capacity": 1,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.77,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 1.001,
+        "maximum_capacity": 1.5,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.84,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 1.501,
+        "maximum_capacity": 2,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.855,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 2.001,
+        "maximum_capacity": 3,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.855,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 3.001,
+        "maximum_capacity": 5,
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
         "nominal_full_load_efficiency": 0.865,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 5.001,
+        "maximum_capacity": 7.5,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.885,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 7.501,
+        "maximum_capacity": 10,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.895,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 10.001,
+        "maximum_capacity": 15,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.902,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 15.001,
+        "maximum_capacity": 20,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.91,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 20.001,
+        "maximum_capacity": 25,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.917,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 25.001,
+        "maximum_capacity": 30,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.917,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 30.001,
+        "maximum_capacity": 40,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.924,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 40.001,
+        "maximum_capacity": 50,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.93,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 50.001,
+        "maximum_capacity": 60,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.936,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 60.001,
+        "maximum_capacity": 75,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.936,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 75.001,
+        "maximum_capacity": 100,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.936,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 100.001,
+        "maximum_capacity": 125,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.941,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 125.001,
+        "maximum_capacity": 150,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.941,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 150.001,
+        "maximum_capacity": 200,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.95,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 200.001,
+        "maximum_capacity": 250,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.95,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 250.001,
+        "maximum_capacity": 300,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.954,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 300.001,
+        "maximum_capacity": 350,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.954,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 350.001,
+        "maximum_capacity": 400,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 400.001,
+        "maximum_capacity": 450,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Open",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 450.001,
+        "maximum_capacity": 500,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 0,
+        "maximum_capacity": 1,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.855,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 1.001,
+        "maximum_capacity": 1.5,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.865,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 1.501,
+        "maximum_capacity": 2,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.865,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 2.001,
+        "maximum_capacity": 3,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.895,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 3.001,
+        "maximum_capacity": 5,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.895,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 5.001,
+        "maximum_capacity": 7.5,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.91,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 7.501,
+        "maximum_capacity": 10,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.917,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 10.001,
+        "maximum_capacity": 15,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.93,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 15.001,
+        "maximum_capacity": 20,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.93,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 20.001,
+        "maximum_capacity": 25,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.936,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 25.001,
+        "maximum_capacity": 30,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.941,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 30.001,
+        "maximum_capacity": 40,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.941,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 40.001,
+        "maximum_capacity": 50,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.945,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 50.001,
+        "maximum_capacity": 60,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.95,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 60.001,
+        "maximum_capacity": 75,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.95,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 75.001,
+        "maximum_capacity": 100,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.954,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 100.001,
+        "maximum_capacity": 125,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.954,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 125.001,
+        "maximum_capacity": 150,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 150.001,
+        "maximum_capacity": 200,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 200.001,
+        "maximum_capacity": 250,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 250.001,
+        "maximum_capacity": 300,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 300.001,
+        "maximum_capacity": 350,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 350.001,
+        "maximum_capacity": 400,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 400.001,
+        "maximum_capacity": 450,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.962,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Open",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 450.001,
+        "maximum_capacity": 500,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.962,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 0,
+        "maximum_capacity": 1,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.825,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 1.001,
+        "maximum_capacity": 1.5,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.865,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 1.501,
+        "maximum_capacity": 2,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.875,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 2.001,
+        "maximum_capacity": 3,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.885,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 3.001,
+        "maximum_capacity": 5,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.895,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 5.001,
+        "maximum_capacity": 7.5,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.902,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 7.501,
+        "maximum_capacity": 10,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.917,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 10.001,
+        "maximum_capacity": 15,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.917,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 15.001,
+        "maximum_capacity": 20,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.924,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 20.001,
+        "maximum_capacity": 25,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.93,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 25.001,
+        "maximum_capacity": 30,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.936,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 30.001,
+        "maximum_capacity": 40,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.941,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 40.001,
+        "maximum_capacity": 50,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.941,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 50.001,
+        "maximum_capacity": 60,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.945,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 60.001,
+        "maximum_capacity": 75,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.945,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 75.001,
+        "maximum_capacity": 100,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.95,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 100.001,
+        "maximum_capacity": 125,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.95,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 125.001,
+        "maximum_capacity": 150,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.954,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 150.001,
+        "maximum_capacity": 200,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.954,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 200.001,
+        "maximum_capacity": 250,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.954,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 250.001,
+        "maximum_capacity": 300,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.954,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 300.001,
+        "maximum_capacity": 350,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.954,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 350.001,
+        "maximum_capacity": 400,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 400.001,
+        "maximum_capacity": 450,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.962,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Open",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 450.001,
+        "maximum_capacity": 500,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.962,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 0,
+        "maximum_capacity": 1,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.77,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 1.001,
+        "maximum_capacity": 1.5,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.84,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 1.501,
+        "maximum_capacity": 2,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.855,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 2.001,
+        "maximum_capacity": 3,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.865,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 3.001,
+        "maximum_capacity": 5,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.885,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 5.001,
+        "maximum_capacity": 7.5,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.895,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 7.501,
+        "maximum_capacity": 10,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.902,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 10.001,
+        "maximum_capacity": 15,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.91,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 15.001,
+        "maximum_capacity": 20,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.91,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 20.001,
+        "maximum_capacity": 25,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.917,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 25.001,
+        "maximum_capacity": 30,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.917,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 30.001,
+        "maximum_capacity": 40,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.924,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 40.001,
+        "maximum_capacity": 50,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.93,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 50.001,
+        "maximum_capacity": 60,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.936,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 60.001,
+        "maximum_capacity": 75,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.936,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 75.001,
+        "maximum_capacity": 100,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.941,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 100.001,
+        "maximum_capacity": 125,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.95,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 125.001,
+        "maximum_capacity": 150,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.95,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 150.001,
+        "maximum_capacity": 200,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.954,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 200.001,
+        "maximum_capacity": 250,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 250.001,
+        "maximum_capacity": 300,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 300.001,
+        "maximum_capacity": 350,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 350.001,
+        "maximum_capacity": 400,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 400.001,
+        "maximum_capacity": 450,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 2,
+        "type": "Enclosed",
+        "synchronous_speed": 3600,
+        "minimum_capacity": 450.001,
+        "maximum_capacity": 500,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 0,
+        "maximum_capacity": 1,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.855,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 1.001,
+        "maximum_capacity": 1.5,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.865,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 1.501,
+        "maximum_capacity": 2,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.865,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 2.001,
+        "maximum_capacity": 3,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.895,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 3.001,
+        "maximum_capacity": 5,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.895,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 5.001,
+        "maximum_capacity": 7.5,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.917,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 7.501,
+        "maximum_capacity": 10,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.917,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 10.001,
+        "maximum_capacity": 15,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.924,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 15.001,
+        "maximum_capacity": 20,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.93,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 20.001,
+        "maximum_capacity": 25,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.936,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 25.001,
+        "maximum_capacity": 30,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.936,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 30.001,
+        "maximum_capacity": 40,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.941,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 40.001,
+        "maximum_capacity": 50,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.945,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 50.001,
+        "maximum_capacity": 60,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.95,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 60.001,
+        "maximum_capacity": 75,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.954,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 75.001,
+        "maximum_capacity": 100,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.954,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 100.001,
+        "maximum_capacity": 125,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.954,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 125.001,
+        "maximum_capacity": 150,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 150.001,
+        "maximum_capacity": 200,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.962,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 200.001,
+        "maximum_capacity": 250,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.962,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 250.001,
+        "maximum_capacity": 300,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.962,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 300.001,
+        "maximum_capacity": 350,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.962,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 350.001,
+        "maximum_capacity": 400,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.962,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 400.001,
+        "maximum_capacity": 450,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.962,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 4,
+        "type": "Enclosed",
+        "synchronous_speed": 1800,
+        "minimum_capacity": 450.001,
+        "maximum_capacity": 500,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.962,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 0,
+        "maximum_capacity": 1,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.825,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 1.001,
+        "maximum_capacity": 1.5,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.875,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 1.501,
+        "maximum_capacity": 2,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.885,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2012",
@@ -3882,10 +5610,10 @@
         "synchronous_speed": 1200,
         "minimum_capacity": 2.001,
         "maximum_capacity": 3,
-        "start_date": "9/9/1919",
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.875,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "nominal_full_load_efficiency": 0.895,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2012",
@@ -3894,10 +5622,10 @@
         "synchronous_speed": 1200,
         "minimum_capacity": 3.001,
         "maximum_capacity": 5,
-        "start_date": "9/9/1919",
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.875,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "nominal_full_load_efficiency": 0.895,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2012",
@@ -3906,10 +5634,10 @@
         "synchronous_speed": 1200,
         "minimum_capacity": 5.001,
         "maximum_capacity": 7.5,
-        "start_date": "9/9/1919",
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.895,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "nominal_full_load_efficiency": 0.91,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2012",
@@ -3918,10 +5646,10 @@
         "synchronous_speed": 1200,
         "minimum_capacity": 7.501,
         "maximum_capacity": 10,
-        "start_date": "9/9/1919",
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.895,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "nominal_full_load_efficiency": 0.91,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2012",
@@ -3930,10 +5658,10 @@
         "synchronous_speed": 1200,
         "minimum_capacity": 10.001,
         "maximum_capacity": 15,
-        "start_date": "9/9/1919",
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.902,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "nominal_full_load_efficiency": 0.917,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2012",
@@ -3942,10 +5670,10 @@
         "synchronous_speed": 1200,
         "minimum_capacity": 15.001,
         "maximum_capacity": 20,
-        "start_date": "9/9/1919",
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.902,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "nominal_full_load_efficiency": 0.917,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2012",
@@ -3954,10 +5682,10 @@
         "synchronous_speed": 1200,
         "minimum_capacity": 20.001,
         "maximum_capacity": 25,
-        "start_date": "9/9/1919",
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.917,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "nominal_full_load_efficiency": 0.93,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2012",
@@ -3966,10 +5694,10 @@
         "synchronous_speed": 1200,
         "minimum_capacity": 25.001,
         "maximum_capacity": 30,
-        "start_date": "9/9/1919",
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.917,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "nominal_full_load_efficiency": 0.93,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2012",
@@ -3978,10 +5706,10 @@
         "synchronous_speed": 1200,
         "minimum_capacity": 30.001,
         "maximum_capacity": 40,
-        "start_date": "9/9/1919",
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.93,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "nominal_full_load_efficiency": 0.941,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2012",
@@ -3990,10 +5718,10 @@
         "synchronous_speed": 1200,
         "minimum_capacity": 40.001,
         "maximum_capacity": 50,
-        "start_date": "9/9/1919",
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.93,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "nominal_full_load_efficiency": 0.941,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2012",
@@ -4002,10 +5730,10 @@
         "synchronous_speed": 1200,
         "minimum_capacity": 50.001,
         "maximum_capacity": 60,
-        "start_date": "9/9/1919",
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.936,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "nominal_full_load_efficiency": 0.945,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2012",
@@ -4014,10 +5742,10 @@
         "synchronous_speed": 1200,
         "minimum_capacity": 60.001,
         "maximum_capacity": 75,
-        "start_date": "9/9/1919",
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.936,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "nominal_full_load_efficiency": 0.945,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2012",
@@ -4026,10 +5754,10 @@
         "synchronous_speed": 1200,
         "minimum_capacity": 75.001,
         "maximum_capacity": 100,
-        "start_date": "9/9/1919",
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.941,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "nominal_full_load_efficiency": 0.95,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2012",
@@ -4038,10 +5766,10 @@
         "synchronous_speed": 1200,
         "minimum_capacity": 100.001,
         "maximum_capacity": 125,
-        "start_date": "9/9/1919",
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.941,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "nominal_full_load_efficiency": 0.95,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2012",
@@ -4050,10 +5778,10 @@
         "synchronous_speed": 1200,
         "minimum_capacity": 125.001,
         "maximum_capacity": 150,
-        "start_date": "9/9/1919",
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2012",
@@ -4062,10 +5790,82 @@
         "synchronous_speed": 1200,
         "minimum_capacity": 150.001,
         "maximum_capacity": 200,
-        "start_date": "9/9/1919",
+        "start_date": "12/19/2010",
         "end_date": "9/9/2999",
-        "nominal_full_load_efficiency": 0.95,
-        "annotation": "From 90.1-2004 Table 10.8"
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 200.001,
+        "maximum_capacity": 250,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 250.001,
+        "maximum_capacity": 300,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 300.001,
+        "maximum_capacity": 350,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 350.001,
+        "maximum_capacity": 400,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 400.001,
+        "maximum_capacity": 450,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
+    },
+    {
+        "template": "IECC-2012",
+        "number_of_poles": 6,
+        "type": "Enclosed",
+        "synchronous_speed": 1200,
+        "minimum_capacity": 450.001,
+        "maximum_capacity": 500,
+        "start_date": "12/19/2010",
+        "end_date": "9/9/2999",
+        "nominal_full_load_efficiency": 0.958,
+        "annotation": "From 90.1-2010 Table 10.8B"
     },
     {
         "template": "IECC-2015",
