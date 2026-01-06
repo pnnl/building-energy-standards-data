@@ -13,7 +13,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2006 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2006",
@@ -29,7 +29,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2006 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2006",
@@ -45,7 +45,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2006 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2006",
@@ -61,7 +61,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2006 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2006",
@@ -77,7 +77,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2006 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2006",
@@ -93,7 +93,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2006 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2006",
@@ -109,7 +109,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2006 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2006",
@@ -125,7 +125,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2006 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2006",
@@ -141,7 +141,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2006 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2006",
@@ -157,7 +157,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2006 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2006",
@@ -173,7 +173,7 @@
         "minimum_combustion_efficiency": 0.83,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2006 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2006",
@@ -189,7 +189,7 @@
         "minimum_combustion_efficiency": 0.83,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2006 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2009",
@@ -205,7 +205,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2009 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2009",
@@ -221,7 +221,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2009 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2009",
@@ -237,7 +237,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2009 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2009",
@@ -253,7 +253,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2009 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2009",
@@ -269,7 +269,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2009 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2009",
@@ -285,7 +285,7 @@
         "minimum_combustion_efficiency": 0.8,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2009 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2009",
@@ -301,7 +301,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2009 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2009",
@@ -317,7 +317,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2009 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2009",
@@ -333,7 +333,7 @@
         "minimum_combustion_efficiency": 0.83,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2009 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2009",
@@ -349,7 +349,7 @@
         "minimum_combustion_efficiency": 0.83,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2009 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2009",
@@ -365,7 +365,7 @@
         "minimum_combustion_efficiency": 0.83,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2009 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2009",
@@ -381,7 +381,7 @@
         "minimum_combustion_efficiency": 0.83,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table 503.2.3(5)"
+        "annotation": "From IECC-2009 Table 503.2.3(5)"
     },
     {
         "template": "IECC-2012",
@@ -397,7 +397,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2012 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2012",
@@ -413,7 +413,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2012 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2012",
@@ -429,7 +429,7 @@
         "minimum_combustion_efficiency": 0.82,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2012 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2012",
@@ -445,7 +445,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2012 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2012",
@@ -461,7 +461,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2012 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2012",
@@ -477,7 +477,7 @@
         "minimum_combustion_efficiency": 0.84,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2012 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2012",
@@ -493,7 +493,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2012 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2012",
@@ -509,7 +509,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2012 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2012",
@@ -525,7 +525,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2012 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2012",
@@ -541,7 +541,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2012 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2012",
@@ -557,7 +557,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2012 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2012",
@@ -573,7 +573,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2012 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2012",
@@ -589,7 +589,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2012 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2012",
@@ -605,7 +605,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2012 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2015",
@@ -621,7 +621,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2015 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2015",
@@ -637,7 +637,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2015 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2015",
@@ -653,7 +653,7 @@
         "minimum_combustion_efficiency": 0.82,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2015 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2015",
@@ -669,7 +669,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2015 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2015",
@@ -685,7 +685,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2015 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2015",
@@ -701,7 +701,7 @@
         "minimum_combustion_efficiency": 0.84,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2015 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2015",
@@ -717,7 +717,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2015 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2015",
@@ -733,7 +733,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2015 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2015",
@@ -749,7 +749,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2015 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2015",
@@ -765,7 +765,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2015 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2015",
@@ -781,7 +781,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2015 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2015",
@@ -797,7 +797,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2015 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2015",
@@ -813,7 +813,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2015 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2015",
@@ -829,7 +829,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2015 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2018",
@@ -845,7 +845,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2018 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2018",
@@ -861,7 +861,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2018 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2018",
@@ -877,7 +877,7 @@
         "minimum_combustion_efficiency": 0.82,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2018 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2018",
@@ -893,7 +893,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2018 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2018",
@@ -909,7 +909,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2018 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2018",
@@ -925,7 +925,7 @@
         "minimum_combustion_efficiency": 0.84,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2018 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2018",
@@ -941,7 +941,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2018 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2018",
@@ -957,7 +957,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2018 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2018",
@@ -973,7 +973,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2018 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2018",
@@ -989,7 +989,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2018 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2018",
@@ -1005,7 +1005,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2018 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2018",
@@ -1021,7 +1021,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2018 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2018",
@@ -1037,7 +1037,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2018 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2018",
@@ -1053,7 +1053,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(5)"
+        "annotation": "From IECC-2018 Table C403.2.3(5)"
     },
     {
         "template": "IECC-2021",
@@ -1069,7 +1069,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(6)"
+        "annotation": "From IECC-2021 Table C403.2.3(6)"
     },
     {
         "template": "IECC-2021",
@@ -1085,7 +1085,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(6)"
+        "annotation": "From IECC-2021 Table C403.2.3(6)"
     },
     {
         "template": "IECC-2021",
@@ -1101,7 +1101,7 @@
         "minimum_combustion_efficiency": 0.82,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(6)"
+        "annotation": "From IECC-2021 Table C403.2.3(6)"
     },
     {
         "template": "IECC-2021",
@@ -1117,7 +1117,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(6)"
+        "annotation": "From IECC-2021 Table C403.2.3(6)"
     },
     {
         "template": "IECC-2021",
@@ -1133,7 +1133,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(6)"
+        "annotation": "From IECC-2021 Table C403.2.3(6)"
     },
     {
         "template": "IECC-2021",
@@ -1149,7 +1149,7 @@
         "minimum_combustion_efficiency": 0.84,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(6)"
+        "annotation": "From IECC-2021 Table C403.2.3(6)"
     },
     {
         "template": "IECC-2021",
@@ -1165,7 +1165,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(6)"
+        "annotation": "From IECC-2021 Table C403.2.3(6)"
     },
     {
         "template": "IECC-2021",
@@ -1181,7 +1181,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(6)"
+        "annotation": "From IECC-2021 Table C403.2.3(6)"
     },
     {
         "template": "IECC-2021",
@@ -1197,7 +1197,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(6)"
+        "annotation": "From IECC-2021 Table C403.2.3(6)"
     },
     {
         "template": "IECC-2021",
@@ -1207,13 +1207,13 @@
         "minimum_capacity": 300000,
         "maximum_capacity": 2500000,
         "start_date": "9/9/1919",
-        "end_date": "3/1/2022",
+        "end_date": "3/1/22",
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.77,
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(6)"
+        "annotation": "From IECC-2021 Table C403.2.3(6)"
     },
     {
         "template": "IECC-2021",
@@ -1222,14 +1222,14 @@
         "draft_type": "Natural",
         "minimum_capacity": 300000,
         "maximum_capacity": 2500000,
-        "start_date": "3/2/2022",
+        "start_date": "3/2/22",
         "end_date": "9/9/2999",
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.79,
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(6)"
+        "annotation": "From IECC-2021 Table C403.2.3(6)"
     },
     {
         "template": "IECC-2021",
@@ -1239,13 +1239,13 @@
         "minimum_capacity": 2500000.01,
         "maximum_capacity": 9999999999,
         "start_date": "9/9/1919",
-        "end_date": "3/1/2022",
+        "end_date": "3/1/22",
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.77,
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(6)"
+        "annotation": "From IECC-2021 Table C403.2.3(6)"
     },
     {
         "template": "IECC-2021",
@@ -1254,14 +1254,14 @@
         "draft_type": "Natural",
         "minimum_capacity": 2500000.01,
         "maximum_capacity": 9999999999,
-        "start_date": "3/2/2022",
+        "start_date": "3/2/22",
         "end_date": "9/9/2999",
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": 0.79,
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(6)"
+        "annotation": "From IECC-2021 Table C403.2.3(6)"
     },
     {
         "template": "IECC-2021",
@@ -1277,7 +1277,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(6)"
+        "annotation": "From IECC-2021 Table C403.2.3(6)"
     },
     {
         "template": "IECC-2021",
@@ -1293,7 +1293,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(6)"
+        "annotation": "From IECC-2021 Table C403.2.3(6)"
     },
     {
         "template": "IECC-2021",
@@ -1309,7 +1309,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.2.3(6)"
+        "annotation": "From IECC-2021 Table C403.2.3(6)"
     },
     {
         "template": "IECC-2024",
@@ -1325,7 +1325,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     },
     {
         "template": "IECC-2024",
@@ -1333,7 +1333,7 @@
         "fuel_type": "NaturalGas",
         "draft_type": null,
         "minimum_capacity": 300000,
-        "maximum_capacity": 2500000,
+        "maximum_capacity": 999999.99,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
         "minimum_annual_fuel_utilization_efficiency": null,
@@ -1341,30 +1341,30 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     },
     {
         "template": "IECC-2024",
         "fluid_type": "Hot Water",
         "fuel_type": "NaturalGas",
         "draft_type": null,
-        "minimum_capacity": 2500000.01,
+        "minimum_capacity": 1000000,
         "maximum_capacity": 10000000,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
         "minimum_annual_fuel_utilization_efficiency": null,
         "minimum_thermal_efficiency": null,
-        "minimum_combustion_efficiency": 0.82,
+        "minimum_combustion_efficiency": 0.9,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Section C403.10"
     },
     {
         "template": "IECC-2024",
         "fluid_type": "Hot Water",
         "fuel_type": "NaturalGas",
         "draft_type": null,
-        "minimum_capacity": 10000001,
+        "minimum_capacity": 10000000.01,
         "maximum_capacity": 9999999999,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
@@ -1373,7 +1373,7 @@
         "minimum_combustion_efficiency": 0.82,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     },
     {
         "template": "IECC-2024",
@@ -1389,7 +1389,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     },
     {
         "template": "IECC-2024",
@@ -1405,7 +1405,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     },
     {
         "template": "IECC-2024",
@@ -1421,14 +1421,14 @@
         "minimum_combustion_efficiency": 0.84,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     },
     {
         "template": "IECC-2024",
         "fluid_type": "Hot Water",
         "fuel_type": "Oil",
         "draft_type": null,
-        "minimum_capacity": 10000001,
+        "minimum_capacity": 10000000.01,
         "maximum_capacity": 9999999999,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
@@ -1437,7 +1437,7 @@
         "minimum_combustion_efficiency": 0.84,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     },
     {
         "template": "IECC-2024",
@@ -1453,7 +1453,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     },
     {
         "template": "IECC-2024",
@@ -1469,7 +1469,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     },
     {
         "template": "IECC-2024",
@@ -1485,14 +1485,14 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     },
     {
         "template": "IECC-2024",
         "fluid_type": "Steam",
         "fuel_type": "NaturalGas",
         "draft_type": null,
-        "minimum_capacity": 10000001,
+        "minimum_capacity": 10000000.01,
         "maximum_capacity": 9999999999,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
@@ -1501,7 +1501,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     },
     {
         "template": "IECC-2024",
@@ -1517,7 +1517,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     },
     {
         "template": "IECC-2024",
@@ -1533,7 +1533,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     },
     {
         "template": "IECC-2024",
@@ -1549,7 +1549,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     },
     {
         "template": "IECC-2024",
@@ -1565,7 +1565,7 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     },
     {
         "template": "IECC-2024",
@@ -1581,14 +1581,14 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     },
     {
         "template": "IECC-2024",
         "fluid_type": "Steam",
         "fuel_type": "Oil",
         "draft_type": null,
-        "minimum_capacity": 10000001,
+        "minimum_capacity": 10000000.01,
         "maximum_capacity": 9999999999,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
@@ -1597,6 +1597,6 @@
         "minimum_combustion_efficiency": null,
         "standby_mode_power": null,
         "off_mode_power": null,
-        "annotation": "From Table C403.3.2(6)"
+        "annotation": "From IECC-2024 Table C403.3.2(6)"
     }
 ]
