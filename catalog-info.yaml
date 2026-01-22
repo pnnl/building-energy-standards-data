@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: building-energy-standards-data
+  title: Building Energy Standards Data
+  description: A database of building energy standards data to be used in building energy simulation applications.
+  annotations:
+    # Conditional host-specific annotations rendered to avoid empty-string values that fail catalog validation.
+    github.com/project-slug: pnnl/building-energy-standards-data
+  links:
+    - title: Building Energy Standards Data Repository
+      url: https://github.com/pnnl/building-energy-standards-data
+  tags:
+    - energy
+    - database
+    - simulation
+    - building
+spec:
+  type: database
+  owner: user:default/jeremy.lerond_pnnl.gov # Jeremy Lerond project lead
+  visibility: private # to expose this item in the catalog to others at PNNL, change the visibility to 'public'
+  # system: 
+  lifecycle: production
+
+  # TODO: does building-energy-standards-data depend on another resource or component?
+  # dependsOn:
+
+  # TODO: does another resource depend on building-energy-standards-data? 
+  # dependencyOf:
