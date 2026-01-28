@@ -18,7 +18,7 @@ metadata:
 spec:
   type: database
   owner: user:default/jeremy.lerond_pnnl.gov # Jeremy Lerond project lead
-  visibility: private # to expose this item in the catalog to others at PNNL, change the visibility to 'public'
+  visibility: public # to expose this item in the catalog to others at PNNL, change the visibility to 'public'
   # system: 
   lifecycle: production
 
