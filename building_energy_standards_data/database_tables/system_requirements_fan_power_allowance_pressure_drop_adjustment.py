@@ -77,8 +77,7 @@ class SystemRequirementsFanPowerAllowancePressureDropAdjustment(DBOperation):
     def validate_record_datatype(self, record):
         str_expected = [
             "template",
-            "device"
-            "adjustment_in_wc_at_fan_system_design_conditions",
+            "device" "adjustment_in_wc_at_fan_system_design_conditions",
             "adjustment_in_wc_2_times_at_fan_system_design_conditions",
         ]
 
@@ -113,8 +112,12 @@ class SystemRequirementsFanPowerAllowancePressureDropAdjustment(DBOperation):
             getattr_either("device", record),
             getattr_either("adjustment_in_wc", record),
             getattr_either("adjustment_in_wc_at_fan_system_design_conditions", record),
-            getattr_either("adjustment_in_wc_2_times_at_fan_system_design_conditions", record),
+            getattr_either(
+                "adjustment_in_wc_2_times_at_fan_system_design_conditions", record
+            ),
             getattr_either("adjustment_in_wc_effectiveness_multiplier", record),
-            getattr_either("adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft", record),
+            getattr_either(
+                "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft", record
+            ),
             getattr_either("annotation", record),
         )
