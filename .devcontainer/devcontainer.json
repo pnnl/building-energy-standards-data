@@ -4,11 +4,11 @@
   "features": {
     "ghcr.io/devcontainers/features/git:1": {}
   },
-  "postCreateCommand": "pip install poetry==1.7.1 && poetry install --with agent && poetry run python building_energy_standards_data/setup_database.py",
+  "postCreateCommand": "pip install poetry && poetry install --with agent && poetry run python building_energy_standards_data/setup_database.py",
   "customizations": {
     "vscode": {
       "settings": {
-        "python.defaultInterpreterPath": "/usr/local/bin/python3.10"
+        "python.defaultInterpreterPath": "/usr/local/bin/python3.11"
       },
       "extensions": [
         "ms-python.python",
