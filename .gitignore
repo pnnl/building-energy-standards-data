@@ -6,3 +6,4 @@ openstudio-standards/
 *.env
 .python-version
 fine_tuning/output/*
+.venv/
