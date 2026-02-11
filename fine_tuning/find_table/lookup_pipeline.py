@@ -26,7 +26,7 @@ DESCRIPTOR_KEY_MAP = {
 
 
 FIELD_WEIGHTS = {
-    "System": 5.0,        # High weight - most discriminating
+    "System": 5.0,
     "Sub-system": 3.0,
     "Domain": 1.0,
     "Topic": 1.5,
@@ -61,17 +61,17 @@ class QueryPipeline:
         # 1. Extract descriptor attributes from query
         query_attrs = self.extract_descriptor_attributes(query)
         query_attrs_formatted = self.format_descriptor_attributes(query_attrs)
-        print(f"Extracted attributes:\n{query_attrs_formatted}\n")
+        print(f"1.\nExtracted attributes:\n{query_attrs_formatted}\n\n")
 
         # 2. Get table metadata and rank by attribute matching
         table_metadata = self.schema_service.generate_all_metadata(include_columns=False)
         ranked_results = self.rank_tables(query_attrs_formatted, list(table_metadata.values()))
         candidate_tables = [result[0] for result in ranked_results]
-        print(f"Candidate tables: {candidate_tables}\n")
+        print(f"2.\nCandidate tables: {candidate_tables}\n\n")
 
         # 3. Filter candidates with LLM
         filtered_tables = self.llm_filter_tables(query, candidate_tables)
-        print(f"Filtered tables: {filtered_tables}\n")
+        print(f"3.\nFiltered tables: {filtered_tables}\n\n")
 
         # 4. Generate SQL
         detailed_metadata = self.schema_service.generate_all_metadata(
@@ -80,7 +80,6 @@ class QueryPipeline:
             include_sample_rows=True,
             include_descriptions=True
         )
-        print(f"The detailed metadata: {detailed_metadata}")
 
         sql = self.llm_generate_sql(query, detailed_metadata)
 
