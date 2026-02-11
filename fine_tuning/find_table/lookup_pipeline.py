@@ -5,28 +5,18 @@ from typing import Dict, List, Optional
 from fine_tuning.client import LLMClient, generate
 
 from fine_tuning.find_table.table_metadata import SchemaMetadataService
-from fine_tuning.find_table.types import (
-    Domain, TableDescriptor, Topic, DataRole, ClassificationType,
-    System, SubSystem, StandardFamily, CompliancePath,
+from fine_tuning.find_table.types import TableDescriptor
+from fine_tuning.find_table.utils import (
+    build_descriptor_prompt,
+    dict_to_prompt_string,
+    get_field_weights,
+    parse_table_name,
 )
-from fine_tuning.find_table.utils import build_descriptor_prompt_fields, get_field_weights
 
 TOP_K = 3
 
-DESCRIPTOR_KEY_MAP = {
-    "domain": "Domain",
-    "topic": "Topic",
-    "data_role": "Data role",
-    "classification_type": "Classification type",
-    "system": "System",
-    "sub_system": "Sub-system",
-    "standard_family": "Standard family",
-    "standard_year": "Standard year",
-    "compliance_path": "Compliance path",
-}
-
-
 FIELD_WEIGHTS = get_field_weights(TableDescriptor)
+
 
 class QueryPipeline:
     """Orchestrates query → table selection → SQL generation pipeline."""
@@ -51,12 +41,15 @@ class QueryPipeline:
         """
         # 1. Extract descriptor attributes from query
         query_attrs = self.extract_descriptor_attributes(query)
-        query_attrs_formatted = self.format_descriptor_attributes(query_attrs)
-        print(f"1.\nExtracted attributes:\n{query_attrs_formatted}\n\n")
+        print(f"1.\nExtracted attributes:\n{query_attrs}\n\n")
 
         # 2. Get table metadata and rank by attribute matching
-        table_metadata = self.schema_service.generate_all_metadata(include_columns=False)
-        ranked_results = self.rank_tables(query_attrs_formatted, list(table_metadata.values()))
+        table_metadata = self.schema_service.generate_all_metadata(
+            include_columns=False, include_descriptor=True
+        )
+
+        ranked_results = self.rank_tables(query_attrs, table_metadata)
+        print(ranked_results)
         candidate_tables = [result[0] for result in ranked_results]
         print(f"2.\nCandidate tables: {candidate_tables}\n\n")
 
@@ -66,10 +59,11 @@ class QueryPipeline:
 
         # 4. Generate SQL
         detailed_metadata = self.schema_service.generate_all_metadata(
-            include_columns=True,
             table_filter=filtered_tables,
+            include_columns=True,
             include_sample_rows=True,
-            include_descriptions=True
+            include_descriptions=True,
+            include_descriptor=False,
         )
 
         sql = self.llm_generate_sql(query, detailed_metadata)
@@ -79,82 +73,38 @@ class QueryPipeline:
     def extract_descriptor_attributes(self, query: str) -> Optional[Dict]:
         """Use LLM to extract structured attributes from user query."""
         prompt = self._build_extraction_prompt(query)
+        print(prompt)
         response = self.llm.generate(prompt)
         return self.llm.extract_json_from_text(response)
 
     def _build_extraction_prompt(self, query: str) -> str:
-        descriptor_prompt_fields = build_descriptor_prompt_fields(TableDescriptor)
+        descriptor_prompt = build_descriptor_prompt(TableDescriptor)
+
         return f"""Extract the descriptor attributes from the following user query about building energy standards data. We are using this data to find a specific table in a database.
 
 User query:
 \"\"\"{query}\"\"\"
 
 Return a JSON object with the following fields:
-{descriptor_prompt_fields}
-
-Example output:
-{{
-  "domain": "hvac",
-  "topic": "minimum_requirements",
-  "data_role": "requirements",
-  "classification_type": null,
-  "system": "motor",
-  "sub_system": null,
-  "standard_family": "ASHRAE_90_1",
-  "standard_year": 2019,
-  "compliance_path": "prescriptive"
-}}
+{descriptor_prompt}
 
 Do **not** include any other explanation, text, or formatting. Only output the JSON object."""
 
-    @staticmethod
-    def format_descriptor_attributes(attrs: Dict) -> str:
-        """Format descriptor attributes as labeled text."""
-        if not attrs:
-            return ""
-
-        lines = []
-        if attrs.get("table"):
-            lines.append(f"Table: {attrs['table']}")
-
-        for key, label in DESCRIPTOR_KEY_MAP.items():
-            val = attrs.get(key)
-            lines.append(f"{label}: {val if val is not None else 'null'}")
-
-        return "\n".join(lines)
-
-    @staticmethod
-    def parse_document(doc: str) -> Dict[str, str]:
-        """Parse a document string into {field: value}, ignoring null values."""
-        field_values = {}
-        for line in doc.strip().splitlines():
-            if ":" not in line:
-                continue
-            field, value = line.split(":", 1)
-            field = field.strip()
-            value = value.strip()
-            if value.lower() != "null":
-                field_values[field] = value
-        return field_values
-
-    def rank_tables(self, reference_doc: str, doc_list: List[str], top_k: Optional[int] = None):
+    def rank_tables(
+        self, query_attrs: dict, all_table_metadata: dict, top_k: Optional[int] = None
+    ):
         top_k = top_k or self.top_k
-        ref_fields = self.parse_document(reference_doc)
-        print('Ref Fields', ref_fields)
         ranked = []
-        for doc in doc_list:
-            doc_fields = self.parse_document(doc)
-            table_name = doc_fields.get("Table Name", "")
+        for table_name, table_metadata in all_table_metadata.items():
 
             score = 0.0
-            for field, ref_value in ref_fields.items():
-                if ref_value == "null":
+            for field, ref_value in query_attrs.items():
+                if ref_value == None:
                     continue
-                    
+
                 weight = FIELD_WEIGHTS.get(field, 1.0)
 
-                doc_field = field.lower().replace(" ", "_")
-                doc_value = doc_fields.get(doc_field)
+                doc_value = table_metadata["category"].get(field)
 
                 if doc_value == ref_value:
                     score += weight
@@ -185,13 +135,14 @@ And the following candidate table descriptions:
 Please reply with ONLY the database table name(s) that may help to answer the query.
 If multiple, separate them by commas. Do not add any other text and do not explain your decision."""
 
+        print("Filter prompt:\n", prompt)
         response = self.llm.generate(prompt)
 
         return [t.strip() for t in response.split(",") if t.strip()]
 
     def llm_generate_sql(self, query: str, table_metadata: Dict[str, str]) -> str:
         """Generate SQL query using table metadata."""
-        table_info = "\n\n".join(table_metadata.values())
+        table_info = dict_to_prompt_string(table_metadata)
 
         prompt = f"""Use the following SQL tables:
 {table_info}
@@ -203,7 +154,6 @@ Do not include an explanation."""
 
         print(f"SQL generation prompt:\n{prompt}\n")
         return self.llm.generate(prompt)
-
 
     def close(self):
         self.schema_service.close()
@@ -224,11 +174,12 @@ def generate_table_descriptions(
     generated = {}
 
     for table_name in service.get_table_names():
-        descriptor = service.get_table_descriptor(table_name)
+        descriptor = parse_table_name(table_name)
         columns = service.render_schema(service.get_schema(table_name))
-        metadata_text = service.generate_metadata_text(
+        metadata = service.generate_all_metadata(
             descriptor, table_name=table_name, columns=columns
         )
+        metadata_text = dict_to_prompt_string(metadata)
 
         prompt = f"""Write a clear, 100-150 token, concise description for the database table named '{table_name}'.
 

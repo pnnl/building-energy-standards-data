@@ -5,8 +5,10 @@ import json
 from typing import Dict, List, Any, Optional
 
 from fine_tuning.data_processing.add_context import get_sample_rows
+from fine_tuning.find_table.rules import RULES
 
-from .table_parser import TableParser, TableDescriptor
+from .types import TableDescriptor
+from .utils import parse_table_name
 
 
 class SchemaMetadataService:
@@ -18,7 +20,6 @@ class SchemaMetadataService:
         descriptions_path: str = "fine_tuning/find_table/generated_table_descriptions.json",
     ):
         self.conn = sqlite3.connect(db_path)
-        self.parser = TableParser()
         self.descriptions_path = Path(descriptions_path)
         self._table_descriptions: Optional[Dict[str, str]] = None
         self._table_names: Optional[List[str]] = None
@@ -81,9 +82,9 @@ class SchemaMetadataService:
             lines.append(line)
         return lines
 
-    def generate_metadata_text(
+    def generate_single_table_metadata(
         self,
-        descriptor: TableDescriptor,
+        descriptor: Optional[TableDescriptor] = None,
         table_name: Optional[str] = None,
         columns: Optional[List[str]] = None,
     ) -> str:
@@ -95,62 +96,60 @@ class SchemaMetadataService:
         - Optional custom label mapping.
         """
 
-        if not isinstance(descriptor, TableDescriptor):
-            raise TypeError("descriptor must be a TableDescriptor instance")
-
-        parts = []
+        table_metadata = {}
 
         if table_name:
-            parts.append(f"Table Name: {table_name}")
+            table_metadata["table_name"] = table_name
 
-        for field in fields(descriptor):
-            name = field.name
-            value: Any = getattr(descriptor, name)
+        if descriptor:
+            if not isinstance(descriptor, TableDescriptor):
+                raise TypeError("descriptor must be a TableDescriptor instance")
 
-            if name == "table":
-                continue  # skip internal field
+            descriptor_dict = {}
+            for field in fields(descriptor):
+                name = field.name
+                value: Any = getattr(descriptor, name)
+                label = name
+                descriptor_dict[label] = value
 
-            label = name
-            parts.append(f"{label}: {value}")
+            table_metadata["category"] = descriptor_dict
 
         if columns:
-            parts.append("Columns:")
-            parts.append(", ".join(columns))
+            table_metadata["columns"] = ", ".join(columns)
 
-        return "\n".join(parts)
+        return table_metadata
 
     def generate_all_metadata(
         self,
-        include_columns: bool = True,
         table_filter: Optional[List[str]] = None,
+        include_columns: bool = True,
         include_sample_rows: bool = False,
         include_descriptions: bool = False,
+        include_descriptor: bool = False
     ) -> Dict[str, str]:
         """Generate metadata text for all tables (or filtered subset)."""
         schemas = self.get_all_schemas(table_filter)
 
-        metadata_texts = {}
+        metadata = {}
         for table, schema in schemas.items():
-            descriptor = self.parser.parse(table)
+            
             columns = self.render_schema(schema) if include_columns else None
-            metadata_texts[table] = self.generate_metadata_text(
+            descriptor = parse_table_name(table) if include_descriptor else None
+
+            metadata[table] = self.generate_single_table_metadata(
                 descriptor, table, columns
             )
 
             if include_descriptions:
-                metadata_texts[
+                metadata[
                     table
-                ] += f"\nDescription:\n{self.table_descriptions.get(table, 'No description available.')}"
+                ]["description"] = {self.table_descriptions.get(table, 'No description available.')}
 
             if include_sample_rows:
                 sample_rows = get_sample_rows(conn=self.conn, table_name=table)
-                metadata_texts[table] += f"\nSample Rows:\n{sample_rows}"
+                metadata[table]["sample_rows"] = sample_rows
 
-        return metadata_texts
-
-    def get_table_descriptor(self, table: str) -> TableDescriptor:
-        """Convenience method to parse a single table name."""
-        return self.parser.parse(table)
+        return metadata
 
     def close(self):
         self.conn.close()

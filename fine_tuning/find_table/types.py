@@ -115,14 +115,46 @@ class CompliancePath(StrEnum):
 
 @dataclass
 class TableDescriptor:
-    table: str = field(metadata={"rank": False})
+    domain: Domain = field(
+        metadata={"weight": 1.0, "example": Domain.HVAC}
+    )
 
-    domain: Domain = field(metadata={"weight": 1.0})
-    topic: Optional[Topic] = field(default=None, metadata={"weight": 1.5})
-    data_role: DataRole = field(default=DataRole.UNKNOWN, metadata={"weight": 0.5})
-    classification_type: Optional[ClassificationType] = field(default=None, metadata={"weight": 1.0})
-    system: Optional[System] = field(default=None, metadata={"weight": 5.0})
-    sub_system: Optional[SubSystem] = field(default=None, metadata={"weight": 3.0})
-    standard_family: Optional[StandardFamily] = field(default=None, metadata={"weight": 1.0})
-    standard_year: Optional[int] = field(default=None, metadata={"weight": 2.0})
-    compliance_path: CompliancePath = field(default=CompliancePath.PRESCRIPTIVE, metadata={"weight": 1.0})
+    topic: Optional[Topic] = field(
+        default=None,
+        metadata={"weight": 1.5, "example": Topic.MINIMUM_REQUIREMENTS}
+    )
+
+    data_role: DataRole = field(
+        default=DataRole.UNKNOWN,
+        metadata={"weight": 0.5, "example": DataRole.REQUIREMENTS}
+    )
+
+    classification_type: Optional[ClassificationType] = field(
+        default=None,
+        metadata={"weight": 1.0, "example": ClassificationType.TAXONOMY}
+    )
+
+    system: Optional[System] = field(
+        default=None,
+        metadata={"weight": 5.0, "example": System.MOTOR}
+    )
+
+    sub_system: Optional[SubSystem] = field(
+        default=None,
+        metadata={"weight": 3.0, "example": SubSystem.HEATING}
+    )
+
+    standard_family: Optional[StandardFamily] = field(
+        default=None,
+        metadata={"weight": 1.0, "example": StandardFamily.ASHRAE_90_1}
+    )
+
+    standard_year: Optional[int] = field(
+        default=None,
+        metadata={"weight": 2.0, "example": 2019}
+    )
+
+    compliance_path: CompliancePath = field(
+        default=CompliancePath.PRESCRIPTIVE,
+        metadata={"weight": 1.0, "example": CompliancePath.PRESCRIPTIVE}
+    )

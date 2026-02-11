@@ -64,20 +64,14 @@ This is the **source of truth** for how table names are interpreted.
 
 If you add, rename, or remove ontology dimensions, you shoud update `rules.py` to have the changes be reflected in the table parser.
 
-### Using `TableParser`
-
-You can create a simple script to test how table names are parsed into structured ontology descriptors.
-
 #### Example: `parse_table.py`
 
 ```python
-from table_parser import TableParser
+from utils import parse_table_name
 
 def main():
-    parser = TableParser()
-
     table_name = "level_3_lighting_90_1_2010_prm"
-    descriptor = parser.parse(table_name)
+    descriptor = parse_table_name(table_name)
 
     print("Table:", descriptor.table)
     print("Parsed Descriptor:")
