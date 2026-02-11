@@ -6,15 +6,10 @@ from fine_tuning.client import LLMClient, generate
 
 from fine_tuning.find_table.table_metadata import SchemaMetadataService
 from fine_tuning.find_table.types import (
-    Domain,
-    Topic,
-    DataRole,
-    ClassificationType,
-    System,
-    SubSystem,
-    StandardFamily,
-    CompliancePath,
+    Domain, TableDescriptor, Topic, DataRole, ClassificationType,
+    System, SubSystem, StandardFamily, CompliancePath,
 )
+from fine_tuning.find_table.utils import build_descriptor_prompt_fields, get_field_weights
 
 TOP_K = 3
 
@@ -31,18 +26,7 @@ DESCRIPTOR_KEY_MAP = {
 }
 
 
-FIELD_WEIGHTS = {
-    "System": 5.0,
-    "Sub-system": 3.0,
-    "Domain": 1.0,
-    "Topic": 1.5,
-    "Standard family": 1.0,
-    "Standard year": 2.0,
-    "Compliance path": 1.0,
-    "Data role": 0.5,
-    "Classification type": 1.0,
-}
-
+FIELD_WEIGHTS = get_field_weights(TableDescriptor)
 
 class QueryPipeline:
     """Orchestrates query → table selection → SQL generation pipeline."""
@@ -71,12 +55,8 @@ class QueryPipeline:
         print(f"1.\nExtracted attributes:\n{query_attrs_formatted}\n\n")
 
         # 2. Get table metadata and rank by attribute matching
-        table_metadata = self.schema_service.generate_all_metadata(
-            include_columns=False
-        )
-        ranked_results = self.rank_tables(
-            query_attrs_formatted, list(table_metadata.values())
-        )
+        table_metadata = self.schema_service.generate_all_metadata(include_columns=False)
+        ranked_results = self.rank_tables(query_attrs_formatted, list(table_metadata.values()))
         candidate_tables = [result[0] for result in ranked_results]
         print(f"2.\nCandidate tables: {candidate_tables}\n\n")
 
@@ -89,7 +69,7 @@ class QueryPipeline:
             include_columns=True,
             table_filter=filtered_tables,
             include_sample_rows=True,
-            include_descriptions=True,
+            include_descriptions=True
         )
 
         sql = self.llm_generate_sql(query, detailed_metadata)
@@ -103,21 +83,14 @@ class QueryPipeline:
         return self.llm.extract_json_from_text(response)
 
     def _build_extraction_prompt(self, query: str) -> str:
+        descriptor_prompt_fields = build_descriptor_prompt_fields(TableDescriptor)
         return f"""Extract the descriptor attributes from the following user query about building energy standards data. We are using this data to find a specific table in a database.
 
 User query:
 \"\"\"{query}\"\"\"
 
 Return a JSON object with the following fields:
-- domain (string or null): One of {self.llm.enum_values(Domain) + [None]}. Represents the high-level area such as HVAC, envelope, support, etc.
-- topic (string or null): One of {self.llm.enum_values(Topic) + [None]}. Describes the subject focus like minimum requirements, lighting data, or space types.
-- data_role (string or null): One of {self.llm.enum_values(DataRole) + [None]}. Indicates the role of the data, e.g., requirements, reference_data, or normative_inputs.
-- classification_type (string or null): One of {self.llm.enum_values(ClassificationType) + [None]}. Specifies the classification nature, like taxonomy or subclassification.
-- system (string or null): One of {self.llm.enum_values(System) + [None]}. The specific system involved, such as motor, water_heater, lighting, etc.
-- sub_system (string or null): One of {self.llm.enum_values(SubSystem) + [None]}. Further subdivision such as heating or cooling subsystems. This only applies to heat pumps.
-- standard_family (string or null): One of {self.llm.enum_values(StandardFamily) + [None]}. The code or standard family. If necessary to answer query but not specified in the query, default to ASHRAE_90_1.
-- standard_year (integer four-digit year or null): The year of the applicable standard.
-- compliance_path (string or null): One of {self.llm.enum_values(CompliancePath) + [None]}. The compliance method, such as "prescriptive" (default) or "appendix_g" which corresponds to tables with the "prm" suffix.
+{descriptor_prompt_fields}
 
 Example output:
 {{
@@ -164,12 +137,10 @@ Do **not** include any other explanation, text, or formatting. Only output the J
                 field_values[field] = value
         return field_values
 
-    def rank_tables(
-        self, reference_doc: str, doc_list: List[str], top_k: Optional[int] = None
-    ):
+    def rank_tables(self, reference_doc: str, doc_list: List[str], top_k: Optional[int] = None):
         top_k = top_k or self.top_k
         ref_fields = self.parse_document(reference_doc)
-
+        print('Ref Fields', ref_fields)
         ranked = []
         for doc in doc_list:
             doc_fields = self.parse_document(doc)
@@ -179,9 +150,11 @@ Do **not** include any other explanation, text, or formatting. Only output the J
             for field, ref_value in ref_fields.items():
                 if ref_value == "null":
                     continue
-
+                    
                 weight = FIELD_WEIGHTS.get(field, 1.0)
-                doc_value = doc_fields.get(field)
+
+                doc_field = field.lower().replace(" ", "_")
+                doc_value = doc_fields.get(doc_field)
 
                 if doc_value == ref_value:
                     score += weight
@@ -230,6 +203,7 @@ Do not include an explanation."""
 
         print(f"SQL generation prompt:\n{prompt}\n")
         return self.llm.generate(prompt)
+
 
     def close(self):
         self.schema_service.close()

@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from enum import StrEnum
 from typing import Optional
 
@@ -111,17 +111,18 @@ class StandardFamily(StrEnum):
 class CompliancePath(StrEnum):
     PRESCRIPTIVE = "prescriptive"
     APPENDIX_G = "appendix_g"
-
+    
 
 @dataclass
 class TableDescriptor:
-    table: str
-    domain: Domain
-    topic: Optional[Topic] = None
-    data_role: DataRole = DataRole.UNKNOWN
-    classification_type: Optional[ClassificationType] = None
-    system: Optional[System] = None
-    sub_system: Optional[SubSystem] = None
-    standard_family: Optional[StandardFamily] = None
-    standard_year: Optional[int] = None
-    compliance_path: CompliancePath = CompliancePath.PRESCRIPTIVE
+    table: str = field(metadata={"rank": False})
+
+    domain: Domain = field(metadata={"weight": 1.0})
+    topic: Optional[Topic] = field(default=None, metadata={"weight": 1.5})
+    data_role: DataRole = field(default=DataRole.UNKNOWN, metadata={"weight": 0.5})
+    classification_type: Optional[ClassificationType] = field(default=None, metadata={"weight": 1.0})
+    system: Optional[System] = field(default=None, metadata={"weight": 5.0})
+    sub_system: Optional[SubSystem] = field(default=None, metadata={"weight": 3.0})
+    standard_family: Optional[StandardFamily] = field(default=None, metadata={"weight": 1.0})
+    standard_year: Optional[int] = field(default=None, metadata={"weight": 2.0})
+    compliance_path: CompliancePath = field(default=CompliancePath.PRESCRIPTIVE, metadata={"weight": 1.0})

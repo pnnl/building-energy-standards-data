@@ -44,11 +44,6 @@ class LLMClient:
                 return None
         return None
 
-    @staticmethod
-    def enum_values(enum_class: Type[StrEnum]) -> list:
-        """Get list of values from a StrEnum."""
-        return [e.value for e in enum_class]
-
 
 # Module-level default client for convenience
 _default_client: Optional[LLMClient] = None

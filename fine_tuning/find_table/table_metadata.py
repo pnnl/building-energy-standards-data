@@ -1,3 +1,4 @@
+from dataclasses import dataclass, fields
 from pathlib import Path
 import sqlite3
 import json
@@ -86,31 +87,35 @@ class SchemaMetadataService:
         table_name: Optional[str] = None,
         columns: Optional[List[str]] = None,
     ) -> str:
+        """
+        Render descriptor as labeled text.
+
+        - Automatically reflects dataclass fields.
+        - Optional control over null inclusion.
+        - Optional custom label mapping.
+        """
+
+        if not isinstance(descriptor, TableDescriptor):
+            raise TypeError("descriptor must be a TableDescriptor instance")
+
         parts = []
 
         if table_name:
             parts.append(f"Table Name: {table_name}")
 
-        parts.append(f"Domain: {descriptor.domain}")
+        for field in fields(descriptor):
+            name = field.name
+            value: Any = getattr(descriptor, name)
 
-        optional_fields = [
-            ("Topic", descriptor.topic),
-            ("Data role", descriptor.data_role),
-            ("Classification type", descriptor.classification_type),
-            ("System", descriptor.system),
-            ("Sub-system", descriptor.sub_system),
-            ("Standard family", descriptor.standard_family),
-            ("Standard year", descriptor.standard_year),
-            ("Compliance path", descriptor.compliance_path),
-        ]
+            if name == "table":
+                continue  # skip internal field
 
-        for label, value in optional_fields:
-            if value:
-                parts.append(f"{label}: {value}")
+            label = name
+            parts.append(f"{label}: {value}")
 
         if columns:
-            cols_str = ", ".join(columns)
-            parts.append(f"Columns:\n{cols_str}")
+            parts.append("Columns:")
+            parts.append(", ".join(columns))
 
         return "\n".join(parts)
 
