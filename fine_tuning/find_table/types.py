@@ -45,9 +45,11 @@ class DataRole(StrEnum):
     CLASSIFICATION = "classification"
     UNKNOWN = "unknown"
 
+
 class ClassificationType(StrEnum):
     TAXONOMY = "taxonomy"
     SUBCLASSIFICATION = "subclassification"
+
 
 class System(StrEnum):
     BOILER = "boiler"

@@ -6,8 +6,14 @@ from fine_tuning.client import LLMClient, generate
 
 from fine_tuning.find_table.table_metadata import SchemaMetadataService
 from fine_tuning.find_table.types import (
-    Domain, Topic, DataRole, ClassificationType,
-    System, SubSystem, StandardFamily, CompliancePath,
+    Domain,
+    Topic,
+    DataRole,
+    ClassificationType,
+    System,
+    SubSystem,
+    StandardFamily,
+    CompliancePath,
 )
 
 TOP_K = 3
@@ -37,6 +43,7 @@ FIELD_WEIGHTS = {
     "Classification type": 1.0,
 }
 
+
 class QueryPipeline:
     """Orchestrates query → table selection → SQL generation pipeline."""
 
@@ -64,8 +71,12 @@ class QueryPipeline:
         print(f"1.\nExtracted attributes:\n{query_attrs_formatted}\n\n")
 
         # 2. Get table metadata and rank by attribute matching
-        table_metadata = self.schema_service.generate_all_metadata(include_columns=False)
-        ranked_results = self.rank_tables(query_attrs_formatted, list(table_metadata.values()))
+        table_metadata = self.schema_service.generate_all_metadata(
+            include_columns=False
+        )
+        ranked_results = self.rank_tables(
+            query_attrs_formatted, list(table_metadata.values())
+        )
         candidate_tables = [result[0] for result in ranked_results]
         print(f"2.\nCandidate tables: {candidate_tables}\n\n")
 
@@ -78,7 +89,7 @@ class QueryPipeline:
             include_columns=True,
             table_filter=filtered_tables,
             include_sample_rows=True,
-            include_descriptions=True
+            include_descriptions=True,
         )
 
         sql = self.llm_generate_sql(query, detailed_metadata)
@@ -153,7 +164,9 @@ Do **not** include any other explanation, text, or formatting. Only output the J
                 field_values[field] = value
         return field_values
 
-    def rank_tables(self, reference_doc: str, doc_list: List[str], top_k: Optional[int] = None):
+    def rank_tables(
+        self, reference_doc: str, doc_list: List[str], top_k: Optional[int] = None
+    ):
         top_k = top_k or self.top_k
         ref_fields = self.parse_document(reference_doc)
 
@@ -166,7 +179,7 @@ Do **not** include any other explanation, text, or formatting. Only output the J
             for field, ref_value in ref_fields.items():
                 if ref_value == "null":
                     continue
-                    
+
                 weight = FIELD_WEIGHTS.get(field, 1.0)
                 doc_value = doc_fields.get(field)
 
@@ -217,7 +230,6 @@ Do not include an explanation."""
 
         print(f"SQL generation prompt:\n{prompt}\n")
         return self.llm.generate(prompt)
-
 
     def close(self):
         self.schema_service.close()

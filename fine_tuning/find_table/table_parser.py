@@ -47,7 +47,11 @@ class TableParser:
         )
 
     def _parse_compliance_path(self, tokens: List[str]) -> CompliancePath:
-        return CompliancePath.APPENDIX_G if tokens[-1] == "prm" else CompliancePath.PRESCRIPTIVE
+        return (
+            CompliancePath.APPENDIX_G
+            if tokens[-1] == "prm"
+            else CompliancePath.PRESCRIPTIVE
+        )
 
     def _parse_topic(self, tokens: List[str]) -> Optional[Topic]:
         if "minimum" in tokens and "requirements" in tokens:
@@ -71,7 +75,9 @@ class TableParser:
             return SubSystem.VENTILATION
         return None
 
-    def _parse_standard(self, tokens: List[str]) -> Tuple[Optional[StandardFamily], Optional[int]]:
+    def _parse_standard(
+        self, tokens: List[str]
+    ) -> Tuple[Optional[StandardFamily], Optional[int]]:
         standard_family = self._parse_standard_family(tokens)
         standard_year = self._parse_standard_year(tokens)
         return standard_family, standard_year
