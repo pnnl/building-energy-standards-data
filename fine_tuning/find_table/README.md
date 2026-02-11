@@ -33,62 +33,41 @@ So the ontology must:
 
 ---
 
-# Design Constraints
+### Parsing Rules
 
-## 1. It Must Be Retrieval-Oriented
+#### `rules.py`
 
-This ontology is not a knowledge graph.
+Contains the parsing rules.
 
-It does not need to represent:
-
-* Full regulatory logic
-* Code exceptions
-* Hierarchical legal structure
-
-It only needs to help answer:
-
-> “Which table should answer this query?”
+This is the **source of truth** for how table names are interpreted.
 
 ---
 
-## 2. Dimensions Should Be Independent
+#### `parsing_rules` and `RULES`
 
-Each attribute (dimension) should represent a distinct axis of meaning.
+- `RULES` is an **ordered list** of rule objects applied to table-name tokens.
+- Rule order matters when multiple rules could match the same token.
 
-Avoid:
+If you add, rename, or remove ontology dimensions, you shoud update `rules.py` to have the changes be reflected in the table parser.
 
-* Overlapping concepts across dimensions.
-* Encoding the same idea in multiple places.
-* Mixing equipment type, regulatory role, and domain in one category.
+### Using `TableParser`
 
----
+You can create a simple script to test how table names are parsed into structured ontology descriptors.
 
-## 3. It Must Work With LLM Extraction
+#### Example: `parse_table.py`
 
-The ontology must be clear enough that categories are intuitive.
+```python
+from table_parser import TableParser
 
-Ambiguous or overly granular categories will reduce extraction reliability.
+def main():
+    parser = TableParser()
 
----
+    table_name = "level_3_lighting_90_1_2010_prm"
+    descriptor = parser.parse(table_name)
 
-## 4. It Must Disambiguate Similar Tables
+    print("Table:", descriptor.table)
+    print("Parsed Descriptor:")
+    print(descriptor)
 
-If two tables are often confused, the ontology should help separate them.
-
-Example differences might include:
-
-* Prescriptive vs performance path
-* Requirement vs reference data
-* Equipment type
-* Standard year
-
----
-
-# What Makes a Good Ontology Here
-
-A good ontology will:
-
-* Cleanly partition the database tables.
-* Reduce ranking noise.
-* Improve first-pass table selection.
-* (Maybe) Reflect how engineers mentally organize the standards.
+if __name__ == "__main__":
+    main()
