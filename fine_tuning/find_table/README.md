@@ -33,15 +33,29 @@ So the ontology must:
 
 ---
 
-### Parsing Rules
+### Ontology Types (`types.py`)
+
+The file `types.py` defines the ontology used across the system.
+
+It contains:
+
+- All ontology dimensions (as `StrEnum` classes)
+- The `TableDescriptor` dataclass
+- Field-level ranking weights
+
+This file represents a contract between:
+
+- Table name parsing
+- LLM query extraction
+- Table ranking logic
+
+---
 
 #### `rules.py`
 
 Contains the parsing rules.
 
 This is the **source of truth** for how table names are interpreted.
-
----
 
 #### `parsing_rules` and `RULES`
 
