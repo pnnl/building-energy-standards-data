@@ -1,7 +1,6 @@
 from typing import List, Optional, Tuple
 
 from fine_tuning.find_table.types import (
-    TableDescriptor,
     Domain,
     Topic,
     DataRole,

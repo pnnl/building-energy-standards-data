@@ -10,7 +10,6 @@ from fine_tuning.find_table.utils import (
     build_descriptor_prompt,
     dict_to_prompt_string,
     get_field_weights,
-    parse_table_name,
 )
 
 TOP_K = 3
@@ -73,12 +72,13 @@ class QueryPipeline:
     def extract_descriptor_attributes(self, query: str) -> Optional[Dict]:
         """Use LLM to extract structured attributes from user query."""
         prompt = self._build_extraction_prompt(query)
-        print(prompt)
         response = self.llm.generate(prompt)
         return self.llm.extract_json_from_text(response)
 
     def _build_extraction_prompt(self, query: str) -> str:
         descriptor_prompt = build_descriptor_prompt(TableDescriptor)
+
+        print(descriptor_prompt)
 
         return f"""Extract the descriptor attributes from the following user query about building energy standards data. We are using this data to find a specific table in a database.
 
@@ -167,14 +167,14 @@ Do not include an explanation."""
 
 def generate_table_descriptions(
     schema_service: Optional[SchemaMetadataService] = None,
-    output_path: str = "generated_table_descriptions.json",
+    output_path: str = "data/generated_table_descriptions.json",
 ) -> Dict[str, str]:
     """Generate LLM descriptions for all tables (one-time operation)."""
     service = schema_service or SchemaMetadataService()
     generated = {}
 
     for table_name in service.get_table_names():
-        descriptor = parse_table_name(table_name)
+        descriptor = service.parse_table_name(table_name)
         columns = service.render_schema(service.get_schema(table_name))
         metadata = service.generate_all_metadata(
             descriptor, table_name=table_name, columns=columns

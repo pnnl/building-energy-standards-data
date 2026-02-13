@@ -1,15 +1,11 @@
-from dataclasses import dataclass, fields
+from dataclasses import fields
 from pathlib import Path
 import sqlite3
 import json
 from typing import Dict, List, Any, Optional
 
-from fine_tuning.data_processing.add_context import get_sample_rows
 from fine_tuning.find_table.rules import RULES
-
-from .types import TableDescriptor
-from .utils import parse_table_name
-
+from fine_tuning.find_table.types import TableDescriptor
 
 class SchemaMetadataService:
     """Loads schemas from SQLite and generates metadata text for embeddings."""
@@ -17,7 +13,7 @@ class SchemaMetadataService:
     def __init__(
         self,
         db_path: str = "openstudio_standards.db",
-        descriptions_path: str = "fine_tuning/find_table/generated_table_descriptions.json",
+        descriptions_path: str = "fine_tuning/find_table/data/generated_table_descriptions.json",
     ):
         self.conn = sqlite3.connect(db_path)
         self.descriptions_path = Path(descriptions_path)
@@ -60,6 +56,16 @@ class SchemaMetadataService:
         if table_filter:
             return {t: self._schemas[t] for t in table_filter if t in self._schemas}
         return self._schemas
+    
+    def parse_table_name(self, table_name: str) -> TableDescriptor:
+        tokens = table_name.split("_")
+        context = {}
+
+        for rule in RULES:
+            field, value = rule.apply(tokens)
+            context[field] = value
+
+        return TableDescriptor(**context)
 
     @property
     def table_descriptions(self) -> Dict[str, str]:
@@ -134,7 +140,7 @@ class SchemaMetadataService:
         for table, schema in schemas.items():
             
             columns = self.render_schema(schema) if include_columns else None
-            descriptor = parse_table_name(table) if include_descriptor else None
+            descriptor = self.parse_table_name(table) if include_descriptor else None
 
             metadata[table] = self.generate_single_table_metadata(
                 descriptor, table, columns
@@ -146,6 +152,8 @@ class SchemaMetadataService:
                 ]["description"] = {self.table_descriptions.get(table, 'No description available.')}
 
             if include_sample_rows:
+                from fine_tuning.data_processing.add_context import get_sample_rows
+
                 sample_rows = get_sample_rows(conn=self.conn, table_name=table)
                 metadata[table]["sample_rows"] = sample_rows
 
