@@ -6,11 +6,13 @@ import json
 from fine_tuning.find_table.rules import RULES
 from fine_tuning.find_table.types import TableDescriptor
 
+
 def get_field_weights(descriptor_cls):
     weights = {}
     for f in fields(descriptor_cls):
         weights[f.name] = f.metadata.get("weight", 1.0)
     return weights
+
 
 def get_descriptor_example(descriptor_cls):
     example = {}
@@ -29,7 +31,8 @@ def unwrap_optional(field_type):
             return non_none[0], True
 
     return field_type, False
-    
+
+
 def build_descriptor_prompt(descriptor_cls):
     lines = []
 
@@ -46,15 +49,15 @@ def build_descriptor_prompt(descriptor_cls):
                 f"One of {values}."
             )
         else:
-            lines.append(
-                f"- {f.name} (string{' or null' if is_optional else ''})."
-            )
+            lines.append(f"- {f.name} (string{' or null' if is_optional else ''}).")
 
     return "\n".join(lines)
+
 
 def enum_values(enum_class: Type[StrEnum]) -> list:
     """Get list of values from a StrEnum."""
     return [e.value for e in enum_class]
+
 
 def dict_to_prompt_string(
     data: dict,

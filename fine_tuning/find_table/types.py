@@ -111,50 +111,42 @@ class StandardFamily(StrEnum):
 class CompliancePath(StrEnum):
     PRESCRIPTIVE = "prescriptive"
     APPENDIX_G = "appendix_g"
-    
+
 
 @dataclass
 class TableDescriptor:
-    domain: Domain = field(
-        metadata={"weight": 1.0, "example": Domain.HVAC}
-    )
+    domain: Domain = field(metadata={"weight": 1.0, "example": Domain.HVAC})
 
     topic: Optional[Topic] = field(
-        default=None,
-        metadata={"weight": 1.5, "example": Topic.MINIMUM_REQUIREMENTS}
+        default=None, metadata={"weight": 1.5, "example": Topic.MINIMUM_REQUIREMENTS}
     )
 
     data_role: DataRole = field(
         default=DataRole.UNKNOWN,
-        metadata={"weight": 0.5, "example": DataRole.REQUIREMENTS}
+        metadata={"weight": 0.5, "example": DataRole.REQUIREMENTS},
     )
 
     classification_type: Optional[ClassificationType] = field(
-        default=None,
-        metadata={"weight": 1.0, "example": ClassificationType.TAXONOMY}
+        default=None, metadata={"weight": 1.0, "example": ClassificationType.TAXONOMY}
     )
 
     system: Optional[System] = field(
-        default=None,
-        metadata={"weight": 5.0, "example": System.MOTOR}
+        default=None, metadata={"weight": 5.0, "example": System.MOTOR}
     )
 
     sub_system: Optional[SubSystem] = field(
-        default=None,
-        metadata={"weight": 3.0, "example": SubSystem.HEATING}
+        default=None, metadata={"weight": 3.0, "example": SubSystem.HEATING}
     )
 
     standard_family: Optional[StandardFamily] = field(
-        default=None,
-        metadata={"weight": 1.0, "example": StandardFamily.ASHRAE_90_1}
+        default=None, metadata={"weight": 1.0, "example": StandardFamily.ASHRAE_90_1}
     )
 
     standard_year: Optional[int] = field(
-        default=None,
-        metadata={"weight": 2.0, "example": 2019}
+        default=None, metadata={"weight": 2.0, "example": 2019}
     )
 
     compliance_path: CompliancePath = field(
         default=CompliancePath.PRESCRIPTIVE,
-        metadata={"weight": 1.0, "example": CompliancePath.PRESCRIPTIVE}
+        metadata={"weight": 1.0, "example": CompliancePath.PRESCRIPTIVE},
     )
