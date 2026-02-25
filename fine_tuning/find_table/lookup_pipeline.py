@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
-from typing import Dict, List, Optional
+import sqlite3
+from typing import Any, Dict, List, Optional
+import re
 
 from fine_tuning.client import LLMClient, generate
 
@@ -10,6 +12,7 @@ from fine_tuning.find_table.utils import (
     build_descriptor_prompt,
     dict_to_prompt_string,
     get_field_weights,
+    run_sqlite_query,
 )
 
 TOP_K = 3
@@ -66,14 +69,20 @@ class QueryPipeline:
         )
 
         sql = self.llm_generate_sql(query, detailed_metadata)
+        results = run_sqlite_query(sql, self.schema_service.conn)
 
-        return sql
+        if not results:
+            results = "No results found or an error occurred during query execution."
+        print(results)
+
+        return self.llm_interpret_results(query, results)
 
     def extract_descriptor_attributes(self, query: str) -> Optional[Dict]:
         """Use LLM to extract structured attributes from user query."""
         prompt = self._build_extraction_prompt(query)
         response = self.llm.generate(prompt)
         return self.llm.extract_json_from_text(response)
+
 
     def _build_extraction_prompt(self, query: str) -> str:
         descriptor_prompt = build_descriptor_prompt(TableDescriptor)
@@ -153,6 +162,17 @@ Answer the user query by writing a single SQL query:
 Do not include an explanation."""
 
         print(f"SQL generation prompt:\n{prompt}\n")
+        return self.llm.generate(prompt)
+    
+    def llm_interpret_results(self, query: str, results) -> str:
+        """Generate SQL query using table metadata."""
+        prompt = f"""Use these results from the building energy standards database to answer the user query:
+{results}
+
+User query:
+"{query}"
+Provide a concise answer based on the results. If the results do not contain relevant information, say "Unable to answer the question." Do not include any other text."""
+
         return self.llm.generate(prompt)
 
     def close(self):

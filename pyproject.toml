@@ -42,6 +42,7 @@ fine-tuning = [
     "numpy>=2.4.1",
     "openpyxl>=3.1.5",
     "peft>=0.18.1",
+    "requests>=2.32.5",
     "scipy>=1.17.0",
     "sentence-transformers>=5.2.2",
     "torch>=2.10.0",

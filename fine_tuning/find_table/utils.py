@@ -1,7 +1,8 @@
 from dataclasses import fields
 from enum import Enum, StrEnum
-from typing import Optional, Type, Union, get_origin, get_args, TYPE_CHECKING
-import json
+import sqlite3
+from typing import Any, Dict, List, Optional, Type, Union, get_origin, get_args, TYPE_CHECKING
+import re
 
 from fine_tuning.find_table.rules import RULES
 from fine_tuning.find_table.types import TableDescriptor
@@ -105,3 +106,34 @@ def dict_to_prompt_string(
             lines.append(f"{indent_str}{key}: {value}")
 
     return "\n".join(lines)
+
+
+def extract_select_query(query: str) -> str:
+    """
+    Extract everything starting from the first SELECT (case-insensitive).
+    Raises ValueError if no SELECT is found.
+    """
+    match = re.search(r"\bselect\b", query, re.IGNORECASE)
+    if not match:
+        raise ValueError("No SELECT statement found in query.")
+    query = query[match.start():]
+    query = re.sub(r"\n?```+\s*$", "", query)
+    return query
+
+def run_sqlite_query(
+    query: str,
+    conn
+) -> List[Dict[str, Any]]:
+    query = extract_select_query(query)
+    conn.row_factory = sqlite3.Row
+
+    try:
+        with conn:
+            cursor = conn.execute(query)
+            rows = cursor.fetchall()
+            return [dict(row) for row in rows]
+    except sqlite3.Error as e:
+        print(f"SQLite error: {e}")
+        return []
+    finally:
+        conn.close()

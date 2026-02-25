@@ -6,3 +6,4 @@ openstudio-standards/
 *.env
 fine_tuning/output/*
 .venv/
+__pycache__
