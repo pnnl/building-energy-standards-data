@@ -1,6 +1,9 @@
 import unittest, os, sqlite3, glob, shutil
 from unittest import TestCase
 from unittest import mock
+import json
+import tempfile
+from pathlib import Path
 
 from building_energy_standards_data.applications.database_maintenance import (
     create_openstudio_standards_database_from_csv,
@@ -8,7 +11,10 @@ from building_energy_standards_data.applications.database_maintenance import (
     export_openstudio_standards_database_to_csv,
     export_openstudio_standards_database_to_json,
 )
-from building_energy_standards_data.database_engine.database import DBOperation
+from building_energy_standards_data.database_engine.database import (
+    DBOperation,
+    copy_template_records_in_json_files,
+)
 
 
 CREATE_L3_TEST_TABLE = """
@@ -178,3 +184,262 @@ def test_create_export_database():
             assert (
                 fc_from_json == fc_from_csv == fc_org
             ), f"Content is different in {f} files"
+
+
+class TestCopyTemplateRecords(unittest.TestCase):
+    """Test suite for copy_template_records_in_json_files function"""
+
+    def setUp(self):
+        """Create a temporary directory with test JSON files"""
+        self.test_dir = tempfile.mkdtemp()
+        self.test_dir_path = Path(self.test_dir)
+
+        # Create test JSON files with sample data
+        self.test_file1_data = [
+            {
+                "template": "IECC-2024",
+                "equipment_type": "PTAC",
+                "cooling_type": "AirCooled",
+                "minimum_capacity": 0,
+                "maximum_capacity": 9999999999,
+            },
+            {
+                "template": "IECC-2024",
+                "equipment_type": "Air Conditioners",
+                "cooling_type": "WaterCooled",
+                "minimum_capacity": 65000,
+                "maximum_capacity": 134999.99,
+            },
+            {
+                "template": "90.1-2019",
+                "equipment_type": "Chillers",
+                "cooling_type": "AirCooled",
+                "minimum_capacity": 100000,
+                "maximum_capacity": 500000,
+            },
+        ]
+
+        self.test_file2_data = [
+            {
+                "template": "IECC-2024",
+                "building_type": "Office",
+                "climate_zone": "1A",
+                "u_factor": 0.5,
+            },
+            {
+                "template": "IECC-2021",
+                "building_type": "Retail",
+                "climate_zone": "2A",
+                "u_factor": 0.4,
+            },
+        ]
+
+        # File without template field
+        self.test_file3_data = [
+            {
+                "name": "Test",
+                "value": 123,
+            },
+        ]
+
+        # Write test files
+        with open(self.test_dir_path / "hvac_test.json", "w") as f:
+            json.dump(self.test_file1_data, f, indent=4)
+
+        with open(self.test_dir_path / "envelope_test.json", "w") as f:
+            json.dump(self.test_file2_data, f, indent=4)
+
+        with open(self.test_dir_path / "other_test.json", "w") as f:
+            json.dump(self.test_file3_data, f, indent=4)
+
+    def tearDown(self):
+        """Remove temporary directory and files"""
+        shutil.rmtree(self.test_dir)
+
+    def test_copy_template_basic(self):
+        """Test basic template copying functionality"""
+        summary = copy_template_records_in_json_files(
+            source_template="IECC-2024",
+            target_template="IECC-2027",
+            database_files_dir=self.test_dir,
+            dry_run=False,
+        )
+
+        # Check that 2 files were modified
+        self.assertEqual(len(summary), 2)
+        self.assertEqual(summary["hvac_test.json"], 2)
+        self.assertEqual(summary["envelope_test.json"], 1)
+
+        # Verify the actual file content
+        with open(self.test_dir_path / "hvac_test.json", "r") as f:
+            data = json.load(f)
+
+        # Should have original 3 + 2 new records = 5 total
+        self.assertEqual(len(data), 5)
+
+        # Check that new records have correct template
+        new_records = [r for r in data if r.get("template") == "IECC-2027"]
+        self.assertEqual(len(new_records), 2)
+
+        # Verify data integrity - new records should match original except template
+        for new_record in new_records:
+            self.assertEqual(new_record["template"], "IECC-2027")
+            # Find matching original record
+            matching_original = [
+                r
+                for r in self.test_file1_data
+                if r.get("equipment_type") == new_record.get("equipment_type")
+                and r.get("template") == "IECC-2024"
+            ]
+            self.assertEqual(len(matching_original), 1)
+            # Compare all fields except template
+            for key in new_record:
+                if key != "template":
+                    self.assertEqual(new_record[key], matching_original[0][key])
+
+    def test_copy_template_dry_run(self):
+        """Test that dry run mode doesn't modify files"""
+        # Get original file content
+        with open(self.test_dir_path / "hvac_test.json", "r") as f:
+            original_data = json.load(f)
+
+        summary = copy_template_records_in_json_files(
+            source_template="IECC-2024",
+            target_template="IECC-2027",
+            database_files_dir=self.test_dir,
+            dry_run=True,
+        )
+
+        # Summary should still be generated
+        self.assertEqual(len(summary), 2)
+        self.assertEqual(summary["hvac_test.json"], 2)
+
+        # File should not be modified
+        with open(self.test_dir_path / "hvac_test.json", "r") as f:
+            data = json.load(f)
+
+        self.assertEqual(data, original_data)
+        self.assertEqual(len(data), 3)  # Should still have only 3 records
+
+    def test_copy_template_no_matching_records(self):
+        """Test behavior when no records match the source template"""
+        summary = copy_template_records_in_json_files(
+            source_template="NONEXISTENT-2099",
+            target_template="IECC-2027",
+            database_files_dir=self.test_dir,
+            dry_run=False,
+        )
+
+        # Should return empty summary
+        self.assertEqual(len(summary), 0)
+
+    def test_copy_template_with_file_pattern(self):
+        """Test filtering files with file_pattern parameter"""
+        summary = copy_template_records_in_json_files(
+            source_template="IECC-2024",
+            target_template="IECC-2027",
+            database_files_dir=self.test_dir,
+            file_pattern="hvac_*.json",
+            dry_run=False,
+        )
+
+        # Should only process hvac_test.json
+        self.assertEqual(len(summary), 1)
+        self.assertEqual(summary["hvac_test.json"], 2)
+
+        # envelope_test.json should not be modified
+        with open(self.test_dir_path / "envelope_test.json", "r") as f:
+            data = json.load(f)
+        self.assertEqual(len(data), 2)  # Original count
+
+    def test_copy_template_deep_copy(self):
+        """Test that records are deep copied (no reference issues)"""
+        summary = copy_template_records_in_json_files(
+            source_template="IECC-2024",
+            target_template="IECC-2027",
+            database_files_dir=self.test_dir,
+            dry_run=False,
+        )
+
+        # Read the file
+        with open(self.test_dir_path / "hvac_test.json", "r") as f:
+            data = json.load(f)
+
+        # Modify a new record
+        new_record = [r for r in data if r.get("template") == "IECC-2027"][0]
+        new_record["equipment_type"] = "MODIFIED"
+
+        # Check that original records are unchanged
+        original_record = [
+            r
+            for r in data
+            if r.get("template") == "IECC-2024"
+            and r.get("minimum_capacity") == new_record.get("minimum_capacity")
+        ][0]
+        self.assertNotEqual(original_record["equipment_type"], "MODIFIED")
+
+    def test_copy_template_invalid_directory(self):
+        """Test that function raises error for invalid directory"""
+        with self.assertRaises(FileNotFoundError):
+            copy_template_records_in_json_files(
+                source_template="IECC-2024",
+                target_template="IECC-2027",
+                database_files_dir="/nonexistent/path",
+                dry_run=False,
+            )
+
+    def test_copy_template_preserves_existing_records(self):
+        """Test that existing records are preserved"""
+        # Get count of 90.1-2019 records before copy
+        with open(self.test_dir_path / "hvac_test.json", "r") as f:
+            original_data = json.load(f)
+        original_901_count = len(
+            [r for r in original_data if r.get("template") == "90.1-2019"]
+        )
+
+        summary = copy_template_records_in_json_files(
+            source_template="IECC-2024",
+            target_template="IECC-2027",
+            database_files_dir=self.test_dir,
+            dry_run=False,
+        )
+
+        # Verify 90.1-2019 records are still there
+        with open(self.test_dir_path / "hvac_test.json", "r") as f:
+            data = json.load(f)
+        new_901_count = len([r for r in data if r.get("template") == "90.1-2019"])
+
+        self.assertEqual(original_901_count, new_901_count)
+        self.assertEqual(new_901_count, 1)
+
+    def test_copy_template_multiple_calls(self):
+        """Test that calling function multiple times adds duplicate copies"""
+        # First copy
+        summary1 = copy_template_records_in_json_files(
+            source_template="IECC-2024",
+            target_template="IECC-2027",
+            database_files_dir=self.test_dir,
+            dry_run=False,
+        )
+
+        # Second copy (should create duplicates)
+        summary2 = copy_template_records_in_json_files(
+            source_template="IECC-2024",
+            target_template="IECC-2027",
+            database_files_dir=self.test_dir,
+            dry_run=False,
+        )
+
+        # Both should report same number of records copied
+        self.assertEqual(summary1, summary2)
+
+        # Verify file has duplicates
+        with open(self.test_dir_path / "hvac_test.json", "r") as f:
+            data = json.load(f)
+
+        # Should have original 3 + 2 new + 2 more new = 7 total
+        self.assertEqual(len(data), 7)
+
+        # Should have 4 IECC-2027 records
+        iecc_2027_records = [r for r in data if r.get("template") == "IECC-2027"]
+        self.assertEqual(len(iecc_2027_records), 4)
