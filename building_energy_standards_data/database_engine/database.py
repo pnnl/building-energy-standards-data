@@ -3,6 +3,9 @@ from sqlite3 import Error
 import csv
 import json
 import logging
+import os
+from pathlib import Path
+from copy import deepcopy
 
 from building_energy_standards_data.database_engine.assertions import assert_
 from building_energy_standards_data.query.util import is_index_in_table
@@ -24,6 +27,118 @@ def create_connect(db_file):
     except Error as e:
         logging.error(e)
     return conn
+
+
+def copy_template_records_in_json_files(
+    source_template: str,
+    target_template: str,
+    database_files_dir: str = None,
+    file_pattern: str = "*.json",
+    dry_run: bool = False,
+):
+    """
+    Copy all records from a source template to a new target template in JSON files.
+    This function reads all JSON files in the database_files directory, finds records
+    matching the source template, creates copies with the target template name, and
+    writes the updated data back to the files.
+
+    :param source_template: str - The template name to copy from (e.g., "IECC-2024")
+    :param target_template: str - The new template name to create (e.g., "IECC-2027")
+    :param database_files_dir: str - Path to the database_files directory. If None, uses the default relative path
+    :param file_pattern: str - File pattern to match (default: "*.json")
+    :param dry_run: bool - If True, only prints what would be done without modifying files
+    :return: dict - Summary of operations performed {filename: number_of_records_copied}
+    """
+    # Determine the database_files directory
+    if database_files_dir is None:
+        # Default to the database_files directory relative to this file
+        current_dir = Path(__file__).parent.parent
+        database_files_dir = current_dir / "database_files"
+    else:
+        database_files_dir = Path(database_files_dir)
+
+    if not database_files_dir.exists():
+        raise FileNotFoundError(
+            f"Database files directory not found: {database_files_dir}"
+        )
+
+    # Get all JSON files in the directory
+    json_files = list(database_files_dir.glob(file_pattern))
+
+    if not json_files:
+        logging.warning(f"No JSON files found in {database_files_dir}")
+        return {}
+
+    summary = {}
+    total_records_copied = 0
+
+    logging.info(
+        f"Copying records from template '{source_template}' to '{target_template}'"
+    )
+    logging.info(f"Found {len(json_files)} JSON files to process")
+
+    for json_file in json_files:
+        try:
+            # Read the JSON file
+            with open(json_file, "r") as f:
+                data = json.load(f)
+
+            if not isinstance(data, list):
+                logging.warning(f"Skipping {json_file.name}: Not a list of records")
+                continue
+
+            # Find records matching the source template
+            matching_records = [
+                record for record in data if record.get("template") == source_template
+            ]
+
+            if not matching_records:
+                logging.debug(
+                    f"No records found in {json_file.name} with template '{source_template}'"
+                )
+                continue
+
+            # Create copies with the new template name
+            new_records = []
+            for record in matching_records:
+                new_record = deepcopy(record)
+                new_record["template"] = target_template
+                new_records.append(new_record)
+
+            records_copied = len(new_records)
+            summary[json_file.name] = records_copied
+            total_records_copied += records_copied
+
+            if dry_run:
+                logging.info(
+                    f"[DRY RUN] Would add {records_copied} records to {json_file.name}"
+                )
+            else:
+                # Add new records to the data
+                data.extend(new_records)
+
+                # Write back to the file
+                with open(json_file, "w") as f:
+                    json.dump(data, f, indent=4)
+
+                logging.info(f"Added {records_copied} records to {json_file.name}")
+
+        except json.JSONDecodeError as e:
+            logging.error(f"Error decoding JSON in {json_file.name}: {e}")
+        except Exception as e:
+            logging.error(f"Error processing {json_file.name}: {e}")
+
+    # Print summary
+    if summary:
+        logging.info(
+            f"\nSummary: Copied {total_records_copied} total records across {len(summary)} files"
+        )
+        if dry_run:
+            logging.info("[DRY RUN] No files were modified")
+    else:
+        logging.info(f"No records found with template '{source_template}' in any files")
+
+    return summary
 
 
 class DBOperation:
