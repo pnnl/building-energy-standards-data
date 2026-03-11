@@ -1,12 +1,12 @@
-# Ontology Design Guide
+# Taxonomy Design Guide
 
 *For Building Energy Standards Table Retrieval*
 
 ## Purpose
 
-We are building an ontology to classify database tables containing building energy standards data (e.g., ASHRAE 90.1, IECC).
+We are building an taxonomy to classify database tables containing building energy standards data (e.g., ASHRAE 90.1, IECC).
 
-The ontology is used to:
+The taxonomy is used to:
 
 1. Interpret natural language queries.
 2. Match those queries to the correct database table.
@@ -14,18 +14,18 @@ The ontology is used to:
 
 ---
 
-# How the Ontology Is Used
+# How the Taxonomy Is Used
 
 Each table in the database is assigned a structured descriptor (a set of semantic attributes).
 
 When a user asks a question:
 
-1. An LLM extracts ontology attributes from the query.
+1. An LLM extracts taxonomy attributes from the query.
 2. We compare the query attributes to table descriptors.
 3. We rank tables using weighted matching.
 4. The best table is passed to SQL generation.
 
-So the ontology must:
+So the taxonomy must:
 
 * Be predictable enough for an LLM to extract reliably.
 * Be discriminative enough to distinguish tables.
@@ -33,13 +33,13 @@ So the ontology must:
 
 ---
 
-### Ontology Types (`types.py`)
+### Taxonomy Types (`types.py`)
 
-The file `types.py` defines the ontology used across the system.
+The file `types.py` defines the taxonomy used across the system.
 
 It contains:
 
-- All ontology dimensions (as `StrEnum` classes)
+- All taxonomy dimensions (as `StrEnum` classes)
 - The `TableDescriptor` dataclass
 - Field-level ranking weights
 
@@ -62,4 +62,4 @@ This is the **source of truth** for how table names are interpreted.
 - `RULES` is an **ordered list** of rule objects applied to table-name tokens.
 - Rule order matters when multiple rules could match the same token.
 
-If you add, rename, or remove ontology dimensions, you shoud update `rules.py` to have the changes be reflected in the table parser.
+If you add, rename, or remove taxonomy dimensions, you shoud update `rules.py` to have the changes be reflected in the table parser.

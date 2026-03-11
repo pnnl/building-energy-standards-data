@@ -2,8 +2,6 @@
   "hvac_minimum_requirements_motors_90_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "motor",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -13,8 +11,6 @@
   "hvac_minimum_requirements_motors_90_1_prm": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "motor",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -24,8 +20,6 @@
   "hvac_minimum_requirements_motors_IECC": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "motor",
     "sub_system": null,
     "standard_family": "IECC",
@@ -35,8 +29,6 @@
   "hvac_minimum_requirements_motors_189_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "motor",
     "sub_system": null,
     "standard_family": "ASHRAE_189_1",
@@ -46,9 +38,7 @@
   "hvac_minimum_requirements_water_heaters_90_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": "water_heater",
+    "system": "water_heaters",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
     "standard_year": null,
@@ -57,9 +47,7 @@
   "hvac_minimum_requirements_water_heaters_90_1_prm": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": "water_heater",
+    "system": "water_heaters",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
     "standard_year": null,
@@ -68,9 +56,7 @@
   "hvac_minimum_requirements_water_heaters_IECC": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": "water_heater",
+    "system": "water_heaters",
     "sub_system": null,
     "standard_family": "IECC",
     "standard_year": null,
@@ -79,9 +65,7 @@
   "hvac_minimum_requirements_water_heaters_189_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": "water_heater",
+    "system": "water_heaters",
     "sub_system": null,
     "standard_family": "ASHRAE_189_1",
     "standard_year": null,
@@ -90,8 +74,6 @@
   "hvac_minimum_requirements_heat_rejection_90_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "heat_rejection",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -101,8 +83,6 @@
   "hvac_minimum_requirements_heat_rejection_IECC": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "heat_rejection",
     "sub_system": null,
     "standard_family": "IECC",
@@ -112,8 +92,6 @@
   "hvac_minimum_requirements_heat_rejection_90_1_prm": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "heat_rejection",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -123,8 +101,6 @@
   "hvac_minimum_requirements_heat_rejection_189_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "heat_rejection",
     "sub_system": null,
     "standard_family": "ASHRAE_189_1",
@@ -134,8 +110,6 @@
   "hvac_minimum_requirements_unitary_air_conditioners_90_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "unitary_ac",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -145,8 +119,6 @@
   "hvac_minimum_requirements_unitary_air_conditioners_90_1_prm": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "unitary_ac",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -156,8 +128,6 @@
   "hvac_minimum_requirements_unitary_air_conditioners_IECC": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "unitary_ac",
     "sub_system": null,
     "standard_family": "IECC",
@@ -167,8 +137,6 @@
   "hvac_minimum_requirements_unitary_air_conditioners_189_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "unitary_ac",
     "sub_system": null,
     "standard_family": "ASHRAE_189_1",
@@ -178,8 +146,6 @@
   "hvac_minimum_requirements_heat_pumps_cooling_90_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "heat_pump",
     "sub_system": "cooling",
     "standard_family": "ASHRAE_90_1",
@@ -189,8 +155,6 @@
   "hvac_minimum_requirements_heat_pumps_cooling_90_1_prm": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "heat_pump",
     "sub_system": "cooling",
     "standard_family": "ASHRAE_90_1",
@@ -200,8 +164,6 @@
   "hvac_minimum_requirements_heat_pumps_cooling_IECC": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "heat_pump",
     "sub_system": "cooling",
     "standard_family": "IECC",
@@ -211,8 +173,6 @@
   "hvac_minimum_requirements_heat_pumps_cooling_189_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "heat_pump",
     "sub_system": "cooling",
     "standard_family": "ASHRAE_189_1",
@@ -222,8 +182,6 @@
   "hvac_minimum_requirements_heat_pumps_heating_90_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "heat_pump",
     "sub_system": "heating",
     "standard_family": "ASHRAE_90_1",
@@ -233,8 +191,6 @@
   "hvac_minimum_requirements_heat_pumps_heating_90_1_prm": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "heat_pump",
     "sub_system": "heating",
     "standard_family": "ASHRAE_90_1",
@@ -244,8 +200,6 @@
   "hvac_minimum_requirements_heat_pumps_heating_IECC": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "heat_pump",
     "sub_system": "heating",
     "standard_family": "IECC",
@@ -255,8 +209,6 @@
   "hvac_minimum_requirements_heat_pumps_heating_189_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "heat_pump",
     "sub_system": "heating",
     "standard_family": "ASHRAE_189_1",
@@ -266,8 +218,6 @@
   "hvac_minimum_requirements_chillers_90_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "chiller",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -277,8 +227,6 @@
   "hvac_minimum_requirements_chillers_90_1_prm": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "chiller",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -288,8 +236,6 @@
   "hvac_minimum_requirements_chillers_IECC": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "chiller",
     "sub_system": null,
     "standard_family": "IECC",
@@ -299,8 +245,6 @@
   "hvac_minimum_requirements_chillers_189_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "chiller",
     "sub_system": null,
     "standard_family": "ASHRAE_189_1",
@@ -310,8 +254,6 @@
   "hvac_minimum_requirements_boilers_90_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "boiler",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -321,8 +263,6 @@
   "hvac_minimum_requirements_boilers_90_1_prm": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "boiler",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -332,8 +272,6 @@
   "hvac_minimum_requirements_boilers_IECC": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "boiler",
     "sub_system": null,
     "standard_family": "IECC",
@@ -343,8 +281,6 @@
   "hvac_minimum_requirements_boilers_189_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "boiler",
     "sub_system": null,
     "standard_family": "ASHRAE_189_1",
@@ -354,8 +290,6 @@
   "hvac_minimum_requirements_furnaces_90_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "furnace",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -365,8 +299,6 @@
   "hvac_minimum_requirements_furnaces_90_1_prm": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "furnace",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -376,8 +308,6 @@
   "hvac_minimum_requirements_furnaces_IECC": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "furnace",
     "sub_system": null,
     "standard_family": "IECC",
@@ -387,8 +317,6 @@
   "hvac_minimum_requirements_furnaces_189_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": "furnace",
     "sub_system": null,
     "standard_family": "ASHRAE_189_1",
@@ -396,10 +324,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_lighting_90_1_2022": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -407,10 +333,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_lighting_90_1_2019": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -418,10 +342,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_lighting_90_1_2016": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -429,10 +351,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_lighting_90_1_2013": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -440,10 +360,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_lighting_90_1_2010": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -451,10 +369,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_lighting_90_1_2007": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -462,10 +378,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_lighting_90_1_2004": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -473,10 +387,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_lighting_90_1_2022_prm": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -484,10 +396,8 @@
     "compliance_path": "appendix_g"
   },
   "level_3_lighting_90_1_2019_prm": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -495,10 +405,8 @@
     "compliance_path": "appendix_g"
   },
   "level_3_lighting_90_1_2016_prm": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -506,10 +414,8 @@
     "compliance_path": "appendix_g"
   },
   "level_3_lighting_90_1_2013_prm": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -517,10 +423,8 @@
     "compliance_path": "appendix_g"
   },
   "level_3_lighting_90_1_2010_prm": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -528,10 +432,8 @@
     "compliance_path": "appendix_g"
   },
   "level_3_lighting_90_1_2007_prm": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -539,10 +441,8 @@
     "compliance_path": "appendix_g"
   },
   "level_3_lighting_90_1_2004_prm": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -550,10 +450,8 @@
     "compliance_path": "appendix_g"
   },
   "level_3_lighting_IECC_2021": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "IECC",
@@ -561,10 +459,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_lighting_IECC_2018": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "IECC",
@@ -572,10 +468,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_lighting_IECC_2015": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "IECC",
@@ -583,10 +477,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_lighting_IECC_2012": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "IECC",
@@ -594,10 +486,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_lighting_IECC_2009": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "IECC",
@@ -605,10 +495,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_lighting_IECC_2006": {
-    "domain": "space_classification",
+    "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "IECC",
@@ -616,10 +504,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_ventilation_62_1_2022": {
-    "domain": "space_classification",
+    "domain": "unknown",
     "topic": "ventilation_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": "ventilation",
     "standard_family": "ASHRAE_62_1",
@@ -627,10 +513,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_ventilation_62_1_2019": {
-    "domain": "space_classification",
+    "domain": "unknown",
     "topic": "ventilation_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": "ventilation",
     "standard_family": "ASHRAE_62_1",
@@ -638,10 +522,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_ventilation_62_1_2016": {
-    "domain": "space_classification",
+    "domain": "unknown",
     "topic": "ventilation_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": "ventilation",
     "standard_family": "ASHRAE_62_1",
@@ -649,10 +531,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_ventilation_62_1_2013": {
-    "domain": "space_classification",
+    "domain": "unknown",
     "topic": "ventilation_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": "ventilation",
     "standard_family": "ASHRAE_62_1",
@@ -660,10 +540,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_ventilation_62_1_2010": {
-    "domain": "space_classification",
+    "domain": "unknown",
     "topic": "ventilation_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": "ventilation",
     "standard_family": "ASHRAE_62_1",
@@ -671,10 +549,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_ventilation_62_1_2007": {
-    "domain": "space_classification",
+    "domain": "unknown",
     "topic": "ventilation_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": "ventilation",
     "standard_family": "ASHRAE_62_1",
@@ -682,10 +558,8 @@
     "compliance_path": "prescriptive"
   },
   "level_3_ventilation_62_1_2004": {
-    "domain": "space_classification",
+    "domain": "unknown",
     "topic": "ventilation_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": "ventilation",
     "standard_family": "ASHRAE_62_1",
@@ -693,131 +567,17 @@
     "compliance_path": "prescriptive"
   },
   "level_3_ventilation_62_1_1999": {
-    "domain": "space_classification",
+    "domain": "unknown",
     "topic": "ventilation_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": "ventilation",
     "standard_family": "ASHRAE_62_1",
     "standard_year": 1999,
     "compliance_path": "prescriptive"
   },
-  "level_2_electric_equipment": {
-    "domain": "space_classification",
-    "topic": null,
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
-    "standard_family": null,
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
-  "level_2_natural_gas_equipment": {
-    "domain": "space_classification",
-    "topic": null,
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
-    "standard_family": null,
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
-  "support_lighting_technologies": {
-    "domain": "support",
-    "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
-    "standard_family": null,
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
-  "support_standard_templates": {
-    "domain": "support",
-    "topic": null,
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
-    "standard_family": null,
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
-  "support_lighting_space_type_name_tags": {
-    "domain": "support",
-    "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
-    "standard_family": null,
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
-  "support_ventilation_space_type_name_tags": {
-    "domain": "support",
-    "topic": "ventilation_data",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": "ventilation",
-    "standard_family": null,
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
-  "support_electric_equipment_space_type_name_tags": {
-    "domain": "support",
-    "topic": null,
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
-    "standard_family": null,
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
-  "support_materials": {
-    "domain": "support",
-    "topic": null,
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
-    "standard_family": null,
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
-  "support_performance_curves": {
-    "domain": "support",
-    "topic": null,
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
-    "standard_family": null,
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
-  "support_schedules": {
-    "domain": "support",
-    "topic": null,
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
-    "standard_family": null,
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
   "system_requirements_energy_recovery_90_1": {
-    "domain": "unknown",
-    "topic": "requirements",
-    "data_role": "unknown",
-    "classification_type": null,
+    "domain": "hvac",
+    "topic": "minimum_requirements",
     "system": "energy_recovery",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -825,10 +585,8 @@
     "compliance_path": "prescriptive"
   },
   "system_requirements_energy_recovery_IECC": {
-    "domain": "unknown",
-    "topic": "requirements",
-    "data_role": "unknown",
-    "classification_type": null,
+    "domain": "hvac",
+    "topic": "minimum_requirements",
     "system": "energy_recovery",
     "sub_system": null,
     "standard_family": "IECC",
@@ -836,10 +594,8 @@
     "compliance_path": "prescriptive"
   },
   "system_requirements_energy_recovery_90_1_prm": {
-    "domain": "unknown",
-    "topic": "requirements",
-    "data_role": "unknown",
-    "classification_type": null,
+    "domain": "hvac",
+    "topic": "minimum_requirements",
     "system": "energy_recovery",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -847,10 +603,8 @@
     "compliance_path": "appendix_g"
   },
   "system_requirements_air_economizer_90_1": {
-    "domain": "unknown",
-    "topic": "requirements",
-    "data_role": "unknown",
-    "classification_type": null,
+    "domain": "hvac",
+    "topic": "minimum_requirements",
     "system": "air_economizer",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -858,10 +612,8 @@
     "compliance_path": "prescriptive"
   },
   "system_requirements_air_economizer_90_1_prm": {
-    "domain": "unknown",
-    "topic": "requirements",
-    "data_role": "unknown",
-    "classification_type": null,
+    "domain": "hvac",
+    "topic": "minimum_requirements",
     "system": "air_economizer",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -869,10 +621,8 @@
     "compliance_path": "appendix_g"
   },
   "system_requirements_air_economizer_IECC": {
-    "domain": "unknown",
-    "topic": "requirements",
-    "data_role": "unknown",
-    "classification_type": null,
+    "domain": "hvac",
+    "topic": "minimum_requirements",
     "system": "air_economizer",
     "sub_system": null,
     "standard_family": "IECC",
@@ -882,9 +632,7 @@
   "hvac_minimum_requirements_computer_room_air_conditioners_90_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": "crac",
+    "system": "computer_room_ac",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
     "standard_year": null,
@@ -893,9 +641,7 @@
   "hvac_minimum_requirements_computer_room_air_conditioners_IECC": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": "crac",
+    "system": "computer_room_ac",
     "sub_system": null,
     "standard_family": "IECC",
     "standard_year": null,
@@ -904,9 +650,7 @@
   "hvac_minimum_requirements_computer_room_air_conditioners_189_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": "crac",
+    "system": "computer_room_ac",
     "sub_system": null,
     "standard_family": "ASHRAE_189_1",
     "standard_year": null,
@@ -915,9 +659,7 @@
   "hvac_minimum_requirements_variable_refrigerant_flow_systems_90_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": "vrf",
+    "system": "variable_refrigerant_flow_system",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
     "standard_year": null,
@@ -926,9 +668,7 @@
   "hvac_minimum_requirements_variable_refrigerant_flow_systems_IECC": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": "vrf",
+    "system": "variable_refrigerant_flow_system",
     "sub_system": null,
     "standard_family": "IECC",
     "standard_year": null,
@@ -937,9 +677,7 @@
   "hvac_minimum_requirements_variable_refrigerant_flow_systems_189_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": "vrf",
+    "system": "variable_refrigerant_flow_system",
     "sub_system": null,
     "standard_family": "ASHRAE_189_1",
     "standard_year": null,
@@ -948,10 +686,8 @@
   "hvac_minimum_requirements_commercial_refrigerators_freezers_90_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
+    "system": "commercial_refrigerators_freezers",
+    "sub_system": "refrigeration",
     "standard_family": "ASHRAE_90_1",
     "standard_year": null,
     "compliance_path": "prescriptive"
@@ -959,10 +695,8 @@
   "hvac_minimum_requirements_commercial_refrigerators_freezers_90_1_prm": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
+    "system": "commercial_refrigerators_freezers",
+    "sub_system": "refrigeration",
     "standard_family": "ASHRAE_90_1",
     "standard_year": null,
     "compliance_path": "appendix_g"
@@ -970,10 +704,8 @@
   "hvac_minimum_requirements_commercial_refrigerators_freezers_189_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
+    "system": "commercial_refrigerators_freezers",
+    "sub_system": "refrigeration",
     "standard_family": "ASHRAE_189_1",
     "standard_year": null,
     "compliance_path": "prescriptive"
@@ -981,10 +713,8 @@
   "hvac_minimum_requirements_commercial_refrigerators_freezers_IECC": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
+    "system": "commercial_refrigerators_freezers",
+    "sub_system": "refrigeration",
     "standard_family": "IECC",
     "standard_year": null,
     "compliance_path": "prescriptive"
@@ -992,10 +722,8 @@
   "hvac_minimum_requirements_walkin_freezers_coolers_90_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
+    "system": "walkin_freezers_cooler",
+    "sub_system": "refrigeration",
     "standard_family": "ASHRAE_90_1",
     "standard_year": null,
     "compliance_path": "prescriptive"
@@ -1003,10 +731,8 @@
   "hvac_minimum_requirements_walkin_freezers_coolers_90_1_prm": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
+    "system": "walkin_freezers_cooler",
+    "sub_system": "refrigeration",
     "standard_family": "ASHRAE_90_1",
     "standard_year": null,
     "compliance_path": "appendix_g"
@@ -1014,10 +740,8 @@
   "hvac_minimum_requirements_walkin_freezers_coolers_189_1": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
+    "system": "walkin_freezers_cooler",
+    "sub_system": "refrigeration",
     "standard_family": "ASHRAE_189_1",
     "standard_year": null,
     "compliance_path": "prescriptive"
@@ -1025,10 +749,8 @@
   "hvac_minimum_requirements_walkin_freezers_coolers_IECC": {
     "domain": "hvac",
     "topic": "minimum_requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
+    "system": "walkin_freezers_cooler",
+    "sub_system": "refrigeration",
     "standard_family": "IECC",
     "standard_year": null,
     "compliance_path": "prescriptive"
@@ -1036,8 +758,6 @@
   "exterior_lighting_90_1": {
     "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -1047,8 +767,6 @@
   "exterior_lighting_90_1_prm": {
     "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -1058,42 +776,16 @@
   "exterior_lighting_IECC": {
     "domain": "lighting",
     "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
     "system": null,
     "sub_system": null,
     "standard_family": "IECC",
     "standard_year": null,
     "compliance_path": "prescriptive"
   },
-  "support_occupant_energy_behavior": {
-    "domain": "support",
-    "topic": null,
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
-    "standard_family": null,
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
-  "support_occupant_physical_characteristics": {
-    "domain": "support",
-    "topic": null,
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
-    "standard_family": null,
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
   "envelope_thermal_bridging_requirements_IECC": {
     "domain": "envelope",
-    "topic": "requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
+    "topic": "minimum_requirements",
+    "system": "thermal_bridging",
     "sub_system": null,
     "standard_family": "IECC",
     "standard_year": null,
@@ -1101,75 +793,25 @@
   },
   "envelope_thermal_bridging_requirements_90_1": {
     "domain": "envelope",
-    "topic": "requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
+    "topic": "minimum_requirements",
+    "system": "thermal_bridging",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
     "standard_year": null,
     "compliance_path": "prescriptive"
   },
   "system_requirements_fan_power_allowance_90_1": {
-    "domain": "unknown",
-    "topic": "requirements",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "fan_power",
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
     "standard_year": null,
     "compliance_path": "prescriptive"
   },
-  "level_2_lighting_space_types": {
-    "domain": "space_classification",
-    "topic": "lighting_data",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
-    "standard_family": null,
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
-  "level_2_ventilation_space_types": {
-    "domain": "space_classification",
-    "topic": "ventilation_data",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": "ventilation",
-    "standard_family": null,
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
-  "level_1_space_types": {
-    "domain": "space_classification",
-    "topic": "space_types",
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
-    "standard_family": null,
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
-  "support_constructions": {
-    "domain": "support",
-    "topic": null,
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
-    "standard_family": null,
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
   "envelope_requirements_90_1": {
     "domain": "envelope",
-    "topic": "requirements",
-    "data_role": "unknown",
-    "classification_type": null,
+    "topic": "minimum_requirements",
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -1178,9 +820,7 @@
   },
   "envelope_requirements_90_1_prm": {
     "domain": "envelope",
-    "topic": "requirements",
-    "data_role": "unknown",
-    "classification_type": null,
+    "topic": "minimum_requirements",
     "system": null,
     "sub_system": null,
     "standard_family": "ASHRAE_90_1",
@@ -1189,23 +829,10 @@
   },
   "envelope_requirements_IECC": {
     "domain": "envelope",
-    "topic": "requirements",
-    "data_role": "unknown",
-    "classification_type": null,
+    "topic": "minimum_requirements",
     "system": null,
     "sub_system": null,
     "standard_family": "IECC",
-    "standard_year": null,
-    "compliance_path": "prescriptive"
-  },
-  "support_occupant_types": {
-    "domain": "support",
-    "topic": null,
-    "data_role": "unknown",
-    "classification_type": null,
-    "system": null,
-    "sub_system": null,
-    "standard_family": null,
     "standard_year": null,
     "compliance_path": "prescriptive"
   }

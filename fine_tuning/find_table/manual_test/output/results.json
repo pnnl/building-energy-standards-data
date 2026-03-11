@@ -1,2816 +1,2558 @@
 [
-  {
-    "question": "What is the maximum permitted assembly U-value for a residential exterior mass wall in Climate Zone 3A according to ASHRAE 90.1-2004?",
-    "expected": [
-      {
-        "table": "envelope_requirements_90_1",
-        "descriptor": {
-          "domain": "envelope",
-          "topic": "requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
+{
+  "question": "What is the maximum permitted assembly U-value for a residential exterior mass wall in Climate Zone 3A according to ASHRAE 90.1-2004?",
+  "expected": [
+    {
+      "table": "envelope_requirements_90_1",
+      "descriptor": {
+        "domain": "envelope",
+        "topic": "minimum_requirements",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ],
-    "predicted_descriptor": {
-      "domain": "envelope",
-      "topic": "requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": null,
-      "sub_system": null,
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": "2004",
-      "compliance_path": "prescriptive"
-    },
-    "closest_matches": [
-      {
-        "table": "envelope_thermal_bridging_requirements_90_1",
-        "score": 3.5
-      },
-      {
-        "table": "envelope_requirements_90_1",
-        "score": 3.5
-      },
-      {
-        "table": "system_requirements_energy_recovery_90_1",
-        "score": 1.5
-      }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "envelope",
+    "topic": "minimum_requirements",
+    "system": "envelope",
+    "sub_system": null,
+    "standard_family": "ASHRAE_90_1",
+    "standard_year": "2004",
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What is the maximum permitted solar heat coefficient for a southern facing nonresidential glass door in Climate Zone 7 according to ASHRAE 90.1-2004?",
-    "expected": [
-      {
-        "table": "envelope_requirements_90_1",
-        "descriptor": {
-          "domain": "envelope",
-          "topic": "requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "envelope",
-      "topic": "requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": null,
-      "sub_system": null,
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": "2004",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "envelope_requirements_90_1",
+      "score": 2.75
     },
-    "closest_matches": [
-      {
-        "table": "envelope_thermal_bridging_requirements_90_1",
-        "score": 3.5
-      },
-      {
-        "table": "envelope_requirements_90_1",
-        "score": 3.5
-      },
-      {
-        "table": "system_requirements_energy_recovery_90_1",
-        "score": 1.5
+    {
+      "table": "envelope_requirements_90_1_prm",
+      "score": 0.75
+    },
+    {
+      "table": "envelope_requirements_IECC",
+      "score": 0.75
+    }
+  ]
+},
+{
+  "question": "What is the maximum permitted solar heat coefficient for a southern facing nonresidential glass door in Climate Zone 7 according to ASHRAE 90.1-2004?",
+  "expected": [
+    {
+      "table": "envelope_requirements_90_1",
+      "descriptor": {
+        "domain": "envelope",
+        "topic": "minimum_requirements",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "envelope",
+    "topic": "materials",
+    "system": "envelope",
+    "sub_system": null,
+    "standard_family": "ASHRAE_90_1",
+    "standard_year": "2004",
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What is the maximum permitted assembly U-value for a residential exterior mass wall in Climate Zone 3A according to IECC-2012?",
-    "expected": [
-      {
-        "table": "envelope_requirements_IECC",
-        "descriptor": {
-          "domain": "envelope",
-          "topic": "requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "IECC",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "envelope",
-      "topic": "requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": null,
-      "sub_system": null,
-      "standard_family": "IECC",
-      "standard_year": "2012",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "envelope_requirements_90_1",
+      "score": -0.25
     },
-    "closest_matches": [
-      {
-        "table": "envelope_thermal_bridging_requirements_IECC",
-        "score": 3.5
-      },
-      {
-        "table": "envelope_requirements_IECC",
-        "score": 3.5
-      },
-      {
-        "table": "system_requirements_energy_recovery_IECC",
-        "score": 1.5
+    {
+      "table": "exterior_lighting_90_1",
+      "score": -2.25
+    },
+    {
+      "table": "envelope_requirements_90_1_prm",
+      "score": -2.25
+    }
+  ]
+},
+{
+  "question": "What is the maximum permitted assembly U-value for a residential exterior mass wall in Climate Zone 3A according to IECC-2012?",
+  "expected": [
+    {
+      "table": "envelope_requirements_IECC",
+      "descriptor": {
+        "domain": "envelope",
+        "topic": "minimum_requirements",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "IECC",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "envelope",
+    "topic": "minimum_requirements",
+    "system": "envelope",
+    "sub_system": null,
+    "standard_family": "IECC",
+    "standard_year": "2012",
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What climate zones are included in the IECC envelope requirements dataset?",
-    "expected": [
-      {
-        "table": "envelope_requirements_IECC",
-        "descriptor": {
-          "domain": "envelope",
-          "topic": "requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "IECC",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "envelope",
-      "topic": "requirements",
-      "data_role": "reference_data",
-      "classification_type": null,
-      "system": null,
-      "sub_system": null,
-      "standard_family": "IECC",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "envelope_requirements_IECC",
+      "score": 2.75
     },
-    "closest_matches": [
-      {
-        "table": "envelope_thermal_bridging_requirements_IECC",
-        "score": 4.0
-      },
-      {
-        "table": "envelope_requirements_IECC",
-        "score": 4.0
-      },
-      {
-        "table": "system_requirements_energy_recovery_IECC",
-        "score": 2.0
+    {
+      "table": "envelope_requirements_90_1",
+      "score": 0.75
+    },
+    {
+      "table": "envelope_thermal_bridging_requirements_IECC",
+      "score": -1.0
+    }
+  ]
+},
+{
+  "question": "What climate zones are included in the IECC envelope requirements dataset?",
+  "expected": [
+    {
+      "table": "envelope_requirements_IECC",
+      "descriptor": {
+        "domain": "envelope",
+        "topic": "minimum_requirements",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "IECC",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "envelope",
+    "topic": "minimum_requirements",
+    "system": "envelope",
+    "sub_system": null,
+    "standard_family": "IECC",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What are the allowance types for exterior lighting in 90.1?",
-    "expected": [
-      {
-        "table": "exterior_lighting_90_1",
-        "descriptor": {
-          "domain": "lighting",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "lighting",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "lighting",
-      "sub_system": null,
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "envelope_requirements_IECC",
+      "score": 3.25
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_commercial_refrigerators_freezers_90_1",
-        "score": 0.75
-      },
-      {
-        "table": "hvac_minimum_requirements_walkin_freezers_coolers_90_1",
-        "score": 0.75
-      },
-      {
-        "table": "exterior_lighting_90_1",
-        "score": -0.25
+    {
+      "table": "envelope_requirements_90_1",
+      "score": 1.25
+    },
+    {
+      "table": "envelope_thermal_bridging_requirements_IECC",
+      "score": -0.5
+    }
+  ]
+},
+{
+  "question": "What are the allowance types for exterior lighting in 90.1?",
+  "expected": [
+    {
+      "table": "exterior_lighting_90_1",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "lighting",
+    "topic": "lighting_data",
+    "system": "lighting",
+    "sub_system": null,
+    "standard_family": "ASHRAE_90_1",
+    "standard_year": null,
+    "compliance_path": null
   },
-  {
-    "question": "What are the exterior lighting requirements for walkways in 90.1-2007?",
-    "expected": [
-      {
-        "table": "exterior_lighting_90_1",
-        "descriptor": {
-          "domain": "lighting",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "lighting",
-      "topic": "requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "lighting",
-      "sub_system": null,
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": "2007",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "score": 2.25
     },
-    "closest_matches": [
-      {
-        "table": "envelope_thermal_bridging_requirements_90_1",
-        "score": 0.25
-      },
-      {
-        "table": "system_requirements_fan_power_allowance_90_1",
-        "score": 0.25
-      },
-      {
-        "table": "envelope_requirements_90_1",
-        "score": 0.25
+    {
+      "table": "level_3_lighting_90_1_2019",
+      "score": 2.25
+    },
+    {
+      "table": "level_3_lighting_90_1_2016",
+      "score": 2.25
+    }
+  ]
+},
+{
+  "question": "What are the exterior lighting requirements for walkways in 90.1-2007?",
+  "expected": [
+    {
+      "table": "exterior_lighting_90_1",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "lighting",
+    "topic": "minimum_requirements",
+    "system": "lighting",
+    "sub_system": null,
+    "standard_family": "ASHRAE_90_1",
+    "standard_year": "2007",
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "I have a 350 kBtu/hr natural gas boiler that was installed in 2011. What efficiency does 90.1 specify for a boiler of this size and fuel type?",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_boilers_90_1",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "boiler",
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "boiler",
-      "sub_system": "heating",
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": "2010",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "envelope_requirements_90_1",
+      "score": 0.75
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_boilers_90_1",
-        "score": 7.75
-      },
-      {
-        "table": "hvac_minimum_requirements_boilers_90_1_prm",
-        "score": 5.75
-      },
-      {
-        "table": "hvac_minimum_requirements_boilers_IECC",
-        "score": 5.75
+    {
+      "table": "exterior_lighting_90_1",
+      "score": -0.25
+    },
+    {
+      "table": "envelope_requirements_90_1_prm",
+      "score": -1.25
+    }
+  ]
+},
+{
+  "question": "I have a 350 kBtu/hr natural gas boiler that was installed in 2011. What efficiency does 90.1 specify for a boiler of this size and fuel type?",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_boilers_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "boiler",
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "boiler",
+    "sub_system": "heating",
+    "standard_family": "ASHRAE_90_1",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What are the draft type options available for boilers?",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_boilers_90_1",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "boiler",
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "requirements",
-      "data_role": "reference_data",
-      "classification_type": null,
-      "system": "boiler",
-      "sub_system": "heating",
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_boilers_90_1",
+      "score": 8.75
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_boilers_90_1",
-        "score": 4.25
-      },
-      {
-        "table": "hvac_minimum_requirements_boilers_IECC",
-        "score": 4.25
-      },
-      {
-        "table": "hvac_minimum_requirements_boilers_189_1",
-        "score": 4.25
+    {
+      "table": "hvac_minimum_requirements_boilers_90_1_prm",
+      "score": 6.75
+    },
+    {
+      "table": "hvac_minimum_requirements_boilers_IECC",
+      "score": 6.75
+    }
+  ]
+},
+{
+  "question": "What are the draft type options available for boilers?",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_boilers_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "boiler",
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "boiler",
+    "sub_system": "heating",
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What part load efficiency is required for a 120 ton water cooled screw chiller installed in 2008 for IECC?",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_chillers_IECC",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "chiller",
-          "sub_system": null,
-          "standard_family": "IECC",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "chiller",
-      "sub_system": "cooling",
-      "standard_family": "IECC",
-      "standard_year": "2008",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_boilers_90_1",
+      "score": 7.75
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_chillers_IECC",
-        "score": 7.75
-      },
-      {
-        "table": "hvac_minimum_requirements_chillers_90_1",
-        "score": 5.75
-      },
-      {
-        "table": "hvac_minimum_requirements_chillers_189_1",
-        "score": 5.75
+    {
+      "table": "hvac_minimum_requirements_boilers_IECC",
+      "score": 7.75
+    },
+    {
+      "table": "hvac_minimum_requirements_boilers_189_1",
+      "score": 7.75
+    }
+  ]
+},
+{
+  "question": "What part load efficiency is required for a 120 ton water cooled screw chiller installed in 2008 for IECC?",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_chillers_IECC",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "chiller",
+        "sub_system": null,
+        "standard_family": "IECC",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "chiller",
+    "sub_system": "cooling",
+    "standard_family": "IECC",
+    "standard_year": "2008",
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What SCOP is required for a 150 kBtu/hr water cooled downflow computer room air conditioner installed in 2015?",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_computer_room_air_conditioners_90_1",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "crac",
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "crac",
-      "sub_system": "cooling",
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": "2015",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_chillers_IECC",
+      "score": 8.25
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_computer_room_air_conditioners_90_1",
-        "score": 7.75
-      },
-      {
-        "table": "hvac_minimum_requirements_computer_room_air_conditioners_IECC",
-        "score": 5.75
-      },
-      {
-        "table": "hvac_minimum_requirements_computer_room_air_conditioners_189_1",
-        "score": 5.75
+    {
+      "table": "hvac_minimum_requirements_chillers_90_1",
+      "score": 6.25
+    },
+    {
+      "table": "hvac_minimum_requirements_chillers_189_1",
+      "score": 6.25
+    }
+  ]
+},
+{
+  "question": "What SCOP is required for a 150 kBtu/hr water cooled downflow computer room air conditioner installed in 2015?",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_computer_room_air_conditioners_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "computer_room_ac",
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "computer_room_ac",
+    "sub_system": "cooling",
+    "standard_family": "ASHRAE_90_1",
+    "standard_year": "2015",
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What AFUE is required for a 150 kBtu/hr natural gas furnace installed in 2018?",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_furnaces_90_1",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "furnace",
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "furnace",
-      "sub_system": "heating",
-      "standard_family": null,
-      "standard_year": "2018",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_computer_room_air_conditioners_90_1",
+      "score": 8.25
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_furnaces_90_1",
-        "score": 6.75
-      },
-      {
-        "table": "hvac_minimum_requirements_furnaces_IECC",
-        "score": 6.75
-      },
-      {
-        "table": "hvac_minimum_requirements_furnaces_189_1",
-        "score": 6.75
+    {
+      "table": "hvac_minimum_requirements_computer_room_air_conditioners_IECC",
+      "score": 6.25
+    },
+    {
+      "table": "hvac_minimum_requirements_computer_room_air_conditioners_189_1",
+      "score": 6.25
+    }
+  ]
+},
+{
+  "question": "What AFUE is required for a 150 kBtu/hr natural gas furnace installed in 2018?",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_furnaces_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "furnace",
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "furnace",
+    "sub_system": "heating",
+    "standard_family": null,
+    "standard_year": "2018",
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What are the efficiency requirements for any oil-fired furnace between 200,000-300,000 Btu/hr under 2019 standards?",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_furnaces_90_1",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "furnace",
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "furnace",
-      "sub_system": "heating",
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": "2019",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_furnaces_90_1",
+      "score": 7.25
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_furnaces_90_1",
-        "score": 4.75
-      },
-      {
-        "table": "hvac_minimum_requirements_furnaces_90_1_prm",
-        "score": 2.75
-      },
-      {
-        "table": "hvac_minimum_requirements_furnaces_IECC",
-        "score": 2.75
+    {
+      "table": "hvac_minimum_requirements_furnaces_IECC",
+      "score": 7.25
+    },
+    {
+      "table": "hvac_minimum_requirements_furnaces_189_1",
+      "score": 7.25
+    }
+  ]
+},
+{
+  "question": "What are the efficiency requirements for any oil-fired furnace between 200,000-300,000 Btu/hr under 2019 standards?",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_furnaces_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "furnace",
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "furnace",
+    "sub_system": "heating",
+    "standard_family": null,
+    "standard_year": "2019",
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How do the SEER2 requirements differ between regions for a 3-ton split system heat pump installed under the latest IECC standards?",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_cooling_IECC",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "heat_pump",
-          "sub_system": "cooling",
-          "standard_family": "IECC",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "heat_pump",
-      "sub_system": null,
-      "standard_family": "IECC",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_furnaces_90_1",
+      "score": 7.25
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_cooling_IECC",
-        "score": 9.0
-      },
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_heating_IECC",
-        "score": 9.0
-      },
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_cooling_90_1",
-        "score": 7.0
+    {
+      "table": "hvac_minimum_requirements_furnaces_IECC",
+      "score": 7.25
+    },
+    {
+      "table": "hvac_minimum_requirements_furnaces_189_1",
+      "score": 7.25
+    }
+  ]
+},
+{
+  "question": "How do the SEER2 requirements differ between regions for a 3-ton split system heat pump installed under the latest IECC standards?",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_cooling_IECC",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "heat_pump",
+        "sub_system": "cooling",
+        "standard_family": "IECC",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "heat_pump",
+    "sub_system": "cooling",
+    "standard_family": "IECC",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What's the difference in off-mode power requirements between Small Duct High Velocity systems and regular heat pumps in the Southeastern region across different IECC versions?",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_cooling_IECC",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "heat_pump",
-          "sub_system": "cooling",
-          "standard_family": "IECC",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "heat_pump",
-      "sub_system": null,
-      "standard_family": "IECC",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_cooling_IECC",
+      "score": 12.5
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_cooling_IECC",
-        "score": 9.0
-      },
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_heating_IECC",
-        "score": 9.0
-      },
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_cooling_90_1",
-        "score": 7.0
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_cooling_90_1",
+      "score": 10.5
+    },
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_cooling_189_1",
+      "score": 10.5
+    }
+  ]
+},
+{
+  "question": "What's the difference in off-mode power requirements between Small Duct High Velocity systems and regular heat pumps in the Southeastern region across different IECC versions?",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_cooling_IECC",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "heat_pump",
+        "sub_system": "cooling",
+        "standard_family": "IECC",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "heat_pump",
+    "sub_system": null,
+    "standard_family": "IECC",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How have the COP requirements at low outdoor temperatures (17 F) evolved over different ASHRAE 90.1 versions for large commercial heat pumps?",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_heating_90_1",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "heat_pump",
-          "sub_system": "heating",
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "heat_pump",
-      "sub_system": "heating",
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_cooling_IECC",
+      "score": 9.5
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_heating_90_1",
-        "score": 12.0
-      },
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_heating_90_1_prm",
-        "score": 10.0
-      },
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_heating_IECC",
-        "score": 10.0
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_heating_IECC",
+      "score": 9.5
+    },
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_cooling_90_1",
+      "score": 7.5
+    }
+  ]
+},
+{
+  "question": "How have the COP requirements at low outdoor temperatures (17 F) evolved over different ASHRAE 90.1 versions for large commercial heat pumps?",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_heating_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "heat_pump",
+        "sub_system": "heating",
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "heat_pump",
+    "sub_system": "heating",
+    "standard_family": "ASHRAE_90_1",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What's the performance difference between space-constrained Single Package Variable Heat Pumps (SPVHP) and standard heat pumps for mid-size applications across different rating conditions?",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_heating_90_1",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "heat_pump",
-          "sub_system": "heating",
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "performance_curves",
-      "data_role": "reference_data",
-      "classification_type": null,
-      "system": "heat_pump",
-      "sub_system": "heating",
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_heating_90_1",
+      "score": 12.5
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_heating_90_1",
-        "score": 8.0
-      },
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_heating_IECC",
-        "score": 8.0
-      },
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_heating_189_1",
-        "score": 8.0
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_heating_90_1_prm",
+      "score": 10.5
+    },
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_heating_IECC",
+      "score": 10.5
+    }
+  ]
+},
+{
+  "question": "What's the performance difference between space-constrained Single Package Variable Heat Pumps (SPVHP) and standard heat pumps for mid-size applications across different rating conditions?",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_heating_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "heat_pump",
+        "sub_system": "heating",
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "heat_pump",
+    "sub_system": "heating",
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How do the BTU/hr per HP requirements compare between different refrigerants (R-448A vs Ammonia) for evaporative condensers with the same fan type under current IECC standards?",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_heat_rejection_IECC",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "heat_rejection",
-          "sub_system": null,
-          "standard_family": "IECC",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "heat_rejection",
-      "sub_system": "cooling",
-      "standard_family": "IECC",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_heating_90_1",
+      "score": 11.5
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_heat_rejection_IECC",
-        "score": 8.25
-      },
-      {
-        "table": "hvac_minimum_requirements_heat_rejection_90_1",
-        "score": 6.25
-      },
-      {
-        "table": "hvac_minimum_requirements_heat_rejection_189_1",
-        "score": 6.25
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_heating_IECC",
+      "score": 11.5
+    },
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_heating_189_1",
+      "score": 11.5
+    }
+  ]
+},
+{
+  "question": "How do the BTU/hr per HP requirements compare between different refrigerants (R-448A vs Ammonia) for evaporative condensers with the same fan type under current IECC standards?",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_heat_rejection_IECC",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "heat_rejection",
+        "sub_system": null,
+        "standard_family": "IECC",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "heat_rejection",
+    "sub_system": "refrigeration",
+    "standard_family": "IECC",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What's the efficiency trade-off between fan types (Centrifugal vs Propeller/Axial) for cooling towers, and how have the GPM per HP requirements changed across IECC versions?",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_heat_rejection_IECC",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "heat_rejection",
-          "sub_system": null,
-          "standard_family": "IECC",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "fan",
-      "sub_system": "cooling",
-      "standard_family": "IECC",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_heat_rejection_IECC",
+      "score": 8.75
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_cooling_IECC",
-        "score": 2.0
-      },
-      {
-        "table": "hvac_minimum_requirements_commercial_refrigerators_freezers_IECC",
-        "score": 2.0
-      },
-      {
-        "table": "hvac_minimum_requirements_walkin_freezers_coolers_IECC",
-        "score": 2.0
+    {
+      "table": "hvac_minimum_requirements_heat_rejection_90_1",
+      "score": 6.75
+    },
+    {
+      "table": "hvac_minimum_requirements_heat_rejection_189_1",
+      "score": 6.75
+    }
+  ]
+},
+{
+  "question": "What's the efficiency trade-off between fan types (Centrifugal vs Propeller/Axial) for cooling towers, and how have the GPM per HP requirements changed across IECC versions?",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_heat_rejection_IECC",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "heat_rejection",
+        "sub_system": null,
+        "standard_family": "IECC",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "fan",
+    "sub_system": "cooling",
+    "standard_family": "IECC",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How do the efficiency requirements differ between enclosed and open motor designs for the same horsepower range, and which design requires higher efficiency?",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_motors_90_1",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "motor",
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "unknown",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "motor",
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_cooling_IECC",
+      "score": 2.5
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_motors_90_1",
-        "score": 6.0
-      },
-      {
-        "table": "hvac_minimum_requirements_motors_IECC",
-        "score": 6.0
-      },
-      {
-        "table": "hvac_minimum_requirements_motors_189_1",
-        "score": 6.0
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_cooling_90_1",
+      "score": 0.5
+    },
+    {
+      "table": "hvac_minimum_requirements_heat_pumps_cooling_189_1",
+      "score": 0.5
+    }
+  ]
+},
+{
+  "question": "How do the efficiency requirements differ between enclosed and open motor designs for the same horsepower range, and which design requires higher efficiency?",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_motors_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "motor",
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "support",
+    "topic": "minimum_requirements",
+    "system": "motor",
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How has the efficiency requirement evolved over different 90.1 versions for high-speed 2-pole motors in the 30-40 HP range, and what's the efficiency penalty for going to slower 6-pole motors?",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_motors_90_1",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "motor",
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "motor",
-      "sub_system": null,
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_motors_90_1",
+      "score": 6.5
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_motors_90_1",
-        "score": 9.0
-      },
-      {
-        "table": "hvac_minimum_requirements_motors_90_1_prm",
-        "score": 7.0
-      },
-      {
-        "table": "hvac_minimum_requirements_motors_IECC",
-        "score": 7.0
+    {
+      "table": "hvac_minimum_requirements_motors_IECC",
+      "score": 6.5
+    },
+    {
+      "table": "hvac_minimum_requirements_motors_189_1",
+      "score": 6.5
+    }
+  ]
+},
+{
+  "question": "How has the efficiency requirement evolved over different 90.1 versions for high-speed 2-pole motors in the 30-40 HP range, and what's the efficiency penalty for going to slower 6-pole motors?",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_motors_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "motor",
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "motor",
+    "sub_system": null,
+    "standard_family": "ASHRAE_90_1",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How do the EER and IEER requirements compare between evaporatively cooled and water cooled single package air conditioners in the 240,000-760,000 Btu/hr range for units installed after 2011",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_unitary_air_conditioners_90_1",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "unitary_ac",
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "unitary_ac",
-      "sub_system": "cooling",
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": "2010",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_motors_90_1",
+      "score": 9.5
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_unitary_air_conditioners_90_1",
-        "score": 7.75
-      },
-      {
-        "table": "hvac_minimum_requirements_unitary_air_conditioners_90_1_prm",
-        "score": 5.75
-      },
-      {
-        "table": "hvac_minimum_requirements_unitary_air_conditioners_IECC",
-        "score": 5.75
+    {
+      "table": "hvac_minimum_requirements_motors_90_1_prm",
+      "score": 7.5
+    },
+    {
+      "table": "hvac_minimum_requirements_motors_IECC",
+      "score": 7.5
+    }
+  ]
+},
+{
+  "question": "How do the EER and IEER requirements compare between evaporatively cooled and water cooled single package air conditioners in the 240,000-760,000 Btu/hr range for units installed after 2011",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_unitary_air_conditioners_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "unitary_ac",
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "unitary_ac",
+    "sub_system": "cooling",
+    "standard_family": "ASHRAE_90_1",
+    "standard_year": "2010",
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What's the efficiency improvement between 90.1-2004 and 90.1-2010 standards for air-cooled condensing units, and how do the requirements differ between EER and IPLV metrics",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_unitary_air_conditioners_90_1",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "unitary_ac",
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "unitary_ac",
-      "sub_system": "cooling",
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": "2004, 2010",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_unitary_air_conditioners_90_1",
+      "score": 8.25
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_unitary_air_conditioners_90_1",
-        "score": 7.75
-      },
-      {
-        "table": "hvac_minimum_requirements_unitary_air_conditioners_90_1_prm",
-        "score": 5.75
-      },
-      {
-        "table": "hvac_minimum_requirements_unitary_air_conditioners_IECC",
-        "score": 5.75
+    {
+      "table": "hvac_minimum_requirements_unitary_air_conditioners_90_1_prm",
+      "score": 6.25
+    },
+    {
+      "table": "hvac_minimum_requirements_unitary_air_conditioners_IECC",
+      "score": 6.25
+    }
+  ]
+},
+{
+  "question": "What's the efficiency improvement between 90.1-2004 and 90.1-2010 standards for air-cooled condensing units, and how do the requirements differ between EER and IPLV metrics",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_unitary_air_conditioners_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "unitary_ac",
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "unitary_ac",
+    "sub_system": "cooling",
+    "standard_family": "ASHRAE_90_1",
+    "standard_year": "2004, 2010",
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How do ground-source VRF systems compare to water-source systems in terms of cooling efficiency requirements, and which source type demands higher performance standards?",
-    "expected": [
-      {
-        "table": "hvac_minimum_requirements_variable_refrigerant_flow_systems_90_1",
-        "descriptor": {
-          "domain": "hvac",
-          "topic": "minimum_requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "vrf",
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "vrf",
-      "sub_system": "cooling",
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_unitary_air_conditioners_90_1",
+      "score": 8.25
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_variable_refrigerant_flow_systems_90_1",
-        "score": 7.25
-      },
-      {
-        "table": "hvac_minimum_requirements_variable_refrigerant_flow_systems_IECC",
-        "score": 7.25
-      },
-      {
-        "table": "hvac_minimum_requirements_variable_refrigerant_flow_systems_189_1",
-        "score": 7.25
+    {
+      "table": "hvac_minimum_requirements_unitary_air_conditioners_90_1_prm",
+      "score": 6.25
+    },
+    {
+      "table": "hvac_minimum_requirements_unitary_air_conditioners_IECC",
+      "score": 6.25
+    }
+  ]
+},
+{
+  "question": "How do ground-source VRF systems compare to water-source systems in terms of cooling efficiency requirements, and which source type demands higher performance standards?",
+  "expected": [
+    {
+      "table": "hvac_minimum_requirements_variable_refrigerant_flow_systems_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "variable_refrigerant_flow_system",
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "variable_refrigerant_flow_system",
+    "sub_system": "cooling",
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What are all the space types that use natural gas equipment, and what schedule sets do they follow for their operations?",
-    "expected": [
-      {
-        "table": "level_1_space_types",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "space_types",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": null,
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "space_classification",
-      "topic": "space_types",
-      "data_role": "classification",
-      "classification_type": "taxonomy",
-      "system": "none",
-      "sub_system": "none",
-      "standard_family": "none",
-      "standard_year": "none",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_variable_refrigerant_flow_systems_90_1",
+      "score": 7.75
     },
-    "closest_matches": [
-      {
-        "table": "level_1_space_types",
-        "score": 0.0
-      },
-      {
-        "table": "level_2_electric_equipment",
-        "score": -1.875
-      },
-      {
-        "table": "level_2_natural_gas_equipment",
-        "score": -1.875
+    {
+      "table": "hvac_minimum_requirements_variable_refrigerant_flow_systems_IECC",
+      "score": 7.75
+    },
+    {
+      "table": "hvac_minimum_requirements_variable_refrigerant_flow_systems_189_1",
+      "score": 7.75
+    }
+  ]
+},
+{
+  "question": "What are all the space types that use natural gas equipment, and what schedule sets do they follow for their operations?",
+  "expected": [
+    {
+      "table": "level_1_space_types",
+      "descriptor": {
+        "domain": "space_classification",
+        "topic": "space_types",
+        "system": null,
+        "sub_system": null,
+        "standard_family": null,
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "space_types",
+    "system": "furnace",
+    "sub_system": "heating",
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Which space types share the same electric equipment profiles but have different ventilation requirements, and how do their schedule patterns compare?",
-    "expected": [
-      {
-        "table": "level_1_space_types",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "space_types",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": null,
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      },
-      {
-        "table": "level_1_space_types",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "space_types",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": null,
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "space_classification",
-      "topic": "space_types",
-      "data_role": "classification",
-      "classification_type": "taxonomy",
-      "system": null,
-      "sub_system": "ventilation",
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_furnaces_90_1",
+      "score": 4.75
     },
-    "closest_matches": [
-      {
-        "table": "level_3_ventilation_62_1_2022",
-        "score": 2.75
-      },
-      {
-        "table": "level_3_ventilation_62_1_2019",
-        "score": 2.75
-      },
-      {
-        "table": "level_3_ventilation_62_1_2016",
-        "score": 2.75
+    {
+      "table": "hvac_minimum_requirements_furnaces_IECC",
+      "score": 4.75
+    },
+    {
+      "table": "hvac_minimum_requirements_furnaces_189_1",
+      "score": 4.75
+    }
+  ]
+},
+{
+  "question": "Which space types share the same electric equipment profiles but have different ventilation requirements, and how do their schedule patterns compare?",
+  "expected": [
+    {
+      "table": "level_1_space_types",
+      "descriptor": {
+        "domain": "space_classification",
+        "topic": "space_types",
+        "system": null,
+        "sub_system": null,
+        "standard_family": null,
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    },
+    {
+      "table": "level_1_space_types",
+      "descriptor": {
+        "domain": "space_classification",
+        "topic": "space_types",
+        "system": null,
+        "sub_system": null,
+        "standard_family": null,
+        "standard_year": null,
+        "compliance_path": "prescriptive"
+      }
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "space_classification",
+    "topic": "space_types",
+    "system": "electric_equipment",
+    "sub_system": "ventilation",
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": null
   },
-  {
-    "question": "Which space types have the highest variability in electric equipment loads, and what are their heat gain characteristics?",
-    "expected": [
-      {
-        "table": "level_2_electric_equipment",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": null,
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": null,
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "space_classification",
-      "topic": "space_types",
-      "data_role": "reference_data",
-      "classification_type": null,
-      "system": null,
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "appendix_g"
+  "closest_matches": [
+    {
+      "table": "level_3_ventilation_62_1_2022",
+      "score": -0.75
     },
-    "closest_matches": [
-      {
-        "table": "level_1_space_types",
-        "score": 1.0
-      },
-      {
-        "table": "level_3_lighting_90_1_2022_prm",
-        "score": 0.0
-      },
-      {
-        "table": "level_3_lighting_90_1_2019_prm",
-        "score": 0.0
+    {
+      "table": "level_3_ventilation_62_1_2019",
+      "score": -0.75
+    },
+    {
+      "table": "level_3_ventilation_62_1_2016",
+      "score": -0.75
+    }
+  ]
+},
+{
+  "question": "Which space types have the highest variability in electric equipment loads, and what are their heat gain characteristics?",
+  "expected": [
+    {
+      "table": "level_2_electric_equipment",
+      "descriptor": {
+        "domain": "space_classification",
+        "topic": null,
+        "system": null,
+        "sub_system": null,
+        "standard_family": null,
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "space_classification",
+    "topic": "space_types",
+    "system": null,
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": null
   },
-  {
-    "question": "What space types have electric equipment loads above 0.7 W/ft\u00b2 and generate latent heat gains?",
-    "expected": [
-      {
-        "table": "level_2_electric_equipment",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": null,
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": null,
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "space_classification",
-      "topic": "space_types",
-      "data_role": "classification",
-      "classification_type": "taxonomy",
-      "system": "electric_equipment",
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_motors_90_1",
+      "score": -2.5
     },
-    "closest_matches": [
-      {
-        "table": "level_1_space_types",
-        "score": 1.5
-      },
-      {
-        "table": "level_2_electric_equipment",
-        "score": -0.375
-      },
-      {
-        "table": "level_2_natural_gas_equipment",
-        "score": -0.375
+    {
+      "table": "hvac_minimum_requirements_motors_90_1_prm",
+      "score": -2.5
+    },
+    {
+      "table": "hvac_minimum_requirements_motors_IECC",
+      "score": -2.5
+    }
+  ]
+},
+{
+  "question": "What space types have electric equipment loads above 0.7 W/ft\u00b2 and generate latent heat gains?",
+  "expected": [
+    {
+      "table": "level_2_electric_equipment",
+      "descriptor": {
+        "domain": "space_classification",
+        "topic": null,
+        "system": null,
+        "sub_system": null,
+        "standard_family": null,
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "space_classification",
+    "topic": "space_types",
+    "system": "electric_equipment",
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": null
   },
-  {
-    "question": "How do illuminance requirements vary between IECC and ASHRAE 90.1 standards for the same space types?",
-    "expected": [
-      {
-        "table": "level_2_lighting_space_types",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": null,
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      },
-      {
-        "table": "level_2_lighting_space_types",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": null,
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "lighting",
-      "topic": "requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "lighting",
-      "sub_system": null,
-      "standard_family": "IECC",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "score": -3.75
     },
-    "closest_matches": [
-      {
-        "table": "envelope_thermal_bridging_requirements_IECC",
-        "score": 0.75
-      },
-      {
-        "table": "envelope_requirements_IECC",
-        "score": 0.75
-      },
-      {
-        "table": "exterior_lighting_IECC",
-        "score": -0.25
+    {
+      "table": "level_3_lighting_90_1_2019",
+      "score": -3.75
+    },
+    {
+      "table": "level_3_lighting_90_1_2016",
+      "score": -3.75
+    }
+  ]
+},
+{
+  "question": "How do illuminance requirements vary between IECC and ASHRAE 90.1 standards for the same space types?",
+  "expected": [
+    {
+      "table": "level_2_lighting_space_types",
+      "descriptor": {
+        "domain": "space_classification",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": null,
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    },
+    {
+      "table": "level_2_lighting_space_types",
+      "descriptor": {
+        "domain": "space_classification",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": null,
+        "standard_year": null,
+        "compliance_path": "prescriptive"
+      }
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "lighting",
+    "topic": "minimum_requirements",
+    "system": "lighting",
+    "sub_system": null,
+    "standard_family": "IECC",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Which space types require the highest illuminance levels above 400 Lux across any code version?",
-    "expected": [
-      {
-        "table": "level_2_lighting_space_types",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": null,
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "lighting",
-      "topic": "lighting_data",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "lighting",
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "envelope_requirements_IECC",
+      "score": 1.25
     },
-    "closest_matches": [
-      {
-        "table": "exterior_lighting_90_1",
-        "score": 1.75
-      },
-      {
-        "table": "exterior_lighting_IECC",
-        "score": 1.75
-      },
-      {
-        "table": "level_3_lighting_90_1_2022",
-        "score": -0.25
+    {
+      "table": "level_3_lighting_IECC_2021",
+      "score": 0.25
+    },
+    {
+      "table": "level_3_lighting_IECC_2018",
+      "score": 0.25
+    }
+  ]
+},
+{
+  "question": "Which space types require the highest illuminance levels above 400 Lux across any code version?",
+  "expected": [
+    {
+      "table": "level_2_lighting_space_types",
+      "descriptor": {
+        "domain": "space_classification",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": null,
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "lighting",
+    "topic": "lighting_data",
+    "system": "lighting",
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": null
   },
-  {
-    "question": "Which space types have the highest natural gas equipment loads and what percentage of their heat is lost rather than contributing to space conditioning?",
-    "expected": [
-      {
-        "table": "level_2_natural_gas_equipment",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": null,
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": null,
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "space_types",
-      "data_role": "reference_data",
-      "classification_type": null,
-      "system": "boiler",
-      "sub_system": "heating",
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "appendix_g"
+  "closest_matches": [
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "score": 1.25
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_boilers_90_1_prm",
-        "score": 4.25
-      },
-      {
-        "table": "hvac_minimum_requirements_boilers_90_1",
-        "score": 2.25
-      },
-      {
-        "table": "hvac_minimum_requirements_boilers_IECC",
-        "score": 2.25
+    {
+      "table": "level_3_lighting_90_1_2019",
+      "score": 1.25
+    },
+    {
+      "table": "level_3_lighting_90_1_2016",
+      "score": 1.25
+    }
+  ]
+},
+{
+  "question": "Which space types have the highest natural gas equipment loads and what percentage of their heat is lost rather than contributing to space conditioning?",
+  "expected": [
+    {
+      "table": "level_2_natural_gas_equipment",
+      "descriptor": {
+        "domain": "space_classification",
+        "topic": null,
+        "system": null,
+        "sub_system": null,
+        "standard_family": null,
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "space_types",
+    "system": "furnace",
+    "sub_system": "heating",
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Compare the load variability and heat distribution patterns between kitchen-related spaces and other space types?",
-    "expected": [
-      {
-        "table": "level_2_natural_gas_equipment",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": null,
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": null,
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "space_classification",
-      "topic": "space_types",
-      "data_role": "reference_data",
-      "classification_type": "taxonomy",
-      "system": null,
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_furnaces_90_1",
+      "score": 4.75
     },
-    "closest_matches": [
-      {
-        "table": "level_1_space_types",
-        "score": 2.75
-      },
-      {
-        "table": "level_2_electric_equipment",
-        "score": 0.875
-      },
-      {
-        "table": "level_2_natural_gas_equipment",
-        "score": 0.875
+    {
+      "table": "hvac_minimum_requirements_furnaces_IECC",
+      "score": 4.75
+    },
+    {
+      "table": "hvac_minimum_requirements_furnaces_189_1",
+      "score": 4.75
+    }
+  ]
+},
+{
+  "question": "Compare the load variability and heat distribution patterns between kitchen-related spaces and other space types?",
+  "expected": [
+    {
+      "table": "level_2_natural_gas_equipment",
+      "descriptor": {
+        "domain": "space_classification",
+        "topic": null,
+        "system": null,
+        "sub_system": null,
+        "standard_family": null,
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "space_classification",
+    "topic": "space_types",
+    "system": null,
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What are the most commonly referenced ventilation definition IDs across all space types, and which standard tables do they belong to?",
-    "expected": [
-      {
-        "table": "level_2_ventilation_space_types",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "ventilation_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": "ventilation",
-          "standard_family": null,
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "ventilation_data",
-      "data_role": "reference_data",
-      "classification_type": null,
-      "system": null,
-      "sub_system": "ventilation",
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_motors_90_1",
+      "score": -1.5
     },
-    "closest_matches": [
-      {
-        "table": "level_3_ventilation_62_1_2022",
-        "score": 4.0
-      },
-      {
-        "table": "level_3_ventilation_62_1_2019",
-        "score": 4.0
-      },
-      {
-        "table": "level_3_ventilation_62_1_2016",
-        "score": 4.0
+    {
+      "table": "hvac_minimum_requirements_motors_IECC",
+      "score": -1.5
+    },
+    {
+      "table": "hvac_minimum_requirements_motors_189_1",
+      "score": -1.5
+    }
+  ]
+},
+{
+  "question": "What are the most commonly referenced ventilation definition IDs across all space types, and which standard tables do they belong to?",
+  "expected": [
+    {
+      "table": "level_2_ventilation_space_types",
+      "descriptor": {
+        "domain": "space_classification",
+        "topic": "ventilation_data",
+        "system": null,
+        "sub_system": "ventilation",
+        "standard_family": null,
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "ventilation_data",
+    "system": null,
+    "sub_system": "ventilation",
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": null
   },
-  {
-    "question": "Which space types have the highest lighting power densities and require automatic full-off controls under 90.1-2004?",
-    "expected": [
-      {
-        "table": "level_3_lighting_90_1_2004",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": 2004,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "lighting",
-      "topic": "space_types",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "lighting",
-      "sub_system": null,
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": "2004",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "level_3_ventilation_62_1_2022",
+      "score": 3.5
     },
-    "closest_matches": [
-      {
-        "table": "exterior_lighting_90_1",
-        "score": -0.75
-      },
-      {
-        "table": "level_1_space_types",
-        "score": -1.0
-      },
-      {
-        "table": "hvac_minimum_requirements_commercial_refrigerators_freezers_90_1",
-        "score": -2.75
+    {
+      "table": "level_3_ventilation_62_1_2019",
+      "score": 3.5
+    },
+    {
+      "table": "level_3_ventilation_62_1_2016",
+      "score": 3.5
+    }
+  ]
+},
+{
+  "question": "Which space types have the highest lighting power densities and require automatic full-off controls under 90.1-2004?",
+  "expected": [
+    {
+      "table": "level_3_lighting_90_1_2004",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": 2004,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "lighting",
+    "topic": "lighting_data",
+    "system": "lighting",
+    "sub_system": null,
+    "standard_family": "ASHRAE_90_1",
+    "standard_year": "2004",
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Compare the lighting power density requirements between CS (Complete System) and SS (Space-by-Space) methods for the same space types?",
-    "expected": [
-      {
-        "table": "level_3_lighting_90_1_2004",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": 2004,
-          "compliance_path": "prescriptive"
-        }
-      },
-      {
-        "table": "level_3_lighting_90_1_2004",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": 2004,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "lighting",
-      "topic": "requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "lighting",
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "exterior_lighting_90_1",
+      "score": 2.75
     },
-    "closest_matches": [
-      {
-        "table": "envelope_thermal_bridging_requirements_IECC",
-        "score": -0.25
-      },
-      {
-        "table": "envelope_thermal_bridging_requirements_90_1",
-        "score": -0.25
-      },
-      {
-        "table": "system_requirements_fan_power_allowance_90_1",
-        "score": -0.25
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "score": 1.25
+    },
+    {
+      "table": "level_3_lighting_90_1_2019",
+      "score": 1.25
+    }
+  ]
+},
+{
+  "question": "Compare the lighting power density requirements between CS (Complete System) and SS (Space-by-Space) methods for the same space types?",
+  "expected": [
+    {
+      "table": "level_3_lighting_90_1_2004",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": 2004,
+        "compliance_path": "prescriptive"
       }
-    ]
+    },
+    {
+      "table": "level_3_lighting_90_1_2004",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": 2004,
+        "compliance_path": "prescriptive"
+      }
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "lighting",
+    "topic": "minimum_requirements",
+    "system": "lighting",
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Which space types in 90.1-2007 have supplemental lighting allowances or special control requirements?",
-    "expected": [
-      {
-        "table": "level_3_lighting_90_1_2007",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": 2007,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "lighting",
-      "topic": "space_types",
-      "data_role": "classification",
-      "classification_type": "taxonomy",
-      "system": "lighting",
-      "sub_system": null,
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": "2007",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "envelope_requirements_90_1",
+      "score": 0.25
     },
-    "closest_matches": [
-      {
-        "table": "exterior_lighting_90_1",
-        "score": -1.0
-      },
-      {
-        "table": "level_1_space_types",
-        "score": -1.25
-      },
-      {
-        "table": "hvac_minimum_requirements_commercial_refrigerators_freezers_90_1",
-        "score": -3.0
+    {
+      "table": "envelope_requirements_IECC",
+      "score": 0.25
+    },
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "score": -0.75
+    }
+  ]
+},
+{
+  "question": "Which space types in 90.1-2007 have supplemental lighting allowances or special control requirements?",
+  "expected": [
+    {
+      "table": "level_3_lighting_90_1_2007",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": 2007,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "lighting",
+    "topic": "space_types",
+    "system": "lighting",
+    "sub_system": null,
+    "standard_family": "ASHRAE_90_1",
+    "standard_year": "2007",
+    "compliance_path": null
   },
-  {
-    "question": "Which space types in the PRM baseline have Building Area (BA) method requirements but still need daylight responsive controls?",
-    "expected": [
-      {
-        "table": "level_3_lighting_90_1_2010_prm",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": 2010,
-          "compliance_path": "appendix_g"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "space_classification",
-      "topic": "space_types",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "lighting",
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "exterior_lighting_90_1",
+      "score": -1.25
     },
-    "closest_matches": [
-      {
-        "table": "level_1_space_types",
-        "score": 1.75
-      },
-      {
-        "table": "level_2_electric_equipment",
-        "score": -0.125
-      },
-      {
-        "table": "level_2_natural_gas_equipment",
-        "score": -0.125
+    {
+      "table": "exterior_lighting_90_1_prm",
+      "score": -1.25
+    },
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "score": -2.75
+    }
+  ]
+},
+{
+  "question": "Which space types in the PRM baseline have Building Area (BA) method requirements but still need daylight responsive controls?",
+  "expected": [
+    {
+      "table": "level_3_lighting_90_1_2010_prm",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": 2010,
+        "compliance_path": "appendix_g"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "space_classification",
+    "topic": "space_types",
+    "system": "lighting",
+    "sub_system": null,
+    "standard_family": "ASHRAE_90_1",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Which space types in the 2010 PRM baseline require automatic full-off controls and have lighting power densities above 1.0 W/ft\u00b2?",
-    "expected": [
-      {
-        "table": "level_3_lighting_90_1_2010_prm",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": 2010,
-          "compliance_path": "appendix_g"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "lighting",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "lighting",
-      "sub_system": null,
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": "2010",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "score": -1.75
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_commercial_refrigerators_freezers_90_1",
-        "score": 0.25
-      },
-      {
-        "table": "hvac_minimum_requirements_walkin_freezers_coolers_90_1",
-        "score": 0.25
-      },
-      {
-        "table": "exterior_lighting_90_1",
-        "score": -0.75
+    {
+      "table": "level_3_lighting_90_1_2019",
+      "score": -1.75
+    },
+    {
+      "table": "level_3_lighting_90_1_2016",
+      "score": -1.75
+    }
+  ]
+},
+{
+  "question": "Which space types in the 2010 PRM baseline require automatic full-off controls and have lighting power densities above 1.0 W/ft\u00b2?",
+  "expected": [
+    {
+      "table": "level_3_lighting_90_1_2010_prm",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": 2010,
+        "compliance_path": "appendix_g"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "lighting",
+    "topic": "minimum_requirements",
+    "system": "lighting",
+    "sub_system": null,
+    "standard_family": "ASHRAE_90_1",
+    "standard_year": "2010",
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Which space types require both automatic partial-off controls AND have the most stringent RCR thresholds?",
-    "expected": [
-      {
-        "table": "level_3_lighting_90_1_2013",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": 2013,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": null,
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "envelope_requirements_90_1",
+      "score": 0.75
     },
-    "closest_matches": [
-      {
-        "table": "system_requirements_energy_recovery_90_1",
-        "score": 1.0
-      },
-      {
-        "table": "system_requirements_energy_recovery_IECC",
-        "score": 1.0
-      },
-      {
-        "table": "system_requirements_air_economizer_90_1",
-        "score": 1.0
+    {
+      "table": "exterior_lighting_90_1",
+      "score": -0.25
+    },
+    {
+      "table": "envelope_requirements_90_1_prm",
+      "score": -1.25
+    }
+  ]
+},
+{
+  "question": "Which space types require both automatic partial-off controls AND have the most stringent RCR thresholds?",
+  "expected": [
+    {
+      "table": "level_3_lighting_90_1_2013",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": 2013,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "space_classification",
+    "topic": "minimum_requirements",
+    "system": null,
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How do the control requirements (ADD2 vs REQ vs null) vary for facilities serving visually impaired populations compared to general spaces?",
-    "expected": [
-      {
-        "table": "level_3_lighting_90_1_2013",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": 2013,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "space_classification",
-      "topic": "occupant_types",
-      "data_role": "classification",
-      "classification_type": "taxonomy",
-      "system": null,
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_motors_90_1",
+      "score": 1.5
     },
-    "closest_matches": [
-      {
-        "table": "level_2_electric_equipment",
-        "score": 0.875
-      },
-      {
-        "table": "level_2_natural_gas_equipment",
-        "score": 0.875
-      },
-      {
-        "table": "level_3_lighting_90_1_2022",
-        "score": -0.25
+    {
+      "table": "hvac_minimum_requirements_motors_IECC",
+      "score": 1.5
+    },
+    {
+      "table": "hvac_minimum_requirements_motors_189_1",
+      "score": 1.5
+    }
+  ]
+},
+{
+  "question": "How do the control requirements (ADD2 vs REQ vs null) vary for facilities serving visually impaired populations compared to general spaces?",
+  "expected": [
+    {
+      "table": "level_3_lighting_90_1_2013",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": 2013,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "space_classification",
+    "topic": "space_types",
+    "system": null,
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Which sports and entertainment venues have the highest lighting power densities, and how do their control requirements compare?",
-    "expected": [
-      {
-        "table": "level_3_lighting_90_1_2016",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": 2016,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "lighting",
-      "topic": "lighting_data",
-      "data_role": "reference_data",
-      "classification_type": null,
-      "system": "lighting",
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_motors_90_1",
+      "score": -1.5
     },
-    "closest_matches": [
-      {
-        "table": "exterior_lighting_90_1",
-        "score": 1.75
-      },
-      {
-        "table": "exterior_lighting_IECC",
-        "score": 1.75
-      },
-      {
-        "table": "level_3_lighting_90_1_2022",
-        "score": -0.25
+    {
+      "table": "hvac_minimum_requirements_motors_IECC",
+      "score": -1.5
+    },
+    {
+      "table": "hvac_minimum_requirements_motors_189_1",
+      "score": -1.5
+    }
+  ]
+},
+{
+  "question": "Which sports and entertainment venues have the highest lighting power densities, and how do their control requirements compare?",
+  "expected": [
+    {
+      "table": "level_3_lighting_90_1_2016",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": 2016,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "lighting",
+    "topic": "lighting_data",
+    "system": "lighting",
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How do the lighting power densities for retail spaces compare between different retail categories and sections of the code?",
-    "expected": [
-      {
-        "table": "level_3_lighting_90_1_2016",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": 2016,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "lighting",
-      "topic": "lighting_data",
-      "data_role": "reference_data",
-      "classification_type": "taxonomy",
-      "system": "lighting",
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "score": 2.25
     },
-    "closest_matches": [
-      {
-        "table": "exterior_lighting_90_1",
-        "score": 1.5
-      },
-      {
-        "table": "exterior_lighting_IECC",
-        "score": 1.5
-      },
-      {
-        "table": "level_3_lighting_90_1_2022",
-        "score": -0.5
+    {
+      "table": "level_3_lighting_90_1_2019",
+      "score": 2.25
+    },
+    {
+      "table": "level_3_lighting_90_1_2016",
+      "score": 2.25
+    }
+  ]
+},
+{
+  "question": "How do the lighting power densities for retail spaces compare between different retail categories and sections of the code?",
+  "expected": [
+    {
+      "table": "level_3_lighting_90_1_2016",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": 2016,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "lighting",
+    "topic": "lighting_data",
+    "system": "lighting",
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Which space types require both automatic partial-off controls AND daylight responsive controls, and how do their lighting power densities compare?",
-    "expected": [
-      {
-        "table": "level_3_lighting_90_1_2019",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": 2019,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "lighting",
-      "topic": "requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "lighting",
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "score": 2.25
     },
-    "closest_matches": [
-      {
-        "table": "envelope_thermal_bridging_requirements_IECC",
-        "score": -0.25
-      },
-      {
-        "table": "envelope_thermal_bridging_requirements_90_1",
-        "score": -0.25
-      },
-      {
-        "table": "system_requirements_fan_power_allowance_90_1",
-        "score": -0.25
+    {
+      "table": "level_3_lighting_90_1_2019",
+      "score": 2.25
+    },
+    {
+      "table": "level_3_lighting_90_1_2016",
+      "score": 2.25
+    }
+  ]
+},
+{
+  "question": "Which space types require both automatic partial-off controls AND daylight responsive controls, and how do their lighting power densities compare?",
+  "expected": [
+    {
+      "table": "level_3_lighting_90_1_2019",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": 2019,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "lighting",
+    "topic": "lighting_data",
+    "system": "lighting",
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": null
   },
-  {
-    "question": "What are the most energy-intensive laboratory and healthcare spaces, and how do their control requirements differ?",
-    "expected": [
-      {
-        "table": "level_3_lighting_90_1_2019",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": 2019,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "space_classification",
-      "topic": "space_types",
-      "data_role": "classification",
-      "classification_type": "taxonomy",
-      "system": null,
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "score": 1.25
     },
-    "closest_matches": [
-      {
-        "table": "level_1_space_types",
-        "score": 2.75
-      },
-      {
-        "table": "level_2_electric_equipment",
-        "score": 0.875
-      },
-      {
-        "table": "level_2_natural_gas_equipment",
-        "score": 0.875
+    {
+      "table": "level_3_lighting_90_1_2019",
+      "score": 1.25
+    },
+    {
+      "table": "level_3_lighting_90_1_2016",
+      "score": 1.25
+    }
+  ]
+},
+{
+  "question": "What are the most energy-intensive laboratory and healthcare spaces, and how do their control requirements differ?",
+  "expected": [
+    {
+      "table": "level_3_lighting_90_1_2019",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": 2019,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "space_classification",
+    "topic": "space_types",
+    "system": null,
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Which space types have the most restrictive RCR thresholds (?4) but still allow ADD2 (additional) controls instead of requiring them?",
-    "expected": [
-      {
-        "table": "level_3_lighting_90_1_2022",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": 2022,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "space_classification",
-      "topic": "space_types",
-      "data_role": "classification",
-      "classification_type": "taxonomy",
-      "system": null,
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_motors_90_1",
+      "score": -1.5
     },
-    "closest_matches": [
-      {
-        "table": "level_1_space_types",
-        "score": 2.75
-      },
-      {
-        "table": "level_2_electric_equipment",
-        "score": 0.875
-      },
-      {
-        "table": "level_2_natural_gas_equipment",
-        "score": 0.875
+    {
+      "table": "hvac_minimum_requirements_motors_IECC",
+      "score": -1.5
+    },
+    {
+      "table": "hvac_minimum_requirements_motors_189_1",
+      "score": -1.5
+    }
+  ]
+},
+{
+  "question": "Which space types have the most restrictive RCR thresholds (?4) but still allow ADD2 (additional) controls instead of requiring them?",
+  "expected": [
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": 2022,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "space_classification",
+    "topic": "space_types",
+    "system": null,
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How do the lighting requirements for facilities serving the visually impaired compare to general facilities in terms of power density and control flexibility?",
-    "expected": [
-      {
-        "table": "level_3_lighting_90_1_2022",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": 2022,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "lighting",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "lighting",
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "hvac_minimum_requirements_motors_90_1",
+      "score": -1.5
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_commercial_refrigerators_freezers_90_1",
-        "score": -0.25
-      },
-      {
-        "table": "hvac_minimum_requirements_commercial_refrigerators_freezers_189_1",
-        "score": -0.25
-      },
-      {
-        "table": "hvac_minimum_requirements_commercial_refrigerators_freezers_IECC",
-        "score": -0.25
+    {
+      "table": "hvac_minimum_requirements_motors_IECC",
+      "score": -1.5
+    },
+    {
+      "table": "hvac_minimum_requirements_motors_189_1",
+      "score": -1.5
+    }
+  ]
+},
+{
+  "question": "How do the lighting requirements for facilities serving the visually impaired compare to general facilities in terms of power density and control flexibility?",
+  "expected": [
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": 2022,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "lighting",
+    "topic": "minimum_requirements",
+    "system": "lighting",
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Which healthcare facility spaces have the highest lighting power densities, and how do they compare to other high-intensity space types?",
-    "expected": [
-      {
-        "table": "level_3_lighting_IECC_2006",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "IECC",
-          "standard_year": 2006,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "lighting",
-      "topic": "space_types",
-      "data_role": "reference_data",
-      "classification_type": "taxonomy",
-      "system": "lighting",
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "envelope_requirements_90_1",
+      "score": 0.25
     },
-    "closest_matches": [
-      {
-        "table": "level_1_space_types",
-        "score": -0.5
-      },
-      {
-        "table": "exterior_lighting_90_1",
-        "score": -1.5
-      },
-      {
-        "table": "exterior_lighting_IECC",
-        "score": -1.5
+    {
+      "table": "envelope_requirements_IECC",
+      "score": 0.25
+    },
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "score": -0.75
+    }
+  ]
+},
+{
+  "question": "Which healthcare facility spaces have the highest lighting power densities, and how do they compare to other high-intensity space types?",
+  "expected": [
+    {
+      "table": "level_3_lighting_IECC_2006",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "IECC",
+        "standard_year": 2006,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "lighting",
+    "topic": "lighting_data",
+    "system": "lighting",
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What's the range of lighting power densities for sports and entertainment venues, and how do they vary by facility class or type?",
-    "expected": [
-      {
-        "table": "level_3_lighting_IECC_2006",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "lighting_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "IECC",
-          "standard_year": 2006,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "lighting",
-      "topic": "lighting_data",
-      "data_role": "reference_data",
-      "classification_type": "taxonomy",
-      "system": "lighting",
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "score": 2.25
     },
-    "closest_matches": [
-      {
-        "table": "exterior_lighting_90_1",
-        "score": 1.5
-      },
-      {
-        "table": "exterior_lighting_IECC",
-        "score": 1.5
-      },
-      {
-        "table": "level_3_lighting_90_1_2022",
-        "score": -0.5
+    {
+      "table": "level_3_lighting_90_1_2019",
+      "score": 2.25
+    },
+    {
+      "table": "level_3_lighting_90_1_2016",
+      "score": 2.25
+    }
+  ]
+},
+{
+  "question": "What's the range of lighting power densities for sports and entertainment venues, and how do they vary by facility class or type?",
+  "expected": [
+    {
+      "table": "level_3_lighting_IECC_2006",
+      "descriptor": {
+        "domain": "lighting",
+        "topic": "lighting_data",
+        "system": null,
+        "sub_system": null,
+        "standard_family": "IECC",
+        "standard_year": 2006,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "lighting",
+    "topic": "lighting_data",
+    "system": "lighting",
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Which space types rely purely on area-based ventilation (no per-person requirements) and have high ventilation rates above 0.3 cfm/ft\u00b2?",
-    "expected": [
-      {
-        "table": "level_3_ventilation_62_1_1999",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "ventilation_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": "ventilation",
-          "standard_family": "ASHRAE_62_1",
-          "standard_year": 1999,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "ventilation_data",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": null,
-      "sub_system": "ventilation",
-      "standard_family": "ASHRAE_62_1",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "score": 2.25
     },
-    "closest_matches": [
-      {
-        "table": "level_3_ventilation_62_1_2022",
-        "score": 5.0
-      },
-      {
-        "table": "level_3_ventilation_62_1_2019",
-        "score": 5.0
-      },
-      {
-        "table": "level_3_ventilation_62_1_2016",
-        "score": 5.0
+    {
+      "table": "level_3_lighting_90_1_2019",
+      "score": 2.25
+    },
+    {
+      "table": "level_3_lighting_90_1_2016",
+      "score": 2.25
+    }
+  ]
+},
+{
+  "question": "Which space types rely purely on area-based ventilation (no per-person requirements) and have high ventilation rates above 0.3 cfm/ft\u00b2?",
+  "expected": [
+    {
+      "table": "level_3_ventilation_62_1_1999",
+      "descriptor": {
+        "domain": "unknown",
+        "topic": "ventilation_data",
+        "system": null,
+        "sub_system": "ventilation",
+        "standard_family": "ASHRAE_62_1",
+        "standard_year": 1999,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "ventilation_data",
+    "system": null,
+    "sub_system": "ventilation",
+    "standard_family": "ASHRAE_62_1",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How do the ventilation requirements differ between educational spaces (classrooms vs labs vs auditoriums) in terms of per-person and occupancy assumptions?",
-    "expected": [
-      {
-        "table": "level_3_ventilation_62_1_1999",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "ventilation_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": "ventilation",
-          "standard_family": "ASHRAE_62_1",
-          "standard_year": 1999,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "ventilation_data",
-      "data_role": "requirements",
-      "classification_type": "taxonomy",
-      "system": null,
-      "sub_system": "ventilation",
-      "standard_family": "ASHRAE_62_1",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "level_3_ventilation_62_1_2022",
+      "score": 5.5
     },
-    "closest_matches": [
-      {
-        "table": "level_3_ventilation_62_1_2022",
-        "score": 4.75
-      },
-      {
-        "table": "level_3_ventilation_62_1_2019",
-        "score": 4.75
-      },
-      {
-        "table": "level_3_ventilation_62_1_2016",
-        "score": 4.75
+    {
+      "table": "level_3_ventilation_62_1_2019",
+      "score": 5.5
+    },
+    {
+      "table": "level_3_ventilation_62_1_2016",
+      "score": 5.5
+    }
+  ]
+},
+{
+  "question": "How do the ventilation requirements differ between educational spaces (classrooms vs labs vs auditoriums) in terms of per-person and occupancy assumptions?",
+  "expected": [
+    {
+      "table": "level_3_ventilation_62_1_1999",
+      "descriptor": {
+        "domain": "unknown",
+        "topic": "ventilation_data",
+        "system": null,
+        "sub_system": "ventilation",
+        "standard_family": "ASHRAE_62_1",
+        "standard_year": 1999,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "ventilation_data",
+    "system": null,
+    "sub_system": "ventilation",
+    "standard_family": "ASHRAE_62_1",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Which space types are classified as Air Class 2 (higher contamination) and how do their ventilation rates compare to Air Class 1 spaces?",
-    "expected": [
-      {
-        "table": "level_3_ventilation_62_1_2004",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "ventilation_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": "ventilation",
-          "standard_family": "ASHRAE_62_1",
-          "standard_year": 2004,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "space_classification",
-      "topic": "space_types",
-      "data_role": "classification",
-      "classification_type": "taxonomy",
-      "system": null,
-      "sub_system": "ventilation",
-      "standard_family": "ASHRAE_62_1",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "level_3_ventilation_62_1_2022",
+      "score": 5.5
     },
-    "closest_matches": [
-      {
-        "table": "level_3_ventilation_62_1_2022",
-        "score": 3.75
-      },
-      {
-        "table": "level_3_ventilation_62_1_2019",
-        "score": 3.75
-      },
-      {
-        "table": "level_3_ventilation_62_1_2016",
-        "score": 3.75
+    {
+      "table": "level_3_ventilation_62_1_2019",
+      "score": 5.5
+    },
+    {
+      "table": "level_3_ventilation_62_1_2016",
+      "score": 5.5
+    }
+  ]
+},
+{
+  "question": "Which space types are classified as Air Class 2 (higher contamination) and how do their ventilation rates compare to Air Class 1 spaces?",
+  "expected": [
+    {
+      "table": "level_3_ventilation_62_1_2004",
+      "descriptor": {
+        "domain": "unknown",
+        "topic": "ventilation_data",
+        "system": null,
+        "sub_system": "ventilation",
+        "standard_family": "ASHRAE_62_1",
+        "standard_year": 2004,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "space_classification",
+    "topic": "space_types",
+    "system": null,
+    "sub_system": "ventilation",
+    "standard_family": "ASHRAE_62_1",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How do food service spaces compare in terms of ventilation requirements, and which have the highest per-person ventilation needs?",
-    "expected": [
-      {
-        "table": "level_3_ventilation_62_1_2004",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "ventilation_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": "ventilation",
-          "standard_family": "ASHRAE_62_1",
-          "standard_year": 2004,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "ventilation_data",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": null,
-      "sub_system": "ventilation",
-      "standard_family": "ASHRAE_62_1",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "level_3_ventilation_62_1_2022",
+      "score": 2.5
     },
-    "closest_matches": [
-      {
-        "table": "level_3_ventilation_62_1_2022",
-        "score": 5.0
-      },
-      {
-        "table": "level_3_ventilation_62_1_2019",
-        "score": 5.0
-      },
-      {
-        "table": "level_3_ventilation_62_1_2016",
-        "score": 5.0
+    {
+      "table": "level_3_ventilation_62_1_2019",
+      "score": 2.5
+    },
+    {
+      "table": "level_3_ventilation_62_1_2016",
+      "score": 2.5
+    }
+  ]
+},
+{
+  "question": "How do food service spaces compare in terms of ventilation requirements, and which have the highest per-person ventilation needs?",
+  "expected": [
+    {
+      "table": "level_3_ventilation_62_1_2004",
+      "descriptor": {
+        "domain": "unknown",
+        "topic": "ventilation_data",
+        "system": null,
+        "sub_system": "ventilation",
+        "standard_family": "ASHRAE_62_1",
+        "standard_year": 2004,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "ventilation_data",
+    "system": null,
+    "sub_system": "ventilation",
+    "standard_family": "ASHRAE_62_1",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Which space types have both high occupancy density (>100 ppl/1000 ft\u00b2) AND require significant per-person ventilation rates?",
-    "expected": [
-      {
-        "table": "level_3_ventilation_62_1_2007",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "ventilation_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": "ventilation",
-          "standard_family": "ASHRAE_62_1",
-          "standard_year": 2007,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "space_classification",
-      "topic": "space_types",
-      "data_role": "classification",
-      "classification_type": "taxonomy",
-      "system": null,
-      "sub_system": "ventilation",
-      "standard_family": "ASHRAE_62_1",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "level_3_ventilation_62_1_2022",
+      "score": 5.5
     },
-    "closest_matches": [
-      {
-        "table": "level_3_ventilation_62_1_2022",
-        "score": 3.75
-      },
-      {
-        "table": "level_3_ventilation_62_1_2019",
-        "score": 3.75
-      },
-      {
-        "table": "level_3_ventilation_62_1_2016",
-        "score": 3.75
+    {
+      "table": "level_3_ventilation_62_1_2019",
+      "score": 5.5
+    },
+    {
+      "table": "level_3_ventilation_62_1_2016",
+      "score": 5.5
+    }
+  ]
+},
+{
+  "question": "Which space types have both high occupancy density (>100 ppl/1000 ft\u00b2) AND require significant per-person ventilation rates?",
+  "expected": [
+    {
+      "table": "level_3_ventilation_62_1_2007",
+      "descriptor": {
+        "domain": "unknown",
+        "topic": "ventilation_data",
+        "system": null,
+        "sub_system": "ventilation",
+        "standard_family": "ASHRAE_62_1",
+        "standard_year": 2007,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "space_classification",
+    "topic": "space_types",
+    "system": null,
+    "sub_system": "ventilation",
+    "standard_family": "ASHRAE_62_1",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How do sports and entertainment venues vary in their ventilation strategies between spectator areas and active play areas?",
-    "expected": [
-      {
-        "table": "level_3_ventilation_62_1_2007",
-        "descriptor": {
-          "domain": "space_classification",
-          "topic": "ventilation_data",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": "ventilation",
-          "standard_family": "ASHRAE_62_1",
-          "standard_year": 2007,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "ventilation_data",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": null,
-      "sub_system": "ventilation",
-      "standard_family": "ASHRAE_62_1",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "level_3_ventilation_62_1_2022",
+      "score": 2.5
     },
-    "closest_matches": [
-      {
-        "table": "level_3_ventilation_62_1_2022",
-        "score": 5.0
-      },
-      {
-        "table": "level_3_ventilation_62_1_2019",
-        "score": 5.0
-      },
-      {
-        "table": "level_3_ventilation_62_1_2016",
-        "score": 5.0
+    {
+      "table": "level_3_ventilation_62_1_2019",
+      "score": 2.5
+    },
+    {
+      "table": "level_3_ventilation_62_1_2016",
+      "score": 2.5
+    }
+  ]
+},
+{
+  "question": "How do sports and entertainment venues vary in their ventilation strategies between spectator areas and active play areas?",
+  "expected": [
+    {
+      "table": "level_3_ventilation_62_1_2007",
+      "descriptor": {
+        "domain": "unknown",
+        "topic": "ventilation_data",
+        "system": null,
+        "sub_system": "ventilation",
+        "standard_family": "ASHRAE_62_1",
+        "standard_year": 2007,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "ventilation_data",
+    "system": null,
+    "sub_system": "ventilation",
+    "standard_family": "ASHRAE_62_1",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Which insulation materials provide the highest thermal resistance per inch of thickness, and how do their densities compare?",
-    "expected": [
-      {
-        "table": "support_materials",
-        "descriptor": {
-          "domain": "support",
-          "topic": null,
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": null,
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "envelope",
-      "topic": "materials",
-      "data_role": "reference_data",
-      "classification_type": null,
-      "system": null,
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "level_3_ventilation_62_1_2022",
+      "score": 5.5
     },
-    "closest_matches": [
-      {
-        "table": "envelope_thermal_bridging_requirements_IECC",
-        "score": 0.0
-      },
-      {
-        "table": "envelope_thermal_bridging_requirements_90_1",
-        "score": 0.0
-      },
-      {
-        "table": "envelope_requirements_90_1",
-        "score": 0.0
+    {
+      "table": "level_3_ventilation_62_1_2019",
+      "score": 5.5
+    },
+    {
+      "table": "level_3_ventilation_62_1_2016",
+      "score": 5.5
+    }
+  ]
+},
+{
+  "question": "Which insulation materials provide the highest thermal resistance per inch of thickness, and how do their densities compare?",
+  "expected": [
+    {
+      "table": "support_materials",
+      "descriptor": {
+        "domain": "support",
+        "topic": null,
+        "system": null,
+        "sub_system": null,
+        "standard_family": null,
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "envelope",
+    "topic": "materials",
+    "system": "envelope",
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How do the thermal properties of glass fiber batt insulations vary by R-value and thickness across different CEC defaults?",
-    "expected": [
-      {
-        "table": "support_materials",
-        "descriptor": {
-          "domain": "support",
-          "topic": null,
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": null,
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "envelope",
-      "topic": "materials",
-      "data_role": "reference_data",
-      "classification_type": null,
-      "system": null,
-      "sub_system": null,
-      "standard_family": "CEC",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "envelope_requirements_90_1",
+      "score": -0.75
     },
-    "closest_matches": [
-      {
-        "table": "envelope_thermal_bridging_requirements_IECC",
-        "score": -1.0
-      },
-      {
-        "table": "envelope_thermal_bridging_requirements_90_1",
-        "score": -1.0
-      },
-      {
-        "table": "envelope_requirements_90_1",
-        "score": -1.0
+    {
+      "table": "envelope_requirements_IECC",
+      "score": -0.75
+    },
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "score": -2.75
+    }
+  ]
+},
+{
+  "question": "How do the thermal properties of glass fiber batt insulations vary by R-value and thickness across different CEC defaults?",
+  "expected": [
+    {
+      "table": "support_materials",
+      "descriptor": {
+        "domain": "support",
+        "topic": null,
+        "system": null,
+        "sub_system": null,
+        "standard_family": null,
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "envelope",
+    "topic": "materials",
+    "system": "envelope",
+    "sub_system": null,
+    "standard_family": "CEC",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How do economizer control strategies differ between data centers and regular buildings across different climate zones?",
-    "expected": [
-      {
-        "table": "system_requirements_air_economizer_90_1",
-        "descriptor": {
-          "domain": "unknown",
-          "topic": "requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "air_economizer",
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "air_economizer",
-      "sub_system": "cooling",
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "envelope_requirements_90_1",
+      "score": -1.75
     },
-    "closest_matches": [
-      {
-        "table": "system_requirements_air_economizer_90_1",
-        "score": 6.25
-      },
-      {
-        "table": "system_requirements_air_economizer_90_1_prm",
-        "score": 4.25
-      },
-      {
-        "table": "system_requirements_air_economizer_IECC",
-        "score": 4.25
+    {
+      "table": "envelope_requirements_IECC",
+      "score": -1.75
+    },
+    {
+      "table": "level_3_lighting_90_1_2022",
+      "score": -3.75
+    }
+  ]
+},
+{
+  "question": "How do economizer control strategies differ between data centers and regular buildings across different climate zones?",
+  "expected": [
+    {
+      "table": "system_requirements_air_economizer_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "air_economizer",
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "air_economizer",
+    "sub_system": "cooling",
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What are the high limit shutoff temperatures and enthalpies for different economizer control strategies, and how have they evolved between 90.1-2004 and 90.1-2010?",
-    "expected": [
-      {
-        "table": "system_requirements_air_economizer_90_1",
-        "descriptor": {
-          "domain": "unknown",
-          "topic": "requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "air_economizer",
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "air_economizer",
-      "sub_system": "cooling",
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": "2004, 2010",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "system_requirements_air_economizer_90_1",
+      "score": 7.75
     },
-    "closest_matches": [
-      {
-        "table": "system_requirements_air_economizer_90_1",
-        "score": 2.75
-      },
-      {
-        "table": "hvac_minimum_requirements_heat_pumps_cooling_90_1",
-        "score": 1.5
-      },
-      {
-        "table": "hvac_minimum_requirements_commercial_refrigerators_freezers_90_1",
-        "score": 1.5
+    {
+      "table": "system_requirements_air_economizer_IECC",
+      "score": 7.75
+    },
+    {
+      "table": "system_requirements_air_economizer_90_1_prm",
+      "score": 5.75
+    }
+  ]
+},
+{
+  "question": "What are the high limit shutoff temperatures and enthalpies for different economizer control strategies, and how have they evolved between 90.1-2004 and 90.1-2010?",
+  "expected": [
+    {
+      "table": "system_requirements_air_economizer_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "air_economizer",
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "air_economizer",
+    "sub_system": "cooling",
+    "standard_family": "ASHRAE_90_1",
+    "standard_year": "2004, 2010",
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Which climate zones require energy recovery for the smallest outdoor air CFM thresholds, and how do the effectiveness requirements vary?",
-    "expected": [
-      {
-        "table": "system_requirements_energy_recovery_90_1",
-        "descriptor": {
-          "domain": "unknown",
-          "topic": "requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "energy_recovery",
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "energy_recovery",
-      "sub_system": "ventilation",
-      "standard_family": "ASHRAE_90_1",
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "system_requirements_air_economizer_90_1",
+      "score": 8.25
     },
-    "closest_matches": [
-      {
-        "table": "system_requirements_energy_recovery_90_1",
-        "score": 3.25
-      },
-      {
-        "table": "hvac_minimum_requirements_commercial_refrigerators_freezers_90_1",
-        "score": 2.0
-      },
-      {
-        "table": "hvac_minimum_requirements_walkin_freezers_coolers_90_1",
-        "score": 2.0
+    {
+      "table": "system_requirements_air_economizer_90_1_prm",
+      "score": 6.25
+    },
+    {
+      "table": "system_requirements_air_economizer_IECC",
+      "score": 6.25
+    }
+  ]
+},
+{
+  "question": "Which climate zones require energy recovery for the smallest outdoor air CFM thresholds, and how do the effectiveness requirements vary?",
+  "expected": [
+    {
+      "table": "system_requirements_energy_recovery_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "energy_recovery",
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "ventilation_data",
+    "system": "energy_recovery",
+    "sub_system": "ventilation",
+    "standard_family": "ASHRAE_90_1",
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How do energy recovery requirements differ between heating and cooling design conditions for cold climates (zones 6-8)?",
-    "expected": [
-      {
-        "table": "system_requirements_energy_recovery_90_1",
-        "descriptor": {
-          "domain": "unknown",
-          "topic": "requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "energy_recovery",
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "energy_recovery",
-      "sub_system": null,
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "system_requirements_energy_recovery_90_1",
+      "score": 5.75
     },
-    "closest_matches": [
-      {
-        "table": "system_requirements_energy_recovery_90_1",
-        "score": 3.0
-      },
-      {
-        "table": "system_requirements_energy_recovery_IECC",
-        "score": 3.0
-      },
-      {
-        "table": "hvac_minimum_requirements_commercial_refrigerators_freezers_90_1",
-        "score": 1.75
+    {
+      "table": "system_requirements_energy_recovery_IECC",
+      "score": 3.75
+    },
+    {
+      "table": "system_requirements_energy_recovery_90_1_prm",
+      "score": 3.75
+    }
+  ]
+},
+{
+  "question": "How do energy recovery requirements differ between heating and cooling design conditions for cold climates (zones 6-8)?",
+  "expected": [
+    {
+      "table": "system_requirements_energy_recovery_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "energy_recovery",
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "energy_recovery",
+    "sub_system": "heating",
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How do the outdoor air percentage thresholds for energy recovery requirements differ between humid (A) and dry (B) climate zones in IECC-2012?",
-    "expected": [
-      {
-        "table": "system_requirements_energy_recovery_IECC",
-        "descriptor": {
-          "domain": "unknown",
-          "topic": "requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "energy_recovery",
-          "sub_system": null,
-          "standard_family": "IECC",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "energy_recovery",
-      "sub_system": "ventilation",
-      "standard_family": "IECC",
-      "standard_year": "2012",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "system_requirements_energy_recovery_90_1",
+      "score": 7.75
     },
-    "closest_matches": [
-      {
-        "table": "system_requirements_energy_recovery_IECC",
-        "score": 5.75
-      },
-      {
-        "table": "system_requirements_energy_recovery_90_1",
-        "score": 3.75
-      },
-      {
-        "table": "system_requirements_energy_recovery_90_1_prm",
-        "score": 1.75
+    {
+      "table": "system_requirements_energy_recovery_IECC",
+      "score": 7.75
+    },
+    {
+      "table": "system_requirements_energy_recovery_90_1_prm",
+      "score": 5.75
+    }
+  ]
+},
+{
+  "question": "How do the outdoor air percentage thresholds for energy recovery requirements differ between humid (A) and dry (B) climate zones in IECC-2012?",
+  "expected": [
+    {
+      "table": "system_requirements_energy_recovery_IECC",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "energy_recovery",
+        "sub_system": null,
+        "standard_family": "IECC",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "energy_recovery",
+    "sub_system": "ventilation",
+    "standard_family": "IECC",
+    "standard_year": "2012",
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "Which climate zones completely exempt certain outdoor air percentage ranges from energy recovery requirements, and how have these exemptions evolved from IECC-2009 to IECC-2012?",
-    "expected": [
-      {
-        "table": "system_requirements_energy_recovery_IECC",
-        "descriptor": {
-          "domain": "unknown",
-          "topic": "requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": "energy_recovery",
-          "sub_system": null,
-          "standard_family": "IECC",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "energy_recovery",
-      "sub_system": "ventilation",
-      "standard_family": "IECC",
-      "standard_year": "2009, 2012",
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "system_requirements_energy_recovery_IECC",
+      "score": 8.25
     },
-    "closest_matches": [
-      {
-        "table": "system_requirements_energy_recovery_IECC",
-        "score": 2.75
-      },
-      {
-        "table": "hvac_minimum_requirements_commercial_refrigerators_freezers_IECC",
-        "score": 1.5
-      },
-      {
-        "table": "hvac_minimum_requirements_walkin_freezers_coolers_IECC",
-        "score": 1.5
+    {
+      "table": "system_requirements_energy_recovery_90_1",
+      "score": 6.25
+    },
+    {
+      "table": "system_requirements_energy_recovery_90_1_prm",
+      "score": 4.25
+    }
+  ]
+},
+{
+  "question": "Which climate zones completely exempt certain outdoor air percentage ranges from energy recovery requirements, and how have these exemptions evolved from IECC-2009 to IECC-2012?",
+  "expected": [
+    {
+      "table": "system_requirements_energy_recovery_IECC",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "energy_recovery",
+        "sub_system": null,
+        "standard_family": "IECC",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "energy_recovery",
+    "sub_system": "ventilation",
+    "standard_family": "IECC",
+    "standard_year": "2009, 2012",
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "How do the fan power allowances compare between different filtration levels (MERV 12 vs MERV 13-16 vs HEPA) across different system capacities?",
-    "expected": [
-      {
-        "table": "system_requirements_fan_power_allowance_90_1",
-        "descriptor": {
-          "domain": "unknown",
-          "topic": "requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "minimum_requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "fan",
-      "sub_system": "ventilation",
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "system_requirements_energy_recovery_IECC",
+      "score": 8.25
     },
-    "closest_matches": [
-      {
-        "table": "hvac_minimum_requirements_commercial_refrigerators_freezers_90_1",
-        "score": 1.0
-      },
-      {
-        "table": "hvac_minimum_requirements_commercial_refrigerators_freezers_189_1",
-        "score": 1.0
-      },
-      {
-        "table": "hvac_minimum_requirements_commercial_refrigerators_freezers_IECC",
-        "score": 1.0
+    {
+      "table": "system_requirements_energy_recovery_90_1",
+      "score": 6.25
+    },
+    {
+      "table": "system_requirements_energy_recovery_90_1_prm",
+      "score": 4.25
+    }
+  ]
+},
+{
+  "question": "How do the fan power allowances compare between different filtration levels (MERV 12 vs MERV 13-16 vs HEPA) across different system capacities?",
+  "expected": [
+    {
+      "table": "system_requirements_fan_power_allowance_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "fan_power",
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "fan_power",
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
   },
-  {
-    "question": "What are the highest fan power allowances for energy recovery components, and how do they compare between supply and exhaust systems?",
-    "expected": [
-      {
-        "table": "system_requirements_fan_power_allowance_90_1",
-        "descriptor": {
-          "domain": "unknown",
-          "topic": "requirements",
-          "data_role": "unknown",
-          "classification_type": null,
-          "system": null,
-          "sub_system": null,
-          "standard_family": "ASHRAE_90_1",
-          "standard_year": null,
-          "compliance_path": "prescriptive"
-        }
-      }
-    ],
-    "predicted_descriptor": {
-      "domain": "hvac",
-      "topic": "requirements",
-      "data_role": "requirements",
-      "classification_type": null,
-      "system": "energy_recovery",
-      "sub_system": "ventilation",
-      "standard_family": null,
-      "standard_year": null,
-      "compliance_path": "prescriptive"
+  "closest_matches": [
+    {
+      "table": "system_requirements_fan_power_allowance_90_1",
+      "score": 8.5
     },
-    "closest_matches": [
-      {
-        "table": "system_requirements_energy_recovery_90_1",
-        "score": 5.25
-      },
-      {
-        "table": "system_requirements_energy_recovery_IECC",
-        "score": 5.25
-      },
-      {
-        "table": "system_requirements_energy_recovery_90_1_prm",
-        "score": 3.25
+    {
+      "table": "envelope_requirements_90_1",
+      "score": 0.25
+    },
+    {
+      "table": "envelope_requirements_IECC",
+      "score": 0.25
+    }
+  ]
+},
+{
+  "question": "What are the highest fan power allowances for energy recovery components, and how do they compare between supply and exhaust systems?",
+  "expected": [
+    {
+      "table": "system_requirements_fan_power_allowance_90_1",
+      "descriptor": {
+        "domain": "hvac",
+        "topic": "minimum_requirements",
+        "system": "fan_power",
+        "sub_system": null,
+        "standard_family": "ASHRAE_90_1",
+        "standard_year": null,
+        "compliance_path": "prescriptive"
       }
-    ]
-  }
+    }
+  ],
+  "predicted_descriptor": {
+    "domain": "hvac",
+    "topic": "minimum_requirements",
+    "system": "energy_recovery",
+    "sub_system": null,
+    "standard_family": null,
+    "standard_year": null,
+    "compliance_path": "prescriptive"
+  },
+  "closest_matches": [
+    {
+      "table": "system_requirements_energy_recovery_90_1",
+      "score": 8.5
+    },
+    {
+      "table": "system_requirements_energy_recovery_IECC",
+      "score": 8.5
+    },
+    {
+      "table": "system_requirements_energy_recovery_90_1_prm",
+      "score": 6.5
+    }
+  ]
+}
 ]

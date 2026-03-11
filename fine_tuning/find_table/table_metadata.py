@@ -3,6 +3,8 @@ from pathlib import Path
 import sqlite3
 import json
 from typing import Dict, List, Any, Optional
+from contextlib import contextmanager
+from threading import Lock
 
 from fine_tuning.find_table.rules import RULES
 from fine_tuning.find_table.types import TableDescriptor
@@ -16,36 +18,49 @@ class SchemaMetadataService:
         db_path: str = "openstudio_standards.db",
         descriptions_path: str = "fine_tuning/find_table/data/generated_table_descriptions.json",
     ):
-        self.conn = sqlite3.connect(db_path)
+        self.db_path = db_path
         self.descriptions_path = Path(descriptions_path)
         self._table_descriptions: Optional[Dict[str, str]] = None
         self._table_names: Optional[List[str]] = None
         self._schemas: Optional[Dict[str, List[Dict[str, Any]]]] = None
 
+    @contextmanager
+    def _connect(self):
+        """Create a short-lived, read-only connection."""
+        conn = sqlite3.connect(self.db_path)
+        conn.row_factory = sqlite3.Row
+        conn.execute("PRAGMA query_only = ON")
+        try:
+            yield conn
+        finally:
+            conn.close()
+
     def get_table_names(self, table_filter: Optional[List[str]] = None) -> List[str]:
         if self._table_names is None:
-            cursor = self.conn.cursor()
-            cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
-            self._table_names = [row[0] for row in cursor.fetchall() if row[0]]
+            with self._connect() as conn:
+                cursor = conn.cursor()
+                cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+                self._table_names = [row[0] for row in cursor.fetchall() if row[0]]
 
         if table_filter:
             return [t for t in self._table_names if t in table_filter]
         return self._table_names
 
     def get_schema(self, table: str) -> List[Dict[str, Any]]:
-        cursor = self.conn.cursor()
-        cursor.execute(f"PRAGMA table_info({table});")
-        columns = cursor.fetchall()
-        return [
-            {
-                "column": col_name,
-                "type": col_type,
-                "not_null": bool(notnull),
-                "default": default,
-                "primary_key": bool(pk),
-            }
-            for _, col_name, col_type, notnull, default, pk in columns
-        ]
+        with self._connect() as conn:
+            cursor = conn.cursor()
+            cursor.execute(f"PRAGMA table_info({table});")
+            columns = cursor.fetchall()
+            return [
+                {
+                    "column": col_name,
+                    "type": col_type,
+                    "not_null": bool(notnull),
+                    "default": default,
+                    "primary_key": bool(pk),
+                }
+                for _, col_name, col_type, notnull, default, pk in columns
+            ]
 
     def get_all_schemas(
         self, table_filter: Optional[List[str]] = None
@@ -155,13 +170,14 @@ class SchemaMetadataService:
             if include_sample_rows:
                 from fine_tuning.data_processing.add_context import get_sample_rows
 
-                sample_rows = get_sample_rows(conn=self.conn, table_name=table)
-                metadata[table]["sample_rows"] = sample_rows
+                with self._connect() as conn:
+                    sample_rows = get_sample_rows(conn=conn, table_name=table)
+                    metadata[table]["sample_rows"] = sample_rows
 
         return metadata
 
     def close(self):
-        self.conn.close()
+        pass
 
     def __enter__(self):
         return self

@@ -12,43 +12,30 @@ class Domain(StrEnum):
     UNKNOWN = "unknown"
 
     @classmethod
-    def from_prefix(cls, prefix: str) -> "Domain":
-        return {
+    def from_tokens(cls, tokens: list[str]) -> "Domain":
+        table_name = "_".join(tokens)
+        prefix_mapping = {
             "envelope": cls.ENVELOPE,
             "hvac": cls.HVAC,
             "exterior": cls.LIGHTING,
-            "level": cls.SPACE_CLASSIFICATION,
+            "level_3_lighting": cls.LIGHTING,
+            "level_2": cls.SPACE_CLASSIFICATION,
+            "level_1": cls.SPACE_CLASSIFICATION,
             "support": cls.SUPPORT,
-        }.get(prefix, cls.UNKNOWN)
-
+            "system_requirements": cls.HVAC,
+        }
+        return next(
+            (domain for prefix, domain in prefix_mapping.items() if table_name.startswith(prefix)),
+            cls.UNKNOWN
+        )
 
 class Topic(StrEnum):
     MINIMUM_REQUIREMENTS = "minimum_requirements"
-    REQUIREMENTS = "requirements"
     LIGHTING_DATA = "lighting_data"
     VENTILATION_DATA = "ventilation_data"
     SPACE_TYPES = "space_types"
     MATERIALS = "materials"
     CONSTRUCTIONS = "constructions"
-    SCHEDULES = "schedules"
-    PERFORMANCE_CURVES = "performance_curves"
-    STANDARD_TEMPLATES = "standard_templates"
-    OCCUPANT_TYPES = "occupant_types"
-    OCCUPANT_BEHAVIOR = "occupant_behavior"
-    LIGHTING_TECHNOLOGIES = "lighting_technologies"
-
-
-class DataRole(StrEnum):
-    REQUIREMENTS = "requirements"
-    REFERENCE_DATA = "reference_data"
-    NORMATIVE_INPUTS = "normative_inputs"
-    CLASSIFICATION = "classification"
-    UNKNOWN = "unknown"
-
-
-class ClassificationType(StrEnum):
-    TAXONOMY = "taxonomy"
-    SUBCLASSIFICATION = "subclassification"
 
 
 class System(StrEnum):
@@ -56,10 +43,13 @@ class System(StrEnum):
     CHILLER = "chiller"
     FURNACE = "furnace"
     HEAT_PUMP = "heat_pump"
-    VRF = "vrf"
+    VARIABLE_REFRIGERANT_FLOW_SYSTEM = "variable_refrigerant_flow_system"
     UNITARY_AC = "unitary_ac"
-    CRAC = "crac"
-    WATER_HEATER = "water_heater"
+    COMPUTER_ROOM_AC = "computer_room_ac"
+    WALKIN_FREEZERS_COOLER = "walkin_freezers_cooler"
+    COMMERCIAL_REFRIGERATORS_FREEZERS = "commercial_refrigerators_freezers"
+    WATER_HEATERS = "water_heaters"
+    FAN_POWER = "fan_power"
     HEAT_REJECTION = "heat_rejection"
     AIR_ECONOMIZER = "air_economizer"
     ENERGY_RECOVERY = "energy_recovery"
@@ -67,6 +57,8 @@ class System(StrEnum):
     FAN = "fan"
     PUMP = "pump"
     LIGHTING = "lighting"
+    ENVELOPE = "envelope"
+    THERMAL_BRIDGING = "thermal_bridging"
 
     @classmethod
     def from_tokens(cls, tokens: list[str]) -> Optional["System"]:
@@ -76,16 +68,22 @@ class System(StrEnum):
             "chillers": cls.CHILLER,
             "furnaces": cls.FURNACE,
             "heat_pumps": cls.HEAT_PUMP,
-            "variable_refrigerant_flow_systems": cls.VRF,
+            "variable_refrigerant_flow_systems": cls.VARIABLE_REFRIGERANT_FLOW_SYSTEM,
             "unitary_air_conditioners": cls.UNITARY_AC,
-            "computer_room_air_conditioners": cls.CRAC,
-            "water_heaters": cls.WATER_HEATER,
+            "computer_room_air_conditioners": cls.COMPUTER_ROOM_AC,
+            "commercial_refrigerators_freezers": cls.COMMERCIAL_REFRIGERATORS_FREEZERS,
+            "walkin_freezers_coolers": cls.WALKIN_FREEZERS_COOLER,
+            "fan_power": cls.FAN_POWER,
+            "water_heaters": cls.WATER_HEATERS,
             "heat_rejection": cls.HEAT_REJECTION,
             "air_economizer": cls.AIR_ECONOMIZER,
             "energy_recovery": cls.ENERGY_RECOVERY,
             "motors": cls.MOTOR,
             "fans": cls.FAN,
             "pumps": cls.PUMP,
+            "thermal_bridging": cls.THERMAL_BRIDGING,
+            "general_envelope": cls.ENVELOPE
+
         }
         for i in range(len(tokens)):
             for j in range(len(tokens), i, -1):
@@ -99,6 +97,7 @@ class SubSystem(StrEnum):
     COOLING = "cooling"
     HEATING = "heating"
     VENTILATION = "ventilation"
+    REFRIGERATION = "refrigeration"
 
 
 class StandardFamily(StrEnum):
@@ -119,15 +118,6 @@ class TableDescriptor:
 
     topic: Optional[Topic] = field(
         default=None, metadata={"weight": 1.5, "example": Topic.MINIMUM_REQUIREMENTS}
-    )
-
-    data_role: DataRole = field(
-        default=DataRole.UNKNOWN,
-        metadata={"weight": 0.5, "example": DataRole.REQUIREMENTS},
-    )
-
-    classification_type: Optional[ClassificationType] = field(
-        default=None, metadata={"weight": 1.0, "example": ClassificationType.TAXONOMY}
     )
 
     system: Optional[System] = field(

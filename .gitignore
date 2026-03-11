@@ -7,3 +7,4 @@ openstudio-standards/
 fine_tuning/output/*
 .venv/
 __pycache__
+.DS_Store

@@ -3,13 +3,13 @@ import csv
 from pathlib import Path
 import re
 
-from fine_tuning.find_table.lookup_pipeline import QueryPipeline
+from fine_tuning.find_table.lookup_pipeline import TABLE_NAMES, QueryPipeline
 
 query_pipeline = QueryPipeline()
 
 
 def save_table_descriptors_to_json():
-    table_names = query_pipeline.schema_service.get_table_names()
+    table_names = query_pipeline.schema_service.get_table_names(table_filter=TABLE_NAMES)
     table_descriptors = {
         table_name: query_pipeline.schema_service.parse_table_name(table_name).__dict__
         for table_name in table_names
@@ -43,7 +43,7 @@ def compare_descriptor_from_queries():
                     row["question"]
                 )
                 table_metadata = query_pipeline.schema_service.generate_all_metadata(
-                    include_columns=False, include_descriptor=True
+                    include_columns=False, include_descriptor=True, table_filter = TABLE_NAMES
                 )
                 ranked_results = query_pipeline.rank_tables(query_attrs, table_metadata)
 
@@ -76,7 +76,29 @@ def compare_descriptor_from_queries():
 
             out_f.write("\n]")
 
+def calculate():
+    output_path = Path("fine_tuning/find_table/manual_test/output/results.json")
+    with open(output_path, "r", encoding="utf-8") as out_f:
+        data = json.load(out_f)
+    data = [v for v in data if v["expected"][0]["table"] in TABLE_NAMES]
+
+    matches_count = 0
+
+    for item in data:
+        expected_tables = {e["table"] for e in item["expected"]}
+        closest_tables = {c["table"] for c in item["closest_matches"]}
+
+        if expected_tables & closest_tables:  # intersection non-empty
+            matches_count += 1
+        else:
+            print(expected_tables, closest_tables)
+
+    percentage = (matches_count / len(data)) * 100
+    print(f"Expected table appears in closest matches: {percentage:.2f}% of cases")
+
 
 if __name__ == "__main__":
-    save_table_descriptors_to_json()
+    # save_table_descriptors_to_json()
     # compare_descriptor_from_queries()
+    calculate()
+

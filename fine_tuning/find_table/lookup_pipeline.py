@@ -19,6 +19,102 @@ TOP_K = 3
 
 FIELD_WEIGHTS = get_field_weights(TableDescriptor)
 
+TABLE_NAMES = [
+    "hvac_minimum_requirements_motors_90_1",
+    "hvac_minimum_requirements_motors_90_1_prm",
+    "hvac_minimum_requirements_motors_IECC",
+    "hvac_minimum_requirements_motors_189_1",
+    "hvac_minimum_requirements_water_heaters_90_1",
+    "hvac_minimum_requirements_water_heaters_90_1_prm",
+    "hvac_minimum_requirements_water_heaters_IECC",
+    "hvac_minimum_requirements_water_heaters_189_1",
+    "hvac_minimum_requirements_heat_rejection_90_1",
+    "hvac_minimum_requirements_heat_rejection_IECC",
+    "hvac_minimum_requirements_heat_rejection_90_1_prm",
+    "hvac_minimum_requirements_heat_rejection_189_1",
+    "hvac_minimum_requirements_unitary_air_conditioners_90_1",
+    "hvac_minimum_requirements_unitary_air_conditioners_90_1_prm",
+    "hvac_minimum_requirements_unitary_air_conditioners_IECC",
+    "hvac_minimum_requirements_unitary_air_conditioners_189_1",
+    "hvac_minimum_requirements_heat_pumps_cooling_90_1",
+    "hvac_minimum_requirements_heat_pumps_cooling_90_1_prm",
+    "hvac_minimum_requirements_heat_pumps_cooling_IECC",
+    "hvac_minimum_requirements_heat_pumps_cooling_189_1",
+    "hvac_minimum_requirements_heat_pumps_heating_90_1",
+    "hvac_minimum_requirements_heat_pumps_heating_90_1_prm",
+    "hvac_minimum_requirements_heat_pumps_heating_IECC",
+    "hvac_minimum_requirements_heat_pumps_heating_189_1",
+    "hvac_minimum_requirements_chillers_90_1",
+    "hvac_minimum_requirements_chillers_90_1_prm",
+    "hvac_minimum_requirements_chillers_IECC",
+    "hvac_minimum_requirements_chillers_189_1",
+    "hvac_minimum_requirements_boilers_90_1",
+    "hvac_minimum_requirements_boilers_90_1_prm",
+    "hvac_minimum_requirements_boilers_IECC",
+    "hvac_minimum_requirements_boilers_189_1",
+    "hvac_minimum_requirements_furnaces_90_1",
+    "hvac_minimum_requirements_furnaces_90_1_prm",
+    "hvac_minimum_requirements_furnaces_IECC",
+    "hvac_minimum_requirements_furnaces_189_1",
+    "level_3_lighting_90_1_2022",
+    "level_3_lighting_90_1_2019",
+    "level_3_lighting_90_1_2016",
+    "level_3_lighting_90_1_2013",
+    "level_3_lighting_90_1_2010",
+    "level_3_lighting_90_1_2007",
+    "level_3_lighting_90_1_2004",
+    "level_3_lighting_90_1_2022_prm",
+    "level_3_lighting_90_1_2019_prm",
+    "level_3_lighting_90_1_2016_prm",
+    "level_3_lighting_90_1_2013_prm",
+    "level_3_lighting_90_1_2010_prm",
+    "level_3_lighting_90_1_2007_prm",
+    "level_3_lighting_90_1_2004_prm",
+    "level_3_lighting_IECC_2021",
+    "level_3_lighting_IECC_2018",
+    "level_3_lighting_IECC_2015",
+    "level_3_lighting_IECC_2012",
+    "level_3_lighting_IECC_2009",
+    "level_3_lighting_IECC_2006",
+    "level_3_ventilation_62_1_2022",
+    "level_3_ventilation_62_1_2019",
+    "level_3_ventilation_62_1_2016",
+    "level_3_ventilation_62_1_2013",
+    "level_3_ventilation_62_1_2010",
+    "level_3_ventilation_62_1_2007",
+    "level_3_ventilation_62_1_2004",
+    "level_3_ventilation_62_1_1999",
+    "system_requirements_energy_recovery_90_1",
+    "system_requirements_energy_recovery_IECC",
+    "system_requirements_energy_recovery_90_1_prm",
+    "system_requirements_air_economizer_90_1",
+    "system_requirements_air_economizer_90_1_prm",
+    "system_requirements_air_economizer_IECC",
+    "hvac_minimum_requirements_computer_room_air_conditioners_90_1",
+    "hvac_minimum_requirements_computer_room_air_conditioners_IECC",
+    "hvac_minimum_requirements_computer_room_air_conditioners_189_1",
+    "hvac_minimum_requirements_variable_refrigerant_flow_systems_90_1",
+    "hvac_minimum_requirements_variable_refrigerant_flow_systems_IECC",
+    "hvac_minimum_requirements_variable_refrigerant_flow_systems_189_1",
+    "hvac_minimum_requirements_commercial_refrigerators_freezers_90_1",
+    "hvac_minimum_requirements_commercial_refrigerators_freezers_90_1_prm",
+    "hvac_minimum_requirements_commercial_refrigerators_freezers_189_1",
+    "hvac_minimum_requirements_commercial_refrigerators_freezers_IECC",
+    "hvac_minimum_requirements_walkin_freezers_coolers_90_1",
+    "hvac_minimum_requirements_walkin_freezers_coolers_90_1_prm",
+    "hvac_minimum_requirements_walkin_freezers_coolers_189_1",
+    "hvac_minimum_requirements_walkin_freezers_coolers_IECC",
+    "exterior_lighting_90_1",
+    "exterior_lighting_90_1_prm",
+    "exterior_lighting_IECC",
+    "envelope_thermal_bridging_requirements_IECC",
+    "envelope_thermal_bridging_requirements_90_1",
+    "system_requirements_fan_power_allowance_90_1",
+    "envelope_requirements_90_1",
+    "envelope_requirements_90_1_prm",
+    "envelope_requirements_IECC",
+]
+
 
 class QueryPipeline:
     """Orchestrates query → table selection → SQL generation pipeline."""
@@ -47,7 +143,7 @@ class QueryPipeline:
 
         # 2. Get table metadata and rank by attribute matching
         table_metadata = self.schema_service.generate_all_metadata(
-            include_columns=False, include_descriptor=True
+            table_filter=TABLE_NAMES, include_columns=False, include_descriptor=True
         )
 
         ranked_results = self.rank_tables(query_attrs, table_metadata)
@@ -69,7 +165,10 @@ class QueryPipeline:
         )
 
         sql = self.llm_generate_sql(query, detailed_metadata)
-        results = run_sqlite_query(sql, self.schema_service.conn)
+        print(f"4.\nGenerated SQL:\n{sql}\n\n")
+
+        with self.schema_service._connect() as conn:
+            results = run_sqlite_query(sql, conn)
 
         if not results:
             results = "No results found or an error occurred during query execution."
@@ -82,7 +181,6 @@ class QueryPipeline:
         prompt = self._build_extraction_prompt(query)
         response = self.llm.generate(prompt)
         return self.llm.extract_json_from_text(response)
-
 
     def _build_extraction_prompt(self, query: str) -> str:
         descriptor_prompt = build_descriptor_prompt(TableDescriptor)
@@ -163,7 +261,7 @@ Do not include an explanation."""
 
         print(f"SQL generation prompt:\n{prompt}\n")
         return self.llm.generate(prompt)
-    
+
     def llm_interpret_results(self, query: str, results) -> str:
         """Generate SQL query using table metadata."""
         prompt = f"""Use these results from the building energy standards database to answer the user query:
@@ -193,7 +291,7 @@ def generate_table_descriptions(
     service = schema_service or SchemaMetadataService()
     generated = {}
 
-    for table_name in service.get_table_names():
+    for table_name in service.get_table_names(TABLE_NAMES):
         descriptor = service.parse_table_name(table_name)
         columns = service.render_schema(service.get_schema(table_name))
         metadata = service.generate_all_metadata(
