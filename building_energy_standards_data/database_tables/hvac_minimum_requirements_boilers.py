@@ -12,6 +12,7 @@ fuel_type: TEXT
 draft_type: TEXT
 minimum_capacity: NUMERIC
 maximum_capacity: NUMERIC
+plant_capacity: TEXT
 start_date: TEXT
 end_date: TEXT
 minimum_annual_fuel_utilization_efficiency: NUMERIC
@@ -31,6 +32,7 @@ fuel_type TEXT NOT NULL,
 draft_type TEXT,
 minimum_capacity NUMERIC,
 maximum_capacity NUMERIC,
+plant_capacity TEXT,
 start_date TEXT NOT NULL,
 end_date TEXT NOT NULL,
 minimum_annual_fuel_utilization_efficiency NUMERIC,
@@ -49,6 +51,7 @@ fuel_type,
 draft_type,
 minimum_capacity,
 maximum_capacity,
+plant_capacity,
 start_date,
 end_date,
 minimum_annual_fuel_utilization_efficiency,
@@ -58,7 +61,7 @@ standby_mode_power,
 off_mode_power,
 annotation
 ) 
-VALUES (?, ?, ?, ? , ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ? , ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -68,6 +71,7 @@ RECORD_TEMPLATE = {
     "draft_type": "",
     "minimum_capacity": 0.0,
     "maximum_capacity": 0.0,
+    "plant_capacity": "",
     "start_date": "",
     "end_date": "",
     "minimum_annual_fuel_utilization_efficiency": 0.0,
@@ -101,6 +105,7 @@ class HVACMinReqBoilers(DBOperation):
             "template",
             "fluid_type",
             "draft_type",
+            "plant_capacity",
             "start_date",
             "end_date",
         ]
@@ -141,6 +146,7 @@ class HVACMinReqBoilers(DBOperation):
             getattr_either("draft_type", record),
             getattr_either("minimum_capacity", record),
             getattr_either("maximum_capacity", record),
+            getattr_either("plant_capacity", record),
             getattr_either("start_date", record),
             getattr_either("end_date", record),
             getattr_either("minimum_annual_fuel_utilization_efficiency", record),
