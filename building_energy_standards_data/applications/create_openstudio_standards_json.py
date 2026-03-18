@@ -97,7 +97,7 @@ def create_openstudio_standards_space_data_json(
 
     :param conn (sqlite3.Connection): database connection
     :param template (str): template corresponding to the code and code version, e.g. "90.1-2004", or "90.1-2007"
-    :param code_version (str): verion of the code, e.g. "2004", "2007", etc.
+    :param code_version (str): version of the code, e.g. "2004", "2007", etc.
     :param missing_data_lookup_hierarchy (list): list (ordered) of values to use to look up record if targeted value cannot be found
     :param code (str): name of the building energy code, e.g. "ashrae_90_1"
     :param osstd_repository_path (str): path of the local openstudio-standards repository
@@ -296,7 +296,7 @@ def create_openstudio_standards_space_data_json(
             space_type_data["ventilation_air_changes"] = 0.0
             space_type_data[
                 "occupancy_per_area"
-            ] = occ_per_area  # assume unit is people / 1000 ft2; TODO: unit check
+            ] = occ_per_area  # assume unit is people/1000 ft2; TODO: unit check
 
             # Schedules
             schedule_set_name = space_type_infos["schedule_set_name"]
@@ -458,7 +458,7 @@ def create_openstudio_standards_code_version_data_json(
     """Extract code- and code version-specific OpenStudio Standards data from the database and export it to JSON files
     :param conn (sqlite3.Connection): database connection
     :param code (str): name of the building energy code, e.g. "ashrae_90_1"
-    :param code_version (str): verion of the code, e.g. "2004", "2007", etc.
+    :param code_version (str): version of the code, e.g. "2004", "2007", etc.
     :param template (str): template corresponding to the code and code version, e.g. "90.1-2004", or "90.1-2007"
     :param tables_to_export (dict): mapping of name of OpenStudio Standards JSON file name to corresponding tables from the database that contains the data for the code and code version data
     :param osstd_repository_path (str): path of the local openstudio-standards repository
@@ -496,7 +496,7 @@ def create_openstudio_standards_code_version_data_json(
                 output_report.write(json.dumps(file_content, indent=2))
         else:
             logging.warning(
-                f"No records were found, so {table} won't be created for {code} {code_version}"
+                f"No records were found, so {table} will not be created for {code} {code_version}"
             )
 
 
@@ -536,7 +536,7 @@ def create_openstudio_standards_code_data_json(
                 output_report.write(json.dumps(file_content, indent=2))
         else:
             logging.warning(
-                f"No records were found, so {table} won't be created for {code}"
+                f"No records were found, so {table} will not be created for {code}"
             )
 
 
@@ -582,7 +582,7 @@ def process_records(records: list) -> list:
             if value == "FALSE":
                 record[key] = False
 
-            # Identify of the data is part of an "enumeration" of material or schedules
+            # Identify whether the data is part of an "enumeration" of materials or schedules
             # e.g., is the key "material_1", or "material_2", etc.
             material_id = key.split("material_")[-1]
             hour_id = key.split("hr_")[-1]

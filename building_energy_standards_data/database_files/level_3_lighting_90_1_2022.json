@@ -1106,7 +1106,7 @@
     {
         "method": "CS",
         "lighting_primary_space_type": "Lounge/Breakroom",
-        "lighting_secondary_space_type": "Mother\u2019s/wellness room",
+        "lighting_secondary_space_type": "Mother\u0092s/wellness room",
         "lighting_power_density": 0.68,
         "lighting_power_density_unit": "W/ft2",
         "supplemental_lighting_power_density": null,

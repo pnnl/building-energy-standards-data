@@ -3212,10 +3212,10 @@
         "end_date": "9/9/2999",
         "minimum_seasonal_energy_efficiency_ratio": null,
         "minimum_seasonal_energy_efficiency_ratio_2": null,
-        "minimum_energy_efficiency_ratio": 11.2,
+        "minimum_energy_efficiency_ratio": 11,
         "minimum_energy_efficiency_ratio_2": null,
         "minimum_integrated_part_load_value": null,
-        "minimum_integrated_energy_efficiency_ratio": 11.4,
+        "minimum_integrated_energy_efficiency_ratio": 11.2,
         "minimum_combined_energy_efficiency_ratio": null,
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
@@ -3342,10 +3342,10 @@
         "end_date": "9/9/2999",
         "minimum_seasonal_energy_efficiency_ratio": null,
         "minimum_seasonal_energy_efficiency_ratio_2": null,
-        "minimum_energy_efficiency_ratio": 11.2,
+        "minimum_energy_efficiency_ratio": 11,
         "minimum_energy_efficiency_ratio_2": null,
         "minimum_integrated_part_load_value": null,
-        "minimum_integrated_energy_efficiency_ratio": 11.4,
+        "minimum_integrated_energy_efficiency_ratio": 11.2,
         "minimum_combined_energy_efficiency_ratio": null,
         "ptac_eer_coefficient_1": null,
         "ptac_eer_coefficient_2": null,
@@ -8956,7 +8956,7 @@
         "maximum_capacity": 64999.99,
         "start_date": "9/9/1919",
         "end_date": "9/9/2999",
-        "minimum_seasonal_energy_efficiency_ratio": 13,
+        "minimum_seasonal_energy_efficiency_ratio": 14,
         "minimum_seasonal_energy_efficiency_ratio_2": null,
         "minimum_energy_efficiency_ratio": null,
         "minimum_energy_efficiency_ratio_2": null,
@@ -8967,7 +8967,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -8993,7 +8993,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9019,7 +9019,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9045,7 +9045,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9071,7 +9071,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9097,7 +9097,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9123,7 +9123,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9149,7 +9149,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9175,7 +9175,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9201,7 +9201,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9227,7 +9227,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9253,7 +9253,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9279,7 +9279,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9305,7 +9305,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9331,7 +9331,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9357,7 +9357,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9383,7 +9383,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9409,7 +9409,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9435,7 +9435,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9461,7 +9461,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9487,7 +9487,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9513,7 +9513,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9539,7 +9539,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9565,7 +9565,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9591,7 +9591,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9617,7 +9617,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9643,7 +9643,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9669,7 +9669,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9695,7 +9695,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9721,7 +9721,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9747,7 +9747,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9773,7 +9773,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9799,7 +9799,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9825,7 +9825,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9851,7 +9851,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9877,7 +9877,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9903,7 +9903,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9929,7 +9929,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9955,7 +9955,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -9981,7 +9981,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10007,7 +10007,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10033,7 +10033,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10059,7 +10059,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10085,7 +10085,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10111,7 +10111,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10137,7 +10137,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10163,7 +10163,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10189,7 +10189,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10215,7 +10215,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10241,7 +10241,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10267,7 +10267,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10293,7 +10293,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10319,7 +10319,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10345,7 +10345,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10371,7 +10371,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10397,7 +10397,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10423,7 +10423,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10449,7 +10449,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10475,7 +10475,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2018",
@@ -10501,7 +10501,7 @@
         "ptac_eer_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_cooling": null,
-        "annotation": "From IECC-2018 Table C403.2.3(1)"
+        "annotation": "From IECC-2018 Table C403.3.2(1)"
     },
     {
         "template": "IECC-2021",
@@ -11114,7 +11114,7 @@
         "maximum_capacity": 64999.99,
         "start_date": "9/9/1919",
         "end_date": "12/31/2022",
-        "minimum_seasonal_energy_efficiency_ratio": 13,
+        "minimum_seasonal_energy_efficiency_ratio": 14,
         "minimum_seasonal_energy_efficiency_ratio_2": null,
         "minimum_energy_efficiency_ratio": null,
         "minimum_energy_efficiency_ratio_2": null,

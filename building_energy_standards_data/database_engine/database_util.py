@@ -8,15 +8,26 @@ def read_csv_to_tuples(csv_dir):
     :param csv_dir:
     :return: list<tuple> list of tuple
     """
-    table_list = []
-    with open(csv_dir) as csv_file:
-        csv_reader = csv.reader(csv_file, delimiter=",")
-        for row in csv_reader:
-            # remove empty strings in the record
-            new_row = [cell if cell else None for cell in row]
-            table_list.append(tuple(new_row))
+    # Try UTF-8 first, then fall back to latin-1 if that fails
+    encodings_to_try = ["utf-8-sig", "latin-1", "cp1252"]
 
-    return table_list
+    for encoding in encodings_to_try:
+        try:
+            table_list = []
+            with open(csv_dir, mode="r", encoding="utf-8-sig") as csv_file:
+                csv_reader = csv.reader(csv_file, delimiter=",")
+                for row in csv_reader:
+                    # remove empty strings in the record
+                    new_row = [cell if cell else None for cell in row]
+                    table_list.append(tuple(new_row))
+            return table_list
+        except UnicodeDecodeError:
+            continue
+
+    # If all encodings fail, raise an error
+    raise UnicodeDecodeError(
+        f"Could not decode file {csv_dir} with any of the attempted encodings: {encodings_to_try}"
+    )
 
 
 def read_csv_to_list_dict(csv_dir):
@@ -25,12 +36,24 @@ def read_csv_to_list_dict(csv_dir):
     :param csv_dir:
     :return: list<dict> list of dictionary
     """
-    with open(csv_dir, mode="r") as csv_file:
-        csv_reader = csv.DictReader(csv_file, delimiter=",")
-        table_list = [
-            {key: row[key] for key in row if key != "id"} for row in csv_reader
-        ]
-    return table_list
+    # Try UTF-8 first, then fall back to latin-1 if that fails
+    encodings_to_try = ["utf-8-sig", "latin-1", "cp1252"]
+
+    for encoding in encodings_to_try:
+        try:
+            with open(csv_dir, mode="r", encoding=encoding) as csv_file:
+                csv_reader = csv.DictReader(csv_file, delimiter=",")
+                table_list = [
+                    {key: row[key] for key in row if key != "id"} for row in csv_reader
+                ]
+            return table_list
+        except UnicodeDecodeError:
+            continue
+
+    # If all encodings fail, raise an error
+    raise UnicodeDecodeError(
+        f"Could not decode file {csv_dir} with any of the attempted encodings: {encodings_to_try}"
+    )
 
 
 def read_json_to_list_dict(json_dir):
@@ -64,15 +87,15 @@ def is_float(element: any) -> bool:
 
 def getattr_either(key: str, record: dict, option=None):
     """
-    A helper function to retrieve a key from a record object (dict) with an option for reject solution.
+    A helper function to retrieve a key from a record object (dict) with an option for a default value.
     :param key: key
-    :param record: dictionary that could contain value for the key.
-    :param option: value return when reject (optional), default is None
+    :param record: dictionary that could contain a value for the key.
+    :param option: value returned when missing (optional), defaults to None
     :return: value
     """
     if record.get(key) == "":  # used for reading data from CSV
         return option
-    elif record.get(key) is None:  # used for readting data from CSV
+    elif record.get(key) is None:  # used for reading data from CSV
         return option
     else:
         return f"{record[key]}"

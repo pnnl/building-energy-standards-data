@@ -1,0 +1,222 @@
+[
+    {
+        "template": "189.1-2009",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00099,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 189.1-2009 Section 7.4.3.6"
+    },
+    {
+        "template": "189.1-2009",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.000846,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 189.1-2009 Section 7.4.3.6"
+    },
+    {
+        "template": "189.1-2009",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00135,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 189.1-2009 Section 7.4.3.6"
+    },
+    {
+        "template": "189.1-2009",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00117,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 189.1-2009 Section 7.4.3.6"
+    },
+    {
+        "template": "189.1-2011",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00099,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 189.1-2011 Section 7.4.3.5"
+    },
+    {
+        "template": "189.1-2011",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.000846,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 189.1-2011 Section 7.4.3.5"
+    },
+    {
+        "template": "189.1-2011",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00135,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 189.1-2011 Section 7.4.3.5"
+    },
+    {
+        "template": "189.1-2011",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00117,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 189.1-2011 Section 7.4.3.5"
+    },
+    {
+        "template": "189.1-2017",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00099,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 189.1-2017 Section 7.4.3.6.1"
+    },
+    {
+        "template": "189.1-2017",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.000846,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 189.1-2017 Section 7.4.3.6.1"
+    },
+    {
+        "template": "189.1-2017",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00135,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 189.1-2017 Section 7.4.3.6.1"
+    },
+    {
+        "template": "189.1-2017",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00117,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 189.1-2017 Section 7.4.3.6.1"
+    },
+    {
+        "template": "189.1-2020",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00099,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 189.1-2020 Section 7.4.3.6.1"
+    },
+    {
+        "template": "189.1-2020",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.000846,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 189.1-2020 Section 7.4.3.6.1"
+    },
+    {
+        "template": "189.1-2020",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00135,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 189.1-2020 Section 7.4.3.6.1"
+    },
+    {
+        "template": "189.1-2020",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00117,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 189.1-2020 Section 7.4.3.6.1"
+    },
+    {
+        "template": "189.1-2023",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00099,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 189.1-2023 Section 7.4.3.5.1"
+    },
+    {
+        "template": "189.1-2023",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.000846,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 189.1-2023 Section 7.4.3.5.1"
+    },
+    {
+        "template": "189.1-2023",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00135,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 189.1-2023 Section 7.4.3.5.1"
+    },
+    {
+        "template": "189.1-2023",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00117,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 189.1-2023 Section 7.4.3.5.1"
+    }
+]

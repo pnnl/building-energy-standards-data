@@ -144,7 +144,7 @@
         "configuration": null,
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "68F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -167,7 +167,7 @@
         "configuration": null,
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "50F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -190,7 +190,7 @@
         "configuration": null,
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "32F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -489,7 +489,7 @@
         "configuration": null,
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "68F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -512,7 +512,7 @@
         "configuration": null,
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "50F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -535,7 +535,7 @@
         "configuration": null,
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "32F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -880,7 +880,7 @@
         "configuration": null,
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "68F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -903,7 +903,7 @@
         "configuration": null,
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "50F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -926,7 +926,7 @@
         "configuration": null,
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "32F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -995,7 +995,7 @@
         "configuration": "Brine to Water",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "32F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -1161,7 +1161,7 @@
         "region": null,
         "minimum_capacity": 0,
         "maximum_capacity": 64999.99,
-        "start_date": "1/1/2016",
+        "start_date": "1/1/16",
         "end_date": "9/9/2999",
         "minimum_heating_seasonal_performance_factor": 8,
         "minimum_heating_seasonal_performance_factor_2": null,
@@ -1386,7 +1386,7 @@
         "configuration": "Water to Air",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "68F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -1409,7 +1409,7 @@
         "configuration": "Water to Air",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "50F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -1432,7 +1432,7 @@
         "configuration": "Brine to Air",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "32F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -1455,7 +1455,7 @@
         "configuration": "Water to Water",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "68F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -1478,7 +1478,7 @@
         "configuration": "Water to Water",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "50F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -1501,7 +1501,7 @@
         "configuration": "Brine to Water",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "32F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -1846,7 +1846,7 @@
         "configuration": "Water to Air",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "68F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -1869,7 +1869,7 @@
         "configuration": "Water to Air",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "50F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -1892,7 +1892,7 @@
         "configuration": "Brine to Air",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "32F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -1915,7 +1915,7 @@
         "configuration": "Water to Water",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "68F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -1938,7 +1938,7 @@
         "configuration": "Water to Water",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "50F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -1961,7 +1961,7 @@
         "configuration": "Brine to Water",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "32F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -3157,7 +3157,7 @@
         "configuration": "Water to Air",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "68F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -3180,7 +3180,7 @@
         "configuration": "Water to Air",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "50F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -3203,7 +3203,7 @@
         "configuration": "Brine to Air",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "32F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -3226,7 +3226,7 @@
         "configuration": "Water to Water",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "68F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -3249,7 +3249,7 @@
         "configuration": "Water to Water",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "50F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -3272,7 +3272,7 @@
         "configuration": "Brine to Water",
         "subcategory": null,
         "application": null,
-        "rating_condition": null,
+        "rating_condition": "32F entering water",
         "electric_power_phase": null,
         "region": null,
         "minimum_capacity": 0,
@@ -3289,7 +3289,7 @@
         "annotation": "From IECC-2021 TABLE C403.3.2(14). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "PTHP",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3309,10 +3309,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(4). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(4). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "PTHP",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3332,10 +3332,10 @@
         "pthp_cop_coefficient_2": 0.052,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(4). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(4). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "PTHP",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3355,10 +3355,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(4). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(4). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "PTHP",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3378,10 +3378,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(4). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(4). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "PTHP",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3401,10 +3401,10 @@
         "pthp_cop_coefficient_2": 0.026,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(4). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(4). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "PTHP",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3424,10 +3424,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(4). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(4). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "SPVHP",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3447,10 +3447,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(4). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(4). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "SPVHP",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3470,10 +3470,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(4). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(4). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "SPVHP",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3493,10 +3493,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(4). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(4). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3507,7 +3507,7 @@
         "region": null,
         "minimum_capacity": 0,
         "maximum_capacity": 64999.99,
-        "start_date": "1/1/2023",
+        "start_date": "9/9/1919",
         "end_date": "9/9/2999",
         "minimum_heating_seasonal_performance_factor": null,
         "minimum_heating_seasonal_performance_factor_2": 6.7,
@@ -3516,10 +3516,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(2). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(2). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3530,7 +3530,7 @@
         "region": null,
         "minimum_capacity": 65000,
         "maximum_capacity": 134999.99,
-        "start_date": "1/1/2023",
+        "start_date": "9/9/1919",
         "end_date": "9/9/2999",
         "minimum_heating_seasonal_performance_factor": null,
         "minimum_heating_seasonal_performance_factor_2": null,
@@ -3539,10 +3539,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(2). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(2). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3562,10 +3562,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(2). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(2). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3576,7 +3576,7 @@
         "region": null,
         "minimum_capacity": 135000,
         "maximum_capacity": 239999.99,
-        "start_date": "1/1/2023",
+        "start_date": "9/9/1919",
         "end_date": "9/9/2999",
         "minimum_heating_seasonal_performance_factor": null,
         "minimum_heating_seasonal_performance_factor_2": null,
@@ -3585,10 +3585,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(2). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(2). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3608,10 +3608,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(2). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(2). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3631,10 +3631,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(2). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(2). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3654,10 +3654,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(2). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(2). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3668,7 +3668,7 @@
         "region": null,
         "minimum_capacity": 0,
         "maximum_capacity": 64999.99,
-        "start_date": "1/1/2023",
+        "start_date": "9/9/1919",
         "end_date": "9/9/2999",
         "minimum_heating_seasonal_performance_factor": null,
         "minimum_heating_seasonal_performance_factor_2": 7.5,
@@ -3677,44 +3677,21 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(2). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(2). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Space Constrained",
         "cooling_type": "AirCooled",
         "configuration": null,
         "subcategory": "Single Package",
-        "application": null,
-        "rating_condition": null,
-        "electric_power_phase": 3,
-        "region": null,
-        "minimum_capacity": 0,
-        "maximum_capacity": 30000,
-        "start_date": "1/1/2023",
-        "end_date": "9/9/2999",
-        "minimum_heating_seasonal_performance_factor": null,
-        "minimum_heating_seasonal_performance_factor_2": 6.3,
-        "minimum_coefficient_of_performance_heating": null,
-        "pthp_cop_coefficient_1": null,
-        "pthp_cop_coefficient_2": null,
-        "off_mode_power": null,
-        "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(2).  \"Space Constrained\" is previously called \"Through the Wall\""
-    },
-    {
-        "template": "IECC-2021",
-        "equipment_type": "Space Constrained",
-        "cooling_type": "AirCooled",
-        "configuration": null,
-        "subcategory": "Split System",
         "application": null,
         "rating_condition": null,
         "electric_power_phase": 3,
         "region": null,
         "minimum_capacity": 0,
         "maximum_capacity": 30000,
-        "start_date": "1/1/2023",
+        "start_date": "9/9/1919",
         "end_date": "9/9/2999",
         "minimum_heating_seasonal_performance_factor": null,
         "minimum_heating_seasonal_performance_factor_2": 6.3,
@@ -3723,10 +3700,33 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(2).  \"Space Constrained\" is previously called \"Through the Wall\""
+        "annotation": "From IECC-2024 TABLE C403.3.2(2).  \"Space Constrained\" is previously called \"Through the Wall\""
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
+        "equipment_type": "Space Constrained",
+        "cooling_type": "AirCooled",
+        "configuration": null,
+        "subcategory": "Split System",
+        "application": null,
+        "rating_condition": null,
+        "electric_power_phase": 3,
+        "region": null,
+        "minimum_capacity": 0,
+        "maximum_capacity": 30000,
+        "start_date": "9/9/1919",
+        "end_date": "9/9/2999",
+        "minimum_heating_seasonal_performance_factor": null,
+        "minimum_heating_seasonal_performance_factor_2": 6.3,
+        "minimum_coefficient_of_performance_heating": null,
+        "pthp_cop_coefficient_1": null,
+        "pthp_cop_coefficient_2": null,
+        "off_mode_power": null,
+        "minimum_coefficient_of_performance_no_fan_heating": null,
+        "annotation": "From IECC-2024 TABLE C403.3.2(2).  \"Space Constrained\" is previously called \"Through the Wall\""
+    },
+    {
+        "template": "IECC-2024",
         "equipment_type": "Small Duct High Velocity",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3737,7 +3737,7 @@
         "region": null,
         "minimum_capacity": 0,
         "maximum_capacity": 64999.99,
-        "start_date": "1/1/2023",
+        "start_date": "9/9/1919",
         "end_date": "9/9/2999",
         "minimum_heating_seasonal_performance_factor": null,
         "minimum_heating_seasonal_performance_factor_2": 6.1,
@@ -3746,10 +3746,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(2). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(2). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3772,7 +3772,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3795,7 +3795,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3818,7 +3818,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3841,7 +3841,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3864,7 +3864,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3887,7 +3887,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3910,7 +3910,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3933,7 +3933,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3956,7 +3956,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -3979,7 +3979,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -4002,7 +4002,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -4025,7 +4025,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Small Duct High Velocity",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -4048,7 +4048,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Small Duct High Velocity",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -4071,7 +4071,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Small Duct High Velocity",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -4094,7 +4094,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Small Duct High Velocity",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -4117,7 +4117,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Small Duct High Velocity",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -4140,7 +4140,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Small Duct High Velocity",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -4163,7 +4163,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Space Constrained",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -4186,7 +4186,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Space Constrained",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -4209,7 +4209,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Space Constrained",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -4232,7 +4232,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Space Constrained",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -4255,7 +4255,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Space Constrained",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -4278,7 +4278,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Space Constrained",
         "cooling_type": "AirCooled",
         "configuration": null,
@@ -4301,7 +4301,7 @@
         "annotation": "From 90.1-2019 Table F-1. (See note d to Table C403.3.2(2))"
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "WaterSource",
         "configuration": "Water to Air",
@@ -4321,10 +4321,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(14). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(14). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "GroundWaterSource",
         "configuration": "Water to Air",
@@ -4344,10 +4344,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(14). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(14). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "GroundSource",
         "configuration": "Brine to Air",
@@ -4367,10 +4367,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(14). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(14). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "WaterSource",
         "configuration": "Water to Water",
@@ -4390,10 +4390,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(14). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(14). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "GroundWaterSource",
         "configuration": "Water to Water",
@@ -4413,10 +4413,10 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(14). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(14). "
     },
     {
-        "template": "IECC-2021",
+        "template": "IECC-2024",
         "equipment_type": "Heat Pumps",
         "cooling_type": "GroundSource",
         "configuration": "Brine to Water",
@@ -4436,6 +4436,6 @@
         "pthp_cop_coefficient_2": null,
         "off_mode_power": null,
         "minimum_coefficient_of_performance_no_fan_heating": null,
-        "annotation": "From IECC-2021 TABLE C403.3.2(14). "
+        "annotation": "From IECC-2024 TABLE C403.3.2(14). "
     }
 ]

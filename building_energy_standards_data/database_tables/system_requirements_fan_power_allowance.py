@@ -13,6 +13,7 @@ fan_system: TEXT
 minimum_capacity: NUMERIC
 maximum_capacity: NUMERIC
 fan_power_allowance: NUMERIC
+fan_power_allowance_unit: TEXT
 annotation: TEXT
 """
 
@@ -26,6 +27,7 @@ fan_system TEXT NOT NULL,
 minimum_capacity NUMERIC,
 maximum_capacity NUMERIC,
 fan_power_allowance NUMERIC,
+fan_power_allowance_unit TEXT,
 annotation TEXT);
 """
 
@@ -38,9 +40,10 @@ fan_system,
 minimum_capacity,
 maximum_capacity,
 fan_power_allowance,
+fan_power_allowance_unit,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -51,6 +54,7 @@ RECORD_TEMPLATE = {
     "minimum_capacity": 0.0,
     "maximum_capacity": 0.0,
     "fan_power_allowance": 0.0,
+    "fan_power_allowance_unit": "",
     "annotation": "",
 }
 
@@ -80,6 +84,7 @@ class SystemRequirementsFanPowerAllowance(DBOperation):
             "air_system",
             "air_system_component",
             "fan_system",
+            "fan_power_allowance_unit",
         ]
 
         for f in str_expected:
@@ -116,5 +121,6 @@ class SystemRequirementsFanPowerAllowance(DBOperation):
             getattr_either("minimum_capacity", record),
             getattr_either("maximum_capacity", record),
             getattr_either("fan_power_allowance", record),
+            getattr_either("fan_power_allowance_unit", record),
             getattr_either("annotation", record),
         )

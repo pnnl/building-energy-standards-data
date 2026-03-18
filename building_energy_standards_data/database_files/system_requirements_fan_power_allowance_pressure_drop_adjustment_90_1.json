@@ -1,0 +1,982 @@
+[
+    {
+        "template": "90.1-2007",
+        "device": "fully ducted return and/or exhaust air systems",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2007, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2007",
+        "device": "return and/or exhaust airflow control devices",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2007, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2007",
+        "device": "exhaust filters, scrubbers, or other exhaust treatment",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2007, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2007",
+        "device": "particulate filtration credit: merv 9 through 12",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2007, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2007",
+        "device": "particulate filtration credit: merv 13 through 15",
+        "adjustment_in_wc": 0.9,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2007, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2007",
+        "device": "particulate filtration credit: merv 16 and greater and electronically enhanced filters",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2007, Table 6.5.3.1.1B, clean filter"
+    },
+    {
+        "template": "90.1-2007",
+        "device": "carbon and other gas-phase air cleaners",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2007, Table 6.5.3.1.1B, clean filter"
+    },
+    {
+        "template": "90.1-2007",
+        "device": "heat recovery device",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2007, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2007",
+        "device": "evaporative humidifier/cooler in series with another cooling coil",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2007, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2007",
+        "device": "sound attenuation section",
+        "adjustment_in_wc": 0.15,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2007, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2007",
+        "device": "fume hood exhaust exception",
+        "adjustment_in_wc": -1,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2007, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2010",
+        "device": "fully ducted return and/or exhaust air systems",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2010, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2010",
+        "device": "fully ducted return and/or exhaust air systems for laboratory and vivarium systems",
+        "adjustment_in_wc": 2.15,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2010, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2010",
+        "device": "return and/or exhaust airflow control devices",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2010, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2010",
+        "device": "exhaust filters, scrubbers, or other exhaust treatment",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2010, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2010",
+        "device": "particulate filtration credit: merv 9 through 12",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2010, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2010",
+        "device": "particulate filtration credit: merv 13 through 15",
+        "adjustment_in_wc": 0.9,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2010, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2010",
+        "device": "particulate filtration credit: merv 16 and greater and electronically enhanced filters",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2010, Table 6.5.3.1.1B, clean filter"
+    },
+    {
+        "template": "90.1-2010",
+        "device": "carbon and other gas-phase air cleaners",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2010, Table 6.5.3.1.1B, clean filter"
+    },
+    {
+        "template": "90.1-2010",
+        "device": "biosafety cabinet",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2010, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2010",
+        "device": "energy recovery device, other than coil runaround loop for each airstream",
+        "adjustment_in_wc": -0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": 2.2,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2010, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2010",
+        "device": "coil runaround loop for each airstream",
+        "adjustment_in_wc": 0.6,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2010, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2010",
+        "device": "evaporative humidifier/cooler in series with another cooling coil",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2010, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2010",
+        "device": "sound attenuation section",
+        "adjustment_in_wc": 0.15,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2010, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2010",
+        "device": "exhaust system serving fume hoods",
+        "adjustment_in_wc": 0.35,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2010, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2010",
+        "device": "laboratory and vivarium exhaust systems in high-rise buildings",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": 0.25,
+        "annotation": "From 90.1-2010, Table 6.5.3.1.1B"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "fully ducted return and/or exhaust air systems",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "fully ducted return and/or exhaust air systems for laboratory and vivarium systems",
+        "adjustment_in_wc": 2.15,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "return and/or exhaust airflow control devices",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "exhaust filters, scrubbers, or other exhaust treatment",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "particulate filtration credit: merv 9 through 12",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "particulate filtration credit: merv 13 through 15",
+        "adjustment_in_wc": 0.9,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "particulate filtration credit: merv 16 and greater and electronically enhanced filters",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2, clean filter"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "carbon and other gas-phase air cleaners",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2, clean filter"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "biosafety cabinet",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "energy recovery device, other than coil runaround loop for each airstream",
+        "adjustment_in_wc": -0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": 2.2,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "coil runaround loop for each airstream",
+        "adjustment_in_wc": 0.6,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "evaporative humidifier/cooler in series with another cooling coil",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "sound attenuation section",
+        "adjustment_in_wc": 0.15,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "exhaust system serving fume hoods",
+        "adjustment_in_wc": 0.35,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "laboratory and vivarium exhaust systems in high-rise buildings",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": 0.25,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "systems without central cooling device",
+        "adjustment_in_wc": -0.6,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "systems without central heating device",
+        "adjustment_in_wc": -0.3,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2013",
+        "device": "systems with central electric resistance heat",
+        "adjustment_in_wc": -0.2,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2013, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "fully ducted return and/or exhaust air systems",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "fully ducted return and/or exhaust air systems for laboratory and vivarium systems",
+        "adjustment_in_wc": 2.15,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "return and/or exhaust airflow control devices",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "exhaust filters, scrubbers, or other exhaust treatment",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "particulate filtration credit: merv 9 through 12",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "particulate filtration credit: merv 13 through 15",
+        "adjustment_in_wc": 0.9,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "particulate filtration credit: merv 16 and greater and electronically enhanced filters",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2, clean filter"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "carbon and other gas-phase air cleaners",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2, clean filter"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "biosafety cabinet",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "energy recovery device, other than coil runaround loop for each airstream",
+        "adjustment_in_wc": -0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": 2.2,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "coil runaround loop for each airstream",
+        "adjustment_in_wc": 0.6,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "evaporative humidifier/cooler in series with another cooling coil",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "sound attenuation section",
+        "adjustment_in_wc": 0.15,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "exhaust system serving fume hoods",
+        "adjustment_in_wc": 0.35,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "laboratory and vivarium exhaust systems in high-rise buildings",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": 0.25,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "systems without central cooling device",
+        "adjustment_in_wc": -0.6,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "systems without central heating device",
+        "adjustment_in_wc": -0.3,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2016",
+        "device": "systems with central electric resistance heat",
+        "adjustment_in_wc": -0.2,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2016, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "fully ducted return and/or exhaust air systems",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "fully ducted return and/or exhaust air systems for laboratory and vivarium systems",
+        "adjustment_in_wc": 2.15,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "return and/or exhaust airflow control devices",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "exhaust filters, scrubbers, or other exhaust treatment",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "particulate filtration credit: merv 9 through 12",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "particulate filtration credit: merv 13 through 15",
+        "adjustment_in_wc": 0.9,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "particulate filtration credit: merv 16 and greater and electronically enhanced filters",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2, clean filter"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "carbon and other gas-phase air cleaners",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2, clean filter"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "biosafety cabinet",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "energy recovery device, other than coil runaround loop for each airstream",
+        "adjustment_in_wc": -0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": 2.2,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "coil runaround loop for each airstream",
+        "adjustment_in_wc": 0.6,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "evaporative humidifier/cooler in series with another cooling coil",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "sound attenuation section",
+        "adjustment_in_wc": 0.15,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "exhaust system serving fume hoods",
+        "adjustment_in_wc": 0.35,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "laboratory and vivarium exhaust systems in high-rise buildings",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": 0.25,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "systems without central cooling device",
+        "adjustment_in_wc": -0.6,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "systems without central heating device",
+        "adjustment_in_wc": -0.3,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2019",
+        "device": "systems with central electric resistance heat",
+        "adjustment_in_wc": -0.2,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2019, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "fully ducted return and/or exhaust air systems",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "fully ducted return and/or exhaust air systems for laboratory and vivarium systems",
+        "adjustment_in_wc": 2.15,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "return and/or exhaust airflow control devices",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "exhaust filters, scrubbers, or other exhaust treatment",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "particulate filtration credit: merv 9 through 12",
+        "adjustment_in_wc": 0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "particulate filtration credit: merv 13 through 15",
+        "adjustment_in_wc": 0.9,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "particulate filtration credit: merv 16 and greater and electronically enhanced filters",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2, clean filter"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "carbon and other gas-phase air cleaners",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2, clean filter"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "biosafety cabinet",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "energy recovery device, other than coil runaround loop for each airstream",
+        "adjustment_in_wc": -0.5,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": 2.2,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "coil runaround loop for each airstream",
+        "adjustment_in_wc": 0.6,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "evaporative humidifier/cooler in series with another cooling coil",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": "TRUE",
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "sound attenuation section",
+        "adjustment_in_wc": 0.15,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "exhaust system serving fume hoods",
+        "adjustment_in_wc": 0.35,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "laboratory and vivarium exhaust systems in high-rise buildings",
+        "adjustment_in_wc": null,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": 0.25,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "systems without central cooling device",
+        "adjustment_in_wc": -0.6,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "systems without central heating device",
+        "adjustment_in_wc": -0.3,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2"
+    },
+    {
+        "template": "90.1-2022",
+        "device": "systems with central electric resistance heat",
+        "adjustment_in_wc": -0.2,
+        "adjustment_in_wc_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_2_times_at_fan_system_design_conditions": null,
+        "adjustment_in_wc_effectiveness_multiplier": null,
+        "adjustment_in_wc_per_100_ft_of_verticaul_duct_exceeding_75_ft": null,
+        "annotation": "From 90.1-2022, Table 6.5.3.1-2"
+    }
+]

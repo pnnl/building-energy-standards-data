@@ -1,1442 +1,1894 @@
 [
     {
+        "template": "90.1-2004",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 19999.99,
+        "fan_power_allowance": 0.0012,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 90.1-2004 Table 6.5.3.1, applicable to fan system power exceeding 5hp according to Section 6.5.3"
+    },
+    {
+        "template": "90.1-2004",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation",
+        "fan_system": "cav",
+        "minimum_capacity": 20000,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0011,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 90.1-2004 Table 6.5.3.1, applicable to fan system power exceeding 5hp according to Section 6.5.3"
+    },
+    {
+        "template": "90.1-2004",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 19999.99,
+        "fan_power_allowance": 0.0017,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 90.1-2004 Table 6.5.3.1, applicable to fan system power exceeding 5hp according to Section 6.5.3"
+    },
+    {
+        "template": "90.1-2004",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation",
+        "fan_system": "vav",
+        "minimum_capacity": 20000,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0015,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 90.1-2004 Table 6.5.3.1, applicable to fan system power exceeding 5hp according to Section 6.5.3"
+    },
+    {
+        "template": "90.1-2007",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0011,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 90.1-2007 Table 6.5.3.1.1A, applicable to fan system power exceeding 5hp according to Section 6.5.3"
+    },
+    {
+        "template": "90.1-2007",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00094,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 90.1-2007 Table 6.5.3.1.1A, applicable to fan system power exceeding 5hp according to Section 6.5.3"
+    },
+    {
+        "template": "90.1-2007",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0015,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 90.1-2007 Table 6.5.3.1.1A, applicable to fan system power exceeding 5hp according to Section 6.5.3"
+    },
+    {
+        "template": "90.1-2007",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0013,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 90.1-2007 Table 6.5.3.1.1A, applicable to fan system power exceeding 5hp according to Section 6.5.3"
+    },
+    {
+        "template": "90.1-2010",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0011,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 90.1-2010 Table 6.5.3.1.1A, applicable to fan system power exceeding 5hp according to Section 6.5.3"
+    },
+    {
+        "template": "90.1-2010",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00094,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 90.1-2010 Table 6.5.3.1.1A, applicable to fan system power exceeding 5hp according to Section 6.5.3"
+    },
+    {
+        "template": "90.1-2010",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0015,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 90.1-2010 Table 6.5.3.1.1A, applicable to fan system power exceeding 5hp according to Section 6.5.3"
+    },
+    {
+        "template": "90.1-2010",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0013,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 90.1-2010 Table 6.5.3.1.1A, applicable to fan system power exceeding 5hp according to Section 6.5.3"
+    },
+    {
+        "template": "90.1-2013",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0011,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 90.1-2013 Table 6.5.3.1-1, applicable to fan system power exceeding 5hp according to Section 6.5.3"
+    },
+    {
+        "template": "90.1-2013",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00094,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 90.1-2013 Table 6.5.3.1-1, applicable to fan system power exceeding 5hp according to Section 6.5.3"
+    },
+    {
+        "template": "90.1-2013",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0015,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 90.1-2013 Table 6.5.3.1-1, applicable to fan system power exceeding 5hp according to Section 6.5.3"
+    },
+    {
+        "template": "90.1-2013",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0013,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 90.1-2013 Table 6.5.3.1-1, applicable to fan system power exceeding 5hp according to Section 6.5.3"
+    },
+    {
+        "template": "90.1-2016",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0011,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 90.1-2016 Table 6.5.3.1-1, applicable to fan system power exceeding 5hp according to Section 6.5.3.1.1"
+    },
+    {
+        "template": "90.1-2016",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00094,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 90.1-2016 Table 6.5.3.1-1, applicable to fan system power exceeding 5hp according to Section 6.5.3.1.1"
+    },
+    {
+        "template": "90.1-2016",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0015,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 90.1-2016 Table 6.5.3.1-1, applicable to fan system power exceeding 5hp according to Section 6.5.3.1.1"
+    },
+    {
+        "template": "90.1-2016",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0013,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 90.1-2016 Table 6.5.3.1-1, applicable to fan system power exceeding 5hp according to Section 6.5.3.1.1"
+    },
+    {
+        "template": "90.1-2019",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0011,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 90.1-2019 Table 6.5.3.1-1, applicable to fan system power exceeding 5hp according to Section 6.5.3.1.1"
+    },
+    {
+        "template": "90.1-2019",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00094,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 90.1-2019 Table 6.5.3.1-1, applicable to fan system power exceeding 5hp according to Section 6.5.3.1.1"
+    },
+    {
+        "template": "90.1-2019",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0015,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 90.1-2019 Table 6.5.3.1-1, applicable to fan system power exceeding 5hp according to Section 6.5.3.1.1"
+    },
+    {
+        "template": "90.1-2019",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0013,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 90.1-2019 Table 6.5.3.1-1, applicable to fan system power exceeding 5hp according to Section 6.5.3.1.1"
+    },
+    {
+        "template": "90.1-2022",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0011,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 90.1-2022 Table 6.5.3.1-1, applicable to fan system power exceeding 5hp according to Section 6.5.3.1.1"
+    },
+    {
+        "template": "90.1-2022",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "cav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.00094,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 90.1-2022 Table 6.5.3.1-1, applicable to fan system power exceeding 5hp according to Section 6.5.3.1.1"
+    },
+    {
+        "template": "90.1-2022",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 1",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0015,
+        "fan_power_allowance_unit": "nameplate_hp/cfm",
+        "annotation": "From 90.1-2022 Table 6.5.3.1-1, applicable to fan system power exceeding 5hp according to Section 6.5.3.1.1"
+    },
+    {
+        "template": "90.1-2022",
+        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
+        "air_system_component": "Fan power limitation - Option 2",
+        "fan_system": "vav",
+        "minimum_capacity": 0,
+        "maximum_capacity": 9999999999,
+        "fan_power_allowance": 0.0013,
+        "fan_power_allowance_unit": "bhp/cfm",
+        "annotation": "From 90.1-2022 Table 6.5.3.1-1, applicable to fan system power exceeding 5hp according to Section 6.5.3.1.1"
+    },
+    {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Supply system base allowance for each fan system",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.413,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Filter not higher than MERV 12",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.094,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "MERV 13 to MERV 16 filter",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.21,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "HEPA filter",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.347,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Hydronic heating coil (central)",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.047,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Electric heat",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.047,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Gas or oil furnace <90% Et or <90% AFUE",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.071,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Gas or oil furnace >= 90% Et or >=90% AFUE",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.117,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Hydronic/DX cooling coil, or heat pump coil (wet) [Healthcare facilities can select twice]",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.141,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Fluid economizer coil",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.141,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Desiccant system-solid or liquid",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.164,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Hot gas reheat coil",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.047,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Series energy recovery",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.141,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Evaporative humidifier/cooler in series with a cooling coil. Value shown is allowed W/cfm per 1.0 in. of water. Determine pressure loss (in. of water) at 400 fpm or maximum velocity allowed by the manufacturer, whichever is less.",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.233,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.50 and <0.55",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.141,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.55 and <0.60",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.166,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.60 and <0.65",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.191,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.65 and <0.70",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.217,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.70 and <0.75",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.242,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.75 and <0.80",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.267,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.80",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.292,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Run-around liquid or refrigerant coils",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.141,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Gas-phase filtration",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.233,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Economizer return damper",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.049,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "100% Outdoor air system",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Low-turndown single-zone VAV fan systems",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Air blender",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.047,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Project is an alteration where the duct system is not replaced",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.358,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Sound attenuation section [fans serving spaces with design background noise goals below NC35]",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.035,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Deduction for systems that feed a terminal unit or fan coil with a fan with electricalinput power <1kW",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": -0.5,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Exhaust, Return, Relief, and Transfer System Base Allowance for each fan system",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.231,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Filter (any MERV value)",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.049,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.50 and <0.55",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.146,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.55 and <0.60",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.173,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.60 and <0.65",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.199,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.65 and <0.70",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.225,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.70 and <0.75",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.25,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.75 and <0.80",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.276,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.8",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.302,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Run-around liquid or refrigerant coils",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.146,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Return or exhaust systems required to be fully ducted by code or accreditation standards",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.122,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Return and/or exhaust airflow control devices required by code or accreditation standards to maintain pressure relationships between spaces",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.122,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Laboratory and vivarium exhaust systems in high-rise buildings for vertical duct exceeding 75 ft. Value shown is allowed W/cfm per 0.25 in. of water for each 100 ft exceeding 75 ft.",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.061,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Exhaust systems serving fume hoods ",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.085,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Biosafety cabinet. Value shown is allowed W/cfm per 1.0 in. of water air pressure drop.",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.241,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Exhaust filters, scrubbers, or other exhaust treatment required by code or standard. Value shown is allowed W/cfm per 1.0 in. of water air pressure drop.",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.241,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Project is an alteration where the duct system is not replaced",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.253,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Sound attenuation section (fans serving spaces with design background noise goals below NC35)",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.036,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Supply system base allowance for each fan system",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.472,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Filter not higher than MERV 12",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.079,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "MERV 13 to MERV 16 filter",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.177,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "HEPA filter",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.292,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Hydronic heating coil (central)",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.05,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Electric heat",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.04,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Gas or oil furnace <90% Et or <90% AFUE",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.06,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Gas or oil furnace >= 90% Et or >=90% AFUE",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.099,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Hydronic/DX cooling coil, or heat pump coil (wet) [Healthcare facilities can select twice]",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.118,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Fluid economizer coil",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.118,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Desiccant system-solid or liquid",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.138,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Hot gas reheat coil",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.04,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Series energy recovery",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.118,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Evaporative humidifier/cooler in series with a cooling coil. Value shown is allowed W/cfm per 1.0 in. of water. Determine pressure loss (in. of water) at 400 fpm or maximum velocity allowed by the manufacturer, whichever is less.",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.196,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.50 and <0.55",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.118,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.55 and <0.60",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.14,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.60 and <0.65",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.161,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.65 and <0.70",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.182,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.70 and <0.75",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.204,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.75 and <0.80",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.225,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.80",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.246,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Run-around liquid or refrigerant coils",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.118,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Gas-phase filtration",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.196,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Economizer return damper",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.042,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "100% Outdoor air system",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Low-turndown single-zone VAV fan systems",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Air blender",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.04,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Project is an alteration where the duct system is not replaced",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.386,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Sound attenuation section [fans serving spaces with design background noise goals below NC35]",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.03,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Deduction for systems that feed a terminal unit or fan coil with a fan with electricalinput power <1kW",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": -0.5,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Exhaust, Return, Relief, and Transfer System Base Allowance for each fan system",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.256,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Filter (any MERV value)",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.042,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.50 and <0.55",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.125,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.55 and <0.60",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.148,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.60 and <0.65",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.17,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.65 and <0.70",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.192,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.70 and <0.75",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.214,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.75 and <0.80",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.236,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.8",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.258,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Run-around liquid or refrigerant coils",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.125,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Return or exhaust systems required to be fully ducted by code or accreditation standards",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.105,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Return and/or exhaust airflow control devices required by code or accreditation standards to maintain pressure relationships between spaces",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.105,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Laboratory and vivarium exhaust systems in high-rise buildings for vertical duct exceeding 75 ft. Value shown is allowed W/cfm per 0.25 in. of water for each 100 ft exceeding 75 ft.",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.053,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Exhaust systems serving fume hoods ",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.074,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Biosafety cabinet. Value shown is allowed W/cfm per 1.0 in. of water air pressure drop.",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.206,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Exhaust filters, scrubbers, or other exhaust treatment required by code or standard. Value shown is allowed W/cfm per 1.0 in. of water air pressure drop.",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.206,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Project is an alteration where the duct system is not replaced",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.256,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Sound attenuation section (fans serving spaces with design background noise goals below NC35)",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.032,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Supply system base allowance for each fan system",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.48,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Filter not higher than MERV 12",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.073,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "MERV 13 to MERV 16 filter",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.165,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "HEPA filter",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.277,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Hydronic heating coil (central)",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.055,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Electric heat",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.037,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Gas or oil furnace <90% Et or <90% AFUE",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.073,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Gas or oil furnace >= 90% Et or >=90% AFUE",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.092,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Hydronic/DX cooling coil, or heat pump coil (wet) [Healthcare facilities can select twice]",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.11,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Fluid economizer coil",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.11,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Desiccant system-solid or liquid",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.128,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Hot gas reheat coil",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.037,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Series energy recovery",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.11,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Evaporative humidifier/cooler in series with a cooling coil. Value shown is allowed W/cfm per 1.0 in. of water. Determine pressure loss (in. of water) at 400 fpm or maximum velocity allowed by the manufacturer, whichever is less.",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.184,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.50 and <0.55",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.11,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.55 and <0.60",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.13,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.60 and <0.65",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.151,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.65 and <0.70",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.171,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.70 and <0.75",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.191,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.75 and <0.80",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.212,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.80",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.232,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Run-around liquid or refrigerant coils",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.11,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Gas-phase filtration",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.184,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Economizer return damper",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.038,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "100% Outdoor air system",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Low-turndown single-zone VAV fan systems",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Air blender",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.037,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Project is an alteration where the duct system is not replaced",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.372,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Sound attenuation section [fans serving spaces with design background noise goals below NC35]",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.027,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Supply Fan Systems",
         "air_system_component": "Deduction for systems that feed a terminal unit or fan coil with a fan with electricalinput power <1kW",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": -0.5,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Exhaust, Return, Relief, and Transfer System Base Allowance for each fan system",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.248,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Filter (any MERV value)",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.038,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.50 and <0.55",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.112,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.55 and <0.60",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.133,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.60 and <0.65",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.153,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.65 and <0.70",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.173,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.70 and <0.75",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.193,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.75 and <0.80",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.213,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Enthalpy Recovery Ratio >= 0.8",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.234,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Run-around liquid or refrigerant coils",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.112,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Return or exhaust systems required to be fully ducted by code or accreditation standards",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.094,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Return and/or exhaust airflow control devices required by code or accreditation standards to maintain pressure relationships between spaces",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.094,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Laboratory and vivarium exhaust systems in high-rise buildings for vertical duct exceeding 75 ft. Value shown is allowed W/cfm per 0.25 in. of water for each 100 ft exceeding 75 ft.",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.047,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Exhaust systems serving fume hoods ",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.066,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Biosafety cabinet. Value shown is allowed W/cfm per 1.0 in. of water air pressure drop.",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.186,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Exhaust filters, scrubbers, or other exhaust treatment required by code or standard. Value shown is allowed W/cfm per 1.0 in. of water air pressure drop.",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.186,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Project is an alteration where the duct system is not replaced",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.232,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
         "template": "90.1-2025",
         "air_system": "Exhaust, Return, Relief Transfer Fan Systems",
         "air_system_component": "Sound attenuation section (fans serving spaces with design background noise goals below NC35)",
-        "fan_system": "vav",
+        "fan_system": "multi-zone vav",
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.029,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-1"
     },
     {
@@ -1447,6 +1899,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.243,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1457,6 +1910,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.097,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1467,6 +1921,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.217,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1477,6 +1932,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.357,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1487,6 +1943,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.049,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1497,6 +1954,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.049,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1507,6 +1965,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.061,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1517,6 +1976,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.122,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1527,6 +1987,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.146,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1537,6 +1998,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.146,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1547,6 +2009,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.17,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1557,6 +2020,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.049,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1567,6 +2031,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.146,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1577,6 +2042,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.241,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1587,6 +2053,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.146,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1597,6 +2064,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.172,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1607,6 +2075,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.198,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1617,6 +2086,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.224,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1627,6 +2097,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.25,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1637,6 +2108,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.276,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1647,6 +2119,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.301,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1657,6 +2130,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.146,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1667,6 +2141,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.241,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1677,6 +2152,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.049,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1687,6 +2163,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.073,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1697,6 +2174,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.073,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1707,6 +2185,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.049,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1717,6 +2196,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.46,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1727,6 +2207,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.036,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1737,6 +2218,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": -0.1,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1747,6 +2229,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.194,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1757,6 +2240,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.049,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1767,6 +2251,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.146,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1777,6 +2262,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.173,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1787,6 +2273,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.199,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1797,6 +2284,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.226,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1807,6 +2295,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.252,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1817,6 +2306,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.277,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1827,6 +2317,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.303,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1837,6 +2328,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.146,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1847,6 +2339,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.122,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1857,6 +2350,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.122,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1867,6 +2361,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.061,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1877,6 +2372,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.085,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1887,6 +2383,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.242,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1897,6 +2394,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.242,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1907,6 +2405,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.289,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1917,6 +2416,7 @@
         "minimum_capacity": 0,
         "maximum_capacity": 5000,
         "fan_power_allowance": 0.036,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1927,6 +2427,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.267,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1937,6 +2438,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.084,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1947,6 +2449,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.185,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1957,6 +2460,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.304,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1967,6 +2471,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.053,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1977,6 +2482,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.042,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1987,6 +2493,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.063,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -1997,6 +2504,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.104,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2007,6 +2515,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.125,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2017,6 +2526,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.125,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2027,6 +2537,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.145,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2037,6 +2548,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.042,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2047,6 +2559,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.125,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2057,6 +2570,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.205,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2067,6 +2581,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.125,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2077,6 +2592,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.147,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2087,6 +2603,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.169,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2097,6 +2614,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.191,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2107,6 +2625,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.213,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2117,6 +2636,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.235,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2127,6 +2647,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.257,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2137,6 +2658,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.125,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2147,6 +2669,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.205,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2157,6 +2680,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.043,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2167,6 +2691,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.104,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2177,6 +2702,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.104,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2187,6 +2713,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.042,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2197,6 +2724,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.468,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2207,6 +2735,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.032,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2217,6 +2746,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": -0.1,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2227,6 +2757,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.192,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2237,6 +2768,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.043,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2247,6 +2779,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.128,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2257,6 +2790,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.15,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2267,6 +2801,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.173,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2277,6 +2812,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.196,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2287,6 +2823,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.218,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2297,6 +2834,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.24,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2307,6 +2845,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.263,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2317,6 +2856,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.128,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2327,6 +2867,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.107,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2337,6 +2878,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.107,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2347,6 +2889,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.054,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2357,6 +2900,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.075,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2367,6 +2911,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.21,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2377,6 +2922,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.21,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2387,6 +2933,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.291,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2397,6 +2944,7 @@
         "minimum_capacity": 5000.001,
         "maximum_capacity": 10000,
         "fan_power_allowance": 0.032,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2407,6 +2955,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.248,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2417,6 +2966,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.075,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2427,6 +2977,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.168,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2437,6 +2988,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.278,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2447,6 +2999,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.057,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2457,6 +3010,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.038,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2467,6 +3021,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.075,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2477,6 +3032,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.094,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2487,6 +3043,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.112,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2497,6 +3054,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.112,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2507,6 +3065,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.131,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2517,6 +3076,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.038,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2527,6 +3087,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.112,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2537,6 +3098,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.186,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2547,6 +3109,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.112,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2557,6 +3120,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.133,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2567,6 +3131,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.153,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2577,6 +3142,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.173,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2587,6 +3153,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.193,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2597,6 +3164,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.213,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2607,6 +3175,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.234,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2617,6 +3186,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.112,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2627,6 +3197,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.186,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2637,6 +3208,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.039,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2647,6 +3219,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.112,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2657,6 +3230,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.094,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2667,6 +3241,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.038,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2677,6 +3252,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.434,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2687,6 +3263,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.029,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2697,6 +3274,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": -0.1,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2707,6 +3285,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.2,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2717,6 +3296,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.039,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2727,6 +3307,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.114,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2737,6 +3318,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.135,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2747,6 +3329,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.155,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2757,6 +3340,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.176,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2767,6 +3351,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.196,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2777,6 +3362,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.216,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2787,6 +3373,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.236,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2797,6 +3384,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.114,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2807,6 +3395,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.096,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2817,6 +3406,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.096,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2827,6 +3417,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.048,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2837,6 +3428,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.067,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2847,6 +3439,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.188,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2857,6 +3450,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.188,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2867,6 +3461,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.262,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     },
     {
@@ -2877,6 +3472,7 @@
         "minimum_capacity": 10000,
         "maximum_capacity": 9999999999,
         "fan_power_allowance": 0.029,
+        "fan_power_allowance_unit": "w/cfm",
         "annotation": "From 90.1-2025 Table 6.5.3.1-2"
     }
 ]
