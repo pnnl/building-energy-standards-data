@@ -29,6 +29,10 @@ maximum_projection_factor: NUMERIC
 assembly_maximum_solar_heat_gain_coefficient: NUMERIC
 assembly_minimum_visible_transmittance: NUMERIC
 assembly_minimum_vt_shgc: NUMERIC
+assembly_maximum_u_value_based_on_HDD65_slope: NUMERIC
+assembly_maximum_u_value_based_on_HDD65_intercept: NUMERIC
+assembly_maximum_u_value_based_on_HDD65_minimum_u_value: NUMERIC
+assembly_maximum_u_value_based_on_HDD65_maximum_u_value: NUMERIC
 annotation: TEXT (optional)
 """
 
@@ -57,6 +61,10 @@ maximum_projection_factor NUMERIC,
 assembly_maximum_solar_heat_gain_coefficient NUMERIC,
 assembly_minimum_visible_transmittance NUMERIC,
 assembly_minimum_vt_shgc NUMERIC,
+assembly_maximum_u_value_based_on_HDD65_slope NUMERIC,
+assembly_maximum_u_value_based_on_HDD65_intercept NUMERIC,
+assembly_maximum_u_value_based_on_HDD65_minimum_u_value NUMERIC,
+assembly_maximum_u_value_based_on_HDD65_maximum_u_value NUMERIC,
 annotation TEXT,
 FOREIGN KEY(construction) REFERENCES support_constructions(name)
 );
@@ -86,9 +94,13 @@ maximum_projection_factor,
 assembly_maximum_solar_heat_gain_coefficient,
 assembly_minimum_visible_transmittance,
 assembly_minimum_vt_shgc,
+assembly_maximum_u_value_based_on_HDD65_slope,
+assembly_maximum_u_value_based_on_HDD65_intercept,
+assembly_maximum_u_value_based_on_HDD65_minimum_u_value,
+assembly_maximum_u_value_based_on_HDD65_maximum_u_value,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -114,6 +126,10 @@ RECORD_TEMPLATE = {
     "assembly_maximum_solar_heat_gain_coefficient": 0.0,
     "assembly_minimum_visible_transmittance": 0.0,
     "assembly_minimum_vt_shgc": 0.0,
+    "assembly_maximum_u_value_based_on_HDD65_slope": 0.0,
+    "assembly_maximum_u_value_based_on_HDD65_intercept": 0.0,
+    "assembly_maximum_u_value_based_on_HDD65_minimum_u_value": 0.0,
+    "assembly_maximum_u_value_based_on_HDD65_maximum_u_value": 0.0,
     "annotation": "",
 }
 
@@ -166,6 +182,10 @@ class EnvelopeRequirement(DBOperation):
             "assembly_maximum_solar_heat_gain_coefficient",
             "assembly_minimum_visible_transmittance",
             "assembly_minimum_vt_shgc",
+            "assembly_maximum_u_value_based_on_HDD65_slope",
+            "assembly_maximum_u_value_based_on_HDD65_intercept",
+            "assembly_maximum_u_value_based_on_HDD65_minimum_u_value",
+            "assembly_maximum_u_value_based_on_HDD65_maximum_u_value",
         ]
 
         for f in float_expected:
@@ -206,5 +226,13 @@ class EnvelopeRequirement(DBOperation):
             getattr_either("assembly_maximum_solar_heat_gain_coefficient", record),
             getattr_either("assembly_minimum_visible_transmittance", record),
             getattr_either("assembly_minimum_vt_shgc", record),
+            getattr_either("assembly_maximum_u_value_based_on_HDD65_slope", record),
+            getattr_either("assembly_maximum_u_value_based_on_HDD65_intercept", record),
+            getattr_either(
+                "assembly_maximum_u_value_based_on_HDD65_minimum_u_value", record
+            ),
+            getattr_either(
+                "assembly_maximum_u_value_based_on_HDD65_maximum_u_value", record
+            ),
             getattr_either("annotation", record),
         )
