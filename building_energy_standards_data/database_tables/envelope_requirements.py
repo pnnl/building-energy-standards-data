@@ -23,12 +23,22 @@ assembly_maximum_f_factor: NUMERIC
 assembly_maximum_f_factor_unit: TEXT
 assembly_maximum_c_factor: NUMERIC
 assembly_maximum_c_factor_unit: TEXT
+assembly_maximum_r_value: NUMERIC
+assembly_maximum_r_value_unit: TEXT
 orientation: TEXT
 minimum_projection_factor: NUMERIC
 maximum_projection_factor: NUMERIC
 assembly_maximum_solar_heat_gain_coefficient: NUMERIC
 assembly_minimum_visible_transmittance: NUMERIC
 assembly_minimum_vt_shgc: NUMERIC
+assembly_maximum_u_value_based_on_HDD65_slope: NUMERIC
+assembly_maximum_u_value_based_on_HDD65_intercept: NUMERIC
+assembly_maximum_u_value_based_on_HDD65_minimum_u_value: NUMERIC
+assembly_maximum_u_value_based_on_HDD65_maximum_u_value: NUMERIC
+assembly_maximum_r_value_based_on_HDD65_slope: NUMERIC
+assembly_maximum_r_value_based_on_HDD65_intercept: NUMERIC
+assembly_maximum_r_value_based_on_HDD65_minimum_r_value: NUMERIC
+assembly_maximum_r_value_based_on_HDD65_maximum_r_value: NUMERIC
 annotation: TEXT (optional)
 """
 
@@ -51,12 +61,22 @@ assembly_maximum_f_factor NUMERIC,
 assembly_maximum_f_factor_unit TEXT,
 assembly_maximum_c_factor NUMERIC,
 assembly_maximum_c_factor_unit TEXT,
+assembly_maximum_r_value NUMERIC,
+assembly_maximum_r_value_unit TEXT,
 orientation TEXT,
 minimum_projection_factor NUMERIC,
 maximum_projection_factor NUMERIC,
 assembly_maximum_solar_heat_gain_coefficient NUMERIC,
 assembly_minimum_visible_transmittance NUMERIC,
 assembly_minimum_vt_shgc NUMERIC,
+assembly_maximum_u_value_based_on_HDD65_slope NUMERIC,
+assembly_maximum_u_value_based_on_HDD65_intercept NUMERIC,
+assembly_maximum_u_value_based_on_HDD65_minimum_u_value NUMERIC,
+assembly_maximum_u_value_based_on_HDD65_maximum_u_value NUMERIC,
+assembly_maximum_r_value_based_on_HDD65_slope NUMERIC,
+assembly_maximum_r_value_based_on_HDD65_intercept NUMERIC,
+assembly_maximum_r_value_based_on_HDD65_minimum_r_value NUMERIC,
+assembly_maximum_r_value_based_on_HDD65_maximum_r_value NUMERIC,
 annotation TEXT,
 FOREIGN KEY(construction) REFERENCES support_constructions(name)
 );
@@ -80,15 +100,25 @@ assembly_maximum_f_factor,
 assembly_maximum_f_factor_unit,
 assembly_maximum_c_factor,
 assembly_maximum_c_factor_unit,
+assembly_maximum_r_value,
+assembly_maximum_r_value_unit,
 orientation,
 minimum_projection_factor,
 maximum_projection_factor,
 assembly_maximum_solar_heat_gain_coefficient,
 assembly_minimum_visible_transmittance,
 assembly_minimum_vt_shgc,
+assembly_maximum_u_value_based_on_HDD65_slope,
+assembly_maximum_u_value_based_on_HDD65_intercept,
+assembly_maximum_u_value_based_on_HDD65_minimum_u_value,
+assembly_maximum_u_value_based_on_HDD65_maximum_u_value,
+assembly_maximum_r_value_based_on_HDD65_slope,
+assembly_maximum_r_value_based_on_HDD65_intercept,
+assembly_maximum_r_value_based_on_HDD65_minimum_r_value,
+assembly_maximum_r_value_based_on_HDD65_maximum_r_value,
 annotation
 ) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 
 RECORD_TEMPLATE = {
@@ -108,12 +138,22 @@ RECORD_TEMPLATE = {
     "assembly_maximum_f_factor_unit": "btu/h-ft-F",
     "assembly_maximum_c_factor": 0.0,
     "assembly_maximum_c_factor_unit": "btu/h-ft2-F",
+    "assembly_maximum_r_value": 0.0,
+    "assembly_maximum_r_value_unit": "hr-ft2-F/btu",
     "orientation": "",
     "minimum_projection_factor": 0.0,
     "maximum_projection_factor": 0.0,
     "assembly_maximum_solar_heat_gain_coefficient": 0.0,
     "assembly_minimum_visible_transmittance": 0.0,
     "assembly_minimum_vt_shgc": 0.0,
+    "assembly_maximum_u_value_based_on_HDD65_slope": 0.0,
+    "assembly_maximum_u_value_based_on_HDD65_intercept": 0.0,
+    "assembly_maximum_u_value_based_on_HDD65_minimum_u_value": 0.0,
+    "assembly_maximum_u_value_based_on_HDD65_maximum_u_value": 0.0,
+    "assembly_maximum_r_value_based_on_HDD65_slope": 0.0,
+    "assembly_maximum_r_value_based_on_HDD65_intercept": 0.0,
+    "assembly_maximum_r_value_based_on_HDD65_minimum_r_value": 0.0,
+    "assembly_maximum_r_value_based_on_HDD65_maximum_r_value": 0.0,
     "annotation": "",
 }
 
@@ -161,11 +201,20 @@ class EnvelopeRequirement(DBOperation):
             "assembly_maximum_u_value",
             "assembly_maximum_f_factor",
             "assembly_maximum_c_factor",
+            "assembly_maximum_r_value",
             "minimum_projection_factor",
             "maximum_projection_factor",
             "assembly_maximum_solar_heat_gain_coefficient",
             "assembly_minimum_visible_transmittance",
             "assembly_minimum_vt_shgc",
+            "assembly_maximum_u_value_based_on_HDD65_slope",
+            "assembly_maximum_u_value_based_on_HDD65_intercept",
+            "assembly_maximum_u_value_based_on_HDD65_minimum_u_value",
+            "assembly_maximum_u_value_based_on_HDD65_maximum_u_value",
+            "assembly_maximum_r_value_based_on_HDD65_slope",
+            "assembly_maximum_r_value_based_on_HDD65_intercept",
+            "assembly_maximum_r_value_based_on_HDD65_minimum_r_value",
+            "assembly_maximum_r_value_based_on_HDD65_maximum_r_value",
         ]
 
         for f in float_expected:
@@ -200,11 +249,29 @@ class EnvelopeRequirement(DBOperation):
             getattr_either("assembly_maximum_f_factor_unit", record, "btu/h-ft-F"),
             getattr_either("assembly_maximum_c_factor", record),
             getattr_either("assembly_maximum_c_factor_unit", record, "btu/h-ft2-F"),
+            getattr_either("assembly_maximum_r_value", record),
+            getattr_either("assembly_maximum_r_value_unit", record, "hr-ft2-F/btu"),
             getattr_either("orientation", record),
             getattr_either("minimum_projection_factor", record),
             getattr_either("maximum_projection_factor", record),
             getattr_either("assembly_maximum_solar_heat_gain_coefficient", record),
             getattr_either("assembly_minimum_visible_transmittance", record),
             getattr_either("assembly_minimum_vt_shgc", record),
+            getattr_either("assembly_maximum_u_value_based_on_HDD65_slope", record),
+            getattr_either("assembly_maximum_u_value_based_on_HDD65_intercept", record),
+            getattr_either(
+                "assembly_maximum_u_value_based_on_HDD65_minimum_u_value", record
+            ),
+            getattr_either(
+                "assembly_maximum_u_value_based_on_HDD65_maximum_u_value", record
+            ),
+            getattr_either("assembly_maximum_r_value_based_on_HDD65_slope", record),
+            getattr_either("assembly_maximum_r_value_based_on_HDD65_intercept", record),
+            getattr_either(
+                "assembly_maximum_r_value_based_on_HDD65_minimum_r_value", record
+            ),
+            getattr_either(
+                "assembly_maximum_r_value_based_on_HDD65_maximum_r_value", record
+            ),
             getattr_either("annotation", record),
         )
