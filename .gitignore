@@ -3,3 +3,6 @@
 openstudio_standards.db
 dist/
 openstudio-standards/
+original_database_files/
+tests/database_files_from_csv/
+tests/database_files_from_json/

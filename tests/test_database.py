@@ -443,7 +443,7 @@ class TestCopyTemplateRecords(unittest.TestCase):
         self.assertEqual(new_901_count, 1)
 
     def test_copy_template_multiple_calls(self):
-        """Test that calling function multiple times adds duplicate copies"""
+        """Test that calling function multiple times does NOT create duplicates"""
         # First copy
         summary1 = copy_template_records_in_json_files(
             source_template="IECC-2024",
@@ -452,7 +452,7 @@ class TestCopyTemplateRecords(unittest.TestCase):
             dry_run=False,
         )
 
-        # Second copy (should create duplicates)
+        # Second copy (should NOT create duplicates due to duplicate prevention)
         summary2 = copy_template_records_in_json_files(
             source_template="IECC-2024",
             target_template="IECC-2027",
@@ -460,16 +460,17 @@ class TestCopyTemplateRecords(unittest.TestCase):
             dry_run=False,
         )
 
-        # Both should report same number of records copied
-        self.assertEqual(summary1, summary2)
+        # First call should copy records, second should copy nothing (duplicates prevented)
+        self.assertEqual(summary1, {"hvac_test.json": 2, "envelope_test.json": 1})
+        self.assertEqual(summary2, {})  # No records copied on second call
 
-        # Verify file has duplicates
+        # Verify file does NOT have duplicates
         with open(self.test_dir_path / "hvac_test.json", "r") as f:
             data = json.load(f)
 
-        # Should have original 3 + 2 new + 2 more new = 7 total
-        self.assertEqual(len(data), 7)
+        # Should have original 3 + 2 new = 5 total (NOT 7)
+        self.assertEqual(len(data), 5)
 
-        # Should have 4 IECC-2027 records
+        # Should have 2 IECC-2027 records (NOT 4)
         iecc_2027_records = [r for r in data if r.get("template") == "IECC-2027"]
-        self.assertEqual(len(iecc_2027_records), 4)
+        self.assertEqual(len(iecc_2027_records), 2)
