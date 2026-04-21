@@ -169,6 +169,11 @@ def test_create_export_database():
     )
     conn.close()
 
+    # Create artifacts directory for debugging
+    artifacts_dir = "./tests/test_artifacts"
+    if not os.path.isdir(artifacts_dir):
+        os.mkdir(artifacts_dir)
+
     # Compare original JSON files with the ones generated from both DB
     # There should be no difference between the JSON files originating
     # from a DB generated from JSON or CSV files
@@ -198,9 +203,58 @@ def test_create_export_database():
             data_from_csv_sorted = data_from_csv
             data_org_sorted = data_org
 
-        assert (
-            data_from_json_sorted == data_from_csv_sorted == data_org_sorted
-        ), f"Content is different in {f} files"
+        # Check if data matches
+        if not (data_from_json_sorted == data_from_csv_sorted == data_org_sorted):
+            # Save artifacts for debugging
+            artifact_file_base = os.path.splitext(f)[0]
+
+            with open(
+                f"{artifacts_dir}/{artifact_file_base}_from_json_sorted.json", "w"
+            ) as artifact:
+                json.dump(data_from_json_sorted, artifact, indent=4, sort_keys=True)
+
+            with open(
+                f"{artifacts_dir}/{artifact_file_base}_from_csv_sorted.json", "w"
+            ) as artifact:
+                json.dump(data_from_csv_sorted, artifact, indent=4, sort_keys=True)
+
+            with open(
+                f"{artifacts_dir}/{artifact_file_base}_org_sorted.json", "w"
+            ) as artifact:
+                json.dump(data_org_sorted, artifact, indent=4, sort_keys=True)
+
+            # Create a summary file with differences
+            summary = {
+                "file": f,
+                "from_json_count": (
+                    len(data_from_json_sorted)
+                    if isinstance(data_from_json_sorted, list)
+                    else "N/A"
+                ),
+                "from_csv_count": (
+                    len(data_from_csv_sorted)
+                    if isinstance(data_from_csv_sorted, list)
+                    else "N/A"
+                ),
+                "org_count": (
+                    len(data_org_sorted) if isinstance(data_org_sorted, list) else "N/A"
+                ),
+                "json_matches_csv": data_from_json_sorted == data_from_csv_sorted,
+                "json_matches_org": data_from_json_sorted == data_org_sorted,
+                "csv_matches_org": data_from_csv_sorted == data_org_sorted,
+            }
+
+            with open(
+                f"{artifacts_dir}/{artifact_file_base}_comparison_summary.json", "w"
+            ) as artifact:
+                json.dump(summary, artifact, indent=4)
+
+            # Assert with detailed error message
+            assert False, (
+                f"Content is different in {f} files. "
+                f"Artifacts saved to {artifacts_dir}/{artifact_file_base}_*.json for debugging. "
+                f"Summary: {summary}"
+            )
 
     # Check for duplicate entries in the JSON files
     for f in filenames:
