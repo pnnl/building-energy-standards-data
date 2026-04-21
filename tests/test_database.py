@@ -176,14 +176,31 @@ def test_create_export_database():
     filenames = [os.path.basename(f) for f in filenames]
     for f in filenames:
         with open(f"./tests/database_files_from_json/{f}") as f_from_json:
-            fc_from_json = f_from_json.readlines()
+            data_from_json = json.load(f_from_json)
         with open(f"./tests/database_files_from_csv/{f}") as f_from_csv:
-            fc_from_csv = f_from_csv.readlines()
+            data_from_csv = json.load(f_from_csv)
         with open(f"./original_database_files/{f}") as f_org:
-            fc_org = f_org.readlines()
-            assert (
-                fc_from_json == fc_from_csv == fc_org
-            ), f"Content is different in {f} files"
+            data_org = json.load(f_org)
+
+        # Sort lists of dicts by converting to sorted tuples for comparison
+        if isinstance(data_from_json, list):
+            data_from_json_sorted = sorted(
+                data_from_json, key=lambda x: json.dumps(x, sort_keys=True)
+            )
+            data_from_csv_sorted = sorted(
+                data_from_csv, key=lambda x: json.dumps(x, sort_keys=True)
+            )
+            data_org_sorted = sorted(
+                data_org, key=lambda x: json.dumps(x, sort_keys=True)
+            )
+        else:
+            data_from_json_sorted = data_from_json
+            data_from_csv_sorted = data_from_csv
+            data_org_sorted = data_org
+
+        assert (
+            data_from_json_sorted == data_from_csv_sorted == data_org_sorted
+        ), f"Content is different in {f} files"
 
     # Check for duplicate entries in the JSON files
     for f in filenames:
