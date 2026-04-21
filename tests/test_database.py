@@ -185,6 +185,36 @@ def test_create_export_database():
                 fc_from_json == fc_from_csv == fc_org
             ), f"Content is different in {f} files"
 
+    # Check for duplicate entries in the JSON files
+    for f in filenames:
+        with open(f"./tests/database_files_from_json/{f}") as json_file:
+            data = json.load(json_file)
+
+        if isinstance(data, list):
+            # Convert records to tuples for duplicate detection (excluding 'id' field if present)
+            records_as_tuples = []
+            for record in data:
+                # Create a sorted tuple of (key, value) pairs, excluding 'id'
+                record_tuple = tuple(
+                    sorted(
+                        (k, str(v) if v is not None else None)
+                        for k, v in record.items()
+                        if k != "id"
+                    )
+                )
+                records_as_tuples.append(record_tuple)
+
+            # Check for duplicates
+            unique_records = set(records_as_tuples)
+            if len(unique_records) != len(records_as_tuples):
+                duplicate_count = len(records_as_tuples) - len(unique_records)
+                assert False, f"Found {duplicate_count} duplicate entries in {f}"
+
+            unique_records = set(records_as_tuples)
+            if len(unique_records) != len(records_as_tuples):
+                duplicate_count = len(records_as_tuples) - len(unique_records)
+                assert False, f"Found {duplicate_count} duplicate entries in {f}"
+
 
 class TestCopyTemplateRecords(unittest.TestCase):
     """Test suite for copy_template_records_in_json_files function"""

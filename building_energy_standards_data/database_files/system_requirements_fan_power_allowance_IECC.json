@@ -350,49 +350,5 @@
         "fan_power_allowance": 0.0013,
         "fan_power_allowance_unit": "bhp/cfm",
         "annotation": "From IECC-2024 Table C403.8.1(1), applicable to fan system power exceeding 5hp according to Section C403.8.1"
-    },
-    {
-        "template": "IECC-2027",
-        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
-        "air_system_component": "Fan power limitation - Option 1",
-        "fan_system": "cav",
-        "minimum_capacity": 0,
-        "maximum_capacity": 9999999999,
-        "fan_power_allowance": 0.0011,
-        "fan_power_allowance_unit": "nameplate_hp/cfm",
-        "annotation": "From IECC-2024 Table C403.8.1(1), applicable to fan system power exceeding 5hp according to Section C403.8.1"
-    },
-    {
-        "template": "IECC-2027",
-        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
-        "air_system_component": "Fan power limitation - Option 2",
-        "fan_system": "cav",
-        "minimum_capacity": 0,
-        "maximum_capacity": 9999999999,
-        "fan_power_allowance": 0.00094,
-        "fan_power_allowance_unit": "bhp/cfm",
-        "annotation": "From IECC-2024 Table C403.8.1(1), applicable to fan system power exceeding 5hp according to Section C403.8.1"
-    },
-    {
-        "template": "IECC-2027",
-        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
-        "air_system_component": "Fan power limitation - Option 1",
-        "fan_system": "vav",
-        "minimum_capacity": 0,
-        "maximum_capacity": 9999999999,
-        "fan_power_allowance": 0.0015,
-        "fan_power_allowance_unit": "nameplate_hp/cfm",
-        "annotation": "From IECC-2024 Table C403.8.1(1), applicable to fan system power exceeding 5hp according to Section C403.8.1"
-    },
-    {
-        "template": "IECC-2027",
-        "air_system": "Supply Fan Systems, Exhaust, Return, Relief Transfer Fan Systems",
-        "air_system_component": "Fan power limitation - Option 2",
-        "fan_system": "vav",
-        "minimum_capacity": 0,
-        "maximum_capacity": 9999999999,
-        "fan_power_allowance": 0.0013,
-        "fan_power_allowance_unit": "bhp/cfm",
-        "annotation": "From IECC-2024 Table C403.8.1(1), applicable to fan system power exceeding 5hp according to Section C403.8.1"
     }
 ]

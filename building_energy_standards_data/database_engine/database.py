@@ -42,6 +42,9 @@ def copy_template_records_in_json_files(
     matching the source template, creates copies with the target template name, and
     writes the updated data back to the files.
 
+    The function prevents duplicate copies by checking if records with identical content
+    (except template field) already exist for the target template.
+
     :param source_template: str - The template name to copy from (e.g., "IECC-2024")
     :param target_template: str - The new template name to create (e.g., "IECC-2027")
     :param database_files_dir: str - Path to the database_files directory. If None, uses the default relative path
@@ -98,30 +101,55 @@ def copy_template_records_in_json_files(
                 )
                 continue
 
-            # Create copies with the new template name
+            # Get existing target template records for duplicate checking
+            existing_target_records = [
+                record for record in data if record.get("template") == target_template
+            ]
+
+            # Create copies with the new template name, avoiding duplicates
             new_records = []
             for record in matching_records:
                 new_record = deepcopy(record)
                 new_record["template"] = target_template
-                new_records.append(new_record)
+
+                # Check if an identical record (ignoring template field) already exists
+                is_duplicate = False
+                for existing_record in existing_target_records:
+                    # Compare all fields except template
+                    if all(
+                        new_record.get(key) == existing_record.get(key)
+                        for key in new_record.keys()
+                        if key != "template"
+                    ):
+                        is_duplicate = True
+                        break
+
+                if not is_duplicate:
+                    new_records.append(new_record)
 
             records_copied = len(new_records)
-            summary[json_file.name] = records_copied
-            total_records_copied += records_copied
 
-            if dry_run:
-                logging.info(
-                    f"[DRY RUN] Would add {records_copied} records to {json_file.name}"
-                )
+            if records_copied > 0:
+                summary[json_file.name] = records_copied
+                total_records_copied += records_copied
+
+                if dry_run:
+                    logging.info(
+                        f"[DRY RUN] Would add {records_copied} records to {json_file.name}"
+                    )
+                else:
+                    # Add new records to the data
+                    data.extend(new_records)
+
+                    # Write back to the file
+                    with open(json_file, "w") as f:
+                        json.dump(data, f, indent=4)
+
+                    logging.info(f"Added {records_copied} records to {json_file.name}")
             else:
-                # Add new records to the data
-                data.extend(new_records)
-
-                # Write back to the file
-                with open(json_file, "w") as f:
-                    json.dump(data, f, indent=4)
-
-                logging.info(f"Added {records_copied} records to {json_file.name}")
+                logging.debug(
+                    f"No new records to add to {json_file.name} (all would be duplicates)"
+                )
 
         except json.JSONDecodeError as e:
             logging.error(f"Error decoding JSON in {json_file.name}: {e}")
