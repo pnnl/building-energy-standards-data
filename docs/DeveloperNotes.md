@@ -1,9 +1,11 @@
 # Notes for Developers
 ## Contribution Guidelines
+### How to contribute
+All contributions have to go through a pull request and be reviewed by the repository maintainers. One can contribute to the code base via a pull request by either forking the repository or by reaching out to the maintainers and getting added to the list of contributors. Issue reports are welcomed from anyone.
 ### Code Formatting
-Consistent code formatting is enforced by using the [Black Python code formatter](https://github.com/psf/black). Tests are run to make sure that any changes to the code is consistent with Black's formatting standards. Before creating a pull request and after installing Black, run `black -l 88 ./` to format all Python files within this directory.
+Consistent code formatting is enforced by using the [Black Python code formatter](https://github.com/psf/black). Tests are run to make sure that any changes to the code are consistent with Black's formatting standards. Before creating a pull request and after installing Black, run `black -l 88 ./` to format all Python files within this directory.
 ### Tests
-A small set of tests have been implemented, mostly to make sure that further edits to the data or database structure is valid, and that JSON and CSV files generated from the database include the same content. Tests are run using a GitHub action, see the workflow YAML file in `../../.github/workflow/openstudio_standards_database.yml`.
+A small set of tests have been implemented, mostly to make sure that further edits to the data or database structure are valid, and that JSON and CSV files generated from the database include the same content. Tests are run using a GitHub action, see the workflow YAML file in `../../.github/workflow/openstudio_standards_database.yml`.
 ## Expanding the Database
 Developers wishing to expand the database do not need advanced SQL knowledge to do so. The following tips should provide enough information to expand the database.
 ### Adding Tables and Data for a New Code Versions
@@ -49,7 +51,7 @@ Data can be provided either in CSV or in the  JSON file format. The best approac
 4) Add a new CSV of JSON file in the data folder corresponding to the `initial_data_directory` attribute in the new table class,
 5) Re-generate the database.
 #### Tests
-A small set of tests have been implemented, mostly to make sure that further edits to the data or database structure is valid, and that JSON and CSV files generated from the database include the same content. After modifying the database, it is good practice to run the tests locally to verify the integrity of the database. From the root directory one can run the following command:
+A small set of tests have been implemented, mostly to make sure that further edits to the data or database structure are valid, and that JSON and CSV files generated from the database include the same content. After modifying the database, it is good practice to run the tests locally to verify the integrity of the database. From the root directory one can run the following command:
 ```
 pytest test
 ```
