@@ -1,0 +1,35 @@
+{
+  "name": "SQL Query Agent",
+  "description": "Main agent that writes SQL queries.",
+  "url": "http://0.0.0.0:10000/",
+  "provider": null,
+  "version": "0.0.2",
+  "documentationUrl": null,
+  "authentication": {
+    "credentials": null,
+    "schemes": [
+      "public"
+    ]
+  },
+  "defaultInputModes": [
+    "text",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "planner",
+      "name": "SQL Query Agent",
+      "description": "Writes and executes SQL queries",
+      "tags": ["building_energy_standards_database", "sql"],
+      "examples": [
+        "What is the maximum permitted assembly U-value for a residential exterior mass wall in Climate Zone 3A according to IECC-2012?"
+      ],
+      "inputModes": null,
+      "outputModes": null
+    }
+  ]
+}

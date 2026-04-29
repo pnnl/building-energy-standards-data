@@ -3,3 +3,5 @@
 openstudio_standards.db
 dist/
 openstudio-standards/
+.DS_Store
+.env
