@@ -7,8 +7,8 @@ from automa_ai.common.mcp_registry import MCPServerConfig
 from automa_ai.agents import GenericLLM, GenericAgentType
 from automa_ai.agents.agent_factory import AgentFactory
 
-from building_energy_standards_data.applications.ai_agent.v2.agent.prompts import AGENT_PROMPT
-from building_energy_standards_data.applications.ai_agent.v2.mcps.server import serve as serve_mcp
+from building_energy_standards_data.applications.ai_agent.agent.prompts import AGENT_PROMPT
+from building_energy_standards_data.applications.ai_agent.mcps.server import serve as serve_mcp
 
 
 def build_sql_agent() -> AgentFactory:

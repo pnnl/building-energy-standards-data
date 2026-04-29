@@ -1,6 +1,6 @@
 from typing import List, Optional, Tuple
 
-from building_energy_standards_data.applications.ai_agent.v2.core.models.types import (
+from building_energy_standards_data.applications.ai_agent.core.models.types import (
     Domain,
     Topic,
     System,

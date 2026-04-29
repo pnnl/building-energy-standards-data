@@ -1,7 +1,7 @@
 from fastmcp import FastMCP
 
-from building_energy_standards_data.applications.ai_agent.v2.core.services import SchemaMetadataService
-from building_energy_standards_data.applications.ai_agent.v2.mcps.tools import register_tools
+from building_energy_standards_data.applications.ai_agent.core.services import SchemaMetadataService
+from building_energy_standards_data.applications.ai_agent.mcps.tools import register_tools
 
 
 

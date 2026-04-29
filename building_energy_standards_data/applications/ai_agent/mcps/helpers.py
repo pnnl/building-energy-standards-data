@@ -2,7 +2,7 @@ import sqlglot
 from sqlglot import exp
 import difflib
 
-from building_energy_standards_data.applications.ai_agent.v2.core.utils.sql import (
+from building_energy_standards_data.applications.ai_agent.core.utils.sql import (
     run_sqlite_query,
 )
 

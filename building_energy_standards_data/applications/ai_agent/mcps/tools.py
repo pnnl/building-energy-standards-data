@@ -3,17 +3,17 @@ import re
 from typing import Optional
 
 
-from building_energy_standards_data.applications.ai_agent.v2.config import TABLE_NAMES
-from building_energy_standards_data.applications.ai_agent.v2.core.services import SchemaMetadataService
-from building_energy_standards_data.applications.ai_agent.v2.core.models.types import TableDescriptor, Domain, Topic, System, SubSystem, StandardFamily, CompliancePath
-from building_energy_standards_data.applications.ai_agent.v2.core.utils.reflection import (
+from building_energy_standards_data.applications.ai_agent.config import TABLE_NAMES
+from building_energy_standards_data.applications.ai_agent.core.services import SchemaMetadataService
+from building_energy_standards_data.applications.ai_agent.core.models.types import TableDescriptor, Domain, Topic, System, SubSystem, StandardFamily, CompliancePath
+from building_energy_standards_data.applications.ai_agent.core.utils.reflection import (
     _resolve_enum,
     get_field_weights,
 )
-from building_energy_standards_data.applications.ai_agent.v2.core.utils.sql import (
+from building_energy_standards_data.applications.ai_agent.core.utils.sql import (
     run_sqlite_query,
 )
-from building_energy_standards_data.applications.ai_agent.v2.mcps.helpers import diagnose_zero_rows
+from building_energy_standards_data.applications.ai_agent.mcps.helpers import diagnose_zero_rows
 
 
 def register_tools(mcp, svc: SchemaMetadataService):

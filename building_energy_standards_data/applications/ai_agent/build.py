@@ -6,7 +6,7 @@ from automa_ai.common.agent_registry import A2AAgentServer, A2AServerManager
 from automa_ai.common.mcp_registry import MCPServerManager
 from dotenv import load_dotenv
 
-from building_energy_standards_data.applications.ai_agent.v2.agent import build_sql_agent
+from building_energy_standards_data.applications.ai_agent.agent import build_sql_agent
 
 LOGGING_CONFIG = {
     "version": 1,
