@@ -1,4 +1,4 @@
-from fine_tuning.find_table.lookup_pipeline import QueryPipeline
+from fine_tuning.find_table.pipeline.lookup_pipeline import QueryPipeline
 
 
 def main():

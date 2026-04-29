@@ -4,8 +4,8 @@ import sqlite3
 from typing import Any, Dict, List, Optional, Type, Union, get_origin, get_args, TYPE_CHECKING
 import re
 
-from fine_tuning.find_table.rules import RULES
-from fine_tuning.find_table.types import TableDescriptor
+from fine_tuning.find_table.table_matching.rules import RULES
+from fine_tuning.find_table.table_matching.types import TableDescriptor
 
 
 def get_field_weights(descriptor_cls):
@@ -135,5 +135,3 @@ def run_sqlite_query(
     except sqlite3.Error as e:
         print(f"SQLite error: {e}")
         return []
-    finally:
-        conn.close()

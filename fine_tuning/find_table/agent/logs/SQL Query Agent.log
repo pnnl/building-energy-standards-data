@@ -1,0 +1,201 @@
+2026-04-15 10:47:29,299 [INFO] [Process-1:87077] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 10:49:17,774 [INFO] [Process-1:87906] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 10:56:42,497 [INFO] [Process-1:89887] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 11:04:20,566 [INFO] [Process-1:92056] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 11:11:44,379 [INFO] [Process-1:92056] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 11:12:58,427 [INFO] [Process-1:4582] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 11:14:33,460 [INFO] [Process-1:4582] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 11:21:57,099 [INFO] [Process-1:7214] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 11:22:36,313 [INFO] [Process-1:7488] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 11:24:28,933 [INFO] [Process-1:8039] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 11:26:35,991 [INFO] [Process-1:8668] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 11:26:35,992 [INFO] [Process-1:8668] SQL Query Agent: Running planner agent stream for session 62641316-08ed-476d-a484-f500b2cf19e8 82c775a6-4d13-445f-9596-ac7b2f2aa88c with input HI
+2026-04-15 11:26:35,992 [INFO] [Process-1:8668] SQL Query Agent: Initializing SQL Query Agent metadata
+2026-04-15 11:26:35,992 [INFO] [Process-1:8668] SQL Query Agent: Subscribe to MCPs through sse
+2026-04-15 11:26:36,007 [INFO] [Process-1:8668] SQL Query Agent: Loaded tools list_tables
+2026-04-15 11:26:36,007 [INFO] [Process-1:8668] SQL Query Agent: Loaded tools get_candidate_tables
+2026-04-15 11:26:36,007 [INFO] [Process-1:8668] SQL Query Agent: Loaded tools get_table_metadata
+2026-04-15 11:26:36,007 [INFO] [Process-1:8668] SQL Query Agent: Loaded tools run_sql
+2026-04-15 11:26:36,007 [INFO] [Process-1:8668] SQL Query Agent: Loaded tools get_unique_values
+2026-04-15 11:28:02,941 [INFO] [Process-1:9127] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 11:28:38,452 [INFO] [Process-1:9127] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 11:29:57,680 [INFO] [Process-1:9689] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 11:37:50,744 [INFO] [Process-1:13040] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 11:39:05,881 [INFO] [Process-1:13427] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 11:54:10,069 [INFO] [Process-1:17690] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 11:54:14,474 [INFO] [Process-1:17690] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 11:57:15,388 [INFO] [Process-1:18398] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 12:04:12,433 [INFO] [Process-1:20608] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 12:04:16,513 [INFO] [Process-1:20608] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 12:04:59,652 [INFO] [Process-1:20841] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 12:06:05,995 [INFO] [Process-1:21162] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 12:07:34,659 [INFO] [Process-1:21589] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 12:09:37,065 [INFO] [Process-1:22222] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 12:10:35,078 [INFO] [Process-1:26788] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 12:10:37,681 [INFO] [Process-1:26788] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 12:36:16,883 [INFO] [Process-1:34924] SQL Query Agent: Executing agent SQL Query Agent
+2026-04-15 12:36:22,857 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'Hello! ', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,857 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'Hello! ', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,857 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': '👋 I', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,857 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '👋 I', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': '{\'text\': "\'m here to help you query", \'type\': \'text\', \'index\': 0}'}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': "'m here to help you query", 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' a', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' a', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' building', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' building', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' energy', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' energy', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' standards', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' standards', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' database. I', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' database. I', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' can help', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' can help', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' you find information about:\\n\\n- **', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' you find information about:\n\n- **', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'Equipment', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'Equipment', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' efficiency', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' efficiency', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' requirements', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,858 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' requirements', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,859 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': '** (bo', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,860 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '** (bo', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,860 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'ilers, chillers, heat', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,860 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'ilers, chillers, heat', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,860 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' pumps, etc.)\\n- **', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' pumps, etc.)\n- **', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'Thermal', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'Thermal', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' envelope', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' envelope', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' criteria', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' criteria', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': '** (insulation, air', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '** (insulation, air', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' se', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' se', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'aling, thermal', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'aling, thermal', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' bri', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' bri', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'dging)\\n- **Lighting', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'dging)\n- **Lighting', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' power', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' power', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' dens', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' dens', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'ities** an', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,861 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'ities** an', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'd requirements', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'd requirements', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': '\\n- **', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '\n- **', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'HVAC system specifications', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'HVAC system specifications', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': '** (fans', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '** (fans', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ', pumps, econom', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ', pumps, econom', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'izers,', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'izers,', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' energy', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' energy', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' recovery)\\n- **Vent', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' recovery)\n- **Vent', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'ilation an', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'ilation an', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'd space', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'd space', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' classification', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' classification', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': '** data', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '** data', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': '\\n- **Standards', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '\n- **Standards', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' compliance', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' compliance', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': '** (ASH', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '** (ASH', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,862 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'RAE ', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'RAE ', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': '90.1, IE', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '90.1, IE', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'CC,', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'CC,', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' ASH', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' ASH', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'RAE 62', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'RAE 62', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': '.1, etc.)\\n\\n**', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '.1, etc.)\n\n**', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'How', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'How', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' can I help?', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' can I help?', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': '** Just', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '** Just', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' ask', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' ask', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,863 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' me a question like', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,864 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' me a question like', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,864 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ':', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,864 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ':', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,864 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': '{\'text\': \'\\n- "What are the minimum\', \'type\': \'text\', \'index\': 0}'}
+2026-04-15 12:36:22,864 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '\n- "What are the minimum', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,864 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' efficiency', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,864 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' efficiency', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,864 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' requirements', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,864 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' requirements', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,864 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' for chil', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,864 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' for chil', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,864 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'lers in', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,864 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'lers in', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,864 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' ASHRAE 90.1-', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,864 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' ASHRAE 90.1-', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,864 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': '2019', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '2019', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': '{\'text\': \'?"\\n- "What\\\'s\', \'type\': \'text\', \'index\': 0}'}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '?"\n- "What\'s', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' the lighting', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' the lighting', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' power density for office', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' power density for office', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': '{\'text\': \' spaces?"\', \'type\': \'text\', \'index\': 0}'}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' spaces?"', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': '{\'text\': \'\\n- "Show\', \'type\': \'text\', \'index\': 0}'}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '\n- "Show', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' me bo', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' me bo', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': '{\'text\': \'iler efficiency standards"\', \'type\': \'text\', \'index\': 0}'}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'iler efficiency standards"', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': '\\n- Or', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '\n- Or', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' anything', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' anything', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': ' else relate', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,865 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': ' else relate', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,866 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': 'd to building energy codes', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,866 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': 'd to building energy codes', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,866 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': '!', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,866 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '!', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,866 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': False, 'require_user_input': False, 'content': "{'text': '\\n\\nWhat would you like to know?', 'type': 'text', 'index': 0}"}
+2026-04-15 12:36:22,866 [INFO] [Process-1:34924] SQL Query Agent: -----Continue updates!: {'text': '\n\nWhat would you like to know?', 'type': 'text', 'index': 0}
+2026-04-15 12:36:22,875 [INFO] [Process-1:34924] SQL Query Agent: 🔍 We received the item: {'response_type': 'text', 'is_task_complete': True, 'require_user_input': False, 'content': 'Hello! 👋 I\'m here to help you query a building energy standards database. I can help you find information about:\n\n- **Equipment efficiency requirements** (boilers, chillers, heat pumps, etc.)\n- **Thermal envelope criteria** (insulation, air sealing, thermal bridging)\n- **Lighting power densities** and requirements\n- **HVAC system specifications** (fans, pumps, economizers, energy recovery)\n- **Ventilation and space classification** data\n- **Standards compliance** (ASHRAE 90.1, IECC, ASHRAE 62.1, etc.)\n\n**How can I help?** Just ask me a question like:\n- "What are the minimum efficiency requirements for chillers in ASHRAE 90.1-2019?"\n- "What\'s the lighting power density for office spaces?"\n- "Show me boiler efficiency standards"\n- Or anything else related to building energy codes!\n\nWhat would you like to know?'}
+2026-04-15 12:36:22,875 [INFO] [Process-1:34924] SQL Query Agent: 🔍 34924: Completing with content: Hello! 👋 I'm here to help you query a building energy standards database. I can help you find information about:
+
+- **Equipment efficiency requirements** (boilers, chillers, heat pumps, etc.)
+- **Thermal envelope criteria** (insulation, air sealing, thermal bridging)
+- **Lighting power densities** and requirements
+- **HVAC system specifications** (fans, pumps, economizers, energy recovery)
+- **Ventilation and space classification** data
+- **Standards compliance** (ASHRAE 90.1, IECC, ASHRAE 62.1, etc.)
+
+**How can I help?** Just ask me a question like:
+- "What are the minimum efficiency requirements for chillers in ASHRAE 90.1-2019?"
+- "What's the lighting power density for office spaces?"
+- "Show me boiler efficiency standards"
+- Or anything else related to building energy codes!
+
+What would you like to know?

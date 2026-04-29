@@ -6,8 +6,8 @@ import re
 
 from fine_tuning.client import LLMClient, generate
 
-from fine_tuning.find_table.table_metadata import SchemaMetadataService
-from fine_tuning.find_table.types import TableDescriptor
+from fine_tuning.find_table.table_matching.table_metadata import SchemaMetadataService
+from fine_tuning.find_table.table_matching.types import TableDescriptor
 from fine_tuning.find_table.utils import (
     build_descriptor_prompt,
     dict_to_prompt_string,

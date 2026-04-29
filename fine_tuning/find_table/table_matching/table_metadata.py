@@ -6,8 +6,8 @@ from typing import Dict, List, Any, Optional
 from contextlib import contextmanager
 from threading import Lock
 
-from fine_tuning.find_table.rules import RULES
-from fine_tuning.find_table.types import TableDescriptor
+from fine_tuning.find_table.table_matching.rules import RULES
+from fine_tuning.find_table.table_matching.types import TableDescriptor
 
 
 class SchemaMetadataService:

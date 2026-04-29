@@ -1,6 +1,6 @@
 from typing import List, Optional, Tuple
 
-from fine_tuning.find_table.types import (
+from fine_tuning.find_table.table_matching.types import (
     Domain,
     Topic,
     System,
