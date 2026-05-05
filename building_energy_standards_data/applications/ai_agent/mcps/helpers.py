@@ -11,8 +11,10 @@ def _normalize(s: str) -> str:
     return s.lower().strip()
 
 
-def _fuzzy_suggestions(table: str, col: str, val: str, conn, limit: int = 5):
+def _fuzzy_suggestions(table: str, col: str, val: str, conn):
     """Return close matches for a value from a column."""
+    suggestion_limit = 5
+
     try:
         rows = run_sqlite_query(
             f"""
@@ -35,7 +37,7 @@ def _fuzzy_suggestions(table: str, col: str, val: str, conn, limit: int = 5):
     matches = difflib.get_close_matches(
         norm_val,
         list(norm_map.values()),
-        n=limit,
+        n=suggestion_limit,
         cutoff=0.5,
     )
 
@@ -124,7 +126,6 @@ def _extract_simple_equality(pred: exp.Expression) -> tuple[str, str] | None:
 
 def _get_table_name(parsed: exp.Expression) -> str | None:
     """Best-effort: first table in FROM."""
-    # print(parsed.args)
 
     from_ = parsed.args.get("from_")
     if not from_:
@@ -134,12 +135,11 @@ def _get_table_name(parsed: exp.Expression) -> str | None:
     return table.name if table else None
 
 
-
 def diagnose_zero_rows(query: str, conn) -> str | None:
     try:
         parsed = sqlglot.parse_one(query)
     except Exception:
-        return None  # can't parse → give up safely
+        return None
 
     failing_pred = _find_failing_predicate(parsed, conn)
     if not failing_pred:
@@ -161,7 +161,6 @@ def diagnose_zero_rows(query: str, conn) -> str | None:
             exists = None
 
         if not exists:
-            # --- NEW: fuzzy suggestions ---
             suggestions = _fuzzy_suggestions(table, col, val, conn)
 
             try:

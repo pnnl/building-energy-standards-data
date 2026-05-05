@@ -5,3 +5,4 @@ dist/
 openstudio-standards/
 .DS_Store
 .env
+*.log

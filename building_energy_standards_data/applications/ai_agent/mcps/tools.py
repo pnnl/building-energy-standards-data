@@ -3,7 +3,7 @@ import re
 from typing import Optional
 
 
-from building_energy_standards_data.applications.ai_agent.config import TABLE_NAMES
+from building_energy_standards_data.applications.ai_agent.config import FIELD_WEIGHTS, TABLE_NAMES
 from building_energy_standards_data.applications.ai_agent.core.services import SchemaMetadataService
 from building_energy_standards_data.applications.ai_agent.core.models.types import TableDescriptor, Domain, Topic, System, SubSystem, StandardFamily, CompliancePath
 from building_energy_standards_data.applications.ai_agent.core.utils.reflection import (
@@ -15,21 +15,33 @@ from building_energy_standards_data.applications.ai_agent.core.utils.sql import 
 )
 from building_energy_standards_data.applications.ai_agent.mcps.helpers import diagnose_zero_rows
 
-
 def register_tools(mcp, svc: SchemaMetadataService):
     @mcp.tool(
         name="list_tables",
         description=(
-            "List every table in the building energy standards database. "
-            "Returns each table name with a short description.  Use this "
-            "to get a broad overview of what data is available *before* "
-            "narrowing your search with `get_candidate_tables`."
+            "List every table in the building energy standards database."
         ),
     )
     def list_tables() -> str:
-        """List every table in the building energy standards database."""
         tables = svc.get_table_names(TABLE_NAMES)
-        descriptions = getattr(svc, "table_descriptions", {}) or {}
+
+        lines: list[str] = []
+        for t in sorted(tables):
+            lines.append(f"* {t}")
+
+        return f"{len(tables)} tables available:\n\n" + "\n".join(lines)
+
+
+    @mcp.tool(
+        name="list_tables_with_descriptions",
+        description=(
+            "List every table in the building energy standards database. "
+            "Returns each table name with a short description."
+        ),
+    )
+    def list_tables_with_descriptions() -> str:
+        tables = svc.get_table_names(TABLE_NAMES)
+        descriptions = svc.table_descriptions or {}
 
         lines: list[str] = []
         for t in sorted(tables):
@@ -54,14 +66,8 @@ def register_tools(mcp, svc: SchemaMetadataService):
             "Each field has a weight.  An exact match adds +weight, a "
             "mismatch subtracts -weight, and a null query field is "
             "ignored (no penalty).\n"
-            "Field weights (highest -> lowest):\n"
-            "    system          5.0  <- strongest signal\n"
-            "    sub_system      3.0\n"
-            "    standard_year   2.0\n"
-            "    topic           1.5\n"
-            "    domain          1.0\n"
-            "    standard_family 1.0\n"
-            "    compliance_path 1.0\n"
+            "Field weights:\n"
+            f"{FIELD_WEIGHTS}\n"
             "\n"
             "-- STRATEGY --\n"
             "* Always set `domain`.\n"
@@ -138,7 +144,9 @@ def register_tools(mcp, svc: SchemaMetadataService):
             ranked.append((table_name, round(score, 2)))
 
         ranked.sort(key=lambda x: x[1], reverse=True)
-        top = ranked[:3]
+
+        # Show the top 3 plus any ties at that score, but no more than 10 total.
+        top = [t for t in ranked if 0 < t[1] >= ranked[3][1]][:10]
 
         descriptions = getattr(svc, "table_descriptions", {}) or {}
         lines: list[str] = []

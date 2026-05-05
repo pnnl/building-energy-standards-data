@@ -15,10 +15,9 @@ class SchemaMetadataService:
     def __init__(
         self,
         db_path: str = "openstudio_standards.db",
-        descriptions_path: str = "building_energy_standards_data/applications/ai_agent/v2/core/data/generated_table_descriptions.json",
     ):
         self.db_path = db_path
-        self.descriptions_path = Path(descriptions_path)
+        self.descriptions_path = Path("building_energy_standards_data/applications/ai_agent/core/data/generated_table_descriptions.json")
         self._table_descriptions: Optional[Dict[str, str]] = None
         self._table_names: Optional[List[str]] = None
         self._schemas: Optional[Dict[str, List[Dict[str, Any]]]] = None

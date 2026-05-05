@@ -93,3 +93,13 @@ TABLE_NAMES = [
     "envelope_requirements_90_1_prm",
     "envelope_requirements_IECC",
 ]
+
+FIELD_WEIGHTS = {
+    "domain": 1.0,
+    "topic": 1.5,
+    "system": 5.0,
+    "sub_system":  3.0,
+    "standard_family": 1.0,
+    "standard_year": 2.0,
+    "compliance_path": 1.0,
+}
