@@ -272,7 +272,8 @@ class TestLightingSpaceTypeIntegrity(unittest.TestCase):
             {},
             "lighting_space_type_names missing entries for required code versions:\n"
             + "\n".join(
-                f"  {name}: {', '.join(tables)}" for name, tables in sorted(missing.items())
+                f"  {name}: {', '.join(tables)}"
+                for name, tables in sorted(missing.items())
             ),
         )
 
