@@ -3,7 +3,9 @@
 openstudio_standards.db
 dist/
 openstudio-standards/
+building_energy_standards_data/database_files/*.csv
 original_database_files/
 tests/database_files_from_csv/
 tests/database_files_from_json/
 tests/test_artifacts/
+**.db

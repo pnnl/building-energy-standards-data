@@ -32,7 +32,7 @@ The schedules used in the database were determined based on the PNNL led *Develo
 Different groups of occupants may exhibit varying behaviors influenced by factors such as the type of space, cultural background, and social context. The occupant types database is designed to capture diverse behavioral patterns and create a representative dataset that enables users to improve the building energy modeling and advance research on dynamic occupant behavior. 
 
 #### Occupant Types Data Structure
-This database is insipried by a previous work led by Lawrence Berkeley National Laboratory (LBNL) [(Sun and Hong 2017)](https://www.sciencedirect.com/science/article/abs/pii/S0378778817302013), which established a framework categorizing occupant types into three primary categories: 
+This database is inspired by a previous work led by Lawrence Berkeley National Laboratory (LBNL) [(Sun and Hong 2017)](https://www.sciencedirect.com/science/article/abs/pii/S0378778817302013), which established a framework categorizing occupant types into three primary categories:
 - energy behavior (including actions related to thermostat and lighting),
 - physical characteristics of occupants (including clothing insulation, work efficiency, CO2 generation, and air velocity),
 - 24-hour occupant schedule. 
@@ -50,7 +50,7 @@ The energy behavior is further divided into three categories:
 For physical characteristics, the options that can be modified by the user include clothing insulation, work efficiency, CO2 generation rate, and air velocity. 
 
 #### Occupancy Schedule
-Occupancy density over 24 hours on weekdays and weekends is based on the analysis of the multiple years of the [American Time Use Survey](https://www.bls.gov/tus/). The clustering algorithm determined four optimal clusters: early birds, late owls, regular 8-hour workers, and night shift workers,the clustering result can be seen in following figure. Default values for each cluster are based on their respective ratios.
+Occupancy density over 24 hours on weekdays and weekends is based on the analysis of the multiple years of the [American Time Use Survey](https://www.bls.gov/tus/). The clustering algorithm determined four optimal clusters: early birds, late owls, regular 8-hour workers, and night shift workers, the clustering result can be seen in the following figure. Default values for each cluster are based on their respective ratios.
 
 ![Occupant schedule clustering](ATUS_schedule.drawio.png "Occupant schedule clustering")
 
@@ -67,4 +67,4 @@ The specific details of each subcategory of design occupant types are summarized
 <tr><td>CO<sub>2</sub> generation rate</td><td><a href="https://www.ashrae.org/technical-resources/standards-and-guidelines/read-only-versions-of-ashrae-standards">ANSI/ASHRAE Standard 62.1-2017 </td><td>A default metabolic rate of 1 met is assumed.</td><td></tr>
 </table>
 
-**Notice**: This initial design of the occupant types database focuses specifically on office space types and has not yet been integrated into simulation software. 
+**Notice**: This initial design of the occupant types database focuses specifically on office space types and has not yet been integrated into simulation software.
