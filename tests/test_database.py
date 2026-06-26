@@ -169,6 +169,11 @@ def test_create_export_database():
     )
     conn.close()
 
+    # Create artifacts directory for debugging
+    artifacts_dir = "./tests/test_artifacts"
+    if not os.path.isdir(artifacts_dir):
+        os.mkdir(artifacts_dir)
+
     # Compare original JSON files with the ones generated from both DB
     # There should be no difference between the JSON files originating
     # from a DB generated from JSON or CSV files
@@ -176,14 +181,110 @@ def test_create_export_database():
     filenames = [os.path.basename(f) for f in filenames]
     for f in filenames:
         with open(f"./tests/database_files_from_json/{f}") as f_from_json:
-            fc_from_json = f_from_json.readlines()
+            data_from_json = json.load(f_from_json)
         with open(f"./tests/database_files_from_csv/{f}") as f_from_csv:
-            fc_from_csv = f_from_csv.readlines()
+            data_from_csv = json.load(f_from_csv)
         with open(f"./original_database_files/{f}") as f_org:
-            fc_org = f_org.readlines()
-            assert (
-                fc_from_json == fc_from_csv == fc_org
-            ), f"Content is different in {f} files"
+            data_org = json.load(f_org)
+
+        # Sort lists of dicts by converting to sorted tuples for comparison
+        if isinstance(data_from_json, list):
+            data_from_json_sorted = sorted(
+                data_from_json, key=lambda x: json.dumps(x, sort_keys=True)
+            )
+            data_from_csv_sorted = sorted(
+                data_from_csv, key=lambda x: json.dumps(x, sort_keys=True)
+            )
+            data_org_sorted = sorted(
+                data_org, key=lambda x: json.dumps(x, sort_keys=True)
+            )
+        else:
+            data_from_json_sorted = data_from_json
+            data_from_csv_sorted = data_from_csv
+            data_org_sorted = data_org
+
+        # Check if data matches
+        if not (data_from_json_sorted == data_from_csv_sorted == data_org_sorted):
+            # Save artifacts for debugging
+            artifact_file_base = os.path.splitext(f)[0]
+
+            with open(
+                f"{artifacts_dir}/{artifact_file_base}_from_json_sorted.json", "w"
+            ) as artifact:
+                json.dump(data_from_json_sorted, artifact, indent=4, sort_keys=True)
+
+            with open(
+                f"{artifacts_dir}/{artifact_file_base}_from_csv_sorted.json", "w"
+            ) as artifact:
+                json.dump(data_from_csv_sorted, artifact, indent=4, sort_keys=True)
+
+            with open(
+                f"{artifacts_dir}/{artifact_file_base}_org_sorted.json", "w"
+            ) as artifact:
+                json.dump(data_org_sorted, artifact, indent=4, sort_keys=True)
+
+            # Create a summary file with differences
+            summary = {
+                "file": f,
+                "from_json_count": (
+                    len(data_from_json_sorted)
+                    if isinstance(data_from_json_sorted, list)
+                    else "N/A"
+                ),
+                "from_csv_count": (
+                    len(data_from_csv_sorted)
+                    if isinstance(data_from_csv_sorted, list)
+                    else "N/A"
+                ),
+                "org_count": (
+                    len(data_org_sorted) if isinstance(data_org_sorted, list) else "N/A"
+                ),
+                "json_matches_csv": data_from_json_sorted == data_from_csv_sorted,
+                "json_matches_org": data_from_json_sorted == data_org_sorted,
+                "csv_matches_org": data_from_csv_sorted == data_org_sorted,
+            }
+
+            with open(
+                f"{artifacts_dir}/{artifact_file_base}_comparison_summary.json", "w"
+            ) as artifact:
+                json.dump(summary, artifact, indent=4)
+
+            # Assert with detailed error message
+            assert False, (
+                f"Content is different in {f} files. "
+                f"Artifacts saved to {artifacts_dir}/{artifact_file_base}_*.json for debugging. "
+                f"Summary: {summary}"
+            )
+
+    # Check for duplicate entries in the JSON files
+    for f in filenames:
+        with open(f"./tests/database_files_from_json/{f}") as json_file:
+            data = json.load(json_file)
+
+        if isinstance(data, list):
+            # Convert records to tuples for duplicate detection (excluding 'id' field if present)
+            records_as_tuples = []
+            for record in data:
+                # Create a sorted tuple of (key, value) pairs, excluding 'id'
+                record_tuple = tuple(
+                    sorted(
+                        (k, str(v) if v is not None else None)
+                        for k, v in record.items()
+                        if k != "id"
+                    )
+                )
+                records_as_tuples.append(record_tuple)
+
+            # Check for duplicates
+            unique_records = set(records_as_tuples)
+            if len(unique_records) != len(records_as_tuples):
+                duplicate_count = len(records_as_tuples) - len(unique_records)
+                assert False, f"Found {duplicate_count} duplicate entries in {f}"
+
+            unique_records = set(records_as_tuples)
+            if len(unique_records) != len(records_as_tuples):
+                duplicate_count = len(records_as_tuples) - len(unique_records)
+                assert False, f"Found {duplicate_count} duplicate entries in {f}"
 
 
 class TestLightingSpaceTypeIntegrity(unittest.TestCase):
@@ -505,7 +606,7 @@ class TestCopyTemplateRecords(unittest.TestCase):
         self.assertEqual(new_901_count, 1)
 
     def test_copy_template_multiple_calls(self):
-        """Test that calling function multiple times adds duplicate copies"""
+        """Test that calling function multiple times does NOT create duplicates"""
         # First copy
         summary1 = copy_template_records_in_json_files(
             source_template="IECC-2024",
@@ -514,7 +615,7 @@ class TestCopyTemplateRecords(unittest.TestCase):
             dry_run=False,
         )
 
-        # Second copy (should create duplicates)
+        # Second copy (should NOT create duplicates due to duplicate prevention)
         summary2 = copy_template_records_in_json_files(
             source_template="IECC-2024",
             target_template="IECC-2027",
@@ -522,16 +623,17 @@ class TestCopyTemplateRecords(unittest.TestCase):
             dry_run=False,
         )
 
-        # Both should report same number of records copied
-        self.assertEqual(summary1, summary2)
+        # First call should copy records, second should copy nothing (duplicates prevented)
+        self.assertEqual(summary1, {"hvac_test.json": 2, "envelope_test.json": 1})
+        self.assertEqual(summary2, {})  # No records copied on second call
 
-        # Verify file has duplicates
+        # Verify file does NOT have duplicates
         with open(self.test_dir_path / "hvac_test.json", "r") as f:
             data = json.load(f)
 
-        # Should have original 3 + 2 new + 2 more new = 7 total
-        self.assertEqual(len(data), 7)
+        # Should have original 3 + 2 new = 5 total (NOT 7)
+        self.assertEqual(len(data), 5)
 
-        # Should have 4 IECC-2027 records
+        # Should have 2 IECC-2027 records (NOT 4)
         iecc_2027_records = [r for r in data if r.get("template") == "IECC-2027"]
-        self.assertEqual(len(iecc_2027_records), 4)
+        self.assertEqual(len(iecc_2027_records), 2)

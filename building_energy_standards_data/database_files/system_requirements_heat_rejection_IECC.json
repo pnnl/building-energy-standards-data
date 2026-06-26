@@ -54,5 +54,13 @@
         "reference_condenser_water_supply_deg_F": 85,
         "reference_outdoor_air_wet_bulb_temperature_deg_F": 75,
         "annotation": "From IECC-2024, C403.11.3"
+    },
+    {
+        "template": "IECC-2027",
+        "maximum_gpm_for_open_centrifugal_tower": 1100,
+        "reference_condenser_water_return_deg_F": 95,
+        "reference_condenser_water_supply_deg_F": 85,
+        "reference_outdoor_air_wet_bulb_temperature_deg_F": 75,
+        "annotation": "From IECC-2024, C403.11.3"
     }
 ]

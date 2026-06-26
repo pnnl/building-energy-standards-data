@@ -42,3 +42,11 @@ jobs:
         run: poetry install
       - name: Run the tests
         run: poetry run pytest -v
+      - name: Upload test artifacts on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-comparison-artifacts
+          path: tests/test_artifacts/
+          retention-days: 7
+          if-no-files-found: warn
