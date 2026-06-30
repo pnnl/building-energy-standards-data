@@ -23,23 +23,31 @@ SELECT {','.join(DATA_HEADER)}
 """
 
 
-def fetch_templates(conn: sqlite3.Connection):
+def fetch_templates(conn: sqlite3.Connection) -> list[dict]:
     """
-    Fetch all template data
-    :param conn:
-    :return:
+    Fetch all template data.
+
+    Args:
+        conn: sqlite3.Connection
+
+    Returns:
+        A list of dictionaries containing template data.
     """
     return _convert_list_tuple_to_list_dict(
         conn.execute(TEMPLATE_QUERY).fetchall(), DATA_HEADER
     )
 
 
-def fetch_template_data_by_template(conn: sqlite3.Connection, template: str):
+def fetch_template_data_by_template(conn: sqlite3.Connection, template: str) -> list[dict]:
     """
-    Fetch a template record
-    :param conn:
-    :param template: string
-    :return:
+    Fetch a template record by template name.
+
+    Args:
+        conn: sqlite3.Connection
+        template: string, the template name
+
+    Returns:
+        A list of dictionaries containing the template data.
     """
     template_query = f"""{TEMPLATE_QUERY} WHERE template = ?;"""
     return _convert_list_tuple_to_list_dict(
@@ -47,12 +55,16 @@ def fetch_template_data_by_template(conn: sqlite3.Connection, template: str):
     )
 
 
-def fetch_template_data_by_template_first(conn: sqlite3.Connection, template: str):
+def fetch_template_data_by_template_first(conn: sqlite3.Connection, template: str) -> dict:
     """
-    Fetch a template record
-    :param conn:
-    :param template: string
-    :return:
+    Fetch the first template record that matches the given template name.
+
+    Args:
+        conn: sqlite3.Connection
+        template: string, the template name
+
+    Returns:
+        A dictionary containing the template data.
     """
     template_query = f"""{TEMPLATE_QUERY} WHERE template = ?;"""
     fetched_data = _convert_list_tuple_to_list_dict(

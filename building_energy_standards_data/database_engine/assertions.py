@@ -11,7 +11,16 @@ class OpenStudioStandardsFormDataException(OpenStudioStandardsDataException):
         super().__init__(message)
 
 
-def assert_(b: bool, err_msg: str):
+def assert_(b: bool, err_msg: str) -> None:
+    """Assert a condition and raise an exception if false.
+
+    Args:
+        b: Boolean condition to assert.
+        err_msg: Error message to include in the exception if condition is False.
+
+    Raises:
+        OpenStudioStandardsFormDataException: If condition is False.
+    """
     if not b:
         logging.getLogger("debug")
         raise OpenStudioStandardsFormDataException(err_msg)
@@ -29,21 +38,17 @@ class PathNotFound(OpenStudioStandardsDataException):
         super().__init__(message)
 
 
-def check_path(path):
-    """Check that a path exists
+def check_path(path: str) -> bool:
+    """Verify that a path exists.
 
-    Parameters
-    ----------
-    path : str
-        String that represents a path to a directory
+    Args:
+        path: String representing the path to a directory.
 
-    Returns
-    -------
-    True: if the path is valid
+    Returns:
+        True if the path is valid.
 
     Raises:
-    ------
-        PathNotFound: the path is not valid
+        PathNotFound: If the path does not exist or is None.
     """
     if path is None:
         raise PathNotFound(path)
@@ -53,29 +58,23 @@ def check_path(path):
 
 
 def getattr_(obj, obj_name: str, first_key, *remaining_keys):
-    """Gets the value inside a dictionary described by a key path or raises an exception
+    """Retrieve a value from a nested dictionary structure using a key path.
 
-    Parameters
-    ----------
-    obj : dict
-        A potentially nested dictionary of dictionaries to be searched. At each
-        level along the key path, the dictionary must have an id field.
-    obj_name : str
-        The name for the dictionary to be searched
-    first_key : str
-        The first key in the path
-    remaining_keys: [str]
-        Any additional keys in the path
+    Navigates through a potentially nested dictionary structure using a key path.
+    At each level, the dictionary is assumed to have an id field.
 
-    Returns
-    -------
-    any
-        The value stored at the given key path
+    Args:
+        obj: A potentially nested dictionary structure to search.
+        obj_name: Name of the object being searched (used in error messages).
+        first_key: The first key in the path.
+        remaining_keys: Additional keys in the path.
 
-    Raises
-    ------
-    AssertionError if the key path does not exist. The error message indicates what
-    field was missing.
+    Returns:
+        The value stored at the given key path.
+
+    Raises:
+        AssertionError: If obj is None.
+        MissingKeyException: If any key in the path does not exist.
     """
     assert_(
         obj is not None,

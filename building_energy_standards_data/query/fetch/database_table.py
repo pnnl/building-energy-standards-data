@@ -13,14 +13,17 @@ from building_energy_standards_data.query.util import (
 )
 
 
-def fetch_table(conn: sqlite3.Connection, table_name: str):
+def fetch_table(conn: sqlite3.Connection, table_name: str) -> list[dict]:
+    """Fetch all data from a specific table.
+
+    Args:
+        conn: SQLite connection object.
+        table_name: Name of the data table.
+
+    Returns:
+        List of dictionaries representing table records, or empty list if table doesn't exist.
     """
-    Fetch all data from a specific table
-    :param conn:
-    :param table_name: String data table
-    :return: list of data or empty list
-    """
-    # Make sure the table exist
+    # Verify the table exists before fetching
     if is_table_exist(conn, table_name):
         fetch_query = f"""SELECT * FROM {table_name}"""
         cur = conn.execute(fetch_query)
@@ -32,13 +35,16 @@ def fetch_table(conn: sqlite3.Connection, table_name: str):
 
 def fetch_table_with_max_numbers_of_records(
     conn, table_name: str, max: int | None = None
-):
-    """
-    Fetch data from a specific table limited to a max number of records
-    :param conn:
-    :param table_name: String data table
-    :param max: max number of records to be returned
-    :return: list of data or empty list
+) -> list[dict]:
+    """Fetch data from a table limited to a maximum number of records.
+
+    Args:
+        conn: SQLite connection object.
+        table_name: Name of the data table.
+        max: Maximum number of records to return. If None, returns all records.
+
+    Returns:
+        List of dictionaries representing table records, or empty list if table doesn't exist.
     """
     table = fetch_table(conn, table_name)
     if max and len(table) > max:
@@ -48,18 +54,21 @@ def fetch_table_with_max_numbers_of_records(
 
 def fetch_columns_from_table(
     conn: sqlite3.Connection, table_name: str, field_names: list | str
-):
+) -> list[dict]:
+    """Fetch specific columns from a table.
+
+    Args:
+        conn: SQLite connection object.
+        table_name: Name of the data table.
+        field_names: List of column names or a single column name string to fetch.
+
+    Returns:
+        List of dictionaries with selected columns, or empty list if table/fields don't exist.
     """
-    Fetch specific columns from a specific table
-    :param conn:
-    :param table_name: String data table
-    :param field_names: list of columns to fetch
-    :return: list of data or empty list
-    """
-    # Make sure the table exist
+    # Verify the table and fields exist before fetching
     if is_field_in_table(conn, table_name, field_names):
         if isinstance(field_names, list):
-            field_names = field_names.join(", ")
+            field_names = ", ".join(field_names)
         fetch_query = f"""SELECT {field_names} FROM {table_name}"""
         cur = conn.execute(fetch_query)
         data_header = list(map(lambda x: x[0], cur.description))
@@ -68,13 +77,16 @@ def fetch_columns_from_table(
     return []
 
 
-def fetch_column_from_table(conn: sqlite3.Connection, table_name: str, field_name: str):
-    """
-    Fetch specific column from a specific table
-    :param conn:
-    :param table_name: table name
-    :param field_name: column to fetch
-    :return: list of data in column
+def fetch_column_from_table(conn: sqlite3.Connection, table_name: str, field_name: str) -> list:
+    """Fetch a specific column from a table.
+
+    Args:
+        conn: SQLite connection object.
+        table_name: Name of the table.
+        field_name: Name of the column to fetch.
+
+    Returns:
+        List of values from the specified column.
     """
     column_list = fetch_columns_from_table(conn, table_name, field_name)
     return [entry[field_name] for entry in column_list]
@@ -82,15 +94,18 @@ def fetch_column_from_table(conn: sqlite3.Connection, table_name: str, field_nam
 
 def fetch_a_record_from_table_by_id(
     conn: sqlite3.Connection, table_name: str, index: int
-):
+) -> dict:
+    """Fetch a single record from a table by ID.
+
+    Args:
+        conn: SQLite connection object.
+        table_name: Name of the data table.
+        index: Integer ID of the record to fetch.
+
+    Returns:
+        Dictionary representing the record, or empty dict if not found.
     """
-    Fetch a data record matched by ID from a specific table
-    :param conn:
-    :param table_name: String lighting data table
-    :param index: Integer, lighting object ID
-    :return: dict
-    """
-    # Make sure the table exist
+    # Verify the table exists before fetching
     if is_table_exist(conn, table_name):
         fetch_query = f"""SELECT * FROM {table_name} WHERE id={index}"""
         cur = conn.execute(fetch_query)
@@ -102,15 +117,19 @@ def fetch_a_record_from_table_by_id(
 
 def fetch_records_from_table_by_key_values(
     conn: sqlite3.Connection, table_name: str, key_value_dict: dict | None = None
-):
+) -> list[dict]:
+    """Fetch records from a table matching key-value pairs.
+
+    Args:
+        conn: SQLite connection object.
+        table_name: Name of the data table.
+        key_value_dict: Dictionary where keys are column names and values are filter values.
+            If None, all records are returned.
+
+    Returns:
+        List of dictionaries representing matching records, or empty list if table doesn't exist.
     """
-    Fetch a data record matched by key value pairs in the dict from a specific table
-    :param conn:
-    :param table_name: String data table
-    :param key_value_dict: Dict, key value pair where Key shall be the column name and value shall be the value
-    :return: dict
-    """
-    # Make sure the table exist
+    # Verify the table exists before fetching
     if is_table_exist(conn, table_name):
         if not key_value_dict:
             return fetch_table(conn, table_name)
@@ -129,12 +148,15 @@ def fetch_records_from_table_by_key_values(
     return []
 
 
-def fetch_table_names_containing_keyword(conn: sqlite3.Connection, keyword: str):
-    """
-    Fetch a data record matched by key value pairs in the dict from a specific table
-    :param conn:
-    :param keyword: keyword to search tables for
-    :return: list
+def fetch_table_names_containing_keyword(conn: sqlite3.Connection, keyword: str) -> list[str]:
+    """Fetch table names containing a keyword.
+
+    Args:
+        conn: SQLite connection object.
+        keyword: Keyword to search for in table names.
+
+    Returns:
+        List of table names matching the keyword.
     """
     query = "SELECT name FROM sqlite_master WHERE type='table' AND name LIKE ?"
     cur = conn.execute(query, ("%" + keyword + "%",))
