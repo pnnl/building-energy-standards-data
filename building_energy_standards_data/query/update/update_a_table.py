@@ -28,7 +28,7 @@ def update_a_table(
         SET {','.join(set_str_value)}
         WHERE {search_condition}
     """
-    
+
     try:
         conn.execute(UPDATE_QUERY)
         conn.commit()

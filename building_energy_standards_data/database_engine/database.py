@@ -71,9 +71,7 @@ def copy_template_records_in_json_files(
         db_dir = Path(database_files_dir)
 
     if not db_dir.exists():
-        raise FileNotFoundError(
-            f"Database files directory not found: {db_dir}"
-        )
+        raise FileNotFoundError(f"Database files directory not found: {db_dir}")
 
     # Get all JSON files in the directory
     json_files = list(db_dir.glob(file_pattern))
@@ -325,7 +323,9 @@ class DBOperation:
             rows = [i[1:] for i in cursor] if exclude_first_row else cursor
             csv_writer.writerows(rows)
 
-    def export_table_to_json(self, conn: sqlite3.Connection, save_dir: str = "") -> None:
+    def export_table_to_json(
+        self, conn: sqlite3.Connection, save_dir: str = ""
+    ) -> None:
         """Export the table to a JSON file.
 
         Args:
@@ -348,7 +348,9 @@ class DBOperation:
             json_file.write(json_output)
 
     # Functions to be overridden based on need
-    def _get_weak_foreign_key_value(self, record: dict) -> tuple[str | None, str | None, str | None]:
+    def _get_weak_foreign_key_value(
+        self, record: dict
+    ) -> tuple[str | None, str | None, str | None]:
         """Extract weak foreign key values from a record.
 
         Function to extract values from a record for weak foreign key validation.

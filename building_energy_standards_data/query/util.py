@@ -2,7 +2,9 @@ import sqlite3
 from typing import List
 
 
-def _convert_list_tuple_to_list_dict(data: List[tuple], data_head_list: List[str]) -> List[dict]:
+def _convert_list_tuple_to_list_dict(
+    data: List[tuple], data_head_list: List[str]
+) -> List[dict]:
     """
     Convert a list of tuples to a list of dictionaries.
 

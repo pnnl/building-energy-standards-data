@@ -77,7 +77,9 @@ def fetch_columns_from_table(
     return []
 
 
-def fetch_column_from_table(conn: sqlite3.Connection, table_name: str, field_name: str) -> list:
+def fetch_column_from_table(
+    conn: sqlite3.Connection, table_name: str, field_name: str
+) -> list:
     """Fetch a specific column from a table.
 
     Args:
@@ -148,7 +150,9 @@ def fetch_records_from_table_by_key_values(
     return []
 
 
-def fetch_table_names_containing_keyword(conn: sqlite3.Connection, keyword: str) -> list[str]:
+def fetch_table_names_containing_keyword(
+    conn: sqlite3.Connection, keyword: str
+) -> list[str]:
     """Fetch table names containing a keyword.
 
     Args:

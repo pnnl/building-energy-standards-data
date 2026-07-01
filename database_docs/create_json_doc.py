@@ -22,7 +22,7 @@ def create_json_doc():
     # create connection to database
     database_path = f"{current_directory}/../openstudio_standards_data.db"
     conn = create_connect(database_path)
-    
+
     if conn is None:
         raise RuntimeError("Failed to create database connection")
 

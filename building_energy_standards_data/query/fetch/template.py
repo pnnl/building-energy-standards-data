@@ -38,7 +38,9 @@ def fetch_templates(conn: sqlite3.Connection) -> list[dict]:
     )
 
 
-def fetch_template_data_by_template(conn: sqlite3.Connection, template: str) -> list[dict]:
+def fetch_template_data_by_template(
+    conn: sqlite3.Connection, template: str
+) -> list[dict]:
     """
     Fetch a template record by template name.
 
@@ -55,7 +57,9 @@ def fetch_template_data_by_template(conn: sqlite3.Connection, template: str) -> 
     )
 
 
-def fetch_template_data_by_template_first(conn: sqlite3.Connection, template: str) -> dict:
+def fetch_template_data_by_template_first(
+    conn: sqlite3.Connection, template: str
+) -> dict:
     """
     Fetch the first template record that matches the given template name.
 
