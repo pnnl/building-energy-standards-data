@@ -35,13 +35,17 @@ SELECT {','.join(SPACE_DATA_HEADER)}
 """
 
 
-def fetch_space_data(connection: sqlite3.Connection):
+def fetch_space_data(conn: sqlite3.Connection) -> list[dict]:
     """
     Fetch building data table
-    :param connection:
-    :return:
+
+    Args:
+        conn: sqlite3.Connection
+
+    Returns:
+        list[dict]: A list of dictionaries representing the building data.
     """
 
     return _convert_list_tuple_to_list_dict(
-        connection.execute(SPACE_JOIN_QUERY).fetchall(), SPACE_DATA_HEADER
+        conn.execute(SPACE_JOIN_QUERY).fetchall(), SPACE_DATA_HEADER
     )

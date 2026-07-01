@@ -1,25 +1,35 @@
-[tool.poetry]
+[project]
 name = "building-energy-standards-data"
 version = "0.3.1"
 description = "Database of building energy standards data for building energy simulation"
-authors = ["Lerond, Jeremy <jeremy.lerond@pnnl.gov>", "Xu, Weili <weili.xu@pnnl.gov>", "Lei, Xuechen <xuechen.lei@pnnl.gov>", "Wang, Lingzhe <lingzhe.wang@pnnl.gov>", "Dehwah, Ammar <ammar.dehwah@pnnl.gov>", "Slane-Holloway, Julian <julian.slane-holloway@pnnl.gov>"]
 readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Jeremy Lerond", email = "jeremy.lerond@pnnl.gov" },
+  { name = "Weili Xu", email = "weili.xu@pnnl.gov" },
+  { name = "Xuechen Lei", email = "xuechen.lei@pnnl.gov" },
+  { name = "Lingzhe Wang", email = "lingzhe.wang@pnnl.gov" },
+  { name = "Ammar Dehwah", email = "ammar.dehwah@pnnl.gov" },
+  { name = "Julian Slane-Holloway", email = "julian.slane-holloway@pnnl.gov" },
+]
 
-[tool.poetry.dependencies]
-python = "^3.10"
-pytest = "^7.4.3"
-black = "22.12.0"
-
-[tool.poetry.group.agent]
-optional = true
-
-[tool.poetry.group.agent.dependencies]
-langchain = ">=0.3.25"
-langchain-community = ">=0.3.25"
-langchain-core = ">=0.3.65"
-streamlit = ">=1.47.0"
-langchain-anthropic = "^0.3.18"
+dependencies = [
+  "pytest>=7.4.3",
+  "black==22.12.0",
+]
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=2.3"]
 build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+agent = [
+    "langchain>=0.3.25",
+    "langchain-anthropic>=0.3.18",
+    "langchain-community>=0.3.25",
+    "langchain-core>=0.3.25",
+    "streamlit>=1.47.0"
+]
+dev = [
+    "ty>=0.0.55",
+]

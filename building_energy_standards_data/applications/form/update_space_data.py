@@ -39,12 +39,16 @@ SELECT {','.join(SPACE_TABLE_HEADER)} FROM {GENERAL_SPACE_TYPE_TABLE_NAME}
 
 def update_openstudio_standards_space_data(
     conn: sqlite3.Connection, json_data: list[dict]
-):
+) -> None:
     """
-    update existing openstudio_standards space_data
-    :param conn:
-    :param json_data:
-    :return:
+    Update existing openstudio_standards space_data with the provided JSON data.
+
+    Args:
+        conn: sqlite3.Connection
+        json_data: list of dictionaries containing space data
+
+    Returns:
+        None
     """
     for space_data in json_data:
         template = getattr_(space_data, "space", "template")
