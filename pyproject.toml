@@ -13,11 +13,6 @@ authors = [
   { name = "Julian Slane-Holloway", email = "julian.slane-holloway@pnnl.gov" },
 ]
 
-dependencies = [
-  "pytest>=7.4.3",
-  "black==22.12.0",
-]
-
 [build-system]
 requires = ["poetry-core>=2.3"]
 build-backend = "poetry.core.masonry.api"
@@ -31,5 +26,7 @@ agent = [
     "streamlit>=1.47.0"
 ]
 dev = [
+    "pytest>=7.4.3",
+    "black==22.12.0",
     "ty>=0.0.55",
 ]
