@@ -1,3 +1,5 @@
+from typing import Optional
+
 import sqlite3
 from sqlite3 import Error
 import csv
@@ -13,16 +15,19 @@ from building_energy_standards_data.query.util import is_index_in_table
 DB_FILE = "openstudio_standards_database.db"
 
 
-def create_connect(db_file):
-    """
-    create a database_tables connection to the SQLite database_tables specified by db_file
-    :param db_file: database_tables file or None (None uses default
-    :return: Connection object or None
+def create_connect(db_file: str | None) -> sqlite3.Connection | None:
+    """Create a connection to the SQLite database.
+
+    Args:
+        db_file: Path to the database file. If None, uses the default DB_FILE.
+
+    Returns:
+        SQLite connection object, or None if connection fails.
     """
     conn = None
     try:
         conn = sqlite3.connect(db_file if db_file else DB_FILE)
-        # enable foreign keys execution
+        # Enable foreign keys execution
         conn.execute("PRAGMA foreign_keys = 1")
     except Error as e:
         logging.error(e)
@@ -32,41 +37,47 @@ def create_connect(db_file):
 def copy_template_records_in_json_files(
     source_template: str,
     target_template: str,
-    database_files_dir: str = None,
+    database_files_dir: Optional[str] = None,
     file_pattern: str = "*.json",
     dry_run: bool = False,
-):
-    """
-    Copy all records from a source template to a new target template in JSON files.
-    This function reads all JSON files in the database_files directory, finds records
-    matching the source template, creates copies with the target template name, and
-    writes the updated data back to the files.
+) -> dict[str, int]:
+    """Copy all records from a source template to a target template in JSON files.
 
-    :param source_template: str - The template name to copy from (e.g., "IECC-2024")
-    :param target_template: str - The new template name to create (e.g., "IECC-2027")
-    :param database_files_dir: str - Path to the database_files directory. If None, uses the default relative path
-    :param file_pattern: str - File pattern to match (default: "*.json")
-    :param dry_run: bool - If True, only prints what would be done without modifying files
-    :return: dict - Summary of operations performed {filename: number_of_records_copied}
+    Reads all JSON files in the database_files directory, finds records matching the
+    source template, creates copies with the target template name, and writes the
+    updated data back to the files.
+
+    Args:
+        source_template: Template name to copy from (e.g., "IECC-2024").
+        target_template: New template name to create (e.g., "IECC-2027").
+        database_files_dir: Path to the database_files directory. If None, uses the
+            default relative path. Defaults to None.
+        file_pattern: File pattern to match. Defaults to "*.json".
+        dry_run: If True, only prints what would be done without modifying files.
+            Defaults to False.
+
+    Returns:
+        Dictionary mapping filenames to number of records copied.
+
+    Raises:
+        FileNotFoundError: If the database files directory cannot be found.
     """
     # Determine the database_files directory
     if database_files_dir is None:
         # Default to the database_files directory relative to this file
         current_dir = Path(__file__).parent.parent
-        database_files_dir = current_dir / "database_files"
+        db_dir = current_dir / "database_files"
     else:
-        database_files_dir = Path(database_files_dir)
+        db_dir = Path(database_files_dir)
 
-    if not database_files_dir.exists():
-        raise FileNotFoundError(
-            f"Database files directory not found: {database_files_dir}"
-        )
+    if not db_dir.exists():
+        raise FileNotFoundError(f"Database files directory not found: {db_dir}")
 
     # Get all JSON files in the directory
-    json_files = list(database_files_dir.glob(file_pattern))
+    json_files = list(db_dir.glob(file_pattern))
 
     if not json_files:
-        logging.warning(f"No JSON files found in {database_files_dir}")
+        logging.warning(f"No JSON files found in {db_dir}")
         return {}
 
     summary = {}
@@ -144,19 +155,20 @@ def copy_template_records_in_json_files(
 class DBOperation:
     def __init__(
         self,
-        table_name,
-        record_template,
-        initial_data_directory,
-        create_table_query,
-        insert_record_query,
-    ):
-        """
-        DB Operation class
-        :param table_name: String name of the table
-        :param record_template: dictionary record template
-        :param initial_data_directory: String initial data directory
-        :param create_table_query: String create table query
-        :param insert_record_query: String insert record query
+        table_name: str,
+        record_template: dict,
+        initial_data_directory: str,
+        create_table_query: str,
+        insert_record_query: str,
+    ) -> None:
+        """Initialize a DBOperation instance.
+
+        Args:
+            table_name: Name of the database table.
+            record_template: Dictionary template for table records.
+            initial_data_directory: Path to the initial data directory.
+            create_table_query: SQL query to create the table.
+            insert_record_query: SQL query to insert a record.
         """
         self.data_table_name = table_name
         self.record_template = record_template
@@ -164,24 +176,30 @@ class DBOperation:
         self.create_table_query = create_table_query
         self.insert_record_query = insert_record_query
 
-    def create_a_table(self, connection):
-        """
-        Create a table - no return
-        :param connection:
-        :return:
+    def create_a_table(self, connection: sqlite3.Connection) -> bool:
+        """Create a table in the database.
+
+        Args:
+            connection: SQLite database connection.
+
+        Returns:
+            True if table creation succeeded.
         """
         logging.info(f"creating table: {self.data_table_name}")
         connection.execute(self.create_table_query)
         return True
 
-    def add_a_record(self, connection, record: dict):
+    def add_a_record(self, connection: sqlite3.Connection, record: dict) -> bool:
+        """Add a single record to the table.
+
+        Args:
+            connection: SQLite database connection.
+            record: Dictionary containing the record data.
+
+        Returns:
+            True if the record was successfully added, False otherwise.
         """
-        Add a record to a table
-        :param connection:
-        :param record: dict contains the dictionary of record
-        :return: the index of the newly inserted record.
-        """
-        # run data validation, raise exception if data is not validated.
+        # Run data validation, raise exception if data is not validated.
         cur = connection.cursor()
         success_added = False
         if self.validate_record_datatype(record) and self.validate_weak_foreign_key(
@@ -192,12 +210,15 @@ class DBOperation:
             success_added = True
         return success_added
 
-    def add_records(self, connection, records: list[dict]) -> bool:
-        """
-        Add records to a table
-        :param connection:
-        :param records: list of table records
-        :return: bool indicating success or failure
+    def add_records(self, connection: sqlite3.Connection, records: list[dict]) -> bool:
+        """Add multiple records to the table.
+
+        Args:
+            connection: SQLite database connection.
+            records: List of dictionaries containing record data.
+
+        Returns:
+            True if all records were successfully added, False otherwise.
         """
         cur = connection.cursor()
 
@@ -218,63 +239,77 @@ class DBOperation:
 
         return False
 
-    def get_all_records(self, connection):
-        """
-        Retrieve all data records
-        :param connection:
-        :return:
+    def get_all_records(self, connection: sqlite3.Connection) -> list:
+        """Retrieve all records from the table.
+
+        Args:
+            connection: SQLite database connection.
+
+        Returns:
+            List of all records in the table.
         """
         return connection.execute(self._get_retrieve_all_query()).fetchall()
 
-    def get_record_info(self):
-        """
-        A function to return the record info of the table
-        :return:
+    def get_record_info(self) -> None:
+        """Return the record info of the table.
+
+        Returns:
+            None
         """
         pass
 
-    def get_record_template(self):
-        """
-        Get a record template of a table
-        :return:
+    def get_record_template(self) -> dict:
+        """Get a record template for the table.
+
+        Returns:
+            Dictionary containing the record template.
         """
         return self.record_template
 
-    def validate_record_datatype(self, record):
-        """
-        Validate the data. This function shall be used to set special data requirement that SQLite schema cannot
-        verify. e.g., a data's data type shall be int.
+    def validate_record_datatype(self, record: dict) -> bool:
+        """Validate the data types in a record.
 
-        :param record: dict
-        A dictionary that contains a map column to value in a row.
-        :return: boolean
+        This function is used to set special data requirements that the SQLite schema
+        cannot verify (e.g., a value must be an int).
+
+        Args:
+            record: Dictionary containing a map of column to value in a row.
+
+        Returns:
+            True if all data types are valid, False otherwise.
         """
         return True
 
-    def validate_weak_foreign_key(self, conn, record):
-        """
-        Validate if a key is existing in a weak associated table. The definition of weak associate table in OSSTD
-        means when the primary key in a table is referenced by another table in a column instead of SQL foreign key
-        relationship. An example is the level_2_lighting_space_type contains level_3_lighting_definition_id that
-        references an index from the table specified in the column level_3_lighting_definition_table.
-        For weak foreign key, we will use this function to determine whether it is correct addition or update.
+    def validate_weak_foreign_key(self, conn: sqlite3.Connection, record: dict) -> bool:
+        """Validate weak foreign key references in a record.
 
-        :param: conn, SQL3lite connection
-        :param: record: dictionary
+        Validates if a key exists in a weakly associated table. In OSSTD, a weak
+        associated table is one where the primary key is referenced by another table
+        in a column instead of a SQL foreign key relationship. For example, the
+        level_2_lighting_space_type table contains level_3_lighting_definition_id that
+        references an index from the table specified in the level_3_lighting_definition_table
+        column. For weak foreign keys, this function determines whether the addition
+        or update is valid.
+
+        Args:
+            conn: SQLite connection object.
+            record: Dictionary containing the record data.
+
+        Returns:
+            True if the weak foreign key reference is valid, False otherwise.
         """
         associate_table, key, value = self._get_weak_foreign_key_value(record)
-        # any value is Falsy (no association) should return True, or pass the is_index_in_table check.
+        # Any falsy value (no association) should return True, or pass the is_index_in_table check.
         return not all([associate_table, key, value]) or is_index_in_table(
             conn, associate_table, key, value
         )
 
-    def export_table_to_csv(self, conn, save_dir=""):
-        """
-        A function that exports the table into a .csv file
+    def export_table_to_csv(self, conn: sqlite3.Connection, save_dir: str = "") -> None:
+        """Export the table to a CSV file.
 
-        :param conn: SQLite3Connection object
-        :param save_dir: str, path that saves the csv file
-        :return:
+        Args:
+            conn: SQLite connection object.
+            save_dir: Path where the CSV file will be saved. Defaults to "".
         """
         cursor = conn.cursor()
         cursor.execute(self._get_retrieve_all_query())
@@ -288,13 +323,14 @@ class DBOperation:
             rows = [i[1:] for i in cursor] if exclude_first_row else cursor
             csv_writer.writerows(rows)
 
-    def export_table_to_json(self, conn, save_dir=""):
-        """
-        A function that exports the table into a .json file
+    def export_table_to_json(
+        self, conn: sqlite3.Connection, save_dir: str = ""
+    ) -> None:
+        """Export the table to a JSON file.
 
-        :param conn: SQLite3Connection object
-        :param save_dir: str, path that saves the json file
-        :return:
+        Args:
+            conn: SQLite connection object.
+            save_dir: Path where the JSON file will be saved. Defaults to "".
         """
         cursor = conn.cursor()
         cursor.execute(self._get_retrieve_all_query())
@@ -312,30 +348,40 @@ class DBOperation:
             json_file.write(json_output)
 
     # Functions to be overridden based on need
-    def _get_weak_foreign_key_value(self, record):
-        """
-        Function to extract values from a record for weak foreign key validation
-        :param record: dictionary
-        :return
-        associate_table: str - table that has weak foreign cooneciton
-        key: the foreign key
-        value: the foreign key value
-        default are NONE (falsy)
+    def _get_weak_foreign_key_value(
+        self, record: dict
+    ) -> tuple[str | None, str | None, str | None]:
+        """Extract weak foreign key values from a record.
+
+        Function to extract values from a record for weak foreign key validation.
+        Override this method in subclasses to provide specific validation logic.
+
+        Args:
+            record: Dictionary containing the record data.
+
+        Returns:
+            Tuple of (associate_table, key, value). All values default to None
+            if no weak foreign key is defined.
         """
         return None, None, None
 
-    def _preprocess_record(self, record):
-        """
-        Function that pre-process a record before insert to Table.
+    def _preprocess_record(self, record: dict) -> dict:
+        """Preprocess a record before insertion into the table.
 
-        :param record:
-        :return:
+        Override this method in subclasses to perform custom record transformations.
+
+        Args:
+            record: Dictionary containing the record data.
+
+        Returns:
+            The preprocessed record dictionary.
         """
         return record
 
-    def _get_retrieve_all_query(self):
-        """
-        Function to retrieve all records in a table
-        :return:
+    def _get_retrieve_all_query(self) -> str:
+        """Get the SQL query to retrieve all records from the table.
+
+        Returns:
+            SQL SELECT query string.
         """
         return f"SELECT * FROM {self.data_table_name}"

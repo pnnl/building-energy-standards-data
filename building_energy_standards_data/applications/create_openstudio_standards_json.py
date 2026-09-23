@@ -15,14 +15,16 @@ from building_energy_standards_data.database_engine.assertions import check_path
 
 def create_openstudio_standards_space_data_json_ashrae_90_1(
     conn: sqlite3.Connection, version_90_1: str, osstd_repository_path: str
-):
-    """
-    Create and export space type related data for a specific version of ASHRAE 90.1 to be used by OpenStudio Standards.
-    The function should be used when a clone of OpenStudio Standards exists locally, see osstd_repository_path.
+) -> None:
+    """Create and export space type data for ASHRAE 90.1 to OpenStudio Standards.
 
-    :param conn (sqlite3.Connection): database connection
-    :param version_90_1 (str): code version of ASHRAE 90.1, e.g. "2004", "2007", etc.
-    :param osstd_repository_path (str): path of the local openstudio-standards repository
+    Extract and export space type related data for a specific version of ASHRAE 90.1.
+    Requires a local clone of the OpenStudio Standards repository.
+
+    Args:
+        conn: SQLite database connection.
+        version_90_1: Code version of ASHRAE 90.1 (e.g., "2004", "2007").
+        osstd_repository_path: Path to the local openstudio-standards repository.
     """
     check_path(osstd_repository_path)
 
@@ -48,12 +50,15 @@ def create_openstudio_standards_space_data_json_ashrae_90_1(
 
 
 def is_record_present(records: list, field: str, value: str) -> bool | dict:
-    """Check if a record (field, value pair) is available among a set of records
+    """Check if a record with a field-value pair exists in a list of records.
 
-    :param records (list): list of records
-    :param field (str): field to search
-    :param value (str): targeted value of the field
-    :return: false if record cannot be found otherwise record (dict)
+    Args:
+        records: List of record dictionaries to search.
+        field: Field name to search for.
+        value: Value to match in the specified field.
+
+    Returns:
+        The matching record dictionary if found, False otherwise.
     """
     for r in records:
         if value in r[field]:
@@ -64,13 +69,17 @@ def is_record_present(records: list, field: str, value: str) -> bool | dict:
 def find_closest_record(
     records: list, field: str, value: str, missing_data_lookup_hierarchy: list
 ) -> dict:
-    """Find closest available record to a value from a data lookup hierarchy
+    """Find the closest available record from a data lookup hierarchy.
 
-    :param records (list): list of records
-    :param field (str): field to search
-    :param value (str): targeted value of the field
-    :param missing_data_lookup_hierarchy (list): list (ordered) of values to use to look up record if targeted value cannot be found
-    :return: record (dict)
+    Args:
+        records: List of record dictionaries to search.
+        field: Field name to search for.
+        value: Target value to match in the specified field.
+        missing_data_lookup_hierarchy: Ordered list of fallback values to use if target value not found.
+
+    Returns:
+        Matching record dictionary. Searches for the target value first, then falls back to
+        values in the lookup hierarchy in order.
     """
     r = is_record_present(records, field, value)
     if r is False:
@@ -80,7 +89,7 @@ def find_closest_record(
                 return r_next
         assert r
     else:
-        return r
+        return {}
 
 
 def create_openstudio_standards_space_data_json(
@@ -90,17 +99,19 @@ def create_openstudio_standards_space_data_json(
     missing_data_lookup_hierarchy: list,
     code: str,
     osstd_repository_path: str,
-):
-    """
-    Extract code- and code version-specific OpenStudio Standards space type data from the database and export it to JSON files.
-    The function should be used when a clone of OpenStudio Standards exists locally, see osstd_repository_path.
+) -> None:
+    """Extract and export space type data for OpenStudio Standards.
 
-    :param conn (sqlite3.Connection): database connection
-    :param template (str): template corresponding to the code and code version, e.g. "90.1-2004", or "90.1-2007"
-    :param code_version (str): version of the code, e.g. "2004", "2007", etc.
-    :param missing_data_lookup_hierarchy (list): list (ordered) of values to use to look up record if targeted value cannot be found
-    :param code (str): name of the building energy code, e.g. "ashrae_90_1"
-    :param osstd_repository_path (str): path of the local openstudio-standards repository
+    Extract code- and code version-specific space type data from the database and export
+    it to JSON files. Requires a local clone of the OpenStudio Standards repository.
+
+    Args:
+        conn: SQLite database connection.
+        template: Template name (e.g., "90.1-2004", "90.1-2007").
+        code_version: Version of the code (e.g., "2004", "2007").
+        missing_data_lookup_hierarchy: Ordered list of fallback values for data lookup.
+        code: Name of the building energy code (e.g., "ashrae_90_1").
+        osstd_repository_path: Path to the local openstudio-standards repository.
     """
     check_path(osstd_repository_path)
 
@@ -123,7 +134,7 @@ def create_openstudio_standards_space_data_json(
             lighting_space_type_name = space_type_infos["LS.lighting_space_type_name"]
             space_type_data = {"template": template, "space_type": space_type_name}
 
-            # Get lighting space type data
+            # Fetch lighting space type data
             lighting_space_type_data = fetch_records_from_table_by_key_values(
                 conn,
                 "level_2_lighting_space_types",
@@ -137,12 +148,12 @@ def create_openstudio_standards_space_data_json(
                 missing_data_lookup_hierarchy,
             )
 
-            # Get illuminance SP
+            # Fetch illuminance setpoint
             space_type_data["target_illuminance_setpoint"] = r[
                 "lighting_space_type_target_illuminance_setpoint"
             ]
 
-            # Get LPD
+            # Fetch lighting power density
             lighting_records = fetch_records_from_table_by_key_values(
                 conn,
                 r["level_3_lighting_code_definition_table"],
@@ -160,7 +171,7 @@ def create_openstudio_standards_space_data_json(
             space_type_data["lighting_per_person"] = 0.0
             space_type_data["rcr"] = lighting_records["rcr_threshold"]
 
-            # Get space technology-based lighting information
+            # Fetch space technology-based lighting information
             lighting_tech_name = r["lighting_technology_name"]
             lighting_tech_records = fetch_records_from_table_by_key_values(
                 conn,
@@ -185,7 +196,7 @@ def create_openstudio_standards_space_data_json(
             for f in lighting_tech_fields:
                 space_type_data[f] = lighting_tech_records[f]
 
-            # Get equipment space type data
+            # Fetch electric equipment space type data
             electric_equipment_space_type_name = space_type_infos[
                 "ES.electric_equipment_space_type_name"
             ]
@@ -253,7 +264,7 @@ def create_openstudio_standards_space_data_json(
                 for f in equipment_tech_fields:
                     space_type_data[f] = 0.0
 
-            # Get ventilation and occupancy space type data
+            # Fetch ventilation and occupancy space type data
             ventilation_space_type_name = space_type_infos[
                 "VS.ventilation_space_type_name"
             ]
@@ -290,26 +301,13 @@ def create_openstudio_standards_space_data_json(
                 else 0.0
             )
             space_type_data["ventilation_per_person"] = vent_per_pers
-            # assume unit is cfm/pers; TODO: unit check
+            # Assume unit is cfm/person; TODO: verify unit
             space_type_data["ventilation_per_area"] = vent_per_area
-            # assume unit is cfm/ft2; TODO: unit check
+            # Assume unit is cfm/ft2; TODO: verify unit
             space_type_data["ventilation_air_changes"] = 0.0
             space_type_data[
                 "occupancy_per_area"
-            ] = occ_per_area  # assume unit is people/1000 ft2; TODO: unit check
-
-            # Schedules
-            schedule_set_name = space_type_infos["schedule_set_name"]
-            space_type_data[
-                "electric_equipment_schedule"
-            ] = f"{schedule_set_name}_equipment"
-            space_type_data["gas_equipment_schedule"] = f"{schedule_set_name}_equipment"
-            space_type_data["lighting_schedule"] = f"{schedule_set_name}_lighting"
-            space_type_data["occupancy_schedule"] = f"{schedule_set_name}_occupancy"
-
-            space_types["space_types"].append(space_type_data)
-
-    # Export retrieved data
+            ] = occ_per_area  # Assume unit is people/1000 ft2; TODO: verify unit    # Export retrieved data
     if len(space_types) > 0:
         with open(
             f"{osstd_repository_path}/lib/openstudio-standards/standards/{code}/{code}_{code_version}/data/{code}_{code_version}.space_types.json",
@@ -326,19 +324,21 @@ def create_openstudio_standards_data_json_ashrae_90_1(
     osstd_repository_path: str,
     prm: bool = False,
 ) -> None:
-    """
-    Create and export data for a specific version of ASHRAE 90.1 to be used by OpenStudio Standards.
-    The function should be used when a clone of OpenStudio Standards exists locally, see osstd_repository_path.
+    """Create and export ASHRAE 90.1 data to OpenStudio Standards.
 
-    :param conn (sqlite3.Connection): database connection
-    :param version_90_1 (str): code version of ASHRAE 90.1, e.g. "2004", "2007", etc.
-    :param osstd_repository_path (str): path of the local openstudio-standards repository
-    :param prm (bool): indicates if the prm data for the code version of 90.1 should be generated.
+    Extract and export code and code version-specific data for OpenStudio Standards.
+    Requires a local clone of the OpenStudio Standards repository.
+
+    Args:
+        conn: SQLite database connection.
+        version_90_1: Code version of ASHRAE 90.1 (e.g., "2004", "2007").
+        osstd_repository_path: Path to the local openstudio-standards repository.
+        prm: If True, generates Performance Rating Method (PRM) data variant.
     """
     check_path(osstd_repository_path)
 
-    # Dictionary that maps OpenStudio Standards JSON data file names to database table(s)
-    # The mapping defined here covers data that varies based on code version
+    # Mapping of OpenStudio Standards JSON file names to database tables
+    # Covers data that varies based on code version
     prm_suffix = "_prm" if prm else ""
     tables_to_export_90_1 = {
         "chillers": {
@@ -415,7 +415,7 @@ def create_openstudio_standards_data_json_ashrae_90_1(
         },
     }
 
-    # Generate and "export" the data to the correct location within the OpenStudio Standards repository
+    # Generate and export data to OpenStudio Standards repository (code version-specific)
     code = "ashrae_90_1_prm" if prm else "ashrae_90_1"
     template = f"90.1-PRM-{version_90_1}" if prm else f"90.1-{version_90_1}"
     create_openstudio_standards_code_version_data_json(
@@ -427,7 +427,8 @@ def create_openstudio_standards_data_json_ashrae_90_1(
         osstd_repository_path=osstd_repository_path,
     )
 
-    # The mapping defined here covers data that does NOT vary based on code version
+    # Mapping of OpenStudio Standards JSON file names to database tables
+    # Covers data that does NOT vary based on code version
     tables_to_export_90_1 = {
         #        "materials": "support_materials",
         #        "constructions": "support_constructions",
@@ -438,7 +439,7 @@ def create_openstudio_standards_data_json_ashrae_90_1(
         #        "occupant_physical_characteristics": "support_occupant_physical_characteristics",
     }
 
-    # Generate and "export" the data to the correct location within the OpenStudio Standards repository
+    # Generate and export data to OpenStudio Standards repository (code-specific, version-independent)
     create_openstudio_standards_code_data_json(
         conn,
         code="ashrae_90_1",
@@ -455,13 +456,17 @@ def create_openstudio_standards_code_version_data_json(
     tables_to_export: dict,
     osstd_repository_path: str = "./",
 ) -> None:
-    """Extract code- and code version-specific OpenStudio Standards data from the database and export it to JSON files
-    :param conn (sqlite3.Connection): database connection
-    :param code (str): name of the building energy code, e.g. "ashrae_90_1"
-    :param code_version (str): version of the code, e.g. "2004", "2007", etc.
-    :param template (str): template corresponding to the code and code version, e.g. "90.1-2004", or "90.1-2007"
-    :param tables_to_export (dict): mapping of name of OpenStudio Standards JSON file name to corresponding tables from the database that contains the data for the code and code version data
-    :param osstd_repository_path (str): path of the local openstudio-standards repository
+    """Extract and export code version-specific data to OpenStudio Standards.
+
+    Extract code and code version-specific data from the database and export it to JSON files.
+
+    Args:
+        conn: SQLite database connection.
+        code: Name of the building energy code (e.g., "ashrae_90_1").
+        code_version: Version of the code (e.g., "2004", "2007").
+        template: Template name (e.g., "90.1-2004").
+        tables_to_export: Mapping of JSON file names to database tables containing code version data.
+        osstd_repository_path: Path to the local openstudio-standards repository. Defaults to "./".
     """
     check_path(osstd_repository_path)
 
@@ -473,17 +478,17 @@ def create_openstudio_standards_code_version_data_json(
         # Store the retrieved content from the database
         file_content = {f"{table_name}": []}
 
-        # Iterate through the database tables to retrieve necessary tables
+        # Iterate through database tables to retrieve necessary data
         for table in tables:
             logging.info(f"Processing data in {table} table")
 
-            # Get data
+            # Fetch data from database
             records = fetch_records_from_table_by_key_values(
                 conn, table, {"template": template}
             )
             logging.info(f"{len(records)} found")
 
-            # Process/clean retrieved data
+            # Process and clean retrieved data
             if len(records) > 0:
                 file_content[table_name].extend(process_records(records))
 
@@ -506,12 +511,15 @@ def create_openstudio_standards_code_data_json(
     tables_to_export: dict,
     osstd_repository_path: str,
 ) -> None:
-    """
-    Extract code version-specific OpenStudio Standards data from the database and export it to JSON files
-    :param conn (sqlite3.Connection): database connection
-    :param code (str): name of the building energy code, e.g. "ashrae_90_1"
-    :param tables_to_export (dict): mapping of name of OpenStudio Standards JSON file name to corresponding tables from the database that contains the data for the code and code version data
-    :param osstd_repository_path (str): path of the local openstudio-standards repository
+    """Extract and export code-specific data to OpenStudio Standards.
+
+    Extract code-specific (version-independent) data from the database and export to JSON files.
+
+    Args:
+        conn: SQLite database connection.
+        code: Name of the building energy code (e.g., "ashrae_90_1").
+        tables_to_export: Mapping of JSON file names to database tables containing code-specific data.
+        osstd_repository_path: Path to the local openstudio-standards repository.
     """
     for table_type, table in tables_to_export.items():
         # Store the retrieved content from the database
@@ -519,11 +527,11 @@ def create_openstudio_standards_code_data_json(
 
         logging.info(f"Processing data in {table} table")
 
-        # Get data
+        # Fetch data from database
         records = fetch_table(conn, table)
         logging.info(f"{len(records)} found")
 
-        # Process/clean retrieved data
+        # Process and clean retrieved data
         if len(records) > 0:
             file_content[table_type].extend(process_records(records))
 
@@ -541,11 +549,19 @@ def create_openstudio_standards_code_data_json(
 
 
 def process_records(records: list) -> list:
-    """Process/clean the data retrieved from the database to match the format expected by OpenStudio Standards
-    :param records (list): record(s) retrieved from the database that require processing/cleaning to match the expected format
-    :returns list: processed/cleaned records
+    """Process and clean database records for OpenStudio Standards format.
+
+    Process and clean records retrieved from the database to match the format expected
+    by OpenStudio Standards, including formatting dates, converting booleans, and
+    consolidating material/schedule entries.
+
+    Args:
+        records: Record dictionaries retrieved from the database that require processing.
+
+    Returns:
+        Processed and cleaned record dictionaries in OpenStudio Standards format.
     """
-    # Sort records by IDs (if exists in the data) to ensure consistent ordering of the exported data
+    # Sort records by ID (if present) to ensure consistent ordering of exported data
     if "id" in list(records[0].keys()):
         records = sorted(records, key=lambda d: d["id"])
 
@@ -556,7 +572,7 @@ def process_records(records: list) -> list:
             if key in list(record.keys()):
                 del record[key]
 
-        # Concatenate schedule name a category
+        # Schedule record detection
         schedule_record = False
         if all(
             i in list(record.keys()) for i in ["name", "category", "day_types", "hr_1"]
@@ -567,7 +583,7 @@ def process_records(records: list) -> list:
         materials = []
         hr_values = []
         for key, value in record.items():
-            # Reformat date
+            # Format date fields to ISO 8601 format
             if "_date" in key:
                 # '9/9/1919'
                 date = value.split("/")
@@ -576,14 +592,14 @@ def process_records(records: list) -> list:
                 day = date[1] if len(date[1]) > 1 else f"0{date[1]}"
                 record[key] = f"{year}-{month}-{day}T00:00:00+00:00"
 
-            # Convert string booleans to actual booleans
+            # Convert string booleans to actual boolean values
             if value == "TRUE":
                 record[key] = True
             if value == "FALSE":
                 record[key] = False
 
-            # Identify whether the data is part of an "enumeration" of materials or schedules
-            # e.g., is the key "material_1", or "material_2", etc.
+            # Detect enumerated materials or schedules in the record
+            # Examples: "material_1", "material_2", "hr_1", "hr_2", etc.
             material_id = key.split("material_")[-1]
             hour_id = key.split("hr_")[-1]
             try:
@@ -599,12 +615,12 @@ def process_records(records: list) -> list:
             if isinstance(hour_id, int) and not value is None:
                 hr_values.append(value)
 
-        # Create a list of materials instead of having multiple material key/value pairs
+        # Consolidate enumerated materials into a single list
         if len(materials) > 0:
             for i in range(1, 7):
                 del record[f"material_{i}"]
             record["materials"] = materials
-        # Create a list of schedule values instead of having multiple hour key/value pairs
+        # Consolidate enumerated schedule values into a single list
         if len(hr_values) > 0:
             for i in range(1, 25):
                 del record[f"hr_{i}"]
