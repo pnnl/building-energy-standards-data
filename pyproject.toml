@@ -1,6 +1,6 @@
 [project]
 name = "building-energy-standards-data"
-version = "0.3.1"
+version = "0.3.2"
 description = "Database of building energy standards data for building energy simulation"
 readme = "README.md"
 requires-python = ">=3.10"
