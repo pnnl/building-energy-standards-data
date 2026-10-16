@@ -1,4 +1,3 @@
-
 from building_energy_standards_data.applications.ai_agent.mcps.helpers import (
     diagnose_zero_rows,
     _split_conjunctions,
@@ -9,6 +8,7 @@ from building_energy_standards_data.applications.ai_agent.mcps.helpers import (
 import sqlglot
 
 table_name = "envelope_requirements_90_1"
+
 
 class TestDiagnoseZeroRows:
     def test_returns_none_when_rows_exist(self, conn):
@@ -55,7 +55,10 @@ class TestDiagnoseZeroRows:
         assert "climate_zone_set" in hint
         assert "ClimateZone 9Z" in hint
         # shouldn't blame the passing predicate
-        assert "building_category" not in hint.split("removes all rows")[0] or "climate_zone" in hint
+        assert (
+            "building_category" not in hint.split("removes all rows")[0]
+            or "climate_zone" in hint
+        )
 
     def test_non_equality_predicate_returns_generic_hint(self, conn):
         sql = f"SELECT * FROM {table_name} WHERE assembly_maximum_u_value > 9000"
@@ -88,9 +91,7 @@ class TestHelpers:
         assert len(preds) == 1
 
     def test_split_conjunctions_multiple(self):
-        parsed = sqlglot.parse_one(
-            "SELECT * FROM t WHERE a = 1 AND b = 2 AND c = 3"
-        )
+        parsed = sqlglot.parse_one("SELECT * FROM t WHERE a = 1 AND b = 2 AND c = 3")
         where = parsed.args["where"].this
         preds = _split_conjunctions(where)
         assert len(preds) == 3
@@ -120,16 +121,22 @@ class TestHelpers:
         assert _get_table_name(parsed) == "buildings"
 
     def test_fuzzy_match_exact_match_returned(self, conn):
-        result = _fuzzy_suggestions(table=table_name, col="building_category", val="Residential", conn=conn)
+        result = _fuzzy_suggestions(
+            table=table_name, col="building_category", val="Residential", conn=conn
+        )
         assert "Residential" in result
 
     def test_fuzzy_match_single_char_typo_matches(self, conn):
         # "Resdential" → "Residential"
-        result = _fuzzy_suggestions(table=table_name, col="building_category", val="Resdential", conn=conn)
+        result = _fuzzy_suggestions(
+            table=table_name, col="building_category", val="Resdential", conn=conn
+        )
         assert "Residential" in result
 
     def test_fuzzy_match_leading_trailing_whitespace_ignored(self, conn):
-        result = _fuzzy_suggestions(table=table_name, col="building_category", val="  Residential  ", conn=conn)
+        result = _fuzzy_suggestions(
+            table=table_name, col="building_category", val="  Residential  ", conn=conn
+        )
         assert "Residential" in result
 
     def test_fuzzy_matchcompletely_unrelated_value_returns_empty(self, conn):
@@ -139,7 +146,9 @@ class TestHelpers:
         assert result == []
 
     def test_fuzzy_match_empty_string_returns_empty_or_no_close(self, conn):
-        result = _fuzzy_suggestions(table=table_name, col="building_category", val="", conn=conn)
+        result = _fuzzy_suggestions(
+            table=table_name, col="building_category", val="", conn=conn
+        )
         assert result == []
 
     def test_fuzzy_match_limit(self, conn):

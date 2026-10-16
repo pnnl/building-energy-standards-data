@@ -3,9 +3,22 @@ import re
 from typing import Optional
 
 
-from building_energy_standards_data.applications.ai_agent.config import FIELD_WEIGHTS, TABLE_NAMES
-from building_energy_standards_data.applications.ai_agent.core.services import SchemaMetadataService
-from building_energy_standards_data.applications.ai_agent.core.models.types import TableDescriptor, Domain, Topic, System, SubSystem, StandardFamily, CompliancePath
+from building_energy_standards_data.applications.ai_agent.config import (
+    FIELD_WEIGHTS,
+    TABLE_NAMES,
+)
+from building_energy_standards_data.applications.ai_agent.core.services import (
+    SchemaMetadataService,
+)
+from building_energy_standards_data.applications.ai_agent.core.models.types import (
+    TableDescriptor,
+    Domain,
+    Topic,
+    System,
+    SubSystem,
+    StandardFamily,
+    CompliancePath,
+)
 from building_energy_standards_data.applications.ai_agent.core.utils.reflection import (
     _resolve_enum,
     get_field_weights,
@@ -13,14 +26,15 @@ from building_energy_standards_data.applications.ai_agent.core.utils.reflection 
 from building_energy_standards_data.applications.ai_agent.core.utils.sql import (
     run_sqlite_query,
 )
-from building_energy_standards_data.applications.ai_agent.mcps.helpers import diagnose_zero_rows
+from building_energy_standards_data.applications.ai_agent.mcps.helpers import (
+    diagnose_zero_rows,
+)
+
 
 def register_tools(mcp, svc: SchemaMetadataService):
     @mcp.tool(
         name="list_tables",
-        description=(
-            "List every table in the building energy standards database."
-        ),
+        description=("List every table in the building energy standards database."),
     )
     def list_tables() -> str:
         tables = svc.get_table_names(TABLE_NAMES)
@@ -30,7 +44,6 @@ def register_tools(mcp, svc: SchemaMetadataService):
             lines.append(f"* {t}")
 
         return f"{len(tables)} tables available:\n\n" + "\n".join(lines)
-
 
     @mcp.tool(
         name="list_tables_with_descriptions",
@@ -109,12 +122,12 @@ def register_tools(mcp, svc: SchemaMetadataService):
                              "performance".
         """
         query_attrs = {
-            "domain":          _resolve_enum(Domain, domain),
-            "topic":           _resolve_enum(Topic, topic),
-            "system":          _resolve_enum(System, system),
-            "sub_system":      _resolve_enum(SubSystem, sub_system),
+            "domain": _resolve_enum(Domain, domain),
+            "topic": _resolve_enum(Topic, topic),
+            "system": _resolve_enum(System, system),
+            "sub_system": _resolve_enum(SubSystem, sub_system),
             "standard_family": _resolve_enum(StandardFamily, standard_family),
-            "standard_year":   standard_year,
+            "standard_year": standard_year,
             "compliance_path": _resolve_enum(CompliancePath, compliance_path),
         }
 
@@ -155,9 +168,7 @@ def register_tools(mcp, svc: SchemaMetadataService):
             short = (desc[:160] + " ...") if len(desc) > 160 else desc
             lines.append(f"  {tname}  (score {score})\n    {short}")
 
-        resolved = {
-            k: str(v) for k, v in query_attrs.items() if v is not None
-        }
+        resolved = {k: str(v) for k, v in query_attrs.items() if v is not None}
         return (
             f"Top {len(top)} candidates for {json.dumps(resolved)}:\n\n"
             + "\n\n".join(lines)
@@ -231,8 +242,16 @@ def register_tools(mcp, svc: SchemaMetadataService):
         if not (upper.startswith("SELECT") or upper.startswith("WITH")):
             return "ERROR: Only SELECT / WITH ... SELECT statements are allowed."
 
-        forbidden = {"DROP", "DELETE", "UPDATE", "INSERT",
-                    "ALTER", "TRUNCATE", "CREATE", "REPLACE"}
+        forbidden = {
+            "DROP",
+            "DELETE",
+            "UPDATE",
+            "INSERT",
+            "ALTER",
+            "TRUNCATE",
+            "CREATE",
+            "REPLACE",
+        }
         if bad := set(re.findall(r"\b[A-Z]{3,}\b", upper)) & forbidden:
             return f"ERROR: Forbidden keyword(s) detected: {bad}"
 
@@ -252,7 +271,7 @@ def register_tools(mcp, svc: SchemaMetadataService):
         payload = json.dumps(preview, indent=2, default=str)
         suffix = f"\n\n... and {n - 50} more rows not shown." if n > 50 else ""
         return f"{n} row(s):\n{payload}{suffix}"
-    
+
     @mcp.tool(
         name="get_unique_values",
         description=(
@@ -265,7 +284,7 @@ def register_tools(mcp, svc: SchemaMetadataService):
         column_names: list[str],
         limit: int = 10,
         order_by_count: bool = True,
-        where: Optional[str] = None, 
+        where: Optional[str] = None,
     ) -> str:
         limit = max(1, min(int(limit), 50))
         if isinstance(column_names, str):
@@ -291,7 +310,9 @@ def register_tools(mcp, svc: SchemaMetadataService):
         if isinstance(columns_section, dict):
             colnames = set(columns_section.keys())
         else:
-            colnames = set(re.findall(r"\b[A-Za-z_][A-Za-z0-9_]*\b", str(columns_section or "")))
+            colnames = set(
+                re.findall(r"\b[A-Za-z_][A-Za-z0-9_]*\b", str(columns_section or ""))
+            )
 
         unknown = [c for c in column_names if c not in colnames]
         if unknown:
@@ -300,7 +321,9 @@ def register_tools(mcp, svc: SchemaMetadataService):
                 f"Known columns (sample): {', '.join(sorted(colnames)[:40])}"
             )
 
-        order_clause = "ORDER BY cnt DESC, value ASC" if order_by_count else "ORDER BY value ASC"
+        order_clause = (
+            "ORDER BY cnt DESC, value ASC" if order_by_count else "ORDER BY value ASC"
+        )
         where_clause = f"WHERE {where}" if where else ""
 
         output: dict[str, object] = {}

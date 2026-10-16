@@ -72,7 +72,6 @@ def parse_standard_year(tokens: List[str]) -> Optional[int]:
     return None
 
 
-
 def parse_domain(tokens: List[str]) -> Domain:
     return Domain.from_tokens(tokens)
 

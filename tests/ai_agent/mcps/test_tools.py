@@ -6,15 +6,22 @@ import pytest_asyncio
 from mcp.server.fastmcp import FastMCP
 
 # Adjust to your actual import path
-from building_energy_standards_data.applications.ai_agent.core.models.types import Domain, StandardFamily
-from building_energy_standards_data.applications.ai_agent.core.services.schema_metadata_service import SchemaMetadataService
+from building_energy_standards_data.applications.ai_agent.core.models.types import (
+    Domain,
+    StandardFamily,
+)
+from building_energy_standards_data.applications.ai_agent.core.services.schema_metadata_service import (
+    SchemaMetadataService,
+)
 from building_energy_standards_data.applications.ai_agent.mcps.tools import (
     register_tools,
 )
 
+
 @pytest.fixture
 def svc():
     return SchemaMetadataService()
+
 
 @pytest.fixture
 def mcp(svc):
@@ -50,6 +57,7 @@ class TestRegistration:
         for t in tools:
             assert t.description and len(t.description) > 10
 
+
 @pytest.mark.asyncio
 class TestListTables:
     async def test_lists_all_tables(self, mcp):
@@ -61,33 +69,39 @@ class TestListTables:
         assert "envelope_requirements_90_1" in result
         assert "The `envelope_requirements_90_1` table stores prescriptive" in result
 
+
 @pytest.mark.asyncio
 class TestGetCandidateTables:
     async def test_returns_header_with_top_n(self, mcp):
-        result = await call_tool(mcp, "get_candidate_tables", {"domain": Domain.ENVELOPE})
-        assert result.startswith("Top 5 candidates")
-        assert all(t in result for t in ["envelope_requirements_90_1", "envelope_requirements_90_1_prm", "envelope_requirements_IECC"])
+        result = await call_tool(
+            mcp, "get_candidate_tables", {"domain": Domain.ENVELOPE}
+        )
+        assert result.startswith("Top 6 candidates")
+        assert all(
+            t in result
+            for t in [
+                "envelope_requirements_90_1",
+                "envelope_requirements_90_1_prm",
+                "envelope_requirements_IECC",
+                "envelope_requirements_189_1",
+            ]
+        )
 
     async def test_standard_year_disambiguates_between_similar_tables(self, mcp):
-        # Both chiller tables match system=chiller; year decides the winner.
+        # The standard family selects the matching envelope table. Tables that tie on
+        # score (e.g. thermal bridging) may be listed first, so only check presence.
         out = await call_tool(
             mcp,
             "get_candidate_tables",
-            {
-                "domain": Domain.ENVELOPE,
-                "standard_family": StandardFamily.ASHRAE_90_1
-            },
+            {"domain": Domain.ENVELOPE, "standard_family": StandardFamily.ASHRAE_90_1},
         )
-        first_block = out.split("\n\n")[1]
-        assert "envelope_requirements_90_1" in first_block
+        assert "envelope_requirements_90_1" in out
+        assert "envelope_requirements_IECC" not in out
 
         out = await call_tool(
             mcp,
             "get_candidate_tables",
-            {
-                "domain": Domain.ENVELOPE,
-                "standard_family": StandardFamily.IECC
-            },
+            {"domain": Domain.ENVELOPE, "standard_family": StandardFamily.IECC},
         )
-        first_block = out.split("\n\n")[1]
-        assert "envelope_requirements_IECC" in first_block
+        assert "envelope_requirements_IECC" in out
+        assert "envelope_requirements_90_1" not in out

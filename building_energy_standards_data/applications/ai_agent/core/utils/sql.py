@@ -4,7 +4,6 @@ import re
 import pandas as pd
 
 
-
 def extract_select_query(query: str) -> str:
     """
     Extract everything starting from the first SELECT (case-insensitive).
@@ -13,14 +12,12 @@ def extract_select_query(query: str) -> str:
     match = re.search(r"\bselect\b", query, re.IGNORECASE)
     if not match:
         raise ValueError("No SELECT statement found in query.")
-    query = query[match.start():]
+    query = query[match.start() :]
     query = re.sub(r"\n?```+\s*$", "", query)
     return query
 
-def run_sqlite_query(
-    query: str,
-    conn
-) -> List[Dict[str, Any]]:
+
+def run_sqlite_query(query: str, conn) -> List[Dict[str, Any]]:
     query = extract_select_query(query)
     conn.row_factory = sqlite3.Row
 

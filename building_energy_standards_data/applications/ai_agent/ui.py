@@ -14,8 +14,7 @@ def get_client() -> SimpleClient:
 # ── Parsing ──────────────────────────────────────────────────────────
 def _parts_text(parts: list[dict]) -> str:
     return "\n".join(
-        p["text"] for p in parts
-        if p.get("kind") == "text" and p.get("text")
+        p["text"] for p in parts if p.get("kind") == "text" and p.get("text")
     )
 
 
@@ -41,7 +40,10 @@ def parse_chunk(chunk: dict) -> tuple[str, str | None]:
                 _parts_text(status.get("message", {}).get("parts", [])) or None,
             )
         case "artifact-update":
-            return "working", _parts_text(result.get("artifact", {}).get("parts", [])) or None
+            return (
+                "working",
+                _parts_text(result.get("artifact", {}).get("parts", [])) or None,
+            )
         case _:
             return "unknown", None
 

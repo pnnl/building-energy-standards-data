@@ -51,10 +51,13 @@ def _fuzzy_suggestions(table: str, col: str, val: str, conn):
 
     return result
 
+
 def _split_conjunctions(where_expr: exp.Expression) -> list[exp.Expression]:
     """Flatten AND conditions into a list."""
     if isinstance(where_expr, exp.And):
-        return _split_conjunctions(where_expr.left) + _split_conjunctions(where_expr.right)
+        return _split_conjunctions(where_expr.left) + _split_conjunctions(
+            where_expr.right
+        )
     return [where_expr]
 
 
@@ -66,7 +69,9 @@ def _remove_where(parsed: exp.Expression) -> exp.Expression:
     return parsed
 
 
-def _with_where(parsed: exp.Expression, conditions: list[exp.Expression]) -> exp.Expression:
+def _with_where(
+    parsed: exp.Expression, conditions: list[exp.Expression]
+) -> exp.Expression:
     """Attach a WHERE clause with given conditions."""
     parsed = parsed.copy()
     if not conditions:
@@ -115,10 +120,18 @@ def _extract_simple_equality(pred: exp.Expression) -> tuple[str, str] | None:
     if isinstance(pred, exp.EQ):
         left, right = pred.left, pred.right
 
-        if isinstance(left, exp.Column) and isinstance(right, exp.Literal) and right.is_string:
+        if (
+            isinstance(left, exp.Column)
+            and isinstance(right, exp.Literal)
+            and right.is_string
+        ):
             return left.name, right.this
 
-        if isinstance(right, exp.Column) and isinstance(left, exp.Literal) and left.is_string:
+        if (
+            isinstance(right, exp.Column)
+            and isinstance(left, exp.Literal)
+            and left.is_string
+        ):
             return right.name, left.this
 
     return None

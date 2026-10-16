@@ -33,7 +33,6 @@ LOGGING_CONFIG = {
 logging.config.dictConfig(LOGGING_CONFIG)
 
 
-
 def build_network() -> Tuple[A2AServerManager, MCPServerManager]:
     sql_agent = build_sql_agent()
 
@@ -47,9 +46,10 @@ def build_network() -> Tuple[A2AServerManager, MCPServerManager]:
 
     return a2a_manager, mcp_manager
 
+
 async def main():
     load_dotenv()
-    
+
     a2a_manager, mcp_manager = build_network()
 
     await a2a_manager.start_all()
@@ -59,8 +59,10 @@ async def main():
 
     await asyncio.Event().wait()
 
+
 def cli():
     asyncio.run(main())
+
 
 if __name__ == "__main__":
     cli()

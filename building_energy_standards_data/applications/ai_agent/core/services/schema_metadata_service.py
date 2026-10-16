@@ -5,8 +5,12 @@ import json
 from typing import Dict, List, Any, Optional
 from contextlib import contextmanager
 
-from building_energy_standards_data.applications.ai_agent.core.services.rules import RULES
-from building_energy_standards_data.applications.ai_agent.core.models.types import TableDescriptor
+from building_energy_standards_data.applications.ai_agent.core.services.rules import (
+    RULES,
+)
+from building_energy_standards_data.applications.ai_agent.core.models.types import (
+    TableDescriptor,
+)
 
 
 class SchemaMetadataService:
@@ -17,7 +21,9 @@ class SchemaMetadataService:
         db_path: str = "openstudio_standards.db",
     ):
         self.db_path = db_path
-        self.descriptions_path = Path("building_energy_standards_data/applications/ai_agent/core/data/generated_table_descriptions.json")
+        self.descriptions_path = Path(
+            "building_energy_standards_data/applications/ai_agent/core/data/generated_table_descriptions.json"
+        )
         self._table_descriptions: Optional[Dict[str, str]] = None
         self._table_names: Optional[List[str]] = None
         self._schemas: Optional[Dict[str, List[Dict[str, Any]]]] = None
@@ -166,7 +172,9 @@ class SchemaMetadataService:
                 }
 
             if include_sample_rows:
-                from building_energy_standards_data.applications.ai_agent.core.utils.sql import get_sample_rows
+                from building_energy_standards_data.applications.ai_agent.core.utils.sql import (
+                    get_sample_rows,
+                )
 
                 with self._connect() as conn:
                     sample_rows = get_sample_rows(conn=conn, table_name=table)

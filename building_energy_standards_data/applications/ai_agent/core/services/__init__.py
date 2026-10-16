@@ -1,1 +1,3 @@
-from building_energy_standards_data.applications.ai_agent.core.services.schema_metadata_service import SchemaMetadataService
+from building_energy_standards_data.applications.ai_agent.core.services.schema_metadata_service import (
+    SchemaMetadataService,
+)

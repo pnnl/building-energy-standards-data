@@ -4,6 +4,7 @@ import os
 
 from tests.test_database import create_db
 
+
 @pytest.fixture
 def conn():
     db_name = "openstudio_standards"
