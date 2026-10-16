@@ -97,7 +97,7 @@ def register_tools(mcp, svc: SchemaMetadataService):
     )
     def get_candidate_tables(
         domain: Domain,
-        topic: Topic = None,
+        topic: Optional[Topic] = None,
         system: Optional[System] = None,
         sub_system: Optional[SubSystem] = None,
         standard_family: Optional[StandardFamily] = None,

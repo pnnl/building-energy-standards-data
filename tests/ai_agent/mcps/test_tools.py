@@ -20,7 +20,7 @@ from building_energy_standards_data.applications.ai_agent.mcps.tools import (
 
 
 @pytest.fixture
-def svc():
+def svc(conn):
     return SchemaMetadataService()
 
 

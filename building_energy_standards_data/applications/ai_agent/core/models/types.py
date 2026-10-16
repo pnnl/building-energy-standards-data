@@ -89,7 +89,11 @@ class System(StrEnum):
             "energy_recovery": cls.ENERGY_RECOVERY,
             "motors": cls.MOTOR,
             "fans": cls.FAN,
+            "fan_control": cls.FAN,
             "pumps": cls.PUMP,
+            "hydronic_variable_flow": cls.PUMP,
+            "lighting": cls.LIGHTING,
+            "envelope_requirements": cls.ENVELOPE,
             "thermal_bridging": cls.THERMAL_BRIDGING,
             "general_envelope": cls.ENVELOPE,
         }

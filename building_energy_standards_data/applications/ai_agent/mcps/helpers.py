@@ -165,11 +165,10 @@ def diagnose_zero_rows(query: str, conn) -> str | None:
         col, val = eq
 
         try:
-            exists = run_sqlite_query(
+            exists = conn.execute(
                 f"SELECT 1 FROM {table} WHERE CAST({col} AS TEXT) = ? LIMIT 1",
-                conn,
-                params=(val,),
-            )
+                (val,),
+            ).fetchone()
         except Exception:
             exists = None
 

@@ -52,10 +52,13 @@ def parse_chunk(chunk: dict) -> tuple[str, str | None]:
 async def stream_reply(prompt: str, ctx: str):
     """Async generator yielding (state, cumulative_text) tuples."""
     client = get_client()
+    last_text = ""
     async for chunk in client.send_streaming_message(prompt, ctx):
         state, text = parse_chunk(chunk)
         if text is not None:
-            yield state, text
+            last_text = text
+        if text is not None or state in {"completed", "failed"}:
+            yield state, last_text
 
 
 def run_async_stream(agen):
