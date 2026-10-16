@@ -21,7 +21,7 @@ def extract_select_query(query: str) -> str:
 
 
 def run_sqlite_query(query: str, conn) -> List[Dict[str, Any]]:
-    query = extract_select_query(query)
+    query = query.strip()
     conn.row_factory = sqlite3.Row
 
     try:
