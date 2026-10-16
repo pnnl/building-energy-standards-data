@@ -9,11 +9,22 @@ from building_energy_standards_data.query.fetch.database_table import (
 
 
 def create_json_doc():
+    """
+    Creates a JSON documentation file for the database.
+
+    This function connects to the database, retrieves all table names and field names,
+    and generates a JSON file containing descriptions for each field and table. If a
+    pre-existing JSON file is found, it will not overwrite existing descriptions.
+    The generated JSON file will be saved as 'doc_base.json' in the current directory.
+    """
     current_directory = os.path.dirname(os.path.realpath(__file__))
 
     # create connection to database
     database_path = f"{current_directory}/../openstudio_standards_data.db"
     conn = create_connect(database_path)
+
+    if conn is None:
+        raise RuntimeError("Failed to create database connection")
 
     # fetch all table names
     table_names = fetch_table_names_containing_keyword(conn, "")

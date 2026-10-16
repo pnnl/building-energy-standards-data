@@ -186,6 +186,98 @@ def test_create_export_database():
             ), f"Content is different in {f} files"
 
 
+class TestLightingSpaceTypeIntegrity(unittest.TestCase):
+    """Every lighting_space_type_name in level_1_space_types must exist in level_2_lighting_space_types."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.conn = sqlite3.connect(":memory:")
+        create_openstudio_standards_database_from_json(cls.conn)
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.conn.close()
+
+    REQUIRED_TABLES = [
+        "level_3_lighting_90_1_2004",
+        "level_3_lighting_90_1_2007",
+        "level_3_lighting_90_1_2010",
+        "level_3_lighting_90_1_2013",
+        "level_3_lighting_90_1_2016",
+        "level_3_lighting_90_1_2019",
+        "level_3_lighting_90_1_2022",
+        "level_3_lighting_90_1_2025",
+        "level_3_lighting_IECC_2006",
+        "level_3_lighting_IECC_2009",
+        "level_3_lighting_IECC_2012",
+        "level_3_lighting_IECC_2015",
+        "level_3_lighting_IECC_2018",
+        "level_3_lighting_IECC_2021",
+        "level_3_lighting_IECC_2024",
+    ]
+
+    def test_lighting_space_type_names_exist_in_level_2(self):
+        cur = self.conn.cursor()
+
+        cur.execute(
+            "SELECT space_type_name, lighting_space_type_name FROM level_1_space_types "
+            "WHERE lighting_space_type_name IS NOT NULL"
+        )
+        level_1_rows = cur.fetchall()
+
+        cur.execute(
+            "SELECT DISTINCT lighting_space_type_name FROM level_2_lighting_space_types"
+        )
+        level_2_names = {row[0] for row in cur.fetchall()}
+
+        missing = [
+            (space_type, lighting_type)
+            for space_type, lighting_type in level_1_rows
+            if lighting_type not in level_2_names
+        ]
+
+        self.assertEqual(
+            missing,
+            [],
+            "space_type_names reference lighting_space_type_names absent from level_2_lighting_space_types:\n"
+            + "\n".join(f"  {st} -> {lt}" for st, lt in missing),
+        )
+
+    def test_each_lighting_space_type_covered_by_all_required_versions(self):
+        cur = self.conn.cursor()
+
+        cur.execute(
+            "SELECT DISTINCT lighting_space_type_name FROM level_1_space_types "
+            "WHERE lighting_space_type_name IS NOT NULL"
+        )
+        lighting_space_types = [row[0] for row in cur.fetchall()]
+
+        cur.execute(
+            "SELECT lighting_space_type_name, level_3_lighting_code_definition_table "
+            "FROM level_2_lighting_space_types"
+        )
+        covered = {}
+        for name, table in cur.fetchall():
+            covered.setdefault(name, set()).add(table)
+
+        missing = {}
+        for lst in lighting_space_types:
+            tables_present = covered.get(lst, set())
+            absent = [t for t in self.REQUIRED_TABLES if t not in tables_present]
+            if absent:
+                missing[lst] = absent
+
+        self.assertEqual(
+            missing,
+            {},
+            "lighting_space_type_names missing entries for required code versions:\n"
+            + "\n".join(
+                f"  {name}: {', '.join(tables)}"
+                for name, tables in sorted(missing.items())
+            ),
+        )
+
+
 class TestCopyTemplateRecords(unittest.TestCase):
     """Test suite for copy_template_records_in_json_files function"""
 

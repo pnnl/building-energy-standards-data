@@ -1,7 +1,7 @@
 [project]
 name = "building-energy-standards-data"
-version = "0.3.1"
-description = ""
+version = "0.3.2"
+description = "Database of building energy standards data for building energy simulation"
 readme = "README.md"
 requires-python = ">=3.12,<=3.13"
 authors = [
@@ -11,11 +11,6 @@ authors = [
   { name = "Lingzhe Wang", email = "lingzhe.wang@pnnl.gov" },
   { name = "Ammar Dehwah", email = "ammar.dehwah@pnnl.gov" },
   { name = "Julian Slane-Holloway", email = "julian.slane-holloway@pnnl.gov" },
-]
-
-dependencies = [
-  "pytest>=7.4.3",
-  "black==22.12.0",
 ]
 
 [build-system]
@@ -37,4 +32,9 @@ agent = [
     "fastmcp>=3.1.1",
     "sqlglot>=30.6.0",
     "streamlit>=1.55.0"
+]
+dev = [
+    "pytest>=7.4.3",
+    "black==22.12.0",
+    "ty>=0.0.55",
 ]
