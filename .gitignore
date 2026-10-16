@@ -11,3 +11,4 @@ original_database_files/
 tests/database_files_from_csv/
 tests/database_files_from_json/
 **.db
+evaluation/results/
