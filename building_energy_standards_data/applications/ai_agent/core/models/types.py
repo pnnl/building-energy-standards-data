@@ -9,6 +9,7 @@ class Domain(StrEnum):
     ENVELOPE = "envelope"
     HVAC = "hvac"
     LIGHTING = "lighting"
+    VENTILATION = "ventilation"
     SPACE_CLASSIFICATION = "space_classification"
     SUPPORT = "support"
     UNKNOWN = "unknown"
@@ -21,6 +22,7 @@ class Domain(StrEnum):
             "hvac": cls.HVAC,
             "exterior": cls.LIGHTING,
             "level_3_lighting": cls.LIGHTING,
+            "level_3_ventilation": cls.VENTILATION,
             "level_2": cls.SPACE_CLASSIFICATION,
             "level_1": cls.SPACE_CLASSIFICATION,
             "support": cls.SUPPORT,

@@ -6,6 +6,7 @@ import pytest_asyncio
 from mcp.server.fastmcp import FastMCP
 
 # Adjust to your actual import path
+from building_energy_standards_data.applications.ai_agent.config import TABLE_NAMES
 from building_energy_standards_data.applications.ai_agent.core.models.types import (
     Domain,
     StandardFamily,
@@ -105,3 +106,22 @@ class TestGetCandidateTables:
         )
         assert "envelope_requirements_IECC" in out
         assert "envelope_requirements_90_1" not in out
+
+    async def test_ventilation_domain_finds_ventilation_tables(self, mcp):
+        out = await call_tool(
+            mcp,
+            "get_candidate_tables",
+            {
+                "domain": Domain.VENTILATION,
+                "standard_family": StandardFamily.ASHRAE_62_1,
+            },
+        )
+        assert "level_3_ventilation_62_1_2022" in out
+        assert "level_3_lighting" not in out
+
+
+def test_every_allowlisted_table_has_a_known_domain(svc):
+    unknown = [
+        t for t in TABLE_NAMES if svc.parse_table_name(t).domain == Domain.UNKNOWN
+    ]
+    assert unknown == []
