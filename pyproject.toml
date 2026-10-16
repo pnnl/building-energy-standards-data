@@ -3,7 +3,7 @@ name = "building-energy-standards-data"
 version = "0.3.2"
 description = "Database of building energy standards data for building energy simulation"
 readme = "README.md"
-requires-python = ">=3.12,<=3.13"
+requires-python = ">=3.12,<3.14"
 authors = [
   { name = "Jeremy Lerond", email = "jeremy.lerond@pnnl.gov" },
   { name = "Weili Xu", email = "weili.xu@pnnl.gov" },
@@ -12,6 +12,16 @@ authors = [
   { name = "Ammar Dehwah", email = "ammar.dehwah@pnnl.gov" },
   { name = "Julian Slane-Holloway", email = "julian.slane-holloway@pnnl.gov" },
 ]
+
+[project.optional-dependencies]
+mcp = [
+    "fastmcp>=3.1.1",
+    "sqlglot>=30.6.0",
+    "pandas>=2.0",
+]
+
+[project.scripts]
+besd-mcp = "building_energy_standards_data.applications.ai_agent.mcps.server:main"
 
 [build-system]
 requires = ["poetry-core>=2.3"]

@@ -1,7 +1,10 @@
+import logging
 import sqlite3
 from typing import Any, Dict, List
 import re
 import pandas as pd
+
+logger = logging.getLogger(__name__)
 
 
 def extract_select_query(query: str) -> str:
@@ -27,7 +30,7 @@ def run_sqlite_query(query: str, conn) -> List[Dict[str, Any]]:
             rows = cursor.fetchall()
             return [dict(row) for row in rows]
     except sqlite3.Error as e:
-        print(f"SQLite error: {e}")
+        logger.error("SQLite error: %s", e)
         return []
 
 

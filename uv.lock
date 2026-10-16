@@ -1,12 +1,12 @@
 version = 1
 revision = 3
-requires-python = ">=3.12, <=3.13"
+requires-python = ">=3.12, <3.14"
 resolution-markers = [
     "python_full_version >= '3.13' and sys_platform == 'win32'",
-    "python_full_version >= '3.13' and sys_platform == 'emscripten'",
-    "python_full_version >= '3.13' and sys_platform != 'emscripten' and sys_platform != 'win32'",
     "python_full_version < '3.13' and sys_platform == 'win32'",
+    "python_full_version >= '3.13' and sys_platform == 'emscripten'",
     "python_full_version < '3.13' and sys_platform == 'emscripten'",
+    "python_full_version >= '3.13' and sys_platform != 'emscripten' and sys_platform != 'win32'",
     "python_full_version < '3.13' and sys_platform != 'emscripten' and sys_platform != 'win32'",
 ]
 
@@ -443,6 +443,13 @@ name = "building-energy-standards-data"
 version = "0.3.2"
 source = { editable = "." }
 
+[package.optional-dependencies]
+mcp = [
+    { name = "fastmcp" },
+    { name = "pandas" },
+    { name = "sqlglot" },
+]
+
 [package.dev-dependencies]
 agent = [
     { name = "a2a-sdk" },
@@ -465,6 +472,12 @@ dev = [
 ]
 
 [package.metadata]
+requires-dist = [
+    { name = "fastmcp", marker = "extra == 'mcp'", specifier = ">=3.1.1" },
+    { name = "pandas", marker = "extra == 'mcp'", specifier = ">=2.0" },
+    { name = "sqlglot", marker = "extra == 'mcp'", specifier = ">=30.6.0" },
+]
+provides-extras = ["mcp"]
 
 [package.metadata.requires-dev]
 agent = [
