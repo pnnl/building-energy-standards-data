@@ -31,7 +31,7 @@ def run_sqlite_query(query: str, conn) -> List[Dict[str, Any]]:
             return [dict(row) for row in rows]
     except sqlite3.Error as e:
         logger.error("SQLite error: %s", e)
-        return []
+        raise
 
 
 def get_sample_rows(conn, table_name, max_rows=3):
