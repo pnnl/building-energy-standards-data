@@ -305,9 +305,9 @@ def create_openstudio_standards_space_data_json(
             space_type_data["ventilation_per_area"] = vent_per_area
             # Assume unit is cfm/ft2; TODO: verify unit
             space_type_data["ventilation_air_changes"] = 0.0
-            space_type_data["occupancy_per_area"] = (
-                occ_per_area  # Assume unit is people/1000 ft2; TODO: verify unit    # Export retrieved data
-            )
+            space_type_data[
+                "occupancy_per_area"
+            ] = occ_per_area  # Assume unit is people/1000 ft2; TODO: verify unit    # Export retrieved data
     if len(space_types) > 0:
         with open(
             f"{osstd_repository_path}/lib/openstudio-standards/standards/{code}/{code}_{code_version}/data/{code}_{code_version}.space_types.json",
