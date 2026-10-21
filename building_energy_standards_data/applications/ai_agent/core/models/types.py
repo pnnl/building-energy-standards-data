@@ -1,11 +1,11 @@
 from dataclasses import dataclass, field
-from enum import StrEnum
+from enum import Enum
 from typing import Optional
 
 from building_energy_standards_data.applications.ai_agent.config import FIELD_WEIGHTS
 
 
-class Domain(StrEnum):
+class Domain(str, Enum):
     ENVELOPE = "envelope"
     HVAC = "hvac"
     LIGHTING = "lighting"
@@ -38,7 +38,7 @@ class Domain(StrEnum):
         )
 
 
-class Topic(StrEnum):
+class Topic(str, Enum):
     MINIMUM_REQUIREMENTS = "minimum_requirements"
     LIGHTING_DATA = "lighting_data"
     VENTILATION_DATA = "ventilation_data"
@@ -47,7 +47,7 @@ class Topic(StrEnum):
     CONSTRUCTIONS = "constructions"
 
 
-class System(StrEnum):
+class System(str, Enum):
     BOILER = "boiler"
     CHILLER = "chiller"
     FURNACE = "furnace"
@@ -105,21 +105,21 @@ class System(StrEnum):
         return None
 
 
-class SubSystem(StrEnum):
+class SubSystem(str, Enum):
     COOLING = "cooling"
     HEATING = "heating"
     VENTILATION = "ventilation"
     REFRIGERATION = "refrigeration"
 
 
-class StandardFamily(StrEnum):
+class StandardFamily(str, Enum):
     ASHRAE_90_1 = "ASHRAE_90_1"
     ASHRAE_62_1 = "ASHRAE_62_1"
     ASHRAE_189_1 = "ASHRAE_189_1"
     IECC = "IECC"
 
 
-class CompliancePath(StrEnum):
+class CompliancePath(str, Enum):
     PRESCRIPTIVE = "prescriptive"
     APPENDIX_G = "appendix_g"
 

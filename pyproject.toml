@@ -3,7 +3,7 @@ name = "building-energy-standards-data"
 version = "0.3.2"
 description = "Database of building energy standards data for building energy simulation"
 readme = "README.md"
-requires-python = ">=3.12,<3.14"
+requires-python = ">=3.10,<3.14"
 authors = [
   { name = "Jeremy Lerond", email = "jeremy.lerond@pnnl.gov" },
   { name = "Weili Xu", email = "weili.xu@pnnl.gov" },
@@ -27,6 +27,15 @@ besd-mcp = "building_energy_standards_data.applications.ai_agent.mcps.server:mai
 requires = ["poetry-core>=2.3"]
 build-backend = "poetry.core.masonry.api"
 
+# The AI agent (automa-ai / Streamlit front end) is developed in this repository but is
+# not shipped. The MCP server, core/ and config.py stay in the package.
+[tool.poetry]
+exclude = [
+    "building_energy_standards_data/applications/ai_agent/agent",
+    "building_energy_standards_data/applications/ai_agent/build.py",
+    "building_energy_standards_data/applications/ai_agent/ui.py",
+]
+
 [dependency-groups]
 agent = [
     "langchain>=1.2.7",
@@ -34,8 +43,8 @@ agent = [
     "langchain-community>=0.4.1",
     "langchain-core>=1.2.7",
     "dotenv>=0.9.9",
-    "automa-ai==0.5.12",
-    "a2a-sdk==0.3.26",
+    "automa-ai==0.5.12; python_version >= '3.12'",
+    "a2a-sdk==0.3.26; python_version >= '3.12'",
     "chromadb>=1.4.1",
     "datasets>=4.5.0",
     "dotenv>=0.9.9",

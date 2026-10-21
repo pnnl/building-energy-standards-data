@@ -20,7 +20,7 @@ def build_sql_agent() -> AgentFactory:
     AGENT_CARD_PATH = here.parent / "agent_cards" / "sql_agent.json"
     card = AgentCard(
         **json.loads(AGENT_CARD_PATH.read_text()),
-        capabilities=AgentCapabilities(streaming=True)
+        capabilities=AgentCapabilities(streaming=True),
     )
 
     mcp_server_config = MCPServerConfig(
