@@ -16,7 +16,6 @@ from building_energy_standards_data.database_engine.database import (
     copy_template_records_in_json_files,
 )
 
-
 CREATE_L3_TEST_TABLE = """
 CREATE TABLE level_3_table (id INTEGER PRIMARY KEY, name TEXT);
 """
