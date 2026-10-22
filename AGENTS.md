@@ -134,7 +134,7 @@ records = fetch_records_by_keyvalues(conn, "level_3_lighting_90_1_2019", {"light
 | Python | 3.12+ (<3.14) | Language |
 | SQLite3 | stdlib | Database |
 | pytest | ^7.4.3 | Testing |
-| black | 22.12.0 | Code formatter (enforced by CI) |
+| black | 26.3.1 | Code formatter (enforced by CI) |
 | Poetry | — | Dependency management |
 
 **Optional** (AI agent feature): langchain, langchain-anthropic, streamlit.
