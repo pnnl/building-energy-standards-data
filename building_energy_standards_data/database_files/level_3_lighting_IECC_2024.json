@@ -1217,22 +1217,6 @@
     },
     {
         "method": "CS",
-        "lighting_primary_space_type": "Breakroom",
-        "lighting_secondary_space_type": "Mother's wellness room",
-        "lighting_power_density": 0.68,
-        "lighting_power_density_unit": "W/ft2",
-        "supplemental_lighting_power_density": null,
-        "supplemental_lighting_power_density_unit": "W/ft2",
-        "rcr_threshold": null,
-        "automatic_daylight_responsive_controls_for_sidelighting": "REQ",
-        "automatic_daylight_responsive_controls_for_toplighting": "REQ",
-        "automatic_partial_off": null,
-        "automatic_full_off": "REQ",
-        "scheduled_shutoff": null,
-        "annotation": "From IECC-2024 Table C405.3.2(2)"
-    },
-    {
-        "method": "CS",
         "lighting_primary_space_type": "Lounge/Breakroom",
         "lighting_secondary_space_type": "Otherwise",
         "lighting_power_density": 0.55,
