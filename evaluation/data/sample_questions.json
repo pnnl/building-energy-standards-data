@@ -1,0 +1,244 @@
+[
+{
+  "test_case_ID": "TABLE-001",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "Envelope table — roof U-factor by climate zone and building type",
+  "query": "What is the maximum U-factor for a nonresidential roof with insulation entirely above deck in ASHRAE 90.1-2022 Climate Zone 1A?",
+  "expected_output": "Should retrieve Table 5.5-1 and report the maximum assembly U-factor of U-0.048 for Nonresidential roofs with insulation entirely above deck in Climate Zone 1A.",
+  "correct_tools_call": [
+    {
+      "name": "table_filter_rows",
+      "args": {}
+    }
+  ]
+},
+{
+  "test_case_ID": "TABLE-002",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "Equipment efficiency table — minimum SEER for small split-system AC",
+  "query": "What is the minimum efficiency requirement for a three-phase air-cooled split-system air conditioner under 65,000 Btu/h in ASHRAE 90.1-2022?",
+  "expected_output": "Should retrieve Table 6.8.1-1 and report 13.0 SEER (before 1/1/2023) and 13.4 SEER2 (after 1/1/2023) for three-phase and non-U.S. single-phase split systems under 65,000 Btu/h. Note: U.S. single-phase units in this size range are regulated as consumer products under 10 CFR 430, not by this table.",
+  "correct_tools_call": [
+    {
+      "name": "table_filter_rows",
+      "args": {}
+    }
+  ]
+},
+{
+  "test_case_ID": "TABLE-003",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "Lighting power density table — whole-building LPD for office",
+  "query": "What is the building area method lighting power density allowance for an office building in ASHRAE 90.1-2022?",
+  "expected_output": "Should retrieve Table 9.5.1 and report 0.62 W/ft² for the Office building area type.",
+  "correct_tools_call": [
+    {
+      "name": "table_filter_rows",
+      "args": {}
+    }
+  ]
+},
+{
+  "test_case_ID": "TABLE-004",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "Table search — find relevant table ID before lookup",
+  "query": "Which ASHRAE 90.1-2022 table covers minimum efficiency requirements for chillers?",
+  "expected_output": "Should use table_search to identify relevant chiller efficiency table(s) such as Table 6.8.1-3 or similar, and return the table ID and title.",
+  "correct_tools_call": [
+    {
+      "name": "table_search",
+      "args": {}
+    }
+  ]
+},
+{
+  "test_case_ID": "TABLE-005",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "Combined code + table — section references a table",
+  "query": "What are the mandatory lighting power density limits for ASHRAE 90.1-2022 Section 9.5.1 and what value applies to a hospital?",
+  "expected_output": "Should look up Section 9.5.1 with code_lookup, then retrieve Table 9.5.1 with table_filter_rows to find the LPD value for the Hospital/Healthcare building area type.",
+  "correct_tools_call": [
+    {
+      "name": "code_lookup",
+      "args": {}
+    },
+    {
+      "name": "table_filter_rows",
+      "args": {}
+    }
+  ]
+},
+{
+  "test_case_ID": "TABLE-007",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "Chiller efficiency table — air-cooled chiller EER Path A",
+  "query": "What is the minimum full-load EER (Path A) for an air-cooled chiller under 150 tons in ASHRAE 90.1-2022?",
+  "expected_output": "Should retrieve Table 6.8.1-3 and report that an air-cooled chiller under 150 tons must meet a minimum EER of 10.100 FL (full load) under Path A, tested per AHRI 550/590.",
+  "correct_tools_call": [
+    {
+      "name": "table_filter_rows",
+      "args": {}
+    }
+  ]
+},
+{
+  "test_case_ID": "TABLE-008",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "Chiller efficiency table — liquid-cooled positive displacement 75–150 tons",
+  "query": "What is the maximum kW/ton at full load (Path A) for a liquid-cooled electrically operated positive displacement chiller in the 75 to 150 ton size range per ASHRAE 90.1-2022?",
+  "expected_output": "Should retrieve Table 6.8.1-3 and report that a liquid-cooled electrically operated positive displacement chiller rated 75 tons to less than 150 tons must not exceed 0.720 kW/ton FL under Path A, tested per AHRI 550/590.",
+  "correct_tools_call": [
+    {
+      "name": "table_filter_rows",
+      "args": {}
+    }
+  ]
+},
+{
+  "test_case_ID": "TABLE-009",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "PTAC cooling efficiency — standard size unit between 7,000 and 15,000 Btu/h",
+  "query": "What is the minimum EER for a standard-size PTAC in cooling mode with a capacity of 12,000 Btu/h in ASHRAE 90.1-2022?",
+  "expected_output": "Should retrieve Table 6.8.1-4. For PTAC (cooling mode) standard size with capacity between 7,000 and 15,000 Btu/h, the minimum efficiency is calculated as 14.0 – (0.300 × Cap/1000) EER, tested per AHRI 310/380. For a 12,000 Btu/h unit: 14.0 – (0.300 × 12) = 14.0 – 3.6 = 10.4 EER.",
+  "correct_tools_call": [
+    {
+      "name": "table_filter_rows",
+      "args": {}
+    }
+  ]
+},
+{
+  "test_case_ID": "TABLE-010",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "Warm-air furnace efficiency — gas nonweatherized inside U.S.",
+  "query": "What is the minimum AFUE for a gas-fired nonweatherized warm-air furnace under 225,000 Btu/h input installed inside the U.S. per ASHRAE 90.1-2022?",
+  "expected_output": "Should retrieve Table 6.8.1-5 and report that a single-phase gas-fired nonweatherized warm-air furnace with input under 225,000 Btu/h installed inside the U.S. (with cooling capacity ≥65,000 Btu/h) must have a minimum efficiency of 80% AFUE, tested per Appendix N.",
+  "correct_tools_call": [
+    {
+      "name": "table_filter_rows",
+      "args": {}
+    }
+  ]
+},
+{
+  "test_case_ID": "TABLE-011",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "Service water heating — gas storage water heater large commercial",
+  "query": "What is the standby loss requirement for a gas storage water heater with input over 105,000 Btu/h per ASHRAE 90.1-2022 Table 7.4-1?",
+  "expected_output": "Should retrieve Table 7.4-1 and report that gas storage water heaters with input greater than 105,000 Btu/h and less than 4,000 (Btu/h)/gal must meet 80% Et and standby loss SL ≤ (Q/800 + 110√V) Btu/h, tested per 10 CFR 431.106.",
+  "correct_tools_call": [
+    {
+      "name": "table_filter_rows",
+      "args": {}
+    }
+  ]
+},
+{
+  "test_case_ID": "TABLE-012",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "Whole-building LPD table — hospital building area type",
+  "query": "What is the lighting power density allowance for a hospital using the building area method in ASHRAE 90.1-2022?",
+  "expected_output": "Should retrieve Table 9.5.1 and report that the Hospital building area type has an LPD of 0.92 W/ft².",
+  "correct_tools_call": [
+    {
+      "name": "table_filter_rows",
+      "args": {}
+    }
+  ]
+},
+{
+  "test_case_ID": "TABLE-013",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "Space-by-space LPD and controls — small office space",
+  "query": "What is the lighting power density and what lighting controls are required for an office space of 200 ft² under the space-by-space method in ASHRAE 90.1-2022?",
+  "expected_output": "Should retrieve Table 9.5.2.1-1. An office of 200 ft² (>150 ft² and ≤300 ft²) has an LPD of 0.66 W/ft² and an RCR of 8. Required controls include: Local Control (9.4.1.1(a)), Multilevel Lighting Control (9.4.1.1(d)), and Auto Full Off (9.4.1.1(h)).",
+  "correct_tools_call": [
+    {
+      "name": "table_filter_rows",
+      "args": {}
+    }
+  ]
+},
+{
+  "test_case_ID": "TABLE-014",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "Space-by-space LPD — large office space with daylighting controls",
+  "query": "Does an office space larger than 300 ft² require daylight-responsive controls per ASHRAE 90.1-2022 Table 9.5.2.1-1?",
+  "expected_output": "Should retrieve Table 9.5.2.1-1. For Offices >300 ft², both Daylight Response Sidelight (9.4.1.1(e)) and Daylight Response Toplight (9.4.1.1(f)) are marked REQ, plus Auto Reduction (9.4.1.1(g)) is REQ. LPD is 0.56 W/ft². So yes, daylight-responsive controls are required.",
+  "correct_tools_call": [
+    {
+      "name": "table_filter_rows",
+      "args": {}
+    }
+  ]
+},
+{
+  "test_case_ID": "TABLE-015",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "Motor efficiency table — 10 hp 4-pole enclosed motor",
+  "query": "What is the minimum nominal full-load efficiency for a 10 hp, 4-pole, totally enclosed motor per ASHRAE 90.1-2022?",
+  "expected_output": "Should retrieve Table 10.8-1 and report that a 10 hp, 4-Pole, Enclosed motor must have a nominal full-load efficiency of 91.7%.",
+  "correct_tools_call": [
+    {
+      "name": "table_filter_rows",
+      "args": {}
+    }
+  ]
+},
+{
+  "test_case_ID": "TABLE-016",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "Motor efficiency table — 1 hp 2-pole open vs enclosed comparison",
+  "query": "Per ASHRAE 90.1-2022, what is the minimum nominal efficiency for a 1 hp, 2-pole motor, and does the enclosure type (open vs. enclosed) affect the required efficiency?",
+  "expected_output": "Should retrieve Table 10.8-1. For 1 hp, 2-Pole motors, both Enclosed and Open enclosure types have the same nominal full-load efficiency of 77.0%, so enclosure type does not affect the required minimum efficiency at this size.",
+  "correct_tools_call": [
+    {
+      "name": "table_filter_rows",
+      "args": {}
+    }
+  ]
+},
+{
+  "test_case_ID": "TABLE-018",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "Table search — find motor efficiency tables",
+  "query": "Which ASHRAE 90.1-2022 tables list minimum motor efficiency requirements?",
+  "expected_output": "Should use table_search with keywords such as 'motor efficiency' or 'nominal full-load efficiency' to identify Table 10.8-1 (and related 10.8-x tables) covering minimum nominal full-load efficiency for various motor configurations.",
+  "correct_tools_call": [
+    {
+      "name": "table_search",
+      "args": {}
+    }
+  ]
+},
+{
+  "test_case_ID": "TABLE-019",
+  "source": "ai-assisted",
+  "standard": "ASHRAE",
+  "query_desc": "Heat pump efficiency — air-cooled cooling mode split system",
+  "query": "What is the minimum SEER2 for a three-phase air-cooled heat pump in cooling mode with capacity under 65,000 Btu/h, after January 1, 2023, per ASHRAE 90.1-2022?",
+  "expected_output": "Should retrieve Table 6.8.1-2. For air cooled (cooling mode) heat pumps under 65,000 Btu/h, split system, three phase (and applications outside U.S. single phase), the minimum efficiency after 1/1/2023 is 14.3 SEER2, tested per AHRI 210/240-2023.",
+  "correct_tools_call": [
+    {
+      "name": "table_filter_rows",
+      "args": {}
+    }
+  ]
+}
+]
