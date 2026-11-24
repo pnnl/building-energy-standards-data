@@ -129,7 +129,7 @@ def copy_template_records_in_json_files(
                 data.extend(new_records)
 
                 # Write back to the file
-                with open(json_file, "w") as f:
+                with open(json_file, "w", newline="\n") as f:
                     json.dump(data, f, indent=4)
 
                 logging.info(f"Added {records_copied} records to {json_file.name}")
@@ -344,7 +344,7 @@ class DBOperation:
                 del i["id"]
         json_dir = f"{save_dir}{self.data_table_name}.json"
         json_output = json.dumps(r, indent=4)
-        with open(json_dir, "w", newline="\r\n") as json_file:
+        with open(json_dir, "w", newline="\n") as json_file:
             json_file.write(json_output)
 
     # Functions to be overridden based on need
