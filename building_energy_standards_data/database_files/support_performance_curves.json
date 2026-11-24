@@ -18327,10 +18327,10 @@
     {
         "name": "Air-cooled less than 150 tons, 10.100 FL, 13.700 IPLV.IP Path A, Set A",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
-        "independent_variable_2": "Tect",
+        "independent_variable_2": "Toadb",
         "coeff_1": 0.825618,
         "coeff_2": -0.025861,
         "coeff_3": 0.001396,
@@ -18347,15 +18347,15 @@
         "maximum_independent_variable_2": 52.22222222,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set A. Set assigned in Table J-1 (Path A) to \"Air-cooled chillers, <150 tons\". Curve type T1, input limits and rated CHWT/OAT 44/95 F (6.67/35.0 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Air-cooled less than 150 tons, 10.100 FL, 13.700 IPLV.IP Path A, Set A",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
-        "independent_variable_2": "Tect",
+        "independent_variable_2": "Toadb",
         "coeff_1": 0.686206,
         "coeff_2": 0.057562,
         "coeff_3": -0.001835,
@@ -18372,7 +18372,7 @@
         "maximum_independent_variable_2": 52.22222222,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set A. Set assigned in Table J-1 (Path A) to \"Air-cooled chillers, <150 tons\". Curve type T1, input limits and rated CHWT/OAT 44/95 F (6.67/35.0 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Air-cooled less than 150 tons, 10.100 FL, 13.700 IPLV.IP Path A, Set A",
@@ -18397,12 +18397,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set A. Set assigned in Table J-1 (Path A) to \"Air-cooled chillers, <150 tons\". Curve type T3, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 150 and less than 300 tons 0.6337 FL, 0.5961 IPLV.IP, Set AA",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -18422,12 +18422,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set AA. Set assigned in Table J-2 to \"Water-cooled, electrically operated, centrifugal, >=150 tons and <300 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 150 and less than 300 tons 0.6337 FL, 0.5961 IPLV.IP, Set AA",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -18447,7 +18447,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set AA. Set assigned in Table J-2 to \"Water-cooled, electrically operated, centrifugal, >=150 tons and <300 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 150 and less than 300 tons 0.6337 FL, 0.5961 IPLV.IP, Set AA",
@@ -18472,12 +18472,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set AA. Set assigned in Table J-2 to \"Water-cooled, electrically operated, centrifugal, >=150 tons and <300 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 300 tons 0.5766 FL, 0.5495 IPLV.IP, Set AB",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -18497,12 +18497,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set AB. Set assigned in Table J-2 to \"Water-cooled, electrically operated, centrifugal, >=300 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 300 tons 0.5766 FL, 0.5495 IPLV.IP, Set AB",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -18522,7 +18522,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set AB. Set assigned in Table J-2 to \"Water-cooled, electrically operated, centrifugal, >=300 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 300 tons 0.5766 FL, 0.5495 IPLV.IP, Set AB",
@@ -18547,15 +18547,15 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set AB. Set assigned in Table J-2 to \"Water-cooled, electrically operated, centrifugal, >=300 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Air-cooled greater or equal to 150 tons, 10.100 FL, 14.00 IPLV.IP Path A, Set B",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
-        "independent_variable_2": "Tect",
+        "independent_variable_2": "Toadb",
         "coeff_1": 0.807832,
         "coeff_2": -0.029452,
         "coeff_3": 0.001431,
@@ -18572,15 +18572,15 @@
         "maximum_independent_variable_2": 52.22222222,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set B. Set assigned in Table J-1 (Path A) to \"Air-cooled chillers, >=150 tons\". Curve type T1, input limits and rated CHWT/OAT 44/95 F (6.67/35.0 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Air-cooled greater or equal to 150 tons, 10.100 FL, 14.00 IPLV.IP Path A, Set B",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
-        "independent_variable_2": "Tect",
+        "independent_variable_2": "Toadb",
         "coeff_1": 0.794185,
         "coeff_2": 0.060199,
         "coeff_3": -0.002016,
@@ -18597,7 +18597,7 @@
         "maximum_independent_variable_2": 52.22222222,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set B. Set assigned in Table J-1 (Path A) to \"Air-cooled chillers, >=150 tons\". Curve type T1, input limits and rated CHWT/OAT 44/95 F (6.67/35.0 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Air-cooled greater or equal to 150 tons, 10.100 FL, 14.00 IPLV.IP Path A, Set B",
@@ -18622,12 +18622,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set B. Set assigned in Table J-1 (Path A) to \"Air-cooled chillers, >=150 tons\". Curve type T3, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled positive displacement less than 75 tons 0.750 FL, 0.600 IPLV.IP Path A, Set C",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -18647,12 +18647,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set C. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated positive displacement, <75 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement less than 75 tons 0.750 FL, 0.600 IPLV.IP Path A, Set C",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -18672,7 +18672,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set C. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated positive displacement, <75 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement less than 75 tons 0.750 FL, 0.600 IPLV.IP Path A, Set C",
@@ -18697,12 +18697,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set C. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated positive displacement, <75 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 75 and less than 150 tons 0.720 FL, 0.560 IPLV.IP Path A, Set D",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -18722,12 +18722,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set D. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated positive displacement, >=75 tons and <150 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 75 and less than 150 tons 0.720 FL, 0.560 IPLV.IP Path A, Set D",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -18747,7 +18747,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set D. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated positive displacement, >=75 tons and <150 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 75 and less than 150 tons 0.720 FL, 0.560 IPLV.IP Path A, Set D",
@@ -18772,12 +18772,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set D. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated positive displacement, >=75 tons and <150 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.660 FL, 0.540 IPLV.IP Path A, Set E",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -18797,12 +18797,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set E. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated positive displacement, >=150 tons and <300 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.660 FL, 0.540 IPLV.IP Path A, Set E",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -18822,7 +18822,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set E. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated positive displacement, >=150 tons and <300 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.660 FL, 0.540 IPLV.IP Path A, Set E",
@@ -18847,12 +18847,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set E. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated positive displacement, >=150 tons and <300 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 300 and less than 600 tons 0.610 FL, 0.520 IPLV.IP Path A, Set F",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -18872,12 +18872,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set F. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated positive displacement, >=300 tons and <600 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 300 and less than 600 tons 0.610 FL, 0.520 IPLV.IP Path A, Set F",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -18897,7 +18897,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set F. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated positive displacement, >=300 tons and <600 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 300 and less than 600 tons 0.610 FL, 0.520 IPLV.IP Path A, Set F",
@@ -18922,12 +18922,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set F. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated positive displacement, >=300 tons and <600 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set G",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -18947,12 +18947,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set G. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated positive displacement, >=600 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set G",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -18972,7 +18972,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set G. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated positive displacement, >=600 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set G",
@@ -18997,12 +18997,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set G. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated positive displacement, >=600 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled centrifugal less than 150 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19022,12 +19022,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set H. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated centrifugal, <150 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal less than 150 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19047,7 +19047,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set H. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated centrifugal, <150 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal less than 150 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
@@ -19072,12 +19072,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set H. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated centrifugal, <150 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 150 tons less than 300 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19097,12 +19097,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set H. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated centrifugal, >=150 tons and <300 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 150 tons less than 300 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19122,7 +19122,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set H. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated centrifugal, >=150 tons and <300 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 150 tons less than 300 tons 0.610 FL, 0.550 IPLV.IP Path A, Set H",
@@ -19147,12 +19147,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set H. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated centrifugal, >=150 tons and <300 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 300 tons less than 400 tons 0.560 FL, 0.520 IPLV.IP Path A, Set I",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19172,12 +19172,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set I. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated centrifugal, >=300 tons and <400 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 300 tons less than 400 tons 0.560 FL, 0.520 IPLV.IP Path A, Set I",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19197,7 +19197,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set I. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated centrifugal, >=300 tons and <400 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 300 tons less than 400 tons 0.560 FL, 0.520 IPLV.IP Path A, Set I",
@@ -19222,12 +19222,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set I. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated centrifugal, >=300 tons and <400 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 400 tons less than 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19247,12 +19247,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set J. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated centrifugal, >=400 tons and <600 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 400 tons less than 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19272,7 +19272,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set J. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated centrifugal, >=400 tons and <600 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 400 tons less than 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
@@ -19297,12 +19297,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set J. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated centrifugal, >=400 tons and <600 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19322,12 +19322,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set J. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated centrifugal, >=600 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19347,7 +19347,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set J. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated centrifugal, >=600 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 600 tons 0.560 FL, 0.500 IPLV.IP Path A, Set J",
@@ -19372,15 +19372,15 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set J. Set assigned in Table J-1 (Path A) to \"Liquid-cooled, electrically operated centrifugal, >=600 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Air-cooled less than 150 tons, 9.700 FL, 15.800 IPLV.IP Path B, Set K",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
-        "independent_variable_2": "Tect",
+        "independent_variable_2": "Toadb",
         "coeff_1": 0.891872,
         "coeff_2": -0.029821,
         "coeff_3": 0.001459,
@@ -19397,15 +19397,15 @@
         "maximum_independent_variable_2": 52.22222222,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set K. Set assigned in Table J-1 (Path B) to \"Air-cooled chillers, <150 tons\". Curve type T1, input limits and rated CHWT/OAT 44/95 F (6.67/35.0 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Air-cooled less than 150 tons, 9.700 FL, 15.800 IPLV.IP Path B, Set K",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
-        "independent_variable_2": "Tect",
+        "independent_variable_2": "Toadb",
         "coeff_1": 0.709195,
         "coeff_2": 0.059566,
         "coeff_3": -0.001968,
@@ -19422,7 +19422,7 @@
         "maximum_independent_variable_2": 52.22222222,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set K. Set assigned in Table J-1 (Path B) to \"Air-cooled chillers, <150 tons\". Curve type T1, input limits and rated CHWT/OAT 44/95 F (6.67/35.0 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Air-cooled less than 150 tons, 9.700 FL, 15.800 IPLV.IP Path B, Set K",
@@ -19447,15 +19447,15 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set K. Set assigned in Table J-1 (Path B) to \"Air-cooled chillers, <150 tons\". Curve type T3, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Air-cooled greater or equal to 150 tons, 9.700 FL, 16.100 IPLV.IP Path B, Set L",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
-        "independent_variable_2": "Tect",
+        "independent_variable_2": "Toadb",
         "coeff_1": 0.711589,
         "coeff_2": -0.02952,
         "coeff_3": 0.00139,
@@ -19472,15 +19472,15 @@
         "maximum_independent_variable_2": 52.22222222,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set L. Set assigned in Table J-1 (Path B) to \"Air-cooled chillers, >=150 tons\". Curve type T1, input limits and rated CHWT/OAT 44/95 F (6.67/35.0 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Air-cooled greater or equal to 150 tons, 9.700 FL, 16.100 IPLV.IP Path B, Set L",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
-        "independent_variable_2": "Tect",
+        "independent_variable_2": "Toadb",
         "coeff_1": 0.879844,
         "coeff_2": 0.060415,
         "coeff_3": -0.001994,
@@ -19497,7 +19497,7 @@
         "maximum_independent_variable_2": 52.22222222,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set L. Set assigned in Table J-1 (Path B) to \"Air-cooled chillers, >=150 tons\". Curve type T1, input limits and rated CHWT/OAT 44/95 F (6.67/35.0 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Air-cooled greater or equal to 150 tons, 9.700 FL, 16.100 IPLV.IP Path B, Set L",
@@ -19522,12 +19522,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set L. Set assigned in Table J-1 (Path B) to \"Air-cooled chillers, >=150 tons\". Curve type T3, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled positive displacement less than 75 tons 0.780 FL, 0.500 IPLV.IP Path B, Set M",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19547,12 +19547,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set M. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated positive displacement, <75 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement less than 75 tons 0.780 FL, 0.500 IPLV.IP Path B, Set M",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19572,7 +19572,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set M. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated positive displacement, <75 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement less than 75 tons 0.780 FL, 0.500 IPLV.IP Path B, Set M",
@@ -19597,12 +19597,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set M. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated positive displacement, <75 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 75 and less than 150 tons 0.750 FL, 0.490 IPLV.IP Path B, Set N",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19622,12 +19622,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set N. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated positive displacement, >=75 tons and <150 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 75 and less than 150 tons 0.750 FL, 0.490 IPLV.IP Path B, Set N",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19647,7 +19647,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set N. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated positive displacement, >=75 tons and <150 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 75 and less than 150 tons 0.750 FL, 0.490 IPLV.IP Path B, Set N",
@@ -19672,12 +19672,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set N. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated positive displacement, >=75 tons and <150 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.680 FL, 0.440 IPLV.IP Path B, Set O",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19697,12 +19697,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set O. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated positive displacement, >=150 tons and <300 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.680 FL, 0.440 IPLV.IP Path B, Set O",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19722,7 +19722,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set O. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated positive displacement, >=150 tons and <300 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.680 FL, 0.440 IPLV.IP Path B, Set O",
@@ -19747,12 +19747,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set O. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated positive displacement, >=150 tons and <300 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 300 and less than 600 tons 0.625 FL, 0.410 IPLV.IP Path B, Set P",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19772,12 +19772,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set P. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated positive displacement, >=300 tons and <600 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 300 and less than 600 tons 0.625 FL, 0.410 IPLV.IP Path B, Set P",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19797,7 +19797,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set P. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated positive displacement, >=300 tons and <600 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 300 and less than 600 tons 0.625 FL, 0.410 IPLV.IP Path B, Set P",
@@ -19822,12 +19822,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set P. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated positive displacement, >=300 tons and <600 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set Q",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19847,12 +19847,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set Q. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated positive displacement, >=600 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set Q",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19872,7 +19872,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set Q. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated positive displacement, >=600 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set Q",
@@ -19897,12 +19897,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set Q. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated positive displacement, >=600 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled centrifugal less than 150 tons 0.695 FL, 0.440 IPLV.IP Path B, Set R",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19922,12 +19922,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set R. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated centrifugal, <150 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal less than 150 tons 0.695 FL, 0.440 IPLV.IP Path B, Set R",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19935,7 +19935,7 @@
         "coeff_2": 0.040861,
         "coeff_3": -0.001781,
         "coeff_4": -0.008217,
-        "coeff_5": 1.30411e-05,
+        "coeff_5": 1.3e-05,
         "coeff_6": 0.000328,
         "coeff_7": null,
         "coeff_8": null,
@@ -19947,7 +19947,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set R. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated centrifugal, <150 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal less than 150 tons 0.695 FL, 0.440 IPLV.IP Path B, Set R",
@@ -19972,12 +19972,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set R. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated centrifugal, <150 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 150 tons less than 300 tons 0.635 FL, 0.400 IPLV.IP Path B, Set S",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -19997,12 +19997,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set S. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated centrifugal, >=150 tons and <300 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 150 tons less than 300 tons 0.635 FL, 0.400 IPLV.IP Path B, Set S",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -20022,7 +20022,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set S. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated centrifugal, >=150 tons and <300 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 150 tons less than 300 tons 0.635 FL, 0.400 IPLV.IP Path B, Set S",
@@ -20047,12 +20047,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set S. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated centrifugal, >=150 tons and <300 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 300 tons less than 400 tons 0.595 FL, 0.390 IPLV.IP Path B, Set T",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -20072,12 +20072,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set T. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated centrifugal, >=300 tons and <400 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 300 tons less than 400 tons 0.595 FL, 0.390 IPLV.IP Path B, Set T",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -20097,7 +20097,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set T. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated centrifugal, >=300 tons and <400 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 300 tons less than 400 tons 0.595 FL, 0.390 IPLV.IP Path B, Set T",
@@ -20122,12 +20122,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set T. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated centrifugal, >=300 tons and <400 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 400 tons less than 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -20147,12 +20147,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set U. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated centrifugal, >=400 tons and <600 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 400 tons less than 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -20172,7 +20172,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set U. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated centrifugal, >=400 tons and <600 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 400 tons less than 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
@@ -20197,12 +20197,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set U. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated centrifugal, >=400 tons and <600 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -20222,12 +20222,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set U. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated centrifugal, >=600 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -20247,7 +20247,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set U. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated centrifugal, >=600 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal greater or equal to 600 tons 0.585 FL, 0.380 IPLV.IP Path B, Set U",
@@ -20272,12 +20272,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-5 (Section 12 chillers, SI units; I-P coefficients in Table J-4), Set U. Set assigned in Table J-1 (Path B) to \"Liquid-cooled, electrically operated centrifugal, >=600 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled positive displacement less than 150 tons 0.7903 FL, 0.6763 IPLV.IP, Set V",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -20297,12 +20297,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set V. Set assigned in Table J-2 to \"Water-cooled, electrically operated, positive displacement (rotary screw and scroll), <150 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement less than 150 tons 0.7903 FL, 0.6763 IPLV.IP, Set V",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -20322,7 +20322,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set V. Set assigned in Table J-2 to \"Water-cooled, electrically operated, positive displacement (rotary screw and scroll), <150 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement less than 150 tons 0.7903 FL, 0.6763 IPLV.IP, Set V",
@@ -20347,12 +20347,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set V. Set assigned in Table J-2 to \"Water-cooled, electrically operated, positive displacement (rotary screw and scroll), <150 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.7178 FL, 0.6280 IPLV.IP, Set X",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -20372,12 +20372,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set X. Set assigned in Table J-2 to \"Water-cooled, electrically operated, positive displacement (rotary screw and scroll), >=150 tons and <300 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.7178 FL, 0.6280 IPLV.IP, Set X",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -20397,7 +20397,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set X. Set assigned in Table J-2 to \"Water-cooled, electrically operated, positive displacement (rotary screw and scroll), >=150 tons and <300 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 150 and less than 300 tons 0.7178 FL, 0.6280 IPLV.IP, Set X",
@@ -20422,12 +20422,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set X. Set assigned in Table J-2 to \"Water-cooled, electrically operated, positive displacement (rotary screw and scroll), >=150 tons and <300 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 300 tons 0.6395 FL, 0.5719 IPLV.IP, Set Y",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -20447,12 +20447,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set Y. Set assigned in Table J-2 to \"Water-cooled, electrically operated, positive displacement (rotary screw and scroll), >=300 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 300 tons 0.6395 FL, 0.5719 IPLV.IP, Set Y",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -20472,7 +20472,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set Y. Set assigned in Table J-2 to \"Water-cooled, electrically operated, positive displacement (rotary screw and scroll), >=300 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled positive displacement greater or equal to 300 tons 0.6395 FL, 0.5719 IPLV.IP, Set Y",
@@ -20497,12 +20497,12 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set Y. Set assigned in Table J-2 to \"Water-cooled, electrically operated, positive displacement (rotary screw and scroll), >=300 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     },
     {
         "name": "Liquid-cooled centrifugal less than 150 tons 0.7034 FL, 0.6699 IPLV.IP, Set Z",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "EIRRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -20522,12 +20522,12 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set Z. Set assigned in Table J-2 to \"Water-cooled, electrically operated, centrifugal, <150 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable EIR-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal less than 150 tons 0.7034 FL, 0.6699 IPLV.IP, Set Z",
         "category": "Electric Chiller",
-        "form": "BiQuadraticratic",
+        "form": "BiQuadratic",
         "dependent_variable": "QRatio",
         "independent_variable_1": "Tchws",
         "independent_variable_2": "Tect",
@@ -20547,7 +20547,7 @@
         "maximum_independent_variable_2": 40,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set Z. Set assigned in Table J-2 to \"Water-cooled, electrically operated, centrifugal, <150 tons\". Curve type T1, input limits and rated CHWT/ECT 44/85 F (6.67/29.44 C) from Table J-3 (output variable CAP-f-T)."
     },
     {
         "name": "Liquid-cooled centrifugal less than 150 tons 0.7034 FL, 0.6699 IPLV.IP, Set Z",
@@ -20572,6 +20572,6 @@
         "maximum_independent_variable_2": null,
         "minimum_dependent_variable_output": null,
         "maximum_dependent_variable_output": null,
-        "annotation": "From ASHRAE 90.1-2022 Table J-5"
+        "annotation": "From ASHRAE 90.1-2022 Table J-7 (Normative Appendix G chillers, SI units; I-P coefficients in Table J-6), Set Z. Set assigned in Table J-2 to \"Water-cooled, electrically operated, centrifugal, <150 tons\". Curve type T2, input limits and rated PLR 1 from Table J-3 (output variable EIR-f-PLR)."
     }
 ]
