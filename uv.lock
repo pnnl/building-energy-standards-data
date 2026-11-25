@@ -561,7 +561,7 @@ wheels = [
 
 [[package]]
 name = "building-energy-standards-data"
-version = "0.3.3"
+version = "0.3.4"
 source = { editable = "." }
 
 [package.optional-dependencies]
