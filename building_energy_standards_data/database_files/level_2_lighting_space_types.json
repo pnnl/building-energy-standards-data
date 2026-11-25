@@ -6806,7 +6806,7 @@
     {
         "lighting_space_type_name": "office_enclosed_lighting",
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2022",
-        "level_3_lighting_code_definition_id": 72,
+        "level_3_lighting_code_definition_id": 71,
         "lighting_technology_name": "default",
         "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
@@ -7877,7 +7877,7 @@
     {
         "lighting_space_type_name": "office_enclosed_lighting",
         "level_3_lighting_code_definition_table": "level_3_lighting_90_1_2025",
-        "level_3_lighting_code_definition_id": 71,
+        "level_3_lighting_code_definition_id": 70,
         "lighting_technology_name": "default",
         "lighting_space_type_target_illuminance_setpoint": 355,
         "lighting_space_type_target_illuminance_setpoint_unit": "Lux",
